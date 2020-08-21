@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello-HRM Thank You</title>
+    <script type="text/javascript">
+        var download = setTimeout(function () {
+            var link = document.getElementById('dlsrc');
+            //document.body.appendChild(link);
+            //link.href = 'hellohrm.zip';
+            link.click();
+            //link.remove();
+        }, 500);
+    </script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css' />
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1 class="display-3">
+            Thank You!</h1>
+        <p class="lead">
+            <strong>Please check your email</strong> for further instructions on how to complete
+            your account setup.</p>
+        <hr />
+        <p>
+            Having trouble download? <a id="dlsrc" href="hellohrm.zip">Try manual yourself by click here ...</a>
+        </p>
+        <p class="lead">
+            <a class="btn btn-primary btn-sm" href="http://hellohrm.dnd.vn/hellohrm.html" role="button">Continue
+                to homepage</a>
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,569 @@
+﻿
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+  	<meta name="viewport" content="width=470, maximum-scale=1, user-scalable=no, target-densitydpi=device-dpi">
+  	<title>Hello-HRM Software</title> 
+  	<link rel="stylesheet" href="css/font-awesome.min.css" />
+
+  	<style type="text/css">
+
+  		body {
+  			margin: 0px;
+  			padding: 0;
+  			background: #ddd;
+  			font-family: Arial, Helvetica, sans-serif;
+  		}
+
+  		.title {
+  			width: 100%;
+  			max-width: 854px;
+  			margin: 0 auto;
+  		}
+
+  		.caption {
+  			width: 100%;
+  			max-width: 854px;
+  			margin: 0 auto;
+  			padding: 20px 0;
+  		}
+
+  		.container {
+  			width: 100%;
+  			/*max-width: 854px;*/
+  			min-width: 440px;
+  			background: #fff;
+  			margin: 0 auto;
+  		}
+        .containerW {
+  			max-width: 854px;
+  		}
+
+
+  		/*  VIDEO PLAYER CONTAINER
+ 		############################### */
+  		.vid-container {
+		    position: relative;
+		    padding-bottom: 52%;
+		    padding-top: 30px; 
+		    height: 0; 
+		}
+		 
+		.vid-container iframe,
+		.vid-container object,
+		.vid-container embed {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		}
+
+
+		/*  VIDEOS PLAYLIST 
+ 		############################### */
+		.vid-list-container {
+			width: 92%;
+			overflow: hidden;
+			margin-top: 20px;
+			margin-left:4%;
+			padding-bottom: 20px;
+		}
+
+		.vid-list {
+			width: 1344px;
+			position: relative;
+			top:0;
+			left: 0;
+		}
+
+		.vid-item {
+			display: block;
+			width: 148px;
+			height: 148px;
+			float: left;
+			margin: 0;
+			padding: 10px;
+		}
+
+		.thumb {
+			/*position: relative;*/
+			overflow:hidden;
+			height: 84px;
+		}
+
+		.thumb img {
+			width: 100%;
+			position: relative;
+			top: -13px;
+		}
+
+		.vid-item .desc {
+			color: #21A1D2;
+			font-size: 15px;
+			margin-top:5px;
+		}
+
+		.vid-item:hover {
+			background: #eee;
+			cursor: pointer;
+		}
+
+		.arrows {
+			position:relative;
+			width: 100%;
+		}
+
+		.arrow-left {
+			color: #fff;
+			position: absolute;
+			background: #777;
+			padding: 15px;
+			left: -0px;
+			top: -130px;
+			z-index: 99;
+			cursor: pointer;
+		}
+
+		.arrow-right {
+			color: #fff;
+			position: absolute;
+			background: #777;
+			padding: 15px;
+			right: -0px;
+			top: -130px;
+			z-index:100;
+			cursor: pointer;
+		}
+
+		.arrow-left:hover {
+			background: #CC181E;
+		}
+
+		.arrow-right:hover {
+			background: #CC181E;
+		}
+
+
+		@media (max-width: 624px) {
+			body {
+				margin: 15px;
+			}
+			.caption {
+				margin-top: 40px;
+			}
+			.vid-list-container {
+				padding-bottom: 20px;
+			}
+
+			/* reposition left/right arrows */
+			.arrows {
+				position:relative;
+				margin: 0 auto;
+				width:96px;
+			}
+			.arrow-left {
+				left: 0;
+				top: -25px!important;
+			}
+
+			.arrow-right {
+				right: 0;
+				top: -25px!important;
+			}
+		}
+  	</style>
+      <style>
+          .btndemo,
+          .btndemo2 {
+              width: 300px;
+              height: 100px;
+              font-size: 30px;
+              text-align: center;
+              line-height: 100px;
+              color: rgba(255,255,255,0.9);
+              border-radius: 50px;
+              background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+              background-size: 600%;
+              -webkit-animation: anime 16s linear infinite;
+              animation: anime 16s linear infinite;
+          }
+
+          .btndemo2 {
+              position: absolute;
+              margin-top: -70px;
+              /*z-index: -1;*/
+              -webkit-filter: blur(30px);
+              filter: blur(30px);
+              opacity: 0.8;
+          }
+
+          @-webkit-keyframes anime {
+              0% {
+                  background-position: 0% 50%;
+              }
+
+              50% {
+                  background-position: 100% 50%;
+              }
+
+              100% {
+                  background-position: 0% 50%;
+              }
+          }
+
+          @keyframes anime {
+              0% {
+                  background-position: 0% 50%;
+              }
+
+              50% {
+                  background-position: 100% 50%;
+              }
+
+              100% {
+                  background-position: 0% 50%;
+              }
+          }
+      </style>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+      <div class="container">
+
+          <!-- THE YOUTUBE PLAYER -->
+          <div class="vid-container">
+              <iframe id="vid_frame" src="https://www.youtube.com/embed/d-7WN08MdLU?rel=0&showinfo=0&autohide=1&start=0" frameborder="0" width="1280" height="720" allowfullscreen allow="autoplay"></iframe>
+          </div>
+          <div class="title"><h2>Hướng dẫn sử dụng phần mềm chấm công, tính lương, nhân sự Hello-HRM</h2></div>
+
+
+          <div class="container" id="noidung_help" style="display: flex;">
+
+          </div>
+
+
+          <div style="">
+              <!-- THE PLAYLIST -->
+              <div class="vid-list-container">
+                  <div class="vid-list">
+
+                      <div class="vid-item">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/vlnGtotgJi8/0.jpg"></div>
+                          <div class="desc">Cài Đặt Phần Mềm Hello-HRM</div>
+                      </div>
+
+                      <div class="vid-item">  <!--onClick="document.getElementById('vid_frame').src = 'https://youtube.com/embed/mHuFozMF8mw?autoplay=1&rel=0&showinfo=0&autohide=1'"-->
+                          <div class="thumb"><img src="https://img.youtube.com/vi/mHuFozMF8mw/0.jpg"></div>
+                          <div class="desc">Quản Lý Thiết Bị Chấm Công - Tải Log Gạt Thẻ</div>
+                      </div>
+
+                      <div class="vid-item"> <!--onClick="document.getElementById('vid_frame').src = 'https://youtube.com/embed/BrWcLx6defA?autoplay=1&rel=0&showinfo=0&autohide=1'"-->
+                          <div class="thumb"><img src="https://img.youtube.com/vi/BrWcLx6defA/0.jpg"></div>
+                          <div class="desc">Quản Lý Hồ Sơ Nhân Viên</div>
+                      </div>
+
+                      <div class="vid-item"> <!--onClick="document.getElementById('vid_frame').src = 'https://youtube.com/embed/8Xk5gUmJvVQ?autoplay=1&rel=0&showinfo=0&autohide=1'"-->
+                          <div class="thumb"><img src="https://img.youtube.com/vi/8Xk5gUmJvVQ/0.jpg"></div>
+                          <div class="desc">Hướng Dẫn Thao Tác Kiểm Công</div>
+                      </div>
+
+                      <div class="vid-item">  <!--onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/mvMO788b82w?autoplay=1&rel=0&showinfo=0&autohide=1'"-->
+                          <div class="thumb"><img src="https://img.youtube.com/vi/mvMO788b82w/0.jpg"></div>
+                          <div class="desc">Hướng dẫn phương pháp kiểm thẻ bằng biểu đồ thời gian</div>
+                      </div>
+
+                      <div class="vid-item"> <!--onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/6WlprGJzado?autoplay=1&rel=0&showinfo=0&autohide=1'"-->
+                          <div class="thumb"><img src="https://img.youtube.com/vi/6WlprGJzado/0.jpg"></div>
+                          <div class="desc">Bảng kết quả công - Bổ sung, chỉnh sửa, xóa log thẻ - Báo cáo, in ấn, xuất file excel</div>
+                      </div>
+
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src = 'https://youtube.com/embed/Csq7zGmP6Nw?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/Csq7zGmP6Nw/0.jpg"></div>
+                          <div class="desc">Ca kíp - Lịch công tác</div>
+                      </div>
+
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src = 'https://youtube.com/embed/0-WsvyUMTHc?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/0-WsvyUMTHc/0.jpg"></div>
+                          <div class="desc">Nghỉ vắng - Phân loại - Vận hành</div>
+                      </div>
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src = 'https://youtube.com/embed/d-7WN08MdLU?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/d-7WN08MdLU/0.jpg"></div>
+                          <div class="desc">Hướng dẫn chấm công trường hợp Đi công tác bên ngoài</div>
+                      </div>
+
+                      <!--<div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/_Tz7KROhuAw?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/_Tz7KROhuAw/0.jpg"></div>
+                          <div class="desc">Barbatuques - CD Tum P&aacute; - Sambalel&ecirc;</div>
+                      </div>
+
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/F1f-gn_mG8M?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/F1f-gn_mG8M/0.jpg"></div>
+                          <div class="desc">Eleanor Turner plays Baroque Flamenco</div>
+                      </div>
+
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/fB8UTheTR7s?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/fB8UTheTR7s/0.jpg"></div>
+                          <div class="desc">Sleepy Man Banjo Boys: Bluegrass</div>
+                      </div>
+
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/0SNhAKyXtC8?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/0SNhAKyXtC8/0.jpg"></div>
+                          <div class="desc">Edmar Castaneda: NPR Music Tiny Desk Concert</div>
+                      </div>
+
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/RTHI_uGyfTM?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/RTHI_uGyfTM/0.jpg"></div>
+                          <div class="desc">Winter Harp performs Caravan</div>
+                      </div>
+
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/abQRt6p8T7g?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/abQRt6p8T7g/0.jpg"></div>
+                          <div class="desc">The Avett Brothers Tiny Desk Concert</div>
+                      </div>
+
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/fpmN9JorFew?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/fpmN9JorFew/0.jpg"></div>
+                          <div class="desc">Tracy Chapman - Give Me One Reason</div>
+                      </div>
+
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/fpmN9JorFew?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/fpmN9JorFew/0.jpg"></div>
+                          <div class="desc">Tracy Chapman - Give Me One Reason</div>
+                      </div>
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src = 'https://youtube.com/embed/kkYnE6AkyWk?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/kkYnE6AkyWk/0.jpg"></div>
+                          <div class="desc">Jessica Hernandez & the Deltas - Dead Brains</div>
+                      </div>
+
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/_Tz7KROhuAw?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/_Tz7KROhuAw/0.jpg"></div>
+                          <div class="desc">Barbatuques - CD Tum P&aacute; - Sambalel&ecirc;</div>
+                      </div>
+
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/F1f-gn_mG8M?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/F1f-gn_mG8M/0.jpg"></div>
+                          <div class="desc">Eleanor Turner plays Baroque Flamenco</div>
+                      </div>
+
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/fB8UTheTR7s?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/fB8UTheTR7s/0.jpg"></div>
+                          <div class="desc">Sleepy Man Banjo Boys: Bluegrass</div>
+                      </div>
+
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/0SNhAKyXtC8?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/0SNhAKyXtC8/0.jpg"></div>
+                          <div class="desc">Edmar Castaneda: NPR Music Tiny Desk Concert</div>
+                      </div>
+
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/RTHI_uGyfTM?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/RTHI_uGyfTM/0.jpg"></div>
+                          <div class="desc">Winter Harp performs Caravan</div>
+                      </div>
+
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/abQRt6p8T7g?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/abQRt6p8T7g/0.jpg"></div>
+                          <div class="desc">The Avett Brothers Tiny Desk Concert</div>
+                      </div>
+
+                      <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/fpmN9JorFew?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                          <div class="thumb"><img src="https://img.youtube.com/vi/fpmN9JorFew/0.jpg"></div>
+                          <div class="desc">Tracy Chapman - Give Me One Reason</div>
+                      </div>-->
+                  </div>
+              </div>
+
+
+          </div>
+          <!-- LEFT AND RIGHT ARROWS -->
+          <div class="arrows">
+              <div class="arrow-left"><i class="fa fa-chevron-left fa-lg"><</i></div>
+              <div class="arrow-right"><i class="fa fa-chevron-right fa-lg">></i></div>
+          </div>
+</div>
+      <div style="padding:30px">
+          <a id="demobutton" href="javascript:void(0)" style="text-decoration:none">
+              <div style="margin:auto;cursor:pointer" class="btndemo">
+              </div>
+          </a>
+      </div>
+
+  	<!--<div class="caption"><a href="https://www.woosterwebdesign.com/responsive-youtube-player-with-playlist/">Các Chủ Đề Liên Quan</a></div>
+
+  	<div class="caption">
+  		<strong><a href="https://woosterwebdesign.com/mylist-video-player">Check out the MyList Video Player.</a></strong>
+		<p>A fully responsive HTML5 video player featuring a scrolling thumbnail playlist. Uses latest YouTube API (V3) and dynamically loads YouTube playlist.</p>
+  	</div>-->
+
+  	<!-- JS FOR SCROLLING THE ROW OF THUMBNAILS -->
+  	<script type="text/javascript">
+        var vlist = [{ id: 'CustomProfile_Using', v: 'BrWcLx6defA', t: 'HƯỚNG DẪN SỬ DỤNG CHỨC NĂNG HỒ SƠ NHÂN VIÊN', l: 'logon.htm' },
+            { id: 'AttDevice_Device', v: 'mHuFozMF8mw', t: 'HƯỚNG DẪN QUẢN LÝ THIẾT BỊ CHẤM CÔNG', l: 'logon.htm' },
+            { id: 'XtraTabPage1', v: '8Xk5gUmJvVQ', t: 'HƯỚNG DẪN THAO TÁC KIỂM CÔNG', l: 'link1.htm' },
+            { id: 'DisplayResult', v: 'mvMO788b82w', t: 'MÔ TẢ KIỂM CÔNG BẰNG BIỂU ĐỒ THỜI GIAN', l: 'link1.htm' },
+            { id: 'DisplayResult', v: '6WlprGJzado', t: 'BẢNG KẾT QUẢ CHẤM CÔNG - BÁO CÁO - IN ẤN - XUẤT FILE EXCEL', l: 'link1.htm' },
+            { id: 'prjNS_Scheduler', v: 'Csq7zGmP6Nw', t: 'CA KÍP - LỊCH CÔNG TÁC', l: 'link1.htm' },
+            { id: 'prjNhanSu_LeavingLong', v: '0-WsvyUMTHc', t: 'NGHIỆP VỤ NGHỈ VẮNG - PHÂN LOẠI - VẬN HÀNH', l: 'link1.htm' },
+            { id: 'prjNhanSu_KhoiTaoNS_Leaving', v: '0-WsvyUMTHc', t: 'NGHIỆP VỤ NGHỈ VẮNG - PHÂN LOẠI - VẬN HÀNH', l: 'link1.htm' },
+            { id: 'prjNhanSu_Leaving', v: 'd-7WN08MdLU', t: 'CHẤM CÔNG TRƯỜNG HỢP ĐI CÔNG TÁC BÊN NGOÀI', l: 'link1.htm' },
+            { id: 'SETUP', v: 'vlnGtotgJi8', t: 'HƯỚNG DẪN CÀI ĐẶT PHẦN MỀM HELLO-HRM', l: 'link1.htm' }];
+
+        var pURL = {}, defi=0;
+        if (location.search) {
+            var parts = location.search.substring(1).split('&');
+            for (var i = 0; i < parts.length; i++) {
+                var nv = parts[i].split('=');
+                if (!nv[0]) continue;
+                pURL[nv[0]] = nv[1] || true;
+            }
+        }
+
+        var findVI = function (vid,findProp) {
+            var matchI = -1;
+            $.each(vlist, function (index, item) {
+                if (item[findProp].toString() == vid.toString()) {
+                    matchI = index;
+                    return false;     // breaks the $.each() loop
+                }
+            });
+            return matchI;
+        }
+
+        function updateTitle() {
+            if (window.eoapi) {
+                eoapi.extInvoke("demoAbout", [window.navigator.appVersion, document.URL, JSON.stringify(vlist[defi])]);
+            }
+        }
+
+        if (!pURL.hasOwnProperty("hellohelp")) {
+            $('.container').addClass('containerW');
+            if (pURL.hasOwnProperty("v")) {
+                $('#vid_frame').attr('src', 'https://www.youtube.com/embed/' + pURL['v'] + '?autoplay=1&rel=0&showinfo=0&autohide=1&start=0');
+            };
+        } else {
+            var defv ='';
+            var atV = findVI(pURL["hellohelp"],'id');
+            if (atV == -1) {
+                defi = 0;
+            } else {
+                defi = atV;
+            };
+            defv = vlist[defi].v
+
+            //switch (pURL["hellohelp"]) {
+            //    case 'CustomProfile_Using': {
+            //        defv = 'BrWcLx6defA';
+            //        break;
+            //    } case 'AttDevice_Device': {
+            //        defv = 'mHuFozMF8mw';
+            //        break;
+            //    } case 'XtraTabPage1': {//_DownAttLog
+            //        defv = '8Xk5gUmJvVQ';
+            //        break;
+            //    } case 'DisplayResult': {//_DownAttLog
+            //        defv = 'mvMO788b82w';
+            //        break;
+            //    }
+            //}
+            if (defv != '') {
+                var vidlist = $('.vid-list'), vid_frame = $('#vid_frame');
+                vid_frame.attr('src', 'https://www.youtube.com/embed/' + defv + '?autoplay=1&rel=0&showinfo=0&autohide=1&start=0');
+            };
+            updateTitle();
+        }
+
+  		$(document).ready(function () {
+		    $(".arrow-right").bind("click", function (event) {
+		        event.preventDefault();
+		        $(".vid-list-container").stop().animate({
+		            scrollLeft: "+=336"
+		        }, 750);
+		    });
+		    $(".arrow-left").bind("click", function (event) {
+		        event.preventDefault();
+		        $(".vid-list-container").stop().animate({
+		            scrollLeft: "-=336"
+		        }, 750);
+		    });
+            //
+		    $('.vid-list').on("click", ".vid-item", function (evt) {
+		        var vData = $(this).find('img').attr('src').split('/');
+		        var defv = '';
+		        var atV = findVI(vData[vData.length - 2], 'v');
+		        if (atV == -1) {
+		            defi = 0;
+		        } else {
+		            defi = atV;
+		        };
+		        defv = vlist[defi].v
+                //
+		        $('#vid_frame').attr('src', 'https://www.youtube.com/embed/' + defv + '?autoplay=1&rel=0&showinfo=0&autohide=1&start=0');
+		        //
+		        updateTitle();
+		    });
+
+
+		    var demobutton = $('#demobutton');
+		    if (!window.eoapi) {
+		        demobutton.attr('href',  'https://bit.ly/2MuoksB');
+		        demobutton.find('.btndemo').html('TẢI PHẦN MỀM<div class="btndemo2"></div>');
+		    } else {
+		        demobutton.parent().remove();
+		    }
+  		});
+
+  		var resizeTimeout;
+  		function doResize() {
+  		    var thumbs = $('.thumb'),list=$('.vid-list');
+  		    var wid = $('.vid-item').length * 168;
+  		    if (wid > $(window).width() * 1.5) {
+  		        var newW=Math.floor(($(window).width() * 1.5) / 168) * 168;
+  		        list.css('width',(newW<1680?1680:newW) );
+  		    } else {
+  		        list.css('width', wid);
+  		    };
+  		    $(".arrow-left,.arrow-right").css('top', '-' + ($('.vid-list-container').outerHeight() / 2 + 30) + 'px');
+  		    
+  		}
+  		$(window).resize(function () {
+  		    clearTimeout(resizeTimeout);
+  		    resizeTimeout = setTimeout(function () {
+  		        doResize();
+  		    }, 500);
+  		});
+  		doResize();
+
+  		function eso_comm(param) {
+  		    var atV = findVI(param,'v'), vData;
+  		    if (atV == -1) {
+  		        defi = 0
+  		    } else {
+  		        defi = atV;
+  		    };
+  		    vData = vlist[defi];
+  		    vid_frame.attr('src', 'https://www.youtube.com/embed/' + vData.v + '?autoplay=1&rel=0&showinfo=0&autohide=1&start=0');
+  		    updateTitle();
+  		}
+
+  	</script>
+
+
+  	<!-- google analytics -->
+  	<!--<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-19095819-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+	</script>-->
+
+  </body>
+</html>

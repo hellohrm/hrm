@@ -1,0 +1,947 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<HEAD>
+    <META charset="UTF-8">
+
+    <META name="viewport" content="width=device-width, initial-scale=1">
+    <TITLE>Restore.SqlRestore C# (CSharp) Code Examples - HotExamples</TITLE>
+    <META name="keywords" content="C# (CSharp),code,examples,,,,Restore,SqlRestore,0">
+    <META name="description" content="C# (CSharp) Restore.SqlRestore - 30 examples found. These are the top rated real world C# (CSharp) examples of Restore.SqlRestore extracted from open source projects. You can rate examples to help us improve the quality of examples.">
+    <LINK href="hellohelp_files/3229ffce42c844d7ede4dc3d49eebd1b99228893.css"
+          rel="stylesheet">
+    <LINK href="https://csharp.hotexamples.com/examples/-/Restore/SqlRestore/php-restore-sqlrestore-method-examples.html"
+          rel="canonical">
+    <LINK href="https://csharp.hotexamples.com/ru/examples/-/Restore/SqlRestore/php-restore-sqlrestore-method-examples.html"
+          rel="alternate" hreflang="ru">
+    <LINK href="https://csharp.hotexamples.com/de/examples/-/Restore/SqlRestore/php-restore-sqlrestore-method-examples.html"
+          rel="alternate" hreflang="de">
+    <LINK href="/images/csharp/apple-touch-icon.png"
+          rel="apple-touch-icon" sizes="180x180">
+    <LINK href="/images/csharp/favicon-32x32.png"
+          rel="icon" type="image/png" sizes="32x32">
+    <LINK href="/images/csharp/favicon-16x16.png"
+          rel="icon" type="image/png" sizes="16x16">
+    <LINK href="/images/csharp/site.webmanifest"
+          rel="manifest">
+    <LINK href="/images/csharp/safari-pinned-tab.svg" rel="mask-icon"
+          color="#5bbad5">
+    <LINK href="/images/csharp/favicon.ico"
+          rel="shortcut icon">
+    <META name="msapplication-TileColor" content="#ffffff">
+    <META name="msapplication-config" content="/images/csharp/browserconfig.xml">
+
+    <META name="theme-color" content="#ffffff">
+    <STYLE>
+        .ezoic-ad.box-2 {
+            display: block !important;
+            float: none;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 60px;
+            min-width: 468px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.box-3 {
+            display: block !important;
+            float: none !important;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 250px;
+            min-width: 970px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.medrectangle-3 {
+            display: block !important;
+            float: none !important;
+            margin-bottom: 2px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 2px !important;
+            min-height: 420px;
+            min-width: 580px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.box-1 {
+            display: inline-block;
+            float: none;
+            margin-bottom: 2px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 2px !important;
+            min-height: 270px;
+            min-width: 250px;
+        }
+
+        .ezoic-ad.large-billboard-2 {
+            display: block !important;
+            float: none;
+            margin-bottom: 30px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 2px !important;
+            min-height: 250px;
+            min-width: 250px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.large-leaderboard-1 {
+            display: inline-block;
+            float: none !important;
+            margin-bottom: 2px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 2px !important;
+            min-height: 270px;
+            min-width: 250px;
+        }
+
+        .ezoic-ad.medrectangle-4 {
+            display: block !important;
+            float: none;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 90px;
+            min-width: 728px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.box-4 {
+            display: block !important;
+            float: none !important;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 400px;
+            min-width: 580px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.banner-1 {
+            display: block !important;
+            float: none;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 90px;
+            min-width: 728px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.large-leaderboard-2 {
+            display: block !important;
+            float: none;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 90px;
+            min-width: 728px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.leader-1 {
+            display: block !important;
+            float: none !important;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 250px;
+            min-width: 300px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.large-mobile-banner-2 {
+            display: block !important;
+            float: none;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 250px;
+            min-width: 300px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.leader-2 {
+            display: block !important;
+            float: none;
+            margin-bottom: 2px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 2px !important;
+            min-height: 270px;
+            min-width: 300px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.leader-3 {
+            display: block !important;
+            float: none;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 250px;
+            min-width: 300px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.large-mobile-banner-1 {
+            display: block !important;
+            float: none;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 90px;
+            min-width: 728px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.leader-4 {
+            display: block !important;
+            float: none;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 250px;
+            min-width: 300px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.netboard-1 {
+            display: block !important;
+            float: none;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 90px;
+            min-width: 728px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.narrow-sky-1 {
+            display: block !important;
+            float: none;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 250px;
+            min-width: 250px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.mobile-leaderboard-2 {
+            display: block !important;
+            float: none;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 250px;
+            min-width: 250px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.mobile-leaderboard-1 {
+            display: block !important;
+            float: none;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 250px;
+            min-width: 300px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.narrow-sky-2 {
+            display: block !important;
+            float: none;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 250px;
+            min-width: 300px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.portrait-1 {
+            display: block !important;
+            float: none;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 250px;
+            min-width: 300px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.netboard-2 {
+            display: block !important;
+            float: none;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 250px;
+            min-width: 300px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad.banner-2 {
+            display: inline-block;
+            float: none;
+            margin-bottom: 2px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 2px !important;
+            min-height: 300px;
+            min-width: 336px;
+        }
+
+        .ezoic-ad {
+            display: inline-block;
+        }
+
+        .adtester-container-129 {
+            display: none !important;
+        }
+
+        .adtester-container-127 {
+            display: none !important;
+        }
+
+        .adtester-container-121 {
+            display: none !important;
+        }
+
+        .adtester-container-123 {
+            display: none !important;
+        }
+
+        .adtester-container-124 {
+            display: none !important;
+        }
+
+        .adtester-container-133 {
+            display: none !important;
+        }
+
+        .adtester-container-118 {
+            display: none !important;
+        }
+
+        .adtester-container-142 {
+            display: none !important;
+        }
+
+        .adtester-container-143 {
+            display: none !important;
+        }
+
+        .adtester-container-116 {
+            display: none !important;
+        }
+
+        .adtester-container-117 {
+            display: none !important;
+        }
+
+        .adtester-container-112 {
+            display: none !important;
+        }
+
+        .adtester-container-122 {
+            display: none !important;
+        }
+
+        .adtester-container-114 {
+            display: none !important;
+        }
+
+        .adtester-container-138 {
+            display: none !important;
+        }
+
+        .adtester-container-132 {
+            display: none !important;
+        }
+
+        .adtester-container-119 {
+            display: none !important;
+        }
+
+        .adtester-container-104 {
+            display: none !important;
+        }
+
+        .adtester-container-113 {
+            display: none !important;
+        }
+
+        .adtester-container-126 {
+            display: none !important;
+        }
+
+        .adtester-container-128 {
+            display: none !important;
+        }
+
+        .adtester-container-130 {
+            display: none !important;
+        }
+
+        .adtester-container-125 {
+            display: none !important;
+        }
+
+        .adtester-container-115 {
+            display: none !important;
+        }
+
+        .adtester-container-137 {
+            display: none !important;
+        }
+
+        .adtester-container-100 {
+            display: none !important;
+        }
+
+        .adtester-container-120 {
+            display: none !important;
+        }
+
+        .ezoic-floating-bottom {
+            display: none !important;
+        }
+    </STYLE>
+
+
+
+
+
+    <style type="text/css">
+        .titleyoutube {
+            width: 100%;
+            max-width: 854px;
+            margin: 0 auto;
+        }
+
+        .containeryoutube {
+            width: 100%;
+            /*max-width: 854px;*/
+            min-width: 440px;
+            background: #fff;
+            margin: 0 auto;
+           padding: 20px;
+           /*background-color:rgb(240, 240, 240);*/
+        }
+
+
+        /*  VIDEO PLAYER CONTAINER
+        ############################### */
+        .vid-container {
+            position: relative;
+            padding-bottom: 52%;
+            padding-top: 30px;
+            height: 0;
+        }
+
+            .vid-container iframe,
+            .vid-container object,
+            .vid-container embed {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+
+        /*  VIDEOS PLAYLIST
+        ############################### */
+        .vid-list-container {
+            width: 92%;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-left: 4%;
+            padding-bottom: 20px;
+        }
+
+        .vid-list {
+            width: 1344px;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        .vid-item {
+            display: block;
+            width: 148px;
+            height: 148px;
+            float: left;
+            margin: 0;
+            padding: 10px;
+        }
+
+        .thumb {
+            position: relative;
+            overflow: hidden;
+            height: 84px;
+        }
+
+            .thumb img {
+                width: 100%;
+                position: relative;
+                top: -13px;
+            }
+
+        .vid-item .desc {
+            color: #21A1D2;
+            font-size: 15px;
+            margin-top: 5px;
+        }
+
+        .vid-item:hover {
+            background: #eee;
+            cursor: pointer;
+        }
+
+        .arrows {
+            position: relative;
+            width: 100%;
+        }
+
+        .arrow-left {
+            color: #fff;
+            position: absolute;
+            background: #777;
+            padding: 15px;
+            left: -15px;
+            top: -130px;
+            z-index: 99;
+            cursor: pointer;
+        }
+
+        .arrow-right {
+            color: #fff;
+            position: absolute;
+            background: #777;
+            padding: 15px;
+            right: -15px;
+            top: -130px;
+            z-index: 100;
+            cursor: pointer;
+        }
+
+        .arrow-left:hover {
+            background: #CC181E;
+        }
+
+        .arrow-right:hover {
+            background: #CC181E;
+        }
+
+
+        @media (max-width: 624px) {
+            .vid-list-container {
+                padding-bottom: 20px;
+            }
+
+            /* reposition left/right arrows */
+            .arrows {
+                position: relative;
+                margin: 0 auto;
+                width: 96px;
+            }
+
+            .arrow-left {
+                left: 0;
+                top: -17px !important;
+            }
+
+            .arrow-right {
+                right: 0;
+                top: -17px !important;
+            }
+        }
+
+        .thumb img {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            max-height: 100%;
+            -ms-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            position: absolute;
+            left: 50%;
+            top: 50%;
+        }
+
+        .swiper-lazy-preloader {
+            width: 42px;
+            height: 42px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -21px;
+            margin-top: -21px;
+            z-index: 10;
+            transform-origin: 50%;
+            animation: swiper-preloader-spin 1s infinite linear;
+            box-sizing: border-box;
+            border: 4px solid var(--swiper-preloader-color, var(--swiper-theme-color));
+            border-radius: 50%;
+            border-top-color: transparent;
+        }
+
+        .swiper-lazy-preloader-white {
+            --swiper-preloader-color: rgb(119, 119, 119);
+        }
+
+        .swiper-lazy-preloader-black {
+            --swiper-preloader-color: #000;
+        }
+
+        @keyframes swiper-preloader-spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+    </style>
+    <script type="text/javascript">
+        var pURL = {};
+        if (location.search) {
+            var parts = location.search.substring(1).split('&');
+
+            for (var i = 0; i < parts.length; i++) {
+                var nv = parts[i].split('=');
+                if (!nv[0]) continue;
+                pURL[nv[0]] = nv[1] || true;
+            }
+        }
+        var vlist = [{ id: 'profile', v: 'kzXLBx816Cg', t: 'profile', l: 'logon.htm' }, { id: 'logon', v: 'WhYABKxavoA', t: 'title 1', l: 'logon.htm' },
+                    { id: 'login', v: 'wqa6AIbnjkg', t: 'title 2', l: 'link1.htm' },
+                    { id: 'login', v: 'EQaifsI1fwk', t: 'title 3', l: 'link1.htm' },
+                    { id: 'login', v: 'H9uUwifOe6c', t: 'title 4', l: 'link1.htm' },
+                    { id: 'login', v: 'fB8UTheTR7s', t: 'title 5', l: 'link1.htm' },
+                    { id: 'login', v: '0SNhAKyXtC8', t: 'title 6', l: 'link1.htm' },
+                    { id: 'login', v: 'RTHI_uGyfTM', t: 'title 7', l: 'link1.htm' },
+                    { id: 'login', v: 'abQRt6p8T7g', t: 'title 8', l: 'link1.htm' },
+                    { id: 'login', v: 'fpmN9JorFew', t: 'title 9', l: 'link1.htm' },
+                    { id: 'login', v: 'kkYnE6AkyWk', t: 'title 10', l: 'link1.htm' },
+                    { id: 'login', v: '_Tz7KROhuAw', t: 'title 11', l: 'link1.htm' },
+                    { id: 'login', v: 'F1f-gn_mG8M', t: 'title 12', l: 'link1.htm' },
+                    { id: 'login', v: 'fB8UTheTR7s', t: 'title 13', l: 'link1.htm' },
+                    { id: 'login', v: '0SNhAKyXtC8', t: 'title 14', l: 'link1.htm' }];
+
+    </script>
+<style>
+    .btndemo,
+    .btndemo2 {
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    color: rgba(255,255,255,0.9);
+    border-radius: 50px;
+    background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+    background-size: 600%;
+    -webkit-animation: anime 16s linear infinite;
+    animation: anime 16s linear infinite;
+    }
+    .btndemo2 {
+    position: absolute;
+    margin-top: -70px;
+    /*z-index: -1;*/
+    -webkit-filter: blur(30px);
+    filter: blur(30px);
+    opacity: 0.8;
+    }
+    @-webkit-keyframes anime {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+    }
+    @keyframes anime {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+    }
+
+
+
+    </style>
+</HEAD>
+<body>
+    <div class="wrap">
+
+        <div class="containeryoutube">
+
+                <div style="">
+                    <!-- THE PLAYLIST -->
+                    <div class="vid-list-container">
+                        <div class="vid-list">
+                            <!--<div class="vid-item" onClick="document.getElementById('vid_frame').src = 'http://youtube.com/embed/EQaifsI1fwk?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                        <div class="thumb"><img src="http://img.youtube.com/vi/EQaifsI1fwk/0.jpg"></div>
+                        <div class="desc">Jessica Hernandez & the Deltas - Dead Brains</div>
+                    </div>-->
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- LEFT AND RIGHT ARROWS -->
+                <div class="arrows">
+                    <div class="arrow-left"><i class="fa fa-chevron-left fa-lg"><</i></div>
+                    <div class="arrow-right"><i class="fa fa-chevron-right fa-lg">></i></div>
+                </div>
+                <!-- THE YOUTUBE PLAYER -->
+
+                <div class="vid-container">
+
+                    <iframe width="1280" height="720" id="vid_frame" frameborder="0" allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+        <div class="titleyoutube"></div>
+        <a id="demobutton" href="javascript:void(0)" style="text-decoration:none">
+            <div style="margin:auto;cursor:pointer" class="btndemo">
+            </div>
+        </a>
+
+            <div class="container" id="noidung_help" style="display: flex;">
+
+            </div>
+
+        </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" style="text-align: center;">
+                    <a href="https://csharp.hotexamples.com/site/trends?type=csharp%7Cc">
+                        Top Classes
+                    </a>                                    |                     <a href="https://csharpdoc.hotexamples.com/doc/map">Documentation</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="text-align: center;">
+                    <a href="https://hotexamples.com/">PHP</a>
+                    | <a href="https://csharp.hotexamples.com/">C# (CSharp)</a>
+                    | <a href="https://java.hotexamples.com/">Java</a>
+                    | <a href="https://golang.hotexamples.com/">Golang</a>
+                    | <a href="https://cpp.hotexamples.com/">C++ (Cpp)</a>
+                    | <a href="https://python.hotexamples.com/">Python</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="text-align: center;">
+                    <a href="https://csharp.hotexamples.com/examples/-/Restore/SqlRestore/php-restore-sqlrestore-method-examples.html">EN</a>
+                    |
+                    <a href="https://csharp.hotexamples.com/ru/examples/-/Restore/SqlRestore/php-restore-sqlrestore-method-examples.html">RU</a>
+                    |
+                    <a href="https://csharp.hotexamples.com/de/examples/-/Restore/SqlRestore/php-restore-sqlrestore-method-examples.html">DE</a>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1"></div>
+                <div class="col-md-1">
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="hellohelp_files/addthis_widget.js" async="async"></script>
+
+    <script src="hellohelp_files/cff1b7dd28fe0d2d063448afcb04c358e4f451ea.js"></script>
+
+
+
+    <div id="dmo1" style="display: none;">
+
+    </div>
+
+
+
+    <script type="text/javascript">
+
+        function isOnScreen(e$l) {
+
+            var win = $(window);
+
+            var viewport = {
+                top: win.scrollTop(),
+                left: win.scrollLeft()
+            };
+            viewport.right = viewport.left + win.width();
+            viewport.bottom = viewport.top + win.height();
+
+            var bounds = e$l.offset();
+            bounds.right = bounds.left + e$l.outerWidth();
+            bounds.bottom = bounds.top + e$l.outerHeight();
+
+            if (viewport.top > e$l.outerHeight() / 2) {
+                $("html, body").animate({ scrollTop: 0 }, "slow");
+            }
+            //
+            return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
+
+        };
+
+        var findVI = function (vid) {
+            var matchI = -1;
+            $.each(vlist, function (index, item) {
+                if (item.v.toString() == vid.toString()) {
+                    matchI = index;
+                    return false;     // breaks the $.each() loop
+                }
+            });
+            return matchI;
+        }
+
+        var defv = pURL.defv || vlist[0].v, defi = findVI(defv);
+        //
+        var vidlist = $('.vid-list'), vid_frame = $('#vid_frame');
+        vid_frame.attr('src', 'http://www.youtube.com/embed/' + defv + '?rel=0&showinfo=0&autohide=1');
+        //
+        function updateTitle(vData) {
+            $('.titleyoutube').html('<h2>' + vData.t + '</h2>');
+            setTimeout(function () {
+                $('#noidung_help').load("helps/" + vData.l + '?v=' + (new Date()).getTime(), function() {
+                    document.title = vlist[defi].t;
+                    if (window.eoapi) {
+                        eoapi.extInvoke("demoAbout", [window.navigator.appVersion, document.URL, JSON.stringify(vData)]);
+                    }
+                });
+            }, 1);
+            isOnScreen(vid_frame);
+        }
+        $.each(vlist, function (index, value) {
+            if (defi == index) {
+                updateTitle(value);
+            };
+            var vitem = $('<div class="vid-item"><div class="thumb"><img class="swiper-lazy"><div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div></div><div class="desc">' + value.t + '</div></div>');
+            (function (atthumb, index) {
+                var downloadingImage = new Image();
+                downloadingImage.onload = function () {
+                    var thumb = atthumb.find('.thumb').children();
+                    thumb[0].src = this.src;
+                    $(thumb[1]).remove();
+
+                };
+                downloadingImage.src = 'http://img.youtube.com/vi/' + value.v + '/0.jpg';
+            })(vitem, index);
+            //
+            vitem.data("click", value);
+            vidlist.append(vitem);// onClick="document.getElementById('vid_frame').src = 'http://youtube.com/embed/EQaifsI1fwk?autoplay=1&rel=0&showinfo=0&autohide=1'"
+            //
+        });
+        vidlist.on("click", ".vid-item", function (evt) {
+            var vData = $(this).data('click');
+            updateTitle(vData);
+            vid_frame.attr('src', 'http://www.youtube.com/embed/' + vData.v + '?autoplay=1&rel=0&showinfo=0&autohide=1');
+        });
+        //
+        //
+        $(document).ready(function () {
+            $(".arrow-right").bind("click", function (event) {
+                event.preventDefault();
+                $(".vid-list-container").stop().animate({
+                    scrollLeft: "+=336"
+                }, 750);
+            });
+            $(".arrow-left").bind("click", function (event) {
+                event.preventDefault();
+                $(".vid-list-container").stop().animate({
+                    scrollLeft: "-=336"
+                }, 750);
+            });
+            //
+            var demobutton = $('#demobutton');
+            if (!window.eoapi) {
+                demobutton.attr('href', 'https://bit.ly/2SwpQgg');
+                demobutton.find('.btndemo').html('TẢI PHẨN MỀM<div class="btndemo2"></div>');
+            } else {
+                demobutton.click(function () {
+                    alert( "Handler for .click() called." );
+                });
+                demobutton.find('.btndemo').html('XEM DEMO<div class="btndemo2"></div>');
+            }
+        });
+
+        var resizeTimeout;
+        function doResize() {
+            var thumbs = $('.thumb'), list = $('.vid-list');
+            var wid = $('.vid-item').length * 168;
+            if (wid > $(window).width() * 1.5) {
+                var newW = Math.floor(($(window).width() * 1.5) / 168) * 168;
+                list.css('width', (newW < 1680 ? 1680 : newW));
+            } else {
+                list.css('width', wid);
+            };
+            $(".arrow-left,.arrow-right").css('top', '-' + ($('.vid-list-container').outerHeight() / 2 + 30) + 'px');
+
+        }
+        $(window).resize(function () {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(function () {
+                doResize();
+            }, 500);
+        });
+        doResize();
+
+        function eso_comm(param) {
+            var atV = findVI(param), vData;
+            if (atV == -1) {
+                defv = pURL.defv || vlist[0].v
+                defi = findVI(defv);
+            } else {
+                defi = atV;
+            };
+            vData = vlist[defi];
+            updateTitle(vData);
+            vid_frame.attr('src', 'http://www.youtube.com/embed/' + vData.v + '?autoplay=1&rel=0&showinfo=0&autohide=1');
+        }
+    </script>
+
+
+</body>
+
+
+</html><!--[selectron:done]-->

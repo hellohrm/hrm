@@ -1,0 +1,66 @@
+a.meanmenu-reveal {
+	display: none;
+}
+.mean-container .mean-bar {
+	background: none; padding: 0px; width: 100%; float: left; position: absolute; z-index: 999;
+}
+.mean-container a.meanmenu-reveal {
+	width: 35px; height: 30px; right: 0px; color: rgb(0, 0, 0); line-height: 22px; text-indent: -9999em; padding-top: 14px; font-size: 1px; font-weight: 700; text-decoration: none; display: block; position: absolute; cursor: pointer;
+}
+.mean-container a.meanmenu-reveal span {
+	background: rgb(0, 0, 0); border-radius: 3px; top: 8px; height: 4px; margin-top: -5px; display: block; position: relative;
+}
+.mean-container .mean-nav {
+	background: rgb(255, 255, 255); width: 100%; margin-top: 62px; float: left;
+}
+.mean-container .mean-nav ul {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none; width: 100%; list-style-type: none;
+}
+.mean-container .mean-nav ul li {
+	width: 100%; float: left; position: relative;
+}
+.mean-container .mean-nav ul li a i {
+	display: none;
+}
+.mean-container .mean-nav ul li a {
+	margin: 0px; padding: 1em 5% 13px; width: 90%; text-align: left; color: rgb(103, 114, 148); text-decoration: none; border-top-color: rgb(219, 238, 253); border-top-width: 1px; border-top-style: solid; float: left; display: block;
+}
+.mean-container .mean-nav ul li a.active {
+	color: rgb(0, 0, 0);
+}
+.mean-container .mean-nav ul li li a {
+	padding: 1em 10% 13px; width: 80%; color: rgb(103, 114, 148); text-transform: none; font-size: 14px; border-top-color: rgb(219, 238, 253); border-top-width: 1px; border-top-style: solid; visibility: visible; opacity: 1; text-shadow: none !important;
+}
+.mean-container .mean-nav ul li.mean-last a {
+	margin-bottom: 0px;
+}
+.mean-container .mean-nav ul li li li a {
+	padding: 1em 15% 13px; width: 70%;
+}
+.mean-container .mean-nav ul li li li li a {
+	padding: 1em 20% 13px; width: 60%;
+}
+.mean-container .mean-nav ul li li li li li a {
+	padding: 1em 25% 13px; width: 50%;
+}
+.mean-container .mean-nav ul li a:hover {
+	background: rgba(255, 255, 255, 0.1);
+}
+.mean-container .mean-nav ul li a.mean-expand {
+	background: none; padding: 11px !important; border: currentColor !important; border-image: none !important; top: 0px; width: 100%; height: 24px; text-align: right; right: 0px; font-weight: 500; margin-top: 1px; position: absolute; z-index: 2;
+}
+.mean-container .mean-push {
+	margin: 0px; padding: 0px; width: 100%; clear: both; float: left;
+}
+.mean-nav .wrapper {
+	margin: 0px; padding: 0px; width: 100%;
+}
+.mean-container .mean-bar {
+	box-sizing: content-box; -webkit-box-sizing: content-box; -moz-box-sizing: content-box;
+}
+.mean-container .mean-bar * {
+	box-sizing: content-box; -webkit-box-sizing: content-box; -moz-box-sizing: content-box;
+}
+.mean-remove {
+	display: none !important;
+}

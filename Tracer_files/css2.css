@@ -1,0 +1,84 @@
+@font-face {
+	font-family: Nunito;
+	src: local("Nunito ExtraLight Italic"), local("Nunito-ExtraLightItalic"), url(https://fonts.gstatic.com/s/nunito/v13/XRXQ3I6Li01BKofIMN5MZ-vO.woff) format("woff");
+	font-weight: 200;
+	font-style: italic;
+}
+@font-face {
+	font-family: Nunito;
+	src: local("Nunito Light Italic"), local("Nunito-LightItalic"), url(https://fonts.gstatic.com/s/nunito/v13/XRXQ3I6Li01BKofIMN4oZOvO.woff) format("woff");
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face {
+	font-family: Nunito;
+	src: local("Nunito Italic"), local("Nunito-Italic"), url(https://fonts.gstatic.com/s/nunito/v13/XRXX3I6Li01BKofIMOaH.woff) format("woff");
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: Nunito;
+	src: local("Nunito SemiBold Italic"), local("Nunito-SemiBoldItalic"), url(https://fonts.gstatic.com/s/nunito/v13/XRXQ3I6Li01BKofIMN5cYuvO.woff) format("woff");
+	font-weight: 600;
+	font-style: italic;
+}
+@font-face {
+	font-family: Nunito;
+	src: local("Nunito Bold Italic"), local("Nunito-BoldItalic"), url(https://fonts.gstatic.com/s/nunito/v13/XRXQ3I6Li01BKofIMN44Y-vO.woff) format("woff");
+	font-weight: 700;
+	font-style: italic;
+}
+@font-face {
+	font-family: Nunito;
+	src: local("Nunito ExtraBold Italic"), local("Nunito-ExtraBoldItalic"), url(https://fonts.gstatic.com/s/nunito/v13/XRXQ3I6Li01BKofIMN4kYOvO.woff) format("woff");
+	font-weight: 800;
+	font-style: italic;
+}
+@font-face {
+	font-family: Nunito;
+	src: local("Nunito Black Italic"), local("Nunito-BlackItalic"), url(https://fonts.gstatic.com/s/nunito/v13/XRXQ3I6Li01BKofIMN4AYevO.woff) format("woff");
+	font-weight: 900;
+	font-style: italic;
+}
+@font-face {
+	font-family: Nunito;
+	src: local("Nunito ExtraLight"), local("Nunito-ExtraLight"), url(https://fonts.gstatic.com/s/nunito/v13/XRXW3I6Li01BKofA-sekZQ.woff) format("woff");
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nunito;
+	src: local("Nunito Light"), local("Nunito-Light"), url(https://fonts.gstatic.com/s/nunito/v13/XRXW3I6Li01BKofAnsSkZQ.woff) format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nunito;
+	src: local("Nunito Regular"), local("Nunito-Regular"), url(https://fonts.gstatic.com/s/nunito/v13/XRXV3I6Li01BKof4MQ.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nunito;
+	src: local("Nunito SemiBold"), local("Nunito-SemiBold"), url(https://fonts.gstatic.com/s/nunito/v13/XRXW3I6Li01BKofA6sKkZQ.woff) format("woff");
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nunito;
+	src: local("Nunito Bold"), local("Nunito-Bold"), url(https://fonts.gstatic.com/s/nunito/v13/XRXW3I6Li01BKofAjsOkZQ.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nunito;
+	src: local("Nunito ExtraBold"), local("Nunito-ExtraBold"), url(https://fonts.gstatic.com/s/nunito/v13/XRXW3I6Li01BKofAksCkZQ.woff) format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: Nunito;
+	src: local("Nunito Black"), local("Nunito-Black"), url(https://fonts.gstatic.com/s/nunito/v13/XRXW3I6Li01BKofAtsGkZQ.woff) format("woff");
+	font-weight: 900;
+	font-style: normal;
+}

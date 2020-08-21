@@ -1,0 +1,162 @@
+﻿<div class="page-container page-container-with-fixed-sidebar300px">
+    <!--ads-->
+    <div style="margin-bottom: 10px;">
+        <h1 id="help_title">Màn Hình Đăng Nhập</h1>
+        <!--ads-->
+        <div class="examples-description-container">
+            <div class="hidden-xs">
+                <span id="ezoic-pub-ad-placeholder-129"></span>
+            </div>
+            <div class="hidden-xs">
+                <span id="ezoic-pub-ad-placeholder-130"></span>
+            </div>
+        </div>
+        <!--ads-->
+    </div>
+    <div class="page-content-container">
+        <div class="main-content">
+            <div class="addthis_inline_share_toolbox_o6yp"></div>
+            <!--ads-->
+            <div class="example-item" id="0xa9b8376c4f86d933e1e486a21fa6a801f6423f18ac142b9ed6ddef3c282f5b02-52,,85,">
+                <div class="bs-example">
+                    <div>
+                        <div class="bs-example-title">Example #1</div>
+                        <div id="rating_1" style="top: 10px; right: 15px; position: absolute;" data-area="52,,85," data-hash="0xa9b8376c4f86d933e1e486a21fa6a801f6423f18ac142b9ed6ddef3c282f5b02">
+                            <div class="rating-amount">0</div><a title="Mark this example as good" class="rating-up btn btn-success"
+                                                                 href="javascript:app.addRating(1, '1')" data-id="rating_1"><i class="icon-button icon-thumbs-up"></i></a>
+                            <a title="Mark this example as bad" class="rating-down btn btn-danger"
+                               href="javascript:app.addRating(-1,'1')" data-id="rating_1"><i class="icon-button icon-thumbs-down"></i></a>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-wrap: wrap; align-items: center;">
+                        <div style="margin-right: 10px; display: inline-block;">
+                            <a title="Direct link to this example"
+                               class="btn btn-default" href="https://csharp.hotexamples.com/examples/-/Restore/SqlRestore/php-restore-sqlrestore-method-examples.html#0xa9b8376c4f86d933e1e486a21fa6a801f6423f18ac142b9ed6ddef3c282f5b02-52,,85,">
+                                <i class="icon-button icon-link"></i>
+                            </a>                 <a class="btn btn-default"
+                                                    href="javascript:app.open('https://csharp.hotexamples.com/site/file?hash=0xa9b8376c4f86d933e1e486a21fa6a801f6423f18ac142b9ed6ddef3c282f5b02&amp;fullName=RestoreDatabaseTask.cs&amp;project=andrewburgess%2FSparklesTasks')"
+                                                    rel="nofollow">Show file</a>
+                        </div>
+                        <div class="example-project-info">
+                            <nobr>
+                                <span>File:</span>
+                                <a href="https://csharp.hotexamples.com/site/redirect?url=https%3A%2F%2Fgithub.com%2Fandrewburgess%2FSparklesTasks%2Fblob%2Fmaster%2FRestoreDatabaseTask.cs"
+                                   target="_blank" rel="nofollow">RestoreDatabaseTask.cs</a>
+                            </nobr>                                 <nobr>
+                                <span>Project:</span>
+                                <a href="https://csharp.hotexamples.com/site/redirect?url=https%3A%2F%2Fgithub.com%2Fandrewburgess%2FSparklesTasks"
+                                   target="_blank" rel="nofollow">andrewburgess/SparklesTasks</a>
+                            </nobr>
+                        </div>
+                    </div>
+                </div>
+                <figure class="highlight">
+                    <div class="example" data-id="1">
+<pre class="line-numbers language-csharp" data-end="85" data-highlight="82" data-start="53">        protected override void ExecuteTask()
+        {
+            var server = new Server(ServerName);
+            server.ConnectionContext.LoginSecure = true;
+            server.ConnectionContext.Connect();
+            if (!ReplaceDB)
+            {
+                if (server.Databases.Contains(DBName))
+                {
+                    Log(Level.Info, DBName + " exists on " + ServerName + " and will not be replaced");
+                    return;
+                }
+            }
+            Log(Level.Info, "Restoring database " + DBName + " to " + ServerName);
+            var restore = new Restore();
+            restore.Database = DBName;
+            restore.ReplaceDatabase = ReplaceDB;
+            restore.Action = RestoreActionType.Database;
+            restore.Devices.AddDevice(BackupPath, DeviceType.File);
+            var table = restore.ReadFileList(server);
+            restore.RelocateFiles.Add(new RelocateFile(table.Rows[0][0].ToString(), Path.Combine(server.Settings.DefaultFile, DBName + ".mdf")));
+            restore.RelocateFiles.Add(new RelocateFile(table.Rows[1][0].ToString(), Path.Combine(server.Settings.DefaultFile, DBName + "_Log.ldf")));
+            restore.PercentComplete += UpdatePercent;
+            restore.Complete += RestoreCompleted;
+            restore.SqlRestore(server);
+            if (server.ConnectionContext.IsOpen)
+                server.ConnectionContext.Disconnect();
+        }</pre>
+                    </div>
+                </figure>
+            </div>
+            <!--ads-->
+            <div class="example-item" id="0x666af0db0d574d116d3ab00da0f89e1874f3997116e590bd075a00663d2aa819-38,,66,">
+                <div class="bs-example">
+                    <div>
+                        <div class="bs-example-title">Example #2</div>
+                        <div id="rating_2" style="top: 10px; right: 15px; position: absolute;"
+                             data-area="38,,66," data-hash="0x666af0db0d574d116d3ab00da0f89e1874f3997116e590bd075a00663d2aa819">
+                            <div class="rating-amount">0</div><a title="Mark this example as good" class="rating-up btn btn-success"
+                                                                 href="javascript:app.addRating(1, '2')" data-id="rating_2"><i class="icon-button icon-thumbs-up"></i></a>
+                            <a title="Mark this example as bad" class="rating-down btn btn-danger"
+                               href="javascript:app.addRating(-1,'2')" data-id="rating_2"><i class="icon-button icon-thumbs-down"></i></a>
+                        </div>
+                    </div>
+                    <div style="display: flex; flex-wrap: wrap; align-items: center;">
+                        <div style="margin-right: 10px; display: inline-block;">
+                            <a title="Direct link to this example"
+                               class="btn btn-default" href="https://csharp.hotexamples.com/examples/-/Restore/SqlRestore/php-restore-sqlrestore-method-examples.html#0x666af0db0d574d116d3ab00da0f89e1874f3997116e590bd075a00663d2aa819-38,,66,">
+                                <i class="icon-button icon-link"></i>
+                            </a>                 <a class="btn btn-default"
+                                                    href="javascript:app.open('https://csharp.hotexamples.com/site/file?hash=0x666af0db0d574d116d3ab00da0f89e1874f3997116e590bd075a00663d2aa819&amp;fullName=Package_Manager%2FDbService.cs&amp;project=egormozzharov%2FpackageManager')"
+                                                    rel="nofollow">Show file</a>
+                        </div>
+                        <div class="example-project-info">
+                            <nobr>
+                                <span>File:</span>
+                                <a href="https://csharp.hotexamples.com/site/redirect?url=https%3A%2F%2Fgithub.com%2Fegormozzharov%2FpackageManager%2Fblob%2Fmaster%2FPackage_Manager%2FDbService.cs"
+                                   target="_blank" rel="nofollow">DbService.cs</a>
+                            </nobr>
+                            <nobr>
+                                <span>Project:</span>
+                                <a href="https://csharp.hotexamples.com/site/redirect?url=https%3A%2F%2Fgithub.com%2Fegormozzharov%2FpackageManager"
+                                   target="_blank" rel="nofollow">egormozzharov/packageManager</a>
+                            </nobr>
+                        </div>
+                    </div>
+                </div><figure class="highlight">
+                    <div class="example" data-id="2">
+<pre class="line-numbers language-csharp" data-end="66" data-highlight="58" data-start="39">	public void RestoreDatabase(SqlConnectionStringBuilder sqlConnection, String backUpFile)
+	{
+		ServerConnection serverConnection = null;
+		try
+		{
+			if (!FileManager.FileExists(backUpFile))
+			{
+				throw new FileNotFoundException();
+			}
+			serverConnection = new ServerConnection(sqlConnection.DataSource, sqlConnection.UserID, sqlConnection.Password);
+			Server sqlServer = new Server(serverConnection);
+			Restore restoreDatabase = new Restore()
+			{
+				Action = RestoreActionType.Database,
+				Database = sqlConnection.InitialCatalog,
+			};
+			BackupDeviceItem backupItem = new BackupDeviceItem(backUpFile, DeviceType.File);
+			restoreDatabase.Devices.Add(backupItem);
+			restoreDatabase.ReplaceDatabase = true;
+			restoreDatabase.SqlRestore(sqlServer);
+		}
+		finally
+		{
+			if (serverConnection != null &amp;&amp; serverConnection.IsOpen)
+			{
+				serverConnection.Disconnect();
+			}
+		}
+	}</pre>
+                    </div>
+                </figure>
+            </div>
+            <div id="all-examples"></div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    vlist[defi].t = $('#help_title').html();
+</script>

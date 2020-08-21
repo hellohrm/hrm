@@ -1,0 +1,213 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title></title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=HNMvXW7ZO2fUt56XmWPMeX9BwhikMWTUeSQK6l7WjyyItXW5W9mlpDEsYyuJmy1StBq9H6KHOy9rlUycn5BDWypO18dvuWc4ksXU0Sz_WHQ" charset="UTF-8"></script>
+    <link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9maWRkbGUuanNoZWxsLm5ldC84bTZrajltci80L3Nob3cvP2VkaXRvcl9jb25zb2xlPQ" />
+   
+     <script type="text/javascript"
+            src="/js/lib/dummy.js"></script>-->
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"></script>
+
+    <style id="compiled-css" type="text/css">
+        #svgout {
+            width: 100vw;
+            height: 100vh;
+        }
+        /* EOS */
+    </style>
+
+    <script id="insert"></script>
+
+
+    <!--<script src="/js/stringify.js?4255a93522fb2b2b4618d9f83157c9150caf75f4" charset="utf-8"></script>-->
+    <!--<script>
+      const customConsole = (w) => {
+        const pushToConsole = (payload, type) => {
+          w.parent.postMessage({
+            console: {
+              payload: stringify(payload),
+              type:    type
+            }
+          }, "*")
+        }
+
+        w.onerror = (message, url, line, column) => {
+          // the line needs to correspond with the editor panel
+          // unfortunately this number needs to be altered every time this view is changed
+          line = line - 70
+          if (line < 0){
+            pushToConsole(message, "error")
+          } else {
+            pushToConsole(`[${line}:${column}] ${message}`, "error")
+          }
+        }
+
+        let console = (function(systemConsole){
+          return {
+            log: function(){
+              let args = Array.from(arguments)
+              pushToConsole(args, "log")
+              systemConsole.log.apply(this, args)
+            },
+            info: function(){
+              let args = Array.from(arguments)
+              pushToConsole(args, "info")
+              systemConsole.info.apply(this, args)
+            },
+            warn: function(){
+              let args = Array.from(arguments)
+              pushToConsole(args, "warn")
+              systemConsole.warn.apply(this, args)
+            },
+            error: function(){
+              let args = Array.from(arguments)
+              pushToConsole(args, "error")
+              systemConsole.error.apply(this, args)
+            },
+            system: function(arg){
+              pushToConsole(arg, "system")
+            }
+          }
+        }(window.console))
+
+        window.console = console
+
+        console.system("Running fiddle")
+      }
+
+      if (window.parent){
+        customConsole(window)
+      }
+    </script>-->
+</head>
+<body>
+    <svg id="svgout">
+    </svg>
+
+    <script type="text/javascript">
+//<![CDATA[
+
+
+Snap.plugin(function (Snap, Element, Paper, global, Fragment) {
+    function dragStart(x, y, e) {
+        this.current_transform = this.transform();
+    }
+
+    function dragMove(dx, dy, x, y, e) {
+        this.transform(this.current_transform+'T'+dx+','+dy);
+        this.updatePaths();
+    }
+
+    function dragEnd(e) {
+        this.current_transform = this.transform();
+    }
+
+    function updatePaths() {
+        var key;
+        for(key in this.paths) {
+            this.paths[key][0].attr({"path" : this.getPathString(this.paths[key][1])});
+            this.paths[key][0].prependTo(this.paper);
+        }
+    }
+
+    function getCoordinates() {
+        return [this.matrix.e + (this.node.width.baseVal.value / 2),
+          this.matrix.f + (this.node.height.baseVal.value / 2)];
+    }
+
+    function getPathString(obj) {
+        var p1 = this.getCoordinates();
+        var p2 = obj.getCoordinates();
+        return "M"+p1[0]+","+p1[1]+"L"+p2[0]+","+p2[1];
+    }
+
+    function addPath(obj) {
+        var id = obj.id;
+        var path = this.paper.path(this.getPathString(obj)).attr({fill:'none', stroke:'blue', strokeWidth:1});
+        path.prependTo(this.paper);
+        this.paths[id] = [path, obj];
+        obj.paths[this.id] = [path, this];
+    }
+
+    function removePath(obj) {
+    		var id = obj.id;
+        if (this.paths[id] != null) {
+        		this.paths[id][0].remove();
+            this.paths[id][1] = null;
+            delete this.paths[id];
+
+            obj.paths[this.id][1] = null;
+            delete obj.paths[this.id];
+        }
+    }
+
+    Paper.prototype.draggableRect = function (x, y, w, h) {
+        var rect = this.rect(0,0,w,h).transform("T"+x+","+y);
+        rect.paths = {};
+        rect.drag(dragMove, dragStart, dragEnd);
+        rect.updatePaths = updatePaths;
+        rect.getCoordinates = getCoordinates;
+        rect.getPathString = getPathString;
+        rect.addPath = addPath;
+        rect.removePath = removePath;
+
+        return rect;
+    };
+});
+
+
+var papers = Snap("#svgout");
+var rect1 = papers.draggableRect(0,0,40,40);
+var rect2 = papers.draggableRect(100,100,40,40);
+var rect3 = papers.draggableRect(100,0,40,40);
+
+rect1.addPath(rect2);
+rect2.addPath(rect3);
+
+
+  //]]></script>
+
+    <!--<script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "8m6kj9mr"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+    </script>
+
+    <script>
+      let allLines = []
+
+      window.addEventListener("message", (message) => {
+        if (message.data.console){
+          let insert = document.querySelector("#insert")
+          allLines.push(message.data.console.payload)
+          insert.innerHTML = allLines.join(";\r")
+
+          let result = eval.call(null, message.data.console.payload)
+          if (result !== undefined){
+            console.log(result)
+          }
+        }
+      })
+    </script>-->
+
+</body>
+</html>

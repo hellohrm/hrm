@@ -1,0 +1,756 @@
+﻿<!DOCTYPE HTML>
+<!-- saved from url=(0031)https://csharp.hotexamples.com/ -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML lang="en">
+<HEAD>
+    <META content="IE=11.0000"
+          http-equiv="X-UA-Compatible">
+
+    <META charset="UTF-8">
+    <SCRIPT type="text/javascript">
+        var __banger_pmp_deals = [{ "SlotName": "/21732118914/hotexamples_com-box-2", "Deals": [{ "DealId": 17, "Floor": 160 }, { "DealId": 18, "Floor": 25 }, { "DealId": 19, "Floor": 100 }, { "DealId": 20, "Floor": 300 }] }];
+    </SCRIPT>
+
+    <SCRIPT type="text/javascript" data-pagespeed-no-defer="" data-cfasync="false">ezobv = 65;</SCRIPT>
+
+    <SCRIPT type="text/javascript" data-pagespeed-no-defer="" data-cfasync="false">
+        function ez_isclean(data) {
+            if (typeof data === 'undefined') { data = document.URL; }
+            var re = /(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))(@|%2540|%40)((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/;
+            var isClean = !re.test(data);
+            return isClean;
+        }
+
+        var ez_queue = new Array();
+        function sort_queue(a, b) {
+            if (a.priority < b.priority) return -1;
+            else if (a.priority == b.priority) return 0;
+            else return 1;
+        }
+        function execute_ez_queue() {
+            ez_queue.sort(sort_queue);
+
+            for (var i in ez_queue) {
+                if (typeof ez_queue[i].method != "undefined") {
+                    try {
+                        ez_queue[i].method.call(null);
+                    }
+                    catch (err) {
+
+                    }
+                }
+            }
+        }
+
+        window.ez_ad_units = new Array();
+        window.ezslots = new Array();
+        window.ezsrqt = {};
+        function ez_write_tag(d) {
+            if (ez_isclean() && d instanceof Array) {
+                if (typeof ezstandalone !== 'undefined' && typeof ezstandalone.selectedPlaceholders !== 'undefined' && ezstandalone.selectedPlaceholders[d[3]] === true) {
+                    return "1+1";
+                }
+                ez_ad_units[ez_ad_units.length] = d;
+                var dve = "";
+                if (typeof d[5] != 'undefined' && d[5] > 0) { dve = '_' + d[5]; }
+                var ezcmd = "googletag.cmd.push(function() {var divid = 'div-gpt-ad-" + d[1] + "-" + d[4] + "" + dve + "';if(typeof ezlrarn == 'function'){ezlrarn(divid);}googletag.display(divid);var to = 0;if(" + d[2] + ".getTargeting('ga')[0] == '0'){to = 500;console.log('" + d[2] + " - no google');}if(window.ezDisableInitialLoad==true){setTimeout(function(){googletag.pubads().refresh([" + d[2] + "])},to);}});";
+                return ezcmd;
+            }
+
+            return "1+1";
+        }
+        function in_array(needle, haystack) {
+            var length = haystack.length;
+            for (var i = 0; i < length; i++) {
+                if (haystack[i] == needle) return true;
+            }
+            return false;
+        }
+    </SCRIPT>
+
+    <SCRIPT type="text/javascript" data-pagespeed-no-defer="" data-cfasync="false">var ezrpos = new Array(); var ez_current_interval; var ez_current_load = 0;</SCRIPT>
+
+    <SCRIPT src="index_files/dall2143.js" type="text/javascript" async="" data-pagespeed-no-defer="" data-cfasync="false"></SCRIPT>
+
+    <SCRIPT type="text/javascript" data-pagespeed-no-defer="" data-cfasync="false">
+        var epbjs = epbjs || {}; function epbjsRequestAdUnits(e) { epbjs.que.push(function () { for (var s = 0; s < e.length; s++) epbjs.ezAdUnits.push(e[s]); epbjs.addAdUnits(e), epbjs.requestBids({ bidsBackHandler: function (e) { "function" == typeof window.ezosethbbids ? window.ezosethbbids(e) : window.ezosethbbidsInterval = setInterval(function (e) { "function" == typeof ezosethbbids && ezosethbbids(e) }, 20, e) } }) }) } function epbjsRefreshSlot(e) { epbjs.que.push(function () { epbjs.requestBids({ adUnitCodes: [e.getSlotElementId()], bidsBackHandler: function (e) { epbjs.fastLoadAuctionEnd = !0, window.ezosethbbids(e) } }) }) } epbjs.bidderTimeout = 2500, epbjs.useAdj = true, epbjs.ezAdUnits = epbjs.ezAdUnits || [], epbjs.que = epbjs.que || [], epbjs.ezdss = epbjs.ezdss || [], epbjs.ezas = epbjs.ezas || [], epbjs.ezobid = epbjs.ezobid || [], epbjs.SS = { "criteo": 10050, "oftmedia": 10081 }, epbjs.bidders = ['sovrn', 'openx', 'pulsepoint', 'defymedia', 'aol', 'conversant', 'districtm', 'admedia', 'emx_digital', 'sonobi', 'criteo', 'ix', 'cox', 'audienceNetwork', 'pubmatic', 'rubicon', 'gumgum', 'oftmedia', 'lockerdome', 'triplelift', 'emx_digital', 'justpremium', 'teads', 'onemobile', 'yieldlab', 'unruly'], epbjs.que.push(function () { epbjs.aliasBidder('appnexus', 'oftmedia'); }), epbjs.que.push(function () { epbjs.setConfig({ priceGranularity: { buckets: [{ precision: 2, min: 0, max: 5, increment: .01 }, { precision: 2, min: 5, max: 50, increment: .1 }, { precision: 2, min: 50, max: 120, increment: 5 }] }, userSync: { filterSettings: { iframe: { bidders: "*", filter: "include" } } } }), epbjs.bidderSettings = { oftmedia: { bidCpmAdjustment: function (bidCpm) { var adj1 = bidCpm * 0.900000; var adj2 = adj1 * 1.200000; return adj2; } }, criteo: { bidCpmAdjustment: function (bidCpm) { var adj1 = bidCpm * 0.720000; var adj2 = adj1 * 1.200000; return adj2; } }, standard: { adserverTargeting: [{ key: "epb", val: function (e) { return e.bidderCode } }, { key: "epa", val: function (e) { return e.adId } }, { key: "epp", val: function (e) { return e.pbCg } }, { key: "epf", val: function (e) { return e.mediaType } }, { key: "eps", val: function (e) { return "ehb" == e.bidder ? 0 : void 0 !== epbjs.SS[e.bidder.toLowerCase()] ? epbjs.SS[e.bidder.toLowerCase()] : (console.error("epbjs: NO MATCH"), 0) } }] } }, epbjs.onEvent("bidWon", function (e) { epbjs.ezas[e.adUnitCode] = e.size, "ehb" == e.bidder ? epbjs.ezdss[e.adUnitCode] = e.ss : void 0 !== epbjs.SS[e.bidder.toLowerCase()] ? (epbjs.ezdss[e.adUnitCode] = epbjs.SS[e.bidder.toLowerCase()], 1 == epbjs.useAdj && epbjs.bidders.indexOf(e.bidder) > -1 && (epbjs.ezobid[e.adUnitCode] = e.cpm / 1.200000)) : console.error("epbjs: NO MATCH") }) }); epbjsRequestAdUnits([{ code: 'div-gpt-ad-hotexamples_com-box-2-0', mediaTypes: { banner: { sizes: [[970, 90], [728, 90], [970, 250]] }, video: { context: 'outstream', playerSize: [[970, 250]] } }, bids: [{ bidder: 'criteo', params: { zoneId: '1365397' } }, { bidder: 'oftmedia', params: { placementId: '14490039' } }] }, { code: 'div-gpt-ad-hotexamples_com-box-2-0', mediaTypes: { banner: { sizes: [[970, 90], [728, 90], [970, 250]] }, video: { context: 'outstream', playerSize: [[970, 250]] } }, bids: [{ bidder: 'criteo', params: { zoneId: '1365397' } }, { bidder: 'oftmedia', params: { placementId: '14490039' } }] }]);</SCRIPT>
+
+    <SCRIPT type="text/javascript" data-ezscrex="false">var ezorbf = []; </SCRIPT>
+
+    <SCRIPT type="text/javascript" data-pagespeed-no-defer="" data-cfasync="false">window.isEZABL = false; window.ezmadspc = 300; window.ezoViewCheck = false;</SCRIPT>
+
+    <SCRIPT type="text/javascript" data-pagespeed-no-defer="" data-cfasync="false">window.ezDisableInitialLoad = false;</SCRIPT>
+
+    <SCRIPT type="text/javascript">var ezbfcr = 1.2826; var ezbflclcr = 1.2826;</SCRIPT>
+
+    <SCRIPT type="text/javascript" data-pagespeed-no-defer="" data-cfasync="false">
+        window.googletag = window.googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function () {
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') +
+            '//securepubads.g.doubleclick.net/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+        })();
+    </SCRIPT>
+
+    <SCRIPT type="text/javascript" data-pagespeed-no-defer="" data-cfasync="false">
+        googletag.cmd.push(function () { googletag.destroySlots(); if (typeof window.isEZABL == 'undefined' || window.isEZABL != true) { ezslot_0 = googletag.defineSlot('/21732118914/hotexamples_com-box-2', [[970, 250], [380, 320], [320, 380], [430, 420]], 'div-gpt-ad-hotexamples_com-box-2-0').addService(googletag.pubads()).setTargeting('iid17', '1663928').setTargeting('iit', '9').setTargeting('t', '134').setTargeting('d', '110793').setTargeting('t1', '134').setTargeting('pvc', '1').setTargeting('ap', '1141').setTargeting('sap', '1141').setTargeting('a', '|3|').setTargeting('as', 'revenue').setTargeting('plat', '1').setTargeting('bra', 'mod88-c').setTargeting('ic', '1').setTargeting('at', 'mbf').setTargeting('adr', '399').setTargeting('ezosn', '0').setTargeting('reft', 'tf').setTargeting('refs', '30').setTargeting('ga', '5302779').setTargeting('gala', '').setTargeting('rid', '99998').setTargeting('pt', '1').setTargeting('al', '1001').setTargeting('compid', '0').setTargeting('tap', 'hotexamples_com-box-2-1663928').setTargeting('eb_br', 'fdeb1c0131f36a890082d4fe8e1da0d1').setTargeting('eba', '1').setTargeting('bv', '13').setTargeting('acptad', '1').setCollapseEmptyDiv(false).setTargeting('br1', '450').setTargeting('br1_lcl', '450').setTargeting('br2', '0').setTargeting('ezoic', '1').setTargeting('nmau', '0').setTargeting('stl', '25').setTargeting('deal1', [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]); ezslot_0.set('adsense_background_color', 'FFFFFF').set('adsense_border_color', 'FFFFFF').set('adsense_channel_ids', '2557731726').set('adsense_link_color', '0000FF').set('adsense_text_color', '000000').set('adsense_url_color', '828282'); ezrpos[0] = "0"; } else { window.ezHideLocations = []; ezslot_0 = googletag.defineSlot('/21732118914/hotexamples_com-box-2', [[970, 250], [380, 320], [320, 380], [430, 420]], 'div-gpt-ad-hotexamples_com-box-2-0').addService(googletag.pubads()).setTargeting('iid17', '1663928').setTargeting('iit', '9').setTargeting('t', '134').setTargeting('d', '110793').setTargeting('t1', '134').setTargeting('pvc', '1').setTargeting('ap', '1141').setTargeting('sap', '1141').setTargeting('a', '|3|').setTargeting('as', 'revenue').setTargeting('plat', '1').setTargeting('bra', 'mod88-c').setTargeting('ic', '1').setTargeting('at', 'mbf').setTargeting('adr', '399').setTargeting('ezosn', '0').setTargeting('reft', 'tf').setTargeting('refs', '30').setTargeting('ga', '5302779').setTargeting('gala', '').setTargeting('rid', '99998').setTargeting('pt', '1').setTargeting('al', '1001').setTargeting('compid', '0').setTargeting('tap', 'hotexamples_com-box-2-1663928').setTargeting('eb_br', 'fdeb1c0131f36a890082d4fe8e1da0d1').setTargeting('eba', '1').setTargeting('bv', '13').setTargeting('acptad', '1').setCollapseEmptyDiv(false).setTargeting('br1', '450').setTargeting('br1_lcl', '450').setTargeting('br2', '0').setTargeting('ezoic', '1').setTargeting('nmau', '0').setTargeting('stl', '25').setTargeting('deal1', [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]); ezslot_0.set('adsense_background_color', 'FFFFFF').set('adsense_border_color', 'FFFFFF').set('adsense_channel_ids', '2557731726').set('adsense_link_color', '0000FF').set('adsense_text_color', '000000').set('adsense_url_color', '828282'); ezrpos[0] = "0"; } googletag.pubads().addEventListener('slotRenderEnded', function (event) { __ez.queue.addFunc("ezbanger", "ezbanger", event, false, ['banger.js'], true, true, false, true); }); googletag.pubads().addEventListener('impressionViewable', function (event) { __ez.queue.addFunc("ezvb", "ezvb", event, false, ['banger.js'], true, true, false, true); }); googletag.pubads().addEventListener('slotResponseReceived', function (event) { __ez.queue.addFunc("ezsr", "ezsr", event, false, ['banger.js'], true, true, false, true); }); googletag.pubads().addEventListener('slotRequested', function (e) { window.ezsrqt[e.slot.getSlotElementId()] = Date.now(); }); googletag.pubads().enableLazyLoad({ fetchMarginPercent: 400, renderMarginPercent: 250, mobileScaling: 2.0 }); googletag.enableServices(); }); window.ezoll = true; window.ezoadxnc = '21732118914'; window.ezorefgsl = function (slot) { slot.setTargeting('reqt', Date.now()); if (typeof slot.DFPSlot != 'undefined') { googletag.pubads().refresh([slot.DFPSlot]); } else { googletag.pubads().refresh([slot]); } }; var ezoibfh = Array(); ezoibfh[0] = 'zero'; ezoibfh[1000000] = 'off'; ezoibfh[100] = '2b579bd406d80336360cc9360dca858a';
+        ezoibfh[70] = 'ea7c242a89c8cb1608366a3d063fa70d';
+        ezoibfh[60] = '5dfc84b2afe9d09bb5135bfcbbc5970f';
+        ezoibfh[200] = 'bb779436aa3533ea7e00abe462374b80';
+        ezoibfh[120] = '9b8b7ac6c7f250874e7a1340470af55d';
+        ezoibfh[90] = '1ea83551a903e458c56ec08ec0ffaa93';
+        ezoibfh[80] = '931e89386514f6e0ab7df9718ec5a124';
+        ezoibfh[30] = 'd753ba285129d8fd7ef33dec95bcaa7e';
+        ezoibfh[400] = '24b380adcc0659544af3c796e2648643';
+        ezoibfh[300] = 'aea15b65f697c2bc2826a2d1d3e3275f';
+        ezoibfh[280] = '2acc48f80457fdc6d4d6786673884135';
+        ezoibfh[140] = '13817432a186231a2c8afb2cc1bac45d';
+        ezoibfh[50] = 'f0b3832c5a11b18826c14c2c6c503110';
+        ezoibfh[40] = '6f1c86ebad23a9c4f3d9e02ac8a8dbbf';
+        ezoibfh[10] = '295bc01864bf3dbd0117e0a3f7f6bc96';
+        ezoibfh[0] = 'e4959d004f77f2c50c86f631c5e35273';
+        ezoibfh[550] = 'fdeb1c0131f36a890082d4fe8e1da0d1';
+        ezoibfh[350] = '073dd12bd568a53b780a1e7d84a65a39';
+        ezoibfh[240] = '8e05f6c6b0f467a340fd9f1edf21c2da';
+        ezoibfh[220] = 'c8f8afd5bc9d2b8b306959d0f8989efe';
+        ezoibfh[180] = '534fb181871009a53a0e48bf40359a65';
+        ezoibfh[160] = '736e4998c7cae21e6c67e08e2de4db76';
+        ezoibfh[20] = '45449ee2d6533045f60351c94107ba8e';
+        ezoibfh[500] = '6d82aebae6bcefcae8983b0dcc92cec9';
+        ezoibfh[450] = 'f63322dda53fb357fc621e718fd4fb87';
+        ezoibfh[260] = '028fd4209634b3f030ec544d795c74ac';
+        if (typeof window.isEZABL == 'undefined' || window.isEZABL != true) { ezslots.push("ezslot_0"); } else { ezslots.push("ezslot_0"); }</SCRIPT>
+
+    <SCRIPT data-pagespeed-no-defer="" data-cfasync="false">var __ez = __ez || {}; __ez.evt = {}; __ez.script = {}; __ez.ck = {}; __ez.template = {}; __ez.template.isOrig = false; __ez.evt.add = function (e, t, n) { e.addEventListener ? e.addEventListener(t, n, !1) : e.attachEvent ? e.attachEvent("on" + t, n) : e["on" + t] = n() }, __ez.evt.remove = function (e, t, n) { e.removeEventListener ? e.removeEventListener(t, n, !1) : e.detachEvent ? e.detachEvent("on" + t, n) : delete e["on" + t] }; __ez.ck.get = function (e, n) { null !== n && (e = e + "_" + n); for (var o = e + "=", t = decodeURIComponent(document.cookie).split(";"), i = 0; i < t.length; i++) { for (var c = t[i]; " " === c.charAt(0) ;) c = c.substring(1); if (0 === c.indexOf(o)) return c.substring(o.length, c.length) } return "" }, __ez.ck.setByCat = function (e, n) { if (-1 === e.indexOf("path=") && (e += "; path=/"), "undefined" != typeof cmpIsOn) { if (null != n) { var o = __ez.ck.get("ezCMPCookieConsent", null); -1 !== (o = o.substring(1, o.length)).indexOf(n + "=1") ? document.cookie = e : "" === o && "undefined" != typeof cmpCookies && (void 0 === cmpCookies[n] && (cmpCookies[n] = []), cmpCookies[n].push(e)) } } else document.cookie = e }; __ez.queue = function () { var e = /((\/\/.*$)|(\/\*[\s\S]*?\*\/))/gm, i = /([^\s,]+)/g; var n = 0, t = 0, r = 0, o = [], c = !1, s = [], a = [], l = !0, u = [], d = "", f = ["documentReady", "windowLoad"], p = [], h = { func: function (n, t, r, c, s, a, l) { var u = this; this.name = n, this.funcName = t, this.parameters = null === r ? null : r instanceof Array ? r : [r], this.isBlock = c, this.blockedBy = s, this.deleteWhenComplete = a, this.isError = !1, this.isComplete = !1, this.isInitialized = !1, this.proceedIfError = l, this.isTimeDelay = !1, this.isScriptExecution = !1, this.process = function () { if (w("... func = " + n), u.isInitialized = !0, u.isComplete = !0, "" !== u.funcName && -1 === f.indexOf(u.funcName)) if (w("... func.apply: " + n), "function" == typeof u.funcName) u.funcName.apply(null, function (n) { var t = n.toString().replace(e, ""), r = t.slice(t.indexOf("(") + 1, t.indexOf(")")).match(i); null === r && (r = []); for (var o = 0; o < r.length; o++) "$" === r[o] && void 0 === window[r[o]] && void 0 !== window.jQuery ? r[o] = window.jQuery : r[o] = window[r[o]]; return r }(u.funcName)); else { var t = u.funcName.split("."), r = null; t.length > 3 || (r = 3 === t.length ? window[t[0]][t[1]][t[2]] : 2 === t.length ? window[t[0]][t[1]] : window[u.funcName]), null != r && r.apply(null, this.parameters) } !0 === u.deleteWhenComplete && delete o[n], !0 === u.isBlock ? (w("----- F'D: " + u.name), !0 === u.isScriptExecution ? v() : x()) : !0 === u.isScriptExecution && E() } }, file: function (e, i, n, t, r, o, c) { var s = this; this.name = e, this.path = i, this.async = r, this.defer = o, this.isBlock = n, this.blockedBy = t, this.isInitialized = !1, this.isError = !1, this.isComplete = !1, this.proceedIfError = c, this.isTimeDelay = !1, this.isScriptExecution = !1, this.process = function () { s.isInitialized = !0, w("... file = " + e); var n = document.createElement("script"); n.src = i, !0 === r ? n.async = !0 : !0 === o && (n.defer = !0), n.onerror = function () { w("----- ERR'D: " + s.name), s.isError = !0, !0 === s.isBlock ? !0 === s.isScriptExecution ? v() : x() : !0 === s.isScriptExecution && E() }, n.onreadystatechange = n.onload = function () { var e = n.readyState; w("----- F'D: " + s.name), e && !/loaded|complete/.test(e) || (s.isComplete = !0, !0 === s.isBlock ? !0 === s.isScriptExecution ? v() : x() : !0 === s.isScriptExecution && E()) }, document.getElementsByTagName("head")[0].appendChild(n) } } }; function m(e) { !0 !== y(e) && 0 != l && e.process() } function y(e) { if (!0 === e.isTimeDelay && !1 === c) return w(e.name + " blocked = TIME DELAY!"), !0; if (e.blockedBy instanceof Array) for (var i = 0; i < e.blockedBy.length; i++) { var n = e.blockedBy[i]; if (!1 === o.hasOwnProperty(n)) return w(e.name + " blocked = " + n), !0; if (!0 === e.proceedIfError && !0 === o[n].isError) return !1; if (!1 === o[n].isComplete) return w(e.name + " blocked = " + n), !0 } return !1 } function E() { for (var e in u) if (!1 !== u.hasOwnProperty(e)) { var i = u[e], n = ""; if (i.blockedBy instanceof Array && i.blockedBy.length > 0 && -1 !== f.indexOf(i.blockedBy[0]) && (n = i.blockedBy[0]), !0 === i.isScriptExecution && !1 === i.isComplete && n === d) return !1 } -1 === p.indexOf(d) && p.push(d); var t = d; for (e = 0; e < f.length; e++) if (-1 === p.indexOf(f[e])) { d = f[e]; break } if (d === t) return !0; var r = "" == t ? [] : [t]; return __ez.queue.addScrexFunc(d, d, [], !0, r, !1, !1, !0, !1), w("screx done for state: " + ("" === t ? "init" : t)), w("screx state now: " + d), v(), !0 } function w(e) { var i = window.location.href, n = new RegExp("[?&]ezq=([^&#]*)", "i").exec(i); "1" === (n ? n[1] : null) && console.debug(e) } function x() { ++n > 200 || (w("let's go"), S(s), S(a)) } function v() { ++t > 200 || (w("let's go screx"), S(u), E()) } function S(e) { for (var i in e) if (!1 !== e.hasOwnProperty(i)) { var n = e[i]; !0 === n.isComplete || y(n) || !0 === n.isInitialized || !0 === n.isError ? !0 === n.isError ? w(n.name + ": error") : !0 === n.isComplete ? w(n.name + ": complete already") : !0 === n.isInitialized && w(n.name + ": initialized already") : n.process() } } return window.addEventListener("load", function () { setTimeout(function () { c = !0, w("TDELAY -----"), x() }, 5e3) }, !1), { addFile: function (e, i, n, t, r, c, l, u) { var d = new h.file(e, i, n, t, r, c, l); !0 === u ? s[e] = d : a[e] = d, o[e] = d, m(d) }, addScrexFile: function (e, i, n, t, r, c, s) { var a = new h.file(e, i, n, t, r, c, s); a.isScriptExecution = !0, w(e + " ...  FILE! SCREX"), u[e] = a, o[e] = a }, addDelayFile: function (e, i) { var n = new h.file(e, i, !1, [], !1, !1, !0); n.isTimeDelay = !0, w(e + " ...  FILE! TDELAY"), a[e] = n, o[e] = n, m(n) }, addFunc: function (e, i, n, t, c, l, u, d, f) { !0 === l && (e = e + "_" + r++); var p = new h.func(e, i, n, t, c, u, d); !0 === f ? s[e] = p : a[e] = p, o[e] = p, m(p) }, addDelayFunc: function (e, i, n) { var t = new h.func(e, i, n, !1, [], !0, !0); t.isTimeDelay = !0, w(e + " ...  FUNCTION! TDELAY"), a[e] = t, o[e] = t, m(t) }, addScrexFunc: function (e, i, n, t, c, s, a, l) { !0 === s && (e = e + "_" + r++); var d = new h.func(e, i, n, t, c, s, a, l); d.isScriptExecution = !0, w(e + " ...  FUNCTION! SCREX"), u[e] = d, o[e] = d, p.length > 0 && -1 === f.indexOf(e) && m(d) }, items: o, processAll: x, screxInit: function () { w("Init Screx!"), v() }, setallowLoad: function (e) { l = e } } }(); __ez.script.add = function (e) { var t = document.createElement("script"); t.src = e, t.async = !0, t.type = "text/javascript", document.getElementsByTagName("head")[0].appendChild(t) }; __ez.script.inline = function (e) { var n = document.createElement("script"), t = document.createTextNode(e.innerHTML); n.appendChild(t), document.body.appendChild(n) }; !function () { if ("function" == typeof window.CustomEvent) return !1; window.CustomEvent = function (e, n) { n = n || { bubbles: !1, cancelable: !1, detail: null }; var t = document.createEvent("CustomEvent"); return t.initCustomEvent(e, n.bubbles, n.cancelable, n.detail), t } }(), __ez.idle = {}, __ez.idle.count = 0, __ez.idle.time = 40, window.addEventListener("load", function () { if ("requestIdleCallback" in window) var e = setInterval(function () { window.requestIdleCallback(function (n) { var t = n.timeRemaining(); t > __ez.idle.time && (__ez.idle.count++, window.dispatchEvent(new CustomEvent("ezoicIdle", { detail: { idleCount: __ez.idle.count, idleTime: t } })), __ez.idle.count > 10 && clearInterval(e)) }) }, 50); else window.dispatchEvent(new CustomEvent("ezoicIdle", { detail: { idleCount: -1, idleTime: -1 } })), clearInterval(e) });</SCRIPT>
+
+    <SCRIPT type="text/javascript" data-cfasync="false">var _ezaq = { "ad_cache_level": 2, "ad_location_ids": "1", "ad_transform_level": 0, "adx_ad_count": 1, "bidder_version": 3, "city": "Tra Vinh", "country": "VN", "days_since_last_visit": 0, "display_ad_count": 1, "domain_id": 110793, "ds_adsize_opt_id": -1, "engaged_time_visit": 22, "ezcache_level": 2, "forensiq_score": -1, "form_factor_id": 1, "framework_id": 1, "has_bad_image": 0, "has_bad_words": 0, "iab_category": "", "is_from_recommended_pages": false, "is_return_visitor": true, "last_page_load": "1572048884457", "last_pageview_id": "83dc82f0-d292-4ffb-7d5d-ec0f8155e355", "lt_cache_level": 0, "max_ads": 2, "metro_code": 0, "page_ad_positions": "1141", "page_view_count": 1, "page_view_id": "be8aaa5f-8d6c-4637-6155-cab587d0206a", "position_selection_id": 16, "postal_code": "", "pv_event_count": 0, "response_time_orig": 3, "serverid": "54.169.44.218:7287", "state": "51", "sub_page_ad_positions": "1141", "t_epoch": 1572049166, "template_id": 134, "time_on_site_visit": 280, "url": "https://csharp.hotexamples.com/", "user_id": 0, "weather_precipitation": 0, "weather_summary": "", "weather_temperature": 0, "word_count": 124, "worst_bad_word_level": 0 }; var _ezim_d = { "hotexamples_com-box-2": { "adsense_stat_source_id": 5, "adx_ad_count": 1, "adx_stat_source_id": 35, "full_id": "hotexamples_com-box-2/2019-10-25/1663928", "height": "250", "position_id": 1141, "sub_position_id": 1141, "width": "970" } }; var _ezat = { "domain_id": 110793, "form_factor_id": 1, "framework_id": 1, "pageview_date": "2019-10-25", "pageview_id": "be8aaa5f-8d6c-4637-6155-cab587d0206a", "template_id": 134, "url": "https://csharp.hotexamples.com/", "visit_uuid": "178070f7-a765-4104-564a-d397e106aa0f" };</SCRIPT>
+
+    <SCRIPT type="text/javascript" data-pagespeed-no-defer="" data-cfasync="false">__ez.queue.addFile('banger.js', '/porpoiseant/banger.js?cb=187-0&bv=65&v=30&PageSpeed=off', true, [], true, false, false, true);</SCRIPT>
+
+    <SCRIPT>(function () { function a(g, h, i) { var j = new Date; j.setTime(j.getTime() + 1e3 * (60 * (60 * (24 * i)))); var k = "expires=" + j.toUTCString(), l = g + "=" + h + ";" + k + ";path=/;"; "undefined" != typeof ezdomain && (l += "domain=" + ezdomain), document.cookie = l } var b = window.addEventListener ? "addEventListener" : "attachEvent", c = window[b], f = "attachEvent" == b ? "onmessage" : "message"; c(f, function (g) { "undefined" != typeof g.data.ezstatus && (__ez.bit.AddAndFire(_ezaq.page_view_id, [new __ezDotData("dg", g.data.ezstatus)]), a("ezdg", g.data.ezstatus, 730)) }) })();</SCRIPT>
+
+    <SCRIPT data-pagespeed-no-defer="" data-cfasync="false">__ez.dot = {}; var __ezDotData = function (e, t) { "string" != typeof e && 2 == e.length && (t = e[1], e = e[0]), this.name = e, this.val = t }; __ez.dot.b64 = { _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=", encode: function (e) { var t, r, n, o, i, d, a, _ = "", f = 0; for (e = Base64._utf8_encode(e) ; f < e.length;) o = (t = e.charCodeAt(f++)) >> 2, i = (3 & t) << 4 | (r = e.charCodeAt(f++)) >> 4, d = (15 & r) << 2 | (n = e.charCodeAt(f++)) >> 6, a = 63 & n, isNaN(r) ? d = a = 64 : isNaN(n) && (a = 64), _ = _ + this._keyStr.charAt(o) + this._keyStr.charAt(i) + this._keyStr.charAt(d) + this._keyStr.charAt(a); return _ }, decode: function (e) { var t, r, n, o, i, d, a = "", _ = 0; for (e = e.replace(/[^A-Za-z0-9+/=]/g, "") ; _ < e.length;) t = this._keyStr.indexOf(e.charAt(_++)) << 2 | (o = this._keyStr.indexOf(e.charAt(_++))) >> 4, r = (15 & o) << 4 | (i = this._keyStr.indexOf(e.charAt(_++))) >> 2, n = (3 & i) << 6 | (d = this._keyStr.indexOf(e.charAt(_++))), a += String.fromCharCode(t), 64 != i && (a += String.fromCharCode(r)), 64 != d && (a += String.fromCharCode(n)); return a = Base64._utf8_decode(a) }, _utf8_encode: function (e) { e = e.replace(/rn/g, "n"); for (var t = "", r = 0; r < e.length; r++) { var n = e.charCodeAt(r); n < 128 ? t += String.fromCharCode(n) : (127 < n && n < 2048 ? t += String.fromCharCode(n >> 6 | 192) : (t += String.fromCharCode(n >> 12 | 224), t += String.fromCharCode(n >> 6 & 63 | 128)), t += String.fromCharCode(63 & n | 128)) } return t }, _utf8_decode: function (e) { for (var t = "", r = 0, n = c1 = c2 = 0; r < e.length;) (n = e.charCodeAt(r)) < 128 ? (t += String.fromCharCode(n), r++) : 191 < n && n < 224 ? (c2 = e.charCodeAt(r + 1), t += String.fromCharCode((31 & n) << 6 | 63 & c2), r += 2) : (c2 = e.charCodeAt(r + 1), c3 = e.charCodeAt(r + 2), t += String.fromCharCode((15 & n) << 12 | (63 & c2) << 6 | 63 & c3), r += 3); return t } }, __ez.dot.dataToStr = function (e) { if (void 0 === e) return []; try { for (var t in e) e[t].val = e[t].val + "" } catch (e) { } return e }, __ez.dot.getCC = function () { var e = "XX"; return "undefined" != typeof _ezaq && _ezaq.hasOwnProperty("country") && (e = _ezaq.country), e }, __ez.dot.getDID = function () { var e = "0"; return "undefined" != typeof _ezaq && _ezaq.hasOwnProperty("domain_id") && (e = _ezaq.domain_id.toString()), e }, __ez.dot.getEpoch = function (e) { return "undefined" != typeof _ezaq && _ezaq.hasOwnProperty("t_epoch") && (e = _ezaq.t_epoch), e }, __ez.dot.getPageviewId = function () { var e = ""; return "undefined" != typeof _ezaq && _ezaq.hasOwnProperty("page_view_id") && (e = _ezaq.page_view_id), e }, __ez.dot.getURL = function (e) { return ("undefined" != typeof ezJsu && 1 == ezJsu || "undefined" != typeof _ez_sa && 1 == _ez_sa || "undefined" != typeof isAmp && !0 === isAmp || "undefined" != typeof ezWp && !0 === ezWp) && (e = "//g.ezoic.net" + e), e }, __ez.dot.isValid = function (e) { for (var t = 0; t < e.length; t++) if (e[t] instanceof __ezDotData == !1) return console.error("Invalid data. ", e[t]), !1; return !0 }, __ez.dot.isDefined = function () { for (var e = 0; e < arguments.length; e++) if (null == arguments[e]) return console.error("Argument not defined. ", arguments), !1; return !0 }, __ez.dot.isAnyDefined = function () { for (var e = !1, t = 0; t < arguments.length; t++) null != arguments[t] && (e = !0); return 0 == e && console.error("isAnyDefined Arguments not defined. ", arguments), e }, __ez.dot.getSlotIID = function (e) { var t = "0"; try { var r = __ez.dot.getTargetingMap(e); if (-1 === __ez.dot.getElementId(e).indexOf("div-gpt-ad")) return t; if (void 0 !== r) for (var n in r) if (-1 !== n.indexOf("iid") && void 0 !== r[n][0]) { t = r[n][0]; break } } catch (e) { } return t }, __ez.dot.getElementId = function (e) { return void 0 !== e.ElementId ? e.ElementId : e.getSlotElementId() }, __ez.dot.getAdUnitPath = function (e) { return void 0 !== e.AdUnitPath ? e.AdUnitPath : e.getAdUnitPath() }, __ez.dot.getSizes = function (e) { return void 0 !== e.Sizes ? e.Sizes : e.getSizes() }, __ez.dot.getTargeting = function (e, t) { return void 0 !== e.Targeting ? e.Targeting[t] : e.getTargeting(t)[0] }, __ez.dot.getTargetingMap = function (e) { return void 0 !== e.Targeting ? e.Targeting : e.getTargetingMap() }, __ez.dot.getAdUnit = function (e) { return !0 === __ez.template.isOrig ? __ez.dot.getAdUnitPath(e).split("/").pop() + "|~ez~|" + __ez.dot.getElementId(e) : __ez.dot.getElementId(e) }; __ez.bit = function () { function c(a, b) { d(a, b), e() } function d(b, c) { __ez.dot.isDefined(b) && __ez.dot.isValid(c) && a.push({ type: "pageview", pageview_id: b, domain_id: __ez.dot.getDID(), t_epoch: __ez.dot.getEpoch(0), data: __ez.dot.dataToStr(c) }) } function e() { void 0 !== document.visibilityState && "prerender" === document.visibilityState || (__ez.dot.isDefined(a) && a.length > 0 && ((new Image).src = __ez.dot.getURL(b) + "?orig=" + (!0 === __ez.template.isOrig ? 1 : 0) + "&ds=" + btoa(JSON.stringify(a))), a = []) } var a = [], b = "/detroitchicago/greenoaks.gif"; return { Add: d, AddAndFire: c, Fire: e } }();</SCRIPT>
+
+    <SCRIPT data-pagespeed-no-defer="" data-cfasync="false">__ez.pel = function () { var u = [], i = "/porpoiseant/army.gif"; function t(e, i, t, _, d, o, n) { if (__ez.dot.isDefined(e) && 0 != __ez.dot.isAnyDefined(e.getSlotElementId, e.ElementId)) { var r = parseInt(__ez.dot.getTargeting(e, "ap")), a = __ez.dot.getSlotIID(e), s = __ez.dot.getAdUnit(e), p = parseInt(__ez.dot.getTargeting(e, "compid")), z = 0, f = 0, g = function (e) { if ("undefined" == typeof _ezim_d) return !1; var i = __ez.dot.getAdUnitPath(e).split("/").pop(); if ("object" == typeof _ezim_d && _ezim_d.hasOwnProperty(i)) return _ezim_d[i]; for (var t in _ezim_d) if (t.split("/").pop() === i) return _ezim_d[t]; return !1 }(e); "object" == typeof g && (void 0 !== g.creative_id && (f = g.creative_id), void 0 !== g.line_item_id && (z = g.line_item_id)), __ez.dot.isDefined(a, s) && __ez.dot.isValid(i) && u.push({ type: "impression", impression_id: a, domain_id: __ez.dot.getDID(), unit: s, t_epoch: __ez.dot.getEpoch(0), revenue: t, est_revenue: _, ad_position: r, ad_size: "", bid_floor_filled: d, bid_floor_prev: o, stat_source_id: n, country_code: __ez.dot.getCC(), pageview_id: __ez.dot.getPageviewId(), comp_id: p, line_item_id: z, creative_id: f, data: __ez.dot.dataToStr(i) }) } } function _() { if (void 0 === document.visibilityState || "prerender" !== document.visibilityState) { if (__ez.dot.isDefined(u) && 0 < u.length) { var e = __ez.dot.getURL(i) + "?orig=" + (!0 === __ez.template.isOrig ? 1 : 0) + "&sts=" + btoa(JSON.stringify(u)); void 0 !== window.isAmp && isAmp && void 0 !== window._ezaq && _ezaq.hasOwnProperty("domain_id") && (e += "&visit_uuid=" + _ezaq.visit_uuid), (new Image).src = e } u = [] } } return { Add: t, AddAndFire: function (e, i) { t(e, i, 0, 0, 0, 0, 0), _() }, AddById: function (e, i) { var t = e.split("/"); if (__ez.dot.isDefined(e) && 3 === t.length && __ez.dot.isValid(i)) { var _ = t[0], d = t[2]; u.push({ type: "impression", impression_id: d, domain_id: __ez.dot.getDID(), unit: _, t_epoch: __ez.dot.getEpoch(0), pageview_id: __ez.dot.getPageviewId(), data: __ez.dot.dataToStr(i) }) } }, Fire: _, GetPixels: function () { return u } } }(); var EzoicPixel = function () { this.pixels = [], this.pixelUrl = "/ezoic/e.gif", ("undefined" != typeof ezJsu && !0 === ezJsu || "undefined" != typeof _ez_sa && !0 === _ez_sa || void 0 !== window.isAmp && !0 === isAmp || "undefined" != typeof ezWp && !0 === ezWp) && (this.pixelUrl = "//g.ezoic.net" + this.pixelUrl), this.tEpoch = 0, "undefined" != typeof _ezaq && _ezaq.hasOwnProperty("t_epoch") && (this.tEpoch = _ezaq.t_epoch) }, EzoicPixelData = function (e, i) { this.name = e, this.val = i }; EzoicPixel.prototype = { constructor: EzoicPixel, AddAndFireImpPixel: function (e, i) { this.AddImpPixel(e, i, 0, 0, 0, 0, 0), this.FirePixels() }, AddAndFirePVPixel: function (e, i) { this.AddPVPixel(e, i), this.FirePixels() }, AddImpPixel: function (e, i, t, n, o, a, d) { if (0 != __ez.dot.isDefined(e) && 0 != __ez.dot.isAnyDefined(e.getSlotElementId, e.ElementId)) { var s = parseInt(__ez.dot.getTargeting(e, "ap")), r = __ez.dot.getSizes(e)[0], _ = r.l.toString() + "x" + r.j.toString(), p = "0", l = "XX"; "undefined" != typeof _ezaq && _ezaq.hasOwnProperty("domain_id") && (p = _ezaq.domain_id.toString()), "undefined" != typeof _ezaq && _ezaq.hasOwnProperty("country") && (l = _ezaq.country); var h = __ez.dot.getSlotIID(e), c = __ez.dot.getSlotElementId(e); __ez.dot.isDefined(h, c) && this.validateData(i) && (i = this.convertDataToStr(i), this.pixels.push({ type: "impression", impression_id: h, domain_id: p, unit: c, t_epoch: this.tEpoch, revenue: t, est_revenue: n, ad_position: s, ad_size: _, bid_floor_filled: o, bid_floor_prev: a, stat_source_id: d, country_code: l, data: i })) } }, AddImpPixelById: function (e, i) { var t = "0"; "undefined" != typeof _ezaq && _ezaq.hasOwnProperty("domain_id") && (t = _ezaq.domain_id.toString()); var n = e.split("/"); if (__ez.dot.isDefined(e) && 3 === n.length && this.validateData(i)) { var o = n[0], a = n[2]; i = this.convertDataToStr(i), this.pixels.push({ type: "impression", impression_id: a, domain_id: t, unit: o, t_epoch: this.tEpoch, data: i }) } }, AddPVPixel: function (e, i) { var t = "0"; "undefined" != typeof _ezaq && _ezaq.hasOwnProperty("domain_id") && (t = _ezaq.domain_id.toString()), __ez.dot.isDefined(e) && this.validateData(i) && (i = this.convertDataToStr(i), this.pixels.push({ type: "pageview", pageview_id: e, domain_id: t, t_epoch: this.tEpoch, data: i })) }, FirePixels: function () { void 0 !== document.visibilityState && "prerender" === document.visibilityState || (__ez.dot.isDefined(this.pixels) && 0 < this.pixels.length && ((new Image).src = this.pixelUrl + "?orig=" + (!0 === __ez.template.isOrig ? 1 : 0) + "&pixels=" + encodeURIComponent(JSON.stringify(this.pixels))), this.pixels = []) }, NewData: function (e, i) { return new EzoicPixelData(e, i) }, convertDataToStr: function (e) { if (void 0 === e) return []; try { for (var i in e) e[i].val = e[i].val + "" } catch (e) { } return e }, validateData: function (e) { for (var i = 0; i < e.length; i++) if (e[i] instanceof EzoicPixelData == !1) return console.error("Invalid pixelData. ", e[i]), !1; return !0 } };</SCRIPT>
+
+    <SCRIPT type="text/javascript" data-pagespeed-no-defer="" data-cfasync="false">__ez.queue.addFile('rochester.js', '/detroitchicago/rochester.js?cb=187-0&v=8', false, [], true, false, true, true);</SCRIPT>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <SCRIPT src="index_files/js.js" async=""></SCRIPT>
+
+    <SCRIPT>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-140811786-1');
+    </SCRIPT>
+    <!-- Ezoic Code -->         <!-- Ezoic Code -->
+
+    <META name="viewport" content="width=device-width, initial-scale=1">
+    <TITLE>C# (CSharp) Code Examples - HotExamples</TITLE>
+    <META name="description" content="This service was created to help programmers find real examples of using classes and methods as well as documentation. Our system automatically searches, retrieves and ranks examples of source code from more than 1 million opensource projects. A key feature of the service is an opportunity to see examples of using a particular class or method from multiple projects on a single page.">
+    <META name="keywords" content="C# (CSharp),code,examples,real world,opensource,documentation,search">
+    <LINK href="index_files/3229ffce42c844d7ede4dc3d49eebd1b99228893.css" rel="stylesheet">
+    <LINK href="https://csharp.hotexamples.com/"
+          rel="canonical">
+    <LINK href="https://csharp.hotexamples.com/ru/"
+          rel="alternate" hreflang="ru">
+    <LINK href="https://csharp.hotexamples.com/de/" rel="alternate" hreflang="de">
+    <LINK href="/images/csharp/apple-touch-icon.png" rel="apple-touch-icon"
+          sizes="180x180">
+    <LINK href="/images/csharp/favicon-32x32.png" rel="icon"
+          type="image/png" sizes="32x32">
+    <LINK href="/images/csharp/favicon-16x16.png"
+          rel="icon" type="image/png" sizes="16x16">
+    <LINK href="/images/csharp/site.webmanifest"
+          rel="manifest">
+    <LINK href="/images/csharp/safari-pinned-tab.svg" rel="mask-icon"
+          color="#5bbad5">
+    <LINK href="/images/csharp/favicon.ico"
+          rel="shortcut icon">
+    <META name="msapplication-TileColor" content="#ffffff">
+    <META name="msapplication-config" content="/images/csharp/browserconfig.xml">
+
+    <META name="theme-color" content="#ffffff">
+    <STYLE>
+        .ezoic-ad.box-2 {
+            display: block !important;
+            float: none;
+            margin-bottom: 15px !important;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            margin-top: 15px !important;
+            min-height: 250px;
+            min-width: 970px;
+            text-align: center !important;
+        }
+
+        .ezoic-ad {
+            display: inline-block;
+        }
+
+        .adtester-container-121 {
+            display: none !important;
+        }
+
+        .adtester-container-104 {
+            display: none !important;
+        }
+
+        .adtester-container-139 {
+            display: none !important;
+        }
+
+        .adtester-container-109 {
+            display: none !important;
+        }
+
+        .adtester-container-124 {
+            display: none !important;
+        }
+
+        .adtester-container-146 {
+            display: none !important;
+        }
+
+        .adtester-container-110 {
+            display: none !important;
+        }
+
+        .adtester-container-106 {
+            display: none !important;
+        }
+
+        .adtester-container-125 {
+            display: none !important;
+        }
+
+        .adtester-container-131 {
+            display: none !important;
+        }
+
+        .adtester-container-127 {
+            display: none !important;
+        }
+
+        .adtester-container-114 {
+            display: none !important;
+        }
+
+        .adtester-container-138 {
+            display: none !important;
+        }
+
+        .adtester-container-107 {
+            display: none !important;
+        }
+
+        .adtester-container-140 {
+            display: none !important;
+        }
+
+        .adtester-container-100 {
+            display: none !important;
+        }
+
+        .adtester-container-151 {
+            display: none !important;
+        }
+
+        .adtester-container-147 {
+            display: none !important;
+        }
+
+        .adtester-container-149 {
+            display: none !important;
+        }
+
+        .adtester-container-103 {
+            display: none !important;
+        }
+
+        .adtester-container-132 {
+            display: none !important;
+        }
+
+        .adtester-container-118 {
+            display: none !important;
+        }
+
+        .adtester-container-120 {
+            display: none !important;
+        }
+
+        .adtester-container-137 {
+            display: none !important;
+        }
+
+        .adtester-container-142 {
+            display: none !important;
+        }
+
+        .adtester-container-122 {
+            display: none !important;
+        }
+
+        .adtester-container-129 {
+            display: none !important;
+        }
+
+        .adtester-container-126 {
+            display: none !important;
+        }
+
+        .adtester-container-128 {
+            display: none !important;
+        }
+
+        .adtester-container-150 {
+            display: none !important;
+        }
+
+        .adtester-container-115 {
+            display: none !important;
+        }
+
+        .adtester-container-133 {
+            display: none !important;
+        }
+
+        .adtester-container-144 {
+            display: none !important;
+        }
+
+        .adtester-container-102 {
+            display: none !important;
+        }
+
+        .adtester-container-134 {
+            display: none !important;
+        }
+
+        .adtester-container-113 {
+            display: none !important;
+        }
+
+        .adtester-container-119 {
+            display: none !important;
+        }
+
+        .adtester-container-135 {
+            display: none !important;
+        }
+
+        .adtester-container-101 {
+            display: none !important;
+        }
+
+        .adtester-container-105 {
+            display: none !important;
+        }
+
+        .adtester-container-143 {
+            display: none !important;
+        }
+
+        .adtester-container-145 {
+            display: none !important;
+        }
+
+        .adtester-container-108 {
+            display: none !important;
+        }
+
+        .adtester-container-117 {
+            display: none !important;
+        }
+
+        .adtester-container-123 {
+            display: none !important;
+        }
+
+        .adtester-container-130 {
+            display: none !important;
+        }
+
+        .adtester-container-148 {
+            display: none !important;
+        }
+
+        .adtester-container-111 {
+            display: none !important;
+        }
+
+        .adtester-container-116 {
+            display: none !important;
+        }
+
+        .adtester-container-112 {
+            display: none !important;
+        }
+
+        .ezoic-floating-bottom {
+            display: none !important;
+        }
+        .row {
+            margin:0px;
+        }
+    </STYLE>
+
+    <SCRIPT type="text/javascript" data-cfasync="false">window.google_analytics_uacct = "UA-131123770-16";</SCRIPT>
+
+    <SCRIPT type="text/javascript" data-cfasync="false">
+        var _gaq = _gaq || [];
+        _gaq.push(['e._setAccount', 'UA-131123770-16']);
+        _gaq.push(['f._setAccount', 'UA-38339005-1']);
+        _gaq.push(['e._setDomainName', 'hotexamples.com']);
+        _gaq.push(['f._setDomainName', 'hotexamples.com']);
+        _gaq.push(['e._setCustomVar', 1, 'template', 'pub_site', 3]);
+        _gaq.push(['e._setCustomVar', 2, 't', '134', 3]);
+        _gaq.push(['e._setCustomVar', 3, 'rid', '0', 2]);
+        _gaq.push(['e._setCustomVar', 4, 'bra', 'mod88-c', 3]);
+        _gaq.push(['e._setAllowAnchor', true]);
+        _gaq.push(['e._setSiteSpeedSampleRate', 10]);
+        _gaq.push(['f._setCustomVar', 1, 'template', 'pub_site', 3]);
+        _gaq.push(['f._setCustomVar', 2, 'domain', 'hotexamples.com', 3]);
+        _gaq.push(['f._setSiteSpeedSampleRate', 20]);
+        _gaq.push(['e._trackPageview']);
+        _gaq.push(['f._trackPageview']);
+
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </SCRIPT>
+
+    <SCRIPT type="text/javascript">var ezouid = "1";</SCRIPT>
+
+    <SCRIPT type="text/javascript">
+        var ezoTemplate = 'pub_site';
+        if (typeof ezouid == 'undefined') {
+            var ezouid = 'none';
+        }
+        var ezoFormfactor = '1';
+        var ezo_elements_to_check = Array();
+    </SCRIPT>
+    <!-- START EZHEAD -->
+    <SCRIPT type="text/javascript">
+        var soc_app_id = '0';
+        var did = 110793;
+        var ezdomain = 'hotexamples.com';
+        var ezoicSearchable = 1;
+    </SCRIPT>
+    <!--{jquery}--> <!-- END EZHEAD -->
+    <SCRIPT style="display: none;" type="text/javascript" data-pagespeed-no-defer="" data-cfasync="false">__ez.queue.addFile('__ezf_ezosuigeneris', '//g.ezoic.net/ezosuigeneris.js?i=dbf9d3ad40dfbf2c808ee9ed5494a7f9', true, [], true, false, false, false);</SCRIPT>
+
+    <SCRIPT style="display: none;" type="text/javascript" data-pagespeed-no-defer="" data-cfasync="false">__ez.queue.addFile('__ezf_ezosuigenerisc', '//g.ezoic.net/ezosuigenerisc.js?nogen=1', true, [], true, false, false, false);</SCRIPT>
+
+    <SCRIPT data-pagespeed-no-defer="" data-cfasync="false">
+        function create_ezolpl() {
+            var d = new Date();
+            d.setTime(d.getTime() + (365 * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            __ez.ck.setByCat("ezux_lpl_110793=" + new Date().getTime() + "|be8aaa5f-8d6c-4637-6155-cab587d0206a; " + expires, 3);
+        }
+        function attach_ezolpl() {
+            if (window.attachEvent) {
+                window.attachEvent('onload', create_ezolpl);
+            } else {
+                if (window.onload) {
+                    var curronload = window.onload;
+                    var newonload = function (evt) {
+                        curronload(evt);
+                        create_ezolpl();
+                    };
+                    window.onload = newonload;
+                } else {
+                    window.onload = create_ezolpl;
+                }
+            }
+        }
+        attach_ezolpl();
+    </SCRIPT>
+
+    <META name="GENERATOR" content="MSHTML 11.00.10570.1001">
+</HEAD>
+<BODY>
+    <DIV class="wrap">
+        <NAV class="navbar-inverse navbar-fixed-top navbar" id="w0">
+            <DIV class="container">
+                <DIV class="navbar-header">
+                    <BUTTON class="navbar-toggle" type="button"
+                            data-toggle="collapse" data-target="#w0-collapse">
+                        <SPAN class="sr-only">
+                            Toggle
+                            navigation
+                        </SPAN> <SPAN class="icon-bar"></SPAN><SPAN class="icon-bar"></SPAN><SPAN class="icon-bar"></SPAN>
+                    </BUTTON><A class="navbar-brand"
+                                href="https://csharp.hotexamples.com/">Hot Examples</A>
+                </DIV>
+                <DIV class="collapse navbar-collapse" id="w0-collapse">
+                    <UL class="navbar-nav navbar-right nav" id="w1">
+                        <LI class="dropdown">
+                            <A class="dropdown-toggle" href="https://csharp.hotexamples.com/#"
+                               data-toggle="dropdown">EN<SPAN class="caret"></SPAN></A>
+                            <UL class="dropdown-menu" id="w2">
+                                <LI><A tabindex="-1" href="https://csharp.hotexamples.com/">EN</A></LI>
+                                <LI><A tabindex="-1" href="https://csharp.hotexamples.com/ru/">RU</A></LI>
+                                <LI>
+                                    <A tabindex="-1"
+                                       href="https://csharp.hotexamples.com/de/">DE</A>
+                                </LI>
+                            </UL>
+                        </LI>
+                    </UL>
+                </DIV>
+            </DIV>
+        </NAV>
+        <DIV class="index">
+            <main class="jumbotron vertical-center">
+                <DIV class="container search-container">
+                    <DIV class="row">
+                        <H1>Search C# (CSharp) code examples from over 1.000.000 projects</H1>
+                    </DIV>
+                    <DIV class="row">
+                        <DIV class="row search-form">
+                            <DIV class="col-md-6 col-md-offset-3">
+                                <FORM class="form-horizontal" id="search-form" role="search" action="https://csharp.hotexamples.com/search"
+                                      method="post">
+                                    <INPUT name="SearchForm[lang]" class="form-control" id="searchform-lang" type="hidden" value="csharp">
+                                    <DIV class="input-group input-group-lg">
+                                        <DIV class="input-group-btn clear">
+                                            <BUTTON class="btn btn-default dropdown-toggle"
+                                                    aria-expanded="false" aria-haspopup="true" type="button"
+                                                    data-toggle="dropdown">
+                                                <SPAN class="search-language-name">C#</SPAN><SPAN class="caret"></SPAN>
+                                            </BUTTON>
+                                            <UL class="dropdown-menu">
+                                                <LI>
+                                                    <A class="search-language-item" href="https://csharp.hotexamples.com/"
+                                                       data-example="Example: Zend_Json::decode" data-value="php" data-action="https://hotexamples.com/search">
+                                                        PHP
+                                                    </A>
+                                                </LI>
+                                                <LI>
+                                                    <A class="search-language-item" href="https://csharp.hotexamples.com/"
+                                                       data-example="Example: DateTime.Now" data-value="csharp" data-action="https://csharp.hotexamples.com/search">
+                                                        C#
+                                                    </A>
+                                                </LI>
+                                                <LI>
+                                                    <A class="search-language-item" href="https://csharp.hotexamples.com/"
+                                                       data-example="Example: Collections.binarySearch" data-value="java"
+                                                       data-action="https://java.hotexamples.com/search">
+                                                        Java
+                                                    </A>
+                                                </LI>
+                                                <LI>
+                                                    <A class="search-language-item" href="https://csharp.hotexamples.com/"
+                                                       data-example="Example: Sprintf" data-value="go" data-action="https://golang.hotexamples.com/search">
+                                                        Go
+                                                    </A>
+                                                </LI>
+                                                <LI>
+                                                    <A class="search-language-item" href="https://csharp.hotexamples.com/"
+                                                       data-example="Example: QList.isEmpty" data-value="cpp" data-action="https://cpp.hotexamples.com/search">
+                                                        C++
+                                                    </A>
+                                                </LI>
+                                                <LI>
+                                                    <A class="search-language-item" href="https://csharp.hotexamples.com/"
+                                                       data-example="Example: OrderedDict.iteritems" data-value="python" data-action="https://python.hotexamples.com/search">
+                                                        Python
+                                                    </A>
+                                                </LI>
+                                            </UL>
+                                        </DIV><INPUT name="SearchForm[search]" class="form-control" id="searchform-search" aria-required="true" autofocus="" type="text" placeholder="Example: DateTime.Now" value="">
+                                        <SPAN class="input-group-btn clear">
+                                            <BUTTON name="search" class="btn btn-primary"
+                                                    type="submit">
+                                                Search
+                                            </BUTTON>
+                                        </SPAN>
+                                    </DIV>
+                                </FORM>
+                            </DIV>
+                        </DIV>
+                    </DIV>
+                </DIV>
+            </main>
+            <DIV class="container">
+                <!--<SPAN class="ezoic-adpicker-ad" id="ezoic-pub-ad-placeholder-141"></SPAN><SPAN class="ezoic-ad box-2 adtester-container adtester-container-141" style="margin: 15px 0px !important; text-align: center !important; float: none; display: block !important; min-height: 250px; min-width: 970px;"
+                                                                                               data-ez-name="hotexamples_com-box-2">
+                    <SPAN class="ezoic-ad" id="div-gpt-ad-hotexamples_com-box-2-0"
+                          style="display: inline-block; position: relative; z-index: 0; min-height: 250px; min-width: 970px;"
+                          ezah="250" ezaw="970">
+                        <SCRIPT style="display: none;" type="text/javascript" data-cfasync="false">eval(ez_write_tag([[970, 250], 'hotexamples_com-box-2', 'ezslot_0', 141, '0', '0']));</SCRIPT>
+                    </SPAN>
+                </SPAN>-->
+                <DIV class="row description">
+                    <DIV class="col-md-12">
+                        <H2>Hot Examples<SPAN> - Source Code Usage Examples Aggregator</SPAN></H2>
+                        This service was created to help programmers find real examples of
+                        using classes and methods as well as documentation. Our system automatically
+                        searches, retrieves and ranks examples of source code from more than 1 million
+                        opensource projects. A key feature of the service is an opportunity to see
+                        examples of using a particular class or method from multiple projects on a
+                        single page.
+                    </DIV>
+                </DIV>
+            </DIV>
+        </DIV>
+    </DIV><FOOTER class="footer">
+        <DIV class="container">
+            <DIV class="row">
+                <DIV class="col-md-12" style="text-align: center;">
+                    <A href="https://csharp.hotexamples.com/site/trends?type=csharp%7Cc">
+                        Top Classes
+                    </A>                                    |                     <A href="https://csharpdoc.hotexamples.com/doc/map">Documentation</A>
+                </DIV>
+            </DIV>
+            <DIV class="row">
+                <DIV class="col-md-12" style="text-align: center;">
+                    <A href="https://hotexamples.com/">PHP</A>
+                    | <A href="https://csharp.hotexamples.com/">C# (CSharp)</A>
+                    | <A href="https://java.hotexamples.com/">Java</A>
+                    | <A href="https://golang.hotexamples.com/">Golang</A>
+                    | <A href="https://cpp.hotexamples.com/">C++ (Cpp)</A>
+                    | <A href="https://python.hotexamples.com/">Python</A>
+                </DIV>
+            </DIV>
+            <DIV class="row">
+                <DIV class="col-md-12" style="text-align: center;">
+                    <A href="https://csharp.hotexamples.com/">EN</A>
+                    |
+                    <A href="https://csharp.hotexamples.com/ru/">RU</A>
+                    | <A href="https://csharp.hotexamples.com/de/">DE</A>
+
+                </DIV>
+            </DIV>
+            <DIV class="row">
+                <DIV class="col-md-10 col-md-offset-1"></DIV>
+                <DIV class="col-md-1">
+                    <!--LiveInternet counter-->
+                    <SCRIPT type="text/javascript"><!--
+                        document.write("<a href='//www.liveinternet.ru/click' " +
+                            "target=_blank><img src='//counter.yadro.ru/hit?t44.6;r" +
+                            escape(document.referrer) + ((typeof(screen) == "undefined") ? "" :
+                                ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                                screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                            ";" + Math.random() +
+                            "' alt='' title='LiveInternet' " +
+                            "border='0' width='31' height='31'><\/a>");
+                        //--></SCRIPT>
+                    <!--/LiveInternet-->
+                </DIV>
+            </DIV>
+        </DIV>
+    </FOOTER>
+    <SCRIPT src="index_files/20db52cf173f6dee33d3c07c57d0ab794b51a67c.js"></SCRIPT>
+
+    <SCRIPT>
+jQuery(function ($) {
+    jQuery('#search-form').yiiActiveForm([{ "id": "searchform-lang", "name": "lang", "container": ".field-searchform-lang", "input": "#searchform-lang", "enableAjaxValidation": true }, { "id": "searchform-search", "name": "search", "container": ".field-searchform-search", "input": "#searchform-search", "enableAjaxValidation": true, "validate": function (attribute, value, messages, deferred, $form) { yii.validation.required(value, messages, { "message": "Search cannot be blank." }); } }], []);
+});</SCRIPT>
+
+    <SCRIPT type="text/javascript">
+        (function (f, a) { function g(b, a, c) { b.addEventListener ? b.addEventListener(a, c) : b.attachEvent("on" + a, function () { c.call(b) }) } function k(b) { b && ("string" == typeof b["class"] && b["class"] && a.getElementById("uglipop_popbox").setAttribute("class", b["class"]), b.keepLayout && !b["class"] && a.getElementById("uglipop_popbox").setAttribute("style", "position:relative;height:300px;width:300px;background-color:white;opacity:1;"), "string" == typeof b.content && b.content && "html" == b.source && (a.getElementById("uglipop_popbox").innerHTML = b.content), "string" == typeof b.content && b.content && "div" == b.source && (a.getElementById("uglipop_popbox").innerHTML = a.getElementById(b.content).innerHTML)); a.getElementById("uglipop_overlay_wrapper").style.display = ""; a.getElementById("uglipop_overlay").style.display = ""; a.getElementById("uglipop_content_fixed").style.display = "" } function h() { a.getElementById("uglipop_overlay_wrapper").style.display = "none"; a.getElementById("uglipop_overlay").style.display = "none"; a.getElementById("uglipop_content_fixed").style.display = "none" } g(a, "DOMContentLoaded", function () { var b = a.createElement("div"), e = a.createElement("div"), c = a.createElement("div"), d = a.createElement("div"); e.id = "uglipop_content_fixed"; e.setAttribute("style", "position:fixed;top: 50%;left: 50%;transform: translate(-50%, -50%);-webkit-transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);opacity:1;z-index:10000000;"); c.id = "uglipop_popbox"; d.id = "uglipop_overlay_wrapper"; d.setAttribute("style", "position:absolute;top:0;bottom:0;left:0;right:0;display:none"); b.id = "uglipop_overlay"; b.setAttribute("style", "position:fixed;top:0;bottom:0;left:0;right:0;opacity:0.3;width:100%;height:100%;background-color:black;"); d.appendChild(b); e.appendChild(c); a.body.appendChild(d); a.body.appendChild(e); a.getElementById("uglipop_overlay_wrapper").style.display = "none"; a.getElementById("uglipop_overlay").style.display = "none"; a.getElementById("uglipop_content_fixed").style.display = "none"; d.addEventListener("click", h); g(f, "keydown", function (a) { 27 == a.keyCode && h() }); f.uglipop = k }) })(window, document);
+        var ezRBA = (function () {
+            function init() {
+                var reportAdsBtns = document.querySelectorAll('.ez-report-ad-button');
+                for (var i = 0; i < reportAdsBtns.length; i++) {
+                    //reportAdsBtns[i].addEventListener('click', function (e) {
+                    //    var url = '<iframe src="https://ezoic.com/pub/reportads/reportads.html' + e.target.getAttribute('name') + '" width="400" height="500" style="border-radius: 10px; box-shadow: 2px 2px 30px 6px rgba(0,0,0,0.75); border: 1px solid black;"></iframe>'
+                    //    uglipop({
+                    //        class: 'none',
+                    //        source: 'html',
+                    //        content: url,
+                    //    });
+                    //});
+                }
+                function bindEvent(element, eventName, eventHandler) {
+                    if (element.addEventListener) {
+                        element.addEventListener(eventName, eventHandler, false);
+                    } else if (element.attachEvent) {
+                        element.attachEvent('on' + eventName, eventHandler);
+                    }
+                }
+                bindEvent(window, 'message', function (e) {
+                    if (e.data === 'close-report-ad-modal') {
+                        document.getElementById('uglipop_overlay_wrapper').style.display = 'none';
+                        document.getElementById('uglipop_overlay').style.display = 'none';
+                        document.getElementById('uglipop_content_fixed').style.display = 'none';
+                    }
+                })
+            }
+
+            return {
+                init: init
+            };
+        })();
+        ezRBA.init();
+    </SCRIPT>
+
+    <SCRIPT style="display: none;" type="text/javascript" data-pagespeed-no-defer="" data-cfasync="false">
+        __ez_func_ezosuigeneris = function () { if (typeof ezosuigeneris != "undefined") { var ezosuigenerisDate = new Date(); ezosuigenerisDate.setMonth(ezosuigenerisDate.getMonth() + 24); __ez.ck.setByCat("ezosuigeneris=" + window.ezosuigeneris + ";expires=" + ezosuigenerisDate.toUTCString() + ";domain=" + window.ezdomain + ";path=/", 3); } };
+        __ez.queue.addFunc('__ez_func_ezosuigeneris', '__ez_func_ezosuigeneris', null, false, ['__ezf_ezosuigeneris'], true, false, false, false);
+    </SCRIPT>
+
+    <SCRIPT style="display: none;" type="text/javascript">
+        var __ez_dims = (function () {
+            var setCookie = function (name, content, expiry) {
+                return document.cookie = name + '=' + content + ((expiry) ? ';expires=' + (new Date(Math.floor(new Date().getTime() + expiry * 1000)).toUTCString()) : '') + ';path=/';
+            };
+            var ffid = 1;
+            var oh = window.screen.height;
+            var ow = window.screen.width;
+            var h = ffid === 1 ? oh : (oh > ow) ? oh : ow;
+            var w = ffid === 1 ? ow : (oh > ow) ? ow : oh;
+            var uh = window.innerHeight || document.documentElement.clientHeight || document.getElementsByTagName('body')[0].clientHeight;
+            var uw = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth;
+            setCookie('ezds', encodeURIComponent('ffid=' + ffid + ',w=' + w + ',h=' + h), (31536e3 * 7));
+            setCookie('ezohw', encodeURIComponent('w=' + uw + ',h=' + uh), (31536e3 * 7));
+        })();
+    </SCRIPT>
+
+    <SCRIPT style="display: none;" type="text/javascript" async="">
+        __ez.queue.addFile('edmonton.php', '/detroitchicago/edmonton.webp?a=a&cb=187-0&shcb=32', true, [], true, false, false, false);
+        __ez.queue.addFile('jellyfish.php', '/porpoiseant/jellyfish.webp?a=a&cb=187-0&shcb=32', false, [], true, false, false, false);
+    </SCRIPT>
+
+    <SCRIPT>var _audins_dom = "hotexamples_com", _audins_did = 110793; __ez.queue.addDelayFunc("audins.js", "__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=187-0");</SCRIPT>
+    <NOSCRIPT>
+        &lt;div style="display:none;"&gt;&lt;img
+        src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.hotexamples_com,DomainId.110793"
+        border="0" height="1" width="1"
+        alt="Quantcast"/&gt;&lt;/div&gt;
+    </NOSCRIPT><NOSCRIPT>
+        &lt;img
+        src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=20015427&amp;cv=2.0&amp;cj=1"/&gt;
+    </NOSCRIPT>
+    <DIV id="dmo1" style="display: none;">
+        <SCRIPT type="text/javascript"><!--
+		google_ad_client = "ca-pub-5902083285302779";
+		/* dmo */
+		google_ad_slot = "dmo";
+		google_ad_width = 88;
+		google_ad_height = 31;
+		//-->
+        </SCRIPT>
+
+        <!--<SCRIPT src="index_files/f.txt" type="text/javascript"></SCRIPT>-->
+    </DIV>
+</BODY>
+</HTML><!--[selectron:done]-->
