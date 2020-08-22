@@ -539,6 +539,7 @@ commentBox('my-project-id');
                 // callback for events triggered by the plugin
                 var c = d;
             });
+            FB.CustomerChat.showDialog();
         };
         function addfbmsg() {
             var js, fjs = document.getElementsByTagName('script')[0], id = 'facebook-jssdk';
@@ -552,7 +553,7 @@ commentBox('my-project-id');
     <!-- Your Chat Plugin code -->
     <div class="fb-customerchat"
          attribution=setup_tool
-         page_id="108420570980982" greeting_dialog_display="hide">
+         page_id="108420570980982" greeting_dialog_display="show">
     </div>
 </body>
 </html>
