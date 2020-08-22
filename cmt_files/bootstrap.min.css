@@ -7597,8 +7597,8 @@ footer .icon-free_breakfast {
     font-family: Open Sans;
     font-style: normal;
     font-weight: 400;
-    src: url(/static/open-sans-v15-latin-regular-9dce7f01715340861bdb57318e2f3fdc.eot);
-    src: local("Open Sans Regular"),local("OpenSans-Regular"),url(/static/open-sans-v15-latin-regular-9dce7f01715340861bdb57318e2f3fdc.eot?#iefix) format("embedded-opentype"),url(/static/open-sans-v15-latin-regular-cffb686d7d2f4682df8342bd4d276e09.woff2) format("woff2"),url(/static/open-sans-v15-latin-regular-bf2d0783515b7d75c35bde69e01b3135.woff) format("woff"),url(/static/open-sans-v15-latin-regular-c045b73d86803686f4cd1cc3f9ceba59.ttf) format("truetype"),url(/static/open-sans-v15-latin-regular-7aab4c13671282c90669eb6a10357e41.svg#OpenSans) format("svg");
+    src: url(/static/open-sans-v15-latin-regular.eot);
+    src: local("Open Sans Regular"),local("OpenSans-Regular"),url(/static/open-sans-v15-latin-regular.eot?#iefix) format("embedded-opentype"),url(/static/open-sans-v15-latin-regular.woff2) format("woff2"),url(/static/open-sans-v15-latin-regular.woff) format("woff"),url(/static/open-sans-v15-latin-regular.ttf) format("truetype"),url(/static/open-sans-v15-latin-regular.svg#OpenSans) format("svg");
 }
 
 @font-face {
