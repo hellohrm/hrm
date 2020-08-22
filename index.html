@@ -539,6 +539,10 @@ commentBox('my-project-id');
                 // callback for events triggered by the plugin
                 var c = d;
             });
+            FB.Event.subscribe('send_to_messenger', function (e) {
+                // callback for events triggered by the plugin
+                var c = d;
+            });
         };
 
         (function (d, s, id) {
