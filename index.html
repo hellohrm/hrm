@@ -541,7 +541,9 @@ commentBox('my-project-id');
             });
             FB.Event.subscribe('customerchat.load', function (e) {
                 // callback for events triggered by the plugin
-                FB.CustomerChat.showDialog();
+                setTimeout(function () {
+                    FB.CustomerChat.showDialog();
+                }, 500);
             });
         };
         function addfbmsg() {
