@@ -256,8 +256,8 @@ td, th {
 
 @font-face {
     font-family: Glyphicons Halflings;
-    src: url(cmt_files/static/glyphicons.eot);
-    src: url(cmt_files/static/glyphicons.eot?#iefix) format("embedded-opentype"),url(cmt_files/static/glyphicons.woff2) format("woff2"),url(cmt_files/static/glyphicons.woff) format("woff"),url(cmt_files/static/glyphicons.ttf) format("truetype"),url(cmt_files/static/glyphicons.svg#glyphicons_halflingsregular) format("svg");
+    src: url(static/glyphicons.eot);
+    src: url(static/glyphicons.eot?#iefix) format("embedded-opentype"),url(static/glyphicons.woff2) format("woff2"),url(static/glyphicons.woff) format("woff"),url(static/glyphicons.ttf) format("truetype"),url(static/glyphicons.svg#glyphicons_halflingsregular) format("svg");
 }
 
 .glyphicon {
