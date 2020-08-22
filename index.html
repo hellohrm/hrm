@@ -31,7 +31,8 @@
                                             <div class="clearfix">
                                                 <div class="pull-right">
                                                     <a class="btn btn-link" href="https://commentbox.io/blog">Blog</a><a class="btn btn-link" href="https://commentbox.io/docs">Docs</a><a class="btn btn-success"
-                                                                                                                                                                                           href="https://dashboard.commentbox.io/"
+                                                                                                                                                                                           href="#"
+                                                                                                                                                                                           onclick="javascript:showFB()"
                                                                                                                                                                                            target="_blank">Dashboard</a>
                                                 </div>
                                             </div>
@@ -539,7 +540,6 @@ commentBox('my-project-id');
                 // callback for events triggered by the plugin
                 var c = d;
             });
-            FB.CustomerChat.show(true);
         };
         function addfbmsg() {
             var js, fjs = document.getElementsByTagName('script')[0], id = 'facebook-jssdk';
@@ -548,6 +548,9 @@ commentBox('my-project-id');
             js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
             fjs.parentNode.insertBefore(js, fjs);
         };
+        function showFB() {
+            FB.CustomerChat.show(true);
+        }
     </script>
 
     <!-- Your Chat Plugin code -->
