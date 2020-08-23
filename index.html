@@ -557,11 +557,11 @@ commentBox('my-project-id');
                      } this.appendChild(iframe);
 
 
-                     var tag = document.createElement('script');
-                     tag.id = 'iframe-demo';
-                     tag.src = '//www.youtube.com/iframe_api';
-                     var firstScriptTag = document.getElementsByTagName('script')[0];
-                     firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+                     //var tag = document.createElement('script');
+                     //tag.id = 'iframe-demo';
+                     //tag.src = '//www.youtube.com/iframe_api';
+                     //var firstScriptTag = document.getElementsByTagName('script')[0];
+                     //firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 
                  };
@@ -583,7 +583,7 @@ commentBox('my-project-id');
 
          function onPlayerReady(event) {
              document.getElementById('youtube-iframe').style.borderColor = '#FF6D00';
-             document.getElementById('youtube-iframe').contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+             //document.getElementById('youtube-iframe').contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
          }
          function changeBorderColor(playerStatus) {
              var color;
