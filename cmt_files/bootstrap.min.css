@@ -7682,9 +7682,9 @@ footer .icon-free_breakfast {
     margin: 0;
 }
 
-body {
+/*body {
     font-family: Open Sans,sans-serif;
-}
+}*/
 
     body a, body button {
         transition: color .15s cubic-bezier(.4,0,1,1);
