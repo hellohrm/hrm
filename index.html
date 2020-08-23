@@ -585,8 +585,8 @@ commentBox('my-project-id');
              event.target.f.style.borderColor = '#FF6D00';
              event.target.playVideo();
          }
-         function changeBorderColor(playerStatus) {
-             var color;
+         function changeBorderColor(event ) {
+             var color, playerStatus = event.data;
              if (playerStatus == -1) {
                  color = "#37474F"; // unstarted = gray
              } else if (playerStatus == 0) {
@@ -601,11 +601,11 @@ commentBox('my-project-id');
                  color = "#FF6DOO"; // video cued = orange
              }
              if (color) {
-                 document.getElementById('youtube-iframe').style.borderColor = color;
+                 event.target.f.style.borderColor = color;
              }
          }
          function onPlayerStateChange(event) {
-             changeBorderColor(event.data);
+             changeBorderColor(event);
          }
 
     </script>
