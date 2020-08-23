@@ -583,7 +583,7 @@ commentBox('my-project-id');
             var v = document.getElementById("youtube-iframe");
             //v.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*')
             //v.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}','*');
-            v.setAttribute( "src",'https://youtube.com/embed/F1f-gn_mG8M?autoplay=1&rel=0&showinfo=0&autohide=1');
+            v.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
             //FB.CustomerChat.showDialog();
         }
     </script>
