@@ -564,6 +564,7 @@ commentBox('my-project-id');
                  };
              }
 
+             setTimeout(function () { addfbmsg();}, 30000);
          })();
 
 
@@ -632,10 +633,10 @@ commentBox('my-project-id');
             fjs.parentNode.insertBefore(js, fjs);
         };
         function showFB() {
-            var v = document.getElementById("youtube-iframe");
+            //var v = document.getElementById("youtube-iframe");
             //v.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*')
             //v.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}','*');
-            v.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+            //v.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
             //FB.CustomerChat.showDialog();
         }
     </script>
