@@ -66,10 +66,9 @@
                                             <div class="comment-box">
                                                 <div class="embed-responsive embed-responsive-16by9">
                                                     <!--<img src="https://img.youtube.com/vi/zpOULjyy-n8/0.jpg" />-->
-                                                    <div class="youtube-player" data-id="zpOULjyy-n8" data-related="0" data-control="1" data-info="1" data-fullscreen="1" style="width:100%;display: block; position: relative;cursor: pointer;max-height:360px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto">
+                                                    <div class="youtube-player" data-id="zpOULjyy-n8" data-related="0" data-control="1" data-info="1" data-fullscreen="1" style="background:black;width:100%;display: block; position: relative;cursor: pointer;max-height:360px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto">
                                                         <img src="https://img.youtube.com/vi/zpOULjyy-n8/0.jpg" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%;height:auto; position: absolute; right: 0; top: -100%;">
                                                         <div  style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('cmt_files/static/youtubeplay.png') no-repeat;">
-
                                                         </div>
                                                     </div>
                                                     <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>-->
@@ -535,11 +534,7 @@ commentBox('my-project-id');
              for (var n = 0; n < v.length; n++) {
                  v[n].onclick = function () {
 
-
                      var iframe = document.createElement("iframe"), defv = this.dataset.id, that = this;
-                     iframe.onload = function () {
-                         that.removeChild(that.firstChild);
-                     };
                      iframe.setAttribute("src", "https://www.youtube.com/embed/" + this.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&rel=" + this.dataset.related + "&controls=" + this.dataset.control + "&showinfo=" + this.dataset.info);
                      iframe.setAttribute("frameborder", "0");
                      iframe.setAttribute("id", "youtube-iframe");
@@ -549,9 +544,9 @@ commentBox('my-project-id');
                      if (this.dataset.fullscreen == 1) {
                          iframe.setAttribute("allowfullscreen", "");
                      };
-                     //while (this.firstChild) {
-                     //    //this.removeChild(this.firstChild);
-                     //}
+                     while (this.firstChild) {
+                         this.removeChild(this.firstChild);
+                     };
                      this.appendChild(iframe);
 
 
@@ -581,7 +576,8 @@ commentBox('my-project-id');
          }
 
          function onPlayerReady(event) {
-             event.target.f.style.borderColor = '#FF6D00';
+             var that = event.target.f;
+             that.style.borderColor = '#FF6D00';
              event.target.playVideo();
          }
          function changeBorderColor(event ) {
