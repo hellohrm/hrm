@@ -583,7 +583,7 @@ commentBox('my-project-id');
 
          function onPlayerReady(event) {
              document.getElementById('youtube-iframe').style.borderColor = '#FF6D00';
-             //document.getElementById('youtube-iframe').contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+             document.getElementById('youtube-iframe').contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
          }
          function changeBorderColor(playerStatus) {
              var color;
