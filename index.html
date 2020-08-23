@@ -536,10 +536,9 @@ commentBox('my-project-id');
                  v[n].onclick = function () {
 
 
-                     var iframe = document.createElement("iframe");
-                     var defv = this.dataset.id;
+                     var iframe = document.createElement("iframe"), defv = this.dataset.id, that = this;
                      iframe.onload = function () {
-               
+                         that.removeChild(that.firstChild);
                      };
                      iframe.setAttribute("src", "https://www.youtube.com/embed/" + this.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&rel=" + this.dataset.related + "&controls=" + this.dataset.control + "&showinfo=" + this.dataset.info);
                      iframe.setAttribute("frameborder", "0");
@@ -549,9 +548,11 @@ commentBox('my-project-id');
 
                      if (this.dataset.fullscreen == 1) {
                          iframe.setAttribute("allowfullscreen", "");
-                     } while (this.firstChild) {
-                         this.removeChild(this.firstChild);
-                     } this.appendChild(iframe);
+                     };
+                     //while (this.firstChild) {
+                     //    //this.removeChild(this.firstChild);
+                     //}
+                     this.appendChild(iframe);
 
 
                      var tag = document.createElement('script');
