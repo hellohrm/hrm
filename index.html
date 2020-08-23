@@ -536,9 +536,9 @@ commentBox('my-project-id');
          v[n].onclick = function () {
              var iframe = document.createElement("iframe");
              var defv = this.dataset.id;
-             //iframe.onload = function () {
-             //    iframe.setAttribute("src", 'https://www.youtube.com/embed/' + defv + '?autoplay=1&rel=0&showinfo=0&autohide=1&start=0');
-             //};
+             iframe.onload = function () {
+                 iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+             };
              iframe.setAttribute("src", "https://www.youtube.com/embed/" + this.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&rel=" + this.dataset.related + "&controls=" + this.dataset.control + "&showinfo=" + this.dataset.info);
              iframe.setAttribute("frameborder", "0");
              iframe.setAttribute("id", "youtube-iframe");
