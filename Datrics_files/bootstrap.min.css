@@ -455,7 +455,11 @@ pre code {
 	-ms-overflow-y: scroll; max-height: 340px;
 }
 .container {
-	width: 100%; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;
+	width: 100%;
+	/* padding-right: 15px; */
+	/* padding-left: 15px; */
+	margin-right: auto;
+	margin-left: auto;
 }
 @media all and (min-width:576px)
 {
@@ -485,7 +489,10 @@ pre code {
 	width: 100%; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto;
 }
 .row {
-	margin-right: -15px; margin-left: -15px; display: flex; flex-wrap: wrap;
+	/* margin-right: -15px; */
+	/* margin-left: -15px; */
+	display: flex;
+	flex-wrap: wrap;
 }
 .no-gutters {
 	margin-right: 0px; margin-left: 0px;
@@ -3614,7 +3621,13 @@ input[type=submit].btn-block {
 	display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;
 }
 .navbar-brand {
-	line-height: inherit; padding-top: 0.31rem; padding-bottom: 0.31rem; font-size: 1.25rem; margin-right: 1rem; display: inline-block; white-space: nowrap;
+	line-height: inherit;
+	/* padding-top: 0.31rem; */
+	padding-bottom: 0.31rem;
+	font-size: 1.25rem;
+	margin-right: 1rem;
+	display: inline-block;
+	white-space: nowrap;
 }
 .navbar-brand:focus {
 	text-decoration: none;
