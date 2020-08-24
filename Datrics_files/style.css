@@ -1502,7 +1502,7 @@ svg.shape-bg, svg.promo-bg {
 }
 .gradient-overly-right:before {
     background: -webkit-gradient(linear, left top, right top, color-stop(0, #1A2C79), to(transparent));
-    background: linear-gradient(to right, #000000 30%, rgba(26, 44, 121, 0.18) 100%);
+    background: linear-gradient(to right, #000000 0%, rgba(26, 44, 121, 0.18) 100%);
 }
 .gradient-overly-left:before {
     background: -webkit-gradient(linear, left top, right top, color-stop(0, #0059ec), to(transparent));
