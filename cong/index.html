@@ -28,6 +28,10 @@
             box-shadow: none!important; 
             color:white;
         }
+        .custommodal-footer {
+            text-align: right;
+            padding: 10px;
+        }
     </style>
 
 </head>
@@ -166,6 +170,8 @@
                                                                 Tame the wild west of internet comments with granular comment filters and
                                                                 blocking.
                                                             </P>
+                                                            <a href="javascript:void(0)" onclick="downloadx(this,event)"  data-width="400" data-height="250" data-gallery="remoteload" data-disableexternalcheck="true">Bootstrap Docs</a>
+                                                        <!--<a href="http://localhost:35582/dlfiles/taive.html" data-title="Bootstrap" data-width="1200" data-toggle="lightbox" data-gallery="remoteload" data-disableExternalCheck="true">Bootstrap Docs</a>-->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -661,6 +667,32 @@ commentBox('my-project-id');
             js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
             fjs.parentNode.insertBefore(js, fjs);
         };
+        function mekiep(el, event) {
+            event.preventDefault();
+            $(el).closest('div[id*="ekkoLightbox-"]').data('bs.modal').hide();
+        }
+        function downloadx(el, event) {
+            event.preventDefault();
+
+            var ur = window.location.origin + '/dlfiles/taive.html?dlfile=' + encodeURIComponent(window.location.origin + '/dlfiles/hellohrm.zip');
+            $(el).attr('href', ur);
+            $(el).attr('data-footer', "...");
+
+            $(el).ekkoLightbox({
+                customfooter: '<div class="custommodal-footer"><button type="button" class="btn btn-primary" onclick="mekiep(this,event)"' + '">Đóng</button></div>',
+                onShown: function () {
+                    if (window.console) {
+                        return console.log('Checking our the events huh?');
+                    }
+                },
+                onNavigate: function (direction, itemIndex) {
+                    if (window.console) {
+                        return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
+                    }
+                }
+            });
+        }
+
         function showFB() {
             //var v = document.getElementById("youtube-iframe");
             //v.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*')
@@ -680,22 +712,22 @@ commentBox('my-project-id');
                                             fuck();
 
  
-                                            $("#tmpimgs").load("imgs.html", function () {
+                                            //$("#tmpimgs").load("imgs.html", function () {
 
-                                                $('#testimg').ekkoLightbox({
-                                                    onShown: function () {
-                                                        if (window.console) {
-                                                            return console.log('Checking our the events huh?');
-                                                        }
-                                                    },
-                                                    onNavigate: function (direction, itemIndex) {
-                                                        if (window.console) {
-                                                            return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
-                                                        }
-                                                    }
-                                                });
+                                            //    $('#testimg').ekkoLightbox({
+                                            //        onShown: function () {
+                                            //            if (window.console) {
+                                            //                return console.log('Checking our the events huh?');
+                                            //            }
+                                            //        },
+                                            //        onNavigate: function (direction, itemIndex) {
+                                            //            if (window.console) {
+                                            //                return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
+                                            //            }
+                                            //        }
+                                            //    });
 
-                                            });
+                                            //});
 
                                             
 
