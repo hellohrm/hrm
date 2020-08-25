@@ -12,8 +12,8 @@
     </TITLE>
     <LINK href="/src/favicon.png" rel="icon" type="image/png">
 
-
-    <link rel="stylesheet" href="../src/commentbox/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/commentbox/commentbox.css">
     <!--<link href="/src/dist/ekko-lightbox.css" rel="stylesheet">-->
 
 
@@ -669,14 +669,14 @@ commentBox('my-project-id');
             //FB.CustomerChat.showDialog();
 
             if (typeof jQuery == 'undefined') {
-                getScript('/src/common/jquery-3.5.1.min.js', 'js', function () {
+                getScript('/src/js/jquery-3.5.1.min.js', 'js', function () {
                     getScript('/src/dist/ekko-lightbox.css', 'css', function () {
 
                         if (typeof Tether == 'undefined') {
                             getScript('/src/dist/tether.min.js', 'js', function () {
-                                getScript('//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', 'js', function () {
+                                getScript('/src/js/bootstrap.min.js', 'js', function () {
                                     getScript('/src/dist/ekko-lightbox.js', 'js', function () {
-                                        getScript('//cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.1/anchor.min.js', 'js', function () {
+                                        getScript('/src/dist/anchor.min.js', 'js', function () {
                                             fuck();
 
  
