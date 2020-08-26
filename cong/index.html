@@ -12,9 +12,23 @@
         Phần Mềm Hello HRM
     </TITLE>
 
-    <!--<script type="text/javascript">
-        window.history.pushState({ a: 1 }, 'PageTitle', '/bang-cham-cong');
-    </script>-->
+    <script type="text/javascript">
+        var pURL = {}, defi = 0;
+        if (location.search) {
+            var parts = location.search.substring(1).split('&');
+            for (var i = 0; i < parts.length; i++) {
+                var nv = parts[i].split('=');
+                if (!nv[0]) continue;
+                pURL[nv[0]] = nv[1] || true;
+            }
+        }
+        if (pURL['fakeurl'] != undefined) {
+            window.history.pushState({ a: 1 }, 'PageTitle', window.location.origin + '/' + pURL['fakeurl']);
+            window.onpopstate = function () {
+                history.go(1);
+            };
+        }
+    </script>
 
     <LINK href="/src/favicon.png" rel="icon" type="image/png">
 
