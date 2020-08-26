@@ -11,11 +11,20 @@
     <TITLE>
         Phần Mềm Hello HRM
     </TITLE>
+
+    <script type="text/javascript">
+        window.history.pushState({ a: 1 }, 'PageTitle', '/abc');
+        window.onpopstate = function () {
+            history.go(1);
+        };
+    </script>
+
     <LINK href="/src/favicon.png" rel="icon" type="image/png">
 
     <link rel="stylesheet" href="/src/css/bootstrap.min.css">
     <link rel="stylesheet" href="/src/commentbox/commentbox.css">
     <!--<link href="/src/dist/ekko-lightbox.css" rel="stylesheet">-->
+
 
 
     <style type="text/css">
