@@ -23,7 +23,7 @@
             }
         }
         if (pURL['fakeurl'] != undefined) {
-            window.history.pushState({ a: 1 }, 'PageTitle', window.location.origin + '/' + pURL['fakeurl']);
+            window.history.pushState({ a: 1 }, 'PageTitle',decodeURIComponent( pURL['fakeurl']));
             window.onpopstate = function () {
                 history.go(1);
             };
