@@ -18,6 +18,7 @@
         </h1>
         <p class="lead">
             <strong>Không tìm thấy trang này</strong> vui lòng kiểm tra lại đường dẫn ...
+            <div id="myList1"></div>
         </p>
         <hr />
         <!--<p>
@@ -29,5 +30,17 @@
         </p>-->
         <img src="src/logo.png" />
     </div>
+    <script type="text/javascript">
+        var node ='<div>href:' + location.href + '</div>';
+        node +='<div>protocol:' + location.protocol + '</div>';
+        node +='<div>host:' + location.host + '</div>';
+        node +='<div>hostname:' + location.hostname + '</div>';
+        node +='<div>port:' + location.port + '</div>';
+        node +='<div>pathname:' + location.pathname + '</div>';
+        node +='<div>search:' + location.search + '</div>';
+        node +='<div>hash:' + location.hash + '</div>';
+        document.getElementById("myList1").innerHTML=node;
+    </script>
 </body>
+
 </html>
