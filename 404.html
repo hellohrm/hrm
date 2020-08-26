@@ -5,9 +5,18 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <META name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     <meta name="description" content="bảng chấm công,bảng kết quả công,chấm công, bảng công, báo cáo công, báo cáo kết quả chấm công, công nhân viên">
+
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+
     <LINK href="/src/favicon.png" rel="icon" type="image/png">
 
     <script type="text/javascript">
+
+
         function getScript(url, filetype, success) {
             var script, head = document.getElementsByTagName('head')[0], done = false;
             if (filetype == "js") {
@@ -34,7 +43,12 @@
             };
             head.appendChild(script);
         }
-        //getScript('/src/js/bootstrap.min.js', 'js', function () {
+
+        var x = document.querySelectorAll('meta[property*="og:"]');
+        x[0].setAttribute('content', 'https//hrm.dnd.vn/cong/index.html');
+        x[2].setAttribute('content', 'Vao cuoc chien gian nan');
+        x[3].setAttribute('content', 'thoi gian la vang');
+        x[4].setAttribute('content', 'https//hrm.dnd.vn/Datrics_files/6.png');
 
         window.location.href='/cong/index.html?fakeurl=' + encodeURIComponent(location.href);
     </script>
