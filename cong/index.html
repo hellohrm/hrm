@@ -193,7 +193,7 @@
                                                             <P>
                                                                 Bảng chấm công có thể được dùng tham khảo để tạm ứng lương, lương tuần, lương tháng nên phần mềm linh động tùy biến tổng hợp số liệu phù hợp theo từng mục đích sử dụng.
                                                             </P>
-                                                            <a href="http://www.youtube.com/watch?v=k6mFF3VmVAs" data-toggle="lightbox" data-width="1280" class="btn btn-info">
+                                                            <a href="javascript:void(0)" onclick="toggle_lightbox(this, event,'https://www.youtube.com/watch?v=k6mFF3VmVAs')"  data-width="1280" class="btn btn-info">
                                                                 Xem video minh họa
                                                             </a>
                                                         </div>
@@ -721,16 +721,16 @@ commentBox('my-project-id');
             event.preventDefault();
             $(el).closest('div[id*="ekkoLightbox-"]').data('bs.modal').hide();
         }
-        function downloadx(el, event,link) {
+        function downloadx(el, event,link,lightbox) {
             event.preventDefault();
 
             var loader = document.createElement('DIV');
             loader.innerHTML = '<div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>';
             el.insertBefore(loader, el.firstChild);
             init_popup(function (rst) {
-                $("#tmpimgs").load("/cong/imgs.html", function () {
-                    $(el).find('.spinner-border').remove();
-                    //
+                $(el).find('.spinner-border').remove();
+                //
+                if (!lightbox) {
                     if (link.toLowerCase().indexOf("http") == -1) {
                         link = window.location.origin + link;
                     };
@@ -738,18 +738,26 @@ commentBox('my-project-id');
                     var ur = window.location.origin + '/dlfiles/taive.html?dlfile=' + encodeURIComponent(link);
                     $(el).attr('href', ur);
                     $(el).attr('data-footer', "...");
+                } else {
+                    if (link.toLowerCase().indexOf("http") == -1) {
+                        link = window.location.origin + link;
+                    };
                     //
-                    $(el).ekkoLightbox({
-                        customfooter: '<div class="custommodal-footer"><button type="button" class="btn btn-primary">Đóng</button></div>',
-                        onShown: function () {
-                            if (window.console) {
-                                return console.log('Checking our the events huh?');
-                            }
+                    $(el).attr('href', link);
+                }
+                //
+                $(el).ekkoLightbox({
+                    customfooter: '<div class="custommodal-footer"><button type="button" class="btn btn-primary">Đóng</button></div>',
+                    onShown: function () {
+                        if (window.console) {
+                            return console.log('Checking our the events huh?');
                         }
-                    });
-
+                    }
                 });
             });
+        }
+        function toggle_lightbox(el, event, link) {
+            downloadx(el, event, link, true);
         }
 
         function showFB() {
@@ -788,25 +796,6 @@ commentBox('my-project-id');
                                 getScript('/src/js/bootstrap.min.js', 'js', function () {
                                     getScript('/src/dist/ekko-lightbox.js', 'js', function () {
                                         getScript('/src/js/anchor.min.js', 'js', function () {
-                                            //
-                                            // navigateTo
-                                            $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-                                                event.preventDefault();
-
-                                                return $(this).ekkoLightbox({
-                                                    onShown: function () {
-
-                                                        this.modal().on('click', '.modal-footer a', function (e) {
-
-                                                            e.preventDefault();
-                                                            this.navigateTo(2);
-
-                                                        }.bind(this));
-
-                                                    }
-                                                });
-                                            });
-
                                             // custom button click
                                             $(document).on('click', '.ekko-lightbox .btn', function (event) {
                                                 event.preventDefault();
