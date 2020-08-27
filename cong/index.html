@@ -729,7 +729,7 @@ commentBox('my-project-id');
             loader.innerHTML = '<div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>';
             el.insertBefore(loader, el.firstChild);
             init_popup(function (rst) {
-                $("#tmpimgs").load("imgs.html", function () {
+                $("#tmpimgs").load("/cong/imgs.html", function () {
 
                     $(el).find('.spinner-border').remove();
 
