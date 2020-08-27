@@ -61,6 +61,13 @@
             padding-right:0px!important;
             margin:0px!important;
         }
+        .ekko-lightbox-loader{position:absolute;top:0;left:0;bottom:0;right:0;width:100%;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}
+        .ekko-lightbox-loader>div{width:40px;height:40px;position:relative;text-align:center}
+        .ekko-lightbox-loader>div>div{width:100%;height:100%;border-radius:50%;background-color:#fff;opacity:.6;position:absolute;top:0;left:0;animation:a 2s infinite ease-in-out}
+                                                                                             .ekko-lightbox-loader>div>div:last-child{animation-delay:-1s}
+                                                                                             .px-0 .ekko-lightbox-loader>div>div{background-color:red}
+                                                                                             @keyframes a{0%,to{transform:scale(0);
+                                                                                                                                                                                  -webkit-transform:scale(0)}50%{transform:scale(1);-webkit-transform:scale(1)}}
     </style>
 
 </head>
@@ -121,10 +128,15 @@
                                 <div class="container-fluid px-0">
                                     <div class="row">
                                         <div class="col-md-12">
+
+                                          
                                             <!--<div style="width:100%;height:auto">
 
                                             </div>-->
                                             <img src="/src/placehold1920x1080.png" alt="placeholder 960" class="img-responsive" />
+                                            <div class="ekko-lightbox-loader">
+                                                <div><div></div></div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -748,22 +760,22 @@ commentBox('my-project-id');
                                             fuck();
 
  
-                                            //$("#tmpimgs").load("imgs.html", function () {
+                                            $("#tmpimgs").load("imgs.html", function () {
 
-                                            //    $('#testimg').ekkoLightbox({
-                                            //        onShown: function () {
-                                            //            if (window.console) {
-                                            //                return console.log('Checking our the events huh?');
-                                            //            }
-                                            //        },
-                                            //        onNavigate: function (direction, itemIndex) {
-                                            //            if (window.console) {
-                                            //                return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
-                                            //            }
-                                            //        }
-                                            //    });
+                                                $('#testimg').ekkoLightbox({
+                                                    onShown: function () {
+                                                        if (window.console) {
+                                                            return console.log('Checking our the events huh?');
+                                                        }
+                                                    },
+                                                    onNavigate: function (direction, itemIndex) {
+                                                        if (window.console) {
+                                                            return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
+                                                        }
+                                                    }
+                                                });
 
-                                            //});
+                                            });
 
                                             
 
