@@ -721,39 +721,38 @@ commentBox('my-project-id');
             event.preventDefault();
             $(el).closest('div[id*="ekkoLightbox-"]').data('bs.modal').hide();
         }
-        function downloadx(el, event,link,lightbox) {
+        function downloadx(el, event,link,cb) {
             event.preventDefault();
-
-            var loader = document.createElement('DIV');
-            loader.innerHTML = '<div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>';
-            el.insertBefore(loader, el.firstChild);
-            init_popup(function (rst) {
-                $(el).find('.spinner-border').remove();
-                //
-                if (!lightbox) {
-                    if (link.toLowerCase().indexOf("http") == -1) {
-                        link = window.location.origin + link;
-                    };
-                    //
-                    var ur = window.location.origin + '/dlfiles/taive.html?dlfile=' + encodeURIComponent(link);
-                    $(el).attr('href', ur);
-                    $(el).attr('data-footer', "...");
+            //
+            prepare_popup(el,function (rst) {
+                if (typeof cb === "function") {
+                    cb();
                 } else {
-                    if (link.toLowerCase().indexOf("http") == -1) {
-                        link = window.location.origin + link;
-                    };
-                    //
-                    $(el).attr('href', link);
-                }
-                //
-                $(el).ekkoLightbox({
-                    customfooter: '<div class="custommodal-footer"><button type="button" class="btn btn-primary">Đóng</button></div>',
-                    onShown: function () {
-                        if (window.console) {
-                            return console.log('Checking our the events huh?');
-                        }
+                    if (!cb) {
+                        if (link.toLowerCase().indexOf("http") == -1) {
+                            link = window.location.origin + link;
+                        };
+                        //
+                        var ur = window.location.origin + '/dlfiles/taive.html?dlfile=' + encodeURIComponent(link);
+                        $(el).attr('href', ur);
+                        $(el).attr('data-footer', "..."); 
+                    } else {
+                        if (link.toLowerCase().indexOf("http") == -1) {
+                            link = window.location.origin + link;
+                        };
+                        //
+                        $(el).attr('href', link);
                     }
-                });
+                    //
+                    $(el).ekkoLightbox({
+                        customfooter: '<div class="custommodal-footer"><button type="button" class="btn btn-primary">Đóng</button></div>',
+                        onShown: function () {
+                            if (window.console) {
+                                return console.log('Checking our the events huh?');
+                            }
+                        }
+                    });
+                }
             });
         }
         function toggle_lightbox(el, event, link) {
@@ -785,7 +784,16 @@ commentBox('my-project-id');
 
 
         }
-
+        function prepare_popup(el,cb) {
+            var loader = document.createElement('DIV');
+            loader.innerHTML = '<div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>';
+            el.insertBefore(loader, el.firstChild);
+            init_popup(function (rst) {
+                $(el).find('.spinner-border').remove();
+                //
+                if (cb) cb(rst);
+            });
+        }
         function init_popup(cb) {
             if (typeof jQuery == 'undefined') {
                 getScript('/src/js/jquery-3.5.1.min.js', 'js', function () {
