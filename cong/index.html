@@ -730,7 +730,25 @@ commentBox('my-project-id');
             loader.innerHTML = '<div class="spinner-border" role="status"><span class="sr-only">Loading...</span></div>';
             el.insertBefore(loader, el.firstChild);
             init_popup(function (rst) {
-                $(el).find('.spinner-border').remove();
+                $("#tmpimgs").load("imgs.html", function () {
+
+                    $(el).find('.spinner-border').remove();
+
+                    $('#testimg').ekkoLightbox({
+                        onShown: function () {
+                            if (window.console) {
+                                return console.log('Checking our the events huh?');
+                            }
+                        },
+                        onNavigate: function (direction, itemIndex) {
+                            if (window.console) {
+                                return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
+                            }
+                        }
+                    });
+
+                });
+
             });
 
             //var ur = window.location.origin + '/dlfiles/taive.html?dlfile=' + encodeURIComponent(window.location.origin + '/dlfiles/hellohrm.zip');
@@ -760,22 +778,7 @@ commentBox('my-project-id');
             //FB.CustomerChat.showDialog();
 
             init_popup(function (rst) {
-                $("#tmpimgs").load("imgs.html", function () {
 
-                    $('#testimg').ekkoLightbox({
-                        onShown: function () {
-                            if (window.console) {
-                                return console.log('Checking our the events huh?');
-                            }
-                        },
-                        onNavigate: function (direction, itemIndex) {
-                            if (window.console) {
-                                return console.log('Navigating ' + direction + '. Current item: ' + itemIndex);
-                            }
-                        }
-                    });
-
-                });
             });
 
 
