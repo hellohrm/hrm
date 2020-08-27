@@ -128,15 +128,10 @@
                                 <div class="container-fluid px-0">
                                     <div class="row">
                                         <div class="col-md-12">
-
-                                          
-                                            <!--<div style="width:100%;height:auto">
-
-                                            </div>-->
-                                            <img src="/src/placehold1920x1080.png" alt="placeholder 960" class="img-responsive" />
                                             <div class="ekko-lightbox-loader">
                                                 <div><div></div></div>
                                             </div>
+                                            <img id="header_lazyimg" src="/src/placehold1920x1080.png" alt="placeholder 960" class="img-responsive" />
                                         </div>
                                     </div>
                                 </div>
@@ -899,6 +894,10 @@ commentBox('my-project-id');
             });
         }
 
+        var header_lazyimg = document.getElementById('header_lazyimg');
+        header_lazyimg.src = '/Tracer_files/courses-details1.jpg';
+        //header_lazyimg.parentNode.remove(header_lazyimg.previousSibling);
+        //
     </script>
 
     <!-- Your Chat Plugin code -->
