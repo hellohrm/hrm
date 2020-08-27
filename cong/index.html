@@ -220,8 +220,7 @@
                                                                 Tame the wild west of internet comments with granular comment filters and
                                                                 blocking.
                                                             </P>
-                                                            <a href="javascript:void(0)" onclick="downloadx(this,event)"  data-width="400" data-height="280" data-gallery="remoteload" data-disableexternalcheck="true">Bootstrap Docs</a>
-                                                        <!--<a href="http://localhost:35582/dlfiles/taive.html" data-title="Bootstrap" data-width="1200" data-toggle="lightbox" data-gallery="remoteload" data-disableExternalCheck="true">Bootstrap Docs</a>-->
+                                                            <a href="javascript:void(0)" onclick="downloadx(this, event, '/dlfiles/hellohrm.zip')"  data-width="400" data-height="280" data-gallery="remoteload" data-disableexternalcheck="true">Bootstrap Docs</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -791,7 +790,7 @@ commentBox('my-project-id');
                                         getScript('/src/js/anchor.min.js', 'js', function () {
                                             //
                                             // navigateTo
-                                            $(document).on('click', '[data-gallery="navigateTo"]', function (event) {
+                                            $(document).on('click', '[data-toggle="lightbox"]', function (event) {
                                                 event.preventDefault();
 
                                                 return $(this).ekkoLightbox({
