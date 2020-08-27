@@ -894,9 +894,11 @@ commentBox('my-project-id');
             });
         }
 
-        var header_lazyimg = document.getElementById('header_lazyimg');
-        header_lazyimg.src = '/Tracer_files/courses-details1.jpg';
-        //header_lazyimg.parentNode.remove(header_lazyimg.previousSibling);
+        setTimeout(function () {
+            var header_lazyimg = document.getElementById('header_lazyimg');
+            header_lazyimg.src = '/Tracer_files/courses-details1.jpg';
+        }, 3000);
+
         //
     </script>
 
