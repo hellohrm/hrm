@@ -871,19 +871,7 @@ commentBox('my-project-id');
         function topage(el, event, link) {
             event.preventDefault();
             //
-            var f = document.createElement('form');
-            f.action = link;
-            f.method = 'POST';
-            //f.target = '_blank';
-
-            var i = document.createElement('input');
-            i.type = 'hidden';
-            i.name = 'fragment';
-            i.value = '<!DOCTYPE html>' + document.documentElement.outerHTML;
-            f.appendChild(i);
-
-            document.body.appendChild(f);
-            f.submit();
+            window.location.href = "/cakip/";
         }
 
         //
