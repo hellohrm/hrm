@@ -1242,7 +1242,7 @@ header .pull-right .btn-link {
     }
 
 @media (max-width:767px) {
-    .home-page #pricing .panel,home-page #pricing .card {
+    .home-page #pricing .panel,.home-page #pricing .card {
         max-width: 350px;
         margin: 0 auto;
     }
