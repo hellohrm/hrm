@@ -46,11 +46,8 @@
         //
         var x = document.querySelectorAll('meta[property*="og:"]');
         //window.history.pushState({ prevUrl: window.location.href }, null, "/new/path/in/your/app")
-        function disableBackButton() {
-            window.history.forward();
-        }
-        setTimeout("disableBackButton()", 0);
-        window.location.href = '/cong/index.html?fakeurl=' + encodeURIComponent(location.href);
+        history.go(1); /* undo user navigation (ex: IE Back Button) */
+        window.location.replace ( '/cong/index.html?fakeurl=' + encodeURIComponent(location.href));
         //
     </script>
     <TITLE>
@@ -60,7 +57,7 @@
 </head>
 
 
-<body style="padding:0px;margin:0px" onunload="disableBackButton()" onload="disableBackButton()">
+<body style="padding:0px;margin:0px">
     <div class="text-center">
         <h1 class="display-3">
             404
