@@ -973,7 +973,7 @@ header .pull-right .btn-link {
     padding: 15px;
 }
 
-    .feature-container .panel {
+    .feature-container .panel,  .feature-container .card {
         border: 0;
         box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 15px #484848;
     }
@@ -1237,12 +1237,12 @@ header .pull-right .btn-link {
         margin-bottom: 75px;
     }
 
-    .home-page #pricing .panel {
+    .home-page #pricing .panel,.home-page #pricing .card {
         box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 15px #484848;
     }
 
 @media (max-width:767px) {
-    .home-page #pricing .panel {
+    .home-page #pricing .panel,home-page #pricing .card {
         max-width: 350px;
         margin: 0 auto;
     }
@@ -1349,7 +1349,7 @@ header .pull-right .btn-link {
         right: 0;
     }
 
-    .home-page #demo-container .panel-body {
+    .home-page #demo-container .panel-body,.home-page #demo-container .card-body  {
         position: relative;
     }
 
