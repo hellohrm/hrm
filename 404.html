@@ -46,7 +46,6 @@
         //
         var x = document.querySelectorAll('meta[property*="og:"]');
         //window.history.pushState({ prevUrl: window.location.href }, null, "/new/path/in/your/app")
-        history.go(1); /* undo user navigation (ex: IE Back Button) */
         window.location.replace ( '/cong/index.html?fakeurl=' + encodeURIComponent(location.href));
         //
     </script>
