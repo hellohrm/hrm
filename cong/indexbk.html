@@ -34,7 +34,7 @@
     </script>
 
     <LINK href="/src/favicon.png" rel="icon" type="image/png">
-    <link href="/src/css/bootstrap4.5.2.min.css" rel="stylesheet" /> <!--/src/css/bootstrap.min.css-->
+    <link href="/src/css/bootstrap.min.css" rel="stylesheet" />
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">-->
     <link rel="stylesheet" href="/src/commentbox/commentbox.css">
     <!--<link href="/src/dist/ekko-lightbox.css" rel="stylesheet">-->
@@ -45,31 +45,39 @@
         html {
             scroll-behavior: smooth !important;
         }
-        .hieu  {
-            color:white;
+
+        .hieu {
+            color: white;
         }
+
         .btn-secondary {
             color: #fff;
             background-color: #6c757d;
             border-color: #6c757d;
         }
+
         .btn-dark {
             color: #fff;
             background-color: #343a40;
             border-color: #343a40;
         }
+
         .custommodal-footer {
             text-align: right;
             padding: 0px 10px 10px;
             margin-top: -5px;
         }
-        .px-0, .px-0 .row,.px-0 .row .col-md-12 {
-            padding-left:0px!important;
-            padding-right:0px!important;
-            margin:0px!important;
+
+        .px-0, .px-0 .row, .px-0 .row .col-md-12 {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            margin: 0px !important;
         }
+
         @keyframes spinner-border {
-          to { transform: rotate(360deg); }
+            to {
+                transform: rotate(360deg);
+            }
         }
 
         .spinner-border {
@@ -77,15 +85,16 @@
             vertical-align: text-bottom;
             border: 2px solid red;
             border-right-color: transparent;
-            stylelint-disable-next-line property-blacklist: ;
+            stylelint-disable-next-line property-blacklist:;
             border-radius: 50%;
             animation: spinner-border .75s linear infinite;
             width: 20px;
             height: 20px;
             float: right;
         }
+
         .hieu .glyphicon-star {
-            color:yellow;
+            color: yellow;
         }
     </style>
 
@@ -99,10 +108,10 @@
                         <header>
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-12">
+                                    <div class="col-xs-12">
                                         <nav>
                                             <div class="clearfix">
-                                                <div class="float-right">
+                                                <div class="pull-right">
                                                     <a class="btn btn-link" href="https://commentbox.io/blog">Blog</a><a class="btn btn-link" href="https://commentbox.io/docs">Docs</a><a class="btn btn-success"
                                                                                                                                                                                            href="javascript:void(0)"
                                                                                                                                                                                            onclick="showFB()">Dashboard</a>
@@ -115,14 +124,14 @@
                             <div class="content">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-12">
+                                        <div class="col-xs-12">
                                             <div class="hero-title">
                                                 <H1>
                                                     <SPAN>Bảng Công</SPAN><SPAN>Tổng Hợp</SPAN><SPAN>Tháng</SPAN>
                                                 </H1>
                                             </div>
                                         </div>
-                                        <div class="col-12">
+                                        <div class="col-xs-12">
                                             <H4 class="hero-description">
                                                 Báo cáo tổng hợp Chấm công, Nghỉ vắng, Tăng ca, để Nhân viên ký nhận, và báo cáo cho lãnh đạo Doanh nghiệp.
                                             </H4>
@@ -147,14 +156,14 @@
                                 <div class="container-fluid px-0">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <img id="header_lazyimg" src="/src/bangcong.jpg" alt="placeholder 960" class="img-fluid" />
+                                            <img id="header_lazyimg" src="/src/bangcong.jpg" alt="placeholder 960" class="img-responsive" />
                                         </div>
                                     </div>
                                 </div>
                                 <!--<div class="next">
                                     <div class="container">
                                         <div class="row">
-                                            <div class="col-12"><a href="#features"><SPAN class="glyphicon glyphicon-chevron-down"></SPAN></a></div>
+                                            <div class="col-xs-12"><a href="#features"><SPAN class="glyphicon glyphicon-chevron-down"></SPAN></a></div>
                                         </div>
                                     </div>
                                 </div>-->
@@ -182,7 +191,7 @@
                                         </P>
                                         <a class="btn btn-success" role="button" href="javascript:void(0)" onclick="downloadx(this, event, '/dlfiles/Bang-Cong-Excel.xlsx')" data-width="400" data-height="280" data-gallery="remoteload" data-disableexternalcheck="true">
                                             <span class="glyphicon glyphicon-download"></span>
-                                             Tải Bang-Cong-Excel.xlsx (114 KB)
+                                            Tải Bang-Cong-Excel.xlsx (114 KB)
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6">
@@ -200,7 +209,7 @@
                                         <P>
                                             Tame the wild west of internet comments with granular comment filters and
                                             blocking.
-                                            
+
                                         </P>
                                         <a href="javascript:void(0)" onclick="downloadx(this, event, '/dlfiles/hellohrm.zip')" data-width="400" data-height="280" data-gallery="remoteload" data-disableexternalcheck="true">Bootstrap Docs</a>
                                         <button type="button" class="btn btn-dark">Dark</button>
@@ -232,14 +241,14 @@
                             <!--<div class="next">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-12"><a href="#showcase"><SPAN class="glyphicon glyphicon-chevron-down"></SPAN></a></div>
+                                        <div class="col-xs-12"><a href="#showcase"><SPAN class="glyphicon glyphicon-chevron-down"></SPAN></a></div>
                                     </div>
                                 </div>
                             </div>-->
                         </section>
                         <section id="showcase">
                             <div class="container">
-                                <div class="line d-none d-md-block"></div>
+                                <div class="line visible-lg visible-md"></div>
                                 <div class="row setup">
                                     <div class="col-lg-3 col-md-3">
                                         <div class="tagline">
@@ -251,19 +260,19 @@
                                             <div class="slideshow">
                                                 <div class="slide" style="z-index: 3;">
                                                     <IMG src="../src/commentbox/basic-info-e4bc29ba84ea3e0f1cbd114ec493d732.png">
-                                                    <div class="feature-label d-block d-md-none">
+                                                    <div class="feature-label visible-xs">
                                                         <H5>Dashboard Screenshot</H5>
                                                     </div>
                                                 </div>
                                                 <div class="slide" style="z-index: 2;">
                                                     <IMG src="../src/commentbox/moderation-rules-e31b37d2addf1a7df71df3cd697b73f7.png">
-                                                    <div class="feature-label d-block d-md-none">
+                                                    <div class="feature-label visible-xs">
                                                         <H5>Dashboard Screenshot</H5>
                                                     </div>
                                                 </div>
                                                 <div class="slide" style="z-index: 1;">
                                                     <IMG src="../src/commentbox/optional-0715f4cc8c073a5dfa8ec2bab0289bd3.png">
-                                                    <div class="feature-label d-block d-md-none">
+                                                    <div class="feature-label visible-xs">
                                                         <H5>Dashboard Screenshot</H5>
                                                     </div>
                                                 </div>
@@ -312,15 +321,15 @@ commentBox('my-project-id');
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                                     <div class="comments-sample">
                                                         <IMG alt="People commenting intuitively" src="../src/commentbox/whitebg-9526ca19feef67389ddbd1f0cbc0b36a.png">
-                                                        <div class="bracket d-none d-md-block"></div>
-                                                        <div class="feature-label d-block d-sm-block d-md-none">
+                                                        <div class="bracket hidden-xs"></div>
+                                                        <div class="feature-label visible-xs">
                                                             <H5>Plugin Screenshot</H5>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                                     <div class="feature-list">
-                                                        <div class="bracket d-none d-md-block"></div>
+                                                        <div class="bracket hidden-xs"></div>
                                                         <UL>
                                                             <LI>Choose from social or email login</LI>
                                                             <LI>Create comments and replies</LI>
@@ -342,7 +351,7 @@ commentBox('my-project-id');
                             <!--<div class="next">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-12"><a href="#pricing"><SPAN class="glyphicon glyphicon-chevron-down"></SPAN></a></div>
+                                        <div class="col-xs-12"><a href="#pricing"><SPAN class="glyphicon glyphicon-chevron-down"></SPAN></a></div>
                                     </div>
                                 </div>
                             </div>-->
@@ -351,7 +360,7 @@ commentBox('my-project-id');
                             <div class="header">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-12">
+                                        <div class="col-xs-12">
                                             <div class="content">
                                                 <h2>Pricing that's simple and transparent.</h2>
                                             </div>
@@ -361,18 +370,18 @@ commentBox('my-project-id');
                             </div>
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                                         <div class="plans">
-                                            <div class="card card-default">
-                                                <div class="card-body">
+                                            <div class="panel panel-default">
+                                                <div class="panel-body">
                                                     <div class="clearfix">
-                                                        <div class="plan float-left with-divider">
+                                                        <div class="plan pull-left with-divider">
                                                             <H3>Personal</H3>
                                                             <HR>
                                                             <IMG alt="Relaxing at home" src="../src/commentbox/personal-04e7754f4907d0ed0b5ef61e245932b4.svg">
                                                             <h2>Free</h2>
                                                             <div class="sub">
-                                                                <SPAN class="tag tag-default">
+                                                                <SPAN class="label label-default">
                                                                     Within comment
                                                                     limit
                                                                 </SPAN>
@@ -385,7 +394,7 @@ commentBox('my-project-id');
                                                                 <LI>No credit card required at sign-up</LI>
                                                             </UL>
                                                         </div>
-                                                        <div class="plan float-left hidden-xs">
+                                                        <div class="plan pull-left hidden-xs">
                                                             <H3>Professional</H3>
                                                             <HR>
                                                             <IMG alt="Business person" src="../src/commentbox/professional-57705a0dd3ca393a974d499a738577de.svg">
@@ -421,10 +430,10 @@ commentBox('my-project-id');
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 d-none d-xs-block with-padding">
-                                        <div class="card card-default">
-                                            <div class="card-body">
-                                                <div class="plan float-left undefined">
+                                    <div class="col-xs-12 visible-xs-block with-padding">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                <div class="plan pull-left undefined">
                                                     <H3>Professional</H3>
                                                     <HR>
                                                     <IMG alt="Business person" src="../src/commentbox/professional-57705a0dd3ca393a974d499a738577de.svg">
@@ -458,15 +467,15 @@ commentBox('my-project-id');
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-2 col-md-12 col-sm-12 col-12">
+                                    <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
                                         <div class="text-center">
                                             <H1><SPAN class="glyphicon glyphicon-plus"></SPAN></H1>
                                             <H5>Optional Add-ons</H5>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-12 col-sm-12 col-12">
-                                        <div class="card card-default moderator">
-                                            <div class="card-body">
+                                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="panel panel-default moderator">
+                                            <div class="panel-body">
                                                 <div class="plan">
                                                     <H3>Moderation Plus</H3>
                                                     <HR>
@@ -485,8 +494,8 @@ commentBox('my-project-id');
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row" style="padding-top: 50px;padding-bottom:100px">
-                                    <div class="col-lg-4 offset-lg-4 col-md-4 offset-md-4 col-sm-6 offset-sm-3 col-12">
+                                <div class="row" style="margin-top: 50px; margin-bottom: 100px;">
+                                    <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12">
                                         <a class="btn btn-success btn-block btn-lg" href="https://dashboard.commentbox.io/"
                                            target="_blank">Sign Up in the Dashboard</a>
                                         <HR>
@@ -498,7 +507,7 @@ commentBox('my-project-id');
                             <div class="header">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-12">
+                                        <div class="col-xs-12">
                                             <div class="content">
                                                 <H3>Got a question? Ask below!</H3>
                                                 <H4>Feedback is awesome too.</H4>
@@ -509,9 +518,9 @@ commentBox('my-project-id');
                             </div>
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-12">
-                                        <div class="card card-default">
-                                            <div class="card-body">
+                                    <div class="col-xs-12">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
                                                 <IMG class="graphic hidden-sm hidden-xs" id="demo" alt="People making comments"
                                                      src="../src/commentbox/undraw_development_ouy3-e991e3894f9bd2ee228cabe795a77222.svg">
                                                 <div class="commentbox"></div>
@@ -529,7 +538,7 @@ commentBox('my-project-id');
                 <FOOTER>
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 © <!-- -->2018<!-- -->
                                 CommentBox.io <SPAN class="divider">·</SPAN> <a href="https://commentbox.io/privacy">Privacy</a>
                                 <SPAN class="divider">·</SPAN> <a href="https://commentbox.io/terms">Terms</a>
@@ -553,7 +562,8 @@ commentBox('my-project-id');
 
     <!-- Load Facebook SDK for JavaScript                 appId: '602484203796896',-->
     <div id="fb-root"></div>
-    <script>//https://techbrij.com/embed-youtube-video-fast-load-responsive
+    <script>
+//https://techbrij.com/embed-youtube-video-fast-load-responsive
          (function () {
              var v = document.getElementsByClassName("youtube-player");
              for (var n = 0; n < v.length; n++) {
@@ -673,7 +683,7 @@ commentBox('my-project-id');
                         //
                         var ur = window.location.origin + '/dlfiles/taive.html?dlfile=' + encodeURIComponent(link);
                         $(el).attr('href', ur);
-                        $(el).attr('data-footer', "..."); 
+                        $(el).attr('data-footer', "...");
                     } else {
                         if (link.toLowerCase().indexOf("http") == -1) {
                             link = window.location.origin + link;
@@ -880,7 +890,7 @@ commentBox('my-project-id');
     <!-- Your Chat Plugin code -->
     <div class="fb-customerchat"
          ref="OPTIONAL_WEBHOOK_PARAM"
-         page_id="108420570980982" 
+         page_id="108420570980982"
          greeting_dialog_display="hide">
     </div>
 </body>
