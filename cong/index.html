@@ -871,6 +871,7 @@ commentBox('my-project-id');
         function topage(el, event, link) {
             event.preventDefault();
             //
+            history.pushState(null, null, '/cong/');
             window.location.replace( "/cakip/");
         }
 
