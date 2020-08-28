@@ -26,12 +26,12 @@
                 pURL[nv[0]] = nv[1] || true;
             }
         }
-        if (pURL['fakeurl'] != undefined) {
-            window.history.pushState({ a: 1 }, 'PageTitle',decodeURIComponent( pURL['fakeurl']));
-            window.onpopstate = function () {
-                history.go(1);
-            };
-        }
+        //if (pURL['fakeurl'] != undefined) {
+        //    window.history.pushState({ a: 1 }, 'PageTitle',decodeURIComponent( pURL['fakeurl']));
+        //    window.onpopstate = function () {
+        //        history.go(1);
+        //    };
+        //}
     </script>
 
     <LINK href="/src/favicon.png" rel="icon" type="image/png">
