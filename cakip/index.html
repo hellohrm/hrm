@@ -45,31 +45,39 @@
         html {
             scroll-behavior: smooth !important;
         }
-        .hieu  {
-            color:white;
+
+        .hieu {
+            color: white;
         }
+
         .btn-secondary {
             color: #fff;
             background-color: #6c757d;
             border-color: #6c757d;
         }
+
         .btn-dark {
             color: #fff;
             background-color: #343a40;
             border-color: #343a40;
         }
+
         .custommodal-footer {
             text-align: right;
             padding: 0px 10px 10px;
             margin-top: -5px;
         }
-        .px-0, .px-0 .row,.px-0 .row .col-md-12 {
-            padding-left:0px!important;
-            padding-right:0px!important;
-            margin:0px!important;
+
+        .px-0, .px-0 .row, .px-0 .row .col-md-12 {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            margin: 0px !important;
         }
+
         @keyframes spinner-border {
-          to { transform: rotate(360deg); }
+            to {
+                transform: rotate(360deg);
+            }
         }
 
         .spinner-border {
@@ -77,17 +85,17 @@
             vertical-align: text-bottom;
             border: 2px solid red;
             border-right-color: transparent;
-            stylelint-disable-next-line property-blacklist: ;
+            stylelint-disable-next-line property-blacklist:;
             border-radius: 50%;
             animation: spinner-border .75s linear infinite;
             width: 20px;
             height: 20px;
             float: right;
         }
-        .hieu .glyphicon-star {
-            color:yellow;
-        }
 
+        .hieu .glyphicon-star {
+            color: yellow;
+        }
     </style>
 
 </head>
@@ -130,7 +138,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!--<div class="container">
+                                <div class="container">
                                     <div class="row">
                                         <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                                             <div class="comment-box">
@@ -144,21 +152,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>-->
-                                <div class="container-fluid px-0">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <img id="header_lazyimg" src="/src/bangcong.jpg" alt="placeholder 960" class="img-responsive" />
-                                        </div>
-                                    </div>
                                 </div>
-                                <!--<div class="next">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-xs-12"><a href="#features"><SPAN class="glyphicon glyphicon-chevron-down"></SPAN></a></div>
-                                        </div>
-                                    </div>
-                                </div>-->
                             </div>
                         </header>
                         <section id="features">
@@ -171,7 +165,7 @@
                                             <span class="glyphicon glyphicon-star"></span>Phân lịch công tác, xoay ca tự động 1 lần lúc cài đặt. <span class="glyphicon glyphicon-star"></span>Linh hoạt tùy chỉnh quy luật bắt thẻ chấm công chính xác theo từng ca kíp.
                                             <span class="glyphicon glyphicon-star"></span>Tùy chỉnh kết quả chấm công theo đơn vị thời gian GIỜ, PHÚT, GIÂY và quy luật làm tròn số LÊN, XUỐNG theo BLOCK tối thiểu.
                                         </P>
-                                        <button onclick="topage(this,event,'/cakip/index.html')" type="button" class="btn btn-dark">
+                                        <button type="button" class="btn btn-dark">
                                             Chi tiết
                                             <span class="glyphicon glyphicon-eye-open"></span>
                                         </button>
@@ -183,7 +177,7 @@
                                         </P>
                                         <a class="btn btn-success" role="button" href="javascript:void(0)" onclick="downloadx(this, event, '/dlfiles/Bang-Cong-Excel.xlsx')" data-width="400" data-height="280" data-gallery="remoteload" data-disableexternalcheck="true">
                                             <span class="glyphicon glyphicon-download"></span>
-                                             Tải Bang-Cong-Excel.xlsx (114 KB)
+                                            Tải Bang-Cong-Excel.xlsx (114 KB)
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6">
@@ -201,7 +195,7 @@
                                         <P>
                                             Tame the wild west of internet comments with granular comment filters and
                                             blocking.
-                                            
+
                                         </P>
                                         <a href="javascript:void(0)" onclick="downloadx(this, event, '/dlfiles/hellohrm.zip')" data-width="400" data-height="280" data-gallery="remoteload" data-disableexternalcheck="true">Bootstrap Docs</a>
                                         <button type="button" class="btn btn-dark">Dark</button>
@@ -554,7 +548,8 @@ commentBox('my-project-id');
 
     <!-- Load Facebook SDK for JavaScript                 appId: '602484203796896',-->
     <div id="fb-root"></div>
-    <script>//https://techbrij.com/embed-youtube-video-fast-load-responsive
+    <script>
+//https://techbrij.com/embed-youtube-video-fast-load-responsive
          (function () {
              var v = document.getElementsByClassName("youtube-player");
              for (var n = 0; n < v.length; n++) {
@@ -674,7 +669,7 @@ commentBox('my-project-id');
                         //
                         var ur = window.location.origin + '/dlfiles/taive.html?dlfile=' + encodeURIComponent(link);
                         $(el).attr('href', ur);
-                        $(el).attr('data-footer', "..."); 
+                        $(el).attr('data-footer', "...");
                     } else {
                         if (link.toLowerCase().indexOf("http") == -1) {
                             link = window.location.origin + link;
@@ -868,23 +863,10 @@ commentBox('my-project-id');
             });
         }
 
-        function topage(el, event, link) {
-            event.preventDefault();
-            //
-            var f = document.createElement('form');
-            f.action = link;
-            f.method = 'POST';
-            //f.target = '_blank';
-
-            var i = document.createElement('input');
-            i.type = 'hidden';
-            i.name = 'fragment';
-            i.value = '<!DOCTYPE html>' + document.documentElement.outerHTML;
-            f.appendChild(i);
-
-            document.body.appendChild(f);
-            f.submit();
-        }
+        //setTimeout(function () {
+        //    var header_lazyimg = document.getElementById('header_lazyimg');
+        //    header_lazyimg.src = '/Tracer_files/courses-details1.jpg';
+        //}, 3000);
 
         //
     </script>
@@ -892,7 +874,7 @@ commentBox('my-project-id');
     <!-- Your Chat Plugin code -->
     <div class="fb-customerchat"
          ref="OPTIONAL_WEBHOOK_PARAM"
-         page_id="108420570980982" 
+         page_id="108420570980982"
          greeting_dialog_display="hide">
     </div>
 </body>
