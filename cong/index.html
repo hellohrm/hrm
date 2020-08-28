@@ -45,12 +45,18 @@
         html {
             scroll-behavior: smooth !important;
         }
-        .hieu .panel  {
-            background: none!important; 
-            border: none!important;
-            border-radius: 0px!important;
-            box-shadow: none!important; 
+        .hieu  {
             color:white;
+        }
+        .btn-secondary {
+            color: #fff;
+            background-color: #6c757d;
+            border-color: #6c757d;
+        }
+        .btn-dark {
+            color: #fff;
+            background-color: #343a40;
+            border-color: #343a40;
         }
         .custommodal-footer {
             text-align: right;
@@ -155,120 +161,58 @@
                         </header>
                         <section id="features">
                             <div class="container">
-                                <div class="row">
+                                <div class="row hieu">
                                     <div class="col-lg-6 col-md-6 col-sm-6">
-                                        <actical class="feature-container hieu">
-                                            <div class="panel panel-default">
-                                                <div class="panel-body">
-                                                    <div class="row">
-                                                        <!--<div class="col-lg-3">
-                                                            <div class="image-container"><IMG alt="Sorting through emails" src="../src/commentbox/undraw_inbox_cleanup_w2ur-e5dd8608ba42c9522ca122daf5134430.svg"></div>
-                                                        </div>-->
-                                                        <div class="col-lg-12">
-                                                            <H3>Xuất Bảng Công Ra File Excel</H3>
-                                                            <P>
-                                                                Định dạng file Excel với đầy đủ công thức rất tiện sử dụng vào các nghiệp vụ có dùng kết quả số liệu chấm công.
-                                                            </P>
-                                                            <a class="btn btn-success" role="button"  href="javascript:void(0)" onclick="downloadx(this, event, '/dlfiles/Bang-Cong-Excel.xlsx')" data-width="400" data-height="280" data-gallery="remoteload" data-disableexternalcheck="true">
-                                                                Bang-Cong-Excel.xlsx (114 KB)
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </actical>
+                                        <H3>Xuất Bảng Công Ra File Excel</H3>
+                                        <P>
+                                            Định dạng file Excel với đầy đủ công thức rất tiện sử dụng vào các nghiệp vụ có dùng kết quả số liệu chấm công.
+                                        </P>
+                                        <a class="btn btn-success" role="button" href="javascript:void(0)" onclick="downloadx(this, event, '/dlfiles/Bang-Cong-Excel.xlsx')" data-width="400" data-height="280" data-gallery="remoteload" data-disableexternalcheck="true">
+                                            <span class="glyphicon glyphicon-download"></span>
+                                             Tải Bang-Cong-Excel.xlsx (114 KB)
+                                        </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6">
-                                        <actical class="feature-container hieu">
-                                            <div class="panel panel-default">
-                                                <div class="panel-body">
-                                                    <div class="row">
-                                                        <!--<div class="col-lg-3">
-                                                            <div class="image-container">
-                                                                <IMG alt="Lots of comments in a list"
-                                                                     src="../src/commentbox/undraw_work_chat_erdt-09cdc56d2892492fb034a5c7b0b0532f.svg">
-                                                            </div>
-                                                        </div>-->
-                                                        <div class="col-lg-12">
-                                                            <H3>Linh Hoạt Thời Gian Báo Cáo</H3>
-                                                            <P>
-                                                                Bảng chấm công có thể được dùng tham khảo để tạm ứng lương, lương tuần, lương tháng nên phần mềm linh động tùy biến tổng hợp số liệu phù hợp theo từng mục đích sử dụng.
-                                                            </P>
-                                                            <a href="javascript:void(0)" onclick="toggle_lightbox(this, event,'https://www.youtube.com/watch?v=k6mFF3VmVAs')"  data-width="1280" class="btn btn-info">
-                                                                Xem video minh họa
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </actical>
+                                        <H3>Linh Hoạt Thời Gian Báo Cáo</H3>
+                                        <P>
+                                            Bảng chấm công có thể được dùng tham khảo để tạm ứng lương, lương tuần, lương tháng nên phần mềm linh động tùy biến tổng hợp số liệu phù hợp theo từng mục đích sử dụng.
+                                        </P>
+                                        <a href="javascript:void(0)" onclick="toggle_lightbox(this, event,'https://www.youtube.com/watch?v=k6mFF3VmVAs')" data-width="1280" class="btn btn-info">
+                                            Xem video minh họa
+                                        </a>
+                                        <button type="button" class="btn btn-secondary">Dark</button>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6">
-                                        <actical class="feature-container hieu">
-                                            <div class="panel panel-default">
-                                                <div class="panel-body">
-                                                    <div class="row">
-                                                        <!--<div class="col-lg-3">
-                                                            <div class="image-container"><IMG alt="Putting together comments" src="../src/commentbox/undraw_work_chat_erdt-09cdc56d2892492fb034a5c7b0b0532f.svg"></div>
-                                                        </div>-->
-                                                        <div class="col-lg-12">
-                                                            <H3>Moderation is Key.</H3>
-                                                            <P>
-                                                                Tame the wild west of internet comments with granular comment filters and
-                                                                blocking.
-                                                                Tame the wild west of internet comments with granular comment filters and
-                                                                blocking.
-                                                                Tame the wild west of internet comments with granular comment filters and
-                                                                blocking.
-                                                            </P>
-                                                            <a href="javascript:void(0)" onclick="downloadx(this, event, '/dlfiles/hellohrm.zip')"  data-width="400" data-height="280" data-gallery="remoteload" data-disableexternalcheck="true">Bootstrap Docs</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </actical>
+                                        <H3>Moderation is Key.</H3>
+                                        <P>
+                                            Tame the wild west of internet comments with granular comment filters and
+                                            blocking.
+                                            
+                                        </P>
+                                        <a href="javascript:void(0)" onclick="downloadx(this, event, '/dlfiles/hellohrm.zip')" data-width="400" data-height="280" data-gallery="remoteload" data-disableexternalcheck="true">Bootstrap Docs</a>
+                                        <button type="button" class="btn btn-dark">Dark</button>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6">
-                                        <actical class="feature-container hieu">
-                                            <div class="panel panel-default">
-                                                <div class="panel-body">
-                                                    <div class="row">
-                                                        <!--<div class="col-lg-3">
-                                                            <div class="image-container"><IMG alt="Server status" src="../src/commentbox/redundant-9721090acbdd60c1206116af9b5ecf81.svg"></div>
-                                                        </div>-->
-                                                        <div class="col-lg-12">
-                                                            <H3>Always Ready.</H3>
-                                                            <P>
-                                                                Comments are saved in highly-available, multi-region
-                                                                storage.
-                                                            </P>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </actical>
+                                        <H3>Always Ready.</H3>
+                                        <P>
+                                            Comments are saved in highly-available, multi-region
+                                            storage.
+                                            Tame the wild west of internet comments with granular comment filters and
+                                            blocking.
+                                            Tame the wild west of internet comments with granular comment filters and
+                                            blocking.
+                                        </P>
+                                        <button type="button" class="btn btn-danger">Danger</button>
+                                        <button type="button" class="btn btn-warning">Warning</button>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6">
-                                        <actical class="feature-container hieu">
-                                            <div class="panel panel-default">
-                                                <div class="panel-body">
-                                                    <div class="row">
-                                                        <!--<div class="col-lg-3">
-                                                            <div class="image-container"><IMG alt="Girl on moped with package" src="../src/commentbox/export-3a5f9a2e63491debc8ff379a3f219d78.svg"></div>
-                                                        </div>-->
-                                                        <div class="col-lg-12">
-                                                            <H3>No Lock-in.</H3>
-                                                            <P>
-                                                                Export your comments on demand, directly from the
-                                                                dashboard.
-                                                                Export your comments on demand, directly from the
-                                                                dashboard.
-                                                            </P>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </actical>
+                                        <H3>No Lock-in.</H3>
+                                        <P>
+                                            Export your comments on demand, directly from the
+                                            dashboard.
+                                            Export your comments on demand, directly from the
+                                            dashboard.
+                                        </P>
                                     </div>
                                     <!--<div class="col-lg-6 col-md-6 col-sm-6">
                                         <actical class="feature-container">
