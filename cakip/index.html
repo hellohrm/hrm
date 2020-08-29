@@ -35,32 +35,28 @@
     </script>
 
     <LINK href="/src/favicon.png" rel="icon" type="image/png">
-    <link href="/src/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/src/css/bootstrap4.5.2.min.css" rel="stylesheet" /> <!--/src/css/bootstrap.min.css-->
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">-->
     <link rel="stylesheet" href="/src/commentbox/commentbox.css">
     <!--<link href="/src/dist/ekko-lightbox.css" rel="stylesheet">-->
 
 
-
     <style type="text/css">
-        html {
+        /*html {
             scroll-behavior: smooth !important;
-        }
+        }*/
 
         .hieu {
             color: white;
         }
 
-        .btn-secondary {
-            color: #fff;
-            background-color: #6c757d;
-            border-color: #6c757d;
+        .plans .card {
+            margin-bottom: 20px;
         }
 
-        .btn-dark {
-            color: #fff;
-            background-color: #343a40;
-            border-color: #343a40;
+        .home-page section {
+            padding-top: 20px;
+            padding-bottom: 10px;
         }
 
         .custommodal-footer {
@@ -99,6 +95,8 @@
         }
     </style>
 
+
+
 </head>
 <body>
     <div id="___gatsby">
@@ -109,10 +107,10 @@
                         <header>
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-xs-12">
+                                    <div class="col-12">
                                         <nav>
                                             <div class="clearfix">
-                                                <div class="pull-right">
+                                                <div class="float-right">
                                                     <a class="btn btn-link" href="https://commentbox.io/blog">Blog</a><a class="btn btn-link" href="https://commentbox.io/docs">Docs</a><a class="btn btn-success"
                                                                                                                                                                                            href="javascript:void(0)"
                                                                                                                                                                                            onclick="showFB()">Dashboard</a>
@@ -125,14 +123,14 @@
                             <div class="content">
                                 <div class="container-fluid">
                                     <div class="row">
-                                        <div class="col-xs-12">
+                                        <div class="col-12">
                                             <div class="hero-title">
                                                 <H1>
                                                     <SPAN>Bảng Công</SPAN><SPAN>Tổng Hợp</SPAN><SPAN>Tháng</SPAN>
                                                 </H1>
                                             </div>
                                         </div>
-                                        <div class="col-xs-12">
+                                        <div class="col-12">
                                             <H4 class="hero-description">
                                                 Báo cáo tổng hợp Chấm công, Nghỉ vắng, Tăng ca, để Nhân viên ký nhận, và báo cáo cho lãnh đạo Doanh nghiệp.
                                             </H4>
@@ -141,10 +139,10 @@
                                 </div>
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                                        <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                                             <div class="comment-box">
                                                 <div class="embed-responsive embed-responsive-16by9">
-                                                    <div class="youtube-player" data-id="zpOULjyy-n8" data-related="0" data-control="1" data-info="1" data-fullscreen="1" style="background:black;width:100%;display: block; position: relative;cursor: pointer;max-height:360px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto">
+                                                    <div class="youtube-player" data-id="zpOULjyy-n8" data-related="0" data-control="1" data-info="1" data-fullscreen="1" style="background:black;width:100%;display: block; position: absolute;top:0px;cursor: pointer;max-height:360px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto">
                                                         <img src="https://img.youtube.com/vi/zpOULjyy-n8/0.jpg" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%;height:auto; position: absolute; right: 0; top: -100%;">
                                                         <div  style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('../src/commentbox/static/youtubeplay.png') no-repeat;">
                                                         </div>
@@ -154,24 +152,38 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!--<div class="container-fluid px-0">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <img id="header_lazyimg" src="/src/bangcong.jpg" alt="placeholder 960" class="img-fluid" />
+                                        </div>
+                                    </div>
+                                </div>-->
+                                <!--<div class="next">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12"><a href="#features"><SPAN class="glyphicon glyphicon-chevron-down"></SPAN></a></div>
+                                        </div>
+                                    </div>
+                                </div>-->
                             </div>
                         </header>
                         <section id="features">
                             <div class="container">
                                 <div class="row hieu">
-                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
                                         <H3>Ca Kíp.</H3>
                                         <P>
                                             <span class="glyphicon glyphicon-star"></span>Chuyên sâu về ca đêm (thời gian làm việc bắt đầu từ cuối đêm ngày hôm trước đến sáng ngày hôm sau) và các chính sách lao động liên quan đến ca đêm.
                                             <span class="glyphicon glyphicon-star"></span>Phân lịch công tác, xoay ca tự động 1 lần lúc cài đặt. <span class="glyphicon glyphicon-star"></span>Linh hoạt tùy chỉnh quy luật bắt thẻ chấm công chính xác theo từng ca kíp.
                                             <span class="glyphicon glyphicon-star"></span>Tùy chỉnh kết quả chấm công theo đơn vị thời gian GIỜ, PHÚT, GIÂY và quy luật làm tròn số LÊN, XUỐNG theo BLOCK tối thiểu.
                                         </P>
-                                        <button type="button" class="btn btn-dark">
+                                        <button onclick="topage(this,event,'/cakip/index.html')" type="button" class="btn btn-dark">
                                             Chi tiết
                                             <span class="glyphicon glyphicon-eye-open"></span>
                                         </button>
                                     </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
                                         <H3>Xuất Bảng Công Ra File Excel</H3>
                                         <P>
                                             Định dạng file Excel với đầy đủ công thức rất tiện sử dụng vào các nghiệp vụ có dùng kết quả số liệu chấm công.
@@ -181,7 +193,7 @@
                                             Tải Bang-Cong-Excel.xlsx (114 KB)
                                         </a>
                                     </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
                                         <H3>Linh Hoạt Thời Gian Báo Cáo</H3>
                                         <P>
                                             Bảng chấm công có thể được dùng tham khảo để tạm ứng lương, lương tuần, lương tháng nên phần mềm linh động tùy biến tổng hợp số liệu phù hợp theo từng mục đích sử dụng.
@@ -191,7 +203,7 @@
                                         </a>
                                         <button type="button" class="btn btn-secondary">Dark</button>
                                     </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
                                         <H3>Moderation is Key.</H3>
                                         <P>
                                             Tame the wild west of internet comments with granular comment filters and
@@ -201,7 +213,7 @@
                                         <a href="javascript:void(0)" onclick="downloadx(this, event, '/dlfiles/hellohrm.zip')" data-width="400" data-height="280" data-gallery="remoteload" data-disableexternalcheck="true">Bootstrap Docs</a>
                                         <button type="button" class="btn btn-dark">Dark</button>
                                     </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
                                         <H3>Always Ready.</H3>
                                         <P>
                                             Comments are saved in highly-available, multi-region
@@ -214,7 +226,7 @@
                                         <button type="button" class="btn btn-danger">Danger</button>
                                         <button type="button" class="btn btn-warning">Warning</button>
                                     </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
                                         <H3>No Lock-in.</H3>
                                         <P>
                                             Export your comments on demand, directly from the
@@ -228,38 +240,38 @@
                             <!--<div class="next">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-xs-12"><a href="#showcase"><SPAN class="glyphicon glyphicon-chevron-down"></SPAN></a></div>
+                                        <div class="col-12"><a href="#showcase"><SPAN class="glyphicon glyphicon-chevron-down"></SPAN></a></div>
                                     </div>
                                 </div>
                             </div>-->
                         </section>
                         <section id="showcase">
                             <div class="container">
-                                <div class="line visible-lg visible-md"></div>
+                                <div class="line d-none d-lg-block"></div>
                                 <div class="row setup">
-                                    <div class="col-lg-3 col-md-3">
+                                    <div class="col-xl-3 col-lg-3">
                                         <div class="tagline">
                                             <h2>Simple Setup.</h2>
                                         </div>
                                     </div>
-                                    <div class="col-lg-9 col-md-9">
+                                    <div class="col-xl-9 col-lg-9">
                                         <div class="content">
                                             <div class="slideshow">
                                                 <div class="slide" style="z-index: 3;">
                                                     <IMG src="../src/commentbox/basic-info-e4bc29ba84ea3e0f1cbd114ec493d732.png">
-                                                    <div class="feature-label visible-xs">
+                                                    <div class="feature-label d-block d-md-none">
                                                         <H5>Dashboard Screenshot</H5>
                                                     </div>
                                                 </div>
                                                 <div class="slide" style="z-index: 2;">
                                                     <IMG src="../src/commentbox/moderation-rules-e31b37d2addf1a7df71df3cd697b73f7.png">
-                                                    <div class="feature-label visible-xs">
+                                                    <div class="feature-label d-block d-md-none">
                                                         <H5>Dashboard Screenshot</H5>
                                                     </div>
                                                 </div>
                                                 <div class="slide" style="z-index: 1;">
                                                     <IMG src="../src/commentbox/optional-0715f4cc8c073a5dfa8ec2bab0289bd3.png">
-                                                    <div class="feature-label visible-xs">
+                                                    <div class="feature-label d-block d-md-none">
                                                         <H5>Dashboard Screenshot</H5>
                                                     </div>
                                                 </div>
@@ -268,12 +280,12 @@
                                     </div>
                                 </div>
                                 <div class="row embed">
-                                    <div class="col-lg-3 col-md-3">
+                                    <div class="col-xl-3 col-lg-3">
                                         <div class="tagline">
                                             <h2>Easy Embed.</h2>
                                         </div>
                                     </div>
-                                    <div class="col-lg-9 col-md-9">
+                                    <div class="col-xl-9 col-lg-9">
                                         <div class="content">
                                             <div class="embed-code">
                                                 <H5>HTML</H5>
@@ -297,26 +309,26 @@ commentBox('my-project-id');
                                     </div>
                                 </div>
                                 <div class="row ui">
-                                    <div class="col-lg-3 col-md-3">
+                                    <div class="col-xl-3 col-lg-3">
                                         <div class="tagline">
                                             <h2>Intuitive UI.</h2>
                                         </div>
                                     </div>
-                                    <div class="col-lg-9 col-md-9">
+                                    <div class="col-xl-9 col-lg-9">
                                         <div class="content">
                                             <div class="row">
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                                     <div class="comments-sample">
                                                         <IMG alt="People commenting intuitively" src="../src/commentbox/whitebg-9526ca19feef67389ddbd1f0cbc0b36a.png">
-                                                        <div class="bracket hidden-xs"></div>
-                                                        <div class="feature-label visible-xs">
+                                                        <div class="bracket d-none d-md-block"></div>
+                                                        <div class="feature-label d-block d-sm-block d-md-none">
                                                             <H5>Plugin Screenshot</H5>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                                     <div class="feature-list">
-                                                        <div class="bracket hidden-xs"></div>
+                                                        <div class="bracket d-none d-md-block"></div>
                                                         <UL>
                                                             <LI>Choose from social or email login</LI>
                                                             <LI>Create comments and replies</LI>
@@ -338,7 +350,7 @@ commentBox('my-project-id');
                             <!--<div class="next">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-xs-12"><a href="#pricing"><SPAN class="glyphicon glyphicon-chevron-down"></SPAN></a></div>
+                                        <div class="col-12"><a href="#pricing"><SPAN class="glyphicon glyphicon-chevron-down"></SPAN></a></div>
                                     </div>
                                 </div>
                             </div>-->
@@ -347,7 +359,7 @@ commentBox('my-project-id');
                             <div class="header">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-xs-12">
+                                        <div class="col-12">
                                             <div class="content">
                                                 <h2>Pricing that's simple and transparent.</h2>
                                             </div>
@@ -357,18 +369,18 @@ commentBox('my-project-id');
                             </div>
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-xl-6 col-md-12 col-sm-12 col-12">
                                         <div class="plans">
-                                            <div class="panel panel-default">
-                                                <div class="panel-body">
+                                            <div class="card card-default">
+                                                <div class="card-body">
                                                     <div class="clearfix">
-                                                        <div class="plan pull-left with-divider">
+                                                        <div class="plan float-left with-divider">
                                                             <H3>Personal</H3>
                                                             <HR>
                                                             <IMG alt="Relaxing at home" src="../src/commentbox/personal-04e7754f4907d0ed0b5ef61e245932b4.svg">
                                                             <h2>Free</h2>
                                                             <div class="sub">
-                                                                <SPAN class="label label-default">
+                                                                <SPAN class="tag tag-default">
                                                                     Within comment
                                                                     limit
                                                                 </SPAN>
@@ -381,7 +393,7 @@ commentBox('my-project-id');
                                                                 <LI>No credit card required at sign-up</LI>
                                                             </UL>
                                                         </div>
-                                                        <div class="plan pull-left hidden-xs">
+                                                        <div class="plan float-left hidden-xs">
                                                             <H3>Professional</H3>
                                                             <HR>
                                                             <IMG alt="Business person" src="../src/commentbox/professional-57705a0dd3ca393a974d499a738577de.svg">
@@ -417,10 +429,10 @@ commentBox('my-project-id');
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xs-12 visible-xs-block with-padding">
-                                        <div class="panel panel-default">
-                                            <div class="panel-body">
-                                                <div class="plan pull-left undefined">
+                                    <div class="col-12 d-none d-xs-block with-padding">
+                                        <div class="card card-default">
+                                            <div class="card-body">
+                                                <div class="plan float-left undefined">
                                                     <H3>Professional</H3>
                                                     <HR>
                                                     <IMG alt="Business person" src="../src/commentbox/professional-57705a0dd3ca393a974d499a738577de.svg">
@@ -454,15 +466,15 @@ commentBox('my-project-id');
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="col-xl-2 col-md-12 col-sm-12 col-12">
                                         <div class="text-center">
                                             <H1><SPAN class="glyphicon glyphicon-plus"></SPAN></H1>
                                             <H5>Optional Add-ons</H5>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="panel panel-default moderator">
-                                            <div class="panel-body">
+                                    <div class="col-xl-4 col-md-12 col-sm-12 col-12">
+                                        <div class="card card-default moderator">
+                                            <div class="card-body">
                                                 <div class="plan">
                                                     <H3>Moderation Plus</H3>
                                                     <HR>
@@ -481,8 +493,8 @@ commentBox('my-project-id');
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row" style="margin-top: 50px; margin-bottom: 100px;">
-                                    <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12">
+                                <div class="row" style="padding-top: 50px;padding-bottom:100px">
+                                    <div class="col-xl-4 offset-xl-4 col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-12">
                                         <a class="btn btn-success btn-block btn-lg" href="https://dashboard.commentbox.io/"
                                            target="_blank">Sign Up in the Dashboard</a>
                                         <HR>
@@ -494,7 +506,7 @@ commentBox('my-project-id');
                             <div class="header">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-xs-12">
+                                        <div class="col-12">
                                             <div class="content">
                                                 <H3>Got a question? Ask below!</H3>
                                                 <H4>Feedback is awesome too.</H4>
@@ -505,12 +517,11 @@ commentBox('my-project-id');
                             </div>
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-xs-12">
-                                        <div class="panel panel-default">
-                                            <div class="panel-body">
+                                    <div class="col-12">
+                                        <div class="card card-default">
+                                            <div class="card-body">
                                                 <!--<IMG class="graphic hidden-sm hidden-xs" id="demo" alt="People making comments"
                                                      src="../src/commentbox/undraw_development_ouy3-e991e3894f9bd2ee228cabe795a77222.svg">-->
-
                                             </div>
                                         </div>
                                     </div>
@@ -525,16 +536,16 @@ commentBox('my-project-id');
                 <FOOTER>
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-12">
                                 © <!-- -->2018<!-- -->
                                 CommentBox.io <SPAN class="divider">·</SPAN> <a href="https://commentbox.io/privacy">Privacy</a>
                                 <SPAN class="divider">·</SPAN> <a href="https://commentbox.io/terms">Terms</a>
                             </div>
-                            <div class="center col-lg-4 col-md-4 hidden-sm hidden-xs">
+                            <div class="center col-xl-4 col-lg-4 d-none d-lg-block">
                                 Made with <SPAN title="Time, care, and tea."
                                                 class="icon-free_breakfast"></SPAN>
                             </div>
-                            <div class="right col-lg-4 col-md-4 col-sm-6 hidden-xs">
+                            <div class="right col-xl-4 col-lg-4 col-md-6 d-none d-sm-block">
                                 <a href="https://twitter.com/shaunpersad"
                                    target="_blank">@shaunpersad</a>
                             </div>
