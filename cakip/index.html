@@ -45,11 +45,15 @@
         /*html {
             scroll-behavior: smooth !important;
         }*/
-
-        .hieu {
+        .cakip {
+            background: linear-gradient(180deg,#606060,#ffffff)!important;
+        }
+        .shift {
+            color: black;
+        }
+                .hieu {
             color: white;
         }
-
         .plans .card {
             margin-bottom: 20px;
         }
@@ -104,7 +108,7 @@
             <div class="main-layout">
                 <div class="main-layout-content">
                     <div class="home-page">
-                        <header>
+                        <header class="cakip">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-12">
@@ -137,13 +141,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container">
+                                <!--<div class="container">
                                     <div class="row">
                                         <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                                             <div class="comment-box">
                                                 <div class="embed-responsive embed-responsive-16by9">
                                                     <div class="youtube-player" data-id="zpOULjyy-n8" data-related="0" data-control="1" data-info="1" data-fullscreen="1" style="background:black;width:100%;display: block; position: absolute;top:0px;cursor: pointer;max-height:360px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto">
-                                                        <img src="https://img.youtube.com/vi/zpOULjyy-n8/0.jpg" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%;height:auto; position: absolute; right: 0; top: -100%;">
+                                                        <img src="/src/cakip.png" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%;height:auto; position: absolute; right: 0; top: -100%;">
                                                         <div  style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('../src/commentbox/static/youtubeplay.png') no-repeat;">
                                                         </div>
                                                     </div>
@@ -151,21 +155,82 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <!--<div class="container-fluid px-0">
+                                </div>-->
+                                <div class="container-fluid px-0">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <img id="header_lazyimg" src="/src/bangcong.jpg" alt="placeholder 960" class="img-fluid" />
+                                            <img id="header_lazyimg" src="/src/cakip.png" alt="placeholder 960" class="img-fluid" />
                                         </div>
                                     </div>
-                                </div>-->
-                                <!--<div class="next">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-12"><a href="#features"><SPAN class="glyphicon glyphicon-chevron-down"></SPAN></a></div>
+                                </div>
+                                <div class="container">
+                                    <div class="row shift">
+                                        <div class="col-xl-6 col-lg-6 col-md-6">
+                                            <H3>Ca Kíp.</H3>
+                                            <P>
+                                                <span class="glyphicon glyphicon-star"></span>Chuyên sâu về ca đêm (thời gian làm việc bắt đầu từ cuối đêm ngày hôm trước đến sáng ngày hôm sau) và các chính sách lao động liên quan đến ca đêm.
+                                                <span class="glyphicon glyphicon-star"></span>Phân lịch công tác, xoay ca tự động 1 lần lúc cài đặt. <span class="glyphicon glyphicon-star"></span>Linh hoạt tùy chỉnh quy luật bắt thẻ chấm công chính xác theo từng ca kíp.
+                                                <span class="glyphicon glyphicon-star"></span>Tùy chỉnh kết quả chấm công theo đơn vị thời gian GIỜ, PHÚT, GIÂY và quy luật làm tròn số LÊN, XUỐNG theo BLOCK tối thiểu.
+                                            </P>
+                                            <button onclick="topage(this,event,'/cakip/index.html')" type="button" class="btn btn-dark">
+                                                Chi tiết
+                                                <span class="glyphicon glyphicon-eye-open"></span>
+                                            </button>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-6">
+                                            <H3>Xuất Bảng Công Ra File Excel</H3>
+                                            <P>
+                                                Định dạng file Excel với đầy đủ công thức rất tiện sử dụng vào các nghiệp vụ có dùng kết quả số liệu chấm công.
+                                            </P>
+                                            <a class="btn btn-success" role="button" href="javascript:void(0)" onclick="downloadx(this, event, '/dlfiles/Bang-Cong-Excel.xlsx')" data-width="400" data-height="280" data-gallery="remoteload" data-disableexternalcheck="true">
+                                                <span class="glyphicon glyphicon-download"></span>
+                                                Tải Bang-Cong-Excel.xlsx (114 KB)
+                                            </a>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-6">
+                                            <H3>Linh Hoạt Thời Gian Báo Cáo</H3>
+                                            <P>
+                                                Bảng chấm công có thể được dùng tham khảo để tạm ứng lương, lương tuần, lương tháng nên phần mềm linh động tùy biến tổng hợp số liệu phù hợp theo từng mục đích sử dụng.
+                                            </P>
+                                            <a href="javascript:void(0)" onclick="toggle_lightbox(this, event,'https://www.youtube.com/watch?v=k6mFF3VmVAs')" data-width="1280" class="btn btn-info">
+                                                Xem video minh họa
+                                            </a>
+                                            <button type="button" class="btn btn-secondary">Dark</button>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-6">
+                                            <H3>Moderation is Key.</H3>
+                                            <P>
+                                                Tame the wild west of internet comments with granular comment filters and
+                                                blocking.
+
+                                            </P>
+                                            <a href="javascript:void(0)" onclick="downloadx(this, event, '/dlfiles/hellohrm.zip')" data-width="400" data-height="280" data-gallery="remoteload" data-disableexternalcheck="true">Bootstrap Docs</a>
+                                            <button type="button" class="btn btn-dark">Dark</button>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-6">
+                                            <H3>Always Ready.</H3>
+                                            <P>
+                                                Comments are saved in highly-available, multi-region
+                                                storage.
+                                                Tame the wild west of internet comments with granular comment filters and
+                                                blocking.
+                                                Tame the wild west of internet comments with granular comment filters and
+                                                blocking.
+                                            </P>
+                                            <button type="button" class="btn btn-danger">Danger</button>
+                                            <button type="button" class="btn btn-warning">Warning</button>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-6">
+                                            <H3>No Lock-in.</H3>
+                                            <P>
+                                                Export your comments on demand, directly from the
+                                                dashboard.
+                                                Export your comments on demand, directly from the
+                                                dashboard.
+                                            </P>
                                         </div>
                                     </div>
-                                </div>-->
+                                </div>
                             </div>
                         </header>
                         <section id="features">
