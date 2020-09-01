@@ -50,7 +50,7 @@
         .shift {
             color: black;
         }
-                .hieu {
+        .hieu {
             color: white;
         }
         .plans .card {
@@ -77,6 +77,22 @@
                 text-align:center;
                 background-color:white;
             }
+            .gradient-overly:before{
+                background: -webkit-radial-gradient(rgb(170 170 170 / 85%) 0%, rgb(78 76 76 / 0%) 30%, rgb(11 11 11 / 81%) 100% );
+                background:radial-gradient(rgb(170 170 170 / 85%) 0%, rgb(78 76 76 / 0%) 30%, rgb(11 11 11 / 81%) 100% );
+            }
+            .gradient-overly:before {
+                content: "";
+                z-index: 1;
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+            }
+
 
         @keyframes spinner-border {
             to {
@@ -161,7 +177,7 @@
                                 </div>-->
                                 <div class="container-fluid px-0">
                                     <div class="row">
-                                        <div class="col-12">
+                                        <div class="col-12 gradient-overly">
                                             <img id="header_lazyimg" src="/src/ca-kip.jpeg" alt="placeholder 960" class="img-fluid" />
                                         </div>
                                     </div>
