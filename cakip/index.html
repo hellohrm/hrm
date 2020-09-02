@@ -77,23 +77,6 @@
                 text-align:center;
                 background-color:white;
             }
-            .gradient-overly:before{
-                background: -ms-radial-gradient(rgb(170 170 170 / 0%) 0%, rgb(78 76 76 / 0%) 30%, #26303a 100% );
-                background: -webkit-radial-gradient(rgb(170 170 170 / 0%) 0%, rgb(78 76 76 / 0%) 30%, #26303a 100% );
-                background:radial-gradient(rgb(170 170 170 / 0%) 0%, rgb(78 76 76 / 0%) 30%, #26303a 100% );
-            }
-            .gradient-overly:before {
-                content: "";
-                z-index: 1;
-                position: absolute;
-                height: 100%;
-                width: 100%;
-                left: 0;
-                right: 0;
-                top: 0;
-                bottom: 0;
-            }
-
 
         @keyframes spinner-border {
             to {
@@ -117,9 +100,52 @@
         .hieu .glyphicon-star {
             color: yellow;
         }
+        .bublet {
+            position: relative;
+            z-index: 1;
+            color: red;
+            margin-right: 20px;
+            padding-left: 3px;
+        }
+        .bublet:before {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            background: yellow;
+            content: "";
+            position: absolute;
+            top: 0px;
+            left: -50%;
+            z-index: -1; 
+        }
     </style>
 
+    <style id="compiled-css" type="text/css">
+        #module {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
 
+
+            #module #collapseExample.collapse:not(.show) {
+                display: block;
+                height: 3rem;
+                overflow: hidden;
+            }
+
+            #module #collapseExample.collapsing {
+                height: 3rem;
+            }
+
+            #module a.collapsed::after {
+                content: '+ Show More';
+            }
+
+            #module a:not(.collapsed)::after {
+                content: '- Show Less';
+            }
+        /* EOS */
+    </style>
 
 </head>
 <body>
@@ -156,7 +182,7 @@
                                         </div>
                                         <div class="col-12">
                                             <H4 class="hero-description">
-                                                Báo cáo tổng hợp Chấm công, Nghỉ vắng, Tăng ca, để Nhân viên ký nhận, và báo cáo cho lãnh đạo Doanh nghiệp.
+                                                Dùng phân công bố trí lao động để phục vụ sản xuất kinh doanh và phù hợp với pháp luật
                                             </H4>
                                         </div>
                                     </div>
@@ -195,29 +221,21 @@
                             <div class="container">
                                 <div class="row hieu">
                                     <div class="col-xl-6 col-lg-6 col-md-6">
-                                        <H3>Ca Kíp.</H3>
+                                        <H3><span class="bublet" style="padding-left:5px">1</span>Phục Vụ Sản Xuất Kinh Doanh.</H3>
                                         <P>
-                                            <span class="glyphicon glyphicon-star"></span>Chuyên sâu về ca đêm (thời gian làm việc bắt đầu từ cuối đêm ngày hôm trước đến sáng ngày hôm sau) và các chính sách lao động liên quan đến ca đêm.
-                                            <span class="glyphicon glyphicon-star"></span>Phân lịch công tác, xoay ca tự động 1 lần lúc cài đặt. <span class="glyphicon glyphicon-star"></span>Linh hoạt tùy chỉnh quy luật bắt thẻ chấm công chính xác theo từng ca kíp.
-                                            <span class="glyphicon glyphicon-star"></span>Tùy chỉnh kết quả chấm công theo đơn vị thời gian GIỜ, PHÚT, GIÂY và quy luật làm tròn số LÊN, XUỐNG theo BLOCK tối thiểu.
+                                            Đơn giản nhất là toàn bộ nhân viên đi làm theo giờ Hành chánh, hơn chút có thêm Bảo vệ chia ca trực 24/24 
+                                            . Để tăng sản lượng, giảm chi phí, rút ngắn thời gian khấu hao máy móc thiết bị thì Ca kíp làm việc sẽ phức tạp hơn nhiều.
                                         </P>
-                                        <button onclick="topage(this,event,'/cakip/index.html')" type="button" class="btn btn-dark">
-                                            Chi tiết
-                                            <span class="glyphicon glyphicon-eye-open"></span>
-                                        </button>
                                     </div>
                                     <div class="col-xl-6 col-lg-6 col-md-6">
-                                        <H3>Xuất Bảng Công Ra File Excel</H3>
+                                        <H3><span class="bublet">2</span>Luật Lao Động</H3>
                                         <P>
-                                            Định dạng file Excel với đầy đủ công thức rất tiện sử dụng vào các nghiệp vụ có dùng kết quả số liệu chấm công.
+                                            <b><i>"Theo Điều 104, Bộ Luật Lao động 2012, thời giờ làm việc bình thường được qui định không quá 08 giờ trong 01 ngày và 48 giờ trong 01 tuần."</i></b>
+                                            Để tăng năng suất máy móc hoạt động 24/24 thì phải chia Ca kíp đủ nhân lực vận hành và bảo trì chúng.
                                         </P>
-                                        <a class="btn btn-success" role="button" href="javascript:void(0)" onclick="downloadx(this, event, '/dlfiles/Bang-Cong-Excel.xlsx')" data-width="400" data-height="280" data-gallery="remoteload" data-disableexternalcheck="true">
-                                            <span class="glyphicon glyphicon-download"></span>
-                                            Tải Bang-Cong-Excel.xlsx (114 KB)
-                                        </a>
                                     </div>
                                     <div class="col-xl-6 col-lg-6 col-md-6">
-                                        <H3>Linh Hoạt Thời Gian Báo Cáo</H3>
+                                        <H3><span class="bublet">3</span>Xuất Khẩu Hàng Hóa</H3>
                                         <P>
                                             Bảng chấm công có thể được dùng tham khảo để tạm ứng lương, lương tuần, lương tháng nên phần mềm linh động tùy biến tổng hợp số liệu phù hợp theo từng mục đích sử dụng.
                                         </P>
@@ -226,47 +244,17 @@
                                         </a>
                                         <button type="button" class="btn btn-secondary">Dark</button>
                                     </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6">
-                                        <H3>Moderation is Key.</H3>
-                                        <P>
-                                            Tame the wild west of internet comments with granular comment filters and
-                                            blocking.
-
-                                        </P>
-                                        <a href="javascript:void(0)" onclick="downloadx(this, event, '/dlfiles/hellohrm.zip')" data-width="400" data-height="280" data-gallery="remoteload" data-disableexternalcheck="true">Bootstrap Docs</a>
-                                        <button type="button" class="btn btn-dark">Dark</button>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6">
-                                        <H3>Always Ready.</H3>
-                                        <P>
-                                            Comments are saved in highly-available, multi-region
-                                            storage.
-                                            Tame the wild west of internet comments with granular comment filters and
-                                            blocking.
-                                            Tame the wild west of internet comments with granular comment filters and
-                                            blocking.
-                                        </P>
-                                        <button type="button" class="btn btn-danger">Danger</button>
-                                        <button type="button" class="btn btn-warning">Warning</button>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6">
-                                        <H3>No Lock-in.</H3>
-                                        <P>
-                                            Export your comments on demand, directly from the
-                                            dashboard.
-                                            Export your comments on demand, directly from the
-                                            dashboard.
-                                        </P>
+                                    <div id="module" class="col-xl-6 col-lg-6 col-md-6">
+                                        <h3>Bacon Ipsum</h3>
+                                        <p class="collapse" id="collapseExample" aria-expanded="false">
+                                            Bacon ipsum dolor amet doner picanha tri-tip biltong leberkas salami meatball tongue filet mignon landjaeger tail. Kielbasa salami tenderloin picanha spare ribs, beef ribs strip steak jerky cow. Pork chop chicken ham hock beef ribs turkey jerky. Shoulder
+                                            beef capicola doner, tongue tail sausage short ribs andouille. Rump frankfurter landjaeger t-bone, kielbasa doner ham hock shankle venison. Cupim capicola kielbasa t-bone, ball tip chicken andouille venison pork chop doner bacon beef ribs kevin shankle.
+                                            Short loin leberkas tenderloin ground round shank, brisket strip steak ham hock ham.
+                                        </p>
+                                        <a role="button" class="collapsed" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"></a>
                                     </div>
                                 </div>
                             </div>
-                            <!--<div class="next">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-12"><a href="#showcase"><SPAN class="glyphicon glyphicon-chevron-down"></SPAN></a></div>
-                                    </div>
-                                </div>
-                            </div>-->
                         </section>
                         <section id="showcase">
                             <div class="container">
