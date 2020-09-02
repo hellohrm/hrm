@@ -541,7 +541,8 @@
             FB.init({
                 appId: '2748621815460629',
                 xfbml: true,
-                version: 'v8.0'
+                version: 'v8.0',
+                autoLogAppEvents:1
             });
             FB.Event.subscribe('customerchat.dialogShow', function (e) {
                 // callback for events triggered by the plugin
