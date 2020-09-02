@@ -1358,3 +1358,7 @@ header .pull-right .btn-link {
         width: 100%;
         border: 0;
     }
+        footer{background:linear-gradient(45deg,#000000,#5f536c);height:50px;line-height:50px;color:#fff;font-size:12px}
+        footer .divider{padding-left:5px;padding-right:5px}
+        footer a{color:#fff;transition:-webkit-text-decoration .15s cubic-bezier(.4,0,1,1);transition:text-decoration .15s cubic-bezier(.4,0,1,1);transition:text-decoration .15s cubic-bezier(.4,0,1,1),-webkit-text-decoration .15s cubic-bezier(.4,0,1,1)}footer a:hover{color:#fff!important}footer .center{text-align:center}footer .right{text-align:right}footer .icon-free_breakfast{position:relative;top:2px;left:1px}@media (max-width:767px){footer{text-align:center}}
+        
