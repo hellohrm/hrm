@@ -372,7 +372,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row" style="padding-top: 50px;padding-bottom:100px">
+                                <div class="row" style="padding-top: 50px">
                                     <div class="col-xl-4 offset-xl-4 col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-12">
                                         <a class="btn btn-success btn-block btn-lg" href="https://dashboard.commentbox.io/"
                                            target="_blank">Tải Phần Mềm</a>
@@ -382,7 +382,7 @@
                             </div>
                         </section>
                         <section id="demo-container">
-                            <div class="header">
+                            <!--<div class="header">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-12">
@@ -393,14 +393,78 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                             <div class="container">
                                 <div class="row">
                                     <div class="col-12">
-                                        <div class="card card-default">
+                                        <div class="card card-default" style="background-color:transparent;border:none">
                                             <div class="card-body">
-                                                <!--<img class="graphic hidden-sm hidden-xs" id="demo" alt="People making comments"
-                                                     src="../src/commentbox/undraw_development_ouy3-e991e3894f9bd2ee228cabe795a77222.svg">-->
+                                                <!-- begin wwww.htmlcommentbox.com -->
+                                                <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
+                                                <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+                                                <!-- customize labels of htmlcommentbox.com -->
+                                                <script>
+/* This code goes ABOVE the main HTML Comment Box code!
+ replace the text in the single quotes below to customize labels.*/
+hcb_user = {
+    /* L10N */
+    comments_header : 'Nhận Xét',
+    name_label : 'Tên',
+    content_label: 'Nhập nhận xét vào đây ...',
+    submit : 'Lưu Lại',
+    logout_link : '<img title="log out" src="https://www.htmlcommentbox.com/static/images/door_out.png" alt="[logout]" class="hcb-icon hcb-door-out"/>',
+    admin_link : '<img src="https://www.htmlcommentbox.com/static/images/door_in.png" alt="[login]" class="hcb-icon hcb-door-in"/>',
+    no_comments_msg: 'No one has commented yet. Be the first!',
+    add:'Thêm nhận xét của bạn',
+    again: 'Gởi thêm nhận xét khác',
+    rss:'',
+    said:'said:',
+    prev_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
+    next_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_right.png" class="hcb-icon" title="next page" alt="[next]"/>',
+    showing:'Showing',
+    to:'to',
+    website_label:'website (optional)',
+    email_label:'email',
+    anonymous:'Anonymous',
+    mod_label:'(mod)',
+    subscribe:'email me replies',
+    add_image:'Thêm Hình',
+    are_you_sure:'Do you want to flag this comment as inappropriate?',
+
+    reply:'<img src="https://www.htmlcommentbox.com/static/images/reply.png"/> reply',
+    flag:'<img src="https://www.htmlcommentbox.com/static/images/flag.png"/> flag',
+    like:'<img src="https://www.htmlcommentbox.com/static/images/like.png"/> like',
+
+    /* dates */
+    days_ago:'days ago',
+    hours_ago:'hours ago',
+    minutes_ago:'minutes ago',
+    within_the_last_minute:'within the last minute',
+
+    msg_thankyou:'Thank you for commenting!',
+    msg_approval:'(this comment is not published until approved)',
+    msg_approval_required:'Thank you for commenting! Your comment will appear once approved by a moderator.',
+
+    err_bad_html:'Your comment contained bad html.',
+    err_bad_email:'Please enter a valid email address.',
+    err_too_frequent:'You must wait a few seconds between posting comments.',
+    err_comment_empty:'Your comment was not posted because it was empty!',
+    err_denied:'Your comment was not accepted.',
+    err_unknown:'Your comment was blocked for unknown reasons, please report this.',
+    err_spam:'Your comment was detected as spam.',
+    err_blocked:'Your comment was blocked by site policy.',
+
+    /* SETTINGS */
+    onload:function(){},
+    MAX_CHARS: 8192,
+    PAGE:'', /* ID of the webpage to show comments for. defaults to the webpage the user is currently visiting. */
+    ON_COMMENT: function(){}, /* Function to call after commenting. */
+    RELATIVE_DATES:true /* show dates in the form "X hours ago." etc. */
+};
+                                                </script>
+                                                <!-- done customizing labels of htmlcommentbox.com -->
+                                                <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&opts=16862&num=10&ts=1599050506879");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+                                                <!-- end www.htmlcommentbox.com -->
                                             </div>
                                         </div>
                                     </div>
@@ -410,7 +474,7 @@
 
                     </div>
                     <div class="push">
-                        <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="5" data-width=""></div>
+             
                     </div>
                 </div>
 
@@ -441,6 +505,7 @@
 
     <!-- Load Facebook SDK for JavaScript                 appId: '602484203796896',-->
     <div id="fb-root"></div>
+
     <script>
 //https://techbrij.com/embed-youtube-video-fast-load-responsive
          (function () {
@@ -538,22 +603,11 @@
             });
         };
         function addfbmsg() {
-            FB.init({
-                appId: '2748621815460629',
-                xfbml: true,
-                version: 'v8.0',
-                autoLogAppEvents:1
-            });
-            FB.Event.subscribe('customerchat.dialogShow', function (e) {
-                // callback for events triggered by the plugin
-                var c = d;
-            });
-            FB.Event.subscribe('customerchat.load', function (e) {
-                // callback for events triggered by the plugin
-                //setTimeout(function () {
-                //    FB.CustomerChat.showDialog();
-                //}, 500);
-            });
+            var js, fjs = document.getElementsByTagName('script')[0], id = 'facebook-jssdk';
+            if (document.getElementById(id)) return;
+            js = document.createElement('script'); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
         };
         function mekiep(el, event) {
             event.preventDefault();
