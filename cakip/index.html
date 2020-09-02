@@ -12,7 +12,7 @@
     <LINK href="/src/ca-kip-logo.png" rel="icon" type="image/png">
 
     <TITLE>
-        Phần Mềm Hello HRM
+        Hello-HRM-Ca-Kíp
     </TITLE>
 
     <script type="text/javascript">
@@ -682,11 +682,17 @@
             });
         };
         function addfbmsg() {
-            var js, fjs = document.getElementsByTagName('script')[0], id = 'facebook-jssdk';
-            if (document.getElementById(id)) return;
-            js = document.createElement('script'); js.id = id;
-            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
+          //Start of Tawk.to Script
+            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+                (function(){
+                    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                    s1.async=true;
+                    s1.src='https://embed.tawk.to/5f4f4f4bf0e7167d000cbe78/default';
+                    s1.charset='UTF-8';
+                    s1.setAttribute('crossorigin','*');
+                    s0.parentNode.insertBefore(s1,s0);
+                })();
+            //End of Tawk.to Scrip
         };
         function mekiep(el, event) {
             event.preventDefault();
@@ -909,10 +915,13 @@
     </script>
 
     <!-- Your Chat Plugin code -->
-    <div class="fb-customerchat"
+    <!--<div class="fb-customerchat"
          ref="OPTIONAL_WEBHOOK_PARAM"
          page_id="108420570980982"
          greeting_dialog_display="hide">
-    </div>
+    </div>-->
+
+
+
 </body>
 </html>
