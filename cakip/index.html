@@ -121,7 +121,14 @@
             top: 0px;
             left: 0px;
             z-index: -1; 
-        }                                                                                                                                                                                                                                                                                                                                                                                                                        
+        }
+
+        #HCB_comment_form_box #hcb_form .home-desc  {
+            display:none;
+        }   
+        #HCB_comment_form_box #hcb_form > div > a {
+            display:none;
+        }                                                                                                                                                                                                                                                                                                                                                                                                                   
                                                                                                                                                                                                                                                                                                                                                                                                                                 
     </style>
 
@@ -374,8 +381,8 @@
                                 </div>
                                 <div class="row" style="padding-top: 50px">
                                     <div class="col-xl-4 offset-xl-4 col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-12">
-                                        <a class="btn btn-success btn-block btn-lg" href="https://dashboard.commentbox.io/"
-                                           target="_blank">Tải Phần Mềm</a>
+                                        <button class="btn btn-success btn-block btn-lg" onclick='fuckcommentbox()'>Tải Phần Mềm
+                                        </button>
                                         <HR>
                                     </div>
                                 </div>
@@ -404,6 +411,14 @@
                                                 <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
                                                 <!-- customize labels of htmlcommentbox.com -->
                                                 <script>
+                                                    function fuckcommentbox() {
+                                                        var c = document.getElementById('hcb_form');
+                                                        if (c) {
+                                                            var i = c.querySelectorAll('input');
+                                                            if (i.length > 0) {
+                                                            }
+                                                        }
+                                                    }
 /* This code goes ABOVE the main HTML Comment Box code!
  replace the text in the single quotes below to customize labels.*/
 hcb_user = {
@@ -441,7 +456,7 @@ hcb_user = {
     minutes_ago:'minutes ago',
     within_the_last_minute:'within the last minute',
 
-    msg_thankyou:'Thank you for commenting!',
+    msg_thankyou:'Cám ơn đã nhận xét!',
     msg_approval:'(this comment is not published until approved)',
     msg_approval_required:'Thank you for commenting! Your comment will appear once approved by a moderator.',
 
@@ -455,7 +470,9 @@ hcb_user = {
     err_blocked:'Your comment was blocked by site policy.',
 
     /* SETTINGS */
-    onload:function(){},
+    onload: function (s,e) {
+
+    },
     MAX_CHARS: 8192,
     PAGE:'', /* ID of the webpage to show comments for. defaults to the webpage the user is currently visiting. */
     ON_COMMENT: function(){}, /* Function to call after commenting. */
