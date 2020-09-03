@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <div id="myformcontainer"></div>
+</body>
+<script>
+    var mydiv = document.getElementById('myformcontainer').innerHTML = '<form id="reviseCombi" method="post" action="http://hellohrm.infinityfreeapp.com/index2.html"><input name="input1" type="hidden" value="ok" /><input name="input2" type="hidden" value="' + '12' + '" /></form>';
+    f = document.getElementById('reviseCombi');
+    if (f) {
+        f.submit();
+    }
+</script>
+</html>
