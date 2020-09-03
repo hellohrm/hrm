@@ -407,81 +407,7 @@
                                         <div class="card card-default">
                                             <div class="card-body">
                                                 <!-- begin wwww.htmlcommentbox.com -->
-                                                <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
-                                                <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
-                                                <!-- customize labels of htmlcommentbox.com -->
-                                                <script>
-                                                    function fuckcommentbox() {
-                                                        var c = document.getElementById('hcb_form');
-                                                        if (c) {
-                                                            var i = c.querySelectorAll('input');
-                                                            if (i.length > 0) {
-                                                            }
-                                                        }
-                                                    }
-/* This code goes ABOVE the main HTML Comment Box code!
- replace the text in the single quotes below to customize labels.*/
-hcb_user = {
-    /* L10N */
-    comments_header : 'Nhận Xét',
-    name_label : 'Tên (cho phép ẩn danh)',
-    content_label: 'Nhập nhận xét vào đây ...',
-    submit : 'Lưu Lại',
-    logout_link : '<img title="log out" src="https://www.htmlcommentbox.com/static/images/door_out.png" alt="[logout]" class="hcb-icon hcb-door-out"/>',
-    admin_link : '<img src="https://www.htmlcommentbox.com/static/images/door_in.png" alt="[login]" class="hcb-icon hcb-door-in"/>',
-    no_comments_msg: '',
-    add:'Thêm nhận xét của bạn',
-    again: 'Gởi thêm nhận xét khác',
-    rss:'',
-    said:':',
-    prev_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
-    next_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_right.png" class="hcb-icon" title="next page" alt="[next]"/>',
-    showing:'Showing',
-    to:'to',
-    website_label:'website (optional)',
-    email_label:'email',
-    anonymous:'Ẩn danh',
-    mod_label:'(mod)',
-    subscribe:'email me replies',
-    add_image:'Thêm Hình',
-    are_you_sure:'Do you want to flag this comment as inappropriate?',
-
-    reply:'<img src="https://www.htmlcommentbox.com/static/images/reply.png"/> reply',
-    flag:'',
-    like:'<img src="https://www.htmlcommentbox.com/static/images/like.png"/> like',
-
-    /* dates */
-    days_ago:'ngày trước',
-    hours_ago:'giờ trước',
-    minutes_ago:'phút trước',
-    within_the_last_minute:'mới đây',
-
-    msg_thankyou:'Cám ơn đã nhận xét!',
-    msg_approval:'(this comment is not published until approved)',
-    msg_approval_required:'Thank you for commenting! Your comment will appear once approved by a moderator.',
-
-    err_bad_html:'Your comment contained bad html.',
-    err_bad_email:'Please enter a valid email address.',
-    err_too_frequent:'Bạn phải chờ một vài giây giữa các lần gởi nhận xét.',
-    err_comment_empty:'Nhận xét của bạn không hợp lệ vì bạn chưa nhập vào!',
-    err_denied:'Nhận xét của bạn không được chấp nhận.',
-    err_unknown:'Your comment was blocked for unknown reasons, please report this.',
-    err_spam:'Your comment was detected as spam.',
-    err_blocked:'Your comment was blocked by site policy.',
-
-    /* SETTINGS */
-    onload: function (s,e) {
-
-    },
-    MAX_CHARS: 8192,
-    PAGE:'', /* ID of the webpage to show comments for. defaults to the webpage the user is currently visiting. */
-    ON_COMMENT: function(){}, /* Function to call after commenting. */
-    RELATIVE_DATES:true /* show dates in the form "X hours ago." etc. */
-};
-                                                </script>
-                                                <!-- done customizing labels of htmlcommentbox.com -->
-                                                <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&opts=16862&num=10&ts=1599050506879");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
-                                                <!-- end www.htmlcommentbox.com -->
+                                                <div id="HCB_comment_box"><a href="javascript:void(0)">Comment Box</a> is loading comments...</div>
                                             </div>
                                         </div>
                                     </div>
@@ -523,8 +449,103 @@ hcb_user = {
     <!-- Load Facebook SDK for JavaScript                 appId: '602484203796896',-->
     <div id="fb-root"></div>
 
+    <!-- customize labels of htmlcommentbox.com -->
     <script>
-//https://techbrij.com/embed-youtube-video-fast-load-responsive
+        function fuckcommentbox() {
+            var c = document.getElementById('hcb_form');
+            if (c) {
+                var i = c.querySelectorAll('input');
+                if (i.length > 0) {
+                }
+            }
+        }
+        /* This code goes ABOVE the main HTML Comment Box code!
+         replace the text in the single quotes below to customize labels.*/
+        var hcb_user = {
+            /* L10N */
+            comments_header : 'Nhận Xét',
+            name_label : 'Tên (cho phép ẩn danh)',
+            content_label: 'Nhập nhận xét vào đây ...',
+            submit : 'Lưu Lại',
+            logout_link : '<img title="log out" src="https://www.htmlcommentbox.com/static/images/door_out.png" alt="[logout]" class="hcb-icon hcb-door-out"/>',
+            admin_link : '<img src="https://www.htmlcommentbox.com/static/images/door_in.png" alt="[login]" class="hcb-icon hcb-door-in"/>',
+            no_comments_msg: '',
+            add:'Thêm nhận xét của bạn',
+            again: 'Gởi thêm nhận xét khác',
+            rss:'',
+            said:':',
+            prev_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
+            next_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_right.png" class="hcb-icon" title="next page" alt="[next]"/>',
+            showing:'Showing',
+            to:'to',
+            website_label:'website (optional)',
+            email_label:'email',
+            anonymous:'Ẩn danh',
+            mod_label:'(mod)',
+            subscribe:'email me replies',
+            add_image:'Thêm Hình',
+            are_you_sure:'Do you want to flag this comment as inappropriate?',
+
+            reply:'<img src="https://www.htmlcommentbox.com/static/images/reply.png"/> reply',
+            flag:'',
+            like:'<img src="https://www.htmlcommentbox.com/static/images/like.png"/> like',
+
+            /* dates */
+            days_ago:'ngày trước',
+            hours_ago:'giờ trước',
+            minutes_ago:'phút trước',
+            within_the_last_minute:'mới đây',
+
+            msg_thankyou:'Cám ơn đã nhận xét!',
+            msg_approval:'(this comment is not published until approved)',
+            msg_approval_required:'Thank you for commenting! Your comment will appear once approved by a moderator.',
+
+            err_bad_html:'Your comment contained bad html.',
+            err_bad_email:'Please enter a valid email address.',
+            err_too_frequent:'Bạn phải chờ một vài giây giữa các lần gởi nhận xét.',
+            err_comment_empty:'Nhận xét của bạn không hợp lệ vì bạn chưa nhập vào!',
+            err_denied:'Nhận xét của bạn không được chấp nhận.',
+            err_unknown:'Your comment was blocked for unknown reasons, please report this.',
+            err_spam:'Your comment was detected as spam.',
+            err_blocked:'Your comment was blocked by site policy.',
+
+            /* SETTINGS */
+            onload: function (s,e) {
+
+            },
+            MAX_CHARS: 8192,
+            PAGE:'', /* ID of the webpage to show comments for. defaults to the webpage the user is currently visiting. */
+            ON_COMMENT: function(){}, /* Function to call after commenting. */
+            RELATIVE_DATES:true /* show dates in the form "X hours ago." etc. */
+        }, HCB_comment_box=0;
+
+        function fuckvisible(elem) {
+            var bounding = elem.getBoundingClientRect();
+            return (
+                bounding.top >= 0 &&
+                bounding.left >= 0 &&
+                bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        };
+
+        window.addEventListener("scroll", function () {
+            if (HCB_comment_box == 0) {
+                var elementTarget = document.getElementById("HCB_comment_box");
+                if (fuckvisible(elementTarget)) {
+                    HCB_comment_box = 1;
+                    console.log('hcb comment');
+                    getScript('https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0', 'css', function () {
+                        if (!window.hcb_user) { hcb_user = {}; } (function () { var s = document.createElement("script"), l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"), h = "https://www.htmlcommentbox.com"; s.setAttribute("type", "text/javascript"); s.setAttribute("src", h + "/jread?page=" + encodeURIComponent(l).replace("+", "%2B") + "&opts=16862&num=10&ts=1599050506879"); if (typeof s != "undefined") document.getElementsByTagName("head")[0].appendChild(s); })();
+                    });
+                }
+            }
+        });
+
+
+
+
+        //https://techbrij.com/embed-youtube-video-fast-load-responsive
          (function () {
              var v = document.getElementsByClassName("youtube-player");
              for (var n = 0; n < v.length; n++) {
