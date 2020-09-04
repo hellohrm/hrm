@@ -6,30 +6,65 @@
     <script src="Tracer_files/jquery.min.js"></script>
 </head>
 <body>
-    <div id="myformcontainer"></div>
+    <div id="myformcontainer" onclick='get()'>get</div>
+    <div id="xxx" onclick='post()'>post</div>
+    <div id="aaa" onclick='del()'>del4</div>
 </body>
 <script type="text/javascript">
     jQuery.support.cors = true;
+    var apihost = 'https://hellohrm.ml';// 'http://localhost:27911';//
+
     var Data = {
-        "name": "jonsa",
-        "e-mail": "qwerty@gmail.com",
-        "phone": 1223456789
+        "id": "4",
+        "name": "Nokia",
+        "color": "Black",
+        "price": 1223456789
     };
 
-
-    $.ajax({
-        type: 'POST',
-        url: 'http://hellohrm.infinityfreeapp.com/index.php',
-        data: Data,
-        success: function (data) {
-            document.getElementById('myformcontainer').innerHTML = data;
-        },
-        error: function (jqXHR, textStatus, ex) {
+    function get() {
+        $.ajax({
+            type: 'GET',
+            url: apihost+ '/products',
+            data: Data,
+            success: function (data) {
+                document.getElementById('myformcontainer').innerHTML = data;
+            },
+            error: function (jqXHR, textStatus, ex) {
                 alert(textStatus + "," + ex + "," + jqXHR.responseText);
-        },
-        contentType: "application/json",
-        dataType: 'json'
-    });
+            },
+            contentType: "application/json",
+            dataType: 'json'
+        });
+    }
+    function post() {
+        $.ajax({
+            type: 'POST',
+            url: apihost + '/add?XDEBUG_SESSION_START=7DEFA69F',
+            data: Data,
+            success: function (data) {
+                document.getElementById('myformcontainer').innerHTML = data;
+            },
+            error: function (jqXHR, textStatus, ex) {
+                alert(textStatus + "," + ex + "," + jqXHR.responseText);
+            }
+        });
+    }
+    function del() {
+        $.ajax({
+            type: 'DELETE',
+            url: apihost + '/del/4?XDEBUG_SESSION_START=7DEFA69F',
+            cache: false,
+            contentType: "application/json; charset=utf-8",
+            data: "{}",
+            dataType: "json",
+            success: function (data) {
+                document.getElementById('myformcontainer').innerHTML = data;
+            },
+            error: function (jqXHR, textStatus, ex) {
+                alert(textStatus + "," + ex + "," + jqXHR.responseText);
+            }
+        });
+    }
 
 
 </script>
