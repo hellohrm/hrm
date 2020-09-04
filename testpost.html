@@ -26,6 +26,7 @@
             type: 'GET',
             url: apihost+ '/products',
             data: Data,
+            crossDomain: true,
             success: function (data) {
                 document.getElementById('myformcontainer').innerHTML = data;
             },
