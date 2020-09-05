@@ -9,6 +9,7 @@
 
     <div id="myformcontainer" onclick='get()'>get</div>
     <div id="xxx" onclick='post()'>post</div>
+    <div id="xxx" onclick='PUT()'>PUT</div>
     <div id="aaa" onclick='del()'>del4</div>
 </body>
 <script type="text/javascript">
@@ -49,12 +50,23 @@
             }
         });
     }
+    function PUT() {
+        $.ajax({
+            type: 'put',
+            url: apihost + '/upt/4?XDEBUG_SESSION_START=13BB499D',
+            success: function (data) {
+                document.getElementById('myformcontainer').innerHTML = data;
+            },
+            error: function (jqXHR, textStatus, ex) {
+                alert(textStatus + "," + ex + "," + jqXHR.responseText);
+            }
+            , contentType: "text/plain",
+        });
+    }
     function del() {
         $.ajax({
             type: 'DELETE',
             url: apihost + '/del/4?XDEBUG_SESSION_START=13BB499D',
-            cache: false,
-            data: "{}",
             success: function (data) {
                 document.getElementById('myformcontainer').innerHTML = data;
             },
