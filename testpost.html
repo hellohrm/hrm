@@ -54,6 +54,7 @@
         $.ajax({
             type: 'put',
             url: apihost + '/upt/4?XDEBUG_SESSION_START=13BB499D',
+            crossDomain: true,
             success: function (data) {
                 document.getElementById('myformcontainer').innerHTML = data;
             },
@@ -67,6 +68,7 @@
         $.ajax({
             type: 'DELETE',
             url: apihost + '/del/4?XDEBUG_SESSION_START=13BB499D',
+            crossDomain: true,
             success: function (data) {
                 document.getElementById('myformcontainer').innerHTML = data;
             },
