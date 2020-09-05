@@ -61,6 +61,7 @@
             error: function (jqXHR, textStatus, ex) {
                 alert(textStatus + "," + ex + "," + jqXHR.responseText);
             }
+            , contentType: "text/plain",
         });
     }
 
