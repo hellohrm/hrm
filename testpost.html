@@ -14,7 +14,7 @@
 </body>
 <script type="text/javascript">
     jQuery.support.cors = true;
-    var apihost = 'https://hellohrm.cf';//'http://localhost:35418';//'http://hellohrm2020.ihostfull.com';// 'https://hellohrm.ml/';// ;//'http://hellohrm2020.ihostfull.com/public';// 'http://localhost:27911';//
+    var apihost = 'http://nhansu.ga'; //'http://localhost:35418';//'http://hellohrm2020.ihostfull.com';// 'https://hellohrm.ml/';// ;//'http://hellohrm2020.ihostfull.com/public';// 'http://localhost:27911';//
 
     var Data = {
         "id": "4",
@@ -52,30 +52,28 @@
     }
     function PUT() {
         $.ajax({
-            type: 'put',
+            type: 'PUT',
             url: apihost + '/upt/4?XDEBUG_SESSION_START=13BB499D',
-            crossDomain: true,
+            data: Data,
             success: function (data) {
                 document.getElementById('myformcontainer').innerHTML = data;
             },
             error: function (jqXHR, textStatus, ex) {
                 alert(textStatus + "," + ex + "," + jqXHR.responseText);
             }
-            , contentType: "text/plain",
         });
     }
     function del() {
         $.ajax({
             type: 'DELETE',
             url: apihost + '/del/4?XDEBUG_SESSION_START=13BB499D',
-            crossDomain: true,
+            data: Data,
             success: function (data) {
                 document.getElementById('myformcontainer').innerHTML = data;
             },
             error: function (jqXHR, textStatus, ex) {
                 alert(textStatus + "," + ex + "," + jqXHR.responseText);
             }
-            , contentType: "text/plain",
         });
     }
 
