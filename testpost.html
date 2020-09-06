@@ -35,7 +35,7 @@
 <script type="text/javascript">
 
     var whoami = window.location.origin,
-        whoareu = 'http://nhansu.ga/';//'http://localhost:35418';
+        whoareu = 'http://nhansu.ga';//'http://localhost:35418';
 
     // assign event handlers for onload and onmessage events
     if (window.addEventListener) {
@@ -68,7 +68,7 @@
         // Get reference to display div
         var el = document.getElementById('display');
         // Check origin đúng người trả lời
-        if (e.origin === whoareu) {
+        if (e.origin === whoareu || e.origin === whoareu +'/') {
             el.innerHTML = e.data;  // Display message data
         }
     }
