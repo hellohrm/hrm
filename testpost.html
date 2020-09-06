@@ -11,8 +11,99 @@
     <div id="xxx" onclick='post()'>post</div>
     <div id="xxx" onclick='PUT()'>PUT</div>
     <div id="aaa" onclick='del()'>del4</div>
+
+    <form action="#" method="post" class="demoForm" id="demoForm">
+        <fieldset>
+            <legend>Demo: postMessage</legend>
+            <p>
+                <label for="user">User name: </label>
+                <input type="text" name="user" id="user" value="user-name">
+            </p>
+            <p>
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email" value="user@example.com">
+            </p>
+            <p><label>&nbsp;</label><input type="button" id="submitBtn" name="submit" value="Submit"></p>
+        </fieldset>
+    </form>
+
+    <div id="display">
+
+    </div>
+
 </body>
 <script type="text/javascript">
+
+    var whoami = window.location.origin,
+        whoareu = 'http://nhansu.ga/';//'http://localhost:35418';
+
+    // assign event handlers for onload and onmessage events
+    if (window.addEventListener) {
+        window.addEventListener('load', handleForm, false);
+        window.addEventListener('message', handleMessage, false);
+    } else if (window.attachEvent) { // ie8
+        window.attachEvent('onload', handleForm);
+        window.attachEvent('onmessage', handleMessage);
+    }
+
+    function handleForm() {
+        // assign onclick handler to submit button
+        document.getElementById('submitBtn').onclick = function (e) {
+            // assign values in form fields to variables
+            var user = this.form.elements['user'].value;
+            var email = this.form.elements['email'].value;
+
+            // convert object literal containing form entries to a string
+            var msg = JSON.stringify({ 'user': user, 'email': email, 'sendfrom': whoami });
+
+            // get reference to window in iframe 
+            var win = document.getElementById('ifrm').contentWindow;
+
+            // send msg to win other
+            win.postMessage(msg, whoareu);
+        }
+    }
+    // event handler for postMessage
+    function handleMessage(e) {
+        // Get reference to display div
+        var el = document.getElementById('display');
+        // Check origin đúng người trả lời
+        if (e.origin === whoareu) {
+            el.innerHTML = e.data;  // Display message data
+        }
+    }
+
+    function addIframe() {
+        // in document on publisher's domain (where we're listening for a message)
+        // create iframe
+        var iframe = document.createElement('iframe');
+        iframe.setAttribute('id', 'ifrm');
+        iframe.setAttribute('style', 'background-color:darkorange');
+        var body = document.getElementsByTagName('body')[0];
+
+        //iframe.style.display = 'none';
+        iframe.src = whoareu+ '/hole.php?XDEBUG_SESSION_START=13BB499D'; // remote iframe page url
+
+        var done = false;
+        // event handler fires when iframe loads new document
+        iframe.onreadystatechange = function () {
+            if (iframe.readyState !== 'complete' || done) {
+                return;
+            }
+
+            console.log('Listening');
+
+            var name = iframe.contentWindow.name; // window.name returns undefined if inaccessible
+            if (name) {
+                console.log('Data: ' + iframe.contentWindow.name);
+                done = true;
+            }
+        };
+
+        body.appendChild(iframe);
+    }
+
+
     jQuery.support.cors = true;
     var apihost = 'https://nhansu.ga'; //'http://hellohrm2020.ihostfull.com';// 'http://localhost:35418';//'https://hellohrm.ml/';// ;//'http://hellohrm2020.ihostfull.com/public';// 'http://localhost:27911';//
 
@@ -78,6 +169,7 @@
     }
 
 
+    addIframe();
 </script>
 
 </html>
