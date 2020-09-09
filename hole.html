@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+
+    <div id='demo' style='background-color:black;color:white'></div>
+
+    <script type="text/JavaScript">
+
+        // event handler for postMessage
+        function handleMessage(e) {
+            document.getElementById('demo').innerHTML = e.origin;
+            var data = JSON.parse(e.data); // parse stringified data
+            // check origin of message
+            if (data && (e.origin === data['sendfrom'] || e.origin === data['sendfrom'] + '/')) {
+
+
+                var msg = ''; // holds info on validity of entries
+
+                // regexps to check data
+                var re = /[a-zA-Z]{3,40}/; // 3 to 40 alpha chars
+                // check entry for characters other than these
+                var re2 = /[^-a-zA-Z0-9_]/;
+                // email
+                var re3 = /^[a-z0-9]([a-z0-9_\-\.]*)@([a-z0-9_\-\.]*)(\.[a-z]{2,4}(\.[a-z]{2}){0,2})$/i;
+
+                // validate entries
+                if (!re.test(data.user)) {
+                    msg = 'Your user name is too short. '
+                }
+
+                if (re2.test(data.user)) {
+                    msg += 'Username can only include alphanumeric characters, underscores, and hyphens. ';
+                }
+
+                if (!re3.test(data.email)) {
+                    msg += 'Your email address is not valid.'
+                }
+
+                if (!msg) { // msg still empty string?
+                    msg = 'Your entries have been processed.';
+                }
+
+                msg += data['sendfrom'];
+
+                document.getElementById('demo').innerHTML = e.origin + e.data;
+
+                // send reply using e.source and e.origin properties
+                e.source.postMessage(msg, e.origin);
+            }
+        }
+
+        // assign handler for message events
+        if (window.addEventListener) {
+            window.addEventListener('message', handleMessage, false);
+        } else if (window.attachEvent) { // ie8
+            window.attachEvent('onmessage', handleMessage);
+        }
+
+    </script>
+</body>
+</html>

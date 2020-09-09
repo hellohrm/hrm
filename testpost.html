@@ -11,6 +11,7 @@
     <div id="xxx" onclick='post()'>post</div>
     <div id="xxx" onclick='PUT()'>PUT</div>
     <div id="aaa" onclick='del()'>del4</div>
+    <div id="addIframe" onclick='addIframe()'>addIframe</div>
 
     <form action="#" method="post" class="demoForm" id="demoForm">
         <fieldset>
@@ -35,7 +36,7 @@
 <script type="text/javascript">
 
     var whoami = window.location.origin,
-        whoareu = 'http://hellohrm2020.ihostfull.com';//https://nhansu.ga';//'http://localhost:35418';
+        whoareu = 'https://hrm.dnd.vn';//https://nhansu.ga';//'http://localhost:35418';
 
     // assign event handlers for onload and onmessage events
     if (window.addEventListener) {
@@ -82,7 +83,7 @@
         var body = document.getElementsByTagName('body')[0];
 
         //iframe.style.display = 'none';
-        iframe.src = whoareu+ '/hole.php?XDEBUG_SESSION_START=13BB499D'; // remote iframe page url
+        iframe.src = whoareu+ '/testpost.html?XDEBUG_SESSION_START=13BB499D'; // remote iframe page url
 
         var done = false;
         // event handler fires when iframe loads new document
@@ -105,7 +106,7 @@
 
 
     jQuery.support.cors = true;
-    var apihost = 'http://hellohrm2020.ihostfull.com/apiPHP/api'; //'https://tdn.hrpro.cf/api'; //'http://localhost:38555/server.php/api';// 'http://hellohrm2020.ihostfull.com';// 'http://localhost:35418';//'https://hellohrm.ml/';// ;//'http://hellohrm2020.ihostfull.com/public';// 'http://localhost:27911';//
+    var apihost = 'http://pmns.cf/apiPHP/api'; //'https://tdn.hrpro.cf/api'; //'http://localhost:38555/server.php/api';// 'http://hellohrm2020.ihostfull.com';// 'http://localhost:35418';//'https://hellohrm.ml/';// ;//'http://hellohrm2020.ihostfull.com/public';// 'http://localhost:27911';//
 
     var Data = {
         "id": "1",
@@ -168,7 +169,7 @@
     }
 
 
-    apihost
+    addIframe();
 </script>
 
 </html>
