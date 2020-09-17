@@ -27,6 +27,7 @@ var Lightbox = (function ($) {
 		footer: '',
 		maxWidth: 9999,
 		maxHeight: 9999,
+        fullH_WhenW:9999,
 		showArrows: true, //display the left / right arrows or not
 		wrapping: true, //if true, gallery loops infinitely
 		type: null, //force the lightbox into image / youtube mode. if null, or not image|youtube|vimeo; detect it
@@ -504,6 +505,7 @@ var Lightbox = (function ($) {
 
 				var width = this._$element.data('width') || 560;
 				var height = this._$element.data('height') || 560;
+				this._config.fullH_WhenW = this._$element.data('fullh_whenw');
 
 				var disableExternalCheck = this._$element.data('disableexternalcheck') || false;
 				this._toggleLoading(false);
@@ -651,12 +653,17 @@ var Lightbox = (function ($) {
 				//calculated each time as resizing the window can cause them to change due to Bootstraps fluid margins
 				var margins = parseFloat(this._$modalDialog.css('margin-top')) + parseFloat(this._$modalDialog.css('margin-bottom'));
 
-				var maxHeight = Math.min(height, $(window).height() - borderPadding - margins - headerHeight - footerHeight, this._config.maxHeight - borderPadding - headerHeight - footerHeight);
-
-				if (height > maxHeight) {
-					// if height > the available height, scale down the width
-					width = Math.ceil(maxHeight * imageAspecRatio) + widthBorderAndPadding;
-				}
+				var fullH = $(window).height() - borderPadding - margins - headerHeight - footerHeight;
+				if ($(window).width() <= this._config.fullH_WhenW) {
+				    var maxHeight = fullH;
+				} else {
+				    var maxHeight = Math.min(height, fullH, this._config.maxHeight - borderPadding - headerHeight - footerHeight);
+				    if (height > maxHeight) {
+				        // if height > the available height, scale down the width
+				        width = Math.ceil(maxHeight * imageAspecRatio) + widthBorderAndPadding;
+				    }
+				};
+				
 
 				this._$lightboxContainer.css('height', maxHeight);
 				this._$modalDialog.css('flex', 1).css('maxWidth', width);
