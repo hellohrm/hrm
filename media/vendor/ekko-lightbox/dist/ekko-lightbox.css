@@ -4,3 +4,6 @@
             padding: 0px 10px 10px;
             margin-top: -5px;
         }
+       .ekko-lightbox .modal-body {
+            padding: 5px 5px 1rem 5px;
+        }
