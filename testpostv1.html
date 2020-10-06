@@ -156,17 +156,26 @@
         //});
     }
     function post() {
-        $.ajax({
-            type: 'POST',
-            url: apihost + '/students?XDEBUG_SESSION_START=8561E5E6',
-            data: Data,
-            success: function (data) {
-                document.getElementById('myformcontainer').innerHTML = data.message;
-            },
-            error: function (jqXHR, textStatus, ex) {
-                alert(textStatus + "," + ex + "," + jqXHR.responseText);
-            }
-        });
+
+        var url ='http://localhost:3000/testbatky' ;//' + 'Username';'https://hellohrmapi.herokuapp.com/phailamsao'
+        var form = $('<form action="' + url + '" method="post">' +
+          '<input type="text" name="api_url" value="' + 'Return_URL' + '" />' +
+          '<input type="text" name="api_url1" value="' + 'hieu' + '" />' +
+          '</form>');
+        $('body').append(form);
+        form.submit();
+
+//        $.ajax({
+//            type: 'POST',
+//            url: apihost + '/students?XDEBUG_SESSION_START=8561E5E6',
+//            data: Data,
+//            success: function (data) {
+//                document.getElementById('myformcontainer').innerHTML = data.message;
+//            },
+//            error: function (jqXHR, textStatus, ex) {
+//                alert(textStatus + "," + ex + "," + jqXHR.responseText);
+//            }
+//        });
     }
     function PUT() {
         $.ajax({
@@ -196,7 +205,7 @@
     }
 
 
-    addIframe();
+    //addIframe();
 </script>
 
 </html>
