@@ -58,13 +58,14 @@ var Login = function () {
 		var errorHandler = $('.errorHandler', form);
 		form.validate({
 			rules : {
-				username : {
-					minlength : 2,
-					required : true
-				},
+			    email : {
+			        required: true,
+                    maxlength:30
+			    },
 				password : {
 					minlength : 6,
-					required : true
+					required: true,
+                    maxlength:30
 				}
 			},
 			submitHandler : function(form) {
@@ -82,7 +83,8 @@ var Login = function () {
 		form2.validate({
 			rules : {
 				email : {
-					required : true
+				    required: true,
+                    maxlength:30
 				}
 			},
 			submitHandler : function(form) {
@@ -115,20 +117,24 @@ var Login = function () {
 				//	required : true
 				//},
 				email : {
-					required : true
+				    required: true,
+                    maxlength:30
 				},
 				password : {
 					minlength : 6,
-					required : true
+					required: true,
+                    maxlength:30
 				},
 				password_again : {
 					required : true,
-					minlength : 5,
-					equalTo : "#password"
+					minlength : 6,
+					equalTo: "#password",
+                    maxlength:30
 				},
-				agree : {
-					//minlength : 1,
-					required : true
+				captcha: {
+					minlength : 5,
+					required: true,
+                    maxlength:30
 				}
 			},
 			submitHandler : function(form) {
