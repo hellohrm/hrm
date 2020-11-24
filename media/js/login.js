@@ -1,5 +1,5 @@
 jQuery.extend(jQuery.validator.messages, {
-    required: "This field is required. xxx",
+    required: "This field is required.",
     remote: "Please fix this field.",
     email: "Please enter a valid email address.",
     url: "Please enter a valid URL.",
