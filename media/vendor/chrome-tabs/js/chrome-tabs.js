@@ -1,5 +1,35 @@
 'use strict';
 
+if (typeof Object.assign != 'function') {
+    // Must be writable: true, enumerable: false, configurable: true
+    Object.defineProperty(Object, "assign", {
+        value: function assign(target, varArgs) { // .length of function is 2
+            'use strict';
+            if (target == null) { // TypeError if undefined or null
+                throw new TypeError('Cannot convert undefined or null to object');
+            }
+
+            var to = Object(target);
+
+            for (var index = 1; index < arguments.length; index++) {
+                var nextSource = arguments[index];
+
+                if (nextSource != null) { // Skip over if undefined or null
+                    for (var nextKey in nextSource) {
+                        // Avoid bugs when hasOwnProperty is shadowed
+                        if (Object.prototype.hasOwnProperty.call(nextSource, nextKey)) {
+                            to[nextKey] = nextSource[nextKey];
+                        }
+                    }
+                }
+            }
+            return to;
+        },
+        writable: true,
+        configurable: true
+    });
+}
+
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
@@ -193,6 +223,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 var _this3 = this;
 
                 tabEl.querySelector('.chrome-tab-close').addEventListener('click', function (_) {
+                    _.preventDefault();
+                    _.stopPropagation();
                     return _this3.removeTab(tabEl);
                 });
             }
@@ -276,9 +308,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 });
 
                 tabEls.forEach(function (tabEl, originalIndex) {
-                    tabEl[window.addEventListener ? 'addEventListener' : 'attachEvent'](window.addEventListener ? 'click' : 'onclick', function () {
-                        _this4.setCurrentTab(tabEl);
-                    }, false);
+                    tabEl.onclick = function (evt) {
+                        evt.preventDefault();
+                        evt.stopPropagation();
+                        _this4.setCurrentTab(this);
+                    };
+                    //tabEl[window.addEventListener ? 'addEventListener' : 'attachEvent'](window.addEventListener ? 'click' : 'onclick', function (evt) {
+                    //    evt.preventDefault();
+                    //    _this4.setCurrentTab(tabEl);
+                    //}, false);
                     //var originalTabPositionX = tabPositions[originalIndex];
                     //var draggabilly = new Draggabilly(tabEl, {
                     //    axis: 'x',
