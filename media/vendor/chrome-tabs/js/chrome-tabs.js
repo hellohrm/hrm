@@ -118,8 +118,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                     if (typeof (Event) === 'function') {
                         event = new Event(eventName, { detail: data });
                     } else {
-                        event = document.createEvent('Event', { detail: data });
-                        event.initEvent(eventName, true, true);
+                        //event = document.createEvent('Event', { detail: data });
+                        //event.initEvent(eventName, true, true);
+                        event = document.createEvent('CustomEvent');
+                        event.initCustomEvent(eventName, false, false,  data);
                     };
                     this.el.dispatchEvent(event);
                 };
