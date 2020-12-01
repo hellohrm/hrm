@@ -266,7 +266,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 tabEl.querySelector('.chrome-tab-title').textContent = tabProperties.title;
 
                 var faviconEl = tabEl.querySelector('.chrome-tab-favicon');
-                if (tabProperties.favicon) {
+                if (tabProperties.tabicon) {
+                    faviconEl.innerHTML = tabProperties.tabicon;
+                    faviconEl.removeAttribute('hidden', '');
+                } else if (tabProperties.favicon) {
                     faviconEl.style.backgroundImage = 'url(\'' + tabProperties.favicon + '\')';
                     faviconEl.removeAttribute('hidden', '');
                 } else {

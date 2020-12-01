@@ -11,7 +11,7 @@
 }
 .chrome-tabs * {
   box-sizing: inherit;
-  font: inherit;
+  /*font: inherit;*/
 }
 .chrome-tabs .chrome-tabs-content {
   position: relative;
@@ -130,6 +130,10 @@
   width: 16px;
   background-size: 16px;
   margin-left: 4px;
+  color: black;
+}
+.chrome-tab-favicon * {
+      font-size:large!important;
 }
 .chrome-tabs .chrome-tab[is-small] .chrome-tab-favicon {
   margin-left: 0;
@@ -178,13 +182,14 @@
   flex-grow: 0;
   flex-shrink: 0;
   position: relative;
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'><path stroke='rgba(0, 0, 0, .65)' stroke-linecap='square' stroke-width='1.5' d='M0 0 L8 8 M8 0 L0 8'></path></svg>");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 8px 8px;
+  margin-top:-4px;
 }
 @media (hover: hover) {
   .chrome-tabs .chrome-tab .chrome-tab-close:hover {
