@@ -314,8 +314,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
                 tabEls.forEach(function (tabEl, originalIndex) {
                     tabEl.onclick = function (evt) {
-                        //evt.preventDefault();
-                        //evt.stopPropagation();
+                        evt.preventDefault();
+                        evt.stopPropagation();
                         _this4.setCurrentTab(this);
                     };
                     //tabEl[window.addEventListener ? 'addEventListener' : 'attachEvent'](window.addEventListener ? 'click' : 'onclick', function (evt) {
