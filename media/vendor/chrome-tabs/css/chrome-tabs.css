@@ -168,6 +168,8 @@
 }
 .chrome-tabs .chrome-tab[active] .chrome-tab-title {
   color: #45474a;
+  line-height: 18px;
+  font-size: 14px;
 }
 .chrome-tabs .chrome-tab .chrome-tab-drag-handle {
   position: absolute;
