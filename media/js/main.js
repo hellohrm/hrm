@@ -263,7 +263,7 @@ var Main = function () {
 		//} else {
 		//	appSetting = clipSetting;
 		//}
-	    $.extend(appSetting, clipSetting);
+	    appSetting = $.extend({}, clipSetting, appSetting);
 
 		appSetting.fixedHeader ? app.addClass('app-navbar-fixed') : app.removeClass('app-navbar-fixed');
 		appSetting.fixedSidebar ? app.addClass('app-sidebar-fixed') : app.removeClass('app-sidebar-fixed');
