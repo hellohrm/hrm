@@ -249,10 +249,8 @@ var Main = function () {
 		};
 	};
 	// settings
-	var settingsHandler = function () {
-		var clipSetting = {},
-			appSetting = {};
-		clipSetting = {
+	var settingsHandler = function (appSetting) {
+	    var clipSetting = {
 			fixedHeader: true,
 			fixedSidebar: true,
 			closedSidebar: false,
@@ -263,8 +261,9 @@ var Main = function () {
 		//if (Cookies.get("clip-setting")) {
 		//	appSetting = $.parseJSON(Cookies.get("clip-setting"));
 		//} else {
-			appSetting = clipSetting;
+		//	appSetting = clipSetting;
 		//}
+	    $.extend(appSetting, clipSetting);
 
 		appSetting.fixedHeader ? app.addClass('app-navbar-fixed') : app.removeClass('app-navbar-fixed');
 		appSetting.fixedSidebar ? app.addClass('app-sidebar-fixed') : app.removeClass('app-sidebar-fixed');
@@ -485,8 +484,8 @@ var Main = function () {
 	}
 
 	return {
-		init: function () {
-			settingsHandler();
+		init: function (params) {
+		    settingsHandler(params);
 			sidebarHandler();
 			toggleClassOnElement();
 			navbarHandler();
