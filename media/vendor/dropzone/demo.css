@@ -1,0 +1,24 @@
+.tbinfo {
+	text-align: center; margin-top: 35px; margin-bottom: 50px;
+}
+.tbinfo h1 {
+	letter-spacing: 0.6px; padding-bottom: 0px; font-size: 31px; font-weight: bold; text-rendering: optimizespeed;
+}
+.tbinfo hr {
+	border: 2px solid currentColor; border-image: none; width: 30px; color: rgb(240, 74, 8); margin-top: 0px; margin-bottom: 0px;
+}
+.tbinfo .lead {
+	margin: 15px 0px; line-height: 1.9; font-family: "Lato",sans-serif; font-weight: 300;
+}
+.wrap {
+	
+}
+footer {
+	width: 100%; float: left;
+}
+.creditlink {
+	font-size: 15px; font-weight: bold;
+}
+.creditlink a {
+	font-style: normal !important;
+}

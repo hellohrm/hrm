@@ -1,0 +1,487 @@
+
+#fucktab * {
+	box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+#fucktab h1 {
+	padding: 0px 0px 10px; color: rgb(16, 15, 14); letter-spacing: 0px; font-family: "Raleway", sans-serif; font-weight: normal; position: relative;
+}
+#fucktab h2 {
+	padding: 0px 0px 10px; color: rgb(16, 15, 14); letter-spacing: 0px; font-family: "Raleway", sans-serif; font-weight: normal; position: relative;
+}
+#fucktab h3 {
+	padding: 0px 0px 10px; color: rgb(16, 15, 14); letter-spacing: 0px; font-family: "Raleway", sans-serif; font-weight: normal; position: relative;
+}
+#fucktab h4 {
+	padding: 0px 0px 10px; color: rgb(16, 15, 14); letter-spacing: 0px; font-family: "Raleway", sans-serif; font-weight: normal; position: relative;
+}
+#fucktab h5 {
+	padding: 0px 0px 10px; color: rgb(16, 15, 14); letter-spacing: 0px; font-family: "Raleway", sans-serif; font-weight: normal; position: relative;
+}
+#fucktab h6 {
+	padding: 0px 0px 10px; color: rgb(16, 15, 14); letter-spacing: 0px; font-family: "Raleway", sans-serif; font-weight: normal; position: relative;
+}
+#fucktab h1 {
+	margin-top: 20px; margin-bottom: 10px;
+}
+#fucktab .h1 {
+	margin-top: 20px; margin-bottom: 10px;
+}
+#fucktab h2 {
+	margin-top: 20px; margin-bottom: 10px;
+}
+#fucktab .h2 {
+	margin-top: 20px; margin-bottom: 10px;
+}
+#fucktab h3 {
+	margin-top: 20px; margin-bottom: 10px;
+}
+#fucktab .h3 {
+	margin-top: 20px; margin-bottom: 10px;
+}
+.thetabs {
+	width: 100%; float: left;
+}
+.thetabs input[type='radio'] {
+	opacity: 0;
+}
+.thetabs label {
+	margin: 0px 4px 0px 0px; padding: 1% 4%; color: rgb(255, 255, 255); font-family: "Raleway", sans-serif; font-size: 16px; border-top-color: rgb(249, 105, 14); border-top-width: 2px; border-top-style: solid; float: left; cursor: pointer; background-color: rgb(249, 105, 14);
+}
+.thetabs label:hover {
+	background: rgb(255, 255, 255); color: rgb(51, 51, 51); border-top-color: rgb(249, 105, 14); border-top-width: 2px; border-top-style: solid;
+}
+.thetabs label .fa {
+	font-size: 14px; margin-right: 10px;
+}
+.thetabs input[type='radio']:checked + label {
+	background: rgb(255, 255, 255); color: rgb(51, 51, 51); border-top-color: rgb(249, 105, 14); border-top-width: 2px; border-top-style: solid;
+}
+.thetabs input[type='radio']:checked + label .fa {
+	color: rgb(249, 105, 14);
+}
+.thetabs input[type='radio']:checked:nth-of-type(1) ~ .panels :first-child.panel {
+	opacity: 1; -webkit-transition: .4s;
+}
+.thetabs input[type='radio']:checked:nth-of-type(2) ~ .panels :nth-child(2).panel {
+	opacity: 1; -webkit-transition: .4s;
+}
+.thetabs input[type='radio']:checked:nth-of-type(3) ~ .panels :nth-child(3).panel {
+	opacity: 1; -webkit-transition: .4s;
+}
+.thetabs input[type='radio']:checked:nth-of-type(4) ~ .panels :last-child.panel {
+	opacity: 1; -webkit-transition: .4s;
+}
+.thetabs .panels {
+	background: rgb(255, 255, 255); width: 100%; height: auto; clear: both; float: left; position: relative;
+}
+.thetabs .panel {
+	background: rgb(255, 255, 255); padding: 4% 4% 1%; width: 100%; position: absolute; box-sizing: border-box; opacity: 0;
+}
+.thetabs .panel p {
+	margin-top: 12px; margin-bottom: 12px; position: relative; z-index: 999;
+}
+.thetabs .panel a {
+	color: rgb(249, 105, 14); font-style: italic; text-decoration: none;
+}
+.thetabs .heading h1 {
+	letter-spacing: 0.6px; padding-bottom: 12px; font-size: 28px; font-weight: bold; margin-top: 12px; border-bottom-color: rgb(249, 105, 14); border-bottom-width: 4px; border-bottom-style: solid; display: inline-block; position: relative; z-index: 999; text-rendering: optimizespeed;
+}
+.thetabs .headline h1 {
+	text-align: center; letter-spacing: 0.6px; padding-bottom: 0px; font-size: 30px; font-weight: bold; text-rendering: optimizespeed;
+}
+.thetabs .headline hr {
+	background: 0px 0px rgb(249, 105, 14); border: 2px solid currentColor; border-image: none; width: 30px; color: rgb(249, 105, 14); margin-top: 0px; margin-bottom: 0px;
+}
+.thetabs .headline .lead {
+	margin: 15px 0px; text-align: center; line-height: 1.9; font-family: "Lato",sans-serif; font-weight: 300;
+}
+.thetabs .panel h3 {
+	padding: 0px; position: relative; z-index: 999;
+}
+.thetabs .panel .sp-20 {
+	margin-top: 20px;
+}
+.thetabs blockquote {
+	background: rgb(249, 249, 249); margin: 1.5em 10px; padding: 0.5em 10px; border-left-color: rgb(204, 204, 204); border-left-width: 10px; border-left-style: solid; quotes: "“" "”" "‘" "’";
+}
+.thetabs blockquote::before {
+	color: rgb(204, 204, 204); line-height: 0.1em; font-size: 4em; margin-right: 0.25em; vertical-align: -0.4em; content: open-quote;
+}
+.thetabs blockquote p {
+	display: inline;
+}
+.thetabs form {
+	width: 100%; float: left; position: relative; z-index: 999;
+}
+.thetabs input[type='text'] {
+	padding: 2%; border: 1px solid rgb(222, 222, 222); border-image: none; width: 100%; height: 45px; color: rgb(152, 152, 152); font-family: "PT Sans",sans-serif; font-size: 14px; margin-bottom: 12px;
+}
+.thetabs input[type='email'] {
+	padding: 2%; border: 1px solid rgb(222, 222, 222); border-image: none; width: 100%; height: 45px; color: rgb(152, 152, 152); font-family: "PT Sans",sans-serif; font-size: 14px; margin-bottom: 12px;
+}
+.thetabs input[type='tel'] {
+	padding: 2%; border: 1px solid rgb(222, 222, 222); border-image: none; width: 100%; height: 45px; color: rgb(152, 152, 152); font-family: "PT Sans",sans-serif; font-size: 14px; margin-bottom: 12px;
+}
+.thetabs input[type='url'] {
+	padding: 2%; border: 1px solid rgb(222, 222, 222); border-image: none; width: 100%; height: 45px; color: rgb(152, 152, 152); font-family: "PT Sans",sans-serif; font-size: 14px; margin-bottom: 12px;
+}
+.thetabs input[type='password'] {
+	padding: 2%; border: 1px solid rgb(222, 222, 222); border-image: none; width: 100%; height: 45px; color: rgb(152, 152, 152); font-family: "PT Sans",sans-serif; font-size: 14px; margin-bottom: 12px;
+}
+textarea {
+	padding: 2%; border: 1px solid rgb(222, 222, 222); border-image: none; width: 100%; height: 45px; color: rgb(152, 152, 152); font-family: "PT Sans",sans-serif; font-size: 14px; margin-bottom: 12px;
+}
+.thetabs textarea {
+	height: 150px;
+}
+.thetabs .or {
+	text-align: center; font-style: italic; font-weight: normal; margin-bottom: 10px;
+}
+.thetabs .btn {
+	padding: 10px; border: currentColor; border-image: none; color: rgb(255, 255, 255); font-family: "PT Sans",sans-serif; font-size: 16px; cursor: pointer;
+}
+.thetabs a.btn {
+	text-align: center; color: rgb(255, 255, 255); font-style: normal; margin-bottom: 10px; display: inline-block;
+}
+.thetabs .btn.large {
+	width: 49%;
+}
+.thetabs .btn.medium {
+	width: 24%;
+}
+.thetabs .btn.small {
+	width: 19%;
+}
+.thetabs .orange {
+	background-color: rgb(249, 105, 14);
+}
+.thetabs .orange:hover {
+	color: rgb(255, 255, 255); background-color: rgb(66, 65, 64);
+}
+.thetabs .black {
+	background-color: rgb(0, 0, 0);
+}
+.thetabs .black:hover {
+	color: rgb(255, 255, 255); background-color: rgb(249, 105, 14);
+}
+.thetabs .gray {
+	background-color: rgb(163, 163, 163);
+}
+.thetabs .gray:hover {
+	color: rgb(255, 255, 255); background-color: rgb(108, 108, 108);
+}
+.thetabs a.btn i {
+	font-size: 18px;
+}
+.check {
+	margin: 0px; padding: 0px;
+}
+.check li::before {
+	padding: 5px; border: 1px solid rgb(249, 105, 14); border-image: none; left: 0px; top: 2px; text-align: center; color: rgb(249, 105, 14); font-family: "FontAwesome"; font-size: 16px; margin-right: 10px; position: relative; content: "\f00c";
+}
+.check li {
+	list-style: none; margin-bottom: 20px;
+}
+.check li a {
+	color: rgb(101, 101, 101);
+}
+.thetabs .panel .flat.facebook {
+	background: 0px 0px rgb(59, 89, 152);
+}
+.thetabs .panel a.flat {
+	padding: 10px; width: 50%; color: rgb(255, 255, 255) !important; font-size: 14px; text-decoration: none; float: left;
+}
+.thetabs .panel .flat.twitter {
+	background: 0px 0px rgb(22, 179, 245);
+}
+.thetabs .tooltips {
+	margin: 0px; padding: 0px;
+}
+.thetabs .tooltips li {
+	list-style: none; width: 24%; display: inline-block;
+}
+.thetabs .tooltips li a {
+	width: 100%;
+}
+.tabstips {
+	display: inline-block; position: relative;
+}
+.tabstips::before {
+	position: absolute; z-index: 1000000; opacity: 0; pointer-events: none; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease;
+}
+.tabstips::after {
+	position: absolute; z-index: 1000000; opacity: 0; pointer-events: none; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease;
+}
+.tabstips:hover::before {
+	opacity: 1;
+}
+.tabstips:hover::after {
+	opacity: 1;
+}
+.tabstips::before {
+	background: none; border: 6px solid transparent; border-image: none; position: absolute; content: "";
+}
+.tabstips::after {
+	background: rgb(108, 108, 108); padding: 8px 10px; color: white; font-size: 12px; white-space: nowrap; content: attr(data-tips);
+}
+.tabstips-top::before {
+	margin: 0px 0px -20px; left: 50%; bottom: 100%; border-top-color: rgb(108, 108, 108);
+}
+.tabstips-top::after {
+	margin: 0px 0px -6px -10px; left: 50%; bottom: 100%;
+}
+.tabstips-top:hover::before {
+	margin-bottom: -10px;
+}
+.tabstips-top:hover::after {
+	margin-bottom: 2px;
+}
+.tabstips-bottom::before {
+	margin: -14px 0px 0px; left: 50%; top: 100%; border-bottom-color: rgb(108, 108, 108);
+}
+.tabstips-bottom::after {
+	margin: -2px 0px 0px -10px; left: 50%; top: 100%;
+}
+.tabstips-bottom:hover::before {
+	margin-top: -6px;
+}
+.tabstips-bottom:hover::after {
+	margin-top: 6px;
+}
+.tabstips-right::before {
+	margin: 0px 0px -4px -8px; left: 100%; bottom: 50%; border-right-color: rgb(108, 108, 108);
+}
+.tabstips-right::after {
+	margin: 0px 0px -13px 4px; left: 100%; bottom: 50%;
+}
+.tabstips-right:hover::before {
+	margin: 0px 0px -4px;
+}
+.tabstips-right:hover::after {
+	margin: 0px 0px -13px 12px;
+}
+.tabstips-left::before {
+	margin: 0px -8px -4px 0px; right: 100%; bottom: 50%; border-left-color: rgb(108, 108, 108);
+}
+.tabstips-left::after {
+	margin: 0px 4px -13px 0px; right: 100%; bottom: 50%;
+}
+.tabstips-left:hover::before {
+	margin: 0px 0px -4px;
+}
+.tabstips-left:hover::after {
+	margin: 0px 12px -13px 0px;
+}
+.tabskills {
+	width: 100%; margin-bottom: 1.66em; float: left;
+}
+.tabskills h4 {
+	margin: 0px; padding: 0px; font-weight: bold;
+}
+.tabprogress {
+	background: rgb(163, 163, 163); width: 100%; height: 20px; overflow: hidden;
+}
+.tabpro-value {
+	background: rgb(249, 105, 14); height: 20px; float: left;
+}
+.percentage-0 {
+	width: 0px;
+}
+.percentage-10 {
+	width: 10%;
+}
+.percentage-20 {
+	width: 20%;
+}
+.percentage-30 {
+	width: 30%;
+}
+.percentage-40 {
+	width: 40%;
+}
+.percentage-50 {
+	width: 50%;
+}
+.percentage-60 {
+	width: 60%;
+}
+.percentage-70 {
+	width: 70%;
+}
+.percentage-80 {
+	width: 80%;
+}
+.percentage-90 {
+	width: 90%;
+}
+.percentage-100 {
+	width: 100%;
+}
+.tabpro-value {
+	animation:slideIn 5s; -webkit-animation: slideIn 5s; -moz-animation: slideIn 5s; -o-animation: slideIn 5s;
+}
+.container {
+	margin: 0px auto; width: 1080px;
+}
+.row {
+	padding: 10px 0px; margin-right: -10px; margin-left: -10px; position: relative; z-index: 999;
+}
+.fullwidth {
+	width: 100%; margin-bottom: 10px; float: left;
+}
+.text-center {
+	text-align: center;
+}
+.pull-right {
+	float: right !important;
+}
+.clearfix {
+	clear: both;
+}
+.grid {
+	overflow: hidden;
+}
+.column {
+	padding: 0px 10px; margin-right: -4px; vertical-align: top; display: inline-block;
+}
+.column-1 {
+	width: 8.33%;
+}
+.column-2 {
+	width: 16.66%;
+}
+.column-3 {
+	width: 25%;
+}
+.column-4 {
+	width: 33.33%;
+}
+.column-5 {
+	width: 41.66%;
+}
+.column-6 {
+	width: 50%;
+}
+.column-7 {
+	width: 58.34%;
+}
+.column-8 {
+	width: 66.66%;
+}
+.column-9 {
+	width: 75%;
+}
+.column-10 {
+	width: 83.33%;
+}
+.column-11 {
+	width: 91.66%;
+}
+.column-12 {
+	width: 100%;
+}
+.column {
+	padding: 10px;
+}
+.column.demo {
+	color: rgb(255, 255, 255);
+}
+.column-1.demo {
+	background-color: rgb(20, 20, 20);
+}
+.column-2.demo {
+	background-color: rgb(34, 34, 34);
+}
+.column-3.demo {
+	background-color: rgb(51, 51, 51);
+}
+.column-4.demo {
+	background-color: rgb(68, 68, 68);
+}
+.column-5.demo {
+	background-color: rgb(85, 85, 85);
+}
+.column-6.demo {
+	background-color: rgb(102, 102, 102);
+}
+.column-7.demo {
+	background-color: rgb(119, 119, 119);
+}
+.column-8.demo {
+	background-color: rgb(136, 136, 136);
+}
+.column-9.demo {
+	background-color: rgb(153, 153, 153);
+}
+.column-10.demo {
+	background-color: rgb(61, 60, 60);
+}
+.column-11.demo {
+	background-color: rgb(61, 60, 60);
+}
+.column-12.demo {
+	background-color: rgb(28, 28, 28);
+}
+@media screen and (max-width:1125px)
+{
+.container {
+	width: 96%;
+}
+.thetabs .panel a.flat {
+	padding: 10px 40px 10px 39px;
+}
+}
+@media only screen and (max-width:1000px) and (min-width:800px)
+{
+.column {
+	font-size: 75%;
+}
+.thetabs label {
+	width: 100%;
+}
+.thetabs .panel a.flat {
+	margin: 0px auto; text-align: center; float: none !important; display: block;
+}
+.thetabs .btn {
+	padding: 10px 29px;
+}
+}
+@media only screen and (max-width:799px) and (min-width:240px)
+{
+#fucktab h1 {
+	text-align: center;
+}
+#fucktab h2 {
+	text-align: center;
+}
+#fucktab h3 {
+	text-align: center;
+}
+#fucktab h4 {
+	text-align: center;
+}
+#fucktab h5 {
+	text-align: center;
+}
+#fucktab h6 {
+	text-align: center;
+}
+.column {
+	width: 100%; margin-top: 5px;
+}
+.thetabs label {
+	width: 100%;
+}
+.thetabs .panel a.flat {
+	margin: 0px auto; text-align: center; float: none !important; display: block;
+}
+.social-circle {
+	text-align: center;
+}
+.thetabs .tooltips {
+	text-align: center;
+}
+.thetabs .tooltips li {
+	float: none !important; display: inline-block;
+}
+}
