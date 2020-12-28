@@ -76,7 +76,7 @@ html.dark-theme {
   }
 }
 
-button {
+/*button {
   font-family: inherit;
   display: inline-block;
   cursor: pointer;
@@ -86,7 +86,7 @@ button {
   border-radius: 3px;
   padding: .6em 1.5em .7em;
   border-radius: 9999px;
-}
+}*/
 
 @supports (-webkit-overflow-scrolling: touch) {
   /* Prevent double tap to zoom on iOS https://stackoverflow.com/a/47131647 */
