@@ -476,9 +476,9 @@ var Main = function () {
 	}
 
 	function isMobile() {
-		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+	    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 			return true;
-		} else {
+	    } else {
 			return false;
 		}
 	}
@@ -500,6 +500,7 @@ var Main = function () {
 			customSelectHandler();
 			goTopHandler();
 			activeMenu();
-		}
+		},
+        isMobile:isMobile
 	};
 }();
