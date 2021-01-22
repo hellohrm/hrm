@@ -3,7 +3,9 @@ var FormWizard = function () {
     var wizardContent = $('#wizard');
     var wizardForm = $('#form');
     var numberOfSteps = $('.swMain > ul > li').length;
-    var initWizard = function () {
+    var _params = {};
+    var initWizard = function (params) {
+        if (params) _params = params;
         // function to initiate Wizard Form
         wizardContent.smartWizard({
             selected: 0,
@@ -50,6 +52,9 @@ var FormWizard = function () {
             e.preventDefault();
             onFinish(obj, context);
         });
+        if ($.isFunction(_params.onShowStep)) {
+            _params.onShowStep.call(this, obj, context);
+        }
     };
     var leaveAStepCallback = function (obj, context) {
         return validateSteps(context.fromStep, context.toStep);
@@ -87,8 +92,6 @@ var FormWizard = function () {
         return isStepValid;
     };
     return {
-        init: function () {
-            initWizard();
-        }
+        init: initWizard
     };
 }();
