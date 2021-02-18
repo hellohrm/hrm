@@ -91,7 +91,7 @@
 }
 .chrome-tabs .chrome-tab:not([active]) .chrome-tab-background {
   transition: opacity 0.2s ease;
-  opacity: 0;
+  opacity: 0.3;
 }
 @media (hover: hover) {
   .chrome-tabs .chrome-tab:not([active]):hover {
@@ -151,7 +151,7 @@
   overflow: hidden;
   white-space: nowrap;
   margin-left: 4px;
-  color: #5f6368;
+  color: whitesmoke;
   -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 calc(100% - 24px), transparent);
   mask-image: linear-gradient(90deg, #000 0%, #000 calc(100% - 24px), transparent);
 }

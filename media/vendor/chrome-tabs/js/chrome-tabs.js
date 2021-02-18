@@ -148,9 +148,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                     _this.layoutTabs();
                 });
 
-                this.el.addEventListener('dblclick', function (event) {
-                    if ([_this.el, _this.tabContentEl].includes(event.target)) _this.addTab();
-                });
+                //this.el.addEventListener('dblclick', function (event) {
+                //    if ([_this.el, _this.tabContentEl].includes(event.target)) _this.addTab();
+                //});
 
                 this.tabEls.forEach(function (tabEl) {
                     return _this.setTabCloseEventListener(tabEl);
