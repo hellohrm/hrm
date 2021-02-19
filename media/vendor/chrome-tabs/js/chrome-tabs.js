@@ -201,7 +201,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 var background = _ref$background === undefined ? false : _ref$background;
 
                 var tabEl = this.createNewTabEl();
-
+                tabEl.tabProperties = tabProperties;
+                //
                 if (animate) {
                     tabEl.classList.add('chrome-tab-was-just-added');
                     setTimeout(function () {
