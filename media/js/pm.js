@@ -270,11 +270,11 @@ var ver = '1.03', st = function (a, k, p) {
             doc.close();
             var _whoami = doc[_$id]('whoami'); whoareu = _whoami.getAttribute('data-whoareu'); srcpf$ = _whoami.getAttribute('data-prefixsrc');
             _whoami.setAttribute("value", window.location.href);
-            if (whoareu == '') { whoareu = window.location.origin } else { whoareu = window.location.protocol + "//" + whoareu }; whoareu += '?XDEBUG_SESSION_START=154A5348';
+            if (whoareu == '') { whoareu = window.location.origin } else { whoareu = window.location.protocol + "//" + whoareu };
             _a$.mainHole = whoareu; isST = window.localStorage;
             var iniF = doc['getElementsByTagName']('form')[0];
             iniF.method = "post";
-            iniF.setAttribute('action', whoareu + '/hole?' + new Date().getTime());
+            iniF.setAttribute('action', whoareu + '/hole?XDEBUG_SESSION_START=154A5348&t=' + new Date().getTime());
             //
             $ifm = ifrm.contentWindow;
             //
