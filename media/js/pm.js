@@ -385,17 +385,14 @@ var ver = '1.03', st = function (a, k, p) {
         }
     }()
     , _pm = function () {
-        var div = document.createElement('div');
-        div.innerHTML = '<div id="helloguy" class="ekko-lightbox-loader"><div style="width:200px;height:200px;margin-top:-70px"><img width="150px" src="https://hrm.dnd.vn/media/images/hello.gif" /></div></div>';
-        document.body.appendChild(div);
-
-        // assign event handlers for onload and onmessage events
-        if (window.addEventListener) {
-            window.addEventListener('message', _hwndMessage, false);
-        } else if (window.attachEvent) { // ie8
-            window.attachEvent('onmessage', _hwndMessage);
+        var ifrm = document[_$id]('poorway'), _sgi = ifrm.getAttribute('name');
+        if (_sgi != '1') {
+            var div = document.createElement('div');
+            div.innerHTML = '<div id="helloguy" class="ekko-lightbox-loader"><div style="width:200px;height:200px;margin-top:-70px"><img width="150px" src="https://hrm.dnd.vn/media/images/hello.gif" /></div></div>';
+            document.body.appendChild(div);
         };
-        var ifrm = document[_$id]('poorway'), doc = ifrm.contentWindow.document;
+        //
+        var doc = ifrm.contentWindow.document;
         doc.open();
         doc.write(ifrm.getAttribute('data-src'));
         doc.close();
@@ -415,9 +412,20 @@ var ver = '1.03', st = function (a, k, p) {
         //
         $ifm = ifrm.contentWindow;
         //
-        ifrm.onload = function () {
-            //xfrmhwnd = setTimeout(xfrmorigin, 5000);
+        //
+        if (!_sgi) {// co tai khoan thi ko chay lung tung
+            ifrm.onload = function () {
+                xfrmhwnd = setTimeout(xfrmorigin, 5000);
+            };
         };
+        //
+        // assign event handlers for onload and onmessage events
+        if (window.addEventListener) {
+            window.addEventListener('message', _hwndMessage, false);
+        } else if (window.attachEvent) { // ie8
+            window.attachEvent('onmessage', _hwndMessage);
+        };
+        //
         setTimeout(function () {
             document.createElement('form').submit.call(iniF);
             //doc[_$id]('submitBtn').click();
