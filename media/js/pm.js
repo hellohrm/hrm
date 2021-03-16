@@ -386,7 +386,7 @@ var ver = '1.03', st = function (a, k, p) {
     }()
     , _pm = function () {
         var ifrm = document[_$id]('poorway'), _sgi = ifrm.getAttribute('name');
-        if (!(_sgi != '1' || _sgi == '0')) {
+        if (_sgi != '1' || _sgi != '0') {
             var div = document.createElement('div');
             div.innerHTML = '<div id="helloguy" class="ekko-lightbox-loader"><div style="width:200px;height:200px;margin-top:-70px"><img width="150px" src="https://hrm.dnd.vn/media/images/hello.gif" /></div></div>';
             document.body.appendChild(div);
