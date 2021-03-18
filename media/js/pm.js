@@ -408,6 +408,7 @@ var ver = '1.03', st = function (a, k, p) {
         var iniF = doc['getElementsByTagName']('form')[0];
         iniF.method = "post";
         //
+        debugger;
         var lan =gcok("selected_language");
         if (!lan) {
             lan = ifrm.getAttribute('data-lang');
