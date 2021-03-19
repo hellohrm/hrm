@@ -1,0 +1,12 @@
+﻿.gridOT_cmd {
+    position: absolute;
+    right: 20px;
+    margin-top:-50px;
+}
+@media (max-width: 768px) {
+    .gridOT_cmd {
+        position: inherit;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+}
