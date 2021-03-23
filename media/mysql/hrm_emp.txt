@@ -1,4 +1,4 @@
-CREATE TABLE `hrm_emp` (
+CREATE TABLE `@@@TableName@@@` (
   `acno` int(11) DEFAULT NULL,
   `empcode` varchar(50) CHARACTER SET utf8 DEFAULT NULL,
   `ho` varchar(50) CHARACTER SET utf8 DEFAULT NULL,
