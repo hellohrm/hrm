@@ -6,6 +6,6 @@ CREATE TABLE `@@@TableName@@@` (
   `birthday` datetime DEFAULT NULL,
   `hireday` datetime DEFAULT NULL,
   `pid` int(11) DEFAULT NULL,
-  `empid` int(11) NOT NULL AUTO_INCREMENT,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`empid`)
 )
