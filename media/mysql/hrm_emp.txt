@@ -3,8 +3,8 @@ CREATE TABLE `@@@TableName@@@` (
   `empcode` varchar(50) CHARACTER SET utf8 DEFAULT NULL,
   `ho` varchar(50) CHARACTER SET utf8 DEFAULT NULL,
   `ten` varchar(50) CHARACTER SET utf8 DEFAULT NULL,
-  `birthday` datetime DEFAULT NULL,
-  `hireday` datetime DEFAULT NULL,
+  `birthday` DATE DEFAULT NULL,
+  `hireday` DATE DEFAULT NULL,
   `pid` int(11) DEFAULT NULL,
   `id` int(11) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`empid`)
