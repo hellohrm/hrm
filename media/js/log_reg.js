@@ -265,7 +265,7 @@ var LoginModalController = {
         };
         //
         base.lockfrm('');
-        email.prop('readonly', true);
+        //email.prop('readonly', true);
         //loginpw.prop('readonly', true);
         var that = $(_ist), dat = frm.serializeArray(); dat.push({ name: 'token', value: token.val() }, { name: 'session', value: hash[0] });
         setTimeout(function () {
