@@ -267,28 +267,31 @@ var LoginModalController = {
         };
         //
         base.lockfrm('');
-        //
+        email.prop('readonly', true);
+        loginpw.prop('readonly', true);
         var that = $(_ist), dat = frm.serializeArray(); dat.push({ name: 'token', value: token.val() }, { name: 'session', value: hash[0] });
-        base.hwData('/dangnhap?XDEBUG_SESSION_START=154A5348', dat, function (cb) {
-            if (cb.rst == 'ok') {
-                var kq = JSON.parse(cb.dat);
-                if (kq.accStatus == '-1') {
-                    errmsg.css('display', '').html(dicLAN['js_001_7']);
-                    loginpw.val('');
-                    base.lockfrm('none');
-                } else if (kq.accStatus == '-2') {
-                    var logmod = $(".logmod");
-                    logmod.html(kq.html);
-                    logmod.find('[data-lang]').each(function (idx, el) {
-                        var key = el.getAttribute('data-lang');
-                        el.innerHTML = dicLAN[key];
-                    });
-                    base.lockfrm('none');
-                } else {
-                    window.parent.postMessage({ 'msgtype': 'session', 'msgkind': hash[0], 'evtData': { evt: 'loginok', origin: window.location.origin, html: kq.html } }, hash[2]);
-                };
-            }
-        });
+        setTimeout(function () {
+            base.hwData('/dangnhap?XDEBUG_SESSION_START=154A5348', dat, function (cb) {
+                if (cb.rst == 'ok') {
+                    var kq = JSON.parse(cb.dat);
+                    if (kq.accStatus == '-1') {
+                        errmsg.css('display', '').html(dicLAN['js_001_7']);
+                        loginpw.val('');
+                        base.lockfrm('none');
+                    } else if (kq.accStatus == '-2') {
+                        var logmod = $(".logmod");
+                        logmod.html(kq.html);
+                        logmod.find('[data-lang]').each(function (idx, el) {
+                            var key = el.getAttribute('data-lang');
+                            el.innerHTML = dicLAN[key];
+                        });
+                        base.lockfrm('none');
+                    } else {
+                        window.parent.postMessage({ 'msgtype': 'session', 'msgkind': hash[0], 'evtData': { evt: 'loginok', origin: window.location.origin, html: kq.html } }, hash[2]);
+                    };
+                }
+            });
+        }, 20);
     }, initialize: function () {
         var base = this;
 
