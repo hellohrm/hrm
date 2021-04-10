@@ -69,12 +69,10 @@ var LoginModalController = {
         base.hidePassword.on("click", function (e) {
             var $this = $(this),
             $pwInput = $this.prev("input");
-
-            if ($pwInput.attr("type") == "password") {
-                $pwInput.attr("type", "text");
+            $pwInput.toggleClass('fuckpass')
+            if ($pwInput.hasClass("fuckpass")) {
                 $this.text(dicLAN['js_001_22']);
             } else {
-                $pwInput.attr("type", "password");
                 $this.text(dicLAN['js_001_23']);
             }
         });
@@ -267,8 +265,8 @@ var LoginModalController = {
         };
         //
         base.lockfrm('');
-        email.prop('readonly', true);
-        loginpw.prop('readonly', true);
+        //email.prop('readonly', true);
+        //loginpw.prop('readonly', true);
         var that = $(_ist), dat = frm.serializeArray(); dat.push({ name: 'token', value: token.val() }, { name: 'session', value: hash[0] });
         setTimeout(function () {
             base.hwData('/dangnhap?XDEBUG_SESSION_START=154A5348', dat, function (cb) {
@@ -358,8 +356,7 @@ var LoginModalController = {
       
 
         $('input#loginpw').bind('copy', function (e) {
-            e.preventDefault();
-            alert('cut,copy & paste options are disabled !!');
+            e.preventDefault();//prevent copy
         });
 
 
