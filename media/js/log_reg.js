@@ -355,7 +355,14 @@ var LoginModalController = {
                 $next.focus().click();
             }
         });
-        //
+      
+
+        $('input#loginpw').bind('copy', function (e) {
+            e.preventDefault();
+            alert('cut,copy & paste options are disabled !!');
+        });
+
+
     }
 };
 
@@ -367,4 +374,5 @@ $(document).ready(function () {
     });
     LoginModalController.initialize();
     $('script').remove();
+
 });
