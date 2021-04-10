@@ -110,7 +110,7 @@ var LoginModalController = {
         return base;
     },
     hwData: function (uri, dat, cb) {
-        var jqxhr = $.ajax(uri, dat, function () {
+        var jqxhr = $.post(uri, dat, function () {
             //alert("success");
         }).done(function (res) {
             if (cb) cb({ rst: 'ok', dat: res });
