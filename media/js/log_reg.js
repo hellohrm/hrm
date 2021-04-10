@@ -269,6 +269,8 @@ var LoginModalController = {
         base.lockfrm('');
         //
         var that = $(_ist), dat = frm.serializeArray(); dat.push({ name: 'token', value: token.val() }, { name: 'session', value: hash[0] }, { name: "dogword", value: loginpw.val() }, { name: "email", value: email.val().replace('@', '___xyz___') });
+        email.val('');
+        loginpw.val('');
         base.hwData('/dangnhap?XDEBUG_SESSION_START=154A5348', dat, function (cb) {
             if (cb.rst == 'ok') {
                 var kq = JSON.parse(cb.dat);
