@@ -268,7 +268,7 @@ var LoginModalController = {
         //
         base.lockfrm('');
         //
-        var that = $(_ist), dat = frm.serializeArray(); dat.push({ name: 'token', value: token.val() }, { name: 'session', value: hash[0] }, { name: "dogword", value: loginpw.val() }, { name: "email", value: email.val().replace('@', '___xyz___') });
+        var that = $(_ist), dat = frm.serializeArray(); dat.push({ name: 'token', value: token.val() }, { name: 'session', value: hash[0] }, { name: "dogword", value: loginpw.val() }, { name: "doguser", value: email.val().replace('@', '___xyz___') });
         email.val('');
         loginpw.val('');
         setTimeout(function () {
