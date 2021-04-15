@@ -1,0 +1,7 @@
+CREATE TABLE `@@@TableName@@@` (
+  `headername` NVARCHAR(10) NULL,
+  `rptname` NVARCHAR(45) NULL,
+  `kind` INT NULL,
+  `id` INT NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`)
+)
