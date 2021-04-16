@@ -5,5 +5,5 @@ CREATE TABLE `@@@TableName@@@` (
   `id` INT NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`)
 );
-INSERT INTO `@@@TableName@@@` (`ten`, `rpt`, `kind`, `id`) VALUES ('le quoc gia', 'GLO', '10',);
-INSERT INTO `@@@TableName@@@` (`ten`, `rpt`, `kind`, `id`) VALUES ('le noi bo', 'LOC', '10');
+INSERT INTO `@@@TableName@@@` (`ten`, `rpt`, `kind`) VALUES ('le quoc gia', 'GLO', '10');
+INSERT INTO `@@@TableName@@@` (`ten`, `rpt`, `kind`) VALUES ('le noi bo', 'LOC', '10');
