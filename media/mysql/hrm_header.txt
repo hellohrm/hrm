@@ -1,7 +1,9 @@
 CREATE TABLE `@@@TableName@@@` (
-  `headername` NVARCHAR(10) NULL,
-  `rptname` NVARCHAR(45) NULL,
+  `ten` NVARCHAR(10) NULL,
+  `rpt` NVARCHAR(45) NULL,
   `kind` INT NULL,
   `id` INT NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`)
-)
+);
+INSERT INTO `accusers`.`hrm_header__93` (`ten`, `rpt`, `kind`, `id`) VALUES ('le quoc gia', 'GLO', '10', '1');
+INSERT INTO `accusers`.`hrm_header__93` (`ten`, `rpt`, `kind`, `id`) VALUES ('le noi bo', 'LOC', '10', '1');
