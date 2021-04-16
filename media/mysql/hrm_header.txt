@@ -1,6 +1,6 @@
 CREATE TABLE `@@@TableName@@@` (
-  `ten` NVARCHAR(10) NULL,
-  `rpt` NVARCHAR(45) NULL,
+  `ten` NVARCHAR(200) NULL,
+  `rpt` NVARCHAR(50) NULL,
   `kind` INT NULL,
   `id` INT NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`)
