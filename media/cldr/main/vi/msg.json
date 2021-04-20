@@ -47,7 +47,7 @@
     "dxDateBox-simulatedDataPickerTitleTime": "Select time",
     "dxDateBox-simulatedDataPickerTitleDate": "Select date",
     "dxDateBox-simulatedDataPickerTitleDateTime": "Select date and time",
-    "dxDateBox-validation-datetime": "Value must be a date or time",
+    "dxDateBox-validation-datetime": "Giá trị phải là kiểu ngày",
     "dxFileUploader-selectFile": "Select file",
     "dxFileUploader-dropFile": "or Drop file here",
     "dxFileUploader-bytes": "bytes",
