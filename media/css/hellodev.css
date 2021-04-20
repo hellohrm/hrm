@@ -14,6 +14,6 @@
     -webkit-appearance: none!important;
 
 }
-.dx-button-content {
+.dx-button .dx-button-content {
     padding: 7px!important;
 }
