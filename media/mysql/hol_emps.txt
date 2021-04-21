@@ -1,0 +1,5 @@
+CREATE TABLE `hol_emps` (
+  `empid` INT NULL,
+  `pid` INT NULL,
+  `id` INT NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`));
