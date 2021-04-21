@@ -3,6 +3,8 @@ CREATE TABLE `@@@TableName@@@` (
   `rpt` NVARCHAR(50) NULL,
   `kind` INT NULL,
   `isdef` int(11) DEFAULT '0',
+  `ngay` date DEFAULT NULL,
+  `parentid` int(11) DEFAULT NULL,
   `id` INT NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`)
 );
