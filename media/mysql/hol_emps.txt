@@ -1,4 +1,4 @@
-CREATE TABLE `hol_emps` (
+CREATE TABLE `@@@TableName@@@` (
   `empid` INT NULL,
   `pid` INT NULL,
   `id` INT NOT NULL AUTO_INCREMENT,
