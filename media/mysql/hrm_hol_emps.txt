@@ -1,5 +1,6 @@
 CREATE TABLE `@@@TableName@@@` (
   `empid` INT NULL,
   `pid` INT NULL,
+  `notes` varchar(200) CHARACTER SET utf8 DEFAULT NULL,
   `id` INT NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`));

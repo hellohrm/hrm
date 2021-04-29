@@ -5,6 +5,7 @@ CREATE TABLE `@@@TableName@@@` (
   `isdef` int(11) DEFAULT '0',
   `ngay` date DEFAULT NULL,
   `parentid` int(11) DEFAULT NULL,
+  `notes` varchar(200) CHARACTER SET utf8 DEFAULT NULL,
   `id` INT NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`)
 );
