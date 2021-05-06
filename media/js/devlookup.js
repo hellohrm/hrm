@@ -17,12 +17,7 @@
                 break;
             case 'pu':
                 if (fs) {
-                    debugger;
-                    if (H > 600) {
-                        return { width: '100%' }
-                    } else {
-                        return { fullScreen: true }
-                    }
+                    return { fullScreen: true }
                 }
                 break;
             case 'drawer':
@@ -221,7 +216,7 @@
                 lk.find(".lktoolbar").append(btn);
 
                 this._$drawer = El.find(".lkdrawer").dxDrawer({
-                    opened: true,
+                    opened: puS('drawer')=='push'?false:true,
                     height: '100%',
                     openedStateMode: puS('drawer'),
                     template: function (EL) {
