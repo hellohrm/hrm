@@ -38,5 +38,5 @@ CREATE TABLE `@@@TableName@@@` (
   `id` INT NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`)
 );
-INSERT INTO `@@@TableName@@@` (`ten`, `rpt`, `kind`, `isdef`) VALUES ('f_006_GLO', 'GLO', '10', '1');
-INSERT INTO `@@@TableName@@@` (`ten`, `rpt`, `kind`, `isdef`) VALUES ('f_006_LOC', 'LOC', '10', '1');
+INSERT INTO `@@@TableName@@@` (`ten`, `rpt`, `kind`, `isdef`,`id`) VALUES ('f_006_GLO', 'GLO', '10', '1','1');
+INSERT INTO `@@@TableName@@@` (`ten`, `rpt`, `kind`, `isdef`,`id`) VALUES ('f_006_LOC', 'LOC', '10', '1','2');
