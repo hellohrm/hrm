@@ -2,3 +2,14 @@
         .container-navbar-right {
             border-bottom:none!important;
         }
+
+.chrome-tabs .chrome-tab .chrome-tab-title {
+    color:whitesmoke;
+}
+/*#sidebar nav > ul > li.open {
+    background: none !important;
+}
+
+#sidebar nav>ul>li.active {
+    background: #171c23!important;
+}*/

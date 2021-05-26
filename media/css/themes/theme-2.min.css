@@ -2,6 +2,13 @@ body{background:#f0f3f4}@media (max-width:991px){.app-content{background:#f0f3f4
 .container-navbar-right {
     background-color:#22262e!important;
 }
+.container-navbar-right {
+    border-bottom:none!important;
+}
+.chrome-tabs .chrome-tab .chrome-tab-title {
+    color:whitesmoke;
+}
+
 header .dropdown-off-sidebar {
     border-left-color: #394557!important;
     background: #22262e!important;
