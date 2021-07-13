@@ -1,6 +1,5 @@
 CREATE TABLE `@@@TableName@@@` (
-  `fname` varchar(200) CHARACTER SET utf8 DEFAULT NULL,
-  `conf` varchar(500) CHARACTER SET utf8 DEFAULT NULL,
-  `dat` blob DEFAULT NULL,
-  `id` INT NOT NULL AUTO_INCREMENT,
+  `logid` int(11) DEFAULT NULL,
+  `dat` blob NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`));
