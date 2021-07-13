@@ -1,5 +1,4 @@
 CREATE TABLE `@@@TableName@@@` (
-  `logid` int(11) DEFAULT NULL,
+  `logid` int(11) NOT NULL,
   `dat` blob NOT NULL,
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  PRIMARY KEY (`id`));
+  PRIMARY KEY (`logid`));
