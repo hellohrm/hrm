@@ -1,4 +1,4 @@
 CREATE TABLE `@@@TableName@@@` (
   `logid` int(11) NOT NULL,
-  `dat` blob NOT NULL,
+  `dat` blob NULL,
   PRIMARY KEY (`logid`));
