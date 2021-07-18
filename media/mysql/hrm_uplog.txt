@@ -1,4 +1,8 @@
 CREATE TABLE `@@@TableName@@@` (
   `logid` int(11) NOT NULL,
   `dat` LONGBLOB NULL,
+  `i1` int(11) DEFAULT NULL,
+  `dec1` decimal(28,8) DEFAULT NULL,
+  `nga1` datetime DEFAULT NULL,
+  `txt1` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`logid`));
