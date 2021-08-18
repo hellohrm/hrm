@@ -1,1 +1,2325 @@
-﻿var _0xb554=["\x75\x73\x65\x20\x73\x74\x72\x69\x63\x74","\x73\x33\x63\x61\x6C\x63","\x66\x72\x6F\x6D","\x74\x6F\x53\x74\x72\x69\x6E\x67","\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x66\x75\x6E\x63\x74\x69\x6F\x6E","\x5B\x6F\x62\x6A\x65\x63\x74\x20\x46\x75\x6E\x63\x74\x69\x6F\x6E\x5D","\x63\x61\x6C\x6C","\x70\x6F\x77","\x61\x62\x73","\x66\x6C\x6F\x6F\x72","\x6D\x61\x78","\x6D\x69\x6E","\x41\x72\x72\x61\x79\x2E\x66\x72\x6F\x6D\x20\x72\x65\x71\x75\x69\x72\x65\x73\x20\x61\x6E\x20\x61\x72\x72\x61\x79\x2D\x6C\x69\x6B\x65\x20\x6F\x62\x6A\x65\x63\x74\x20\x2D\x20\x6E\x6F\x74\x20\x6E\x75\x6C\x6C\x20\x6F\x72\x20\x75\x6E\x64\x65\x66\x69\x6E\x65\x64","\x6C\x65\x6E\x67\x74\x68","\x41\x72\x72\x61\x79\x2E\x66\x72\x6F\x6D\x3A\x20\x77\x68\x65\x6E\x20\x70\x72\x6F\x76\x69\x64\x65\x64\x2C\x20\x74\x68\x65\x20\x73\x65\x63\x6F\x6E\x64\x20\x61\x72\x67\x75\x6D\x65\x6E\x74\x20\x6D\x75\x73\x74\x20\x62\x65\x20\x61\x20\x66\x75\x6E\x63\x74\x69\x6F\x6E","\x72\x65\x70\x65\x61\x74","\x63\x61\x6E\x27\x74\x20\x63\x6F\x6E\x76\x65\x72\x74\x20","\x20\x74\x6F\x20\x6F\x62\x6A\x65\x63\x74","","\x72\x65\x70\x65\x61\x74\x20\x63\x6F\x75\x6E\x74\x20\x6D\x75\x73\x74\x20\x62\x65\x20\x6E\x6F\x6E\x2D\x6E\x65\x67\x61\x74\x69\x76\x65","\x72\x65\x70\x65\x61\x74\x20\x63\x6F\x75\x6E\x74\x20\x6D\x75\x73\x74\x20\x62\x65\x20\x6C\x65\x73\x73\x20\x74\x68\x61\x6E\x20\x69\x6E\x66\x69\x6E\x69\x74\x79","\x72\x65\x70\x65\x61\x74\x20\x63\x6F\x75\x6E\x74\x20\x6D\x75\x73\x74\x20\x6E\x6F\x74\x20\x6F\x76\x65\x72\x66\x6C\x6F\x77\x20\x6D\x61\x78\x69\x6D\x75\x6D\x20\x73\x74\x72\x69\x6E\x67\x20\x73\x69\x7A\x65","\x6C\x6F\x67","\x73\x75\x62\x73\x74\x72\x69\x6E\x67","\x64\x69\x76","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x3C\x73\x70\x61\x6E\x20","\x70\x66\x78","\x74\x79\x70\x65","\x3D\x22","\x22\x20","\x76\x61\x6C\x75\x65","\x2D","\x20","\x3E","\x3C\x2F\x73\x70\x61\x6E\x3E","\x66\x69\x72\x73\x74\x45\x6C\x65\x6D\x65\x6E\x74\x43\x68\x69\x6C\x64","\x67\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x2D\x64\x65\x6C\x61\x79","\x6C\x69\x6E\x65\x44\x65\x6C\x61\x79","\x69\x6E\x70\x75\x74","\x2D\x63\x75\x72\x73\x6F\x72","\x63\x75\x72\x73\x6F\x72","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x72\x65\x6D\x6F\x76\x65\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x64\x6F\x6E\x65","\x63\x6F\x6E\x63\x61\x74","\x2D\x74\x79\x70\x65\x44\x65\x6C\x61\x79","\x74\x79\x70\x65\x44\x65\x6C\x61\x79","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x72\x65\x6C\x65\x61\x73\x65\x57\x61\x69\x74","\x72\x65\x73\x6F\x6C\x76\x65","\x70\x72\x6F\x6D\x69\x73\x65","\x70\x72\x6F\x67\x72\x65\x73\x73","\x2D\x70\x72\x6F\x67\x72\x65\x73\x73\x4C\x65\x6E\x67\x74\x68","\x70\x72\x6F\x67\x72\x65\x73\x73\x4C\x65\x6E\x67\x74\x68","\x2D\x70\x72\x6F\x67\x72\x65\x73\x73\x43\x68\x61\x72","\x70\x72\x6F\x67\x72\x65\x73\x73\x43\x68\x61\x72","\x2D\x70\x72\x6F\x67\x72\x65\x73\x73\x50\x65\x72\x63\x65\x6E\x74","\x70\x72\x6F\x67\x72\x65\x73\x73\x50\x65\x72\x63\x65\x6E\x74","\x2D\x70\x72\x6F\x67\x73\x73\x44\x65\x6C\x61\x79","\x72\x6F\x75\x6E\x64","\x73\x6C\x69\x63\x65","\x25","\x63\x62\x4E\x65\x77\x4C\x69\x6E\x65","\x69\x73\x41\x72\x72\x61\x79","\x5F\x77\x61\x69\x74","\x73\x74\x72\x69\x6E\x67","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x64\x61\x74\x61\x2D","\x70\x72\x65\x66\x69\x78","\x74\x79","\x73\x74\x61\x72\x74\x44\x65\x6C\x61\x79","\x2D\x73\x74\x61\x72\x74\x44\x65\x6C\x61\x79","\x2D\x6C\x69\x6E\x65\x44\x65\x6C\x61\x79","\u2588","\u258B","\x6C\x69\x6E\x65\x44\x61\x74\x61","\x6D\x61\x70","\x6E\x6F\x49\x6E\x69\x74","\x6C\x69\x6E\x65\x73","\x5B","\x5D","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C","\x63\x6C\x6F\x6E\x65\x4E\x6F\x64\x65","\x64\x61\x74\x61\x2D\x74\x65\x72\x6D\x79\x6E\x61\x6C","\x57\x72\x69\x74\x65\x4C\x6E","\x61\x74\x74\x5F\x70\x72\x6F\x67\x72\x65\x73\x73","\x70\x75\x62\x6C\x69\x63\x53\x68\x61\x72\x65\x64\x56\x61\x72","\x71\x75\x75\x78","\x70\x75\x62\x6C\x69\x63\x53\x68\x61\x72\x65\x64\x4D\x65\x74\x68\x6F\x64","\x69\x6E\x73\x74\x61\x6E\x63\x65","\x64\x78\x50\x6F\x70\x75\x70","\x49\x6E\x66\x6F\x72\x6D\x61\x74\x69\x6F\x6E","\x62\x6F\x74\x74\x6F\x6D","\x63\x65\x6E\x74\x65\x72","\x64\x78\x42\x75\x74\x74\x6F\x6E","\x62\x65\x66\x6F\x72\x65","\x65\x6D\x61\x69\x6C","\x53\x65\x6E\x64","\x6D\x65\x73\x73\x61\x67\x65","\x63\x65\x6E\x74\x65\x72\x20\x74\x6F\x70","\x73\x75\x63\x63\x65\x73\x73","\x6E\x6F\x74\x69\x66\x79","\x75\x69","\x61\x66\x74\x65\x72","\x43\x6C\x6F\x73\x65","\x68\x69\x64\x65","\x73\x74\x65\x70\x33\x5F\x72\x73\x74\x5F\x67\x72\x69\x64\x5F\x70\x6F\x70\x75\x70\x46\x69\x6C\x74\x65\x72","\x67\x72\x69\x64\x74\x69\x74\x6C\x65","\x73\x74\x65\x70\x33\x5F\x75\x74\x69\x6C\x73","\x68\x74\x6D\x6C","\x2E\x74\x6F\x6F\x6C\x62\x61\x72\x2D\x6C\x61\x62\x65\x6C","\x66\x69\x6E\x64","\x4C\x41\x4E","\x41\x72\x67\x73","\x76\x69\x65\x77\x42\x61\x63\x6B","\x73\x63\x72\x6F\x6C\x6C\x54\x6F\x70","\x3C\x73\x70\x61\x6E\x20\x64\x61\x74\x61\x2D\x74\x79\x3D\x22\x69\x6E\x70\x75\x74\x22\x20\x64\x61\x74\x61\x2D\x74\x79\x2D\x70\x72\x6F\x6D\x70\x74\x3D\x22\u26A0\x22\x3E\x20\x31\x2E\x20\x51\x75\x79\x20\x75\x6F\x63\x20\x67\x6F\x6D\x20\x6C\x6F\x67\x20\x74\x68\x65\x20\x67\x61\x6E\x20\x6E\x68\x61\x75\x20\x74\x68\x61\x6E\x68\x20\x31\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x73\x70\x61\x6E\x20\x64\x61\x74\x61\x2D\x74\x79\x3D\x22\x69\x6E\x70\x75\x74\x22\x20\x64\x61\x74\x61\x2D\x74\x79\x2D\x70\x72\x6F\x6D\x70\x74\x3D\x22\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x3E\x22\x3E\x20\x43\x61\x63\x20\x4C\x6F\x67\x20\x67\x61\x74\x20\x74\x68\x65\x20\x63\x61\x63\x68\x20\x6E\x68\x61\x75\x20\x6E\x68\x6F\x20\x68\x6F\x6E\x20\x68\x6F\x61\x63\x20\x62\x61\x6E\x67\x20\x30\x20\x2D\x3E\x31\x20\x6D\x69\x6E\x75\x74\x65\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x73\x70\x61\x6E\x20\x64\x61\x74\x61\x2D\x74\x79\x3D\x22\x69\x6E\x70\x75\x74\x22\x20\x64\x61\x74\x61\x2D\x74\x79\x2D\x70\x72\x6F\x6D\x70\x74\x3D\x22\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x3E\x22\x3E\x20\x4C\x6F\x67\x20\x64\x75\x6F\x63\x20\x63\x68\x6F\x6E\x20\x64\x65\x20\x74\x69\x6E\x68\x20\x63\x6F\x6E\x67\x20\x4C\x6F\x67\x2D\x31\x20\x2D\x3E\x20\x4C\x6F\x67\x2D\x32\x2F\x73\x70\x61\x6E\x3E","\x61\x70\x70\x65\x6E\x64","\x75\x70\x64\x61\x74\x65","\x63\x6D\x64\x53\x33\x5F\x73\x63\x72\x6F\x50\x65\x72\x66","\x73\x63\x72\x6F\x6C\x6C\x48\x65\x69\x67\x68\x74","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x27\x74\x69\x2D\x61\x6C\x65\x72\x74\x27\x2F\x3E\x20\x4B\x65\x74\x20\x71\x75\x61\x20\x63\x75\x20\x68\x6F\x6E\x20\x4C\x6F\x67\x20\x67\x61\x74\x20\x74\x68\x65\x20\x6F\x20\x23\x73\x74\x65\x70\x2D\x32","\x64\x2D\x66\x6C\x65\x78","\x61\x64\x64\x43\x6C\x61\x73\x73","\x6E\x65\x78\x74","\x65\x78\x65\x63","\x64\x65\x73\x74\x72\x6F\x79","\x2E\x70\x68\x61\x6E\x74\x72\x61\x6D\x63\x6F\x75\x74\x69\x6E\x67","\x65\x6D\x70\x74\x79","\x2E\x6B\x69\x65\x6D\x2D\x74\x68\x65\x20\x2E\x78\x77\x69\x6E\x64\x6F\x77","\x61\x70\x70\x65\x6E\x64\x54\x6F","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x74\x65\x72\x6D\x79\x6E\x61\x6C\x22\x2F\x3E","\x68\x69\x64\x65\x2D\x6F\x76\x65\x72\x66\x6C\x6F\x77\x2D\x79","\x2E\x6B\x69\x65\x6D\x2D\x74\x68\x65\x20\x2E\x73\x74\x65\x70\x33\x5F\x72\x73\x74","\x61\x6C\x6C\x4C\x4F\x47\x73","\x69\x64","\x72\x65\x6D\x6F\x76\x65\x41\x74\x74\x72","\x61\x62\x73\x6F\x6C\x75\x74\x65","\x32\x30\x30\x70\x78","\x63\x73\x73","\x63\x6C\x6F\x6E\x65","\x70\x61\x72\x65\x6E\x74","\x2E\x53\x74\x65\x70\x54\x69\x74\x6C\x65\x2D\x72\x75\x6C\x65","\x2E\x53\x74\x65\x70\x54\x69\x74\x6C\x65\x2D\x63\x61\x6C\x63","\x70\x72\x65\x76","\x74\x65\x78\x74\x2D\x63\x65\x6E\x74\x65\x72","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73","\x66\x61\x64\x65\x49\x6E","\x64\x69\x73\x70\x6C\x61\x79","\x6E\x6F\x6E\x65","\x6A\x73\x5F\x30\x30\x34\x5F\x31\x39","\x74\x65\x78\x74","\x68\x32","\x70","\x64\x65\x74\x61\x63\x68","\x74\x68\x65\x6E","\x77\x68\x65\x6E","\x67","\x6F\x66\x66","\x68\x65\x69\x67\x68\x74\x2D\x74\x72\x61\x6E\x73\x69\x74\x69\x6F\x6E","\x73\x6C\x69\x64\x65\x44\x6F\x77\x6E\x54\x72\x61\x6E\x73\x69\x74\x69\x6F\x6E","\x6F\x6E\x65","\x63\x6C\x69\x63\x6B","\x2D\x39\x39\x39\x39","\x2A","\x70\x6F\x73\x74\x4D\x65\x73\x73\x61\x67\x65","\x63\x6F\x6E\x74\x65\x6E\x74\x57\x69\x6E\x64\x6F\x77","\x6F\x6E","\x68\x65\x69\x67\x68\x74\x2D\x74\x72\x61\x6E\x73\x69\x74\x69\x6F\x6E\x2D\x68\x69\x64\x64\x65\x6E","\x77\x69\x64\x74\x68","\x30\x25","\x6C\x6F\x63\x6B\x53\x74\x65\x70","\x74\x69\x6E\x68\x6C\x61\x69\x43\x48\x4B","\x73\x65\x6C\x65\x63\x74\x65\x64\x5F\x6C\x61\x6E\x67\x75\x61\x67\x65","\x61\x24","\x73\x65\x74\x48\x6F\x75\x72\x73","\x67\x65\x74\x54\x69\x6D\x65","\x61\x63\x6E\x6F","\x69\x6E\x41\x72\x72\x61\x79","\x61\x4C\x6F\x67\x73","\x20\x2F\x20","\u25B2\x20\x61\x63\x6E\x6F","\x20\x4D\x69\x6E\x20\x6C\x6F\x67\x3A\x20","\x6D\x69\x6E\x4C","\x20\x4D\x61\x78\x20\x6C\x6F\x67\x3A\x20","\x6D\x61\x78\x4C","\x63\x6F\x75\x74\x69\x6E\x67\x20\x2E\x2E\x2E","\xB7","\x66\x6E","\x73\x65\x73\x73\x69\x6F\x6E\x73","\x65\x76\x74\x44\x61\x74\x61","\x31","\x6D\x65\x73\x73\x61\x67\x65\x54\x79\x70\x65","\x64\x61\x74\x61","\x73\x74\x65\x70\x33\x5F\x72\x73\x74\x5F\x67\x72\x69\x64","\x3C\x68\x34\x3E\x42\x41\x4E\x47\x20\x43\x4F\x4E\x47\x3C\x2F\x68\x34\x3E","\x6F\x70\x74\x69\x6F\x6E","\x63\x6C\x65\x61\x72\x53\x6F\x72\x74\x69\x6E\x67","\x63\x6C\x65\x61\x72\x53\x65\x6C\x65\x63\x74\x69\x6F\x6E","\x63\x6C\x65\x61\x72\x46\x69\x6C\x74\x65\x72","\x72","\x2E\x73\x74\x65\x70\x33\x5F\x72\x73\x74\x5F\x67\x72\x69\x64","\x6D\x6F\x75\x73\x65\x64\x6F\x77\x6E\x20\x74\x6F\x75\x63\x68\x73\x74\x61\x72\x74","\x2E\x63\x6F\x6C\x2D\x69\x6F\x2D\x66\x69\x6C\x74\x65\x72","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x73\x74\x6F\x70\x50\x72\x6F\x70\x61\x67\x61\x74\x69\x6F\x6E","\x72\x69\x67\x68\x74","\x6C\x65\x66\x74","\x74\x61\x72\x67\x65\x74","\x73\x68\x6F\x77","\x49\x6E\x20\x2D\x20\x4F\x75\x74","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x78\x2D\x69\x63\x6F\x6E\x2D\x66\x69\x6C\x74\x65\x72\x20\x63\x6F\x6C\x2D\x69\x6F\x2D\x66\x69\x6C\x74\x65\x72\x22\x3E\x3C\x2F\x69\x3E","\x49\x6E","\x66\x69\x6F","\x64\x61\x74\x65","\x48\x48\x3A\x6D\x6D","\x63\x65\x6E\x74\x65\x72\x54\x44","\x4F\x75\x74","\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x6F\x64\x69\x66\x22\x3E\x28","\x76\x61\x6C\x75\x65\x54\x65\x78\x74","\x29\x3C\x2F\x73\x70\x61\x6E\x3E","\x54\x6F\x74\x61\x6C","\x74\x6F\x74\x61\x6C","\x73\x74\x65\x70\x33\x5F\x72\x73\x74\x5F\x67\x72\x69\x64\x5F\x63\x6D\x64","\x64\x78\x54\x6F\x6F\x6C\x62\x61\x72","\x45\x78\x70\x6F\x72\x74\x20\x45\x78\x63\x65\x6C","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x64\x6E\x6A\x73\x2E\x63\x6C\x6F\x75\x64\x66\x6C\x61\x72\x65\x2E\x63\x6F\x6D\x2F\x61\x6A\x61\x78\x2F\x6C\x69\x62\x73\x2F\x62\x61\x62\x65\x6C\x2D\x70\x6F\x6C\x79\x66\x69\x6C\x6C\x2F\x37\x2E\x31\x30\x2E\x31\x2F\x70\x6F\x6C\x79\x66\x69\x6C\x6C\x2E\x6D\x69\x6E\x2E\x6A\x73","\x6A\x73","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x64\x6E\x6A\x73\x2E\x63\x6C\x6F\x75\x64\x66\x6C\x61\x72\x65\x2E\x63\x6F\x6D\x2F\x61\x6A\x61\x78\x2F\x6C\x69\x62\x73\x2F\x65\x78\x63\x65\x6C\x6A\x73\x2F\x33\x2E\x33\x2E\x31\x2F\x65\x78\x63\x65\x6C\x6A\x73\x2E\x6D\x69\x6E\x2E\x6A\x73","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x64\x6E\x6A\x73\x2E\x63\x6C\x6F\x75\x64\x66\x6C\x61\x72\x65\x2E\x63\x6F\x6D\x2F\x61\x6A\x61\x78\x2F\x6C\x69\x62\x73\x2F\x46\x69\x6C\x65\x53\x61\x76\x65\x72\x2E\x6A\x73\x2F\x32\x2E\x30\x2E\x32\x2F\x46\x69\x6C\x65\x53\x61\x76\x65\x72\x2E\x6D\x69\x6E\x2E\x6A\x73","\x65\x78\x70\x6F\x72\x74\x54\x6F\x45\x78\x63\x65\x6C","\x46\x69\x6C\x65\x53\x61\x76\x65\x72\x2E\x6D\x69\x6E\x2E\x6A\x73","\x65\x78\x63\x65\x6C\x6A\x73\x2E\x6D\x69\x6E\x2E\x6A\x73","\x70\x6F\x6C\x79\x66\x69\x6C\x6C\x2E\x6D\x69\x6E\x2E\x6A\x73","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x64\x6E\x6A\x73\x2E\x63\x6C\x6F\x75\x64\x66\x6C\x61\x72\x65\x2E\x63\x6F\x6D\x2F\x61\x6A\x61\x78\x2F\x6C\x69\x62\x73\x2F\x65\x78\x63\x65\x6C\x6A\x73\x2F\x34\x2E\x32\x2E\x31\x2F\x65\x78\x63\x65\x6C\x6A\x73\x2E\x6D\x69\x6E\x2E\x6A\x73","\x72\x65\x66\x72\x65\x73\x68","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x27\x74\x69\x2D\x61\x6C\x65\x72\x74\x27\x2F\x3E","\x6E\x65\x76\x65\x72","\x3C\x64\x69\x76\x3E\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x27\x74\x6F\x6F\x6C\x62\x61\x72\x2D\x6C\x61\x62\x65\x6C\x27\x3E\x3C\x68\x34\x3E\x42\x41\x4E\x47\x20\x43\x4F\x4E\x47\x3C\x2F\x68\x34\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E","\x64\x78\x44\x72\x6F\x70\x44\x6F\x77\x6E\x42\x75\x74\x74\x6F\x6E","\x61\x75\x74\x6F","\x63\x6C\x73","\x31\x30\x70\x78","\x31\x31\x70\x78","\x31\x32\x70\x78","\x31\x33\x70\x78","\x31\x34\x70\x78","\x66","\x69\x74\x65\x6D","\x66\x31\x30\x20\x66\x31\x31\x20\x66\x31\x32\x20\x66\x31\x33\x20\x66\x31\x34","\x2E\x64\x78\x2D\x64\x61\x74\x61\x67\x72\x69\x64\x2D\x63\x6F\x6E\x74\x65\x6E\x74","\x5F\x24\x65\x6C\x65\x6D\x65\x6E\x74","\x72\x65\x70\x61\x69\x6E\x74","\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65","\x73\x69\x7A\x65","\x70\x78","\x3C\x64\x69\x76\x3E","\x69\x6E\x64\x65\x6E\x74","\x6C\x69\x6E\x65\x48\x65\x69\x67\x68\x74","\x31\x2E\x33\x35","\x31\x2E\x35","\x32","\x68\x65\x69\x67\x68\x74","\x64\x78\x53\x65\x6C\x65\x63\x74\x42\x6F\x78","\x32\x20\x4C\x6F\x67\x73","\x34\x20\x4C\x6F\x67\x73","\x36\x20\x4C\x6F\x67\x73","\x38\x20\x4C\x6F\x67\x73","\x73\x74\x61\x74\x65","\x63\x6F\x6C\x75\x6D\x6E\x73","\x73\x70\x6C\x69\x63\x65","\x73\x70\x6C\x69\x74","\x64\x61\x74\x61\x46\x69\x65\x6C\x64","\x70\x6C\x75\x73","\x41\x64\x64\x20\x62\x75\x74\x74\x6F\x6E\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x63\x6C\x69\x63\x6B\x65\x64\x21","\x61\x6C\x77\x61\x79\x73","\x53\x61\x76\x65","\x53\x61\x76\x65\x20\x6F\x70\x74\x69\x6F\x6E\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x63\x6C\x69\x63\x6B\x65\x64\x21","\x50\x72\x69\x6E\x74","\x50\x72\x69\x6E\x74\x20\x6F\x70\x74\x69\x6F\x6E\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x63\x6C\x69\x63\x6B\x65\x64\x21","\x53\x65\x74\x74\x69\x6E\x67\x73","\x53\x65\x74\x74\x69\x6E\x67\x73\x20\x6F\x70\x74\x69\x6F\x6E\x20\x68\x61\x73\x20\x62\x65\x65\x6E\x20\x63\x6C\x69\x63\x6B\x65\x64\x21","\x69\x6E\x73\x65\x72\x74\x42\x65\x66\x6F\x72\x65","\x3C\x64\x69\x76\x2F\x3E","\x64\x78\x44\x61\x74\x61\x47\x72\x69\x64","\x61\x6C\x6C","\x63\x6F\x6C\x75\x6D\x6E","\x62\x61\x74\x63\x68","\x64\x62\x6C\x43\x6C\x69\x63\x6B","\x69\x73\x48\x69\x67\x68\x6C\x69\x67\x68\x74\x65\x64","\x69\x67\x6E\x6F\x72\x65\x46\x6F\x63\x75\x73\x65\x64\x43\x65\x6C\x6C\x43\x68\x61\x6E\x67\x69\x6E\x67","\x6E\x65\x77\x43\x6F\x6C\x75\x6D\x6E\x49\x6E\x64\x65\x78","\x70\x72\x65\x76\x43\x6F\x6C\x75\x6D\x6E\x49\x6E\x64\x65\x78","\x6E\x65\x77\x52\x6F\x77\x49\x6E\x64\x65\x78","\x70\x72\x65\x76\x52\x6F\x77\x49\x6E\x64\x65\x78","\x65\x76\x65\x6E\x74","\x4E\x55\x4C\x4C","\x67\x65\x74\x43\x65\x6C\x6C\x45\x6C\x65\x6D\x65\x6E\x74","\x63\x6F\x6D\x70\x6F\x6E\x65\x6E\x74","\x66\x6F\x63\x75\x73","\x65\x64\x69\x74\x50\x4F","\x5F\x63\x75\x72\x72\x65\x6E\x74\x56\x69\x73\x69\x62\x6C\x65","\x5F\x69\x73\x66\x6C\x61\x73\x68","\x63\x61\x6E\x63\x65\x6C","\x64\x78\x70\x6F\x69\x6E\x74\x65\x72\x64\x6F\x77\x6E","\x69\x6E\x64\x65\x78\x4F\x66","\x72\x6F\x77\x73","\x61\x74\x54\x44","\x63\x65\x6C\x6C\x45\x6C\x65\x6D\x65\x6E\x74","\x2F\x6D\x65\x64\x69\x61\x2F\x75\x74\x69\x6C\x73\x2F\x6A\x73\x63\x2F\x73\x33\x6C\x6F\x67\x65\x64\x69\x74\x2E\x6A\x73","\x65\x64\x69\x74\x6F\x52","\x73\x61\x76\x65\x44\x42","\x74\x65\x73\x74","\x70\x75\x62\x6C\x69\x63\x49\x6E\x73\x74\x61\x6E\x63\x65\x4D\x65\x74\x68\x6F\x64","\x65\x78\x50\x6F\x70\x55\x70","\x73\x33\x6C\x6F\x67\x65\x64\x69\x74","\x6B\x65\x79\x43\x6F\x64\x65","\x64\x78\x2D\x66\x6F\x63\x75\x73\x65\x64","\x65\x64\x69\x74\x5F\x74\x69\x6D\x65","\x74\x72\x69\x67\x67\x65\x72","\x2E\x62\x74\x6E\x4F\x4B\x2E\x63\x6C\x6F\x73\x65\x61\x63\x74","\x5F\x24\x70\x6F\x70\x75\x70\x43\x6F\x6E\x74\x65\x6E\x74","\x68\x61\x6E\x64\x6C\x65\x64","\x23","\x70\x61\x67\x65\x49\x6E\x64\x65\x78","\x70\x61\x67\x65\x53\x69\x7A\x65","\x72\x6F\x77\x49\x6E\x64\x65\x78","\x72\x6F\x77","\x6E\x6F\x62\x6F\x72\x64\x65\x72\x2D\x62\x6F\x74\x74\x6F\x6D","\x73\x65\x61\x72\x63\x68","\x2E\x64\x78\x2D\x69\x63\x6F\x6E\x2D\x63\x6C\x65\x61\x72","\x65\x6C\x65\x6D\x65\x6E\x74","\x64\x78\x54\x65\x78\x74\x42\x6F\x78","\x4D\x61\x20\x41\x43","\x74\x65\x6E","\x54\x65\x6E\x20\x4E\x68\x61\x6E\x20\x56\x69\x65\x6E","\x3C\x73\x70\x61\x6E\x20\x20\x73\x74\x79\x6C\x65\x3D\x27\x77\x68\x69\x74\x65\x2D\x73\x70\x61\x63\x65\x3A\x20\x70\x72\x65\x2D\x77\x72\x61\x70\x3B\x27\x3E\x4E\x67\x61\x79\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x27\x64\x78\x2D\x69\x63\x6F\x6E\x2D\x66\x69\x6C\x74\x65\x72\x20\x63\x6F\x6C\x2D\x69\x6F\x2D\x66\x69\x6C\x74\x65\x72\x27\x20\x73\x74\x79\x6C\x65\x3D\x27\x66\x6C\x6F\x61\x74\x3A\x6C\x65\x66\x74\x27\x3E\x3C\x2F\x69\x3E","\x6E\x67\x61\x79","\x4E\x67\x61\x79","\x69\x6D\x70\x6F\x72\x74\x61\x6E\x74\x2D\x76\x65\x72\x61\x6C\x69\x67\x6E\x74\x6F\x70","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x27\x64\x78\x2D\x69\x63\x6F\x6E\x2D\x66\x69\x6C\x74\x65\x72\x20\x63\x6F\x6C\x2D\x69\x6F\x2D\x66\x69\x6C\x74\x65\x72\x27\x20\x73\x74\x79\x6C\x65\x3D\x27\x66\x6C\x6F\x61\x74\x3A\x6E\x6F\x6E\x65\x27\x3E\x3C\x2F\x64\x69\x76\x3E","\x70\x72\x65\x70\x65\x6E\x64","\x3C\x64\x69\x76\x20\x73\x74\x79\x6C\x65\x3D\x27\x6F\x76\x65\x72\x66\x6C\x6F\x77\x3A\x20\x68\x69\x64\x64\x65\x6E\x3B\x74\x65\x78\x74\x2D\x6F\x76\x65\x72\x66\x6C\x6F\x77\x3A\x20\x65\x6C\x6C\x69\x70\x73\x69\x73\x3B\x27\x3E\x57\x65\x65\x6B\x64\x61\x79\x3C\x2F\x64\x69\x76\x3E","\x74\x68\x75","\x57\x65\x65\x6B\x64\x61\x79","\x54\x6F\x6E\x67\x20\x54\x47","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x27\x64\x78\x2D\x69\x63\x6F\x6E\x2D\x66\x69\x6C\x74\x65\x72\x20\x63\x6F\x6C\x2D\x69\x6F\x2D\x66\x69\x6C\x74\x65\x72\x27\x73\x74\x79\x6C\x65\x3D\x27\x66\x6C\x6F\x61\x74\x3A\x6E\x6F\x6E\x65\x27\x3E\x28\x47\x69\x6F\x29\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x3E\x54\x6F\x6E\x67\x20\x54\x47\x3C\x2F\x64\x69\x76\x3E","\x54\x6F\x6E\x67\x54\x47","\x70\x75\x73\x68","\x5F\x63\x6F\x6C\x75\x6D\x6E\x73","\x5F\x63\x6F\x6E\x74\x72\x6F\x6C\x6C\x65\x72\x73","\x69\x73\x42\x61\x6E\x64","\x76\x69\x73\x69\x62\x6C\x65","\x74\x6F\x6F\x6C\x62\x61\x72\x4F\x70\x74\x69\x6F\x6E\x73","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x27\x74\x6F\x6F\x6C\x62\x61\x72\x2D\x6C\x61\x62\x65\x6C\x27\x3E\x3C\x62\x3E\x54\x6F\x6D\x27\x73\x20\x43\x6C\x75\x62\x3C\x2F\x62\x3E\x20\x50\x72\x6F\x64\x75\x63\x74\x73\x3C\x2F\x64\x69\x76\x3E","\x75\x6E\x73\x68\x69\x66\x74","\x69\x74\x65\x6D\x73","\x72\x6F\x77\x54\x79\x70\x65","\x53\x68\x61\x72\x65","\x64\x78\x2D\x69\x63\x6F\x6E\x2D\x67\x6C\x6F\x62\x65","\x46\x61\x63\x65\x62\x6F\x6F\x6B","\x54\x77\x69\x74\x74\x65\x72","\x44\x6F\x77\x6E\x6C\x6F\x61\x64","\x64\x78\x2D\x69\x63\x6F\x6E\x2D\x64\x6F\x77\x6E\x6C\x6F\x61\x64","\x41\x64\x64\x20\x43\x6F\x6D\x6D\x65\x6E\x74","\x64\x78\x2D\x69\x63\x6F\x6E\x2D\x61\x64\x64","\x41\x64\x64\x20\x74\x6F\x20\x46\x61\x76\x6F\x72\x69\x74\x65","\x64\x78\x2D\x69\x63\x6F\x6E\x2D\x66\x61\x76\x6F\x72\x69\x74\x65\x73","\x65\x64\x69\x74","\x65\x64\x69\x74\x52\x6F\x77","\x69\x6E\x73\x65\x72\x74","\x61\x64\x64\x52\x6F\x77","\x64\x65\x6C\x65\x74\x65","\x64\x65\x6C\x65\x74\x65\x52\x6F\x77","\x57\x6F\x72\x6B\x62\x6F\x6F\x6B","\x45\x6D\x70\x6C\x6F\x79\x65\x65\x73","\x61\x64\x64\x57\x6F\x72\x6B\x73\x68\x65\x65\x74","\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x2F\x6F\x63\x74\x65\x74\x2D\x73\x74\x72\x65\x61\x6D","\x45\x6D\x70\x6C\x6F\x79\x65\x65\x73\x2E\x78\x6C\x73\x78","\x77\x72\x69\x74\x65\x42\x75\x66\x66\x65\x72","\x78\x6C\x73\x78","\x67\x72\x69\x64\x43\x65\x6C\x6C","\x65\x78\x63\x65\x6C\x43\x65\x6C\x6C","\x61\x6C\x69\x67\x6E\x6D\x65\x6E\x74","\x66\x6F\x6E\x74","\x41\x72\x69\x61\x6C\x20\x42\x6C\x61\x63\x6B","\x46\x46\x30\x30\x46\x46\x30\x30","\x6E\x6F\x74\x65","\x43\x61\x6C\x69\x62\x72\x69","\x6D\x69\x6E\x6F\x72","\x54\x68\x69\x73\x20\x69\x73\x20","\x61","\x46\x46\x46\x46\x36\x36\x30\x30","\x63\x6F\x6C\x6F\x72\x66\x75\x6C","\x20\x74\x65\x78\x74\x20","\x46\x46\x43\x43\x46\x46\x43\x43","\x77\x69\x74\x68","\x20\x69\x6E\x2D\x63\x65\x6C\x6C\x20","\x66\x6F\x72\x6D\x61\x74","\x63\x75\x73\x74\x6F\x6D","\x74\x77\x6F\x43\x65\x6C\x6C\x73","\x65\x78\x70\x6F\x72\x74\x44\x61\x74\x61\x47\x72\x69\x64","\x65\x78\x63\x65\x6C\x45\x78\x70\x6F\x72\x74\x65\x72","\x2E\x6C\x6F\x67\x73\x2D\x65\x66\x66\x65\x63\x74","\x2E\x6D\x65\x64\x69\x61","\x63\x6C\x6F\x73\x65\x73\x74","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x73\x65\x6C\x6C\x6F\x67\x2D\x62\x65\x66\x6F\x72\x65\x22\x2F\x3E","\x73\x63\x72\x69\x70\x74","\x72\x65\x6D\x6F\x76\x65","\x72\x65\x61\x64\x79","\x63\x61\x6C\x63\x5F\x72\x75\x6C\x65\x73","\x66\x72\x65\x65\x6F\x74\x5F\x72\x75\x6C\x65\x31","\x2F\x6D\x65\x64\x69\x61\x2F\x75\x74\x69\x6C\x73\x2F\x72\x75\x6C\x65\x31\x2E\x68\x74\x6D\x6C","\x67\x65\x74","\x3C\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E","\x69\x63\x6F\x6E","\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22","\x22\x3E\x3C\x73\x70\x61\x6E\x3E","\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x78\x2D\x69\x63\x6F\x6E\x2D\x73\x70\x69\x6E\x72\x69\x67\x68\x74\x22\x3E\x3C\x73\x70\x61\x6E\x3E","\x74\x65\x78\x74\x41\x6C\x69\x67\x6E","\x73\x74\x79\x6C\x65","\x6E\x6F\x55","\x68\x61\x73\x55\x41","\x73\x33\x64\x62\x54\x42","\x6B\x71","\x63\x62","\x72\x65\x73\x75\x6C\x74","\x65","\x63\x6F\x6E\x74\x61\x69\x6E\x73","\x6F\x62\x6A\x65\x63\x74\x53\x74\x6F\x72\x65\x4E\x61\x6D\x65\x73","\x64\x65\x6C\x65\x74\x65\x4F\x62\x6A\x65\x63\x74\x53\x74\x6F\x72\x65","\x75\x73\x65\x72\x69\x64","\x63\x72\x65\x61\x74\x65\x4F\x62\x6A\x65\x63\x74\x53\x74\x6F\x72\x65","\x4C\x6F\x67\x49\x6E\x64\x65\x78","\x6C\x6F\x67\x69\x64","\x63\x72\x65\x61\x74\x65\x49\x6E\x64\x65\x78","\x72\x65\x61\x64\x6F\x6E\x6C\x79","\x72\x65\x61\x64\x77\x72\x69\x74\x65","\x74\x72\x61\x6E\x73\x61\x63\x74\x69\x6F\x6E","\x72\x73\x74","\x6F\x62\x6A\x65\x63\x74\x53\x74\x6F\x72\x65","\x70\x75\x74","\x6F\x6E\x73\x75\x63\x63\x65\x73\x73","\x68\x65\x6C\x6C\x6F\x68\x72\x6D\x5F\x73\x33\x74\x69\x6E\x68\x63\x6F\x6E\x67","\x63\x68\x61\x6E\x65\x6C\x4C\x6F\x67","\x35\x33\x33\x33\x35\x66\x34\x62\x34\x39\x34\x35\x34\x64\x34\x33\x34\x66\x34\x65\x34\x37","\x6C\x6F\x67\x68\x6F\x6C\x65","\x63\x6F\x6D\x6D\x31","\x5F\x5F\x5F","\x73\x74\x65\x70\x63\x6F\x64\x65\x62\x61\x63\x6B","\x23\x74\x65\x73\x74\x5F\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x3C\x73\x70\x61\x6E\x20\x64\x61\x74\x61\x2D\x74\x79\x3D\x22\x69\x6E\x70\x75\x74\x22\x20\x64\x61\x74\x61\x2D\x74\x79\x2D\x70\x72\x6F\x6D\x70\x74\x3D\x22\u26A1\x20\x5B\x31\x32\x3A\x30\x30\x5D\x22\x3E\x20\x31\x2E\x20\x51\x75\x79\x20\x75\x6F\x63\x20\x67\x6F\x6D\x20\x6C\x6F\x67\x20\x74\x68\x65\x20\x67\x61\x6E\x20\x6E\x68\x61\x75\x20\x74\x68\x61\x6E\x68\x20\x31\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x73\x70\x61\x6E\x20\x64\x61\x74\x61\x2D\x74\x79\x3D\x22\x69\x6E\x70\x75\x74\x22\x20\x64\x61\x74\x61\x2D\x74\x79\x2D\x70\x72\x6F\x6D\x70\x74\x3D\x22\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x3E\x22\x3E\x20\x43\x61\x63\x20\x4C\x6F\x67\x20\x67\x61\x74\x20\x74\x68\x65\x20\x63\x61\x63\x68\x20\x6E\x68\x61\x75\x20\x6E\x68\x6F\x20\x68\x6F\x6E\x20\x68\x6F\x61\x63\x20\x62\x61\x6E\x67\x20\x30\x20\x2D\x3E\x31\x20\x6D\x69\x6E\x75\x74\x65\x73\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x73\x70\x61\x6E\x20\x64\x61\x74\x61\x2D\x74\x79\x3D\x22\x69\x6E\x70\x75\x74\x22\x20\x64\x61\x74\x61\x2D\x74\x79\x2D\x70\x72\x6F\x6D\x70\x74\x3D\x22\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x26\x6E\x62\x73\x70\x3B\x3E\x22\x3E\x20\x4C\x6F\x67\x20\x64\x75\x6F\x63\x20\x63\x68\x6F\x6E\x20\x64\x65\x20\x74\x69\x6E\x68\x20\x63\x6F\x6E\x67\x20\x4C\x6F\x67\x2D\x31\x20\x2D\x3E\x20\x4C\x6F\x67\x2D\x32\x2F\x73\x70\x61\x6E\x3E","\x6E\x6F\x69\x73\x65\x5F\x72\x75\x6C\x65","\x6E\x6F\x69\x73\x65\x5F\x73\x70\x65\x63","\x6C\x6F\x67\x73\x5F\x65\x66\x66\x65\x63\x74","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x63\x61\x6C\x63\x52\x75\x6C\x65","\x63\x62\x48\x77\x6E\x64","\x69\x66\x72\x6D\x4C\x4F\x41\x44","\x61\x6C\x6F\x67","\x6F\x72\x69\x67\x69\x6E","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x3B\x2A","\x6A\x6F\x62","\x63\x61\x6C\x63","\x68\x65\x69\x67\x68\x74\x3A\x31\x70\x78\x3B\x77\x69\x64\x74\x68\x3A\x31\x70\x78\x3B\x62\x6F\x72\x64\x65\x72\x3A\x6E\x6F\x6E\x65\x3B\x6F\x70\x61\x63\x69\x74\x79\x3A\x30","\x69\x66\x72\x61\x6D\x65","\x6F\x6E\x6C\x6F\x61\x64","\x64\x6F\x63\x75\x6D\x65\x6E\x74","\x73\x72\x63","\x68\x65\x61\x64","\x73\x65\x73\x6F\x6E","\x7C","\x2F\x6D\x65\x64\x69\x61\x2F\x6A\x73\x2F\x61\x74\x74\x63\x61\x6C\x63\x2E\x6A\x73","\x6B\x69\x6E\x64"];!function(_0xe78bx1){_0xb554[0];FormWizard[_0xb554[1]]= function(_0xe78bx1){Array[_0xb554[2]]|| (Array[_0xb554[2]]= (_0xe78bx2= Object[_0xb554[4]][_0xb554[3]],_0xe78bx9= function(_0xe78bx1){return _0xb554[5]==  typeof _0xe78bx1|| _0xb554[6]=== _0xe78bx2[_0xb554[7]](_0xe78bx1)},_0xe78bx3= Math[_0xb554[8]](2,53)- 1,_0xe78bxa= function(_0xe78bx1){var _0xe78bx2=function(_0xe78bx1){var _0xe78bx2=Number(_0xe78bx1);if(isNaN(_0xe78bx2)){return 0};if(0=== _0xe78bx2||  !isFinite(_0xe78bx2)){return _0xe78bx2};return (_0xe78bx2> 0?1:-1)* Math[_0xb554[10]](Math[_0xb554[9]](_0xe78bx2))}(_0xe78bx1);return Math[_0xb554[12]](Math[_0xb554[11]](_0xe78bx2,0),_0xe78bx3)},function(_0xe78bx1){var _0xe78bx2=Object(_0xe78bx1);if(null== _0xe78bx1){throw  new TypeError(_0xb554[13])};var _0xe78bx3,_0xe78bx4=arguments[_0xb554[14]]> 1?arguments[1]:void(0);if(void(0)!== _0xe78bx4){if(!_0xe78bx9(_0xe78bx4)){throw  new TypeError(_0xb554[15])};arguments[_0xb554[14]]> 2&& (_0xe78bx3= arguments[2])};for(var _0xe78bx5,_0xe78bx6=_0xe78bxa(_0xe78bx2[_0xb554[14]]),_0xe78bx7=_0xe78bx9(this)?Object( new this(_0xe78bx6)): new Array(_0xe78bx6),_0xe78bx8=0;_0xe78bx8< _0xe78bx6;){_0xe78bx5= _0xe78bx2[_0xe78bx8],_0xe78bx7[_0xe78bx8]= _0xe78bx4?void(0)=== _0xe78bx3?_0xe78bx4(_0xe78bx5,_0xe78bx8):_0xe78bx4[_0xb554[7]](_0xe78bx3,_0xe78bx5,_0xe78bx8):_0xe78bx5,_0xe78bx8+= 1};return _0xe78bx7[_0xb554[14]]= _0xe78bx6,_0xe78bx7}));var _0xe78bx2,_0xe78bx9,_0xe78bx3,_0xe78bxa;String[_0xb554[4]][_0xb554[16]]|| (String[_0xb554[4]][_0xb554[16]]= function(_0xe78bx1){if(null== this){throw  new TypeError(_0xb554[17]+ this+ _0xb554[18])};var _0xe78bx2=_0xb554[19]+ this;if((_0xe78bx1=  +_0xe78bx1)!= _0xe78bx1&& (_0xe78bx1= 0),_0xe78bx1< 0){throw  new RangeError(_0xb554[20])};if(_0xe78bx1== 1/ 0){throw  new RangeError(_0xb554[21])};if(_0xe78bx1= Math[_0xb554[10]](_0xe78bx1),0== _0xe78bx2[_0xb554[14]]|| 0== _0xe78bx1){return _0xb554[19]};if(_0xe78bx2[_0xb554[14]]* _0xe78bx1>= 1<< 28){throw  new RangeError(_0xb554[22])};var _0xe78bx9=_0xe78bx2[_0xb554[14]]* _0xe78bx1;for(_0xe78bx1= Math[_0xb554[10]](Math[_0xb554[23]](_0xe78bx1)/ Math[_0xb554[23]](2));_0xe78bx1;){_0xe78bx2+= _0xe78bx2,_0xe78bx1--};return _0xe78bx2+= _0xe78bx2[_0xb554[24]](0,_0xe78bx9- _0xe78bx2[_0xb554[14]])});var _0xe78bx4=function(){function _0xe78bx1(_0xe78bx1,_0xe78bx2){var _0xe78bx9=this,_0xe78bx3=function(_0xe78bx1){var _0xe78bx2=document[_0xb554[26]](_0xb554[25]);return _0xe78bx2[_0xb554[27]]= _0xb554[28]+ function(_0xe78bx1){var _0xe78bx2=_0xb554[19];for(var _0xe78bx3 in _0xe78bx1){_0xe78bx2+= _0xe78bx9[_0xb554[29]],_0xe78bx2+= _0xb554[30]=== _0xe78bx3?_0xb554[31]+ _0xe78bx1[_0xe78bx3]+ _0xb554[32]:_0xb554[33]!== _0xe78bx3?_0xb554[34]+ _0xe78bx3+ _0xb554[31]+ _0xe78bx1[_0xe78bx3]+ _0xb554[32]:_0xb554[35]};return _0xe78bx2}(_0xe78bx1)+ _0xb554[36]+ (_0xe78bx1[_0xb554[33]]|| _0xb554[19])+ _0xb554[37],_0xe78bx2[_0xb554[38]]},_0xe78bxa=function(_0xe78bx1,_0xe78bx3){var _0xe78bxa=_0xe78bx1[_0xb554[39]](_0xe78bx9[_0xb554[29]]),_0xe78bx6=_0xe78bx1[_0xb554[39]](_0xe78bx9[_0xb554[29]]+ _0xb554[40])|| _0xe78bx9[_0xb554[41]];_0xb554[42]== _0xe78bxa?(_0xe78bx1[_0xb554[45]](_0xe78bx9[_0xb554[29]]+ _0xb554[43],_0xe78bx9[_0xb554[44]]),function(_0xe78bx1){var _0xe78bx2=$.Deferred(),_0xe78bx3=[][_0xb554[48]](_0xe78bx4(_0xe78bx1[_0xb554[27]])),_0xe78bxa=_0xe78bx1[_0xb554[39]](_0xe78bx9[_0xb554[29]]+ _0xb554[49])|| _0xe78bx9[_0xb554[50]];_0xe78bx1[_0xb554[51]]= _0xb554[19],_0xe78bx9[_0xb554[53]][_0xb554[52]](_0xe78bx1);var _0xe78bx6=0,_0xe78bx7=function(){var _0xe78bx9=_0xe78bx3[_0xe78bx6];_0xe78bx5(_0xe78bxa)[_0xb554[47]](function(_0xe78bxa){_0xe78bx1[_0xb554[27]]+= _0xe78bx9,++_0xe78bx6< _0xe78bx3[_0xb554[14]]?_0xe78bx7():_0xe78bx2[_0xb554[55]](_0xb554[54])})};_0xe78bx3[_0xb554[14]]> 0?_0xe78bx7():_0xe78bx2[_0xb554[55]](_0xb554[54]);return _0xe78bx2[_0xb554[56]]()}(_0xe78bx1)[_0xb554[47]](function(_0xe78bx2){_0xe78bx1[_0xb554[46]](_0xe78bx9[_0xb554[29]]+ _0xb554[43]),_0xe78bx3(_0xe78bx6)})):_0xb554[57]== _0xe78bxa?function(_0xe78bx1){var _0xe78bx2=_0xe78bx1[_0xb554[39]](_0xe78bx9[_0xb554[29]]+ _0xb554[58])|| _0xe78bx9[_0xb554[59]],_0xe78bx3=(_0xe78bx1[_0xb554[39]](_0xe78bx9[_0xb554[29]]+ _0xb554[60])|| _0xe78bx9[_0xb554[61]])[_0xb554[16]](_0xe78bx2),_0xe78bxa=_0xe78bx1[_0xb554[39]](_0xe78bx9[_0xb554[29]]+ _0xb554[62])|| _0xe78bx9[_0xb554[63]],_0xe78bx4=_0xe78bx1[_0xb554[39]](_0xe78bx9[_0xb554[29]]+ _0xb554[64])|| _0xe78bx9[_0xb554[50]],_0xe78bx6=$.Deferred();_0xe78bx1[_0xb554[27]]= _0xb554[19],_0xe78bx9[_0xb554[53]][_0xb554[52]](_0xe78bx1);var _0xe78bx7=1,_0xe78bx8=function(){_0xe78bx5(_0xe78bx4)[_0xb554[47]](function(_0xe78bx2){var _0xe78bx9=Math[_0xb554[65]](_0xe78bx7/ _0xe78bx3[_0xb554[14]]* 100);_0xe78bx1[_0xb554[27]]= _0xe78bx3[_0xb554[66]](0,_0xe78bx7)+ _0xb554[35]+ _0xe78bx9+ _0xb554[67],_0xe78bx7++,_0xe78bx9< _0xe78bxa?_0xe78bx8():_0xe78bx6[_0xb554[55]](_0xb554[54])})};_0xe78bx3[_0xb554[14]]> 0?_0xe78bx8():_0xe78bx6[_0xb554[55]](_0xb554[54]);return _0xe78bx6[_0xb554[56]]()}(_0xe78bx1)[_0xb554[47]](function(_0xe78bx1){_0xe78bx3(_0xe78bx6)}):(_0xe78bx9[_0xb554[53]][_0xb554[52]](_0xe78bx1),_0xe78bx3(_0xe78bx6)),_0xe78bx2[_0xb554[68]]&& _0xe78bx2[_0xb554[68]]()};function _0xe78bx4(_0xe78bx1){if(Array[_0xb554[69]](_0xe78bx1)){for(var _0xe78bx2=0,_0xe78bx9=Array(_0xe78bx1[_0xb554[14]]);_0xe78bx2< _0xe78bx1[_0xb554[14]];_0xe78bx2++){_0xe78bx9[_0xe78bx2]= _0xe78bx1[_0xe78bx2]};return _0xe78bx9};return Array[_0xb554[2]](_0xe78bx1)}function _0xe78bx5(_0xe78bx1){var _0xe78bx2=$.Deferred();return _0xe78bx1> 0?setTimeout(function(){_0xe78bx2[_0xb554[55]](_0xb554[70])},_0xe78bx1):_0xe78bx2[_0xb554[55]](_0xb554[70]),_0xe78bx2[_0xb554[56]]()}this[_0xb554[53]]= _0xb554[71]==  typeof _0xe78bx1?document[_0xb554[72]](_0xe78bx1):_0xe78bx1,this[_0xb554[29]]= _0xb554[73]+ (_0xe78bx2[_0xb554[74]]|| _0xb554[75]),this[_0xb554[76]]= _0xe78bx2[_0xb554[76]]|| parseFloat(this[_0xb554[53]][_0xb554[39]](this[_0xb554[29]]+ _0xb554[77]))|| 600,this[_0xb554[50]]= _0xe78bx2[_0xb554[50]]|| parseFloat(this[_0xb554[53]][_0xb554[39]](this[_0xb554[29]]+ _0xb554[49]))|| 90,this[_0xb554[41]]= _0xe78bx2[_0xb554[41]]|| parseFloat(this[_0xb554[53]][_0xb554[39]](this[_0xb554[29]]+ _0xb554[78]))|| 1500,this[_0xb554[59]]= _0xe78bx2[_0xb554[59]]|| parseFloat(this[_0xb554[53]][_0xb554[39]](this[_0xb554[29]]+ _0xb554[58]))|| 40,this[_0xb554[61]]= _0xe78bx2[_0xb554[61]]|| this[_0xb554[53]][_0xb554[39]](this[_0xb554[29]]+ _0xb554[60])|| _0xb554[79],this[_0xb554[63]]= _0xe78bx2[_0xb554[63]]|| parseFloat(this[_0xb554[53]][_0xb554[39]](this[_0xb554[29]]+ _0xb554[62]))|| 100,this[_0xb554[44]]= _0xe78bx2[_0xb554[44]]|| this[_0xb554[53]][_0xb554[39]](this[_0xb554[29]]+ _0xb554[43])|| _0xb554[80],this[_0xb554[81]]= (_0xe78bx2[_0xb554[81]]|| [])[_0xb554[82]](function(_0xe78bx1){return _0xe78bx3(_0xe78bx1)}),_0xe78bx2[_0xb554[83]]|| (_0xe78bx9[_0xb554[84]]= [][_0xb554[48]](_0xe78bx4(_0xe78bx9[_0xb554[53]][_0xb554[88]](!0)[_0xb554[87]](_0xb554[85]+ _0xe78bx9[_0xb554[29]]+ _0xb554[86])))[_0xb554[48]](_0xe78bx9[_0xb554[81]]),_0xe78bx9[_0xb554[53]][_0xb554[45]](_0xb554[89],_0xb554[19]),_0xe78bx9[_0xb554[53]][_0xb554[27]]= _0xb554[19],_0xe78bx5(_0xe78bx9[_0xb554[76]])[_0xb554[47]](function(_0xe78bx1){var _0xe78bx2=0,_0xe78bx3=function(_0xe78bx1){++_0xe78bx2< _0xe78bx9[_0xb554[84]][_0xb554[14]] && _0xe78bx5(_0xe78bx1)[_0xb554[47]](function(_0xe78bx1){_0xe78bxa(_0xe78bx9[_0xb554[84]][_0xe78bx2],_0xe78bx3)})};_0xe78bx9[_0xb554[84]][_0xb554[14]]> 0&& _0xe78bxa(_0xe78bx9[_0xb554[84]][_0xe78bx2],_0xe78bx3)})),this[_0xb554[90]]= function(_0xe78bx1,_0xe78bx2){var _0xe78bx9=_0xe78bx3(_0xe78bx1);_0xe78bxa(_0xe78bx9,function(_0xe78bx1){_0xe78bx1> 0?_0xe78bx5(_0xe78bx1)[_0xb554[47]](function(_0xe78bx1){_0xe78bx2&& _0xe78bx2(_0xe78bx9)}):_0xe78bx2&& _0xe78bx2(_0xe78bx9)})},this[_0xb554[91]]= function(_0xe78bx1,_0xe78bx2){var _0xe78bx3=_0xe78bx2[_0xb554[59]]|| _0xe78bx1[_0xb554[39]](_0xe78bx9[_0xb554[29]]+ _0xb554[58])|| _0xe78bx9[_0xb554[59]],_0xe78bxa=_0xe78bx2[_0xb554[61]]|| _0xe78bx1[_0xb554[39]](_0xe78bx9[_0xb554[29]]+ _0xb554[60])|| _0xe78bx9[_0xb554[61]],_0xe78bx4=_0xe78bxa[_0xb554[16]](_0xe78bx3),_0xe78bx6=_0xe78bx2[_0xb554[63]]|| _0xe78bx1[_0xb554[39]](_0xe78bx9[_0xb554[29]]+ _0xb554[62])|| _0xe78bx9[_0xb554[63]],_0xe78bx7=_0xe78bx2[_0xb554[50]]|| _0xe78bx1[_0xb554[39]](_0xe78bx9[_0xb554[29]]+ _0xb554[64])|| _0xe78bx9[_0xb554[50]],_0xe78bx8=$.Deferred();_0xe78bx1[_0xb554[27]]= _0xb554[19];var _0xe78bxb=1,_0xe78bxc=function(){_0xe78bx5(_0xe78bx7)[_0xb554[47]](function(_0xe78bx2){var _0xe78bx9=Math[_0xb554[65]](_0xe78bxb/ _0xe78bx4[_0xb554[14]]* 100);_0xe78bx1[_0xb554[27]]= _0xe78bx4[_0xb554[66]](0,_0xe78bxb)+ _0xb554[35]+ _0xe78bx9+ _0xb554[67],_0xe78bxb++,_0xe78bx9< _0xe78bx6?_0xe78bxc():_0xe78bx8[_0xb554[55]](_0xb554[54])})};return _0xe78bx4[_0xb554[14]]> 0?_0xe78bxc():_0xe78bx8[_0xb554[55]](_0xb554[54]),_0xe78bx8[_0xb554[56]]()}}return _0xe78bx1[_0xb554[4]][_0xb554[92]]= _0xb554[93],_0xe78bx1[_0xb554[4]][_0xb554[94]]= function(_0xe78bx1){},_0xe78bx1}(),_0xe78bx5={noshift:function(){var _0xe78bx1=null;function _0xe78bx2(_0xe78bx2){var _0xe78bx9,_0xe78bx3,_0xe78bxa,_0xe78bx5,_0xe78bx6,_0xe78bx7=function(){},_0xe78bx8=function(_0xe78bx1){return _0xe78bx1[_0xb554[96]]({contentTemplate:_0xe78bx7,width:300,height:280,showTitle:!0,title:_0xb554[97],visible:!1,dragEnabled:!1,closeOnOutsideClick:!0,showCloseButton:!1,position:{at:_0xb554[98],my:_0xb554[99]},toolbarItems:[{widget:_0xb554[100],toolbar:_0xb554[98],location:_0xb554[101],options:{icon:_0xb554[102],text:_0xb554[103],onClick:function(_0xe78bx1){DevExpress[_0xb554[108]][_0xb554[107]]({message:_0xb554[104],position:{my:_0xb554[105],at:_0xb554[105]}},_0xb554[106],3e3)}}},{widget:_0xb554[100],toolbar:_0xb554[98],location:_0xb554[109],options:{text:_0xb554[110],onClick:function(_0xe78bx1){elUI[_0xb554[112]][_0xb554[111]]()}}}]})[_0xb554[96]](_0xb554[95])},_0xe78bxb=function(_0xe78bx1,_0xe78bx2){_0xe78bx1[_0xb554[114]][_0xb554[113]]&& _0xe78bx1[_0xb554[114]][_0xb554[113]][_0xb554[117]](_0xb554[116])[_0xb554[115]](_0xe78bx2)},_0xe78bxc=_0xe78bx2[_0xb554[119]][_0xb554[118]],_0xe78bxd=null,_0xe78bxe=!1;this[_0xb554[120]]= function(_0xe78bx1,_0xe78bx2,_0xe78bx9){_0xe78bx3[0][_0xb554[121]]= 0,_0xe78bxa[_0xb554[123]](_0xb554[122]),_0xe78bx1[_0xb554[125]][_0xb554[124]](),_0xe78bx3[0][_0xb554[121]]= _0xe78bx3[0][_0xb554[126]],_0xe78bxb(_0xe78bx1,_0xb554[127]),_0xe78bx3[_0xb554[130]]()[_0xb554[129]](_0xb554[128]),_0xe78bx9()},this[_0xb554[131]]= function(_0xe78bx7,_0xe78bxf,_0xe78bx10){!function(_0xe78bx1){_0xe78bx1[_0xb554[125]]&& (_0xe78bx1[_0xb554[125]][_0xb554[132]](), delete _0xe78bx1[_0xb554[125]])}(_0xe78bx7),_0xe78bx9= _0xe78bxf[_0xb554[117]](_0xb554[133]),_0xe78bx3= _0xe78bxf[_0xb554[117]](_0xb554[135])[_0xb554[134]](),_0xe78bxa= $(_0xb554[137])[_0xb554[136]](_0xe78bx3),_0xe78bx3[_0xb554[129]](_0xb554[138]);var _0xe78bx11,_0xe78bx12=this,_0xe78bx13=_0xe78bxf[_0xb554[117]](_0xb554[139]),_0xe78bx14=_0xe78bx7[_0xb554[140]][1]?_0xe78bx7[_0xb554[140]][1][_0xb554[14]]:_0xe78bx7[_0xb554[140]][0][0][_0xb554[14]],_0xe78bx15=0,_0xe78bx16=function(){admin$.DEV(function(){var _0xe78bx2=$.Deferred(),_0xe78bxa=$.Deferred();(_0xe78bx11= helloguy[_0xb554[146]]())[_0xb554[145]]({display:_0xb554[19],position:_0xb554[143],height:_0xb554[144]})[_0xb554[142]](_0xb554[141]),_0xe78bxf[_0xb554[117]](_0xb554[148])[_0xb554[147]]()[_0xb554[123]](_0xe78bx11),$[_0xb554[162]](_0xe78bx2,_0xe78bxa)[_0xb554[161]](function(_0xe78bx1,_0xe78bx2){var _0xe78bx3=_0xe78bxf[_0xb554[117]](_0xb554[149]),_0xe78bxa=_0xe78bx3[_0xb554[150]]();_0xe78bx3[_0xb554[147]]()[_0xb554[152]](_0xb554[151]),_0xe78bx3[_0xb554[130]]()[_0xb554[153]](),_0xe78bx3[_0xb554[145]](_0xb554[154],_0xb554[155]),_0xe78bxa[_0xb554[117]](_0xb554[158])[_0xb554[157]](_0xe78bxc[_0xb554[156]][2]),_0xe78bxa[_0xb554[117]](_0xb554[159])[_0xb554[157]](_0xe78bxc[_0xb554[156]][3]),_0xe78bx9[_0xb554[130]]()[_0xb554[145]](_0xb554[154],_0xb554[155]),_0xe78bx11[_0xb554[160]]()}),_0xe78bx1= function(_0xe78bxa){_0xe78bx1= null;var _0xe78bx4=tra$Na[_0xb554[163]](),_0xe78bx5=function(){_0xe78bx10(),_0xe78bx9[_0xb554[147]]()[_0xb554[145]](_0xb554[154],_0xb554[155]),_0xe78bx3[_0xb554[130]]()[_0xb554[145]](_0xb554[154],_0xb554[19]),_0xe78bx2[_0xb554[55]](_0xb554[163]),_0xe78bx13[_0xb554[164]](_0xe78bx4,_0xe78bx5)};_0xe78bx13[_0xb554[167]](_0xe78bx4,_0xe78bx5)[_0xb554[129]]()[_0xb554[166]](_0xb554[165])},_0xe78bx20(_0xe78bxa),srclocked(!1)}),_0xe78bx9[_0xb554[130]]()[_0xb554[145]](_0xb554[154],_0xb554[155]),_0xe78bx7[_0xb554[125]]=  new PerfectScrollbar(_0xe78bx3[0],{suppressScrollX:!0})},_0xe78bx17= new _0xe78bx4(_0xe78bxa[0],{cbNewLine:function(){_0xe78bx3[0][_0xb554[121]]= _0xe78bx3[0][_0xb554[126]]},lineDelay:5}),_0xe78bx18=_0xe78bxf[_0xb554[117]](_0xb554[149])[_0xb554[164]](_0xb554[168])[_0xb554[173]](_0xb554[168],function(){_0xe78bxe=  !0,_0xe78bxd[_0xb554[172]][_0xb554[171]]({messageType:_0xb554[169]},_0xb554[170]),_0xe78bx16()});_0xe78bx18[_0xb554[130]]()[_0xb554[145]](_0xb554[154],_0xb554[155]),_0xe78bx18[_0xb554[147]]()[_0xb554[129]](_0xb554[151]),_0xe78bx18[_0xb554[145]](_0xb554[154],_0xb554[19]),_0xe78bx13[_0xb554[152]](_0xb554[165])[_0xb554[129]](_0xb554[174]),_0xe78bx9[_0xb554[147]]()[_0xb554[145]](_0xb554[154],_0xb554[155]),_0xe78bx9[_0xb554[145]](_0xb554[175],_0xb554[176]),_0xe78bx9[_0xb554[130]]()[_0xb554[145]](_0xb554[154],_0xb554[19]),_0xe78bx9[_0xb554[147]]()[_0xb554[145]](_0xb554[154],_0xb554[19]),_0xe78bx3[_0xb554[130]]()[_0xb554[164]](_0xb554[168])[_0xb554[173]](_0xb554[168],function(){$(this);_0xe78bx2[_0xb554[119]][_0xb554[178]](function(_0xe78bx1){1== _0xe78bx1&& (_0xe78bx2[_0xb554[119]][_0xb554[177]](!0),_0xe78bx12[_0xb554[131]](_0xe78bx7,_0xe78bxf,_0xe78bx10))})}),_0xe78bx3[_0xb554[130]]()[_0xb554[152]](_0xb554[128]);var _0xe78bx19,_0xe78bx1a=apisvr[_0xb554[180]][_0xb554[179]],_0xe78bx1b=( new Date( new Date(_0xe78bx7[_0xb554[140]][0][1])[_0xb554[181]](0,0,0,0)), new Date( new Date(_0xe78bx7[_0xb554[140]][0][2])[_0xb554[181]](24,0,0,0)),[]),_0xe78bx1c=0,_0xe78bx1d=1,_0xe78bx1e=function(){_0xe78bx19|| (_0xe78bx19= ( new Date)[_0xb554[182]]());var _0xe78bx1=_0xe78bx7[_0xb554[140]][0][0][_0xe78bx1c],_0xe78bx2=function(){_0xe78bxe|| (_0xe78bx1c++,_0xe78bx1f())};_0xe78bx7[_0xb554[140]][1]&& -1== $[_0xb554[184]](_0xe78bx1[_0xb554[183]],_0xe78bx7[_0xb554[140]][1])?_0xe78bx2():(_0xe78bx1d+= _0xe78bx1[_0xb554[185]][_0xb554[14]],setTimeout(function(){_0xe78bx15+= 1;var _0xe78bx1=parseInt(100* _0xe78bx15/ _0xe78bx14);_0xe78bx9[_0xb554[145]](_0xb554[175],_0xe78bx1.toString()+ _0xb554[67])[_0xb554[115]](_0xe78bx1.toString()+ _0xb554[67]),_0xe78bx9[_0xb554[130]]()[_0xb554[145]](_0xb554[175],(100- _0xe78bx1).toString()+ _0xb554[67])[_0xb554[115]](_0xe78bx15+ _0xb554[186]+ _0xe78bx14)},1),_0xe78bx17.WriteLn({prompt:_0xb554[187],value:_0xe78bx1[_0xb554[183]]+ _0xb554[188]+ _0xe78bx1[_0xb554[189]]+ _0xb554[190]+ _0xe78bx1[_0xb554[191]],delay:0},function(){_0xe78bx17.WriteLn({value:_0xb554[192],delay:0},function(_0xe78bx9){var _0xe78bx3=_0xb554[193][_0xb554[16]](40);_0xe78bx17[_0xb554[63]];apisvr[_0xb554[180]][_0xb554[195]][_0xe78bx6][_0xb554[194]]= function(_0xe78bx1,_0xe78bxa,_0xe78bx4){!function(_0xe78bx1){if(_0xb554[197]== _0xe78bx1[_0xb554[198]]){_0xe78bx1b= _0xe78bx1b[_0xb554[48]](_0xe78bx1[_0xb554[199]]),_0xe78bx2()}else {var _0xe78bxa=_0xe78bx1[_0xb554[199]],_0xe78bx4=_0xe78bxa[_0xb554[159]];_0xe78bx9[_0xb554[27]]= _0xe78bx3[_0xb554[66]](0,Math[_0xb554[65]](40* _0xe78bx4/ 100))+ _0xb554[35]+ _0xe78bx4+ _0xb554[67]}}(_0xe78bxa[_0xb554[196]])},_0xe78bxd[_0xb554[172]][_0xb554[171]]({messageType:0,a:_0xe78bx1,delay:1,loc:_0xe78bx1a,runI:_0xe78bx1d},_0xb554[170])})}))},_0xe78bx1f=function(){_0xe78bx1c<= _0xe78bx7[_0xb554[140]][0][0][_0xb554[14]]- 1?_0xe78bx1e():_0xe78bx16()},_0xe78bx20=function(_0xe78bx2){if(_0xe78bx7[_0xb554[200]]){_0xe78bxb(_0xe78bx7,_0xb554[201]),_0xe78bx7[_0xb554[200]][_0xb554[202]]({dataSource:_0xe78bx1b,"\x70\x61\x67\x69\x6E\x67\x2E\x70\x61\x67\x65\x53\x69\x7A\x65":50}),_0xe78bx7[_0xb554[200]][_0xb554[203]](),_0xe78bx7[_0xb554[200]][_0xb554[204]](),_0xe78bx7[_0xb554[200]][_0xb554[205]](),_0xe78bx2[_0xb554[55]](_0xb554[206])}else {var _0xe78bx4=_0xe78bx13[_0xb554[117]](_0xb554[207]);_0xe78bx4[_0xb554[173]](_0xb554[208],_0xb554[209],function(_0xe78bx1){_0xe78bx1[_0xb554[210]](),_0xe78bx1[_0xb554[211]](),_0xe78bx7[_0xb554[112]][_0xb554[202]]({contentTemplate:function(){},position:{my:_0xb554[212],at:_0xb554[213],of:_0xe78bx1[_0xb554[214]]}}),_0xe78bx7[_0xb554[112]][_0xb554[215]]()});var _0xe78bx6=[2],_0xe78bxc=function(_0xe78bx1,_0xe78bx2){return {caption:_0xb554[216],headerCellTemplate:function(_0xe78bx1){_0xe78bx1[_0xb554[147]]()[_0xb554[123]]($(_0xb554[217])),_0xe78bx1[_0xb554[115]](_0xb554[216])},columns:[{caption:_0xb554[218],dataField:_0xb554[219]+ (_0xe78bx1+ _0xe78bx2),width:60,cellTemplate:_0xe78bx15,dataType:_0xb554[220],format:_0xb554[221],cssClass:_0xb554[222],editorOptions:{disabled:!0},encodeHtml:!1},{caption:_0xb554[223],dataField:_0xb554[219]+ (_0xe78bx1+ _0xe78bx2+ 1),width:60,cellTemplate:_0xe78bx15,dataType:_0xb554[220],format:_0xb554[221],cssClass:_0xb554[222],editorOptions:{disabled:!0},customizeText:function(_0xe78bx1){return _0xb554[224]+ _0xe78bx1[_0xb554[225]]+ _0xb554[226]},encodeHtml:!1},{hidingPriority:_0xe78bx6[0]- _0xe78bx1+ 4,caption:_0xb554[227],dataField:_0xb554[228]+ _0xe78bx1,width:60}]}};_0xe78bx7[_0xb554[229]]= $(_0xb554[289])[_0xb554[288]](_0xe78bx4)[_0xb554[230]]({items:[{location:_0xb554[101],widget:_0xb554[100],options:{text:_0xb554[231],onClick:function(){11== GetIEVersion()?_gsC(_0xb554[232],_0xb554[233],function(){_gsC(_0xb554[234],_0xb554[233],function(){_gsC(_0xb554[235],_0xb554[233],function(){_0xe78bx7[_0xb554[200]][_0xb554[236]](!1)},_0xb554[237])},_0xb554[238])},_0xb554[239]):(_gsC(_0xb554[235],_0xb554[233],function(){},_0xb554[237]),_gsC(_0xb554[240],_0xb554[233],function(){_0xe78bx7[_0xb554[200]][_0xb554[236]](!1)},_0xb554[238]))}}},{location:_0xb554[101],widget:_0xb554[100],options:{icon:_0xb554[241],onClick:function(){_0xe78bx7[_0xb554[114]][_0xb554[113]][_0xb554[115]](_0xb554[242]+ ( new Date)[_0xb554[182]]())}}},{location:_0xb554[99],locateInMenu:_0xb554[243],template:function(_0xe78bx1){return _0xe78bx7[_0xb554[114]][_0xb554[113]]= $(_0xb554[244]),_0xe78bx7[_0xb554[114]][_0xb554[113]]}},{location:_0xb554[101],widget:_0xb554[245],locateInMenu:_0xb554[246],options:{stylingMode:_0xb554[157],displayExpr:_0xb554[157],keyExpr:_0xb554[247],useSelectMode:!0,items:[{cls:10,text:_0xb554[248]},{cls:11,text:_0xb554[249]},{cls:12,text:_0xb554[250]},{cls:13,text:_0xb554[251]},{cls:14,text:_0xb554[252]}],selectedItemKey:13,onSelectionChanged:function(_0xe78bx1){setTimeout(function(){_0xe78bx7[_0xb554[200]][_0xb554[257]][_0xb554[117]](_0xb554[256])[_0xb554[152]](_0xb554[255])[_0xb554[129]](_0xb554[253]+ _0xe78bx1[_0xb554[254]][_0xb554[247]]),_0xe78bx7[_0xb554[200]][_0xb554[258]]()},20)},itemTemplate:function(_0xe78bx1){return $(_0xb554[262])[_0xb554[157]](_0xe78bx1[_0xb554[157]])[_0xb554[145]](_0xb554[259],_0xe78bx1[_0xb554[260]]+ _0xb554[261])}}},{location:_0xb554[101],widget:_0xb554[245],locateInMenu:_0xb554[246],options:{icon:_0xb554[263],displayExpr:_0xb554[157],keyExpr:_0xb554[264],useSelectMode:!0,items:[{lineHeight:1,text:_0xb554[197]},{lineHeight:1.35,text:_0xb554[265]},{lineHeight:1.5,text:_0xb554[266]},{lineHeight:2,text:_0xb554[267]}],selectedItemKey:1,onSelectionChanged:function(_0xe78bx1){_0xe78bx7[_0xb554[200]][_0xb554[202]](_0xb554[268],350* _0xe78bx1[_0xb554[254]][_0xb554[264]])}}},{location:_0xb554[109],widget:_0xb554[269],locateInMenu:_0xb554[246],options:{width:140,items:[{id:1,text:_0xb554[270]},{id:2,text:_0xb554[271]},{id:3,text:_0xb554[272]},{id:4,text:_0xb554[273]}],valueExpr:_0xb554[141],displayExpr:_0xb554[157],value:_0xe78bx6[0],onValueChanged:function(_0xe78bx1){srclocked(!0),setTimeout(function(){!function(_0xe78bx1){var _0xe78bx2=_0xe78bx7[_0xb554[200]],_0xe78bx9=_0xe78bx2[_0xb554[274]](),_0xe78bx3=_0xe78bx2[_0xb554[202]](_0xb554[275]);if(_0xe78bx6[0]< _0xe78bx1){for(var _0xe78bxa=_0xe78bx6[0],_0xe78bx4=_0xe78bx3[_0xb554[14]]- 1,_0xe78bx5=_0xe78bx6[0]+ 1;_0xe78bx5<= _0xe78bx1;_0xe78bx5++){_0xe78bx3[_0xb554[276]](_0xe78bx4,0,_0xe78bxc(_0xe78bx5,_0xe78bxa)),_0xe78bxa++,_0xe78bx4++}}else {for(var _0xe78bx5=_0xe78bx3[_0xb554[14]]- 2;_0xe78bx5> 0;_0xe78bx5--){var _0xe78bx8=parseInt(_0xe78bx3[_0xe78bx5][_0xb554[275]][2][_0xb554[278]][_0xb554[277]](_0xb554[228])[1]);if(!(_0xe78bx8> _0xe78bx1)){break};_0xe78bx3[_0xb554[276]](_0xe78bx5,1)}};_0xe78bx2[_0xb554[202]](_0xb554[275],_0xe78bx3),_0xe78bx2[_0xb554[274]](_0xe78bx9),_0xe78bx6[0]= _0xe78bx1,srclocked(!1)}(_0xe78bx1[_0xb554[33]])},10)}}},{location:_0xb554[109],widget:_0xb554[100],locateInMenu:_0xb554[246],options:{icon:_0xb554[279],onClick:function(){DevExpress[_0xb554[108]][_0xb554[107]](_0xb554[280])}}},{locateInMenu:_0xb554[281],widget:_0xb554[100],options:{text:_0xb554[282],onClick:function(){DevExpress[_0xb554[108]][_0xb554[107]](_0xb554[283])}}},{locateInMenu:_0xb554[281],widget:_0xb554[100],options:{text:_0xb554[284],onClick:function(){DevExpress[_0xb554[108]][_0xb554[107]](_0xb554[285])}}},{locateInMenu:_0xb554[281],widget:_0xb554[100],options:{text:_0xb554[286],onClick:function(){DevExpress[_0xb554[108]][_0xb554[107]](_0xb554[287])}}}]})[_0xb554[230]](_0xb554[95]),_0xe78bx7[_0xb554[112]]= _0xe78bx8($(_0xb554[289])[_0xb554[136]](_0xe78bxf)),_0xe78bx7[_0xb554[200]]= _0xe78bx4[_0xb554[290]]({keyExpr:_0xb554[141],dataSource:_0xe78bx1b,columnAutoWidth:!1,allowColumnReordering:!1,showBorders:!0,focusedRowEnabled:!0,pager:{visible:!0,allowedPageSizes:[50,100,300,500,_0xb554[291]],showPageSizeSelector:!0,showInfo:!0,showNavigationButtons:!0},paging:{pageSize:50},keyboardNavigation:{enterKeyAction:_0xb554[155],enterKeyDirection:_0xb554[292],editOnKeyPress:!1},editing:{mode:_0xb554[293],allowUpdating:!1,startEditAction:_0xb554[294]},onFocusedCellChanging:function(_0xe78bx1){if(_0xe78bx1[_0xb554[295]]=  !0,_0xe78bx7[_0xb554[114]][_0xb554[296]]&& _0xb554[5]==  typeof _0xe78bx7[_0xb554[114]][_0xb554[296]]){_0xe78bx7[_0xb554[114]][_0xb554[296]]()}else {var _0xe78bx2,_0xe78bx4=_0xe78bx6[2][0],_0xe78bx8=_0xe78bx6[2][1],_0xe78bxb=_0xe78bx1[_0xb554[297]],_0xe78bxc=_0xe78bx1[_0xb554[298]],_0xe78bxe=_0xe78bx1[_0xb554[299]],_0xe78bx11=_0xe78bx1[_0xb554[300]],_0xe78bx12=_0xe78bx1[_0xb554[301]]?_0xe78bx1[_0xb554[301]][_0xb554[30]]:_0xb554[302],_0xe78bx14=function(_0xe78bx9,_0xe78bx3){(_0xe78bx2= _0xe78bx1[_0xb554[304]][_0xb554[303]](_0xe78bx9,_0xe78bx3))?setTimeout(function(){_0xe78bx1[_0xb554[304]][_0xb554[305]](_0xe78bx2)},1):_0xe78bx15(!0)},_0xe78bx15=function(_0xe78bx1){var _0xe78bx2=_0xe78bx7[_0xb554[114]][_0xb554[306]];_0xe78bx2[_0xb554[307]]&& (_0xe78bx1?1!== _0xe78bx2[_0xb554[308]]&& (_0xe78bx17(_0xe78bx2),_0xe78bx2[_0xb554[111]](),_0xe78bx2[_0xb554[215]]()):_0xe78bx2[_0xb554[111]]())},_0xe78bx16=null,_0xe78bx17=function(_0xe78bx1){clearTimeout(_0xe78bx16),_0xe78bx1[_0xb554[308]]= 1,_0xe78bx16= setTimeout(function(){_0xe78bx1[_0xb554[308]]= 0},500)},_0xe78bx18=function(){if(_0xe78bxb< _0xe78bx4|| _0xe78bxb> _0xe78bx8){if(_0xe78bx1[_0xb554[309]]=  !0,_0xb554[310]== _0xe78bx12&& -1!= _0xe78bxc&& null!= _0xe78bxc&& _0xe78bx6[1][_0xe78bxc]&& -1== _0xe78bx6[1][_0xe78bxc][_0xb554[311]](_0xb554[228])){return void(_0xe78bx14(_0xe78bxe,_0xe78bxc))};_0xe78bx11== _0xe78bxe?_0xe78bxb< _0xe78bxc?_0xe78bxe> 0?_0xe78bx14(_0xe78bxe- 1,_0xe78bx8- 1):_0xe78bx15(!0):_0xe78bxb> _0xe78bxc&& _0xe78bx14(_0xe78bxe+ 1,_0xe78bx4):_0xe78bx14(_0xe78bxe,_0xe78bx4)}else {if(_0xe78bx6[1][_0xe78bxb]&& 0== _0xe78bx6[1][_0xe78bxb][_0xb554[311]](_0xb554[228])){if(-1== _0xe78bxc || null== _0xe78bxc || -1== _0xe78bx11 || null== _0xe78bx11 || _0xb554[310]== _0xe78bx12){var _0xe78bx2=_0xe78bx7[_0xb554[114]][_0xb554[306]];return void((_0xe78bx2[_0xb554[307]]&& _0xe78bx2[_0xb554[111]]()))};if(_0xe78bx11!= _0xe78bxe){return void(_0xe78bx15(!1))};_0xe78bx1[_0xb554[309]]=  !0,_0xe78bxb< _0xe78bxc?_0xe78bxb< _0xe78bx4?_0xe78bxe> 0?_0xe78bx14(_0xe78bxe- 1,_0xe78bx8- 1):_0xe78bx15(!0):_0xe78bx14(_0xe78bxe,_0xe78bxb- 1):_0xe78bxb> _0xe78bxc&& (_0xe78bxb== _0xe78bx8?_0xe78bx14(_0xe78bxe+ 1,_0xe78bx4):_0xe78bx14(_0xe78bxe,_0xe78bxb+ 1))}else {var _0xe78bx9=_0xe78bx1[_0xb554[275]][_0xe78bxb][_0xb554[278]],_0xe78bx3=_0xe78bx1[_0xb554[312]][_0xe78bxe][_0xb554[199]][_0xe78bx9],_0xe78bxa=_0xe78bx7[_0xb554[114]][_0xb554[306]];_0xe78bxa[_0xb554[313]]= [_0xe78bxe,_0xe78bx9,_0xe78bx3,_0xe78bxb,_0xe78bx1[_0xb554[312]][_0xe78bxe][_0xb554[199]]],_0xe78bxb== _0xe78bxc&& _0xe78bxe== _0xe78bx11&& _0xe78bxa[_0xb554[307]]&& 1!== _0xe78bxa[_0xb554[308]]&& (_0xe78bx17(_0xe78bxa),_0xe78bxa[_0xb554[111]]()),_0xe78bxa[_0xb554[215]](_0xe78bx1[_0xb554[314]])}}};_0xe78bx7[_0xb554[114]][_0xb554[306]]?_0xe78bx18():(srclocked(!0),_gsC(srcp$f+ _0xb554[315]+ src$id,_0xb554[233],function(_0xe78bx1){ new s3logedit(_0xe78bx7,[_0xe78bxf,_0xe78bx9,_0xe78bx3,_0xe78bxa,function(_0xe78bx1,_0xe78bx2){switch(_0xe78bx1){case _0xb554[317]:return _0xe78bx21;case _0xb554[320]:var _0xe78bx9= new _o$h[_0xb554[318]];return _0xe78bx9[_0xb554[319]](),_0xe78bx5[_0xb554[320]](_0xe78bx2)}}],_0xe78bx10,apisvr[_0xb554[180]][_0xb554[179]])[_0xb554[316]](_0xe78bxd,_0xe78bx13),_0xe78bx18(),srclocked(!1)},_0xb554[321]))}},onKeyDown:function(_0xe78bx1){if(-1!= [13,27][_0xb554[311]](_0xe78bx1[_0xb554[301]][_0xb554[322]])){var _0xe78bx2=_0xe78bx7[_0xb554[114]][_0xb554[306]];if(_0xe78bx2){if(13== _0xe78bx1[_0xb554[301]][_0xb554[322]]){_0xe78bx1[_0xb554[301]][_0xb554[211]]();var _0xe78bx9=_0xe78bx2[_0xb554[313]];_0xe78bx1[_0xb554[304]][_0xb554[303]](_0xe78bx9[0],_0xe78bx9[3])[_0xb554[152]](_0xb554[323]),_0xe78bx2[_0xb554[307]]|| _0xe78bx2[_0xb554[215]](),_0xe78bx7[_0xb554[114]][_0xb554[324]][_0xb554[305]]()}else {27== _0xe78bx1[_0xb554[301]][_0xb554[322]]&& (_0xe78bx1[_0xb554[301]][_0xb554[211]](),_0xe78bx2[_0xb554[307]]&& _0xe78bx2[_0xb554[327]][_0xb554[117]](_0xb554[326])[_0xb554[325]](_0xb554[168]))};_0xe78bx1[_0xb554[328]]=  !0}}},height:350,columns:[][_0xb554[48]]([{caption:_0xb554[329],width:50,cellTemplate:function(_0xe78bx1,_0xe78bx2){var _0xe78bx9=_0xe78bx7[_0xb554[200]][_0xb554[330]]();_0xe78bx9< 0&& (_0xe78bx9= 0),_0xe78bx1[_0xb554[157]](_0xe78bx9* _0xe78bx7[_0xb554[200]][_0xb554[331]]()+ _0xe78bx2[_0xb554[333]][_0xb554[332]]+ 1)},hidingPriority:0},{headerCellTemplate:function(_0xe78bx1){var _0xe78bx2=$(_0xb554[289]);_0xe78bx1[_0xb554[147]]()[_0xb554[129]](_0xb554[334]),_0xe78bx1[_0xb554[123]](_0xe78bx2),_0xe78bx2[_0xb554[338]]({mode:_0xb554[335],showClearButton:!0,onContentReady:function(_0xe78bx1){_0xe78bx1[_0xb554[304]][_0xb554[337]]()[_0xb554[117]](_0xb554[336])[_0xb554[168]](function(){})},onValueChanged:function(_0xe78bx1){}})},columns:[{dataField:_0xb554[183],caption:_0xb554[339],width:75}]},{headerCellTemplate:function(_0xe78bx1){var _0xe78bx2=$(_0xb554[289]);_0xe78bx1[_0xb554[147]]()[_0xb554[129]](_0xb554[334]),_0xe78bx1[_0xb554[123]](_0xe78bx2),_0xe78bx2[_0xb554[338]]({mode:_0xb554[335],showClearButton:!0,onContentReady:function(_0xe78bx1){_0xe78bx1[_0xb554[304]][_0xb554[337]]()[_0xb554[117]](_0xb554[336])[_0xb554[168]](function(){})},onValueChanged:function(_0xe78bx1){}})},columns:[{dataField:_0xb554[340],caption:_0xb554[341],width:200,hidingPriority:2}]},{headerCellTemplate:function(_0xe78bx1){_0xe78bx1[_0xb554[147]]()[_0xb554[123]]($(_0xb554[342]))},dataField:_0xb554[343],caption:_0xb554[344],width:100},{headerCellTemplate:function(_0xe78bx1){_0xe78bx1[_0xb554[147]]()[_0xb554[347]]($(_0xb554[346]))[_0xb554[145]]({"\x70\x61\x64\x64\x69\x6E\x67\x2D\x74\x6F\x70":_0xb554[248]})[_0xb554[129]](_0xb554[345]),_0xe78bx1[_0xb554[147]]()[_0xb554[123]](_0xb554[348])},dataField:_0xb554[349],caption:_0xb554[350],width:50,cssClass:_0xb554[222],hidingPriority:1},{caption:_0xb554[351],headerCellTemplate:function(_0xe78bx1){_0xe78bx1[_0xb554[147]]()[_0xb554[347]]($(_0xb554[352]))[_0xb554[145]]({"\x70\x61\x64\x64\x69\x6E\x67\x2D\x74\x6F\x70":_0xb554[248]})[_0xb554[129]](_0xb554[345]),_0xe78bx1[_0xb554[147]]()[_0xb554[123]](_0xb554[353])},dataField:_0xb554[354],width:70}],function(){for(var _0xe78bx1=[],_0xe78bx2=1;_0xe78bx2<= _0xe78bx6[0];_0xe78bx2++){_0xe78bx1[_0xb554[355]](_0xe78bxc(_0xe78bx2,_0xe78bx1[_0xb554[14]]))};return _0xe78bx1[_0xb554[355]]({headerCellTemplate:function(_0xe78bx1){}}),_0xe78bx1}()),onContentReady:function(_0xe78bx2){for(var _0xe78bx9=_0xe78bx2[_0xb554[304]][_0xb554[357]][_0xb554[275]][_0xb554[356]],_0xe78bx3={},_0xe78bxa=0,_0xe78bx4=1e6,_0xe78bx5=0,_0xe78bx7=0;_0xe78bx7< _0xe78bx9[_0xb554[14]]- 1;_0xe78bx7++){_0xe78bx9[_0xe78bx7][_0xb554[358]]|| (_0xe78bx9[_0xe78bx7][_0xb554[278]]&& (0!= _0xe78bx9[_0xe78bx7][_0xb554[278]][_0xb554[311]](_0xb554[219])&& 0!= _0xe78bx9[_0xe78bx7][_0xb554[278]][_0xb554[311]](_0xb554[228])|| (_0xe78bx3[_0xe78bx5]= _0xe78bx9[_0xe78bx7][_0xb554[278]],_0xe78bx5> _0xe78bxa&& (_0xe78bxa= _0xe78bx5),_0xe78bx5< _0xe78bx4&& (_0xe78bx4= _0xe78bx5))),_0xe78bx5+= 1)};_0xe78bx6[1]= _0xe78bx3,_0xe78bx6[2]= [_0xe78bx4,_0xe78bxa],_0xe78bx1&& _0xb554[5]==  typeof _0xe78bx1&& _0xe78bx1(_0xe78bx2)},onToolbarPreparing:function(_0xe78bx1){_0xe78bx1[_0xb554[304]];_0xe78bx1[_0xb554[360]][_0xb554[359]]=  !1,_0xe78bx1[_0xb554[360]][_0xb554[363]][_0xb554[362]]({location:_0xb554[99],locateInMenu:_0xb554[243],template:function(){return $(_0xb554[361])}})},onContextMenuPreparing:function(_0xe78bx1){_0xe78bx1[_0xb554[333]]&& _0xb554[199]=== _0xe78bx1[_0xb554[333]][_0xb554[364]]&& (_0xe78bx1[_0xb554[363]]= [{text:_0xb554[365],icon:_0xb554[366],template:_0xe78bx14,items:[{text:_0xb554[367]},{text:_0xb554[368]}]},{text:_0xb554[369],icon:_0xb554[370],template:_0xe78bx14},{text:_0xb554[371],icon:_0xb554[372],template:_0xe78bx14},{text:_0xb554[373],icon:_0xb554[374],template:_0xe78bx14},{text:_0xb554[375],icon:_0xb554[370],onItemClick:function(){_0xe78bx1[_0xb554[304]][_0xb554[376]](_0xe78bx1[_0xb554[333]][_0xb554[332]])},template:_0xe78bx14},{text:_0xb554[377],onItemClick:function(){_0xe78bx1[_0xb554[304]][_0xb554[378]]()}},{text:_0xb554[379],onItemClick:function(){_0xe78bx1[_0xb554[304]][_0xb554[380]](_0xe78bx1[_0xb554[333]][_0xb554[332]])}}])},onExporting:function(_0xe78bx1){var _0xe78bx2= new ExcelJS[_0xb554[381]],_0xe78bx9=_0xe78bx2[_0xb554[383]](_0xb554[382]);DevExpress[_0xb554[409]][_0xb554[408]]({component:_0xe78bx1[_0xb554[304]],worksheet:_0xe78bx9,autoFilterEnabled:!0,customizeCell:function(_0xe78bx1){if(_0xb554[199]== _0xe78bx1[_0xb554[388]][_0xb554[364]]&& _0xe78bx1[_0xb554[388]][_0xb554[292]][_0xb554[278]]&& 0== _0xe78bx1[_0xb554[388]][_0xb554[292]][_0xb554[278]][_0xb554[311]](_0xb554[219])){var _0xe78bx2=_0xe78bx1[_0xb554[389]];_0xe78bx2[_0xb554[33]]= _0xe78bx1[_0xb554[388]][_0xb554[33]],_0xe78bx2[_0xb554[390]]= {horizontal:_0xb554[99]},_0xe78bx2[_0xb554[391]]= {name:_0xb554[392],color:{argb:_0xb554[393]},family:2,size:14,italic:!0},_0xe78bx2[_0xb554[394]]= {texts:[{font:{size:12,color:{theme:1},name:_0xb554[395],family:2,scheme:_0xb554[396]},text:_0xb554[397]},{font:{italic:!0,size:12,color:{theme:1},name:_0xb554[395],scheme:_0xb554[396]},text:_0xb554[398]},{font:{size:12,color:{theme:1},name:_0xb554[395],family:2,scheme:_0xb554[396]},text:_0xb554[35]},{font:{size:12,color:{argb:_0xb554[399]},name:_0xb554[395],scheme:_0xb554[396]},text:_0xb554[400]},{font:{size:12,color:{theme:1},name:_0xb554[395],family:2,scheme:_0xb554[396]},text:_0xb554[401]},{font:{size:12,color:{argb:_0xb554[402]},name:_0xb554[395],scheme:_0xb554[396]},text:_0xb554[403]},{font:{size:12,color:{theme:1},name:_0xb554[395],family:2,scheme:_0xb554[396]},text:_0xb554[404]},{font:{bold:!0,size:12,color:{theme:1},name:_0xb554[395],family:2,scheme:_0xb554[396]},text:_0xb554[405]}],margins:{insetmode:_0xb554[406],inset:[0.25,0.25,0.35,0.35]},protection:{locked:!0,lockText:!1},editAs:_0xb554[407]}}}})[_0xb554[161]](function(){_0xe78bx2[_0xb554[387]][_0xb554[386]]()[_0xb554[161]](function(_0xe78bx1){saveAs( new Blob([_0xe78bx1],{type:_0xb554[384]}),_0xb554[385])})}),_0xe78bx1[_0xb554[309]]=  !0}})[_0xb554[290]](_0xb554[95]);var _0xe78bxd,_0xe78bxe=_0xe78bxf[_0xb554[117]](_0xb554[410]),_0xe78bx11=_0xe78bxe[_0xb554[412]](_0xb554[411]),_0xe78bx12=function(_0xe78bx1,_0xe78bx4){if(_0xe78bxd= $(_0xb554[413])[_0xb554[115]](_0xe78bx1),!_0xe78bx4){var _0xe78bx6=_0xe78bxd[_0xb554[117]](_0xb554[414]);_0xe78bx6[0][_0xb554[27]];_0xe78bx6[_0xb554[415]]()};_0xe78bx11[_0xb554[347]](_0xe78bxd)[_0xb554[416]](function(_0xe78bx1){(_0xe78bx5=  new freeot_rule1(_0xe78bx7,[_0xe78bxf,_0xe78bx9,_0xe78bx3,_0xe78bxa],_0xe78bx10,apisvr[_0xb554[180]][_0xb554[179]])).RU(_0xe78bxd,_0xe78bxe,_0xe78bx13),_0xe78bx2[_0xb554[55]](_0xb554[206])})};window[_0xb554[417]]= window[_0xb554[417]]|| {},window[_0xb554[417]][_0xb554[418]]?_0xe78bx12(window[_0xb554[417]][_0xb554[418]],!1):$[_0xb554[420]](srcp$f+ _0xb554[419]+ src$id,function(_0xe78bx1){window[_0xb554[417]][_0xb554[418]]= _0xe78bx1,_0xe78bx12(_0xe78bx1,!0)})};var _0xe78bx14=function(_0xe78bx1,_0xe78bx2,_0xe78bx9){var _0xe78bx3=$(_0xb554[421]);return _0xe78bx1[_0xb554[422]]&& _0xe78bx3[_0xb554[123]](_0xb554[423]+ _0xe78bx1[_0xb554[422]]+ _0xb554[424]),_0xe78bx1[_0xb554[363]]&& _0xe78bx3[_0xb554[123]](_0xb554[425]),_0xe78bx3[_0xb554[123]](_0xe78bx1[_0xb554[157]]),_0xe78bx3},_0xe78bx15=function(_0xe78bx1,_0xe78bx2){_0xe78bx1[0][_0xb554[427]][_0xb554[426]]= _0xb554[99],_0xe78bx1[0][_0xb554[27]]= _0xe78bx2[_0xb554[157]]}},_0xe78bx21={_load:function(_0xe78bx1,_0xe78bx9,_0xe78bx3,_0xe78bxa,_0xe78bx4,_0xe78bx5,_0xe78bx6){if(_0xb554[428]== _0xe78bx7[_0xb554[429]]){var _0xe78bx8=_0xe78bx7[_0xb554[430]][1],_0xe78bxb=_0xe78bx7[_0xb554[430]][0];lo$DB(function(_0xe78bx2){if(0== _0xe78bx2[_0xb554[431]]){if(1=== _0xe78bx9){_0xe78bx2[_0xb554[432]](_0xb554[309]),_0xe78bx1[_0xb554[55]]()}else {var _0xe78bx3=_0xe78bx2[_0xb554[434]][_0xb554[214]][_0xb554[433]];_0xe78bx3[_0xb554[436]][_0xb554[435]](_0xe78bx8)&& _0xe78bx3[_0xb554[437]](_0xe78bx8),_0xe78bx3[_0xb554[436]][_0xb554[435]](_0xe78bxb)&& _0xe78bx3[_0xb554[437]](_0xe78bxb);_0xe78bx3[_0xb554[439]](_0xe78bxb,{keyPath:_0xb554[438]});var _0xe78bxa=_0xe78bx3[_0xb554[439]](_0xe78bx8,{keyPath:_0xb554[141],autoIncrement:!0});_0xe78bxa[_0xb554[442]](_0xb554[440],_0xb554[441])}}else {if(1== _0xe78bx2[_0xb554[431]]){var _0xe78bx4,_0xe78bx5=_0xe78bx2[_0xb554[446]][_0xb554[445]]([_0xe78bxb],1== _0xe78bx9?_0xb554[443]:_0xb554[444]);if(1== _0xe78bx9){var _0xe78bx6=_0xe78bx5[_0xb554[447]](_0xe78bxb);_0xe78bx4= _0xe78bx6[_0xb554[420]](-1)}else {var _0xe78bx6=_0xe78bx5[_0xb554[447]](_0xe78bxb);_0xe78bx4= _0xe78bx6[_0xb554[448]]({userid:1,conf:_0xe78bx9})};_0xe78bx4[_0xb554[449]]= function(_0xe78bx2){_0xe78bx1[_0xb554[55]](_0xe78bx2)}}}},_0xb554[450])}else {var _0xe78bxc=_0xe78bxd[_0xb554[172]][_0xb554[451]];_0xe78bx2[_0xb554[119]][_0xb554[456]](_0xb554[455])[_0xb554[454]][_0xb554[453]](_0xe78bxd[_0xb554[172]],_0xe78bxc[1],_0xb554[452],{logh:_0xb554[19],logkind:1})}},_save:function(_0xe78bx1){if(_0xb554[428]== _0xe78bx7[_0xb554[429]]){var _0xe78bx2=_0xe78bx7[_0xb554[430]][1],_0xe78bx9=_0xe78bx7[_0xb554[430]][0];lo$DB(function(_0xe78bx3){if(0== _0xe78bx3[_0xb554[431]]){_0xe78bx3[_0xb554[432]](_0xb554[309]),dbLOG[_0xb554[55]]();var _0xe78bxa=_0xe78bx3[_0xb554[434]][_0xb554[214]][_0xb554[433]];_0xe78bxa[_0xb554[436]][_0xb554[435]](_0xe78bx2)&& _0xe78bxa[_0xb554[437]](_0xe78bx2),_0xe78bxa[_0xb554[436]][_0xb554[435]](_0xe78bx9)&& _0xe78bxa[_0xb554[437]](_0xe78bx9);_0xe78bxa[_0xb554[439]](_0xe78bx9,{keyPath:_0xb554[438]});var _0xe78bx4=_0xe78bxa[_0xb554[439]](_0xe78bx2,{keyPath:_0xb554[141],autoIncrement:!0});_0xe78bx4[_0xb554[442]](_0xb554[440],_0xb554[441])}else {if(1== _0xe78bx3[_0xb554[431]]){var _0xe78bx5=_0xe78bx3[_0xb554[446]][_0xb554[445]]([_0xe78bx9],_0xb554[444]),_0xe78bx6=_0xe78bx5[_0xb554[447]](_0xe78bx9);_0xe78bx6[_0xb554[448]]({userid:1,conf:_0xe78bx1})[_0xb554[449]]= function(_0xe78bx1){}}}},_0xb554[450])}},diagsetting:function(_0xe78bx1){this._save(_0xe78bx1)}};!function(){var _0xe78bx1=_0xe78bxf[_0xb554[117]](_0xb554[457]);if(_0xe78bx1[_0xb554[134]](),_0xe78bx1[_0xb554[164]](_0xb554[168])[_0xb554[173]](_0xb554[168],function(){_0xe78bx3[0][_0xb554[121]]= 0,_0xe78bxa[_0xb554[115]](_0xb554[458]),_0xe78bx7[_0xb554[125]][_0xb554[124]](),_0xe78bx3[0][_0xb554[121]]= _0xe78bx3[0][_0xb554[126]],_0xe78bx3[_0xb554[130]]()[_0xb554[129]](_0xb554[128])}),_0xe78bxd){_0xe78bxe=  !1,function(){var _0xe78bx1=_0xe78bx7[_0xb554[114]],_0xe78bx2=[_0xe78bx1[_0xb554[459]][_0xb554[202]](_0xb554[33])?1:0,_0xe78bx1[_0xb554[460]][_0xb554[202]](_0xb554[33]),_0xe78bx1[_0xb554[461]][_0xb554[202]](_0xb554[33])],_0xe78bx9=$.Deferred();JSON[_0xb554[462]](_0xe78bx2)!= JSON[_0xb554[462]](_0xe78bx1[_0xb554[463]])?(_0xe78bx5.WrLOG(),_0xe78bx21._load(_0xe78bx9,2)):_0xe78bx9[_0xb554[55]]();return _0xe78bx9}()[_0xb554[161]](function(_0xe78bx1){_0xe78bx1f()})}else {_0xe78bx7[_0xb554[114]]= {calcRule:[1,5,_0xb554[101]]},_0xe78bx6= ( new Date)[_0xb554[182]]();var _0xe78bx9=$.Deferred(),_0xe78bx4=$.Deferred(),_0xe78bx8=function(){if(_0xb554[428]== _0xe78bx7[_0xb554[429]]){_0xe78bx21._load(_0xe78bx9,1)}else {_0xe78bxd[_0xb554[172]][_0xb554[464]]= function(_0xe78bx1){_0xe78bxd[_0xb554[172]][_0xb554[464]]= null,_0xe78bx9[_0xb554[55]](_0xb554[465])};var _0xe78bx1=_0xe78bx2[_0xb554[119]][_0xb554[456]](_0xb554[466]);_0xe78bx2[_0xb554[119]][_0xb554[456]](_0xb554[455])[_0xb554[454]][_0xb554[453]](_0xe78bxd[_0xb554[172]],_0xe78bx1,_0xb554[452],{logh:_0xb554[19],logkind:1,ori:window[_0xb554[468]][_0xb554[467]]+ _0xb554[469]})}};$[_0xb554[162]](_0xe78bx9,_0xe78bx4)[_0xb554[161]](function(_0xe78bx1,_0xe78bx2){_0xe78bx1f()}),apisvr[_0xb554[180]][_0xb554[195]][_0xe78bx6]= {id:_0xe78bx6,fn:function(_0xe78bx1,_0xe78bx2,_0xe78bx9){_0xb554[470]== _0xe78bx1&& 0== _0xe78bx2[_0xb554[196]][_0xb554[198]]&& _0xe78bx4[_0xb554[55]](_0xb554[471])}},(_0xe78bxd= document[_0xb554[26]](_0xb554[473]))[_0xb554[45]](_0xb554[427],_0xb554[472]),_0xe78bxd[_0xb554[474]]= function(_0xe78bx1){setTimeout(_0xe78bx8,1);var _0xe78bx2=_0xe78bxd[_0xb554[172]][_0xb554[475]],_0xe78bx9=_0xe78bx2[_0xb554[26]](_0xb554[414]);if(11== GetIEVersion()){var _0xe78bx3=_0xe78bx2[_0xb554[26]](_0xb554[414]);_0xe78bx3[_0xb554[45]](_0xb554[476],_0xb554[232]),_0xe78bx2[_0xb554[477]][_0xb554[52]](_0xe78bx3)};_0xe78bx9[_0xb554[45]](_0xb554[478],btoa(_0xe78bx6+ _0xb554[479]+ window[_0xb554[468]][_0xb554[467]])),_0xe78bx9[_0xb554[45]](_0xb554[476],srcpf$+ _0xb554[480]+ src$id),_0xe78bx2[_0xb554[477]][_0xb554[52]](_0xe78bx9)},_0xe78bx13[0][_0xb554[52]](_0xe78bxd)}}()}}return _0xe78bx2[_0xb554[4]][_0xb554[92]]= _0xb554[93],_0xe78bx2[_0xb554[4]][_0xb554[94]]= function(_0xe78bx1){},_0xe78bx2}()};return {createCalc:function(_0xe78bx1){return  new _0xe78bx5[_0xe78bx1[_0xb554[481]]](_0xe78bx1)}}}()}()
+﻿(function (factory) {
+    "use strict";
+    FormWizard.s3calc = factory(null);//pass pubArgs later if need
+})(function (pubArgs) {
+
+    "use strict";
+    if (!Array.from) {
+        Array.from = (function () {
+            var toStr = Object.prototype.toString;
+            var isCallable = function (fn) {
+                return typeof fn === 'function' || toStr.call(fn) === '[object Function]';
+            };
+            var toInteger = function (value) {
+                var number = Number(value);
+                if (isNaN(number)) { return 0; }
+                if (number === 0 || !isFinite(number)) { return number; }
+                return (number > 0 ? 1 : -1) * Math.floor(Math.abs(number));
+            };
+            var maxSafeInteger = Math.pow(2, 53) - 1;
+            var toLength = function (value) {
+                var len = toInteger(value);
+                return Math.min(Math.max(len, 0), maxSafeInteger);
+            };
+
+            // The length property of the from method is 1.
+            return function from(arrayLike/*, mapFn, thisArg */) {
+                // 1. Let C be the this value.
+                var C = this;
+
+                // 2. Let items be ToObject(arrayLike).
+                var items = Object(arrayLike);
+
+                // 3. ReturnIfAbrupt(items).
+                if (arrayLike == null) {
+                    throw new TypeError("Array.from requires an array-like object - not null or undefined");
+                }
+
+                // 4. If mapfn is undefined, then let mapping be false.
+                var mapFn = arguments.length > 1 ? arguments[1] : void undefined;
+                var T;
+                if (typeof mapFn !== 'undefined') {
+                    // 5. else
+                    // 5. a If IsCallable(mapfn) is false, throw a TypeError exception.
+                    if (!isCallable(mapFn)) {
+                        throw new TypeError('Array.from: when provided, the second argument must be a function');
+                    }
+
+                    // 5. b. If thisArg was supplied, let T be thisArg; else let T be undefined.
+                    if (arguments.length > 2) {
+                        T = arguments[2];
+                    }
+                }
+
+                // 10. Let lenValue be Get(items, "length").
+                // 11. Let len be ToLength(lenValue).
+                var len = toLength(items.length);
+
+                // 13. If IsConstructor(C) is true, then
+                // 13. a. Let A be the result of calling the [[Construct]] internal method of C with an argument list containing the single item len.
+                // 14. a. Else, Let A be ArrayCreate(len).
+                var A = isCallable(C) ? Object(new C(len)) : new Array(len);
+
+                // 16. Let k be 0.
+                var k = 0;
+                // 17. Repeat, while k < len… (also steps a - h)
+                var kValue;
+                while (k < len) {
+                    kValue = items[k];
+                    if (mapFn) {
+                        A[k] = typeof T === 'undefined' ? mapFn(kValue, k) : mapFn.call(T, kValue, k);
+                    } else {
+                        A[k] = kValue;
+                    }
+                    k += 1;
+                }
+                // 18. Let putStatus be Put(A, "length", len, true).
+                A.length = len;
+                // 20. Return A.
+                return A;
+            };
+        }());
+    }
+    if (!String.prototype.repeat) {
+        String.prototype.repeat = function (count) {
+            'use strict';
+            if (this == null)
+                throw new TypeError('can\'t convert ' + this + ' to object');
+
+            var str = '' + this;
+            // To convert string to integer.
+            count = +count;
+            // Check NaN
+            if (count != count)
+                count = 0;
+
+            if (count < 0)
+                throw new RangeError('repeat count must be non-negative');
+
+            if (count == Infinity)
+                throw new RangeError('repeat count must be less than infinity');
+
+            count = Math.floor(count);
+            if (str.length == 0 || count == 0)
+                return '';
+
+            // Ensuring count is a 31-bit integer allows us to heavily optimize the
+            // main part. But anyway, most current (August 2014) browsers can't handle
+            // strings 1 << 28 chars or longer, so:
+            if (str.length * count >= 1 << 28)
+                throw new RangeError('repeat count must not overflow maximum string size');
+
+            var maxCount = str.length * count;
+            count = Math.floor(Math.log(count) / Math.log(2));
+            while (count) {
+                str += str;
+                count--;
+            }
+            str += str.substring(0, maxCount - str.length);
+            return str;
+        }
+    }
+
+    var Termynal = (function () { // worker https://medium.com/young-coder/a-simple-introduction-to-web-workers-in-javascript-b3504f9d9d1c
+        //https://gist.github.com/willywongi/5780151
+        //http://www.smartjava.org/content/html5-easily-parallelize-jobs-using-web-workers-and-threadpool/
+
+        'use strict';
+
+        function O(container, opts) { // constructor
+            //
+            var $that = this
+
+            , line2EL = function (ld) {
+                var div = document.createElement('div');
+                div.innerHTML = '<span ' + _attributes(ld) + '>' + (ld.value || '') + '</span>';
+                return div.firstElementChild;
+            }, prntLine = function (line, wNew) {
+                var type = line.getAttribute($that.pfx),
+                    delay = line.getAttribute($that.pfx + '-delay') || $that.lineDelay;
+
+                if (type == 'input') {
+                    //
+                    line.setAttribute($that.pfx + '-cursor', $that.cursor);
+                    //
+                    $that_type(line).done(function (e) {
+                        //
+                        line.removeAttribute($that.pfx + '-cursor');
+                        //
+                        wNew(delay);
+                    });
+                    //
+                } else if (type == 'progress') {
+                    $that_progress(line).done(function (e) {
+                        wNew(delay);
+                    });
+                } else {
+                    $that.container.appendChild(line);
+                    wNew(delay);
+                }
+                //
+                if (opts.cbNewLine) opts.cbNewLine();
+                //
+            };
+
+            //
+            this.container = (typeof container === 'string') ? document.querySelector(container) : container;
+
+            this.pfx = 'data-' + (opts.prefix || 'ty');
+
+            this.startDelay = opts.startDelay
+                || parseFloat(this.container.getAttribute(this.pfx + '-startDelay')) || 600;
+            this.typeDelay = opts.typeDelay
+                || parseFloat(this.container.getAttribute(this.pfx + '-typeDelay')) || 90;
+            this.lineDelay = opts.lineDelay
+                || parseFloat(this.container.getAttribute(this.pfx + '-lineDelay')) || 1500;
+            this.progressLength = opts.progressLength
+                || parseFloat(this.container.getAttribute(this.pfx + '-progressLength')) || 40;
+            this.progressChar = opts.progressChar
+                || this.container.getAttribute(this.pfx + '-progressChar') || '█';
+            this.progressPercent = opts.progressPercent
+                || parseFloat(this.container.getAttribute(this.pfx + '-progressPercent')) || 100;
+            this.cursor = opts.cursor
+                || this.container.getAttribute(this.pfx + '-cursor') || '▋';
+            this.lineData = lineDataToElements(opts.lineData || []);
+            if (!opts.noInit) init()
+
+
+
+            function init() {
+                //
+                // Appends dynamically loaded lines to existing line elements.
+                $that.lines = [].concat(_toConsumableArray($that.container.cloneNode(true).querySelectorAll('[' + $that.pfx + ']'))).concat($that.lineData);
+
+
+                /** 
+                 * Calculates width and height of Termynal container.
+                 * If container is empty and lines are dynamically loaded, defaults to browser `auto` or CSS.
+                 */
+                //var containerStyle = getComputedStyle($that.container);
+                //$that.container.style.width = containerStyle.width !== '0px' ? containerStyle.width : undefined;
+                //$that.container.style.minHeight = containerStyle.height !== '0px' ? containerStyle.height : undefined;
+
+                $that.container.setAttribute('data-termynal', '');
+                $that.container.innerHTML = '';
+                start();
+            }
+
+            function start() {
+                _wait($that.startDelay).done(function (msg) {
+
+                    var i = 0
+                    , wNew = function (delay) {
+
+                        i++;
+
+                        if (i < $that.lines.length) {
+                            _wait(delay).done(function (e) {
+                                prntLine($that.lines[i], wNew);
+                            });
+                        }
+
+                    };
+                    //first run ...
+                    if ($that.lines.length > 0) prntLine($that.lines[i], wNew);
+                    //
+                });
+            }
+
+            this.WriteLn = function (ld, callB) {
+                var ln = line2EL(ld);
+                prntLine(ln, function (delay) {
+                    if (delay > 0) {
+                        _wait(delay).done(function (e) {
+                            if (callB) callB(ln);
+                        });
+                    } else {
+                        if (callB) callB(ln);
+                    };
+                });
+            };
+
+            function $that_type(line) {
+
+                var deferred = $.Deferred();
+
+                var chars = [].concat(_toConsumableArray(line.innerHTML)),
+                    delay = line.getAttribute($that.pfx + '-typeDelay') || $that.typeDelay;
+
+                line.textContent = '';
+                $that.container.appendChild(line);
+
+                var i = 0;
+
+                var eachChar = function () {
+
+                    var char = chars[i];
+
+                    _wait(delay).done(function (e) {
+
+                        line.innerHTML += char;
+
+                        i++;
+
+                        if (i < chars.length) {
+                            eachChar();
+                        } else {
+                            deferred.resolve('releaseWait');
+                        };
+
+                    });
+
+                };
+                //
+                if (chars.length > 0) {
+                    eachChar();
+                } else {
+                    deferred.resolve('releaseWait');
+                };
+                //
+                return deferred.promise();
+            }
+
+            function $that_progress(line) {
+
+                var progressLength = line.getAttribute($that.pfx + '-progressLength') || $that.progressLength,
+                    progressChar = line.getAttribute($that.pfx + '-progressChar') || $that.progressChar,
+                    chars = progressChar.repeat(progressLength),
+                    progressPercent = line.getAttribute($that.pfx + '-progressPercent') || $that.progressPercent,
+                    delay = line.getAttribute($that.pfx + '-progssDelay') || $that.typeDelay,
+
+                   deferred = $.Deferred();
+
+                line.innerHTML = '';
+                $that.container.appendChild(line);
+
+                var i = 1;//for (let i = 1; i < chars.length + 1; i++) {
+
+                var eachPer = function () {
+
+                    _wait(delay).done(function (e) {
+
+                        var percent = Math.round(i / chars.length * 100);
+                        line.innerHTML = chars.slice(0, i) + ' ' + percent + '%';
+
+                        i++;
+                        if (percent < progressPercent) {
+                            eachPer();
+                        } else {
+                            deferred.resolve('releaseWait');
+                        };
+
+                    });
+                }
+
+                if (chars.length > 0) {
+                    eachPer();
+                } else {
+                    deferred.resolve('releaseWait');
+                };
+                //
+                return deferred.promise();
+                //
+            }
+
+            this.att_progress = function (line, pO) {
+
+                var progressLength = pO.progressLength || line.getAttribute($that.pfx + '-progressLength') || $that.progressLength,
+                    progressChar = pO.progressChar || line.getAttribute($that.pfx + '-progressChar') || $that.progressChar,
+                    chars = progressChar.repeat(progressLength),
+                    progressPercent = pO.progressPercent || line.getAttribute($that.pfx + '-progressPercent') || $that.progressPercent,
+                    delay = pO.typeDelay || line.getAttribute($that.pfx + '-progssDelay') || $that.typeDelay,
+
+                   deferred = $.Deferred();
+
+                line.innerHTML = '';
+                //
+                var i = 1;//for (let i = 1; i < chars.length + 1; i++) {
+
+                var eachPer = function () {
+
+                    _wait(delay).done(function (e) {
+
+                        var percent = Math.round(i / chars.length * 100);
+                        line.innerHTML = chars.slice(0, i) + ' ' + percent + '%';
+
+                        i++;
+                        if (percent < progressPercent) {
+                            eachPer();
+                        } else {
+                            deferred.resolve('releaseWait');
+                        };
+
+                    });
+                }
+
+                if (chars.length > 0) {
+                    eachPer();
+                } else {
+                    deferred.resolve('releaseWait');
+                };
+                //
+                return deferred.promise();
+                //
+            }
+
+            function _toConsumableArray(arr) {
+                if (Array.isArray(arr)) {
+                    for (var i = 0, arr2 = Array(arr.length) ; i < arr.length; i++) arr2[i] = arr[i]; return arr2;
+                } else {
+                    return Array.from(arr);
+                }
+            }
+            function _attributes(line) {
+                //var attrs = [$that.pfx];
+                //for (var prop in line) {
+                //    var attr = $that.pfx;
+                //    if (prop === 'type') {
+                //        attr += '="' + line[prop] + '" ';
+                //    } else if (prop !== 'value') {
+                //        attr += '-' + prop + '="' + line[prop] + '" ';
+                //    };
+                //    if (attrs.indexOf(attr) == -1) attrs.push(attr);
+                //}
+                //return  attrs.join(' ');
+
+                var attrs = '';
+                for (var prop in line) {
+                    //
+                    attrs += $that.pfx;
+                    //
+                    if (prop === 'type') {
+                        attrs += '="' + line[prop] + '" ';
+                    } else if (prop !== 'value') {
+                        attrs += '-' + prop + '="' + line[prop] + '" ';
+                    } else {
+                        attrs += " ";
+                    }
+                }
+                return attrs;
+            }
+
+            function lineDataToElements(lineData) {
+                return lineData.map(function (line) {
+                    return line2EL(line);
+                });
+            }
+
+            function _wait(time) {
+                var deferred = $.Deferred();
+                if (time > 0) {
+                    setTimeout(function () { deferred.resolve('_wait'); }, time);
+                } else {
+                    deferred.resolve('_wait');
+                };
+                //
+                return deferred.promise();
+                //return new Promise(resolve => setTimeout(resolve, time));
+            }
+
+        }
+        O.prototype.publicSharedVar = 'quux';
+        O.prototype.publicSharedMethod = function (param) {
+            //this.line2EL
+        };
+
+        return O;
+    })();
+
+    var _wait = function (time) {
+        var deferred = $.Deferred();
+        if (time > 0) {
+            setTimeout(function () { deferred.resolve('_wait'); }, time);
+        } else {
+            deferred.resolve('_wait');
+        };
+        return deferred.promise();
+        //return new Promise(resolve => setTimeout(resolve, time));
+    }
+    , $that = {
+        noshift: (function () { // scoping
+
+            var gw3Ready = null;
+
+            function privateSharedFunction() {
+                // has access to privateSharedVar
+                // may also access publicSharedVar via explicit MyObj.prototype
+                // can't be called via this
+            }
+            function O(opts) { // constructor
+                //
+                var popupContentTemplate = function () {
+                    //return $("<div>").append(
+                    //  $(`<p>Full Name: <span>${employee.FirstName}</span>
+                    //     <span>${employee.LastName}</span></p>`),
+                    //  $(`<p>Birth Date: <span>${employee.BirthDate}</span></p>`),
+                    //  $(`<p>Address: <span>${employee.Address}</span></p>`),
+                    //  $(`<p>Hire Date: <span>${employee.HireDate}</span></p>`),
+                    //  $(`<p>Position: <span>${employee.Position}</span></p>`)
+                    //);
+                },
+                popupFilter = function (popup) {
+
+                    return popup.dxPopup({
+                        contentTemplate: popupContentTemplate,
+                        width: 300,
+                        height: 280,
+                        //container: ".dx-viewport",
+                        showTitle: true,
+                        title: "Information",
+                        visible: false,
+                        dragEnabled: false,
+                        closeOnOutsideClick: true,
+                        showCloseButton: false,
+                        position: {
+                            at: "bottom",
+                            my: "center",
+                        },
+                        toolbarItems: [{
+                            widget: "dxButton",
+                            toolbar: "bottom",
+                            location: "before",
+                            options: {
+                                icon: "email",
+                                text: "Send",
+                                onClick: function (e) {
+                                    //const message = `Email is sent to ${employee.FirstName} ${employee.LastName}`;
+                                    DevExpress.ui.notify({
+                                        message: 'message',
+                                        position: {
+                                            my: "center top",
+                                            at: "center top"
+                                        }
+                                    }, "success", 3000);
+                                },
+                            }
+                        }, {
+                            widget: "dxButton",
+                            toolbar: "bottom",
+                            location: "after",
+                            options: {
+                                text: "Close",
+                                onClick: function (e) {
+                                    elUI['step3_rst_grid_popupFilter'].hide();
+                                }
+                            }
+                        }]
+                    }).dxPopup("instance");
+                },
+                destroyPSB = function (elUI) {
+                    if (elUI.cmdS3_scroPerf) {
+                        elUI.cmdS3_scroPerf.destroy();
+                        delete elUI.cmdS3_scroPerf;
+                    };
+                },
+                gRST_title = function (elUI, msg) {
+                    if (elUI['step3_utils'].gridtitle) {
+                        elUI['step3_utils'].gridtitle.find('.toolbar-label').html(msg);
+                    };
+                },
+                LAN = opts.Args.LAN,
+                elem, xwindow, terW, calR$U
+                //
+                , calcSession
+                , evtWK = null
+                , calcTerminate = false;
+
+                //
+                this.viewBack = function (elUI, frmEL, s2Caller) {
+                    //
+                    xwindow[0].scrollTop = 0;
+                    //https://unicode-table.com/en/#miscellaneous-symbols
+                    terW.append('<span data-ty="input" data-ty-prompt="⚠"> 1. Quy uoc gom log the gan nhau thanh 1</span>' +
+                        '<span data-ty="input" data-ty-prompt="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>"> Cac Log gat the cach nhau nho hon hoac bang 0 ->1 minutes</span>' +
+                        '<span data-ty="input" data-ty-prompt="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>"> Log duoc chon de tinh cong Log-1 -> Log-2/span>');
+
+                    elUI.cmdS3_scroPerf.update();
+
+                    xwindow[0].scrollTop = xwindow[0].scrollHeight;
+                    //
+                    gRST_title(elUI, "<i class='ti-alert'/> Ket qua cu hon Log gat the o #step-2");
+                    //
+                    xwindow.next().addClass('d-flex');//nut tinh lai
+                    //
+                    s2Caller();
+                };
+
+                this.exec = function (elUI, frmEL, s2Caller) {
+                    //
+                    destroyPSB(elUI);
+                    //
+                    elem = frmEL.find(".phantramcouting");
+                    xwindow = frmEL.find('.kiem-the .xwindow').empty();
+                    terW = $('<div class="termynal"/>').appendTo(xwindow);
+                    //
+                    xwindow.addClass('hide-overflow-y');//de cho no chay le, neu add PefectScrollbar vao thi no se anh huong performanace.
+                    //
+                    var that = this, step3_rst = frmEL.find('.kiem-the .step3_rst'), _allW = (elUI.allLOGs[1]) ? elUI.allLOGs[1].length : elUI.allLOGs[0][0].length, _W = 0
+                    , wting
+                    , okTinhCo = function () {
+                        //
+                        admin$.DEV(function () {
+                            //
+                            var G$RD = $.Deferred(), R$UL = $.Deferred();
+                            //
+                            wting = helloguy.clone();
+                            wting.css({ 'display': '', 'position': 'absolute', 'height': '200px' }).removeAttr('id');
+                            frmEL.find('.StepTitle-rule').parent().append(wting);
+                            //
+                            $.when(G$RD, R$UL).then(function (g,r) {
+                                //
+                                var calc = frmEL.find(".StepTitle-calc"),
+                                    s3tit = calc.prev();
+
+                                calc.parent().removeClass('text-center');
+                                calc.next().fadeIn();
+                                calc.css('display', "none");
+                                //
+                                s3tit.find('h2').text(LAN.js_004_19[2]);
+                                s3tit.find('p').text(LAN.js_004_19[3]);
+                                //
+                                elem.next().css('display', "none");//hide text calcualating process ...
+                                //
+                                wting.detach();
+                                //
+                            });
+                            //
+                            gw3Ready = function (e) {
+                                // debugger;
+                                gw3Ready = null;
+                                //
+                                var trans = tra$Na.g(),
+                                    transE=function(){
+                                        //
+                                        //elUI['step3_rst_grid'].repaint();
+                                        //
+                                        s2Caller();
+
+                                        elem.parent().css('display', 'none'); // process bar
+                                        xwindow.next().css('display', '');//nut tinh lai
+                                        //
+                                        G$RD.resolve('g');
+                                        //
+                                        //console.log(trans);
+                                        //
+                                        step3_rst.off(trans, transE);//ko off no raise 2 lan khi hover nut next
+                                    };
+                                step3_rst.one(trans, transE)
+                                    .addClass()
+                                    .slideDownTransition('height-transition');//slideToggle
+                                //
+                            };
+                            //
+                            //step3_rst.addClass('height-transition');
+                            step3_rst_grid(R$UL);
+                            //
+                            srclocked(false); // unlock vi dev load chu ko phai chan truoc khi tinh
+                            //
+                        });
+                        //
+                        elem.next().css('display', 'none');// emp / total percent
+                        //xwindow.removeClass('hide-overflow-y');//khong can remove class ra, PSB tu xu ly
+                        elUI['cmdS3_scroPerf'] = new PerfectScrollbar(xwindow[0], {
+                            suppressScrollX: true
+                        });
+                        //
+                    }
+                    , frame = function () {
+                        //////elUI['xwindow_cmd'].find('.command-row').clone().appendTo(xwindow);
+                        ////////
+                        //////_W += 1;
+                        //////var pW = parseInt(_W * 100 / _allW);
+                        ////////
+                        //////elem.css('width', pW.toString() + "%").html(pW.toString() + "%");
+                        //////elem.next().css('width', (100 - pW).toString() + "%");
+                        ////////
+                        //////xwindow.animate({ scrollTop: xwindow[0].scrollHeight }, 10, function () {
+
+                        //////});
+                    }//, id = setInterval(frame, 50);
+                    //
+                    //
+                    , csPrnt = new Termynal(terW[0], {
+                        cbNewLine: function () {
+
+                            xwindow[0].scrollTop = xwindow[0].scrollHeight;
+
+                            //terW.animate({ scrollTop: terW[0].scrollHeight }, 1, function () {
+                            //    //alert('scroll');
+                            //});
+                        }
+                        , lineDelay: 5
+                        //, typeDelay:10
+                    });
+
+                    var calc = frmEL.find(".StepTitle-calc").off('click').on('click', function () {
+                        calcTerminate = true;
+                        evtWK.contentWindow.postMessage({ messageType: '-9999' }, '*');
+                        okTinhCo();
+                    });
+                    calc.next().css('display', 'none');
+                    calc.parent().addClass('text-center');
+                    calc.css('display', '');
+                    //
+                    //frmEL.find('#hc4logsx img.mr-3').attr("src", srcpf$ + '/media/images/quyuoc_log1.png');
+
+
+                    //step3_rst.css('display', "none");//hide grid result TinhCo
+                    step3_rst.removeClass('height-transition').addClass('height-transition-hidden');
+
+                    //
+                    //////if (!elUI['xwindow_cmd']) {
+                    //////    elUI['xwindow_cmd'] = xwindow.clone();
+                    //////};
+                    ////////
+                    //////xwindow.empty();
+                    //
+                    elem.parent().css('display', "none");
+                    elem.css('width', "0%");
+                    elem.next().css('display', ""); //show text calcualating process ...
+                    elem.parent().css('display', "");
+                    xwindow.next().off('click').on('click', function () {
+                        //
+                        var _$th = $(this);
+                        //
+                        opts.Args.tinhlaiCHK(function (rst) {
+                            //
+                            if (rst == 1) {//check before recount ok
+                                //
+                                opts.Args.lockStep(true);
+                                that.exec(elUI, frmEL, s2Caller);
+                                //
+                            } else {
+
+                            }
+                        });
+                        //
+                    });
+                    //
+                    xwindow.next().removeClass('d-flex');//nut tinh lai
+                    //
+                    //debugger;
+                    var loc = apisvr.a$.selected_language,
+                        fD = new Date(new Date(elUI.allLOGs[0][1]).setHours(0, 0, 0, 0)),
+                        tD = new Date(new Date(elUI.allLOGs[0][2]).setHours(24, 0, 0, 0)),
+                        aRST = [],
+                        datediff = function (dvt, s, e) {
+                            if (dvt == 's') {
+                                dvt = 1000;
+                            } else if (dvt == 'm') {
+                                dvt = 1000 * 60;
+                            } else if (dvt == 'h') {
+                                dvt = 1000 * 60 * 60;
+                            } else if (dvt == 'd') {
+                                dvt = 1000 * 60 * 60 * 24;
+                            } else {
+                                dvt = 1;
+                            };
+                            //
+                            return parseInt((e.getTime() - s.getTime()) / dvt);
+                        }
+                    , eIdx = 0, runI = 1
+                    , benchmark
+                    //, WKer = new Worker(srcpf$ + '/media/js/attworker.js' + '?' + new Date().getTime())
+                    , cbprogress = { progressLength: 40 }
+                    //, calcTerminate = function () {
+                    //    evtWK.parentNode.removeChild(evtWK);
+                    //    delete apisvr.a$.sessions[calcSession];
+                    //}
+                    , isEmp = function () {
+                        //
+                        if (!benchmark) benchmark = new Date().getTime();
+                        //
+                        var a = elUI.allLOGs[0][0][eIdx]
+                            , nextE = function () {
+                                if (calcTerminate) return;// se ket thuc
+                            eIdx++; runCALC();
+                        };
+                        //
+                        if (elUI.allLOGs[1] && $.inArray(a.acno, elUI.allLOGs[1]) == -1) {
+                            nextE();//next nay de skip cac emp ko can tinh
+                            return; // continue for
+                        };
+                        //
+                        runI += a.aLogs.length;//id for worker
+                        //
+                        //
+                        setTimeout(function () {
+                            _W += 1;
+                            var pW = parseInt(_W * 100 / _allW);
+                            //
+                            elem.css('width', pW.toString() + "%").html(pW.toString() + "%");
+                            elem.next().css('width', (100 - pW).toString() + "%").html(_W + ' / ' + _allW);
+                        }, 1);
+                        //
+                        //
+                        csPrnt.WriteLn({ prompt: '▲ acno', value: a.acno + ' Min log: ' + a.minL + ' Max log: ' + a.maxL, delay: 0 }, function () {
+                            csPrnt.WriteLn({ value: 'couting ...', delay: 0 }, function (ln) {
+                                //
+                                var progressLength = 40
+                                   , progressChar = '·'
+                                   , chars = progressChar.repeat(progressLength)
+                                   , progressPercent = csPrnt.progressPercent
+                                   , calcMSG = function (evt) {
+                                       //
+                                        if (evt.messageType == '1') {//finish count acno
+                                            //
+                                            aRST = aRST.concat(evt.data);
+                                            //
+                                            nextE();// ben kia tra loi thi se next tiep
+                                            //
+                                        } else {//progress
+                                            var a = evt.data,
+                                                  //ln = cbprogress[a.acno],
+                                                  percent = a.p;
+
+                                            ln.innerHTML = chars.slice(0, Math.round(percent * progressLength / 100)) + ' ' + percent + '%'
+                                        };
+                                    };
+                                //
+                                apisvr.a$.sessions[calcSession].fn = function (a, b, c) {
+                                    calcMSG(b.evtData);
+                                }
+                                //
+                                evtWK.contentWindow.postMessage({ messageType: 0, a: a, delay: 1, loc: loc, runI: runI }, '*');
+                                //
+                            });
+                        });
+                        //
+                    }
+                    , calEMP = function (a, prgSPAN) {
+                        //var deferred = $.Deferred();
+
+
+                        var progressLength = 40,
+                              progressChar = '·',
+                              chars = progressChar.repeat(progressLength),
+                              progressPercent = csPrnt.progressPercent,
+                              delay = 0,
+
+                              deferred = $.Deferred();
+
+                        //      line.innerHTML = '';
+                        //      //
+
+                        var j = 0;//for (let i = 1; i < chars.length + 1; i++) {
+
+                        var eachATT = function () {
+
+                            _wait(delay).done(function (e) {
+
+                                var eachE = {
+                                    "id": aRST.length,
+                                    "acno": a.acno,
+                                    "ten": a.ten,
+                                    "ngay": new Date(new Date(a.aLogs[j]).setHours(0, 0, 0, 0)),
+                                    "thu": a.aLogs[j].toLocaleString(loc, { weekday: 'short' }),
+                                    'fio1': a.aLogs[j],
+                                    "TongTG": 2,
+                                }
+                                aRST.push(eachE);
+                                //
+                                for (var k = j + 1; k < a.aLogs.length; k++) {
+                                    if (dayjs(a.aLogs[j]).format('YYYY-MM-DD') == dayjs(a.aLogs[k]).format('YYYY-MM-DD')) {//equal date
+                                        //
+                                        eachE['fio' + eachE.TongTG] = a.aLogs[k];
+                                        eachE.TongTG++;
+                                        //
+                                    } else {
+                                        j = k - 1; break;
+                                    };
+                                    j = k;
+                                };
+                                //
+                                var percent = Math.round((j + 1) / a.aLogs.length * 100);
+                                prgSPAN.innerHTML = chars.slice(0, Math.round(percent * progressLength / 100)) + ' ' + percent + '%';
+
+
+                                j++;
+                                doLOOP();
+
+                            });
+                        }
+                        , doLOOP = function () {
+                            if (j < a.aLogs.length) {
+                                eachATT();
+                            } else {
+                                deferred.resolve('releaseWait');
+                            };
+                        };
+                        doLOOP();
+                        //
+                        return deferred.promise();
+
+
+                        //for (var j = 0; j < a.aLogs.length; j++) {
+                        //    //
+                        //    //
+
+                        //    //
+                        //};
+
+                        //a.aLogs.forEach(function (L, j) {
+                        //    var phut = datediff('m', fD, L);
+                        //});
+                        //
+                        //csPrnt.att_progress(prgSPAN, {}).done(function () {
+                        //    console.log(a.acno + ' ' + (new Date().getTime() - benchmark));
+                        //    deferred.resolve('releaseWait');
+                        //});
+                        //prgSPAN.innerHTML = new Date().getTime() - benchmark;
+                        //return deferred.promise();
+                    }
+                    , runCALC = function () {
+                        if (eIdx <= elUI.allLOGs[0][0].length - 1) {
+                            //
+                            isEmp();
+                            //
+                        } else {
+                            //
+                            //console.log(new Date().getTime() - benchmark);
+                            //
+                            //calcTerminate();
+                            //
+                            okTinhCo();
+                            //
+                        };
+                    }
+                    , tinhlaiSetting = function () {
+                        var uiR = elUI['step3_utils']
+                            , rule1 = [uiR.noise_rule.option('value') ? 1 : 0, uiR.noise_spec.option('value'), uiR.logs_effect.option('value')]
+                            , deferred = $.Deferred();
+
+                        if (JSON.stringify(rule1) != JSON.stringify(uiR.calcRule)) {
+                            calR$U.WrLOG();
+
+                            storeDAT._load(deferred, 2);
+
+                        } else {
+                            deferred.resolve();
+                        }
+                        return deferred;
+                    }
+                    , step3_rst_grid=function(R$UL) {//privateInstance
+                        var countries = [{
+                            "id": 1,
+                            "acno": 1,
+                            "ten": "Brazil",
+                            "ngay": "2021-01-01",
+                            "TongTG": 8,
+                            "fio1": '08:00',
+                            "fio2": '12:00',
+                            "fio3": '13:00',
+                            "fio4": '17:00',
+                        }, {
+                            "id": 2,
+                            "acno": 1,
+                            "ten": "Brazil",
+                            "ngay": "2021-01-02",
+                            "TongTG": 8,
+                            "fio1": '08:00',
+                            "fio2": '12:00',
+                            "fio3": '13:00',
+                            "fio4": '17:00',
+                        }, {
+                            "id": 3,
+                            "acno": 1,
+                            "ten": "Brazil",
+                            "ngay": "2021-01-03",
+                            "TongTG": 8,
+                            "fio1": '08:00',
+                            "fio2": '12:00',
+                            "fio3": '13:00',
+                            "fio4": '17:00',
+                        }, {
+                            "id": 4,
+                            "acno": 1,
+                            "ten": "Brazil",
+                            "ngay": "2021-01-04",
+                            "TongTG": 8,
+                            "fio1": '08:00',
+                            "fio2": '12:00',
+                            "fio3": '13:00',
+                            "fio4": '17:00',
+                        }, {
+                            "id": 5,
+                            "acno": 1,
+                            "ten": "Brazil",
+                            "ngay": "2021-01-05",
+                            "TongTG": 8,
+                            "fio1": '08:00',
+                            "fio2": '12:00',
+                            "fio3": '13:00',
+                            "fio4": '17:00',
+                        }, {
+                            "id": 6,
+                            "acno": 1,
+                            "ten": "Brazil",
+                            "ngay": "2021-01-05",
+                            "TongTG": 8,
+                            "fio1": '08:00',
+                            "fio2": '12:00',
+                            "fio3": '13:00',
+                            "fio4": '17:00',
+                        }, {
+                            "id": 7,
+                            "acno": 1,
+                            "ten": "Brazil",
+                            "ngay": "2021-01-07",
+                            "TongTG": 8,
+                            "fio1": '08:00',
+                            "fio2": '12:00',
+                            "fio3": '13:00',
+                            "fio4": '17:00',
+                        }, {
+                            "id": 8,
+                            "acno": 1,
+                            "ten": "Brazil",
+                            "ngay": "2021-01-08",
+                            "TongTG": 8,
+                            "fio1": '08:00',
+                            "fio2": '12:00',
+                            "fio3": '13:00',
+                            "fio4": '17:00',
+                        }, {
+                            "id": 9,
+                            "acno": 1,
+                            "ten": "Brazil",
+                            "ngay": "2021-01-09",
+                            "TongTG": 8,
+                            "fio1": '08:00',
+                            "fio2": '12:00',
+                            "fio3": '13:00',
+                            "fio4": '17:00',
+                        }, {
+                            "id": 10,
+                            "acno": 1,
+                            "ten": "Brazil",
+                            "ngay": "2021-01-10",
+                            "TongTG": 8,
+                            "fio1": '08:00',
+                            "fio2": '12:00',
+                            "fio3": '13:00',
+                            "fio4": '17:00',
+                        }];
+
+                        if (!elUI['step3_rst_grid']) {
+
+                            var step3_rst_grid = step3_rst.find('.step3_rst_grid');
+
+                            step3_rst_grid.on('mousedown touchstart', '.col-io-filter', function (e) {
+               
+                                e.preventDefault();
+                                e.stopPropagation();
+
+                                elUI['step3_rst_grid_popupFilter'].option({
+                                    contentTemplate: function () { return popupContentTemplate(); },
+                                    //"position.of": e.target
+                                    position: {
+                                        my: "right",
+                                        at: "left",
+                                        of: e.target
+                                    }
+                                });
+                                elUI['step3_rst_grid_popupFilter'].show();
+                            });
+
+                            //debugger;
+                            var viewLogs = [2]
+
+                            , productTypes = [{
+                                id: 1,
+                                text: "2 Logs"
+                            }, {
+                                id: 2,
+                                text: "4 Logs"
+                            }, {
+                                id: 3,
+                                text: "6 Logs"
+                            }, {
+                                id: 4,
+                                text: "8 Logs"
+                            }]
+                            , logCols_bk = function () {
+                                var c = 1;
+                                return [{
+                                    caption: "In - Out",
+                                    headerCellTemplate: function (container) {
+                                        container.parent().append($('<i class="dx-icon-filter col-io-filter"></i>'));
+                                        container.html('In - Out');
+                                        //container.closest('td').css('background', 'red');
+                                    },
+                                    columns: [{
+                                        caption: "In",
+                                        dataField: "fio1", width: 60,
+                                        cellTemplate: celltmp,
+                                        dataType: "date",
+                                        format: "HH:mm"
+                                        , cssClass: "centerTD",
+                                        editorOptions: { disabled: true }
+                                    }, {
+                                        caption: "Out",
+                                        dataField: "fio2", width: 60,
+                                        cellTemplate: celltmp,
+                                        dataType: "date",
+                                        format: "HH:mm"
+                                        , cssClass: "centerTD",
+                                        editorOptions: {
+                                            disabled: true
+                                        }
+                                    }, {
+                                        caption: "Total",
+                                        dataField: "total1", width: 60
+                                    }]
+                                }
+                                   ,
+                                   {
+                                       caption: "In - Out",
+                                       headerCellTemplate: function (container) {
+                                           //debugger;
+                                           //container.insertBefore($('<i class="dx-icon-filter"></i> Tong TG (gio)'));
+
+                                           container.parent().append($('<i class="dx-icon-filter col-io-filter"></i>'));
+                                           container.html('Tong TG (gio)');
+                                           container.closest('td').css('background', 'red');
+                                       },
+                                       columns: [{
+                                           caption: "In",
+                                           dataField: "fio3", width: 60,
+                                           dataType: "date",
+                                           format: "HH:mm",
+                                           editorOptions: { disabled: true },
+                                           cellTemplate: function (e, i) {
+                                               //debugger;
+                                               e.css({ "text-align": "center", 'background': 'red' });
+                                               //e[0].style.background = 'red';
+                                               e[0].innerHTML = i.text;
+                                               //element.append("<div>" + info.text + "</div>").css({
+                                               //    "textAlign": "center",
+                                               //    "color": "blue"
+                                           }
+                                       }
+                                       , {
+                                           caption: "Out",
+                                           dataField: "fio4", width: 60,
+                                           dataType: "date",
+                                           format: "HH:mm",
+                                           editorOptions: { disabled: true },
+                                           //cellTemplate: function (e, i) {
+                                           //    debugger;
+                                           //    e.css({ "text-align": "center", 'background': 'red' });
+                                           //    //e[0].style.background = 'red';
+                                           //    //e[0].innerHTML = i.text;
+                                           //    //element.append("<div>" + info.text + "</div>").css({
+                                           //    //    "textAlign": "center",
+                                           //    //    "color": "blue"
+                                           //},
+                                           //headerCellTemplate: function (container) {
+                                           //    //debugger;
+                                           //    //container.append($("<div>Tong TG (gio)</div>"));
+                                           //    //container.html('Tong TG (gio)');
+                                           //    container.closest('td').css('background', 'red');
+                                           //}
+                                       }, {
+                                           caption: "Total",
+                                           dataField: "total2", width: 60,
+                                           //headerCellTemplate: function (container) {
+                                           //    //debugger;
+                                           //    //container.append($("<div>Tong TG (gio)</div>"));
+                                           //    //container.html('Tong TG (gio)');
+                                           //    container.closest('td').css('background', 'red');
+                                           //}
+                                       }]
+                                   }
+
+                                   ,
+
+                                   {
+                                       headerCellTemplate: function (container) {
+                                           //debugger;
+                                           ////container.insertBefore($('<i class="dx-icon-filter"></i> Tong TG (gio)'));
+
+                                           //container.parent().append($('<i class="dx-icon-filter col-io-filter"></i>'));
+                                           //container.html('Tong TG (gio)');
+                                           //container.closest('td').css('background', 'red');
+                                       }
+                                   }]
+                            }
+                            , logCols = function () {
+                                var cols = [];
+                                for (var i = 1; i <= viewLogs[0]; i++) {
+                                    cols.push(colIO(i, cols.length));
+                                };
+                                cols.push({
+                                    headerCellTemplate: function (container) {
+                                        //debugger;
+                                        ////container.insertBefore($('<i class="dx-icon-filter"></i> Tong TG (gio)'));
+
+                                        //container.parent().append($('<i class="dx-icon-filter col-io-filter"></i>'));
+                                        //container.html('Tong TG (gio)');
+                                        //container.closest('td').css('background', 'red');
+                                    }
+                                });
+                                return cols;
+                            }
+                            , colIO = function (idx, offset) {
+                                return {
+                                    caption: "In - Out",
+                                    headerCellTemplate: function (container) {
+                                        container.parent().append($('<i class="dx-icon-filter col-io-filter"></i>'));
+                                        container.html('In - Out');
+                                        //container.closest('td').css('background', 'red');
+                                    },
+                                    columns: [{
+                                        caption: "In",
+                                        dataField: "fio" + (idx + offset), width: 60,
+                                        cellTemplate: celltmp,
+                                        dataType: "date",
+                                        format: "HH:mm"
+                                        , cssClass: "centerTD",
+                                        editorOptions: {
+                                            disabled: true
+                                        }
+                                        , encodeHtml:false
+                                    }, {
+                                        caption: "Out",
+                                        dataField: "fio" + (idx + offset + 1), width: 60,
+                                        cellTemplate: celltmp,
+                                        dataType: "date",
+                                        format: "HH:mm"
+                                        , cssClass: "centerTD",
+                                        editorOptions: {
+                                            disabled: true
+                                        }
+                                        , customizeText: function (e) {
+                                            return '<span class="modif">(' + e.valueText + ')</span>';
+                                        }
+                                         , encodeHtml: false
+                                    }, {
+                                        hidingPriority: 4 + (viewLogs[0]-idx),//cot total hide tu right qua left
+                                        caption: "Total",
+                                        dataField: "total" + idx, width: 60
+                                    }]
+                                };
+                            }
+                            , changeInOutLogCols = function (newC) { //https://supportcenter.devexpress.com/ticket/details/t613263/datagrid-how-to-add-a-column-at-runtime
+
+                                var grd = elUI['step3_rst_grid'],
+                                  state = grd.state(),
+                                  columns = grd.option("columns");
+
+                                if (viewLogs[0] < newC) {//them vao 
+                                    //
+                                    var offset = viewLogs[0],
+                                        insIdx = columns.length - 1; // last columns ; inset vao thi no se tu dong day colpadding ra ngoai
+
+                                    for (var z = viewLogs[0] + 1; z <= newC; z++) {
+                                        //const weekdays = ['monday', 'tuesday', 'thursday', 'friday']
+                                        //const deletedArray = weekdays.splice(2, 0, 'wednesday');
+                                        //[ 'monday', 'tuesday', 'wednesday', 'thursday', 'friday' ]
+                                        columns.splice(insIdx, 0, colIO(z, offset));//inset new inout truoc padding col
+                                        //
+                                        offset++;
+                                        insIdx++
+                                    };
+                                    //
+                                } else { // phai bo ra
+                                    for (var z = columns.length - 2; z > 0; z--) {//bo cot padding cuoi cung
+                                        var col = parseInt(columns[z].columns[2].dataField.split('total')[1]);
+                                        if (col > newC) {
+                                            columns.splice(z, 1);
+                                        } else {
+                                            break;
+                                        };
+                                    };
+                                };
+                                //
+                                grd.option("columns", columns);
+                                grd.state(state);
+                                //
+                                //
+                                viewLogs[0] = newC;//update lai so luong log view hien tai cua grid
+                                //
+                                srclocked(false);
+                                //
+                            };
+
+                            elUI['step3_rst_grid_cmd'] = $('<div/>').insertBefore(step3_rst_grid).dxToolbar({
+                                items: [
+
+                                        {
+                                            location: 'before',
+                                            widget: 'dxButton',
+                                            options: {
+                                                text: "Export Excel",
+                                                onClick: function () {
+                                                    exportExls();
+                                                }
+                                            }
+                                        }, {
+                                            location: 'before',
+                                            widget: 'dxButton',
+                                            options: {
+                                                icon: "refresh",
+                                                onClick: function () {
+                                                    //elUI['step3_rst_grid'].refresh();
+                                                    //debugger;
+  
+                                                    elUI['step3_utils'].gridtitle.html("<i class='ti-alert'/>" + new Date().getTime());
+                                                }
+                                            }
+                                        }, {
+                                            location: 'center',
+                                            locateInMenu: 'never',
+                                            template: function (e) {
+                                                elUI['step3_utils'].gridtitle = $("<div><div class='toolbar-label'><h4>BANG CONG</h4></div></div>");
+                                                return elUI['step3_utils'].gridtitle;
+                                            }
+                                        },
+                                {
+                                    location: "before",
+                                    widget: "dxDropDownButton",
+                                    locateInMenu: 'auto',
+                                    options: {
+                                        stylingMode: "text",
+                                        displayExpr: "text",
+                                        keyExpr: "cls",
+                                        useSelectMode: true,
+                                        items: [
+                                              { cls: 10, text: "10px" },
+                                              { cls: 11, text: "11px" },
+                                              { cls: 12, text: "12px" },
+                                              { cls: 13, text: "13px" },
+                                              { cls: 14, text: "14px" }
+                                        ],
+                                        selectedItemKey: 13,
+                                        onSelectionChanged: function (e) {
+                                            //$("#text").css("font-size", e.item.size + "px");
+                                            setTimeout(function () {
+                                                elUI['step3_rst_grid']._$element.find('.dx-datagrid-content').removeClass("f10 f11 f12 f13 f14").addClass('f' + e.item.cls);
+                                                elUI['step3_rst_grid'].repaint();
+                                            }, 20);
+                                        },
+                                        itemTemplate: function (itemData) {
+                                            return $("<div>")
+                                                .text(itemData.text)
+                                                .css("font-size", itemData.size + "px");
+                                        }
+                                    }
+                                },
+                                  {
+                                      location: "before",
+                                      widget: "dxDropDownButton",
+                                      locateInMenu: 'auto',
+                                      options: {
+                                          //stylingMode: "text",
+                                          icon: "indent",
+                                          displayExpr: "text",
+                                          keyExpr: "lineHeight",
+                                          useSelectMode: true,
+                                          items: [
+                                                { lineHeight: 1, text: "1" },
+                                                { lineHeight: 1.35, text: "1.35" },
+                                                { lineHeight: 1.5, text: "1.5" },
+                                                { lineHeight: 2, text: "2" }
+                                          ],
+                                          selectedItemKey: 1,
+                                          onSelectionChanged: function (e) {
+                                              elUI['step3_rst_grid'].option('height', e.item.lineHeight * 350);
+                                          }
+                                      }
+                                  }
+                                ,
+
+                                {
+                                    location: 'after',
+                                    widget: 'dxSelectBox',
+                                    locateInMenu: 'auto',
+                                    options: {
+                                        width: 140,
+                                        items: productTypes,
+                                        valueExpr: "id",
+                                        displayExpr: "text",
+                                        value: viewLogs[0],
+                                        onValueChanged: function (args) {
+                                            //
+                                            srclocked(true);
+                                            //
+                                            setTimeout(function () {
+                                                //
+                                                changeInOutLogCols(args.value);
+                                                //
+                                            }, 10);
+                                            //
+                                        }
+                                    }
+                                }, {
+                                    location: 'after',
+                                    widget: 'dxButton',
+                                    locateInMenu: 'auto',
+                                    options: {
+                                        icon: "plus",
+                                        onClick: function () {
+                                            //step3_rst.removeClass('height-transition').addClass('height-transition-hidden');
+                                            DevExpress.ui.notify("Add button has been clicked!");
+                                        }
+                                    }
+                                }, {
+                                    locateInMenu: 'always',
+                                    widget: 'dxButton',
+                                    options: {
+                                        text: 'Save',
+                                        onClick: function () {
+                                            DevExpress.ui.notify("Save option has been clicked!");
+                                        }
+                                    }
+                                }, {
+                                    locateInMenu: 'always',
+                                    widget: 'dxButton',
+                                    options: {
+                                        text: 'Print',
+                                        onClick: function () {
+                                            DevExpress.ui.notify("Print option has been clicked!");
+                                        }
+                                    }
+                                }, {
+                                    locateInMenu: 'always',
+                                    widget: 'dxButton',
+                                    options: {
+                                        text: 'Settings',
+                                        onClick: function () {
+                                            DevExpress.ui.notify("Settings option has been clicked!");
+                                        }
+                                    }
+                                }
+
+
+                                ]
+                                //, visible: false,
+                            }).dxToolbar('instance');
+                            //
+                            elUI['step3_rst_grid_popupFilter'] = popupFilter($('<div/>').appendTo(frmEL));
+                            //
+                            elUI['step3_rst_grid'] = step3_rst_grid.dxDataGrid({
+                                keyExpr: 'id',
+                                dataSource: aRST,
+                                columnAutoWidth: false,
+                                allowColumnReordering: false,
+                                showBorders: true,
+                                focusedRowEnabled: true
+                                ,pager: {
+                                    visible: true,
+                                    allowedPageSizes: [50, 100,300,500, 'all'],
+                                    showPageSizeSelector: true,
+                                    showInfo: true,
+                                    showNavigationButtons: true
+                                }
+                                ,paging: {
+                                    pageSize: 50
+                                }
+                                ,keyboardNavigation: {
+                                    enterKeyAction: "none",
+                                    enterKeyDirection: "column",
+                                    editOnKeyPress: false
+                                }
+                                ,editing: {
+                                    mode: "batch",
+                                    allowUpdating: false,
+                                    startEditAction: "dblClick"
+                                }
+                                //, onEditorPreparing: function (e) {
+                                //    e.cancel = true;
+                                //}
+                                , onFocusedCellChanging: function (e) {
+                                    //
+                                    e.isHighlighted = true;
+                                    //
+                                    if (elUI['step3_utils'].ignoreFocusedCellChanging && typeof elUI['step3_utils'].ignoreFocusedCellChanging === "function") {
+                                        elUI['step3_utils'].ignoreFocusedCellChanging();
+                                        return;
+                                    };
+                                    //
+                                    var mi = viewLogs[2][0], ma = viewLogs[2][1],
+                                        nC = e.newColumnIndex, pC = e.prevColumnIndex,
+                                        nR = e.newRowIndex, pR = e.prevRowIndex,
+                                        elt,
+                                        evtType = e.event ? e.event.type : 'NULL',
+                                        doFCs = function (r, c) {
+                                            //
+                                            elt = e.component.getCellElement(r, c);//max
+                                            if (elt) {
+                                                setTimeout(function () { e.component.focus(elt); }, 1);
+                                            } else {
+                                                flashPopOver(true);
+                                            };
+                                        },
+                                        flashPopOver = function (isflash) {
+                                            var po = elUI['step3_utils'].editPO;
+                                            if (po._currentVisible) {
+                                                //
+                                                if (isflash) {
+                                                    if (po._isflash !== 1) {//bo qua vi no se flash ko kip
+
+                                                        flagFlash(po);
+                                                       
+                                                        po.hide();
+
+                                                        po.show();
+
+                                                    //} else {
+                                                    //    console.log('flashPopOver bo qua vi no se flash ko kip');
+                                                    };
+                                                } else {
+                                                    po.hide();
+                                                };
+                                            };
+                                        },
+                                        flagFlashTO = null,
+                                        flagFlash = function (po) {
+                                            clearTimeout(flagFlashTO);
+                                            po._isflash = 1;
+                                            flagFlashTO = setTimeout(function () { po._isflash = 0; }, 500);
+                                        },
+                                        preparePO = function () {
+                                            //
+                                            //console.log('onFocusedCellChanging: ' + new Date().getTime());
+                                            //
+                                            if (nC < mi || nC > ma ) {
+                                                //
+                                                e.cancel = true;
+                                                //
+                                                if (evtType == 'dxpointerdown') {
+                                                    if (pC != -1 && pC != undefined && viewLogs[1][pC] && viewLogs[1][pC].indexOf('total') == -1) {
+                                                        doFCs(nR, pC);//min
+                                                        return;
+                                                    };
+                                                };
+                                                //
+                                                if (pR == nR) {
+                                                    //
+                                                    if (nC < pC) {
+                                                        //
+                                                        if (nR > 0) {
+
+                                                            doFCs(nR - 1, ma - 1);//max la cot total //back row -1 ; max col
+
+                                                        } else {
+
+                                                            flashPopOver(true);
+
+                                                        }
+                                                        //
+                                                    } else if (nC > pC) {//nex row -1 ; min col
+                                                        //
+                                                        doFCs(nR + 1, mi);//min
+                                                        //
+                                                    };
+                                                } else {
+                                                    //
+                                                    doFCs(nR, mi);//min
+                                                    //
+                                                };
+                                                //
+                                            } else if (viewLogs[1][nC] && viewLogs[1][nC].indexOf('total') == 0) {
+                                                //
+                                                if ((pC==-1||pC==undefined) || (pR==-1||pR==undefined) || evtType == 'dxpointerdown') {//lan dau tien click vao field total
+                                                    //
+                                                    var po=elUI['step3_utils'].editPO;
+                                                    if (po._currentVisible) po.hide();
+                                                    //
+                                                    return;// ko lam gi ca
+                                                    //
+                                                } else {
+                                                    //
+                                                    if (pR == nR) {
+                                                        //
+                                                        e.cancel = true;
+                                                        //
+                                                        if (nC < pC) {// BACK
+
+                                                            if (nC < mi) {
+                                                                //
+                                                                if (nR > 0) {
+                                                                    //
+                                                                    doFCs(nR - 1, ma - 1);//max la cot total //back row -1 ; max col
+                                                                    //
+                                                                } else {
+
+                                                                    flashPopOver(true);
+
+                                                                };
+                                                                //
+                                                            } else {
+                                                                //
+                                                                doFCs(nR, nC - 1);//nhay sang back in-out inline Row.
+                                                                //
+                                                            };
+                                                            //
+                                                        } else if (nC > pC) {//nex row -1 ; min col
+
+                                                            if (nC == ma) {// col total cua last in-out
+                                                                //
+                                                                doFCs(nR + 1, mi);//min row next
+                                                                //
+                                                            } else {
+                                                                //
+                                                                doFCs(nR, nC+1);//nhay sang next in-out inline Row.
+                                                                //
+                                                            };
+                                                            //
+                                                        };
+                                                    } else { // focus at tatal cell && move keydown up down 
+                                                        //
+                                                        flashPopOver(false);
+                                                        //
+                                                        return;// ko lam gi ca
+                                                        //
+                                                    };
+                                                };
+
+                                            } else {
+                                                //
+                                                var f = e.columns[nC].dataField,
+                                                    v = e.rows[nR].data[f],
+                                                    ePO = elUI['step3_utils'].editPO;
+                                                //
+                                                ePO.atTD = [nR, f, v, nC, e.rows[nR].data];
+                                                //
+                                                if (nC == pC && nR == pR && ePO._currentVisible) {
+                                                    if (ePO._isflash !== 1) {//bo qua vi no se flash ko kip
+
+                                                        flagFlash(ePO);
+
+                                                        ePO.hide();
+
+                                                    //} else {
+                                                    //    console.log('bo qua vi no se flash ko kip');
+                                                    };
+
+                                                };
+                                                //
+                                                ePO.show(e.cellElement);
+                                                //
+                                            };
+                                        };
+                                    //
+                                    if (!elUI['step3_utils'].editPO) {
+                                        //alert('preparePO: ' + srcp$f + '/media/utils/jsc/s3logedit.js' + src$id);
+                                        srclocked(true);
+                                        _gsC(srcp$f + '/media/utils/jsc/s3logedit.js' + src$id,'js', function (data) {
+                                            //
+                                            new s3logedit(elUI, [frmEL, elem, xwindow, terW, function (p,args) {
+                                                switch (p) {
+                                                    case 'saveDB': return storeDAT; break;
+                                                    //case 'lan': return init_data['lang']; break;
+                                                    //case 'alog': return init_data['attLOG']; break;
+                                                    case 'exPopUp':{
+                                                        var test1 = new _o$h.test();
+                                                        test1.publicInstanceMethod();
+                                                        return calR$U.exPopUp(args);
+                                                        break;
+                                                    }
+                                                };
+                                            }], s2Caller, apisvr.a$.selected_language)
+                                            .editoR(svgR1, step3_rst);
+                                            //
+                                            preparePO();
+                                            //
+                                            srclocked(false);
+                                            //
+                                        }, 's3logedit');
+                                    } else {
+                                        preparePO();
+                                    };
+                                    //
+                                    if (evtType == 'keydown') {
+                                        //e.event.stopPropagation();
+                                        //console.log('e.event.stopPropagation');
+                                    };
+                                    //
+                                }
+                                , onKeyDown: function (e) {
+                                    //
+                                    if ([13,27].indexOf(e.event.keyCode) ==-1) return;
+
+                                    var po = elUI['step3_utils'].editPO;
+
+                                    if (po) {
+                                        //
+                                        if (e.event.keyCode == 13) {//enter key
+                                            //
+                                            e.event.stopPropagation();//da bi bug roi, giu nguyen do
+                                            //
+                                            var atTD = po.atTD;
+                                            e.component.getCellElement(atTD[0], atTD[3]).removeClass('dx-focused');
+                                            //
+                                            if (!po._currentVisible) po.show();
+                                            //
+                                            elUI['step3_utils'].edit_time.focus();
+                                            //
+                                        } else if (e.event.keyCode == 27) {//esc key
+                                            //
+                                            e.event.stopPropagation();//da bi bug roi, giu nguyen do
+                                            //
+                                            if (po._currentVisible) {
+                                                po._$popupContent.find('.btnOK.closeact').trigger('click');
+                                            };
+                                            //
+                                        };
+                                        //
+                                        e.handled = true;
+                                    };
+                                }
+                                , height: 350
+                                //,headerFilter: {
+                                //    visible: true
+                                //}
+                                , columns: [].concat([{
+                                                caption: '#',
+                                                width: 50,
+                                                cellTemplate: function (cellElement, cellInfo) {
+                                                    var pI = elUI['step3_rst_grid'].pageIndex(); if (pI < 0) pI = 0;
+                                                    cellElement.text(pI * elUI['step3_rst_grid'].pageSize() + cellInfo.row.rowIndex + 1)
+                                                },
+                                                hidingPriority: 0
+                                            }
+                                            , {
+                                                headerCellTemplate: function (c) {
+                                                    var srch=$('<div/>');
+                                                    c.parent().addClass('noborder-bottom');
+                                                    c.append(srch);
+
+                                                    srch.dxTextBox({
+                                                        mode: "search",
+                                                        showClearButton: true,
+                                                        //placeholder: DevExpress.localization.message.getDictionary()["dxDataGrid-searchPanelPlaceholder"],
+                                                        //onKeyUp: searchByText,
+                                                        onContentReady: function (e) {
+                                                            //cmds.searchBOX = e.component;
+                                                            e.component.element().find(".dx-icon-clear").click(function () {
+                                                                //if (cmds.searchVAL != '') {
+                                                                //    doSEARCH(e.value);
+                                                                //};
+                                                            });
+                                                        },
+                                                        onValueChanged: function (e) {
+                                                            //if (cmds.searchVAL != e.value) {
+                                                            //    doSEARCH(e.value);
+                                                            //};
+                                                        }
+                                                    });
+
+                                                    //container.closest('td').css('background', 'red');
+                                                },
+                                                columns: [{
+                                                    dataField: "acno", 'caption': "Ma AC", width: 75
+                                                }]
+                                            }
+                                            , {
+                                                headerCellTemplate: function (c) {
+                                                    var srch=$('<div/>');
+                                                    c.parent().addClass('noborder-bottom');
+                                                    c.append(srch);
+
+                                                    srch.dxTextBox({
+                                                        mode: "search",
+                                                        showClearButton: true,
+                                                        //placeholder: DevExpress.localization.message.getDictionary()["dxDataGrid-searchPanelPlaceholder"],
+                                                        //onKeyUp: searchByText,
+                                                        onContentReady: function (e) {
+                                                            //cmds.searchBOX = e.component;
+                                                            e.component.element().find(".dx-icon-clear").click(function () {
+                                                                //if (cmds.searchVAL != '') {
+                                                                //    doSEARCH(e.value);
+                                                                //};
+                                                            });
+                                                        },
+                                                        onValueChanged: function (e) {
+                                                            //if (cmds.searchVAL != e.value) {
+                                                            //    doSEARCH(e.value);
+                                                            //};
+                                                        }
+                                                    });
+
+                                                    //container.closest('td').css('background', 'red');
+                                                },
+                                                columns: [{
+                                                    dataField: "ten", 'caption': "Ten Nhan Vien",
+                                                    width: 200,
+                                                    hidingPriority: 2
+                                                }]
+                                            }
+                                            , {
+                                                headerCellTemplate: function (c) {
+                                                    //c.parent().append($(''));
+                                                    c.parent().append($("<span  style='white-space: pre-wrap;'>Ngay</span><i class='dx-icon-filter col-io-filter' style='float:left'></i>"));
+                                                },
+                                                dataField: "ngay", 'caption': "Ngay", width: 100
+                                            }
+                                            , {
+                                                headerCellTemplate: function (c) {
+                                                    //c.parent().append($(''));
+                                                    c.parent().prepend($("<div class='dx-icon-filter col-io-filter' style='float:none'></div>")).css({'padding-top':'10px'}).addClass('important-veraligntop');
+                                                    //c.html("Weekday").css('margin-top','10px');
+                                                    c.parent().append("<div style='overflow: hidden;text-overflow: ellipsis;'>Weekday</div>");
+                                                },
+                                                dataField: "thu", 'caption': "Weekday", width: 50
+                                                , cssClass: "centerTD"
+                                                , hidingPriority: 1
+                                            }
+                                            , {
+                                                caption: 'Tong TG',
+                                                headerCellTemplate: function (c) {
+                                                    c.parent().prepend($("<div class='dx-icon-filter col-io-filter'style='float:none'>(Gio)</div>")).css({ 'padding-top': '10px' }).addClass('important-veraligntop');
+                                                    //c.html("Tong TG").css('margin-top', '10px');
+                                                    c.parent().append("<div>Tong TG</div>");
+
+                                                    //c.parent().append($('<i class="dx-icon-filter col-io-filter"></i>')).css('width','calc(100% - 20px)');
+                                                    //c.html("<span  style='white-space: pre-wrap'>(Gio)</span>");
+
+                                                },
+                                                dataField: "TongTG", width: 70
+                                            }]
+
+                                            , logCols())
+                                , onContentReady: function (e) {
+                                    //
+                                    var allC = e.component._controllers.columns._columns,
+                                        colM = {}, ma = 0, mi = 1000000, idx = 0;
+
+                                    for (var i = 0; i < allC.length - 1; i++) {
+
+                                        if (!allC[i].isBand) {
+                                            //
+                                            if (allC[i].dataField) {
+
+                                                if (allC[i].dataField.indexOf('fio') == 0 || allC[i].dataField.indexOf('total') == 0) {
+                                                    //
+                                                    colM[idx] = allC[i].dataField;
+                                                    //
+                                                    if (idx > ma) ma = idx;
+                                                    if (idx < mi) mi = idx;
+                                                    //
+                                                };
+                                            };
+                                            //
+                                            idx += 1;
+                                            //
+                                        };
+                                    };
+                                    viewLogs[1] = colM;
+                                    viewLogs[2] = [mi, ma];
+                                    //
+                                    if (gw3Ready && typeof gw3Ready === "function") gw3Ready(e);
+                                    //
+                                }
+                                , onToolbarPreparing: function (e) {
+                                    var dataGrid = e.component;
+                                    e.toolbarOptions.visible = false;
+                                    e.toolbarOptions.items.unshift(
+
+                                            {
+                                                location: 'center',
+                                                locateInMenu: 'never',
+                                                template: function () {
+                                                    return $("<div class='toolbar-label'><b>Tom's Club</b> Products</div>");
+                                                }
+                                            }
+
+
+                                    );
+                                }
+                                , onContextMenuPreparing: function (e) {
+                                       if (e.row && e.row.rowType === "data") {
+                                           e.items = [
+                                                            {
+                                                                text: 'Share',
+                                                                icon: 'dx-icon-globe',
+                                                                template: contextMn,
+                                                                items: [
+                                                                    { text: 'Facebook' },
+                                                                    { text: 'Twitter' }]
+                                                            },
+                                                          { text: 'Download', icon: 'dx-icon-download', template: contextMn },
+                                                          { text: 'Add Comment', icon: 'dx-icon-add', template: contextMn },
+                                                          { text: 'Add to Favorite', icon: 'dx-icon-favorites', template: contextMn },
+
+                                                          {
+                                                              text: "edit", icon: 'dx-icon-download',
+                                                              onItemClick: function () {
+                                                                  e.component.editRow(e.row.rowIndex);
+                                                              },
+                                                              template: contextMn
+                                                          },
+                                                           {
+                                                               text: "insert",
+                                                               onItemClick: function () {
+                                                                   e.component.addRow();
+                                                               }
+                                                           },
+                                                           {
+                                                               text: "delete",
+                                                               onItemClick: function () {
+                                                                   e.component.deleteRow(e.row.rowIndex);
+                                                               }
+                                                           }];
+                                       }
+                                   }
+                                , onExporting: function (e) {
+                                       var workbook = new ExcelJS.Workbook();
+                                       var worksheet = workbook.addWorksheet('Employees');
+
+                                       DevExpress.excelExporter.exportDataGrid({
+                                           component: e.component,
+                                           worksheet: worksheet,
+
+                                           autoFilterEnabled: true,//show filter column excel result
+
+                                           customizeCell: function (options) {
+                                               //
+                                               if (options.gridCell.rowType == 'data') {
+                                                   if (options.gridCell.column.dataField && options.gridCell.column.dataField.indexOf('fio') == 0) {
+                                                       var excelCell = options.excelCell;
+                                                       //excelCell.font = { name: 'Arial', size: 12 };
+                                                       //excelCell.alignment = { horizontal: 'left' };
+
+                                                       excelCell.value = options.gridCell.value;
+                                                       excelCell.alignment = { horizontal: 'center' };
+                                                       excelCell.font = {
+                                                           name: 'Arial Black',
+                                                           color: { argb: 'FF00FF00' },
+                                                           family: 2,
+                                                           size: 14,
+                                                           italic: true
+                                                       }
+
+                                                       excelCell.note = {
+                                                           texts: [
+                                                             { 'font': { 'size': 12, 'color': { 'theme': 1 }, 'name': 'Calibri', 'family': 2, 'scheme': 'minor' }, 'text': 'This is ' },
+                                                             { 'font': { 'italic': true, 'size': 12, 'color': { 'theme': 1 }, 'name': 'Calibri', 'scheme': 'minor' }, 'text': 'a' },
+                                                             { 'font': { 'size': 12, 'color': { 'theme': 1 }, 'name': 'Calibri', 'family': 2, 'scheme': 'minor' }, 'text': ' ' },
+                                                             { 'font': { 'size': 12, 'color': { 'argb': 'FFFF6600' }, 'name': 'Calibri', 'scheme': 'minor' }, 'text': 'colorful' },
+                                                             { 'font': { 'size': 12, 'color': { 'theme': 1 }, 'name': 'Calibri', 'family': 2, 'scheme': 'minor' }, 'text': ' text ' },
+                                                             { 'font': { 'size': 12, 'color': { 'argb': 'FFCCFFCC' }, 'name': 'Calibri', 'scheme': 'minor' }, 'text': 'with' },
+                                                             { 'font': { 'size': 12, 'color': { 'theme': 1 }, 'name': 'Calibri', 'family': 2, 'scheme': 'minor' }, 'text': ' in-cell ' },
+                                                             { 'font': { 'bold': true, 'size': 12, 'color': { 'theme': 1 }, 'name': 'Calibri', 'family': 2, 'scheme': 'minor' }, 'text': 'format' },
+                                                           ],
+                                                           margins: {
+                                                               insetmode: 'custom',
+                                                               inset: [0.25, 0.25, 0.35, 0.35]
+                                                           },
+                                                           protection: {
+                                                               locked: true,
+                                                               lockText: false
+                                                           },
+                                                           editAs: 'twoCells',
+                                                       };
+
+                                                   };
+                                               }
+                                               //
+                                           }
+                                       }).then(function () {
+                                           workbook.xlsx.writeBuffer().then(function (buffer) {
+                                               saveAs(new Blob([buffer], { type: 'application/octet-stream' }), 'Employees.xlsx');
+                                           });
+                                       });
+                                       e.cancel = true;
+                                },
+                            }).dxDataGrid('instance');
+
+
+                            var logs_effect = frmEL.find(".logs-effect"),
+                                med = logs_effect.closest('.media'),
+                                svgR1,
+                                applyR = function (data,isNEW) {
+
+                                    svgR1 = $('<div class="sellog-before"/>').html(data);
+                                    if (!isNEW) {
+                                        var sct = svgR1.find('script'), stxt = sct[0].innerHTML;
+                                        sct.remove();
+                                    };
+                                    //
+                                    med.prepend(svgR1).ready(function (e) {
+                                        //
+                                        calR$U = new freeot_rule1(elUI, [frmEL, elem, xwindow, terW], s2Caller, apisvr.a$.selected_language);
+                                        calR$U.RU(svgR1, logs_effect, step3_rst);
+                                        //
+                                        R$UL.resolve('r');
+                                        //
+                                    });
+                                };
+
+                            //
+                            window.calc_rules = window.calc_rules || {};
+                            //
+                            if (!window.calc_rules.freeot_rule1) {
+                                $.get(srcp$f + '/media/utils/rule1.html' + src$id, function (data) {
+                                    //
+                                    window.calc_rules.freeot_rule1 = data;
+                                    //
+                                    applyR(data,true);
+                                    //
+                                });
+
+                            } else {
+                                applyR(window.calc_rules.freeot_rule1, false);
+                            };
+                            //
+                        } else {
+                            //debugger;
+                            gRST_title(elUI, "<h4>BANG CONG</h4>");
+                            //
+                            elUI['step3_rst_grid'].option({ 'dataSource': aRST ,'paging.pageSize':50});
+                            elUI['step3_rst_grid'].clearSorting();
+                            elUI['step3_rst_grid'].clearSelection();
+                            elUI['step3_rst_grid'].clearFilter();
+                            //
+                            R$UL.resolve('r');
+                            //
+                        };
+
+                        function exportExls() {
+                            var doE = function () {
+                                elUI['step3_rst_grid'].exportToExcel(false);
+                            };
+                            if (GetIEVersion() == 11) {
+                                _gsC('https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.10.1/polyfill.min.js', 'js', function () {
+                                    _gsC('https://cdnjs.cloudflare.com/ajax/libs/exceljs/3.3.1/exceljs.min.js', 'js', function () {
+                                        _gsC('https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.2/FileSaver.min.js', 'js', function () {
+                                            //
+                                            elUI['step3_rst_grid'].exportToExcel(false);
+                                            //
+                                        }, 'FileSaver.min.js');
+                                    }, 'exceljs.min.js');
+                                }, 'polyfill.min.js');
+                            } else {
+                                //<script src="https://cdnjs.cloudflare.com/ajax/libs/exceljs/3.3.1/exceljs.min.js"></script>
+                                //<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.min.js"></script>
+                                _gsC('https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.2/FileSaver.min.js', 'js', function () { }, 'FileSaver.min.js');
+                                //_gsC('https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js', 'js', function () {
+
+                                //}, 'jszip.min.js');
+
+
+                                _gsC('https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.2.1/exceljs.min.js', 'js', function () {
+                                    //
+                                    elUI['step3_rst_grid'].exportToExcel(false);
+                                    //
+                                }, 'exceljs.min.js');
+                            };
+
+                        };
+
+                        var contextMn = function (itemData, itemIndex, itemElement) {
+                            //debugger;
+                            var template = $('<div></div>');
+                            if (itemData.icon) {
+                                template.append('<span class="' + itemData.icon + '"><span>');
+                            }
+                            if (itemData.items) {
+                                template.append('<span class="dx-icon-spinright"><span>');
+                            }
+                            template.append(itemData.text);
+                            return template;
+                        }, celltmp = function (e, i) {
+                            //debugger;
+                            e[0].style.textAlign = 'center';
+                            //e[0].style.background = 'red';
+                            e[0].innerHTML = i.text;
+                            //element.append("<div>" + info.text + "</div>").css({
+                            //    "textAlign": "center",
+                            //    "color": "blue"
+                            //});
+                        }
+                    }
+                    , storeDAT = {
+                        _load: function (dbLOG, a, b, c, d, e, f) {
+                            //
+                            if (elUI.hasUA == 'noU') {
+
+                                var tc4 = elUI.s3dbTB[1]
+                                    , _diag = elUI.s3dbTB[0];
+                                //
+                                lo$DB(function (db) {
+
+                                    if (db.kq == 0) {//create new
+                                        //
+                                        debugger;
+                                        if (a === 1) {//load
+                                            db.cb('cancel');
+                                            //khong tao moi
+                                            dbLOG.resolve();
+                                        } else {
+                                            //
+                                            var D$b = db.e.target.result
+                                            //
+                                            //uncomment if we want to start clean
+                                            if (D$b.objectStoreNames.contains(tc4)) D$b.deleteObjectStore(tc4);
+                                            if (D$b.objectStoreNames.contains(_diag)) D$b.deleteObjectStore(_diag);
+                                            //
+                                            var his = D$b.createObjectStore(_diag, { keyPath: "userid" });
+                                            //his.createIndex("HisIndex", "uptime");
+                                            //
+                                            var tc = D$b.createObjectStore(tc4, { keyPath: "id", autoIncrement: true });
+                                            tc.createIndex("LogIndex", "logid");
+                                            //
+                                        };
+                                        //
+                                    } else if (db.kq == 1) { //ok
+
+                                        var req, ts = db.rst.transaction([_diag], a == 1 ? "readonly" : "readwrite");
+
+                                        if (a == 1) {//load
+                                            var remStore = ts.objectStore(_diag);
+                                            req = remStore.get(-1);
+                                        } else {
+                                            var remStore = ts.objectStore(_diag);
+                                            req = remStore.put({ userid: 1, conf: a });
+                                        }
+
+
+                                        req.onsuccess = function (e) {
+                                            debugger;
+                                            dbLOG.resolve(e);
+                                        };
+
+                                    }
+                                }, 'hellohrm_s3tinhcong')
+                            } else {
+                                var chnel = evtWK.contentWindow.chanelLog;
+                                opts.Args.stepcodeback('___').comm1.loghole(evtWK.contentWindow, chnel[1]
+                                                , '53335f4b49454d434f4e47' //S3_KIEMCONG
+                                                , { logh: '', logkind: 1 });
+                            };
+                        }
+                        ,_save: function (a) {
+                            debugger;
+                            if (elUI.hasUA == 'noU') {
+                                //
+                                var tc4 = elUI.s3dbTB[1], _diag = elUI.s3dbTB[0];
+                                //
+                                lo$DB(function (db) {
+                                    if (db.kq == 0) {//create new
+                                        //
+                                        db.cb('cancel');
+                                        //khong tao moi
+                                        dbLOG.resolve();
+
+                                        var D$b = db.e.target.result;//var Db = e.target.result;
+                                        //
+                                        //uncomment if we want to start clean
+                                        if (D$b.objectStoreNames.contains(tc4)) D$b.deleteObjectStore(tc4);
+                                        if (D$b.objectStoreNames.contains(_diag)) D$b.deleteObjectStore(_diag);
+                                        //
+                                        var his = D$b.createObjectStore(_diag, { keyPath: "userid" });
+                                        //his.createIndex("HisIndex", "uptime");
+                                        //
+                                        var tc = D$b.createObjectStore(tc4, { keyPath: "id", autoIncrement: true });
+                                        tc.createIndex("LogIndex", "logid");
+                                        //
+                                    } else if (db.kq == 1) { //ok
+
+                                        var req, ts = db.rst.transaction([_diag], "readwrite")
+                                            , remStore = ts.objectStore(_diag);
+
+                                        req = remStore.put({ userid: 1, conf: a });
+
+                                        req.onsuccess = function (e) {
+                                            debugger;
+                                        };
+
+                                    }
+                                }, 'hellohrm_s3tinhcong');
+
+                            } else {
+                            };
+                        }
+                        , diagsetting: function (a) {
+                            this._save(a);
+                        }
+                    }
+                    , saveDBx = function (a) {
+                        debugger;
+                        //
+                        var diagsetting = function () {
+                        }
+                        , abc = function () {
+                        }
+                        this[a.act]();
+
+                        alert(d$oc);
+                        if (elUI.hasUA == 'noU') {
+
+                            st('setItem', elUI.s3dbTB[0], window.btoa(JSON.stringify(dat)));//cmVtX2F0dGxvZw== rem_attlog
+
+                            //s3czNkaWFnX2NvbmY=
+                            //var tc4 = elUI.s3dbTB[1], _diag = elUI.s3dbTB[0];
+                            //lo$DB(function (db) {
+                            //    if (db.kq == 0) {//create new
+                            //        //
+                            //        var D$b = db.e.target.result;//var Db = e.target.result;
+                            //        //
+                            //        //uncomment if we want to start clean
+                            //        if (D$b.objectStoreNames.contains(tc4)) D$b.deleteObjectStore(tc4);
+                            //        if (D$b.objectStoreNames.contains(_diag)) D$b.deleteObjectStore(_diag);
+                            //        //
+                            //        var his = D$b.createObjectStore(_diag, { keyPath: "id" });
+                            //        //his.createIndex("HisIndex", "uptime");
+                            //        //
+                            //        var tc = D$b.createObjectStore(tc4, { keyPath: "id", autoIncrement: true });
+                            //        tc.createIndex("LogIndex", "logid");
+                            //        //
+                            //    } else if (db.kq == 1) { //ok
+                            //        //var req, ts = db.rst.transaction([remTB], (evt == 0) ? "readonly" : "readwrite"),
+                            //        //    remStore = ts.objectStore(remTB);
+
+                            //        //if (evt == 1) {//check & load
+
+                            //        //    req = remStore.get(remId);
+
+                            //        //} else if (evt == 2) { //check & save
+                            //        //    req = remStore.put({ id: remId, conf: logCONF(), log: elUI['showinvisibles'].val() });
+                            //        //};
+
+                            //        //req.onsuccess = function (e) {
+                            //        //    if (evt == 2) {
+                            //        //        de$(e.target.result);
+                            //        //    } else {
+                            //        //        if (de$) de$.resolve(e.target.result);
+                            //        //    };
+                            //        //};
+                            //    }
+                            //}, 'hellohrm_s3tinhcong');
+
+                        } else {
+                        }
+                        elUI['step3_utils'].editPO.fuckMN.fuckSZ.hide();
+                        srclocked(false);
+                        //
+                    }
+                    //
+                    , initCALc = function () {
+                        //
+                        var test_prototype = frmEL.find('#test_prototype');
+                        test_prototype.empty();
+                        //
+                        test_prototype.off('click').on('click', function () {
+                            xwindow[0].scrollTop = 0;
+                            //https://unicode-table.com/en/#miscellaneous-symbols
+                            terW.html('<span data-ty="input" data-ty-prompt="⚡ [12:00]"> 1. Quy uoc gom log the gan nhau thanh 1</span>' +
+                                '<span data-ty="input" data-ty-prompt="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>"> Cac Log gat the cach nhau nho hon hoac bang 0 ->1 minutes</span>' +
+                                '<span data-ty="input" data-ty-prompt="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>"> Log duoc chon de tinh cong Log-1 -> Log-2/span>');
+
+                            elUI.cmdS3_scroPerf.update();
+
+                            xwindow[0].scrollTop = xwindow[0].scrollHeight;
+                            //
+                            xwindow.next().addClass('d-flex');//nut tinh lai
+                            //
+                        });
+                        //
+                        //
+                        if (!evtWK) {
+                            //
+                            // khoi tao lai 
+                            elUI['step3_utils'] = {
+                                calcRule: [1, 5, 'before'] //1: select rule, 5: 5 phut gan nhau se gom the, before select log before/after before: lay the truoc,
+                            };
+                            //
+                            calcSession = new Date().getTime();
+                            //
+                            var ifrmLOAD = $.Deferred(), calcReady = $.Deferred()
+                            , s3DAT = function () {
+                                if (elUI.hasUA == 'noU') {
+                                    //
+                                    //ifrmLOAD.resolve('ifrmLOAD'); resolve at lo$DB
+                                    storeDAT._load(ifrmLOAD, 1);
+                                    //
+                                } else {
+                                    evtWK.contentWindow.cbHwnd = function (e) {
+                                        evtWK.contentWindow.cbHwnd = null;
+                                        ifrmLOAD.resolve('ifrmLOAD');
+                                        //
+                                    };
+                                    var alog = opts.Args.stepcodeback('alog');
+                                    opts.Args.stepcodeback('___').comm1.loghole(evtWK.contentWindow
+                                        , alog
+                                        , '53335f4b49454d434f4e47' //S3_KIEMCONG
+                                        , {
+                                            logh: '', logkind: 1, ori: window.location.origin + ';*'// window.location.protocol + "//" + alog.addr//btoa(JSON.stringify(['<script type="text/javascript" seson=' + btoa(calcSession + '|' + window.location.origin) + ' src="' + srcpf$ + '/media/js/attcalc.js' + src$id + '"></script>'
+                                            //, '<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.6/dayjs.min.js"></script>']))
+                                        });
+                                };
+                            };
+                            //
+                            //
+                            $.when(ifrmLOAD, calcReady).then(function (ifm, calc) {
+
+                                runCALC();
+                            });
+                            //
+                            apisvr.a$.sessions[calcSession] = {
+                                id: calcSession,
+                                fn: function (a, b, c) {
+                                    if (a == 'job') {
+                                        if (b.evtData.messageType == 0) {//calc ready !
+                                            calcReady.resolve('calc');
+                                        };
+                                    };
+                                }
+                            };
+                            //
+                            //
+                            evtWK = document.createElement('iframe');
+                            evtWK.setAttribute("style", "height:1px;width:1px;border:none;opacity:0");
+                            //
+                            evtWK.onload = function (ifm) {
+                                //
+                                setTimeout(s3DAT, 1);//di load data
+                                //
+                                var iDoc = evtWK.contentWindow.document
+                                    , attcalc = iDoc.createElement('script');
+                                //
+                                if (GetIEVersion() == 11) {//phai cho no load truoc.
+                                    var poly = iDoc.createElement('script');
+                                    poly.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.10.1/polyfill.min.js');
+                                    iDoc.head.appendChild(poly);
+                                };
+                                //
+                                attcalc.setAttribute('seson', btoa(calcSession + '|' + window.location.origin));
+                                attcalc.setAttribute('src', srcpf$ + '/media/js/attcalc.js' + src$id);//'https://hrm.dnd.vn'
+                                iDoc.head.appendChild(attcalc);
+                                //
+                            };
+                            // div tag in which iframe will be added should have id attribute with value myDIV
+                            step3_rst[0].appendChild(evtWK);
+                            //
+                        } else {
+                            calcTerminate = false;
+                            tinhlaiSetting().then(function (rst) {
+                                runCALC();
+                            });
+                        };
+                        //
+                    }()
+                };
+            }
+            O.prototype.publicSharedVar = 'quux';
+            O.prototype.publicSharedMethod = function (param) {
+                // has access to shared and public vars
+                // canonical way for method creation:
+                // try to use this as much as possible
+            };
+
+            return O;
+        })()
+    };
+
+
+    return {
+        createCalc: function (o) {
+            return new $that[o.kind](o);
+        }
+    };
+});
