@@ -1,1 +1,267 @@
-﻿var _0x489b=["\x4A\x53\x5F\x4A\x53\x5F\x70\x61\x79\x72\x6F\x6C\x6C\x6F\x6E\x6C\x69\x6E\x65","\x75\x73\x65\x20\x73\x74\x72\x69\x63\x74","\x75\x61","\x55\x41","\x6E\x6F\x55","\x73\x32\x5F","\x67\x65\x74\x54\x69\x6D\x65","\x6C\x6F\x67\x68\x69\x73","\x74\x63\x33","\x73\x33\x63\x7A\x4E\x6B\x61\x57\x46\x6E\x58\x32\x4E\x76\x62\x6D\x59\x3D","\x74\x63\x34","\x6C\x6F\x63\x6B\x65\x64","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x74\x69\x2D\x6C\x6F\x63\x6B\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x63\x6F\x6C\x6F\x72\x3A\x72\x65\x64\x22\x3E\x3C\x2F\x69\x3E","\x68\x74\x6D\x6C","\x2E\x73\x74\x65\x70\x4E\x75\x6D\x62\x65\x72","\x66\x69\x6E\x64","\x72\x65\x6C","\x61\x74\x74\x72","\x69\x6E\x69\x74","\x23\x69\x6E\x69\x74\x5F\x64\x61\x74\x61","\x74\x65\x78\x74","\x70\x61\x72\x73\x65","\x70\x72\x65\x23\x74\x65\x6D\x70\x6C\x61\x74\x65","\x70\x72\x65\x23\x6C\x61\x6E\x67","\x5F\x5F\x5F","\x6C\x61\x6E\x67","\x6C\x61\x6E","\x61\x74\x74\x4C\x4F\x47","\x61\x6C\x6F\x67","\x74\x61\x6F\x6D\x6F\x69","\x72\x65\x6D\x6F\x76\x65","\x65\x78\x74\x65\x6E\x64","\x2F\x6D\x65\x64\x69\x61\x2F\x6A\x73\x2F\x66\x6F\x72\x6D\x2D\x77\x69\x7A\x61\x72\x64\x2E\x6A\x73","\x6A\x73","\x64\x65\x6D\x6F","\x61\x6C\x6C","\x73","\x66\x72\x6F\x6D\x53\x74\x65\x70","\x74\x6F\x53\x74\x65\x70","\x6F\x6E\x53\x68\x6F\x77\x53\x74\x65\x70","\x74\x72\x69\x67\x67\x65\x72","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x2E\x73\x74\x65\x70\x5F\x66\x6F\x63\x75\x73\x65\x64","\x2E\x20","\x2E\x73\x74\x65\x70\x44\x65\x73\x63","\x74\x72\x69\x6D","\x61\x24","\x6E\x65\x65\x64\x75\x70\x74\x5F\x70\x6F\x70\x6F\x76\x65\x72","\x73\x68\x6F\x77\x69\x6E\x76\x69\x73\x69\x62\x6C\x65\x73","\x6C\x6F\x67\x5F\x66\x72\x6F\x6D\x74\x6F\x5F\x70\x6F\x70\x6F\x76\x65\x72","\x74\x69\x6B\x65\x73\x74\x65\x70\x5F\x70\x61\x79\x72\x6F\x6C\x6C\x6F\x6E\x6C\x69\x6E\x65\x2E\x6A\x73","\x69\x73\x53\x74\x65\x70\x31","\x34","\x2F\x6D\x65\x64\x69\x61\x2F\x6A\x73\x2F\x74\x69\x6B\x65\x73\x74\x65\x70\x5F\x73\x34\x2E\x6A\x73\x3F","\x73\x34\x65\x6E\x64","\x65\x78\x63\x65\x6C\x68\x6F\x73\x74","\x63\x72\x65\x61\x74\x65\x43\x61\x6C\x63","\x72\x65\x6E\x64\x65\x72\x55\x49","\x2F\x6D\x65\x64\x69\x61\x2F\x6A\x73\x2F\x74\x69\x6B\x65\x73\x74\x65\x70\x5F\x70\x61\x79\x72\x6F\x6C\x6C\x6F\x6E\x6C\x69\x6E\x65\x2E\x6A\x73\x3F","\x64\x6F\x53\x74\x65\x70","\x69\x73\x54\x69\x43\x6F","\x73\x74\x65\x70\x48\x69\x73","\x2F\x6D\x65\x64\x69\x61\x2F\x6A\x73\x2F\x74\x69\x6B\x65\x73\x74\x65\x70\x5F\x73\x31\x2E\x6A\x73\x3F","\x73\x31\x53\x68\x69\x66\x74","\x74\x69\x6B\x65\x73\x74\x65\x70\x5F\x73\x31\x2E\x6A\x73","\x64\x69\x73\x70\x6C\x61\x79","","\x63\x73\x73","\x2E\x77\x72\x61\x70\x2D\x63\x6F\x6E\x74\x65\x6E\x74\x2E\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72","\x66\x6F\x72\x6D\x2D\x77\x69\x7A\x61\x72\x64\x2E\x6A\x73","\x64\x61\x74\x61\x2D\x6C\x61\x6E\x67","\x67\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x65\x61\x63\x68","\x5B\x64\x61\x74\x61\x2D\x6C\x61\x6E\x67\x5D","\x63\x61\x6C\x63\x75\x6C\x61\x74\x65\x41\x67\x65","\x70\x72\x6F\x74\x6F\x74\x79\x70\x65","\x54\x68\x65\x20\x63\x75\x72\x72\x65\x6E\x74\x20\x61\x67\x65\x20\x69\x73\x3A\x20","\x6C\x6F\x67","\x66\x75\x63\x6B\x69\x6E\x67","\x70\x75\x62\x6C\x69\x63\x53\x68\x61\x72\x65\x64\x4D\x65\x74\x68\x6F\x64","\x63\x61\x6C\x6C","\x63\x6F\x6E\x20\x63\x61\x74","\x70\x75\x62\x6C\x69\x63\x53\x68\x61\x72\x65\x64\x56\x61\x72","\x6E\x61\x74\x69\x6F\x6E\x61\x6C\x69\x74\x79","\x64\x75\x20\x6D\x65\x20\x6D\x61\x79","\x63\x61\x69\x20\x6C\x6F\x6E","\x63\x6C\x69\x63\x6B","\x23\x73\x74\x65\x70\x2D\x31\x20\x2E\x73\x68\x6F\x77\x2D\x68\x65\x6C\x70\x2D\x63\x6F\x6E\x74\x65\x78\x74","\x6C\x65\x6E\x67\x74\x68","\x2E\x70\x6F\x70\x6F\x76\x65\x72","\x63\x6C\x6F\x73\x65\x73\x74","\x74\x61\x72\x67\x65\x74","\x73\x65\x6C\x45\x4D\x50\x5F\x70\x6F\x70\x6F\x76\x65\x72","\x68\x69\x64\x65","\x70\x6F\x70\x6F\x76\x65\x72","\x6F\x6E","\x64\x69\x73\x70\x6F\x73\x65","\x72\x65\x6C\x65\x61\x73\x65\x45\x76\x74\x73","\x63\x6F\x6E\x74\x65\x6E\x74\x57\x69\x6E\x64\x6F\x77","\x69\x66\x72\x61\x6D\x65","\x23\x74\x61\x62\x42\x4F\x44\x59\x5F","\x64\x72\x6F\x70\x64\x6F\x77\x6E","\x2E\x64\x72\x6F\x70\x64\x6F\x77\x6E\x2D\x74\x6F\x67\x67\x6C\x65","\x68\x61\x73\x4F\x77\x6E\x50\x72\x6F\x70\x65\x72\x74\x79","\x5F\x70\x6F\x70\x6F\x76\x65\x72","\x69\x6E\x64\x65\x78\x4F\x66","\x5F\x73\x63\x72\x6F\x50\x65\x72\x66","\x64\x65\x73\x74\x72\x6F\x79","\x73\x6C\x69\x64\x65\x72\x62\x61\x72","\x67\x6C\x6F\x62\x48\x57\x4E","\x73\x69\x64\x65\x62\x61\x72","\x6F\x66\x66","\x23\x61\x70\x70","\x72\x65\x73\x69\x7A\x65","\x74\x68\x65\x6D\x65","\x73\x74\x65\x70\x33\x5F\x75\x74\x69\x6C\x73","\x65\x64\x69\x74\x50\x4F","\x66\x75\x63\x6B\x4D\x4E","\x66\x75\x63\x6B\x53\x5A","\x66\x6C\x6F\x61\x74\x44\x49\x41\x47","\x70\x75\x62\x6C\x69\x63\x49\x6E\x73\x74\x61\x6E\x63\x65\x56\x61\x72","\x62\x61\x7A","\x70\x75\x62\x6C\x69\x63\x49\x6E\x73\x74\x61\x6E\x63\x65\x4D\x65\x74\x68\x6F\x64","\x71\x75\x75\x78","\x6D\x6F\x64","\x63\x6F\x6D\x6D\x31","\x4A\x53\x5F\x70\x61\x79\x72\x6F\x6C\x6C\x6F\x6E\x6C\x69\x6E\x65","\x65\x78\x53","\x69\x64","\x67\x72\x65\x70","\x66","\x20\x2D\x20","\x74","\x69","\x70\x6F\x70\x75\x70","\x3C\x64\x69\x76\x3E\x3C\x74\x65\x78\x74\x61\x72\x65\x61\x20\x63\x6C\x61\x73\x73\x3D\x22\x72\x61\x77\x6A\x73\x6F\x6E\x73\x68\x69\x66\x74\x20\x66\x6F\x72\x6D\x2D\x63\x6F\x6E\x74\x72\x6F\x6C\x20\x74\x65\x78\x74\x2D\x73\x6D\x61\x6C\x6C\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x72\x65\x73\x69\x7A\x65\x3A\x6E\x6F\x6E\x65\x3B\x68\x65\x69\x67\x68\x74\x3A\x31\x35\x30\x70\x78\x22\x3E\x3C\x2F\x74\x65\x78\x74\x61\x72\x65\x61\x3E\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x74\x6E\x20\x62\x74\x6E\x2D\x73\x75\x63\x63\x65\x73\x73\x20\x6D\x2D\x32\x22\x3E\x45\x6E\x63\x6F\x64\x65\x20\x42\x61\x73\x65\x36\x34\x3C\x2F\x64\x69\x76\x3E\x3C\x74\x65\x78\x74\x61\x72\x65\x61\x20\x63\x6C\x61\x73\x73\x3D\x22\x64\x61\x74\x6A\x73\x6F\x6E\x73\x68\x69\x66\x74\x20\x66\x6F\x72\x6D\x2D\x63\x6F\x6E\x74\x72\x6F\x6C\x20\x74\x65\x78\x74\x2D\x73\x6D\x61\x6C\x6C\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x72\x65\x73\x69\x7A\x65\x3A\x6E\x6F\x6E\x65\x3B\x68\x65\x69\x67\x68\x74\x3A\x31\x35\x30\x70\x78\x22\x3E\x3C\x2F\x74\x65\x78\x74\x61\x72\x65\x61\x3E\x3C\x2F\x64\x69\x76\x3E","\x23\x70\x6F\x70\x75\x70\x64\x6F\x6E\x65","\x61\x70\x70\x65\x6E\x64","\x2E\x6D\x6F\x64\x61\x6C\x2D\x62\x6F\x64\x79","\x73\x31","\x73\x32","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x76\x61\x6C","\x2E\x72\x61\x77\x6A\x73\x6F\x6E\x73\x68\x69\x66\x74","\x73\x68\x6F\x77","\x6D\x6F\x64\x61\x6C","\x73\x66","\x68\x72\x65\x66","\x6C\x6F\x63\x61\x74\x69\x6F\x6E"];tabglobalJS[_0x489b[0]]= function(){_0x489b[1];function _0xbde1x1(_0xbde1x1){var _0xbde1x2,_0xbde1x3={hasUA:_0xbde1x1[_0x489b[2]]> 1?_0x489b[3]:_0x489b[4],ReadyEMP:null,s2_session:_0x489b[5]+ ( new Date)[_0x489b[6]](),stepHis:{isTiCo:1,remLOG:0},dbTBname:[_0x489b[7],_0x489b[8]],s3dbTB:[_0x489b[9],_0x489b[10]],trapHwnd:null,logDAT:{},lockstep:function(_0xbde1x1,_0xbde1x2){frmWizHwnd[_0x489b[11]](_0xbde1x2),_0xbde1x2?_0xbde1x1[_0x489b[15]](_0x489b[14])[_0x489b[13]](_0x489b[12]):_0xbde1x1[_0x489b[15]](_0x489b[14])[_0x489b[13]](_0xbde1x1[_0x489b[17]](_0x489b[16]))},globHWN:{sliderbar:null}};this[_0x489b[18]]= function(_0xbde1x4,_0xbde1x5,_0xbde1x6,_0xbde1x7){_0xbde1x2= _0xbde1x6;var _0xbde1x8=this,_0xbde1x9=_0xbde1x4[_0x489b[15]](_0x489b[19]),_0xbde1xa=JSON[_0x489b[21]](_0xbde1x9[_0x489b[20]]()),_0xbde1xb=_0xbde1x4[_0x489b[15]](_0x489b[22]),_0xbde1xc=_0xbde1x4[_0x489b[15]](_0x489b[23]),_0xbde1xd=function(_0xbde1x1){switch(_0xbde1x1){case _0x489b[24]:return _0xbde1x8;case _0x489b[26]:return _0xbde1xa[_0x489b[25]];case _0x489b[28]:return _0xbde1xa[_0x489b[27]]}};_0xbde1xa[_0x489b[29]]= _0xbde1xb[_0x489b[20]](),_0xbde1xb[_0x489b[30]](),_0xbde1x9[_0x489b[30]](),_0xbde1xa[_0x489b[25]]= $[_0x489b[31]](JSON[_0x489b[21]](_0xbde1xc[_0x489b[20]]()),aLAN),_0xbde1xc[_0x489b[30]](),_gsC(srcpf$+ _0x489b[32],_0x489b[33],function(){var _0xbde1x2=null,_0xbde1x8=1;_0xbde1x7&& ((_0xbde1x2= JSON[_0x489b[21]](atob(_0xbde1x7[_0x489b[34]])))[_0x489b[34]]|| (_0xbde1x2[_0x489b[34]]= _0x489b[35]),_0xbde1x2[_0x489b[36]]&& (_0xbde1x8= _0xbde1x2[_0x489b[36]])),frmWizHwnd=  new FormWizard(_0xbde1x4),frmWizHwnd[_0x489b[18]]({iniStep:_0xbde1x8,onShowStep:function(_0xbde1x7,_0xbde1x8,_0xbde1x9){3!= _0xbde1x8[_0x489b[37]]&& 3!= _0xbde1x8[_0x489b[38]]|| _0xbde1x4[_0x489b[40]](_0x489b[39],[_0xbde1x7,_0xbde1x8,_0xbde1x9]),_0xbde1x4[_0x489b[15]](_0x489b[42])[0][_0x489b[41]]= apisvr[_0x489b[46]][_0x489b[45]](_0xbde1x7[_0x489b[17]](_0x489b[16])+ _0x489b[43]+ _0xbde1x7[_0x489b[15]](_0x489b[44])[_0x489b[20]]());var _0xbde1xb=[_0x489b[47],_0x489b[48],_0x489b[49],_0x489b[50]];1!= _0xbde1x8[_0x489b[38]]|| _0xbde1x3[_0x489b[51]]?_0x489b[52]== _0xbde1x8[_0x489b[38]].toString()?_gsC(srcpf$+ _0x489b[53]+ ( new Date)[_0x489b[6]](),_0x489b[33],function(){_0xbde1x3[_0x489b[54]]|| (_0xbde1x3[_0x489b[54]]= FormWizard[_0x489b[54]][_0x489b[56]]({kind:_0x489b[55],opts:{}}),_0xbde1x3[_0x489b[54]][_0x489b[57]](_0xbde1x3,_0xbde1x4,function(){}))}):_gsC(srcpf$+ _0x489b[58]+ ( new Date)[_0x489b[6]](),_0x489b[33],function(){_0xbde1x3[_0xbde1xb[3]]|| (_0xbde1x3[_0xbde1xb[3]]=  new tikestep(_0xbde1x4,_0xbde1xd,_0xbde1x3),_0xbde1x5&& _0xbde1x5()),_0xbde1x3[_0xbde1xb[3]][_0x489b[59]](_0xbde1x7,_0xbde1x8,_0xbde1x9,_0xbde1xb)},_0x489b[50]):(_0xbde1x3[_0x489b[51]]=  !0,_0xbde1x3[_0x489b[61]][_0x489b[60]]=  !0,_gsC(srcpf$+ _0x489b[62]+ ( new Date)[_0x489b[6]](),_0x489b[33],function(){FormWizard[_0x489b[63]][_0x489b[18]](_0xbde1x1,_0xbde1x4,_0xbde1xd,_0xbde1x6,_0xbde1x2,_0xbde1x3,_0xbde1xa),_0xbde1x5&& _0xbde1x5()},_0x489b[64]))}}),_0xbde1x4[_0x489b[15]](_0x489b[68])[_0x489b[67]](_0x489b[65],_0x489b[66])},_0x489b[69]),_0xbde1x4[_0x489b[15]](_0x489b[73])[_0x489b[72]](function(_0xbde1x1,_0xbde1x2){var _0xbde1x3=_0xbde1x2[_0x489b[71]](_0x489b[70]);$(_0xbde1x2)[_0x489b[13]](_0xbde1xa[_0x489b[25]][_0xbde1x3])}),_0xbde1x4[_0x489b[15]](_0x489b[87])[_0x489b[86]](function(){apisvr[_0x489b[46]][st0(3)][_0x489b[75]][_0x489b[74]]= function(){console[_0x489b[77]](_0x489b[76])};var _0xbde1x1= new (apisvr[_0x489b[46]][st0(3)])({adu:_0x489b[78]});_0xbde1x1[_0x489b[79]]= function(_0xbde1x1){apisvr[_0x489b[46]][st0(3)][_0x489b[75]][_0x489b[79]][_0x489b[80]](this,_0xbde1x1)},_0xbde1x1[_0x489b[79]](_0x489b[81]),_0xbde1x1[_0x489b[82]]= _0x489b[81],_0xbde1x1[_0x489b[83]]= function(){};var _0xbde1x2= new (apisvr[_0x489b[46]][st0(3)])({adu:_0x489b[84]});_0xbde1x2[_0x489b[79]](_0x489b[85]),_0xbde1x2[_0x489b[82]]= _0x489b[85],console[_0x489b[77]](_0xbde1x1[_0x489b[83]]()),console[_0x489b[77]](_0xbde1x1[_0x489b[74]]()),console[_0x489b[77]](_0xbde1x2[_0x489b[74]]())}),_0xbde1x4[_0x489b[95]](_0x489b[86],function(_0xbde1x1){0=== $(_0xbde1x1[_0x489b[91]])[_0x489b[90]](_0x489b[89])[_0x489b[88]]&& (_0xbde1x3[_0x489b[92]]&& _0xbde1x3[_0x489b[92]][_0x489b[94]](_0x489b[93]),_0xbde1x3[_0x489b[49]]&& _0xbde1x3[_0x489b[49]][_0x489b[94]](_0x489b[93]))})},this[_0x489b[96]]= function(){for(var _0xbde1x1 in frmWizHwnd= null,$(_0x489b[100]+ _0xbde1x2)[_0x489b[15]](_0x489b[99])[_0x489b[72]](function(_0xbde1x1,_0xbde1x2){try{_0xbde1x2[_0x489b[98]][_0x489b[97]]&& _0xbde1x2[_0x489b[98]][_0x489b[97]]()}catch(_0xbde1x1){}}),$(_0x489b[100]+ _0xbde1x2)[_0x489b[15]](_0x489b[102])[_0x489b[101]](_0x489b[96]),_0xbde1x3){_0xbde1x3[_0x489b[103]](_0xbde1x1)&& _0xbde1x1[_0x489b[105]](_0x489b[104])> 0?_0xbde1x3[_0xbde1x1][_0x489b[94]](_0x489b[96]):_0xbde1x3[_0x489b[103]](_0xbde1x1)&& _0xbde1x1[_0x489b[105]](_0x489b[106])> 0&& _0xbde1x3[_0xbde1x1][_0x489b[107]]()};if(_0xbde1x3[_0x489b[109]][_0x489b[108]]&& (app_container[_0x489b[90]](_0x489b[112])[_0x489b[111]](_0x489b[110],_0xbde1x3[_0x489b[109]][_0x489b[108]]),$(window)[_0x489b[111]](_0x489b[113],_0xbde1x3[_0x489b[109]][_0x489b[114]])),_0xbde1x3[_0x489b[109]][_0x489b[114]]&& (app_container[_0x489b[90]](_0x489b[112])[_0x489b[111]](_0x489b[114],_0xbde1x3[_0x489b[109]][_0x489b[114]]),$(window)[_0x489b[111]](_0x489b[113],_0xbde1x3[_0x489b[109]][_0x489b[114]])),_0xbde1x3[_0x489b[115]]){var _0xbde1x4=_0xbde1x3[_0x489b[115]][_0x489b[116]];_0xbde1x4&& (_0xbde1x4[_0x489b[117]]&& (_0xbde1x4[_0x489b[117]][_0x489b[118]]&& _0xbde1x4[_0x489b[117]][_0x489b[118]][_0x489b[96]](),_0xbde1x4[_0x489b[117]][_0x489b[96]]()),_0xbde1x4[_0x489b[96]]()),_0xbde1x3[_0x489b[119]]&& _0xbde1x3[_0x489b[119]][_0x489b[96]]()}};!function(){function _0xbde1x1(_0xbde1x1){_0xbde1x1;this[_0x489b[120]]= _0x489b[121],this[_0x489b[122]]= function(){}}_0xbde1x1[_0x489b[75]][_0x489b[82]]= _0x489b[123],_0xbde1x1[_0x489b[75]][_0x489b[79]]= function(_0xbde1x1){}}();this[_0x489b[124]]= function(_0xbde1x1){alert(_0xbde1x1)}}return _0xbde1x1[_0x489b[75]][_0x489b[125]]= {exS:function(_0xbde1x1){},uplog:_0x489b[13]},_0xbde1x1}(),tabglobalJS[_0x489b[126]]= function(){_0x489b[1];var _0xbde1x1;return {init:function(_0xbde1x2,_0xbde1x3,_0xbde1x4,_0xbde1x5){_0xbde1x1=  new tabglobalJS.JS_JS_payrollonline({ua:0});var _0xbde1x6,_0xbde1x7=0;if(_0xbde1x1[_0x489b[125]][_0x489b[127]]= function(_0xbde1x1,_0xbde1x2){if(_0xbde1x7++,clearTimeout(_0xbde1x6),_0xbde1x6= setTimeout(function(){_0xbde1x7= 0},500),10== _0xbde1x7){var _0xbde1x3=_0xbde1x2(),_0xbde1x4=$[_0x489b[129]](_0xbde1x3,function(_0xbde1x2,_0xbde1x3){return _0xbde1x2[_0x489b[128]]== _0xbde1x1});_0xbde1x4&& setTimeout(function(){var _0xbde1x1=admin$[_0x489b[134]]({a:_0x489b[130],t:_0xbde1x4[0][_0x489b[128]]+ _0x489b[131]+ _0xbde1x4[0][_0x489b[133]][2][_0x489b[132]]}),_0xbde1x2=$(_0x489b[135]);_0xbde1x1[_0x489b[15]](_0x489b[136])[_0x489b[30]](),_0xbde1x1[_0x489b[15]](_0x489b[138])[_0x489b[137]](_0xbde1x2),_0xbde1x2[_0x489b[15]](_0x489b[143])[_0x489b[142]](JSON[_0x489b[141]]({i:_0xbde1x4[0][_0x489b[133]],id:_0xbde1x4[0][_0x489b[128]],s1:_0xbde1x4[0][_0x489b[139]],s2:_0xbde1x4[0][_0x489b[140]]})),_0xbde1x1[_0x489b[145]](_0x489b[144])},1)}},!_0xbde1x5){var _0xbde1x8=gQRY(window[_0x489b[148]][_0x489b[147]])[_0x489b[146]];_0xbde1x8&& (_0xbde1x5= {demo:_0xbde1x8})};_0xbde1x1[_0x489b[18]](_0xbde1x2,_0xbde1x3,_0xbde1x4,_0xbde1x5)},mod:function(){_0xbde1x1[_0x489b[124]]()},dispose:function(){_0xbde1x1[_0x489b[96]]()}}}()
+﻿    tabglobalJS['JS_JS_payrollonline'] = (function () { // scoping
+        "use strict";
+        function O(opts) { // constructor
+            //
+            var _tabId, elUI = {
+                hasUA: opts.ua > 1 ? 'UA' : 'noU',
+                ReadyEMP: null, s2_session: 's2_' + new Date().getTime(),
+                'stepHis': { isTiCo:1,remLOG: 0 },
+                dbTBname: ['loghis', 'tc3'],
+                s3dbTB: ['s3czNkaWFnX2NvbmY=', 'tc4'],//bo chu s3 ra se bang 's3diag_conf'
+                trapHwnd: null,
+                logDAT: {},
+                lockstep:function(a,val) {
+                    //
+                    frmWizHwnd.locked(val);
+                    //
+                    if (val) {
+                        a.find('.stepNumber').html('<i class="ti-lock" style="color:red"></i>');
+                    } else {
+                        a.find('.stepNumber').html(a.attr('rel'));
+                    };
+                }
+                , globHWN: {
+                    sliderbar:null
+                }
+            };
+            //
+            this.init = function (frmEL, cb, tabId, clickArgs) {
+                _tabId = tabId;
+                //
+                var ___ = this, init_dataDIV = frmEL.find('#init_data'), init_data = JSON.parse(init_dataDIV.text()),
+                pretemplate = frmEL.find('pre#template'), preLang = frmEL.find('pre#lang'),
+                stepcodeback = function (p) {
+                    switch (p) {
+                        case '___': return ___; break;
+                        case 'lan': return init_data['lang']; break;
+                        case 'alog': return init_data['attLOG']; break;
+                    };
+                };
+
+                init_data['taomoi'] = pretemplate.text(); pretemplate.remove();
+                init_dataDIV.remove();
+                //
+                init_data['lang'] = $.extend(JSON.parse(preLang.text()), aLAN); preLang.remove();
+                //
+                _gsC(srcpf$ + '/media/js/form-wizard.js', 'js', function () {
+                    //
+                    //
+                    var _cArgs = null, _iniStep = 1;
+                    if (clickArgs) {//uu tien clickAgrs
+                        _cArgs =JSON.parse(atob(clickArgs.demo));
+                        if (!_cArgs.demo) _cArgs.demo = "all";
+                        if (_cArgs.s) _iniStep = _cArgs.s;
+                    };
+                    //
+                    frmWizHwnd = new FormWizard(frmEL);
+                    frmWizHwnd.init({
+                        iniStep: _iniStep,
+                        onShowStep: function (a, b, clickStepCircle) {
+                            //
+                            if (b.fromStep==3|| b.toStep==3) frmEL.trigger('onShowStep', [a, b, clickStepCircle]);//trigger qua media/utils/jsc/s3logedit.js
+                            //
+                            frmEL.find('.step_focused')[0].innerHTML = apisvr.a$.trim(a.attr('rel') + '. ' + a.find('.stepDesc').text());
+                            //
+                            var _$n = ['needupt_popover', 'showinvisibles', 'log_fromto_popover', 'tikestep_payrollonline.js'];
+                            //
+                            if (b.toStep == 1 && !elUI.isStep1) {
+                                //
+                                elUI.isStep1 = true;
+                                elUI.stepHis.isTiCo = true;
+                                //
+                                _gsC(srcpf$ + '/media/js/tikestep_s1.js' + '?' + new Date().getTime(), 'js', function () {
+                                    //
+                                    FormWizard.s1Shift.init(opts, frmEL, stepcodeback, tabId, _cArgs, elUI, init_data);
+                                    if (cb) cb();
+                                    //
+                                }, 'tikestep_s1.js');
+                                //
+                            }else if (b.toStep.toString() == '4') {
+                                //$('#wizard').smartWizard("goForward");
+                                //var wting = helloguy.clone(), viewTO, previewatt = $('#previewatt'), viewReload = function () {
+                                //    clearTimeout(viewTO); wting.css('display', '');
+                                //    previewatt.parent().append(wting);
+                                //    previewatt.css('opacity', 0);
+
+                                //    previewatt.one("load", function () {
+                                //        clearTimeout(viewTO);
+                                //        wting.remove();
+                                //        previewatt.css('opacity', 1);
+                                //    }).attr('src', 'https://docs.google.com/gview?url=' + FormWizard.prefixF.host + '/05featuredemo' + FormWizard.prefixF.prefixfile + '.xlsx?' + new Date().getTime() + '&embedded=true');
+                                //    viewTO = setTimeout(viewReload, 10000);
+                                //}
+                                //viewReload();
+                                //
+                                //
+
+                                _gsC(srcpf$ + '/media/js/tikestep_s4.js' + '?' + new Date().getTime(), 'js', function () {
+                                    if (!elUI['s4end']) {
+
+                                        elUI['s4end'] = FormWizard.s4end.createCalc({ kind: 'excelhost', opts: {} });
+                                        elUI['s4end'].renderUI(elUI, frmEL, function () {
+
+                                        });
+                                    } else {
+
+                                    };
+                                });
+                                //
+                                //
+                            }else{
+                                _gsC(srcpf$ + '/media/js/tikestep_payrollonline.js' + '?' + new Date().getTime(), 'js', function () {
+
+                                    if (!elUI[_$n[3]]) {
+
+                                        elUI[_$n[3]] = new tikestep(frmEL, stepcodeback, elUI);
+
+                                        if (cb) cb();
+
+                                    };
+                                    //debugger;
+                                    elUI[_$n[3]].doStep(a, b, clickStepCircle, _$n);
+                                    //
+                                }, 'tikestep_payrollonline.js');
+                            };
+
+                        }
+                    });
+                    //
+                    frmEL.find('.wrap-content.container').css('display', '');
+                    //
+                }, 'form-wizard.js');
+
+                //
+                frmEL.find('[data-lang]').each(function (idx, el) {
+                    //debugger;
+                    var key = el.getAttribute('data-lang');
+                    $(el).html(init_data['lang'][key]);
+                });
+
+                //frmEL.find('[data-toggle="popover"]').popover();
+
+                frmEL.find('#step-1 .show-help-context').click(function () {
+                    //
+                    apisvr.a$[st0(3)].prototype.calculateAge = function () {
+                        console.log('The current age is: ');
+                    }
+
+                    var dog = new apisvr.a$[st0(3)]({ 'adu': 'fucking' });
+                    dog.publicSharedMethod = function (para) {
+                        apisvr.a$[st0(3)].prototype.publicSharedMethod.call(this, para);
+                    };
+
+                    dog.publicSharedMethod('con cat');
+                    dog.publicSharedVar = 'con cat';
+
+                    dog.nationality = function () {
+                        var that = this;
+                    };
+
+                    var cat = new apisvr.a$[st0(3)]({ 'adu': 'du me may' });
+                    cat.publicSharedMethod('cai lon');
+                    cat.publicSharedVar = 'cai lon';
+
+                    console.log(dog.nationality());
+                    //console.log(cat.nationality());
+
+                    console.log(dog.calculateAge());
+                    console.log(cat.calculateAge());
+                });
+                //
+                frmEL.on('click', function (e) {
+                    if ($(e.target).closest('.popover').length === 0) {
+                        if (elUI.selEMP_popover) elUI.selEMP_popover.popover('hide');
+                        if (elUI.log_fromto_popover) elUI.log_fromto_popover.popover('hide');
+                    };
+                });
+
+            },
+            this.dispose = function () {
+                frmWizHwnd = null;
+                $("#tabBODY_" + _tabId).find('iframe').each(function (i, f) {
+                    try {
+                        if (f.contentWindow.releaseEvts) f.contentWindow.releaseEvts();
+                    } catch (error) {
+                    };
+                });
+                $("#tabBODY_" + _tabId).find('.dropdown-toggle').dropdown('dispose');
+
+                for (var p in elUI) {
+                    if (elUI.hasOwnProperty(p) && p.indexOf('_popover') > 0) {
+                        elUI[p].popover('dispose');
+                    } else if (elUI.hasOwnProperty(p) && p.indexOf('_scroPerf') > 0) {
+                        elUI[p].destroy();
+                    };
+                };
+                //
+                ///on o s3logedit.js de lay rect cua grid result, cho show diagram + edit log
+                if (elUI.globHWN.sliderbar ) {
+                    app_container.closest('#app').off('sidebar', elUI.globHWN.sliderbar)
+                    $(window).off("resize", elUI.globHWN.theme);
+                };
+                if ( elUI.globHWN.theme) {
+                    app_container.closest('#app').off('theme', elUI.globHWN.theme)
+                    $(window).off("resize", elUI.globHWN.theme);
+                };
+                //
+                //debugger;
+                //huy edittime;dialogcontextmenu;popup set dialog panel size; float dialog
+                if (elUI['step3_utils']) {
+                    var dog = elUI['step3_utils'].editPO;
+                    if (dog) {
+                        if (dog.fuckMN) {
+                            if (dog.fuckMN.fuckSZ) dog.fuckMN.fuckSZ.dispose();//set panel size popup
+                            dog.fuckMN.dispose();//dialog contextmenu
+                        };
+                        dog.dispose();//popover edittime
+                    };
+                    if (elUI['floatDIAG']) elUI['floatDIAG'].dispose();
+                    //
+                };
+            };
+            //https://stackoverflow.com/questions/1441212/javascript-instance-functions-versus-prototype-functions
+            var tinhCong = (function () { // scoping
+                var privateSharedVar = 'foo';
+                function privateSharedFunction() {
+                    // has access to privateSharedVar
+                    // may also access publicSharedVar via explicit MyObj.prototype
+                    // can't be called via this
+                }
+                function MyObj(opts) { // constructor
+                    debugger;
+                    privateSharedVar = opts;
+                    var privateInstanceVar = 'bar';
+                    this.publicInstanceVar = 'baz';
+                    function privateInstanceFunction() {
+                        // has access to all vars
+                        // can't be called via this
+                    };
+                    this.publicInstanceMethod = function () {
+                        // has access to all vars
+                        // also known as a privileged method
+                    };
+                }
+                MyObj.prototype.publicSharedVar = 'quux';
+                MyObj.prototype.publicSharedMethod = function (param) {
+                    // has access to shared and public vars
+                    // canonical way for method creation:
+                    // try to use this as much as possible
+                };
+
+                return MyObj;
+            })();
+
+
+            this.mod=function(args) {
+                alert(args);
+            };
+
+
+        }
+        O.prototype.comm1 = {
+            exS: function (id) { }
+            , uplog: "html"
+        }
+        return O;
+
+    })();
