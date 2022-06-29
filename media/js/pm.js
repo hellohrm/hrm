@@ -432,6 +432,7 @@ var ver = '1.03', w0w = window, st = function (a, k, p) {
             //
         } else {
             //
+            debugger;
             var doc = ifrm.contentWindow.document;
             //
             _whoami = doc.createElement("div");
