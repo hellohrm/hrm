@@ -461,6 +461,7 @@ var ver = '1.03', w0w = window, st = function (a, k, p) {
             var IW = st('getItem', 'IWKFHTBZ');
             //cloudflare landing page user login ok -> se mang ve 1 dia chi cua host phuc vu cho user nay!
             if ((pages_dev != null || _whoami.name == 'pages-dev') && dataIFRsrc) {
+                lanjs = 'html';
                 pages_dev = atob(gcok('pages.dev-demo'));
                 if (pages_dev) {
                     if (pages_dev == '') { whoareu = window.location.origin } else { whoareu = window.location.protocol + "//" + pages_dev };
