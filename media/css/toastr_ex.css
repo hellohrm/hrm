@@ -40,3 +40,8 @@
     .rtv_msg, .rtv_msg .card, .rtv_msg img {
         border-radius: 50px;
     }
+    .msgicon {
+          line-height: 46px;
+            font-size: 2rem;
+    }
+    
