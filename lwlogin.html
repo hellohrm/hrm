@@ -349,7 +349,12 @@
                 };
 
                 //debugger;
-                setTimeout(function () { _stateGUY('none') },100);
+                setTimeout(function () {
+                    _stateGUY('none');
+                    if (!helloguy.classList.contains('init-bg')) {
+                        helloguy.classList.add('init-bg');
+                    }
+                }, 100);
 
             }).catch(function (error) {
                 //debugger;
