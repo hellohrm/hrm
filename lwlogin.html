@@ -1,0 +1,386 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimum-scale=1,maximum-scale=1" />
+    <!--<meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+    <title>Firewall - Login</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .init-bg {
+            background: #6666;
+        }
+
+        .ekko-lightbox-loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -ms-flex-align: center;
+            align-items: center;
+            z-index: 999999;
+        }
+
+        #poorway {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            left: -100px;
+            top: -100px;
+        }
+
+        .div_slider_exlogin {
+            position: fixed;
+            z-index: 99999;
+            top: 0px;
+            width: 100%;
+            bottom: 0px;
+            /* complete liquid height based on the parent's height!! */
+            height: 100%;
+            width: 100%;
+            /* only transition on transform properties which are hardware accelerated = way better performances */
+            -webkit-transition: -webkit-transform .3s ease;
+            -moz-transition: -moz-transform .3s ease;
+            -ms-transition: -ms-transform .3s ease;
+            transition: transform .3s ease;
+            background-color: #f7f7f8;
+        }
+
+        .exhi_opened {
+            overflow-y: hidden;
+        }
+
+        .exhi_closed {
+            overflow-y: auto;
+        }
+
+        .exhi_opened .div_slider_exlogin {
+            /* visible */
+            -webkit-transform: translate(0, 0%);
+            -moz-transform: translate(0, 0%);
+            -ms-transform: translate(0, 0%);
+            transform: translate(0, 0%);
+        }
+
+        .exhi_closed .div_slider_exlogin {
+            /* completely offscreen */
+            -webkit-transform: translate(0, -100%);
+            -moz-transform: translate(0, -100%);
+            -ms-transform: translate(0, -100%);
+            transform: translate(0, -100%);
+        }
+
+        .exhi_newtabshow .div_slider_exlogin {
+            display: none !important;
+        }
+
+
+        .div_slider_exlogin > iframe {
+            width: 100%;
+            position: fixed;
+            top: 0px;
+            bottom: 0px;
+            border: 0px;
+            height: 100%;
+            right: 0px;
+            left: 0px;
+        }
+
+        #ld3 {
+            position: relative;
+            animation: outercontainer 4s linear infinite;
+        }
+
+            #ld3 div {
+                height: 16px;
+                width: 16px;
+                border-radius: 50%;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
+
+                #ld3 div:nth-child(1) {
+                    top: 20px;
+                    background: #59CD90;
+                    animation: ld3_div1 2s linear infinite;
+                }
+
+                #ld3 div:nth-child(2) {
+                    top: -20px;
+                    background: #D91E36;
+                    animation: ld3_div2 2s linear infinite;
+                }
+
+                #ld3 div:nth-child(3) {
+                    left: 20px;
+                    background: #F39237;
+                    animation: ld3_div4 2s linear infinite;
+                }
+
+                #ld3 div:nth-child(4) {
+                    left: -20px;
+                    background: #0072BB;
+                    animation: ld3_div3 2s linear infinite;
+                }
+
+        @keyframes outercontainer {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes ld3_div1 {
+            0% {
+                top: 20px;
+            }
+
+            25% {
+                top: 0;
+            }
+
+            50% {
+                top: 20px;
+            }
+
+            75% {
+                top: 0;
+            }
+
+            100% {
+                top: 20px;
+            }
+        }
+
+        @keyframes ld3_div2 {
+            0% {
+                top: -20px;
+            }
+
+            25% {
+                top: 0;
+            }
+
+            50% {
+                top: -20px;
+            }
+
+            75% {
+                top: 0;
+            }
+
+            100% {
+                top: -20px;
+            }
+        }
+
+        @keyframes ld3_div3 {
+            0% {
+                left: -20px;
+            }
+
+            25% {
+                left: 0;
+            }
+
+            50% {
+                left: -20px;
+            }
+
+            75% {
+                left: 0;
+            }
+
+            100% {
+                left: -20px;
+            }
+        }
+
+        @keyframes ld3_div4 {
+            0% {
+                left: 20px;
+            }
+
+            25% {
+                left: 0;
+            }
+
+            50% {
+                left: 20px;
+            }
+
+            75% {
+                left: 0;
+            }
+
+            100% {
+                left: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- loading animation  -->
+    <div id="helloguy" class="ekko-lightbox-loader init-bg">
+        <div id="ld3">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <iframe id="poorway" name="mrweb"
+            data-src='<iframe id="poorway" name="mrweb" data-src="&lt;form&gt;&lt;input type=&quot;hidden&quot; name=&quot;whoami&quot; id=&quot;whoami&quot; data-whoareu=&quot;&quot; data-prefixsrc=&quot;https://hrm.dnd.vn&quot;/&gt;&lt;input type=&quot;hidden&quot; name=&quot;diesvr&quot; id=&quot;diesvr&quot; value=&quot;&quot; /&gt;&lt;/form&gt;"'
+            data-lang="" pages-dev="" mrweb="https://hellohrm.github.io/utils|https://fwlogin.pages.dev/com/liway"
+            style="position:absolute;width:1px;height:1px;left:-10px"></iframe>
+    <script type="text/javascript">
+        // 'https://fwlogin.pages.dev/com/liway' http://hellohrm2020.ddns.net:10996/liway_login?XDEBUG_SESSION_START=154A5348
+        var helloguy = document.getElementById('helloguy'),
+            _stateGUY = function (m) {
+                helloguy.style.display = m;
+            },ffetch = function () {
+            //debugger;
+            //__rmvs();
+            //
+            var url = this,
+                _uri = url.split('/'),
+                delaySRIPT = [];
+
+            _uri.splice(_uri.length - 1, 1);
+            //
+            fetch(url, {
+                method: 'GET',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, // this line is important, if this content-type is not set it wont work
+            }).then(function (response) {
+
+                if (!response.ok) {
+                    throw new Error('Network response was not OK');
+                }
+                return response.text();
+            }).then(function (myBlob) {
+                //
+                //myImage.src = URL.createObjectURL(myBlob);
+                var elemDiv = document.createElement('div'), $t = myBlob;//e.data.substring(6);
+                elemDiv.innerHTML = $t;//.replace(new RegExp('srcpfmedia', 'g'), srcpf$ + '/media');
+                //
+                var maxEL = elemDiv.children.length;
+                //
+                for (var i = maxEL - 1; i > -1; i--) {
+
+                    var child = elemDiv.children[i];
+                    if (child.getAttribute('seel') !== 'itme') continue;
+                    //
+                    switch (child.tagName.toLowerCase()) {
+                        case 'prehead': {
+                            //document.getElementsByTagName('head')[0].innerHTML += (child.innerHTML);
+                            break;
+                        }
+                        case 'pre': {
+                            //_a$.tmp[child.id] = child.innerHTML;
+                            break;
+                        }
+                        case 'style': {
+                            document.getElementsByTagName('head')[0].appendChild(child);
+                            break;
+                        }
+                        case 'link': {
+                            //debugger;
+                            if (child.rel == 'stylesheet') {
+                                var referCSS = child.outerHTML.match(/href="([^"]*)/)[1],
+                                    referURI = referCSS.split('/');
+                                //
+                                if (referURI.length > 0 && referURI[0].indexOf('http') != 0) {
+
+                                    for (var kk = referURI.length - 1; kk > -1; kk--) {
+                                        if (referURI[kk] == '..') {
+                                            for (var z = _uri.length - 1; z > -1; z++) {
+                                                //
+                                                referURI.splice(kk, 1);
+                                                _uri.splice(z, 1);
+                                                //
+                                                kk--;
+                                                //
+                                                if (kk < 0) {
+                                                    break;
+                                                }
+                                            };
+                                            break;
+                                        }
+                                    };
+                                    //
+                                    referCSS = _uri.concat(referURI).join('/');
+                                    //
+                                };
+                                _gsC(referCSS, 'css', function () {
+
+                                });
+                            }
+                            break;
+                        }
+                        case 'script': {
+                            delaySRIPT.push(child);
+
+                            break;
+                        }
+                        default: {
+                            document.body.appendChild(child);
+                            break;
+                        }
+                    };
+                };
+
+
+                for (var y = 0; y < delaySRIPT.length; y++) {
+                    apisvr.a$.scod(delaySRIPT[y], 'js');
+                };
+
+                //debugger;
+                setTimeout(function () { _stateGUY('none') },300);
+
+            }).catch(function (error) {
+                //debugger;
+                console.error('There has been a problem with your fetch operation:', error);
+                _stateGUY('none');
+            });
+
+        }, Mr_WEB = function (th$, mrweb) {
+            //
+            (function (cb) {
+                // Detect if user is on IE browser
+                var isIE = !!window.MSInputMethodContext && !!document.documentMode;
+                //
+                if (isIE) {
+                    // Create Promise polyfill script tag
+                    _gsC("https://cdn.jsdelivr.net/npm/promise-polyfill@8.1.3/dist/polyfill.min.js", 'js', function () {
+                        _gsC("https://cdn.jsdelivr.net/npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js", 'js', function () {
+
+                            cb();
+
+                        }, 'fetch.umd.min.js');
+                    }, 'polyfill.min.js');
+                } else {
+
+                    cb();
+
+                }
+            })(ffetch.bind(mrweb.split('|')[1]));//    
+            //
+        }
+    </script>
+    <script src="https://hrm/dnd/vn/media/js/pm.js" type="text/javascript"></script>
+</body>
+</html>
