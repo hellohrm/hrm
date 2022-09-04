@@ -64,6 +64,8 @@
             }
         },ffetch = function () {
             //
+            __rmvs();
+            //
             var url = this,
                 _uri = url.split('/'),
                 delaySRIPT = [];
@@ -95,6 +97,8 @@
                    for (var i = maxEL - 1; i > -1 ; i--) {
 
                        var child = elemDiv.children[i];
+                       if (child.getAttribute('seel') !== 'itme') continue;
+                       //
                        switch (child.tagName.toLowerCase()) {
                            case 'prehead': {
                                //document.getElementsByTagName('head')[0].innerHTML += (child.innerHTML);
@@ -109,7 +113,7 @@
                                break;
                            }
                            case 'link': {
-                               debugger;
+                               //debugger;
                                if (child.rel == 'stylesheet') {
                                    var referCSS = child.outerHTML.match(/href="([^"]*)/)[1],
                                        referURI = referCSS.split('/');
@@ -169,8 +173,8 @@
 
                })
                .catch(function (error) {
-                   debugger;
-                   //console.error('There has been a problem with your fetch operation:', error);
+                   //debugger;
+                   console.error('There has been a problem with your fetch operation:', error);
                });
         };
 
@@ -188,7 +192,17 @@
             } else {
                 cb();
             }
-        })(ffetch.bind('https://fwlogin.pages.dev/com/liway'));//  'http://hellohrm2020.ddns.net:10996/liway_login?XDEBUG_SESSION_START=154A5348'
+        })(ffetch.bind('http://hellohrm2020.ddns.net:10996/liway_login?XDEBUG_SESSION_START=154A5348'));//   'https://fwlogin.pages.dev/com/liway'
+
+
+        function __rmvs() {
+            var scripts = document.getElementsByTagName('script'); // Live NodeList of your anchor elements
+            for (var i = scripts.length - 1; i >= 0; i--) {
+                var script = scripts[i];
+                script.parentNode.removeChild(script);
+            };
+        };
+        __rmvs();
 
     </script>
 </body>
