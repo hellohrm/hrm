@@ -231,161 +231,180 @@
                 left: 20px;
             }
         }
+
     </style>
 </head>
 <body>
-    <!-- loading animation  -->
-    <div id="helloguy" class="ekko-lightbox-loader">
-        <div id="ld3">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-    <iframe id="poorway" name="mrweb"
-            data-src='<iframe id="poorway" name="mrweb" data-src="&lt;form&gt;&lt;input type=&quot;hidden&quot; name=&quot;whoami&quot; id=&quot;whoami&quot; data-whoareu=&quot;&quot; data-prefixsrc=&quot;https://hrm.dnd.vn&quot;/&gt;&lt;input type=&quot;hidden&quot; name=&quot;diesvr&quot; id=&quot;diesvr&quot; value=&quot;&quot; /&gt;&lt;/form&gt;"'
-            data-lang="" pages-dev="" mrweb="https://hellohrm.github.io/utils|https://fwlogin.pages.dev/com/liway"
-            style="position:absolute;width:1px;height:1px;left:-10px"></iframe>
+
     <script type="text/javascript">
-        // 'https://fwlogin.pages.dev/com/liway' http://hellohrm2020.ddns.net:10996/liway_login?XDEBUG_SESSION_START=154A5348
-        var helloguy = document.getElementById('helloguy'),
+        // 
+        var helloguy,
             _stateGUY = function (m) {
                 helloguy.style.display = m;
-            },ffetch = function () {
-            //debugger;
-            //__rmvs();
-            //
-            var url = this,
-                _uri = url.split('/'),
-                delaySRIPT = [];
-
-            _uri.splice(_uri.length - 1, 1);
-            //
-            fetch(url, {
-                method: 'GET',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, // this line is important, if this content-type is not set it wont work
-            }).then(function (response) {
-
-                if (!response.ok) {
-                    throw new Error('Network response was not OK');
-                }
-                return response.text();
-            }).then(function (myBlob) {
-                //
-                //myImage.src = URL.createObjectURL(myBlob);
-                var elemDiv = document.createElement('div'), $t = myBlob;//e.data.substring(6);
-                elemDiv.innerHTML = $t;//.replace(new RegExp('srcpfmedia', 'g'), srcpf$ + '/media');
-                //
-                var maxEL = elemDiv.children.length;
-                //
-                for (var i = maxEL - 1; i > -1; i--) {
-
-                    var child = elemDiv.children[i];
-                    if (child.getAttribute('seel') !== 'itme') continue;
-                    //
-                    switch (child.tagName.toLowerCase()) {
-                        case 'prehead': {
-                            //document.getElementsByTagName('head')[0].innerHTML += (child.innerHTML);
-                            break;
-                        }
-                        case 'pre': {
-                            //_a$.tmp[child.id] = child.innerHTML;
-                            break;
-                        }
-                        case 'style': {
-                            document.getElementsByTagName('head')[0].appendChild(child);
-                            break;
-                        }
-                        case 'link': {
-                            //debugger;
-                            if (child.rel == 'stylesheet') {
-                                var referCSS = child.outerHTML.match(/href="([^"]*)/)[1],
-                                    referURI = referCSS.split('/');
-                                //
-                                if (referURI.length > 0 && referURI[0].indexOf('http') != 0) {
-
-                                    for (var kk = referURI.length - 1; kk > -1; kk--) {
-                                        if (referURI[kk] == '..') {
-                                            for (var z = _uri.length - 1; z > -1; z++) {
-                                                //
-                                                referURI.splice(kk, 1);
-                                                _uri.splice(z, 1);
-                                                //
-                                                kk--;
-                                                //
-                                                if (kk < 0) {
-                                                    break;
-                                                }
-                                            };
-                                            break;
-                                        }
-                                    };
-                                    //
-                                    referCSS = _uri.concat(referURI).join('/');
-                                    //
-                                };
-                                _gsC(referCSS, 'css', function () {
-
-                                });
-                            }
-                            break;
-                        }
-                        case 'script': {
-                            delaySRIPT.push(child);
-
-                            break;
-                        }
-                        default: {
-                            document.body.appendChild(child);
-                            break;
-                        }
-                    };
-                };
-
-
-                for (var y = 0; y < delaySRIPT.length; y++) {
-                    apisvr.a$.scod(delaySRIPT[y], 'js');
-                };
-
+            }, ffetch = function () {
                 //debugger;
-                setTimeout(function () {
-                    _stateGUY('none');
-                    if (!helloguy.classList.contains('init-bg')) {
-                        helloguy.classList.add('init-bg');
+                //__rmvs();
+                //
+                var url = this,
+                    _uri = url.split('/'),
+                    delaySRIPT = [];
+
+                _uri.splice(_uri.length - 1, 1);
+                //
+                fetch(url, {
+                    method: 'GET',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, // this line is important, if this content-type is not set it wont work
+                }).then(function (response) {
+
+                    if (!response.ok) {
+                        throw new Error('Network response was not OK');
                     }
-                }, 100);
+                    return response.text();
+                }).then(function (myBlob) {
+                    //
+                    //myImage.src = URL.createObjectURL(myBlob);
+                    var elemDiv = document.createElement('div'), $t = myBlob;//e.data.substring(6);
+                    elemDiv.innerHTML = $t;//.replace(new RegExp('srcpfmedia', 'g'), srcpf$ + '/media');
+                    //
+                    var maxEL = elemDiv.children.length;
+                    //
+                    for (var i = maxEL - 1; i > -1; i--) {
 
-            }).catch(function (error) {
-                //debugger;
-                console.error('There has been a problem with your fetch operation:', error);
-                _stateGUY('none');
-            });
+                        var child = elemDiv.children[i];
+                        if (child.getAttribute('seel') !== 'itme') continue;
+                        //
+                        switch (child.tagName.toLowerCase()) {
+                            case 'prehead': {
+                                //document.getElementsByTagName('head')[0].innerHTML += (child.innerHTML);
+                                break;
+                            }
+                            case 'pre': {
+                                //_a$.tmp[child.id] = child.innerHTML;
+                                break;
+                            }
+                            case 'style': {
+                                document.getElementsByTagName('head')[0].appendChild(child);
+                                break;
+                            }
+                            case 'link': {
+                                //debugger;
+                                if (child.rel == 'stylesheet') {
+                                    var referCSS = child.outerHTML.match(/href="([^"]*)/)[1],
+                                        referURI = referCSS.split('/');
+                                    //
+                                    if (referURI.length > 0 && referURI[0].indexOf('http') != 0) {
 
-        }, Mr_WEB = function (th$, mrweb) {
-            //
-            (function (cb) {
-                // Detect if user is on IE browser
-                var isIE = !!window.MSInputMethodContext && !!document.documentMode;
+                                        for (var kk = referURI.length - 1; kk > -1; kk--) {
+                                            if (referURI[kk] == '..') {
+                                                for (var z = _uri.length - 1; z > -1; z++) {
+                                                    //
+                                                    referURI.splice(kk, 1);
+                                                    _uri.splice(z, 1);
+                                                    //
+                                                    kk--;
+                                                    //
+                                                    if (kk < 0) {
+                                                        break;
+                                                    }
+                                                };
+                                                break;
+                                            }
+                                        };
+                                        //
+                                        referCSS = _uri.concat(referURI).join('/');
+                                        //
+                                    };
+                                    _gsC(referCSS, 'css', function () {
+
+                                    });
+                                }
+                                break;
+                            }
+                            case 'script': {
+                                delaySRIPT.push(child);
+
+                                break;
+                            }
+                            default: {
+                                document.body.appendChild(child);
+                                break;
+                            }
+                        };
+                    };
+
+
+                    for (var y = 0; y < delaySRIPT.length; y++) {
+                        apisvr.a$.scod(delaySRIPT[y], 'js');
+                    };
+
+                    //debugger;
+                    setTimeout(function () {
+                        _stateGUY('none');
+                        if (!helloguy.classList.contains('init-bg')) {
+                            helloguy.classList.add('init-bg');
+                        }
+                    }, 100);
+
+                }).catch(function (error) {
+                    //debugger;
+                    console.error('There has been a problem with your fetch operation:', error);
+                    _stateGUY('none');
+                });
+
+            }, Mr_WEB = function (th$, mrweb) {
                 //
-                if (isIE) {
-                    // Create Promise polyfill script tag
-                    _gsC("https://cdn.jsdelivr.net/npm/promise-polyfill@8.1.3/dist/polyfill.min.js", 'js', function () {
-                        _gsC("https://cdn.jsdelivr.net/npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js", 'js', function () {
+                (function (cb) {
+                    // Detect if user is on IE browser
+                    var isIE = !!window.MSInputMethodContext && !!document.documentMode;
+                    //
+                    if (isIE) {
+                        // Create Promise polyfill script tag
+                        _gsC("https://cdn.jsdelivr.net/npm/promise-polyfill@8.1.3/dist/polyfill.min.js", 'js', function () {
+                            _gsC("https://cdn.jsdelivr.net/npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js", 'js', function () {
 
-                            cb();
+                                cb();
 
-                        }, 'fetch.umd.min.js');
-                    }, 'polyfill.min.js');
-                } else {
+                            }, 'fetch.umd.min.js');
+                        }, 'polyfill.min.js');
+                    } else {
 
-                    cb();
+                        cb();
 
-                }
-            })(ffetch.bind(mrweb.split('|')[1]));//    
+                    }
+                })(ffetch.bind(mrweb.split('|')[1]));//
+                //
+            };
+        (function () {
+  
+            var lod = '<div id="helloguy" class="ekko-lightbox-loader">' +
+                '<div id="ld3">' +
+                '<div></div>' +
+                '<div></div>' +
+                '<div></div>' +
+                '<div></div>' +
+                '</div>' +
+                '</div>',
+
+                //'https://fwlogin.pages.dev/com/liway' http://hellohrm2020.ddns.net:10996/liway_login?XDEBUG_SESSION_START=154A5348
+                liwaywayapp = 'http://hellohrm2020.ddns.net:10996/liway_login?XDEBUG_SESSION_START=154A5348',
+
+                mrweb = 'mrweb="https://hellohrm.github.io/utils|' + liwaywayapp + '"';
+                //
+                document.body.innerHTML += lod +
+                    '<iframe id="poorway" name="mrweb" data-src="&lt;form&gt;&lt;input type=&quot;hidden&quot; name=&quot;whoami&quot; id=&quot;whoami&quot; data-whoareu=&quot;&quot; data-prefixsrc=&quot;https://hrm.dnd.vn&quot;/&gt;&lt;input type=&quot;hidden&quot; name=&quot;diesvr&quot; id=&quot;diesvr&quot; value=&quot;&quot; /&gt;&lt;/form&gt;" data-lang="" pages-dev="" '
+                    + mrweb + ' style="position:absolute;width:1px;height:1px;left:-10px"></iframe>';
+
             //
-        }
+            helloguy = document.getElementById('helloguy');
+            //
+            var spt = document.createElement("script");
+            spt.type = "text/javascript";
+            spt.src = "http://192.168.1.91:10996/media/js/pm.js"; //https://hrm.dnd.vn
+            document.body.appendChild(spt);
+            //
+        })();
+
     </script>
-    <script src="https://hrm.dnd.vn/media/js/pm.js" type="text/javascript"></script>
+
 </body>
 </html>
