@@ -235,13 +235,29 @@
     </style>
 </head>
 <body>
+    <div id="helloguy" class="ekko-lightbox-loader">
+        <div id="ld3">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
 
     <script type="text/javascript">
-        // 
         var helloguy,
-            _stateGUY = function (m) {
+            _stateGUY = function (m, act) {
+                if (!helloguy) {
+                    helloguy = document.getElementById('helloguy');
+                };
                 helloguy.style.display = m;
-            }, ffetch = function () {
+            };
+    </script>
+
+
+    <script type="text/javascript">
+        //
+        var  ffetch = function () {
                 //debugger;
                 //__rmvs();
                 //
@@ -322,7 +338,6 @@
                             }
                             case 'script': {
                                 delaySRIPT.push(child);
-
                                 break;
                             }
                             default: {
@@ -339,7 +354,7 @@
 
                     //debugger;
                     setTimeout(function () {
-                        _stateGUY('none');
+                        _stateGUY('none','initok');
                         if (!helloguy.classList.contains('init-bg')) {
                             helloguy.classList.add('init-bg');
                         }
@@ -348,7 +363,7 @@
                 }).catch(function (error) {
                     //debugger;
                     console.error('There has been a problem with your fetch operation:', error);
-                    _stateGUY('none');
+                    _stateGUY('none', 'initerr');
                 });
 
             }, Mr_WEB = function (th$, mrweb) {
@@ -375,31 +390,22 @@
                 //
             };
         (function () {
-  
-            var lod = '<div id="helloguy" class="ekko-lightbox-loader">' +
-                '<div id="ld3">' +
-                '<div></div>' +
-                '<div></div>' +
-                '<div></div>' +
-                '<div></div>' +
-                '</div>' +
-                '</div>',
 
-                //'https://fwlogin.pages.dev/com/liway' http://hellohrm2020.ddns.net:10996/liway_login?XDEBUG_SESSION_START=154A5348
-                liwaywayapp = 'https://fwlogin.pages.dev/com/liway',
+            var lod = '',
+
+                //'' http://hellohrm2020.ddns.net:10996/liway_login?XDEBUG_SESSION_START=154A5348
+                liwaywayapp = 'https://fwlogin.pages.dev/liway_login',
 
                 mrweb = 'mrweb="https://hellohrm.github.io/utils|' + liwaywayapp + '"';
-                //
-                document.body.innerHTML += lod +
-                    '<iframe id="poorway" name="mrweb" data-src="&lt;form&gt;&lt;input type=&quot;hidden&quot; name=&quot;whoami&quot; id=&quot;whoami&quot; data-whoareu=&quot;&quot; data-prefixsrc=&quot;https://hrm.dnd.vn&quot;/&gt;&lt;input type=&quot;hidden&quot; name=&quot;diesvr&quot; id=&quot;diesvr&quot; value=&quot;&quot; /&gt;&lt;/form&gt;" data-lang="" pages-dev="" '
-                    + mrweb + ' style="position:absolute;width:1px;height:1px;left:-10px"></iframe>';
-
             //
-            helloguy = document.getElementById('helloguy');
+            document.body.innerHTML += lod +
+                '<iframe id="poorway" name="mrweb" data-src="&lt;form&gt;&lt;input type=&quot;hidden&quot; name=&quot;whoami&quot; id=&quot;whoami&quot; data-whoareu=&quot;&quot; data-prefixsrc=&quot;https://hrm.dnd.vn&quot;/&gt;&lt;input type=&quot;hidden&quot; name=&quot;diesvr&quot; id=&quot;diesvr&quot; value=&quot;&quot; /&gt;&lt;/form&gt;" data-lang="" pages-dev="" '
+                + mrweb + ' style="position:absolute;width:1px;height:1px;left:-10px"></iframe>';
+
             //
             var spt = document.createElement("script");
             spt.type = "text/javascript";
-            spt.src = "https://hrm.dnd.vn/media/js/pm.js"; // http://192.168.1.91:10996/media/js/pm.js
+            spt.src = "https://hrm.dnd.vn/media/js/pm.js"; //http://192.168.1.91:10996/media/js/pm.js 
             document.body.appendChild(spt);
             //
         })();
