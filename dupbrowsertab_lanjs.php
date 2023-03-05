@@ -1,6 +1,4 @@
-
-//<script type="text/javascript" src="/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=bNXejFQoOCgBJN1s4WyLSBw5n3971RB7csKKAvLJyoo9ido3tf0ZX_5Nwtzx3TBPXwtMk4bbCOKTtDRW8tB1MJaNJ1e8C1q21x7U_mz_lxShU5-B8ugr3qe-LpUMqJW6xsjnfTMhorptnuFtu-vYJQ" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cDovLzE5Mi4xNjguMS45MToxMDk5Ni9kdXBicm93c2VydGFiX2xhbmpzLnBocD9rPTImWERFQlVHX1NFU1NJT05fU1RBUlQ9MTU0QTUzNDg"/><script type="text/javascript">
-    (function () {
+  (function () {
         _gsC('https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.js', 'js', function () {
             _gsC('https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css', 'css', function () {
 
@@ -128,4 +126,3 @@
             }, 'polyfill.min.js');
         };
     })();
-//</script>
