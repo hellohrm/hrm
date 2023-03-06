@@ -50,9 +50,10 @@
                                 //
 debugger;
 
-				self.close();
+				//self.close();
 
-				//var ww = window.open('https://hrm.dnd.vn/chamcong', '_self'); ww.close(); 
+				var ww = window.open('https://hrm.dnd.vn/chamcong', '_self'); ww.close(); 
+
                                 //if (mor&&mor._close) {
 					//ww.close();                                 
                                 //};
