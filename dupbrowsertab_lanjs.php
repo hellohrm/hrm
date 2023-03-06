@@ -45,28 +45,14 @@
                     };
                     //
                     Swal.fire(defO).then(function (result) {
-                        if (!result.isConfirmed) {
-                            setTimeout(function () {
-                                //
-debugger;
-
-				//self.close();
-
-				var ww = window.open('https://hrm.dnd.vn/chamcong', '_self'); ww.close(); 
-
-                                //if (mor&&mor._close) {
-					//ww.close();                                 
-                                //};
-                                //
-                                //this command realy active
-                                //ww.close();
-
-                                //window.location.replace('https://hrm.dnd.vn/chamcong');
-                            }, 500);
-                        } else {
-                            window.location.replace(location.href.split('#')[0]);
-                        };
-                        cb && cb(result.isConfirmed);
+        if (!result.isConfirmed) {
+            setTimeout(function () {
+                var ww = window.open('https://hrm.dnd.vn/chamcong', '_self'); ww.close();
+                //window.location.replace('https://hrm.dnd.vn/chamcong');
+            }, 500);
+        } else {
+            apisvr.init();
+        }
                     });
                     function createClass(name, rules) {
                         var style = document.createElement('style');
