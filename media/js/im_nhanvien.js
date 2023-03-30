@@ -64,22 +64,46 @@
 
                 // Create formData object
                 var formData = new FormData();
-
-                // Might or not be a multi file input, so loop through it
-                for (var i = 0; i < fileInput.files.length; i++) {
-                    var file = fileInput.files[i]
-                    formData.append('files[]', file);
-                };
+                formData.append("file", fileInput.files[0]);
+                //
                 //
                 var xhttp = new XMLHttpRequest();
                 xhttp.open("POST", "upemp.php", true);
-                xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-                xhttp.send('&attachment=' + formData);
+                //
+                //xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+                xhttp.send(formData);
+                //
                 xhttp.onreadystatechange = function () {
                     if (this.readyState == 4 && this.status == 200) {
+                        //
+                        //
+                        //
+                        //
+                        //alert(this.responseText)
+                        //
+                        //
                         debugger;
-                        var data = JSON.parse(this.responseText);
-                    }
+                        //var data = JSON.parse(this.responseText);
+                        //
+                        //
+                        ///
+                        //
+                        //**************************** LOAD IF *********************************************//
+                        function my_code() {
+                            console.log(" working");
+                            uploadForm.style.display = 'none';
+                            frm.style.display = '';
+                        };
+                        //
+                        var frm = document.createElement("iframe");
+                        frm.setAttribute("style", "height:565px;width:100%;border:none;display:none");
+                        frm.setAttribute("frameborder", "0");
+                        //
+                        frm.src = "https://view.officeapps.live.com/op/embed.aspx?src=https://apphrm.000webhostapp.com/" + this.responseText;
+                        document.body.appendChild(frm);
+                        frm.onload = my_code;
+
+                    };
                 };
                 event.preventDefault();
                 //
@@ -87,10 +111,6 @@
         } else {
             cannotUploadMessage.style.cssText = "display: flex; animation: fadeIn linear 1.5s;";
         }
-    });
-
-    uploadForm.addEventListener('submit', function (event) {
-        debugger;
     });
 
 
@@ -161,16 +181,6 @@
     debugger;
     //**************************** post load *********************************************//
     window.parent.postMessage({ 'msgtype': 'session', 'msgkind': session, 'evtData': { messageType: 0 } }, orgMsg);
-
-
-    //**************************** LOAD IF *********************************************//
-    //function my_code() {
-    //    console.log(" working");
-    //}
-    //var iframe = document.createElement("iframe");
-    //iframe.src = "http://java2s.com";
-    //document.body.appendChild(iframe);
-    //iframe.onload = my_code;
 
 
 
