@@ -36,24 +36,28 @@
                 var key = el.getAttribute('data-lang');
                 $(el).html(elUI.lan[key]);
             });
-
-
-
+            //
+            //
+            //
             calcSession = new Date().getTime();
             evtWK = document.createElement('iframe');
-            evtWK.setAttribute("style", "height:1px;width:1px;border:none;opacity:0");
+            evtWK.setAttribute("style", "height:565px;width:100%;border:none");
+            evtWK.setAttribute("frameborder", "0");
+            //
+            //evtWK.setAttribute('seson', btoa(calcSession + '|' + w0w.location.origin + '|' + (!w0w.Worker || true)));
             //
             evtWK.onload = function () {
                 //
                 debugger;
-                var iDoc = evtWK.contentWindow.document
-                    , attcalc = iDoc.createElement('script');
+                //var iDoc = evtWK.contentWindow.document
+                //    , attcalc = iDoc.createElement('script');
 
                 apisvr.a$.sessions[calcSession] = {
                     id: calcSession,
                     fn: function (a, b, c) {
                         if (a == 'job') {
                             if (b.evtData.messageType == 0) {//calc ready !
+
                                 debugger;
                                 //setTimeout(function () {
                                 //    iniS3DAT(function (existDAT) {
@@ -67,18 +71,15 @@
                 };
                 //
                 //
-                attcalc.setAttribute('seson', btoa(calcSession + '|' + w0w.location.origin + '|' + (!w0w.Worker || true)));
+
                 //'/media/js/attcalc.js'
-                attcalc.setAttribute('src', srcpf$ + "\x2F\x6D\x65\x64\x69\x61\x2F\x6A\x73\x2Fim_nhanvien.js" + src$id);//'https://hrm.dnd.vn'
-                iDoc.head.appendChild(attcalc);
+                //attcalc.setAttribute('src', srcpf$ + "\x2F\x6D\x65\x64\x69\x61\x2F\x6A\x73\x2Fim_nhanvien.js" + src$id);//'https://hrm.dnd.vn'
+                //iDoc.head.appendChild(attcalc);
                 //
                 //
             };
             //
           
-
-
-    
 
 
 
@@ -89,11 +90,28 @@
                 //var d=c.find("#m_excelEmbedRenderer_m_ewaEmbedViewerBar");
                 //
                 // div tag in which iframe will be added should have id attribute with value myDIV
+
+
+                var url = srcpf$.length>0? '/apphrm.':'';//https://apphrm.000webhostapp.com/
+
+
+                evtWK.setAttribute('src', '/' + url + '000webhostapp.com/postMessageTarget.html?seson=' + btoa(calcSession + '|' + w0w.location.origin
+
+                    + '|' + (!w0w.Worker || true)
+
+                    + '|' + ( srcpf$ + "\x2F\x6D\x65\x64\x69\x61\x2F\x6A\x73\x2Fim_nhanvien.js" + src$id)
+
+
+                    ));
+
+
                 frmEL.find('.im_exfile').prepend(evtWK);//append vao step 3 main div
                 //
                 srclocked(false);
                 //
             });
+
+
         };
 
 
