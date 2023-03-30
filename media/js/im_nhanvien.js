@@ -147,7 +147,6 @@
 
 
 
-
     var snd_msg = document.getElementById("test_msg");
     snd_msg.addEventListener("click", function () {
         debugger;
@@ -155,6 +154,12 @@
         window.parent.postMessage({ 'msgtype': 'session', 'msgkind': session, 'evtData': { messageType: 0 } }, orgMsg);
     })
 
+
+
+
+    debugger;
+    //**************************** post load *********************************************//
+    window.parent.postMessage({ 'msgtype': 'session', 'msgkind': session, 'evtData': { messageType: 0 } }, orgMsg);
 
 
     //**************************** LOAD IF *********************************************//
