@@ -72,11 +72,12 @@
                 };
                 //
                 var xhttp = new XMLHttpRequest();
-                xhttp.open("POST", "/", true);
+                xhttp.open("POST", "upemp.php", true);
                 xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
                 xhttp.send('&attachment=' + formData);
                 xhttp.onreadystatechange = function () {
                     if (this.readyState == 4 && this.status == 200) {
+                        debugger;
                         var data = JSON.parse(this.responseText);
                     }
                 };
