@@ -312,42 +312,47 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
                 //
                 //evtWK.setAttribute('seson', btoa(calcSession + '|' + w0w.location.origin + '|' + (!w0w.Worker || true)));
                 //
+
+                //debugger;
+                //var iDoc = evtWK.contentWindow.document
+                //    , attcalc = iDoc.createElement('script');
+
+                apisvr.a$.sessions[calcSession] = {
+                    id: calcSession,
+                    fn: function (a, b, c) {
+                        if (a == 'job') {
+                            switch (b.evtData.messageType) {
+                                case 0: {//calc ready !
+
+                                    debugger;
+
+                                    evtWK.contentWindow.postMessage({ k: 1, dat: fi }, "*");
+
+                                    break;
+                                } case 1: {
+
+                                    debugger;
+
+                                    break;
+                                }
+                            };
+                        };
+                    }
+                };
+                //
+                //
+
+                //'/media/js/attcalc.js'
+                //attcalc.setAttribute('src', srcpf$ + "\x2F\x6D\x65\x64\x69\x61\x2F\x6A\x73\x2Fim_nhanvien.js" + src$id);//'https://hrm.dnd.vn'
+                //iDoc.head.appendChild(attcalc);
+                //
+                //
+
+
+
                 evtWK.onload = function () {
                     //
-                    //debugger;
-                    //var iDoc = evtWK.contentWindow.document
-                    //    , attcalc = iDoc.createElement('script');
 
-                    apisvr.a$.sessions[calcSession] = {
-                        id: calcSession,
-                        fn: function (a, b, c) {
-                            if (a == 'job') {
-                                switch (b.evtData.messageType) {
-                                    case 0: {//calc ready !
-
-                                        debugger;
-
-                                        //evtWK.contentWindow.postMessage({ k: 1, dat: fi }, "*");
-
-                                        break;
-                                    } case 1: {
-
-                                        debugger;
-
-                                        break;
-                                    }
-                                };
-                            };
-                        }
-                    };
-                    //
-                    //
-
-                    //'/media/js/attcalc.js'
-                    //attcalc.setAttribute('src', srcpf$ + "\x2F\x6D\x65\x64\x69\x61\x2F\x6A\x73\x2Fim_nhanvien.js" + src$id);//'https://hrm.dnd.vn'
-                    //iDoc.head.appendChild(attcalc);
-                    //
-                    //
                 };
                 //
 
