@@ -326,14 +326,21 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
 
                                     debugger;
 
-                                    var reader = new FileReader();
-                                    reader.readAsDataURL(fi);
+                                    //var reader = new FileReader();
+                                    //reader.readAsDataURL(fi);
 
-                                    reader.onload = function () {
+                                    //reader.onload = function () {
                     
-                                        evtWK.contentWindow.postMessage({ k: 1, dat: reader.result }, "*");
+                                    //    evtWK.contentWindow.postMessage({ k: 1, dat: reader.result }, "*");
 
+                                    //};
+
+                                    var reader = new FileReader();
+                                    reader.onload = function (e) {
+                                        var blob = new Blob([new Uint8Array(e.target.result)], { type: fi.type });
+                                        evtWK.contentWindow.postMessage({ k: 1, dat: reader.result }, "*");
                                     };
+                                    reader.readAsArrayBuffer(fi);
 
 
                            
