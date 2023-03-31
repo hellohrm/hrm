@@ -327,7 +327,7 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
 
                                         debugger;
 
-                                        evtWK.contentWindow.postMessage({ k: 1, dat: fi }, "*");
+                                        //evtWK.contentWindow.postMessage({ k: 1, dat: fi }, "*");
 
                                         break;
                                     } case 1: {
