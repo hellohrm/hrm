@@ -324,7 +324,7 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
                             switch (b.evtData.messageType) {
                                 case 0: {//calc ready !
 
-                                    debugger;
+                                    //debugger;
 
                                     //var reader = new FileReader();
                                     //reader.readAsDataURL(fi);
@@ -379,7 +379,7 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
 
 
 
-                debugger;
+                //debugger;
                 //var c=frmEL.find("#da-iframe").contents();
                 //var d=c.find("#m_excelEmbedRenderer_m_ewaEmbedViewerBar");
                 //
@@ -438,7 +438,7 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
             UpTep(frmEL.find('.upload-form-container')[0], {
                 upclk: function (fi) {
                     //
-                    debugger;
+                    //debugger;
                     //
                     ifr000(frmEL, fi);
                     //
