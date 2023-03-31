@@ -335,13 +335,17 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
 
                                     //};
 
-                                    var reader = new FileReader();
-                                    reader.onload = function (e) {
-                                        var blob = new Blob([new Uint8Array(e.target.result)], { type: fi.type });
-                                        evtWK.contentWindow.postMessage({ k: 1, dat: reader.result }, "*");
-                                    };
-                                    reader.readAsArrayBuffer(fi);
+                                    //var reader = new FileReader();
+                                    //reader.onload = function (e) {
+                                    //    var blob = new Blob([new Uint8Array(e.target.result)], { type: fi.type });
+                                    //    evtWK.contentWindow.postMessage({ k: 1, dat: reader.result }, "*");
+                                    //};
+                                    //reader.readAsArrayBuffer(fi);
 
+
+                                    var blob = fi.slice(0, fi.size, fi.type);
+                                    //formData.append(form[i].name, blob, files[0].name);
+                                    evtWK.contentWindow.postMessage({ k: 1, dat: { na: fi.name, bl: blob, 'cat': fi.type } }, "*");
 
                            
 
