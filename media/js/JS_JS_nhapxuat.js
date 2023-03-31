@@ -37,11 +37,7 @@ function UpTep(E$L, PS) {
 
         if (!f) f = fileInput.files;
 
-        //uploadIcon.removeClass().addClass('fa fa-check-circle upload-icon');
-
-        //dragDropText.innerHTML = 'File Dropped Successfully!';
-
-        //E$L.querySelector(".nhan").innerHTML = 'drag & drop or <span class="browse-files"> <span class="browse-files-text"> <input type="file" class="default-file-input"/> browse file</span></span>';
+        if (f.length == 0) return;
 
         uploadButton.innerHTML = 'Upload';
         fileName.innerHTML = f[0].name;
@@ -305,51 +301,33 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
 
             ifr000 = function (frmEL,fi) {
 
+                if (evtWK) {
+                    $(evtWK).remove();
+                };
+
                 calcSession = new Date().getTime();
                 evtWK = document.createElement('iframe');
                 evtWK.setAttribute("style", "height:565px;width:100%;border:none");
                 evtWK.setAttribute("frameborder", "0");
                 //
-                //evtWK.setAttribute('seson', btoa(calcSession + '|' + w0w.location.origin + '|' + (!w0w.Worker || true)));
                 //
-
-                //debugger;
-                //var iDoc = evtWK.contentWindow.document
-                //    , attcalc = iDoc.createElement('script');
-
                 apisvr.a$.sessions[calcSession] = {
                     id: calcSession,
                     fn: function (a, b, c) {
                         if (a == 'job') {
                             switch (b.evtData.messageType) {
                                 case 0: {//calc ready !
-
+                                    //
                                     //debugger;
-
-                                    //var reader = new FileReader();
-                                    //reader.readAsDataURL(fi);
-
-                                    //reader.onload = function () {
-                    
-                                    //    evtWK.contentWindow.postMessage({ k: 1, dat: reader.result }, "*");
-
-                                    //};
-
-                                    //var reader = new FileReader();
-                                    //reader.onload = function (e) {
-                                    //    var blob = new Blob([new Uint8Array(e.target.result)], { type: fi.type });
-                                    //    evtWK.contentWindow.postMessage({ k: 1, dat: reader.result }, "*");
-                                    //};
-                                    //reader.readAsArrayBuffer(fi);
-
-
+                                    //
+                                    //https://gist.github.com/jcable/25d4c86d96d810a5498d
+                                    //
                                     var blob = fi.slice(0, fi.size, fi.type);
                                     //formData.append(form[i].name, blob, files[0].name);
                                     evtWK.contentWindow.postMessage({ k: 1, dat: { na: fi.name, bl: blob, 'cat': fi.type } }, "*");
-
-                           
-
+                                    //
                                     break;
+                                    //
                                 } case 1: {
 
                                     debugger;
