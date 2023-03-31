@@ -1,4 +1,6 @@
-﻿(function () {
+﻿"use strict";
+
+(function () {
 
     debugger;
     //
@@ -168,19 +170,19 @@
 
 
 
-    var snd_msg = document.getElementById("test_msg");
-    snd_msg.addEventListener("click", function () {
-        debugger;
-        //window.parent.postMessage('Hello', '*');
-        window.parent.postMessage({ 'msgtype': 'session', 'msgkind': session, 'evtData': { messageType: 0 } }, orgMsg);
-    })
+    //var snd_msg = document.getElementById("test_msg");
+    //snd_msg.addEventListener("click", function () {
+    //    debugger;
+    //    //window.parent.postMessage('Hello', '*');
+    //    window.parent.postMessage({ 'msgtype': 'session', 'msgkind': session, 'evtData': { messageType: 0 } }, orgMsg);
+    //})
 
 
 
 
-    debugger;
-    //**************************** post load *********************************************//
-    window.parent.postMessage({ 'msgtype': 'session', 'msgkind': session, 'evtData': { messageType: 0 } }, orgMsg);
+    //debugger;
+    ////**************************** post load *********************************************//
+    //window.parent.postMessage({ 'msgtype': 'session', 'msgkind': session, 'evtData': { messageType: 0 } }, orgMsg);
 
 
 
