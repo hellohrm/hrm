@@ -286,6 +286,7 @@ function UpTep(E$L, PS) {
 }
 
 
+
 w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
 
 
@@ -299,18 +300,70 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
             calcSession,
             elUI = {},
 
-            ifr000 = function (frmEL,fi) {
+            ifr000 = function (frmEL, fi) {
+                //
+                var defe = $.Deferred(),
+                    hwnHOLE = -1,
 
-                if (evtWK) {
-                    $(evtWK).remove();
-                };
+                    downURL = [0],
 
+                    lstSTO = ['hellohrm2020.ddns.net:10996/000webhostapp.com', 'apphrm.000webhostapp.com'],
+
+                    subHOLE = function () {
+                        //
+                        if (evtWK) {
+                            $(evtWK).remove();
+                        };
+                        //
+                        //end detect.
+                        clearTimeout(hwnHOLE);
+                        //
+                        evtWK = document.createElement('iframe');
+                        evtWK.setAttribute("style", "height:565px;width:100%;border:none");
+                        evtWK.setAttribute("frameborder", "0");
+                        //
+                        evtWK.onload = function (e) {
+                            //
+                        };
+                        //
+                        //
+                        if (downURL.length < lstSTO.length) {//valid collection
+                            //
+                            var url = -1;//srcpf$.length > 0 ? '/apphrm.' : '';//https://apphrm.000webhostapp.com/
+                            //
+                            do {
+                                //lay index random
+                                url = Math.floor(Math.random() * lstSTO.length);
+                            } while (downURL.indexOf(url)>-1);
+                            //
+                            //push vao de tranh ra lan sau
+                            downURL.push(url);
+
+
+
+                            ///media/utils/jsc/upemp.js
+                            evtWK.setAttribute('src','https://' + lstSTO[url] + '/upexcel.html?seson=' + btoa(calcSession + '|' + w0w.location.origin
+
+                                + '|' + (!w0w.Worker || true)
+
+                                + '|' + ('https://hellohrm.github.io/utils/media/utils/jsc/upemp.js?' + new Date().getTime())
+
+
+                                ));
+
+
+                            //
+                            frmEL.find('.im_exfile').prepend(evtWK);//append vao step 3 main div
+                            //
+                            //dtect after 1 second
+                            hwnHOLE = setTimeout(function () {
+                                subHOLE();
+                            }, 5000);
+                            //
+                        };
+                    };
+                //
                 calcSession = new Date().getTime();
-                evtWK = document.createElement('iframe');
-                evtWK.setAttribute("style", "height:565px;width:100%;border:none");
-                evtWK.setAttribute("frameborder", "0");
-                //
-                //
                 apisvr.a$.sessions[calcSession] = {
                     id: calcSession,
                     fn: function (a, b, c) {
@@ -318,8 +371,15 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
                             switch (b.evtData.messageType) {
                                 case 0: {//calc ready !
                                     //
-                                    //debugger;
                                     //
+                                    //aha... co tinh hieu
+                                    //end detect.
+                                    clearTimeout(hwnHOLE);
+                                    //console.log(' clearTimeout(hwnHOLE)');
+                                    //
+                                    //
+                                    //debugger;
+                                    //https://gist.github.com/wuchengwei/b7e1820d39445f431aeaa9c786753d8e
                                     //https://gist.github.com/jcable/25d4c86d96d810a5498d
                                     //
                                     var blob = fi.slice(0, fi.size, fi.type);
@@ -338,49 +398,16 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
                         };
                     }
                 };
+
+                //
+                subHOLE();
                 //
                 //
-
-                //'/media/js/attcalc.js'
-                //attcalc.setAttribute('src', srcpf$ + "\x2F\x6D\x65\x64\x69\x61\x2F\x6A\x73\x2Fim_nhanvien.js" + src$id);//'https://hrm.dnd.vn'
-                //iDoc.head.appendChild(attcalc);
+                return defe.promise();
                 //
                 //
-
-
-
-                evtWK.onload = function () {
-                    //
-
-                };
-                //
-
-
-
-                //debugger;
-                //var c=frmEL.find("#da-iframe").contents();
-                //var d=c.find("#m_excelEmbedRenderer_m_ewaEmbedViewerBar");
-                //
-                // div tag in which iframe will be added should have id attribute with value myDIV
-
-
-                var url = srcpf$.length > 0 ? '/apphrm.' : '';//https://apphrm.000webhostapp.com/
-
-
-                evtWK.setAttribute('src', '/' + url + '000webhostapp.com/upexcel.html?seson=' + btoa(calcSession + '|' + w0w.location.origin
-
-                    + '|' + (!w0w.Worker || true)
-
-                    + '|' + (srcpf$ + "\x2F\x6D\x65\x64\x69\x61\x2F\x6A\x73\x2Fim_nhanvien.js" + src$id)
-
-
-                    ));
-
-
-                frmEL.find('.im_exfile').prepend(evtWK);//append vao step 3 main div
-                //
-
             };
+
 
 
 
@@ -418,14 +445,61 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
                     //
                     //debugger;
                     //
-                    ifr000(frmEL, fi);
+                    $.when(ifr000(frmEL, fi)).done(function (va) {
+                        alert(va);
+                    });
+                    //
                     //
                 }
+            });
+            //
+            //
+            _gsC(srcpf$ + '/media/js/form-wizard.js', 'js', function () {
+                //
+                // Smart Wizard
+                frmEL.find('#smartwizard').smartWizard({
+                    selected: 0,
+                    onShowStep: function (e) {
+                        console.log('onShowStep');
+                        return true;
+                    }
+                    ,
+                    onLeaveStep: function (e) {
+                        console.log('onLeaveStep');
+                        return true;
+                    }
+                });
+                //
+                srclocked(false);
+                //
+            }, 'form-wizard.js');
+
+
+
+
+
+
+
+
+
+
+            frmEL.find('.sw-toolbar-elm').on('click', '.btn', function (e) {
+
+                debugger;
+
+                frmEL[0].style.setProperty('--sw-progress-width', '40%');
+
+
+                var wiz = frmEL.find('#smartwizard').data('smartWizard');
+
+                wiz.goForward();
+
+
             });
 
 
 
-            srclocked(false);
+
             return;
             //
             //
@@ -442,12 +516,12 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
 
 
 
-            admin$.DEV(function () {
-                //
+            //admin$.DEV(function () {
+            //    //
 
-                srclocked(false);
-                //
-            });
+            //    srclocked(false);
+            //    //
+            //});
 
 
         };
