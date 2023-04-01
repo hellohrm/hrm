@@ -305,7 +305,7 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
                 var defe = $.Deferred(),
                     hwnHOLE = -1,
 
-                    downURL = [0],
+                    downURL = [1],
 
                     lstSTO = ['hellohrm2020.ddns.net:10996/000webhostapp.com', 'apphrm.000webhostapp.com'],
 
@@ -342,7 +342,7 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
 
 
                             ///media/utils/jsc/upemp.js
-                            evtWK.setAttribute('src','https://' + lstSTO[url] + '/upexcel.html?seson=' + btoa(calcSession + '|' + w0w.location.origin
+                            evtWK.setAttribute('src','//' + lstSTO[url] + '/upexcel.html?seson=' + btoa(calcSession + '|' + w0w.location.origin
 
                                 + '|' + (!w0w.Worker || true)
 
