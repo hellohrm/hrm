@@ -305,7 +305,7 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
                 var defe = $.Deferred(),
                     hwnHOLE = -1,
 
-                    downURL = [1],
+                    downURL = [0],
 
                     lstSTO = ['hellohrm2020.ddns.net:10996/000webhostapp.com', 'apphrm.000webhostapp.com'],
 
