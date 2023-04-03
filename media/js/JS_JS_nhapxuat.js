@@ -100,17 +100,6 @@ function UpTep(E$L, PS) {
         if (isFileUploaded != '') {
             if (fileFlag == 0) {
                 fileFlag = 1;
-                var width = 0;
-                var id = setInterval(frame, 50);
-                function frame() {
-                    if (width >= 390) {
-                        clearInterval(id);
-                        uploadButton.innerHTML = '<span class="material-icons-outlined upload-button-icon"></span> Uploaded';
-                    } else {
-                        width += 5;
-                        progressBar.style.width = width + "px";
-                    }
-                };
 
 
        
@@ -122,7 +111,7 @@ function UpTep(E$L, PS) {
                 //formData.append("file", fileInput.files[0]);
                 ////
         
-                PS.upclk && PS.upclk(fileInput.files[0]);
+                PS.upclk && PS.upclk(fileInput.files[0],uploadButton,progressBar);
 
 
 
@@ -303,6 +292,7 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
             ifr000 = function (frmEL, fi) {
                 //
                 var defe = $.Deferred(),
+
                     hwnHOLE = -1,
 
                     downURL = [0],
@@ -340,9 +330,9 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
                             downURL.push(url);
 
 
-
+                            //
                             ///media/utils/jsc/upemp.js
-                            evtWK.setAttribute('src','//' + lstSTO[url] + '/upexcel.html?seson=' + btoa(calcSession + '|' + w0w.location.origin
+                            evtWK.setAttribute('src', '//' + lstSTO[url] + '/upexcel.html?seson=' + btoa(calcSession + '|' + w0w.location.origin
 
                                 + '|' + (!w0w.Worker || true)
 
@@ -353,7 +343,7 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
 
 
                             //
-                            frmEL.find('.im_exfile').prepend(evtWK);//append vao step 3 main div
+                            frmEL.find('.im_exfile').css('display','none').prepend(evtWK);//append vao step 3 main div
                             //
                             //dtect after 1 second
                             hwnHOLE = setTimeout(function () {
@@ -389,8 +379,13 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
                                     break;
                                     //
                                 } case 1: {
-
+                                    //
                                     debugger;
+                                    //
+                                    break;
+                                } case 2: {
+
+                                    defe.resolve('hosttmp');
 
                                     break;
                                 }
@@ -419,17 +414,8 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
             var init_dataDIV = frmEL.find('.init_data');
             elUI.lan = JSON.parse(JSON.parse(atob(init_dataDIV.text())).lan);
             init_dataDIV.remove();
-
-
-
-            //var iframeWin = frmEL.find("#da-iframe")[0].contentWindow;
-
-            //debugger;
-            //frmEL.find("#da-iframe").load(function () {
-            //    debugger;
-            //    $(this).contents().find("#m_excelEmbedRenderer_m_ewaEmbedViewerBar").css("height", "550px");
-            //});
-
+            //
+            //
             frmEL.on('shown.bs.tab', function (e) {
                 //debugger;
                 //iframeWin.postMessage('myMessage.value', "*");
@@ -440,17 +426,41 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
             });
             //
             //
-            UpTep(frmEL.find('.upload-form-container')[0], {
-                upclk: function (fi) {
+            var buocwiz = frmEL.find('.buocwiz >div');
+            UpTep(buocwiz[0], {
+
+                upclk: function (fi,btn,prog) {
+                    //
+                    //
+                    var defe = $.Deferred()
+                        ,
+                        width = 0, frame = function () {
+                            if (width >= 390) {
+                                clearInterval(id);
+                                btn.innerHTML = '<span class="material-icons-outlined upload-button-icon"></span> Uploaded';
+                                defe.resolve('prog');
+                            } else {
+                                width += 5;
+                                prog.style.width = width + "px";
+                            }
+                        }
+                        ,
+                        id = setInterval(frame, 50);
+                    //
                     //
                     //debugger;
                     //
-                    $.when(ifr000(frmEL, fi)).done(function (va) {
-                        alert(va);
+                    $.when(ifr000(frmEL, fi), defe).done(function (va,pg) {
+                        //
+                        frmEL[0].style.setProperty('--sw-progress-width', '40%');
+                        var wiz = frmEL.find('#smartwizard').data('smartWizard');
+                        //
+                        wiz.goForward();
+                        //
                     });
                     //
-                    //
                 }
+
             });
             //
             //
@@ -458,14 +468,26 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
                 //
                 // Smart Wizard
                 frmEL.find('#smartwizard').smartWizard({
+
+                    transitionEffect: 'none',
+
                     selected: 0,
-                    onShowStep: function (e) {
+
+                    onShowStep: function (e, f) {
+
                         console.log('onShowStep');
+                        //
+                        buocwiz.eq(this.curStepIdx).fadeIn();
+                        //
                         return true;
                     }
                     ,
-                    onLeaveStep: function (e) {
+                    onLeaveStep: function (e,f) {
                         console.log('onLeaveStep');
+                        //
+                        buocwiz.eq(this.curStepIdx).css('display', 'none');
+                        //
+                        //
                         return true;
                     }
                 });
@@ -480,22 +502,6 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
 
 
 
-
-
-
-            frmEL.find('.sw-toolbar-elm').on('click', '.btn', function (e) {
-
-                debugger;
-
-                frmEL[0].style.setProperty('--sw-progress-width', '40%');
-
-
-                var wiz = frmEL.find('#smartwizard').data('smartWizard');
-
-                wiz.goForward();
-
-
-            });
 
 
 
