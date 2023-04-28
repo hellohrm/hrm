@@ -241,3 +241,7 @@
     -webkit-transform: translateY(0.7em);
     transform: translateY(0.7em);
 }
+
+    .buocwiz p {
+        font-size:14px!important;
+    }
