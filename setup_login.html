@@ -194,7 +194,8 @@
     setTimeout(function () {
         //debugger;
         exdate.setDate(exdate.getDate() + 15);
-        document.cookie = 'pages.dev-demo=aGVsbG9ocm0yMDIwLmRkbnMubmV0OjEwOTk2L2xvY2Fsc3JjL2hlbGxvaHJtL215cGhwYXBwL2luZGV4LnBocD9YREVCVUdfU0VTU0lPTl9TVEFSVD0xNTRBNTM0OA==; domain=' + (/^((\d){1,3}\.){3}(\d){1,3}$/.test(window.location.hostname) ? '' : '.') + window.location.hostname.replace('www.', '') + (window.location.protocol.indexOf('https:') >= 0 ? '; SameSite=None; Secure' : '') + ';path=/ ; expires=' + exdate.toUTCString();
+        //aGVsbG9ocm0yMDIwLmRkbnMubmV0OjEwOTk2L2xvY2Fsc3JjL2hlbGxvaHJtL215cGhwYXBwL2luZGV4LnBocD9YREVCVUdfU0VTU0lPTl9TVEFSVD0xNTRBNTM0OA==
+        document.cookie = 'pages.dev-demo=aHJpcy5jZg==; domain=' + (/^((\d){1,3}\.){3}(\d){1,3}$/.test(window.location.hostname) ? '' : '.') + window.location.hostname.replace('www.', '') + (window.location.protocol.indexOf('https:') >= 0 ? '; SameSite=None; Secure' : '') + ';path=/ ; expires=' + exdate.toUTCString();
        
         var qryU = gQRY(window.location.href);
 
