@@ -1,1 +1,124 @@
-﻿var _0xc6e3=["\x30","\x76\x69","\x2F\x6F\x64\x61\x74\x2F","\x69\x6E\x64\x65\x78\x4F\x66","\x70\x61\x74\x68\x6E\x61\x6D\x65","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x73\x65\x6C\x65\x63\x74\x65\x64\x5F\x6C\x61\x6E\x67\x75\x61\x67\x65","\x47\x45\x54","\x50\x4F\x53\x54","\x2F\x54\x61\x62\x50\x61\x67\x65\x44\x61\x74\x61","\x74\x61\x62\x49\x64","\x2F","\x2E\x68\x74\x6D\x6C","\x61\x6A\x61\x78\x73\x65\x73\x73\x69\x6F\x6E","\x61\x70\x70\x65\x6E\x64","\x70\x6F\x73\x74\x4D\x65\x73\x73\x61\x67\x65","\x3F\x58\x44\x45\x42\x55\x47\x5F\x53\x45\x53\x53\x49\x4F\x4E\x5F\x53\x54\x41\x52\x54\x3D\x31\x35\x34\x41\x35\x33\x34\x38","\x6F\x70\x65\x6E","\x6F\x6E\x6C\x6F\x61\x64","\x73\x74\x61\x74\x75\x73","\x6E\x65\x77\x54\x61\x62\x50\x61\x67\x65","\x72\x65\x73\x6F\x6C\x76\x65","\x72\x65\x73\x70\x6F\x6E\x73\x65","\x72\x65\x6A\x65\x63\x74","\x73\x74\x61\x74\x75\x73\x54\x65\x78\x74","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x70\x72\x6F\x67\x72\x65\x73\x73","\x6C\x65\x6E\x67\x74\x68\x43\x6F\x6D\x70\x75\x74\x61\x62\x6C\x65","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x75\x70\x6C\x6F\x61\x64","\x6F\x6E\x65\x72\x72\x6F\x72","\x73\x65\x6E\x64","\x61\x63\x74","\x64\x61\x74\x61","\x72\x65\x6C\x6F\x61\x64\x68\x6F\x6C\x65","\x73\x6F\x75\x72\x63\x65","\x6F\x72\x69\x67\x69\x6E","\x75\x72\x69","\x6D\x65\x73\x73\x61\x67\x65","\x61\x74\x74\x61\x63\x68\x45\x76\x65\x6E\x74","\x6F\x6E\x6D\x65\x73\x73\x61\x67\x65","\x64\x65\x6D\x6F","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x6E\x61\x6D\x65","\x67\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x64\x65\x6D\x6F\x61\x70\x70","\x30\x30\x30\x30\x30\x30","\x64\x61\x74\x61\x2D\x72\x61\x77\x68\x74\x6D\x6C","\x64\x61\x74\x61\x2D\x77\x68\x6F\x61\x6D\x69","\x70\x61\x72\x65\x6E\x74","\x74\x65\x78\x74\x61\x72\x65\x61","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x76\x61\x6C\x75\x65","\x72\x65\x73\x75\x6C\x74","\x70\x61\x72\x73\x65","\x75\x69","\x72\x61\x77\x68\x74\x6D\x6C","","\x2F\x68\x6F\x6C\x65","\x72\x65\x6D\x6F\x76\x65","\x68\x74\x6D\x6C","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65"];function gethtml(_0xa769x2,_0xa769x3,_0xa769x4,_0xa769x5){var _0xa769x6=_0xc6e3[0];var _0xa769x7=_0xc6e3[1],_0xa769x8=window[_0xc6e3[5]][_0xc6e3[4]][_0xc6e3[3]](_0xc6e3[2])>  -1?(_0xa769x7= _0xa769x4[_0xc6e3[6]],_0xc6e3[7]):_0xc6e3[8],_0xa769x9= new FormData(),_0xa769xa=_0xc6e3[9];for(var _0xa769xb in _0xa769x4){if(_0xa769xb== _0xc6e3[10]&& _0xa769x8== _0xc6e3[7]){_0xa769xa= _0xa769x7+ _0xc6e3[11]+ _0xa769x4[_0xa769xb]+ _0xc6e3[12]}else {if(_0xa769xb== _0xc6e3[13]){_0xa769x6= _0xa769x4[_0xa769xb]}else {_0xa769x9[_0xc6e3[14]](_0xa769xb,_0xa769x4[_0xa769xb])}}};var _0xa769xc= new XMLHttpRequest(),_0xa769xd=function(_0xa769xe){_0xa769x2[_0xc6e3[15]](_0xa769xe,_0xa769x3)};_0xa769xc[_0xc6e3[17]](_0xa769x8,(!_0xa769x5?_0xa769xa:_0xa769x5) + _0xc6e3[16],true);_0xa769xc[_0xc6e3[18]]= function(){if(_0xa769xc[_0xc6e3[19]]=== 200){_0xa769xd({'\x6D\x73\x67\x74\x79\x70\x65':_0xc6e3[20],'\x61\x6A\x61\x78\x73\x65\x73\x73\x69\x6F\x6E':_0xa769x6,'\x6B\x71':_0xc6e3[21],'\x72\x65\x73\x75\x6C\x74':_0xa769xc[_0xc6e3[22]]})}else {_0xa769xd({'\x6D\x73\x67\x74\x79\x70\x65':_0xc6e3[20],'\x61\x6A\x61\x78\x73\x65\x73\x73\x69\x6F\x6E':_0xa769x6,'\x6B\x71':_0xc6e3[23],'\x72\x65\x73\x75\x6C\x74':JSON[_0xc6e3[25]]({status:_0xa769xc[_0xc6e3[19]],statusText:_0xa769xc[_0xc6e3[24]],response:_0xa769xc[_0xc6e3[22]]})})}};_0xa769xc[_0xc6e3[29]][_0xc6e3[28]](_0xc6e3[26],function(_0xa769xf){if(_0xa769xf[_0xc6e3[27]]){}},false);_0xa769xc[_0xc6e3[30]]= function(){_0xa769xd({'\x6D\x73\x67\x74\x79\x70\x65':_0xc6e3[20],'\x61\x6A\x61\x78\x73\x65\x73\x73\x69\x6F\x6E':_0xa769x6,'\x6B\x71':_0xc6e3[23],'\x72\x65\x73\x75\x6C\x74':JSON[_0xc6e3[25]]({status:_0xa769xc[_0xc6e3[19]],statusText:_0xa769xc[_0xc6e3[24]],response:_0xa769xc[_0xc6e3[22]]})})};if(_0xa769x8== _0xc6e3[7]){_0xa769xc[_0xc6e3[31]]()}else {_0xa769xc[_0xc6e3[31]](_0xa769x9)}}function handleMessage(_0xa769x11){if(_0xa769x11[_0xc6e3[33]][_0xc6e3[32]]== _0xc6e3[34]){setTimeout(function(){reloadhole(_0xa769x11[_0xc6e3[33]])},1)}else {setTimeout(function(){ new gethtml(_0xa769x11[_0xc6e3[35]],_0xa769x11[_0xc6e3[36]],_0xa769x11[_0xc6e3[33]],_0xa769x11[_0xc6e3[33]][_0xc6e3[37]])},1)}}if(window[_0xc6e3[28]]){window[_0xc6e3[28]](_0xc6e3[38],handleMessage,false)}else {if(window[_0xc6e3[39]]){window[_0xc6e3[39]](_0xc6e3[40],handleMessage)}};try{var chkINI,htmlC=document[_0xc6e3[42]](_0xc6e3[41]);if(htmlC[_0xc6e3[44]](_0xc6e3[43])== _0xc6e3[45]){window[_0xc6e3[49]][_0xc6e3[15]](_0xc6e3[46]+ htmlC[_0xc6e3[44]](_0xc6e3[47]),htmlC[_0xc6e3[44]](_0xc6e3[48]))}else {var _DE=function(_0xa769x16){var _0xa769x17=document[_0xc6e3[51]](_0xc6e3[50]);_0xa769x17[_0xc6e3[52]]= _0xa769x16;return _0xa769x17[_0xc6e3[53]]},_postMessage=function(_0xa769xe){var _0xa769x18=JSON[_0xc6e3[55]](_0xa769xe[_0xc6e3[54]]);if(_0xa769x18[_0xc6e3[56]]!== _0xc6e3[45]){setTimeout(chkINI,500)}else {window[_0xc6e3[49]][_0xc6e3[15]](_0xc6e3[46]+ _DE(_0xa769x18[_0xc6e3[57]]),htmlC[_0xc6e3[44]](_0xc6e3[48]))}};chkINI= function(){ new gethtml({postMessage:_postMessage},_0xc6e3[58],{'\x63\x68\x6B\x5F\x69\x6E\x69\x5F\x73\x74\x61\x74\x75\x73':htmlC[_0xc6e3[44]](_0xc6e3[43]),'\x64\x69\x65\x73\x76\x72':htmlC[_0xc6e3[44]](_0xc6e3[47])},_0xc6e3[59])};setTimeout(chkINI,500)};document[_0xc6e3[62]](_0xc6e3[61])[0][_0xc6e3[60]]()}catch(err){}
+﻿function gethtml(e_source, e_origin, form_data, uri) {
+    var ajaxsession = '0';
+    // Post form data
+
+    var lg='vi',//default cloudflare template page folder vi
+        method = window.location.pathname.indexOf('/odat/') > -1 ? (lg=form_data.selected_language, 'GET') : 'POST',
+        post_data = new FormData(), tabpage = "/TabPageData";
+    //
+    for (var key in form_data) {
+        if (key == 'tabId' && method == 'GET') {
+            tabpage = lg + '/' + form_data[key] + '.html';
+        } else if (key == 'ajaxsession') {
+            ajaxsession = form_data[key];
+        } else {
+            post_data.append(key, form_data[key]);
+        };
+    };
+    //
+    //
+    //
+    var xhr = new XMLHttpRequest(),
+        cb = function (args) { e_source.postMessage(args, e_origin); };
+    xhr.open(method, (!uri ? tabpage /* old:"/TabPageData" */ : uri) + "?XDEBUG_SESSION_START=154A5348", true);
+    //xhr.open('POST', (!uri ? "/TabPageData" : uri) + "?XDEBUG_SESSION_START=154A5348", true);
+    //
+    //
+    xhr.onload = function () {
+        if (xhr.status === 200) {
+            // Get the response
+            cb({ 'msgtype': 'newTabPage','ajaxsession':ajaxsession, 'kq': 'resolve', 'result': xhr.response });
+        } else {
+            //update khi liwayway project registration tra ve status text la code language
+            cb({ 'msgtype': 'newTabPage', 'ajaxsession': ajaxsession, 'kq': 'reject', 'result': JSON.stringify({status: xhr.status, statusText: xhr.statusText, response:  xhr.response}) });// xhr.statusText });// xhr.status + " - " + xhr.statusText + '|' + xhr.response
+        }
+    };
+    xhr.upload.addEventListener("progress", function (evt) {
+        if (evt.lengthComputable) {
+            //var width = Math.round((evt.loaded / evt.total) * 100);
+            //progress_bar.style.width = width + '%';
+            //loading_text.innerHTML = width * 1 + '%';
+        }
+    }, false);
+    xhr.onerror = function () {
+        //update khi liwayway project registration tra ve status text la code language
+        cb({ 'msgtype': 'newTabPage', 'ajaxsession': ajaxsession, 'kq': 'reject', 'result': JSON.stringify({ status: xhr.status, statusText: xhr.statusText, response: xhr.response }) });// xhr.status + " - " + xhr.statusText + '|' + xhr.response
+    };
+
+    //*******neu muon send json string to server
+    ////////xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+    ////////xhr.send(JSON.stringify(form_data));
+
+    //*******neu muon send json object to serve
+
+    /*
+    var post_data = new FormData();
+    for (var key in form_data) {
+        if (key == 'ajaxsession') {
+            ajaxsession = form_data[key];
+        } else {
+            post_data.append(key, form_data[key]);
+        };
+    };
+    xhr.send(post_data);
+    */
+
+
+    if (method == 'GET') {
+        xhr.send();
+    } else {
+        xhr.send(post_data);
+    };
+
+};
+//function reloadhole(data) {
+//    document.open();
+//    document.write(data['doc']);
+//    document.close();
+//    document.getElementById('demoForm').setAttribute('action', data['url']);
+//    document.getElementById('whoami').setAttribute("value", data['whoami']);
+//    document.getElementById('submitBtn').click();
+//};
+
+// event handler for postMessage
+function handleMessage(e) {
+    if (e.data['act'] == 'reloadhole') {
+        setTimeout(function () { reloadhole(e.data); }, 1);
+    } else {
+        setTimeout(function () {new gethtml(e.source, e.origin, e.data, e.data.uri); }, 1);
+    };
+}
+// assign handler for message events
+if (window.addEventListener) {
+    window.addEventListener('message', handleMessage, false);
+} else if (window.attachEvent) { // ie8
+    window.attachEvent('onmessage', handleMessage);
+};
+
+try {
+    //debugger;
+    var chkINI, htmlC = document.getElementById('demo');
+    if (htmlC.getAttribute('name') == 'demoapp') {
+        window.parent.postMessage('000000' + htmlC.getAttribute('data-rawhtml'), htmlC.getAttribute('data-whoami'));
+    } else {
+        var _DE = function (html) {
+            var txt = document.createElement("textarea");
+            txt.innerHTML = html;
+            return txt.value;
+        }, _postMessage = function (args) {
+            var test = JSON.parse(args.result);
+            if (test.ui !== 'demoapp') {
+                setTimeout(chkINI, 500);
+            } else {
+                window.parent.postMessage('000000' + _DE(test.rawhtml), htmlC.getAttribute('data-whoami'));
+            };
+        };
+        chkINI = function () {
+            new gethtml({
+                postMessage: _postMessage
+            }, "", { 'chk_ini_status': htmlC.getAttribute('name'), 'diesvr': htmlC.getAttribute('data-rawhtml') }, '/hole');
+        };
+        setTimeout(chkINI, 500);
+    };
+    document.getElementsByTagName("html")[0].remove();
+} catch (err) { };
