@@ -26,7 +26,12 @@ https://stegriff.co.uk/upblog/base64-encode-and-decode-unicode-utf-8-strings-in-
     }
 // base64 encoded ascii to ucs-2 string
 String.prototype.atou = function () {
-    return decodeURIComponent(escape(window.atob(this)));
+    try {
+        return decodeURIComponent(escape(window.atob(this)));
+    }
+    catch (err) {
+        return '';
+    };
 }
 
 
