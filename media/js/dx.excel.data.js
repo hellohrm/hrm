@@ -1,1 +1,1276 @@
-var _0xdd1b=["\x75\x73\x65\x20\x73\x74\x72\x69\x63\x74","\x73\x65\x6C\x65\x63\x74\x65\x64\x5F\x6C\x61\x6E\x67\x75\x61\x67\x65","\x61\x24","\x65\x79\x4A\x7A\x5A\x57\x4E\x7A\x49\x6A\x70\x62\x65\x79\x4A\x70\x5A\x43\x49\x36\x4D\x54\x41\x77\x4D\x69\x77\x69\x62\x32\x6C\x6B\x49\x6A\x6F\x78\x4C\x43\x4A\x77\x61\x57\x51\x69\x4F\x69\x30\x78\x4C\x43\x4A\x6C\x65\x48\x42\x68\x49\x6A\x70\x30\x63\x6E\x56\x6C\x4C\x43\x4A\x6B\x61\x58\x4D\x69\x4F\x69\x4A\x43\x59\x57\x34\x67\x52\x32\x6E\x44\x6F\x57\x30\x67\x78\x4A\x48\x68\x75\x35\x46\x6A\x49\x6E\x30\x73\x65\x79\x4A\x70\x5A\x43\x49\x36\x4D\x54\x41\x77\x4D\x79\x77\x69\x62\x32\x6C\x6B\x49\x6A\x6F\x79\x4C\x43\x4A\x77\x61\x57\x51\x69\x4F\x6A\x45\x73\x49\x6D\x56\x34\x63\x47\x45\x69\x4F\x6E\x52\x79\x64\x57\x55\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6C\x42\x6F\x77\x37\x4A\x75\x5A\x79\x42\x72\x61\x57\x35\x6F\x49\x47\x52\x76\x59\x57\x35\x6F\x49\x6E\x30\x73\x65\x79\x4A\x70\x5A\x43\x49\x36\x4D\x54\x41\x77\x4E\x43\x77\x69\x62\x32\x6C\x6B\x49\x6A\x6F\x7A\x4C\x43\x4A\x77\x61\x57\x51\x69\x4F\x6A\x49\x73\x49\x6D\x56\x34\x63\x47\x45\x69\x4F\x6E\x52\x79\x64\x57\x55\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6B\x4C\x68\x75\x35\x6B\x67\x63\x47\x6A\x68\x75\x71\x31\x75\x49\x45\x4C\x44\x6F\x57\x34\x67\x61\x4D\x4F\x67\x62\x6D\x63\x69\x66\x53\x78\x37\x49\x6D\x6C\x6B\x49\x6A\x6F\x78\x4D\x44\x41\x31\x4C\x43\x4A\x76\x61\x57\x51\x69\x4F\x6A\x51\x73\x49\x6E\x42\x70\x5A\x43\x49\x36\x4D\x69\x77\x69\x5A\x58\x68\x77\x59\x53\x49\x36\x64\x48\x4A\x31\x5A\x53\x77\x69\x5A\x47\x6C\x7A\x49\x6A\x6F\x69\x51\x75\x47\x37\x6D\x53\x42\x77\x61\x4F\x47\x36\x72\x57\x34\x67\x55\x58\x58\x68\x75\x71\x4E\x75\x5A\x79\x42\x6A\x77\x36\x46\x76\x49\x6E\x30\x73\x65\x79\x4A\x70\x5A\x43\x49\x36\x4D\x54\x41\x77\x4E\x69\x77\x69\x62\x32\x6C\x6B\x49\x6A\x6F\x31\x4C\x43\x4A\x77\x61\x57\x51\x69\x4F\x6A\x45\x73\x49\x6D\x56\x34\x63\x47\x45\x69\x4F\x6E\x52\x79\x64\x57\x55\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6C\x42\x6F\x77\x37\x4A\x75\x5A\x79\x44\x45\x6B\x47\x6E\x68\x75\x34\x46\x31\x49\x47\x6A\x44\x6F\x47\x35\x6F\x49\x6E\x30\x73\x65\x79\x4A\x70\x5A\x43\x49\x36\x4D\x54\x41\x77\x4E\x79\x77\x69\x62\x32\x6C\x6B\x49\x6A\x6F\x32\x4C\x43\x4A\x77\x61\x57\x51\x69\x4F\x6A\x51\x73\x49\x6D\x56\x34\x63\x47\x45\x69\x4F\x6E\x52\x79\x64\x57\x55\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6B\x4C\x68\x75\x35\x6B\x67\x63\x47\x6A\x68\x75\x71\x31\x75\x49\x46\x50\x68\x75\x71\x4E\x75\x49\x48\x68\x31\x34\x62\x71\x6C\x64\x43\x4A\x39\x4C\x48\x73\x69\x61\x57\x51\x69\x4F\x6A\x45\x77\x4D\x44\x67\x73\x49\x6D\x39\x70\x5A\x43\x49\x36\x4E\x79\x77\x69\x63\x47\x6C\x6B\x49\x6A\x6F\x30\x4C\x43\x4A\x6C\x65\x48\x42\x68\x49\x6A\x70\x30\x63\x6E\x56\x6C\x4C\x43\x4A\x6B\x61\x58\x4D\x69\x4F\x69\x4A\x43\x34\x62\x75\x5A\x49\x48\x42\x6F\x34\x62\x71\x74\x62\x69\x42\x45\x34\x62\x75\x4C\x59\x32\x67\x67\x64\x75\x47\x37\x70\x53\x42\x4C\x61\x4D\x4F\x68\x59\x32\x67\x67\x61\x4D\x4F\x67\x62\x6D\x63\x69\x66\x53\x78\x37\x49\x6D\x6C\x6B\x49\x6A\x6F\x78\x4D\x44\x41\x35\x4C\x43\x4A\x76\x61\x57\x51\x69\x4F\x6A\x67\x73\x49\x6E\x42\x70\x5A\x43\x49\x36\x4D\x53\x77\x69\x5A\x58\x68\x77\x59\x53\x49\x36\x64\x48\x4A\x31\x5A\x53\x77\x69\x5A\x47\x6C\x7A\x49\x6A\x6F\x69\x55\x47\x6A\x44\x73\x6D\x35\x6E\x49\x45\x6A\x44\x6F\x47\x35\x6F\x49\x47\x4E\x6F\x77\x36\x31\x75\x61\x43\x4A\x39\x4C\x48\x73\x69\x61\x57\x51\x69\x4F\x6A\x45\x77\x4D\x54\x41\x73\x49\x6D\x39\x70\x5A\x43\x49\x36\x4F\x53\x77\x69\x63\x47\x6C\x6B\x49\x6A\x6F\x34\x4C\x43\x4A\x6C\x65\x48\x42\x68\x49\x6A\x70\x30\x63\x6E\x56\x6C\x4C\x43\x4A\x6B\x61\x58\x4D\x69\x4F\x69\x4A\x43\x34\x62\x75\x5A\x49\x48\x42\x6F\x34\x62\x71\x74\x62\x69\x42\x4C\x34\x62\x71\x2F\x49\x48\x52\x76\x77\x36\x46\x75\x49\x6E\x30\x73\x65\x79\x4A\x70\x5A\x43\x49\x36\x4D\x54\x41\x78\x4D\x53\x77\x69\x62\x32\x6C\x6B\x49\x6A\x6F\x78\x4D\x43\x77\x69\x63\x47\x6C\x6B\x49\x6A\x6F\x35\x4C\x43\x4A\x6C\x65\x48\x42\x68\x49\x6A\x70\x30\x63\x6E\x56\x6C\x4C\x43\x4A\x6B\x61\x58\x4D\x69\x4F\x69\x4A\x43\x34\x62\x75\x5A\x49\x48\x42\x6F\x34\x62\x71\x74\x62\x69\x42\x4F\x61\x4D\x4F\x69\x62\x69\x42\x7A\x34\x62\x75\x78\x49\x6E\x31\x64\x4C\x43\x4A\x77\x62\x33\x4E\x7A\x49\x6A\x70\x62\x65\x79\x4A\x70\x5A\x43\x49\x36\x4D\x6A\x41\x77\x4D\x43\x77\x69\x5A\x47\x6C\x7A\x49\x6A\x6F\x69\x56\x43\x35\x51\x49\x45\x35\x6F\x77\x36\x4A\x75\x49\x48\x50\x68\x75\x37\x45\x69\x66\x53\x78\x37\x49\x6D\x6C\x6B\x49\x6A\x6F\x79\x4D\x44\x41\x78\x4C\x43\x4A\x6B\x61\x58\x4D\x69\x4F\x69\x4A\x55\x4C\x6C\x41\x67\x51\x30\x35\x55\x56\x43\x4A\x39\x4C\x48\x73\x69\x61\x57\x51\x69\x4F\x6A\x49\x77\x4D\x44\x49\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6C\x54\x68\x75\x35\x56\x75\x5A\x79\x42\x48\x61\x63\x4F\x68\x62\x53\x44\x45\x6B\x65\x47\x37\x6B\x57\x4D\x69\x66\x53\x78\x37\x49\x6D\x6C\x6B\x49\x6A\x6F\x79\x4D\x44\x41\x7A\x4C\x43\x4A\x6B\x61\x58\x4D\x69\x4F\x69\x4A\x4F\x61\x4D\x4F\x69\x62\x69\x42\x32\x61\x63\x4F\x71\x62\x69\x4A\x39\x4C\x48\x73\x69\x61\x57\x51\x69\x4F\x6A\x49\x77\x4D\x44\x51\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6B\x63\x75\x78\x4A\x41\x67\x53\x32\x6C\x75\x61\x43\x42\x6B\x62\x32\x46\x75\x61\x43\x4A\x39\x4C\x48\x73\x69\x61\x57\x51\x69\x4F\x6A\x45\x77\x4D\x44\x55\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6B\x4C\x68\x75\x35\x6B\x67\x63\x47\x6A\x68\x75\x71\x31\x75\x49\x46\x46\x31\x34\x62\x71\x6A\x62\x6D\x63\x67\x59\x38\x4F\x68\x62\x79\x4A\x39\x4C\x48\x73\x69\x61\x57\x51\x69\x4F\x6A\x49\x77\x4D\x44\x59\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6B\x34\x75\x56\x69\x42\x4C\x61\x57\x35\x6F\x49\x47\x52\x76\x59\x57\x35\x6F\x49\x6E\x31\x64\x4C\x43\x4A\x6E\x5A\x57\x35\x6B\x5A\x58\x49\x69\x4F\x6C\x74\x37\x49\x6D\x6C\x6B\x49\x6A\x6F\x77\x4C\x43\x4A\x6B\x61\x58\x4D\x69\x4F\x69\x4A\x4F\x34\x62\x75\x76\x49\x6E\x30\x73\x65\x79\x4A\x70\x5A\x43\x49\x36\x4D\x53\x77\x69\x5A\x47\x6C\x7A\x49\x6A\x6F\x69\x54\x6D\x46\x74\x49\x6E\x31\x64\x4C\x43\x4A\x74\x59\x58\x4A\x79\x49\x6A\x70\x62\x65\x79\x4A\x70\x5A\x43\x49\x36\x4D\x54\x41\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x73\x53\x51\x34\x62\x75\x5A\x59\x79\x42\x30\x61\x4D\x4F\x69\x62\x69\x4A\x39\x4C\x48\x73\x69\x61\x57\x51\x69\x4F\x6A\x45\x78\x4C\x43\x4A\x6B\x61\x58\x4D\x69\x4F\x69\x4A\x4C\x34\x62\x71\x2F\x64\x43\x42\x6F\x77\x37\x52\x75\x49\x6E\x30\x73\x65\x79\x4A\x70\x5A\x43\x49\x36\x4D\x54\x49\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6B\x78\x35\x49\x47\x54\x68\x75\x34\x73\x69\x66\x53\x78\x37\x49\x6D\x6C\x6B\x49\x6A\x6F\x78\x4D\x79\x77\x69\x5A\x47\x6C\x7A\x49\x6A\x6F\x69\x53\x32\x6A\x44\x6F\x57\x4D\x69\x66\x56\x31\x39","\x65\x79\x4A\x7A\x5A\x57\x4E\x7A\x49\x6A\x70\x62\x65\x79\x4A\x70\x5A\x43\x49\x36\x4D\x54\x41\x77\x4D\x69\x77\x69\x62\x32\x6C\x6B\x49\x6A\x6F\x78\x4C\x43\x4A\x77\x61\x57\x51\x69\x4F\x69\x30\x78\x4C\x43\x4A\x6C\x65\x48\x42\x68\x49\x6A\x70\x30\x63\x6E\x56\x6C\x4C\x43\x4A\x6B\x61\x58\x4D\x69\x4F\x69\x4A\x43\x62\x32\x46\x79\x5A\x43\x42\x76\x5A\x69\x42\x45\x61\x58\x4A\x6C\x59\x33\x52\x76\x63\x6E\x4D\x69\x66\x53\x78\x37\x49\x6D\x6C\x6B\x49\x6A\x6F\x78\x4D\x44\x41\x7A\x4C\x43\x4A\x76\x61\x57\x51\x69\x4F\x6A\x49\x73\x49\x6E\x42\x70\x5A\x43\x49\x36\x4D\x53\x77\x69\x5A\x58\x68\x77\x59\x53\x49\x36\x64\x48\x4A\x31\x5A\x53\x77\x69\x5A\x47\x6C\x7A\x49\x6A\x6F\x69\x54\x57\x46\x79\x61\x32\x56\x30\x61\x57\x35\x6E\x49\x45\x52\x6C\x63\x47\x46\x79\x64\x47\x31\x6C\x62\x6E\x51\x69\x66\x53\x78\x37\x49\x6D\x6C\x6B\x49\x6A\x6F\x78\x4D\x44\x41\x30\x4C\x43\x4A\x76\x61\x57\x51\x69\x4F\x6A\x4D\x73\x49\x6E\x42\x70\x5A\x43\x49\x36\x4D\x69\x77\x69\x5A\x58\x68\x77\x59\x53\x49\x36\x64\x48\x4A\x31\x5A\x53\x77\x69\x5A\x47\x6C\x7A\x49\x6A\x6F\x69\x55\x32\x46\x73\x5A\x58\x4D\x67\x55\x32\x56\x6A\x64\x47\x6C\x76\x62\x69\x4A\x39\x4C\x48\x73\x69\x61\x57\x51\x69\x4F\x6A\x45\x77\x4D\x44\x55\x73\x49\x6D\x39\x70\x5A\x43\x49\x36\x4E\x43\x77\x69\x63\x47\x6C\x6B\x49\x6A\x6F\x79\x4C\x43\x4A\x6C\x65\x48\x42\x68\x49\x6A\x70\x30\x63\x6E\x56\x6C\x4C\x43\x4A\x6B\x61\x58\x4D\x69\x4F\x69\x4A\x42\x5A\x48\x5A\x6C\x63\x6E\x52\x70\x63\x32\x6C\x75\x5A\x79\x42\x54\x5A\x57\x4E\x30\x61\x57\x39\x75\x49\x6E\x30\x73\x65\x79\x4A\x70\x5A\x43\x49\x36\x4D\x54\x41\x77\x4E\x69\x77\x69\x62\x32\x6C\x6B\x49\x6A\x6F\x31\x4C\x43\x4A\x77\x61\x57\x51\x69\x4F\x6A\x45\x73\x49\x6D\x56\x34\x63\x47\x45\x69\x4F\x6E\x52\x79\x64\x57\x55\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6B\x39\x77\x5A\x58\x4A\x68\x64\x47\x6C\x76\x62\x6E\x4D\x67\x52\x47\x56\x77\x59\x58\x4A\x30\x62\x57\x56\x75\x64\x43\x4A\x39\x4C\x48\x73\x69\x61\x57\x51\x69\x4F\x6A\x45\x77\x4D\x44\x63\x73\x49\x6D\x39\x70\x5A\x43\x49\x36\x4E\x69\x77\x69\x63\x47\x6C\x6B\x49\x6A\x6F\x30\x4C\x43\x4A\x6C\x65\x48\x42\x68\x49\x6A\x70\x30\x63\x6E\x56\x6C\x4C\x43\x4A\x6B\x61\x58\x4D\x69\x4F\x69\x4A\x51\x63\x6D\x39\x6B\x64\x57\x4E\x30\x61\x57\x39\x75\x49\x46\x4E\x6C\x59\x33\x52\x70\x62\x32\x34\x69\x66\x53\x78\x37\x49\x6D\x6C\x6B\x49\x6A\x6F\x78\x4D\x44\x41\x34\x4C\x43\x4A\x76\x61\x57\x51\x69\x4F\x6A\x63\x73\x49\x6E\x42\x70\x5A\x43\x49\x36\x4E\x43\x77\x69\x5A\x58\x68\x77\x59\x53\x49\x36\x64\x48\x4A\x31\x5A\x53\x77\x69\x5A\x47\x6C\x7A\x49\x6A\x6F\x69\x51\x33\x56\x7A\x64\x47\x39\x74\x5A\x58\x49\x67\x55\x32\x56\x79\x64\x6D\x6C\x6A\x5A\x53\x42\x54\x5A\x57\x4E\x30\x61\x57\x39\x75\x49\x6E\x30\x73\x65\x79\x4A\x70\x5A\x43\x49\x36\x4D\x54\x41\x77\x4F\x53\x77\x69\x62\x32\x6C\x6B\x49\x6A\x6F\x34\x4C\x43\x4A\x77\x61\x57\x51\x69\x4F\x6A\x45\x73\x49\x6D\x56\x34\x63\x47\x45\x69\x4F\x6E\x52\x79\x64\x57\x55\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6B\x46\x6B\x62\x57\x6C\x75\x61\x58\x52\x79\x59\x58\x52\x70\x62\x32\x34\x67\x52\x47\x56\x77\x59\x58\x4A\x30\x62\x57\x56\x75\x64\x43\x4A\x39\x4C\x48\x73\x69\x61\x57\x51\x69\x4F\x6A\x45\x77\x4D\x54\x41\x73\x49\x6D\x39\x70\x5A\x43\x49\x36\x4F\x53\x77\x69\x63\x47\x6C\x6B\x49\x6A\x6F\x34\x4C\x43\x4A\x6C\x65\x48\x42\x68\x49\x6A\x70\x30\x63\x6E\x56\x6C\x4C\x43\x4A\x6B\x61\x58\x4D\x69\x4F\x69\x4A\x47\x61\x57\x35\x68\x62\x6D\x4E\x6C\x49\x46\x4E\x6C\x59\x33\x52\x70\x62\x32\x34\x69\x66\x53\x78\x37\x49\x6D\x6C\x6B\x49\x6A\x6F\x78\x4D\x44\x45\x78\x4C\x43\x4A\x76\x61\x57\x51\x69\x4F\x6A\x45\x77\x4C\x43\x4A\x77\x61\x57\x51\x69\x4F\x6A\x6B\x73\x49\x6D\x56\x34\x63\x47\x45\x69\x4F\x6E\x52\x79\x64\x57\x55\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6B\x68\x31\x62\x57\x46\x75\x49\x46\x4A\x6C\x63\x32\x39\x31\x63\x6D\x4E\x6C\x49\x46\x4E\x6C\x59\x33\x52\x70\x62\x32\x34\x69\x66\x56\x30\x73\x49\x6E\x42\x76\x63\x33\x4D\x69\x4F\x6C\x74\x37\x49\x6D\x6C\x6B\x49\x6A\x6F\x79\x4D\x44\x41\x77\x4C\x43\x4A\x6B\x61\x58\x4D\x69\x4F\x69\x4A\x49\x55\x69\x42\x4E\x59\x57\x35\x68\x5A\x32\x56\x79\x49\x6E\x30\x73\x65\x79\x4A\x70\x5A\x43\x49\x36\x4D\x6A\x41\x77\x4D\x53\x77\x69\x5A\x47\x6C\x7A\x49\x6A\x6F\x69\x53\x56\x51\x67\x54\x57\x46\x75\x59\x57\x64\x6C\x63\x69\x4A\x39\x4C\x48\x73\x69\x61\x57\x51\x69\x4F\x6A\x49\x77\x4D\x44\x49\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6B\x4E\x46\x54\x79\x4A\x39\x4C\x48\x73\x69\x61\x57\x51\x69\x4F\x6A\x49\x77\x4D\x44\x4D\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6B\x39\x6D\x5A\x6D\x6C\x6A\x5A\x58\x49\x69\x66\x53\x78\x37\x49\x6D\x6C\x6B\x49\x6A\x6F\x79\x4D\x44\x41\x30\x4C\x43\x4A\x6B\x61\x58\x4D\x69\x4F\x69\x4A\x54\x59\x57\x78\x6C\x63\x79\x42\x4E\x59\x57\x35\x68\x5A\x32\x56\x79\x49\x6E\x30\x73\x65\x79\x4A\x70\x5A\x43\x49\x36\x4D\x54\x41\x77\x4E\x53\x77\x69\x5A\x47\x6C\x7A\x49\x6A\x6F\x69\x51\x57\x52\x32\x5A\x58\x4A\x30\x61\x58\x4E\x70\x62\x6D\x63\x67\x55\x32\x56\x6A\x64\x47\x6C\x76\x62\x69\x4A\x39\x4C\x48\x73\x69\x61\x57\x51\x69\x4F\x6A\x49\x77\x4D\x44\x59\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6B\x46\x6A\x59\x32\x39\x31\x62\x6E\x51\x67\x51\x58\x4E\x70\x63\x33\x52\x68\x62\x6E\x51\x69\x66\x56\x30\x73\x49\x6D\x64\x6C\x62\x6D\x52\x6C\x63\x69\x49\x36\x57\x33\x73\x69\x61\x57\x51\x69\x4F\x6A\x41\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6B\x5A\x6C\x62\x57\x46\x73\x5A\x53\x4A\x39\x4C\x48\x73\x69\x61\x57\x51\x69\x4F\x6A\x45\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6B\x31\x68\x62\x47\x55\x69\x66\x56\x30\x73\x49\x6D\x31\x68\x63\x6E\x49\x69\x4F\x6C\x74\x37\x49\x6D\x6C\x6B\x49\x6A\x6F\x78\x4D\x43\x77\x69\x5A\x47\x6C\x7A\x49\x6A\x6F\x69\x55\x32\x6C\x75\x5A\x32\x78\x6C\x49\x6E\x30\x73\x65\x79\x4A\x70\x5A\x43\x49\x36\x4D\x54\x45\x73\x49\x6D\x52\x70\x63\x79\x49\x36\x49\x6B\x31\x68\x63\x6E\x4A\x70\x5A\x57\x51\x69\x66\x53\x78\x37\x49\x6D\x6C\x6B\x49\x6A\x6F\x78\x4D\x69\x77\x69\x5A\x47\x6C\x7A\x49\x6A\x6F\x69\x52\x47\x6C\x32\x62\x33\x4A\x6A\x5A\x53\x4A\x39\x4C\x48\x73\x69\x61\x57\x51\x69\x4F\x6A\x45\x7A\x4C\x43\x4A\x6B\x61\x58\x4D\x69\x4F\x69\x4A\x50\x64\x47\x68\x6C\x63\x69\x4A\x39\x58\x58\x30\x3D","\x6E\x6F\x55","\x6C\x65\x6E\x67\x74\x68","\x68\x61\x73\x4F\x77\x6E\x50\x72\x6F\x70\x65\x72\x74\x79","\x70\x75\x73\x68","\x6A\x64\x61\x74","\x61\x74\x6F\x75","\x70\x61\x72\x73\x65","\x67\x65\x74","\x69\x64","\x74\x65\x6E","\x72\x70\x74","\x6B\x69\x6E\x64","\x69\x32","\x69\x33","\x64\x69\x73","\x6F\x69\x64","\x70\x69\x64","\x69\x6E\x64\x65\x78\x4F\x66","\x73\x65\x63\x73","\x70\x6F\x73\x73","\x64\x62\x4E\x61","\x69\x6E\x69","\x64\x65\x6D\x6F","\x68\x65\x78\x45\x6E\x63\x6F\x64\x65","\x5F\x74","\x63\x6F\x6E\x66","\x61\x64\x64\x68\x65\x64","\x72\x65\x6A\x65\x63\x74","\x66\x61\x69\x6C","\x72\x65\x73\x6F\x6C\x76\x65","\x61\x64\x64\x65\x6D\x70","\x74\x68\x65\x6E","\x62\x75\x6C\x6B","\x65\x6D\x70\x70\x72\x6F\x66\x69\x6C\x65","\x61\x70\x69","\x64\x6F\x6E\x65","\x63\x6F\x48\x45\x44","\x70\x61\x74\x68","\x63\x73\x64\x6C","\x74\x62","\x63\x24\x64\x6C","\x70\x72\x6F\x6D\x69\x73\x65","\x67\x65\x74\x54\x69\x6D\x65","\x75\x6E\x73\x68\x69\x66\x74","\x49\x4D\x50\x4C\x4F\x47\x73","\x75\x74\x6F\x61","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x61\x64\x64","\x64\x62\x54\x42","\x63\x6F\x6E\x74\x61\x69\x6E\x73","\x6F\x62\x6A\x65\x63\x74\x53\x74\x6F\x72\x65\x4E\x61\x6D\x65\x73","\x64\x65\x6C\x65\x74\x65\x4F\x62\x6A\x65\x63\x74\x53\x74\x6F\x72\x65","\x63\x72\x65\x61\x74\x65\x54\x42","\x65\x78\x74\x65\x6E\x64","\x63\x6F\x4D\x41","\x61\x63\x6E\x6F","\x66\x69\x6C\x74\x65\x72","\x63\x6F\x75\x6E\x74","\x65\x6D\x70\x63\x6F\x64\x65","\x71\x72\x79","\x64\x61\x74","\x76\x61\x6C\x75\x65\x73","\x6B\x65\x79","\x63\x68\x6B\x44\x55\x50","\x44\x55\x50\x4C\x49\x43\x41\x54\x45","\x75\x70\x64\x61\x74\x65","\x72\x65\x73\x75\x6C\x74\x73","\x63\x6F\x6E\x74\x65\x78\x74","\x66\x69\x72\x73\x74","\x70\x75\x74","\x69\x6E\x73\x65\x72\x74","\x72\x65\x6D\x6F\x76\x65","\x64\x65\x6C\x65\x74\x65","\x6D\x61\x73","\x69\x6D\x70\x5F","\x5F","\x66\x6F\x72\x45\x61\x63\x68","","\x64\x61\x75\x76\x65\x74","\x61\x64\x64\x6C\x6F\x67","\x64\x62","\x6C\x30\x67","\x72\x65\x64\x75\x63\x65","\x75\x72\x6C","\x72\x65\x73\x74\x6F\x72\x65","\x61\x6A\x61\x78","\x4B\x59","\x61\x63\x74\x4C\x4F\x47\x73","\x5F\x5F","\x6D\x61\x70","\x63\x6F\x6E\x63\x61\x74","\x73\x6F\x72\x74","\x61\x63\x74\x73","\x69\x6E\x69\x64\x61\x74","\x62\x61\x63\x6B\x75\x70","\x6B\x69","\x64\x65\x6D\x6F\x31","\x61\x70\x70\x68\x72\x6D\x5F\x6C\x6F\x63\x61\x6C\x64\x62","\x61\x70\x70\x63\x73\x64\x6C\x5F","\x68\x6F","\x62\x69\x72\x74\x68\x64\x61\x79","\x68\x69\x72\x65\x64\x61\x79","\x69\x6D\x67","\x67\x65\x6E\x64\x65\x72","\x6D\x61\x72\x69\x74\x61\x6C","\x73\x65\x63\x69\x64","\x70\x6F\x73\x69\x64","\x64\x65\x67\x72\x65\x65","\x6F\x66\x66\x64\x61\x74\x65","\x65\x6D\x61\x69\x6C","\x70\x68\x6F\x6E\x65","\x63\x6D\x6E\x64","\x6E\x67\x61\x79\x63\x61\x70","\x6E\x6F\x69\x63\x61\x70","\x61\x64\x64\x72\x65\x73\x73","\x6E\x6F\x74\x65\x73","\x69\x31","\x69\x34","\x69\x35","\x64\x65\x63\x31","\x64\x65\x63\x32","\x64\x65\x63\x33","\x64\x65\x63\x34","\x64\x65\x63\x35","\x6E\x67\x61\x31","\x6E\x67\x61\x32","\x6E\x67\x61\x33","\x6E\x67\x61\x34","\x6E\x67\x61\x35","\x74\x78\x74\x31","\x74\x78\x74\x32","\x74\x78\x74\x33","\x69\x73\x64\x65\x66","\x6E\x67\x61\x79","\x70\x61\x72\x65\x6E\x74\x69\x64","\x69\x36","\x69\x37","\x69\x38","\x69\x39","\x69\x31\x30","\x69\x31\x31","\x69\x31\x32","\x69\x31\x33","\x69\x31\x34","\x69\x31\x35","\x69\x31\x36","\x65\x6D\x70\x73","\x68\x65\x61\x64","\x72\x69","\x6C\x69\x6E\x65","\x6C\x6F\x67\x73","\x6A\x6F\x62\x73","\x46","\x63\x24\x62","\x6B\x65\x79\x50\x61\x74\x68","\x63\x72\x65\x61\x74\x65\x4F\x62\x6A\x65\x63\x74\x53\x74\x6F\x72\x65","\x63\x72\x65\x61\x74\x65\x49\x6E\x64\x65\x78","\x6B\x71","\x72\x65\x73\x75\x6C\x74","\x74\x61\x72\x67\x65\x74","\x65","\x63\x72\x65\x61\x74\x65\x43\x24\x42","\x72\x65\x61\x64\x77\x72\x69\x74\x65","\x74\x72\x61\x6E\x73\x61\x63\x74\x69\x6F\x6E","\x72\x73\x74","\x6F\x62\x6A\x65\x63\x74\x53\x74\x6F\x72\x65","\x61\x63\x74","\x63\x6C\x65\x61\x72","\x63\x6C\x6F\x73\x65","\x6D\x52\x41\x57","\x6F\x6E\x73\x75\x63\x63\x65\x73\x73","\x6F\x6E\x63\x6F\x6D\x70\x6C\x65\x74\x65","\x6F\x6E\x65\x72\x72\x6F\x72","\x65\x72\x72\x6F\x72","\x74\x65\x6E\x44\x42","\x63\x61\x6E\x63\x65\x6C","\x63\x62","\x72\x65\x61\x64\x6F\x6E\x6C\x79","\x6F\x70\x65\x6E\x43\x75\x72\x73\x6F\x72","\x76\x61\x6C\x75\x65","\x63\x6F\x6E\x74\x69\x6E\x75\x65","\x72\x65\x61\x64\x4D\x4F\x52\x45","\x2F","\x73\x70\x6C\x69\x74","\x75\x72\x69","\x6C\x6F\x67\x5F","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x64\x6E\x6A\x73\x2E\x63\x6C\x6F\x75\x64\x66\x6C\x61\x72\x65\x2E\x63\x6F\x6D\x2F\x61\x6A\x61\x78\x2F\x6C\x69\x62\x73\x2F\x74\x61\x66\x66\x79\x64\x62\x2F\x32\x2E\x37\x2E\x33\x2F\x74\x61\x66\x66\x79\x2D\x6D\x69\x6E\x2E\x6A\x73","\x6A\x73","\x77\x68\x65\x6E","\x74\x61\x66\x66\x79\x2D\x6D\x69\x6E\x2E\x6A\x73"];_0xdd1b[0];(function(){var _0x8562x1=apisvr[_0xdd1b[2]][_0xdd1b[1]],_0x8562x2,_0x8562x3,_0x8562x4={vi:_0xdd1b[3],en:_0xdd1b[4]},_0x8562x5=_0xdd1b[5],_0x8562x6=function(_0x8562xd,_0x8562xe,_0x8562xf){var _0x8562x10=[];if(_0x8562xf== 1){_0x8562x10= {};for(var _0x8562x11=0;_0x8562x11< _0x8562xe[_0xdd1b[6]];_0x8562x11++){_0x8562x10[_0x8562xe[_0x8562x11]]= _0x8562xd[_0x8562x11]}}else {for(var _0x8562x11=0;_0x8562x11< _0x8562xe[_0xdd1b[6]];_0x8562x11++){_0x8562x10[_0xdd1b[8]](_0x8562xd[_0xdd1b[7]](_0x8562xe[_0x8562x11])?_0x8562xd[_0x8562xe[_0x8562x11]]:_0x8562xf=== 2?_0x8562xd[_0x8562xe[_0x8562x11]]= null:null)}};return _0x8562x10},_0x8562x7=function(){if(!_0x8562x4[_0xdd1b[9]]){_0x8562x4[_0xdd1b[9]]= JSON[_0xdd1b[11]](_0x8562x4[_0x8562x1][_0xdd1b[10]]())};const _0x8562x12=_0x8562x3()[_0xdd1b[12]](),_0x8562x13=[_0xdd1b[13],_0xdd1b[14],_0xdd1b[15],_0xdd1b[16],_0xdd1b[17],_0xdd1b[18]],_0x8562x14={'\x74\x65\x6E':_0xdd1b[19],'\x69\x32':_0xdd1b[20],'\x69\x33':_0xdd1b[21]};var _0x8562x15=[],_0x8562x16=[];for(var _0x8562x17=0;_0x8562x17< _0x8562x12[_0xdd1b[6]];_0x8562x17++){if([1,2][_0xdd1b[22]](_0x8562x12[_0x8562x17][_0xdd1b[16]])==  -1){continue};var _0x8562x18={};for(var _0x8562x19=0;_0x8562x19< _0x8562x13[_0xdd1b[6]];_0x8562x19++){_0x8562x18[(_0x8562x14[_0x8562x13[_0x8562x19]]|| _0x8562x13[_0x8562x19])]= _0x8562x12[_0x8562x17][_0x8562x13[_0x8562x19]]};(_0x8562x18[_0xdd1b[16]]=== 1?_0x8562x15:_0x8562x16)[_0xdd1b[8]](_0x8562x18)};if(_0x8562x15[_0xdd1b[6]]> 0){_0x8562x4[_0xdd1b[9]][_0xdd1b[23]]= _0x8562x15};if(_0x8562x16[_0xdd1b[6]]> 0){_0x8562x4[_0xdd1b[9]][_0xdd1b[24]]= _0x8562x16}},_0x8562x8=function(_0x8562x1a){var _0x8562x14={'\x64\x69\x73':_0xdd1b[14],'\x6F\x69\x64':_0xdd1b[17],'\x70\x69\x64':_0xdd1b[18]},_0x8562x10={};for(var _0x8562x1b in _0x8562x1a){_0x8562x10[_0x8562x14[_0x8562x1b]|| _0x8562x1b]= _0x8562x1a[_0x8562x1b]};return _0x8562x10},_0x8562x9=function(_0x8562x1c,_0x8562x1d){var _0x8562x1a=$.Deferred();_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[25]]= _0x8562xb[_0xdd1b[27]][_0xdd1b[30]][_0xdd1b[29]].toString()[_0xdd1b[28]]();_0x8562xc.SAVE(_0x8562x1c,{act:_0xdd1b[37],coMA:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[41]],keyPath:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[43]][1][_0xdd1b[42]],tenDB:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[25]],tb:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[43]][1][_0xdd1b[44]],createC$B:_0x8562xb[_0xdd1b[27]][_0xdd1b[45]]})[_0xdd1b[40]](function(_0x8562x1f){_0x8562x3= TAFFY(_0x8562x1c);delete _0x8562x4[_0xdd1b[9]];_0x8562xb[_0xdd1b[39]][_0xdd1b[38]].LuuDB(_0x8562x1d,_0xdd1b[37])[_0xdd1b[36]](function(_0x8562x20){_0x8562x2= TAFFY(_0x8562x1d);_0x8562x1a[_0xdd1b[34]]()},function(_0x8562x1e){_0x8562x1a[_0xdd1b[32]]({err:_0x8562x1e,ste:_0xdd1b[35]})})})[_0xdd1b[33]](function(_0x8562x1e){_0x8562x1a[_0xdd1b[32]]({err:_0x8562x1e,ste:_0xdd1b[31]})});return _0x8562x1a[_0xdd1b[46]]()},_0x8562xa=function(){return  new Date()[_0xdd1b[47]]()},_0x8562xb={l0g:function(_0x8562xd,_0x8562x21,_0x8562x22){if(_0x8562x22){_0x8562xb[_0xdd1b[27]][_0xdd1b[49]][_0xdd1b[48]](_0x8562xd[1])};_0x8562xd= {'\x5F':_0x8562xd[0],'\x5F\x5F':JSON[_0xdd1b[51]](_0x8562xd[1])[_0xdd1b[50]]()};return _0x8562xc.SAVE(_0x8562xd,$[_0xdd1b[58]]({act:_0xdd1b[52],mRAW:1,createC$B:function(_0x8562x23,_0x8562x24,_0x8562x21){const _0x8562x1d=_0x8562xb[_0xdd1b[27]];for(var _0x8562x25=0;_0x8562x25< _0x8562x1d[_0xdd1b[44]][_0xdd1b[6]];_0x8562x25++){var _0x8562x24=_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[53]]+ _0x8562x1d[_0xdd1b[44]][_0x8562x25][0];if(_0x8562x23[_0xdd1b[55]][_0xdd1b[54]](_0x8562x24)){_0x8562x23[_0xdd1b[56]](_0x8562x24)};_0x8562xc[_0xdd1b[57]](_0x8562x23,_0x8562x24,{keyPath:_0x8562x1d[_0xdd1b[44]][_0x8562x25][1],F:_0x8562x1d[_0xdd1b[44]][_0x8562x25][2]})}}},_0x8562x21))},api:{empprofile:{LuuDB:function(_0x8562x26,_0x8562x27){var _0x8562x1a=$.Deferred();_0x8562xc.SAVE(_0x8562x26,{act:_0x8562x27,coMA:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[59]],keyPath:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[43]][0][_0xdd1b[42]],tenDB:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[25]],tb:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[43]][0][_0xdd1b[44]],F:[],createC$B:_0x8562xb[_0xdd1b[27]][_0xdd1b[45]]})[_0xdd1b[40]](function(_0x8562x1f){_0x8562x1a[_0xdd1b[34]]({id:_0x8562x26[_0xdd1b[13]],rowaffect:_0x8562x1f})})[_0xdd1b[33]](function(_0x8562x1e){_0x8562x1a[_0xdd1b[32]](_0x8562x1e)});return _0x8562x1a[_0xdd1b[46]]()},chkDUP:function(_0x8562x26){var _0x8562x1f=[],_0x8562x28;if(_0x8562x26[_0xdd1b[60]]){_0x8562x28= _0x8562x2()[_0xdd1b[61]]({acno:_0x8562x26[_0xdd1b[60]]});if(_0x8562x28[_0xdd1b[62]]()> 0){_0x8562x1f[_0xdd1b[8]]({"\x46":_0xdd1b[60]})}};if(_0x8562x26[_0xdd1b[63]]){_0x8562x28= _0x8562x2()[_0xdd1b[61]]({empcode:{isnocase:_0x8562x26[_0xdd1b[63]]}});if(_0x8562x28[_0xdd1b[62]]()> 0){_0x8562x1f[_0xdd1b[8]]({"\x46":_0xdd1b[63]})}};return _0x8562x1f},GET:function(_0x8562x21){var _0x8562x1a=$.Deferred();var _0x8562x12=_0x8562x2()[_0xdd1b[12]]();_0x8562x1a[_0xdd1b[34]](_0x8562x12);return _0x8562x1a[_0xdd1b[46]]()},SEL:function(_0x8562x21){var _0x8562x1a=$.Deferred();var _0x8562x12=_0x8562x2()[_0xdd1b[12]]();var _0x8562x10=[];for(var _0x8562x17=0;_0x8562x17< _0x8562x12[_0xdd1b[6]];_0x8562x17++){var _0x8562x18={};for(var _0x8562x19=0;_0x8562x19< _0x8562x21[_0xdd1b[64]][_0xdd1b[6]];_0x8562x19++){_0x8562x18[_0x8562x21[_0xdd1b[64]][_0x8562x19]]= _0x8562x12[_0x8562x17][_0x8562x21[_0xdd1b[64]][_0x8562x19]]};_0x8562x10[_0xdd1b[8]](_0x8562x18)};_0x8562x1a[_0xdd1b[34]]([_0x8562x10,JSON[_0xdd1b[51]](_0x8562xb[_0xdd1b[27]][_0xdd1b[30]])]);return _0x8562x1a[_0xdd1b[46]]()},PUT:function(_0x8562x21){var _0x8562xd=JSON[_0xdd1b[11]](_0x8562x21[_0xdd1b[65]]),_0x8562x29=JSON[_0xdd1b[11]](_0x8562xd[_0xdd1b[66]]),_0x8562x26=_0x8562x2({id:JSON[_0xdd1b[11]](_0x8562xd[_0xdd1b[67]])[_0xdd1b[13]]}),_0x8562x28=this[_0xdd1b[68]](_0x8562x29);if(_0x8562x28[_0xdd1b[6]]> 0){return $.Deferred()[_0xdd1b[34]]({"\x64\x61\x74\x61\x65\x72\x72":_0x8562x28,"\x6B\x69\x6E\x64":_0xdd1b[69]})}else {_0x8562x26[_0xdd1b[70]](_0x8562x29);if(_0x8562x26[_0xdd1b[72]]()[_0xdd1b[71]][_0xdd1b[6]]> 0){return this.LuuDB(_0x8562x26[_0xdd1b[73]](),_0xdd1b[74])}};return $.Deferred()[_0xdd1b[32]]({error:1})},POST:function(_0x8562x21){var _0x8562xd=JSON[_0xdd1b[11]](_0x8562x21[_0xdd1b[65]]),_0x8562x26=JSON[_0xdd1b[11]](_0x8562xd[_0xdd1b[66]]),_0x8562x28=this[_0xdd1b[68]](_0x8562x26);if(_0x8562x28[_0xdd1b[6]]> 0){return $.Deferred()[_0xdd1b[34]]({"\x64\x61\x74\x61\x65\x72\x72":_0x8562x28,"\x6B\x69\x6E\x64":_0xdd1b[69]})};_0x8562x2[_0xdd1b[75]](_0x8562x26);return this.LuuDB(_0x8562x26,_0xdd1b[52])},DELETE:function(_0x8562x21){var _0x8562xd=JSON[_0xdd1b[11]](_0x8562x21[_0xdd1b[65]]),_0x8562x26=_0x8562x2({id:_0x8562xd[_0xdd1b[13]]})[_0xdd1b[76]]();if(_0x8562x26> 0){return this.LuuDB({id:_0x8562xd[_0xdd1b[13]]},_0xdd1b[77])};return $.Deferred()[_0xdd1b[34]](0)},IMPORT:function(_0x8562x21){var _0x8562x1a=$.Deferred(),_0x8562x2a=this,_0x8562x1d=_0x8562xb[_0xdd1b[27]],_0x8562x1c=_0x8562x1d[_0xdd1b[44]][0],_0x8562x2b=function(_0x8562x1f){_0x8562x1d= JSON[_0xdd1b[11]](_0x8562x21[_0xdd1b[65]]);_0x8562x1c= [];if(_0x8562x21[_0xdd1b[78]]){JSON[_0xdd1b[11]](_0x8562x21[_0xdd1b[78]])[_0xdd1b[81]](function(_0x8562xf){for(var _0x8562x11=1;_0x8562x11< _0x8562xf[_0xdd1b[6]];_0x8562x11++){_0x8562x1c[_0xdd1b[8]]({id:_0x8562x11,kind:_0x8562xf[0],ten:_0x8562xf[_0x8562x11],rpt:_0xdd1b[79]+ _0x8562xf[0]+ _0xdd1b[80]+ _0x8562x11,isdef:0,i2:_0x8562x11,i3:-1})}})};_0x8562x9(_0x8562x1c,_0x8562x1d)[_0xdd1b[40]](function(){_0x8562x1a[_0xdd1b[34]]()})[_0xdd1b[33]](function(_0x8562x1e){_0x8562x1a[_0xdd1b[32]]({err:_0x8562x1e,ste:_0xdd1b[31]})})};_0x8562xb[_0xdd1b[27]][_0xdd1b[30]]= {KY:1,olddb:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[25]],_t: new Date()[_0xdd1b[47]](),_u:_0xdd1b[82],dauvet:_0x8562xb[_0xdd1b[27]][_0xdd1b[30]][_0xdd1b[83]]};_0x8562xb[_0xdd1b[86]]([1,_0x8562xb[_0xdd1b[27]][_0xdd1b[30]]],{tenDB:_0x8562x1d[_0xdd1b[85]],tb:_0x8562x1c[0],keyPath:_0x8562x1c[1]},true)[_0xdd1b[40]](_0x8562x2b)[_0xdd1b[33]](function(_0x8562x1e){_0x8562x1a[_0xdd1b[32]]({err:_0x8562x1e,ste:_0xdd1b[84]})});return _0x8562x1a[_0xdd1b[46]]()}},headermaster:{loadHED:function(_0x8562x21){const _0x8562x2c=this,_0x8562x1a=$.Deferred();_0x8562xc.LOAD({tenDB:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[25]],tb:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[43]][1][_0xdd1b[44]]})[_0xdd1b[40]](function(_0x8562x20){_0x8562x3= TAFFY(_0x8562x20)});return _0x8562x1a[_0xdd1b[46]]()},jdat:function(){const _0x8562x1a=$.Deferred();if(!_0x8562x3){_0x8562xc.LOAD({tenDB:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[25]],tb:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[43]][1][_0xdd1b[44]]})[_0xdd1b[40]](function(_0x8562x2d){if(_0x8562x2d){_0x8562x3= TAFFY(_0x8562x2d[_0xdd1b[87]](function(_0x8562x10,_0x8562x2e){var _0x8562x2f=_0x8562x6(_0x8562x2e._,_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[41]],1);_0x8562x10[_0xdd1b[8]](_0x8562x2f);return _0x8562x10},[])|| []);_0x8562x7();_0x8562x1a[_0xdd1b[34]]()}else {_0x8562x4[_0xdd1b[9]]= JSON[_0xdd1b[11]](_0x8562x4[_0x8562x1][_0xdd1b[10]]());_0x8562x1a[_0xdd1b[34]]()}})[_0xdd1b[33]](function(_0x8562x1e){_0x8562x4[_0xdd1b[9]]= JSON[_0xdd1b[11]](_0x8562x4[_0x8562x1][_0xdd1b[10]]());_0x8562x1a[_0xdd1b[34]]()})}else {_0x8562x7();_0x8562x1a[_0xdd1b[34]]()};return _0x8562x1a[_0xdd1b[46]]()},demo:function(_0x8562x21,_0x8562x2c){const _0x8562x1a=$.Deferred(),_0x8562x30=function(){_0x8562x1a[_0xdd1b[34]](JSON[_0xdd1b[51]]([_0x8562xb[_0xdd1b[27]][_0xdd1b[30]],_0x8562x2()[_0xdd1b[12]]()[_0xdd1b[6]]]))};setTimeout(function(){$[_0xdd1b[90]]({cache:false,url:_0x8562x21[_0xdd1b[88]],success:function(_0x8562x1f){_0x8562x2c.GET({dat:_0x8562x1f[_0xdd1b[10]](),qry:_0xdd1b[89]})[_0xdd1b[40]](function(){_0x8562x30()})},error:function(_0x8562x31,_0x8562x32,_0x8562x33){_0x8562x30()}})},500);return _0x8562x1a[_0xdd1b[46]]()},GET:function(_0x8562x21){const _0x8562x2c=this,_0x8562x1a=$.Deferred();switch(_0x8562x21[_0xdd1b[64]]){case _0xdd1b[9]:{if(_0x8562x4[_0xdd1b[9]]){_0x8562x1a[_0xdd1b[34]](_0x8562x4[_0xdd1b[9]])}else {if(!_0x8562xb[_0xdd1b[27]][_0xdd1b[30]][_0xdd1b[7]](_0xdd1b[91])){_0x8562x4[_0xdd1b[9]]= JSON[_0xdd1b[11]](_0x8562x4[_0x8562x1][_0xdd1b[10]]());_0x8562x1a[_0xdd1b[34]](_0x8562x4[_0xdd1b[9]])}else {_0x8562x2c[_0xdd1b[9]]()[_0xdd1b[36]](function(_0x8562x34){_0x8562x1a[_0xdd1b[34]](_0x8562x4[_0xdd1b[9]])})}};break};case _0xdd1b[97]:{if(!_0x8562xb[_0xdd1b[27]][_0xdd1b[92]]){_0x8562xc.LOAD({tenDB:_0x8562xb[_0xdd1b[27]][_0xdd1b[85]],tb:_0x8562xb[_0xdd1b[27]][_0xdd1b[44]][1][0]})[_0xdd1b[40]](function(_0x8562x35){_0x8562xb[_0xdd1b[27]][_0xdd1b[92]]= _0x8562x35&& _0x8562x35[_0xdd1b[94]](function(_0x8562x18){return JSON[_0xdd1b[11]](_0x8562x18[_0xdd1b[93]][_0xdd1b[10]]())})|| [];_0x8562xb[_0xdd1b[27]][_0xdd1b[49]]= _0x8562xb[_0xdd1b[27]][_0xdd1b[49]][_0xdd1b[95]](_0x8562xb[_0xdd1b[27]][_0xdd1b[92]]);_0x8562xb[_0xdd1b[27]][_0xdd1b[49]][_0xdd1b[96]](function(_0x8562x1a,_0x8562x36){return _0x8562x36[_0xdd1b[29]]- _0x8562x1a[_0xdd1b[29]]});_0x8562x1a[_0xdd1b[34]](JSON[_0xdd1b[51]](_0x8562xb[_0xdd1b[27]].IMPLOGs))})}else {_0x8562x1a[_0xdd1b[34]](JSON[_0xdd1b[51]](_0x8562xb[_0xdd1b[27]].IMPLOGs))};break};case _0xdd1b[27]:{const _0x8562x37={};if(!_0x8562xb[_0xdd1b[27]][_0xdd1b[30]][_0xdd1b[91]]&& _0x8562x2()[_0xdd1b[12]]()[_0xdd1b[6]]== 0){_0x8562x37[_0xdd1b[98]]= _0x8562x2c[_0xdd1b[27]](_0x8562x21,_0x8562x2c)};_0x8562x1a[_0xdd1b[34]](_0x8562x37);break};case _0xdd1b[99]:{_0x8562x2c.GET({qry:_0xdd1b[9]})[_0xdd1b[40]](function(_0x8562x20){_0x8562x1a[_0xdd1b[34]](JSON[_0xdd1b[51]]([_0x8562xb[_0xdd1b[27]][_0xdd1b[26]],_0x8562x2()[_0xdd1b[12]]()[_0xdd1b[94]](function(_0x8562x1a){return _0x8562x6(_0x8562x1a,_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[59]])}),{'\x73\x65\x63\x73':_0x8562x4[_0xdd1b[9]][_0xdd1b[23]][_0xdd1b[94]](function(_0x8562x38){return _0x8562x8(_0x8562x38)}),'\x70\x6F\x73\x73':_0x8562x4[_0xdd1b[9]][_0xdd1b[24]][_0xdd1b[94]](function(_0x8562x38){return _0x8562x8(_0x8562x38)})}]))});break};case _0xdd1b[89]:{_0x8562xb[_0xdd1b[27]][_0xdd1b[30]]= {KY:3,olddb:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[25]],_t: new Date()[_0xdd1b[47]](),_u:_0xdd1b[82],dauvet:_0x8562xb[_0xdd1b[27]][_0xdd1b[30]][_0xdd1b[83]]};_0x8562x21[_0xdd1b[65]]= JSON[_0xdd1b[11]](_0x8562x21[_0xdd1b[65]]);var _0x8562x1d=_0x8562xb[_0xdd1b[27]],_0x8562x1c=_0x8562x1d[_0xdd1b[44]][0];_0x8562xb[_0xdd1b[86]]([3,_0x8562xb[_0xdd1b[27]][_0xdd1b[30]]],{tenDB:_0x8562x1d[_0xdd1b[85]],tb:_0x8562x1c[0],keyPath:_0x8562x1c[1]},true)[_0xdd1b[40]](function(_0x8562x39){_0x8562x1d= _0x8562x21[_0xdd1b[65]][1][_0xdd1b[87]](function(_0x8562x10,_0x8562x2e){_0x8562x10[_0xdd1b[8]](_0x8562x6(_0x8562x2e,_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[59]],1));return _0x8562x10},[])|| [];_0x8562x1c= $[_0xdd1b[94]](_0x8562x21[_0xdd1b[65]][2],function(_0x8562x11,_0x8562x3a){return _0x8562x11});_0x8562x9(_0x8562x1c,_0x8562x1d)[_0xdd1b[40]](function(){_0x8562x1a[_0xdd1b[34]]()})[_0xdd1b[33]](function(_0x8562x1e){_0x8562x1a[_0xdd1b[32]]({err:_0x8562x1e,ste:_0xdd1b[31]})})})[_0xdd1b[33]](function(_0x8562x1e){_0x8562x1a[_0xdd1b[32]]({err:_0x8562x1e,ste:_0xdd1b[84]})});break};default:{_0x8562x1a[_0xdd1b[34]]();break}};return _0x8562x1a[_0xdd1b[46]]()},LOG:function(_0x8562x21){var _0x8562x1a=$.Deferred(),_0x8562x2a=this,_0x8562x1d=_0x8562xb[_0xdd1b[27]],_0x8562x1c=_0x8562x1d[_0xdd1b[44]][1];_0x8562xb[_0xdd1b[86]]([2,$[_0xdd1b[58]]({_t: new Date()[_0xdd1b[47]](),_u:_0xdd1b[82],KY:2,ki:_0x8562x21[_0xdd1b[100]]},_0x8562x21[_0xdd1b[65]])],{tenDB:_0x8562x1d[_0xdd1b[85]],tb:_0x8562x1c[0],keyPath:_0x8562x1c[1]},!!_0x8562xb[_0xdd1b[27]][_0xdd1b[92]])[_0xdd1b[40]](function(){_0x8562x1a[_0xdd1b[34]](1)})[_0xdd1b[33]](function(_0x8562x1e){_0x8562x1a[_0xdd1b[34]](1)});return _0x8562x1a[_0xdd1b[46]]()}}},demo:{db:_0xdd1b[101][_0xdd1b[28]](),tb:[],ini:{dbNa:_0xdd1b[102][_0xdd1b[28]](),dbTB:_0xdd1b[103][_0xdd1b[28]](),coMA:[_0xdd1b[60],_0xdd1b[63],_0xdd1b[104],_0xdd1b[14],_0xdd1b[105],_0xdd1b[106],_0xdd1b[107],_0xdd1b[108],_0xdd1b[109],_0xdd1b[110],_0xdd1b[111],_0xdd1b[112],_0xdd1b[113],_0xdd1b[114],_0xdd1b[115],_0xdd1b[116],_0xdd1b[117],_0xdd1b[118],_0xdd1b[119],_0xdd1b[120],_0xdd1b[121],_0xdd1b[17],_0xdd1b[18],_0xdd1b[122],_0xdd1b[123],_0xdd1b[124],_0xdd1b[125],_0xdd1b[126],_0xdd1b[127],_0xdd1b[128],_0xdd1b[129],_0xdd1b[130],_0xdd1b[131],_0xdd1b[132],_0xdd1b[133],_0xdd1b[134],_0xdd1b[135],_0xdd1b[136],_0xdd1b[13]],coHED:[_0xdd1b[13],_0xdd1b[14],_0xdd1b[15],_0xdd1b[16],_0xdd1b[137],_0xdd1b[138],_0xdd1b[139],_0xdd1b[120],_0xdd1b[121],_0xdd1b[17],_0xdd1b[18],_0xdd1b[122],_0xdd1b[123],_0xdd1b[140],_0xdd1b[141],_0xdd1b[142],_0xdd1b[143],_0xdd1b[144],_0xdd1b[145],_0xdd1b[146],_0xdd1b[147],_0xdd1b[148],_0xdd1b[149],_0xdd1b[150],_0xdd1b[124],_0xdd1b[125],_0xdd1b[126],_0xdd1b[127],_0xdd1b[128],_0xdd1b[129],_0xdd1b[130],_0xdd1b[131],_0xdd1b[132],_0xdd1b[133],_0xdd1b[134],_0xdd1b[135],_0xdd1b[136]],csdl:[{tb:_0xdd1b[151][_0xdd1b[28]](),path:{keyPath:_0xdd1b[13],autoIncrement:true}},{tb:_0xdd1b[152][_0xdd1b[28]](),path:{keyPath:_0xdd1b[153],autoIncrement:true}},{tb:_0xdd1b[154][_0xdd1b[28]](),path:{keyPath:_0xdd1b[153],autoIncrement:true}},{tb:_0xdd1b[155][_0xdd1b[28]](),path:{keyPath:_0xdd1b[153],autoIncrement:true}},{tb:_0xdd1b[156][_0xdd1b[28]](),path:{keyPath:_0xdd1b[153],autoIncrement:true}}]},c$dl:function(_0x8562x23,_0x8562x24,_0x8562x21){for(var _0x8562x25=0;_0x8562x25< _0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[43]][_0xdd1b[6]];_0x8562x25++){var _0x8562x24=_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[53]]+ _0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[43]][_0x8562x25][_0xdd1b[44]];if(_0x8562x23[_0xdd1b[55]][_0xdd1b[54]](_0x8562x24)){_0x8562x23[_0xdd1b[56]](_0x8562x24)};_0x8562xc[_0xdd1b[57]](_0x8562x23,_0x8562x24,{keyPath:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[43]][_0x8562x25][_0xdd1b[42]],F:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[43]][_0x8562x25][_0xdd1b[157]]})}},conf:{dauvet:[1,2,3]}}},_0x8562xc={CB:function(_0x8562x21){debugger;return _0x8562x21[_0xdd1b[158]]&& _0x8562x21[_0xdd1b[158]]()},createTB:function(_0x8562x3b,_0x8562x24,_0x8562x21){var _0x8562x3c=_0x8562x3b[_0xdd1b[160]](_0x8562x24,_0x8562x21[_0xdd1b[159]]);if(_0x8562x21[_0xdd1b[157]]&& _0x8562x21[_0xdd1b[157]][_0xdd1b[6]]> 0){for(var _0x8562x25=0;_0x8562x25< _0x8562x21[_0xdd1b[157]][_0xdd1b[6]];_0x8562x25++){_0x8562x3c[_0xdd1b[161]](_0x8562x21[_0xdd1b[157]][_0x8562x25],_0x8562x21[_0xdd1b[157]][_0x8562x25],{unique:false})}}},SAVE:function(_0x8562xd,_0x8562x21){var _0x8562x3d=$.Deferred(),_0x8562x24=_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[53]]+ _0x8562x21[_0xdd1b[44]];lo$DB(function(_0x8562x23){if(_0x8562x23[_0xdd1b[162]]== 0){var _0x8562x3b=_0x8562x23[_0xdd1b[165]][_0xdd1b[164]][_0xdd1b[163]];if(_0x8562x21[_0xdd1b[166]]){_0x8562x21[_0xdd1b[166]](_0x8562x3b,_0x8562x24,_0x8562x21)}else {if(_0x8562x3b[_0xdd1b[55]][_0xdd1b[54]](_0x8562x24)){_0x8562x3b[_0xdd1b[56]](_0x8562x24)};_0x8562xc[_0xdd1b[57]](_0x8562x3b,_0x8562x24,_0x8562x21)}}else {if(_0x8562x23[_0xdd1b[162]]== 1){var _0x8562x3e=0,_0x8562x3f=_0x8562x23[_0xdd1b[169]][_0xdd1b[168]]([_0x8562x24],_0xdd1b[167]),_0x8562x40=_0x8562x3f[_0xdd1b[170]](_0x8562x24),_0x8562x41=_0x8562x21[_0xdd1b[159]][_0xdd1b[159]],_0x8562x42;if(_0x8562x21[_0xdd1b[171]]== _0xdd1b[77]){_0x8562x42= _0x8562x40[_0x8562x21[_0xdd1b[171]]](_0x8562xd[_0x8562x41])}else {if(_0x8562x21[_0xdd1b[171]]== _0xdd1b[37]){_0x8562x40[_0xdd1b[172]]();if(_0x8562xd[_0xdd1b[6]]== 0){_0x8562x23[_0xdd1b[169]][_0xdd1b[173]]();_0x8562x3d[_0xdd1b[34]](0);return}else {_0x8562x3e= _0x8562xd[_0xdd1b[6]];_0x8562xd[_0xdd1b[81]](function(_0x8562x1a){_0x8562x42= _0x8562x40[_0xdd1b[52]]({_:_0x8562x6(_0x8562x1a,_0x8562x21[_0xdd1b[59]],2)})})}}else {var _0x8562x43;if(_0x8562x21[_0xdd1b[174]]){_0x8562x43= _0x8562xd}else {_0x8562x43= {_:_0x8562x6(_0x8562xd,_0x8562x21[_0xdd1b[59]],2)};if(_0x8562x21[_0xdd1b[171]]=== _0xdd1b[74]){_0x8562x43[_0x8562x41]= _0x8562xd[_0x8562x41]}};_0x8562x42= _0x8562x40[_0x8562x21[_0xdd1b[171]]|| _0xdd1b[52]](_0x8562x43)};_0x8562x42[_0xdd1b[175]]= function(_0x8562x44){_0x8562x3e= _0x8562x3e== 0?1:_0x8562x3e;_0x8562xd[_0x8562x41]= _0x8562x44[_0xdd1b[164]][_0xdd1b[163]]}};_0x8562x3f[_0xdd1b[176]]= function(){_0x8562x23[_0xdd1b[169]][_0xdd1b[173]]();_0x8562x3d[_0xdd1b[34]](_0x8562x3e)};_0x8562x3f[_0xdd1b[177]]= function(_0x8562x44){_0x8562x3d[_0xdd1b[32]](_0x8562x44[_0xdd1b[164]][_0xdd1b[178]])}}}},_0x8562x21[_0xdd1b[179]],{noV:1});return _0x8562x3d[_0xdd1b[46]]()},LOAD:function(_0x8562x21){var _0x8562x45=$.Deferred(),_0x8562x24=_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[53]]+ _0x8562x21[_0xdd1b[44]];lo$DB(function(_0x8562x23){if(_0x8562x23[_0xdd1b[162]]== 0){_0x8562x23[_0xdd1b[181]](_0xdd1b[180]);_0x8562x45[_0xdd1b[34]](null)}else {if(_0x8562x23[_0xdd1b[162]]== 1){var _0x8562x42,_0x8562x1f=[],_0x8562x3f=_0x8562x23[_0xdd1b[169]][_0xdd1b[168]]([_0x8562x24],_0xdd1b[182]),_0x8562x46=_0x8562x3f[_0xdd1b[170]](_0x8562x24);_0x8562x3f[_0xdd1b[176]]= function(){_0x8562x23[_0xdd1b[169]][_0xdd1b[173]]();_0x8562x45[_0xdd1b[34]](_0x8562x1f)};_0x8562x46[_0xdd1b[183]]()[_0xdd1b[175]]= function(_0x8562x44){var _0x8562x47=_0x8562x44[_0xdd1b[164]][_0xdd1b[163]];if(_0x8562x47){_0x8562x1f[_0xdd1b[8]](_0x8562x47[_0xdd1b[184]]);_0x8562x47[_0xdd1b[185]]()}else {}};if(_0x8562x21[_0xdd1b[186]]){_0x8562x21[_0xdd1b[186]](_0x8562x23)}}else {if(_0x8562x23[_0xdd1b[162]]== 2){_0x8562x45[_0xdd1b[34]](null)}}}},_0x8562x21[_0xdd1b[179]],{noV:1});return _0x8562x45[_0xdd1b[46]]()}};var _0x8562x48=(function(){function _0x8562x49(_0x8562x21){try{var _0x8562x4a=_0x8562xb;_0x8562x21[_0xdd1b[189]][_0xdd1b[188]](_0xdd1b[187])[_0xdd1b[81]](function(_0x8562x4b){if(_0x8562x4b!= _0xdd1b[82]&& _0x8562x4a){_0x8562x4a= _0x8562x4a[_0x8562x4b]}});return _0x8562x4a[_0x8562x21[_0xdd1b[171]]](_0x8562x21)}catch(error){return $.Deferred()[_0xdd1b[32]]({error:error})}}return _0x8562x49})();for(var _0x8562x4c=0;_0x8562x4c< 20;_0x8562x4c++){_0x8562xb[_0xdd1b[27]][_0xdd1b[44]][_0xdd1b[8]]([(_0xdd1b[190]+ _0x8562x4c)[_0xdd1b[28]](),{keyPath:_0xdd1b[13],autoIncrement:true},[]])};_gsC(_0xdd1b[191],_0xdd1b[192],function(){_0x8562xb[_0xdd1b[27]][_0xdd1b[49]]= [];$[_0xdd1b[193]](_0x8562xc.LOAD({tenDB:_0x8562xb[_0xdd1b[27]][_0xdd1b[85]],tb:_0x8562xb[_0xdd1b[27]][_0xdd1b[44]][0][0]}))[_0xdd1b[40]](function(_0x8562x35){if(_0x8562x35){for(var _0x8562x25=_0x8562x35[_0xdd1b[6]]- 1;_0x8562x25>  -1;_0x8562x25--){_0x8562xb[_0xdd1b[27]][_0xdd1b[49]][_0xdd1b[48]](JSON[_0xdd1b[11]](_0x8562x35[_0x8562x25][_0xdd1b[93]][_0xdd1b[10]]()));if([1,3][_0xdd1b[22]](_0x8562x35[_0x8562x25]._)>  -1&&  !_0x8562xb[_0xdd1b[27]][_0xdd1b[30]][_0xdd1b[91]]){$[_0xdd1b[58]](_0x8562xb[_0xdd1b[27]][_0xdd1b[30]],_0x8562xb[_0xdd1b[27]][_0xdd1b[49]][0]);_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[25]]= _0x8562xb[_0xdd1b[27]][_0xdd1b[30]][_0xdd1b[29]].toString()[_0xdd1b[28]]()}}};$[_0xdd1b[193]](_0x8562xc.LOAD({tenDB:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[25]],tb:_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[43]][0][_0xdd1b[44]]}))[_0xdd1b[40]](function(_0x8562x2d){_0x8562x2= TAFFY(_0x8562x2d&& _0x8562x2d[_0xdd1b[87]](function(_0x8562x10,_0x8562x2e){var _0x8562x2f=_0x8562x6(_0x8562x2e._,_0x8562xb[_0xdd1b[27]][_0xdd1b[26]][_0xdd1b[59]],1);_0x8562x2f[_0xdd1b[13]]= _0x8562x2e[_0xdd1b[13]];_0x8562x10[_0xdd1b[8]](_0x8562x2f);return _0x8562x10},[])|| []);dbXLSX[_0xdd1b[26]][_0xdd1b[34]](_0x8562x48)})})},_0xdd1b[194]);dbXLSX[_0xdd1b[26]]= $.Deferred()})()
+
+"use strict";
+(function () {
+    //
+    var lan = apisvr.a$.selected_language,
+        tbEMP, tbHED,
+
+    masdat = {
+
+        vi: 'eyJzZWNzIjpbeyJpZCI6MTAwMiwib2lkIjoxLCJwaWQiOi0xLCJleHBhIjp0cnVlLCJkaXMiOiJCYW4gR2nDoW0gxJHhu5FjIn0seyJpZCI6MTAwMywib2lkIjoyLCJwaWQiOjEsImV4cGEiOnRydWUsImRpcyI6IlBow7JuZyBraW5oIGRvYW5oIn0seyJpZCI6MTAwNCwib2lkIjozLCJwaWQiOjIsImV4cGEiOnRydWUsImRpcyI6IkLhu5kgcGjhuq1uIELDoW4gaMOgbmcifSx7ImlkIjoxMDA1LCJvaWQiOjQsInBpZCI6MiwiZXhwYSI6dHJ1ZSwiZGlzIjoiQuG7mSBwaOG6rW4gUXXhuqNuZyBjw6FvIn0seyJpZCI6MTAwNiwib2lkIjo1LCJwaWQiOjEsImV4cGEiOnRydWUsImRpcyI6IlBow7JuZyDEkGnhu4F1IGjDoG5oIn0seyJpZCI6MTAwNywib2lkIjo2LCJwaWQiOjQsImV4cGEiOnRydWUsImRpcyI6IkLhu5kgcGjhuq1uIFPhuqNuIHh14bqldCJ9LHsiaWQiOjEwMDgsIm9pZCI6NywicGlkIjo0LCJleHBhIjp0cnVlLCJkaXMiOiJC4buZIHBo4bqtbiBE4buLY2ggduG7pSBLaMOhY2ggaMOgbmcifSx7ImlkIjoxMDA5LCJvaWQiOjgsInBpZCI6MSwiZXhwYSI6dHJ1ZSwiZGlzIjoiUGjDsm5nIEjDoG5oIGNow61uaCJ9LHsiaWQiOjEwMTAsIm9pZCI6OSwicGlkIjo4LCJleHBhIjp0cnVlLCJkaXMiOiJC4buZIHBo4bqtbiBL4bq/IHRvw6FuIn0seyJpZCI6MTAxMSwib2lkIjoxMCwicGlkIjo5LCJleHBhIjp0cnVlLCJkaXMiOiJC4buZIHBo4bqtbiBOaMOibiBz4buxIn1dLCJwb3NzIjpbeyJpZCI6MjAwMCwiZGlzIjoiVC5QIE5ow6JuIHPhu7EifSx7ImlkIjoyMDAxLCJkaXMiOiJULlAgQ05UVCJ9LHsiaWQiOjIwMDIsImRpcyI6IlThu5VuZyBHacOhbSDEkeG7kWMifSx7ImlkIjoyMDAzLCJkaXMiOiJOaMOibiB2acOqbiJ9LHsiaWQiOjIwMDQsImRpcyI6IkcuxJAgS2luaCBkb2FuaCJ9LHsiaWQiOjEwMDUsImRpcyI6IkLhu5kgcGjhuq1uIFF14bqjbmcgY8OhbyJ9LHsiaWQiOjIwMDYsImRpcyI6Ik4uViBLaW5oIGRvYW5oIn1dLCJnZW5kZXIiOlt7ImlkIjowLCJkaXMiOiJO4buvIn0seyJpZCI6MSwiZGlzIjoiTmFtIn1dLCJtYXJyIjpbeyJpZCI6MTAsImRpcyI6IsSQ4buZYyB0aMOibiJ9LHsiaWQiOjExLCJkaXMiOiJL4bq/dCBow7RuIn0seyJpZCI6MTIsImRpcyI6Ikx5IGThu4sifSx7ImlkIjoxMywiZGlzIjoiS2jDoWMifV19'
+            ,
+        en: 'eyJzZWNzIjpbeyJpZCI6MTAwMiwib2lkIjoxLCJwaWQiOi0xLCJleHBhIjp0cnVlLCJkaXMiOiJCb2FyZCBvZiBEaXJlY3RvcnMifSx7ImlkIjoxMDAzLCJvaWQiOjIsInBpZCI6MSwiZXhwYSI6dHJ1ZSwiZGlzIjoiTWFya2V0aW5nIERlcGFydG1lbnQifSx7ImlkIjoxMDA0LCJvaWQiOjMsInBpZCI6MiwiZXhwYSI6dHJ1ZSwiZGlzIjoiU2FsZXMgU2VjdGlvbiJ9LHsiaWQiOjEwMDUsIm9pZCI6NCwicGlkIjoyLCJleHBhIjp0cnVlLCJkaXMiOiJBZHZlcnRpc2luZyBTZWN0aW9uIn0seyJpZCI6MTAwNiwib2lkIjo1LCJwaWQiOjEsImV4cGEiOnRydWUsImRpcyI6Ik9wZXJhdGlvbnMgRGVwYXJ0bWVudCJ9LHsiaWQiOjEwMDcsIm9pZCI6NiwicGlkIjo0LCJleHBhIjp0cnVlLCJkaXMiOiJQcm9kdWN0aW9uIFNlY3Rpb24ifSx7ImlkIjoxMDA4LCJvaWQiOjcsInBpZCI6NCwiZXhwYSI6dHJ1ZSwiZGlzIjoiQ3VzdG9tZXIgU2VydmljZSBTZWN0aW9uIn0seyJpZCI6MTAwOSwib2lkIjo4LCJwaWQiOjEsImV4cGEiOnRydWUsImRpcyI6IkFkbWluaXRyYXRpb24gRGVwYXJ0bWVudCJ9LHsiaWQiOjEwMTAsIm9pZCI6OSwicGlkIjo4LCJleHBhIjp0cnVlLCJkaXMiOiJGaW5hbmNlIFNlY3Rpb24ifSx7ImlkIjoxMDExLCJvaWQiOjEwLCJwaWQiOjksImV4cGEiOnRydWUsImRpcyI6Ikh1bWFuIFJlc291cmNlIFNlY3Rpb24ifV0sInBvc3MiOlt7ImlkIjoyMDAwLCJkaXMiOiJIUiBNYW5hZ2VyIn0seyJpZCI6MjAwMSwiZGlzIjoiSVQgTWFuYWdlciJ9LHsiaWQiOjIwMDIsImRpcyI6IkNFTyJ9LHsiaWQiOjIwMDMsImRpcyI6Ik9mZmljZXIifSx7ImlkIjoyMDA0LCJkaXMiOiJTYWxlcyBNYW5hZ2VyIn0seyJpZCI6MTAwNSwiZGlzIjoiQWR2ZXJ0aXNpbmcgU2VjdGlvbiJ9LHsiaWQiOjIwMDYsImRpcyI6IkFjY291bnQgQXNpc3RhbnQifV0sImdlbmRlciI6W3siaWQiOjAsImRpcyI6IkZlbWFsZSJ9LHsiaWQiOjEsImRpcyI6Ik1hbGUifV0sIm1hcnIiOlt7ImlkIjoxMCwiZGlzIjoiU2luZ2xlIn0seyJpZCI6MTEsImRpcyI6Ik1hcnJpZWQifSx7ImlkIjoxMiwiZGlzIjoiRGl2b3JjZSJ9LHsiaWQiOjEzLCJkaXMiOiJPdGhlciJ9XX0='
+        }
+
+    ,
+
+    ha$UA = 'noU',
+
+    enDAT = function (dat, coMA, m ) {
+        //
+        var re = [];
+        //
+        if (m == 1) {//decode...
+            re = {};
+            for (var i = 0; i < coMA.length; i++) {
+                re[coMA[i]] = dat[i];
+            };
+
+        } else {
+
+            for (var i = 0; i < coMA.length; i++) {
+
+                re.push(dat.hasOwnProperty(coMA[i]) ? dat[coMA[i]] : 
+
+                    m === 2? dat[coMA[i]] = null:null
+                    
+                    );
+
+            };
+
+        };
+        return re;
+    }
+    ,
+
+    tafy_2_jdat = function () {
+        //
+        //buoc phai khoi tao de co gender,marr ...
+        if (!masdat.jdat) masdat.jdat = JSON.parse(masdat[lan].atou());
+        //
+        const test = tbHED().get(),
+                    //	Select RowID as id,intinfor2 as oid,intinfor3 as pid,RptName as rpt,HeaderName as dis From Header Where Kind=1
+            fi = ['id' //RowID as id
+                    , 'ten' //HeaderName as dis
+                    , 'rpt' //RptName as rpt
+                    , 'kind'// Kind=1
+                    , 'i2'//intinfor2 as oid
+                    , 'i3'//intinfor3 as pid
+                ]
+            , as = { 'ten': 'dis', 'i2': 'oid', 'i3': 'pid' };
+        //
+        var sec = [], pos = [];
+        for (var zi = 0; zi < test.length; zi++) {
+            //
+            if ([1, 2].indexOf(test[zi].kind) == -1) continue;
+            //
+            var rw = {};
+            for (var zj = 0; zj < fi.length; zj++) {
+                rw[
+                    (as[fi[zj]] || fi[zj])
+                ] = test[zi][fi[zj]];
+            };
+            //
+            (rw.kind === 1 ? sec : pos).push(rw);
+            //
+        };
+        //
+        //lam 2 ngay 2 dem moi ra den day !!!
+        if (sec.length > 0) masdat.jdat.secs = sec;
+        if (pos.length > 0) masdat.jdat.poss = pos;
+        //
+    }
+
+    ,
+
+    jdat_2_tafy = function (d) {
+
+        var as = { 'dis': 'ten', 'oid': 'i2', 'pid': 'i3' },
+            re = {};
+
+        for (var k in d) {
+
+            re[ as[k] ||  k] = d[k];
+        };
+
+        return re;
+
+    }
+
+    ,
+
+    IMP_RESTORE = function (mas, dume) {
+
+        var d = $.Deferred();
+
+        //
+        //1. Update lai dbname moi nhat 
+        JOB.demo.ini.dbNa = JOB.demo.conf._t.toString().hexEncode();
+        //
+        //
+        //2. Quyet dinh save master sec,pos truoc de tao cau truc table
+        fn.SAVE(mas/*rid la auto*/, {
+
+            act: 'bulk',
+
+            coMA: JOB.demo.ini.coHED,//header table ...
+
+            keyPath: JOB.demo.ini.csdl[1].path,
+
+            tenDB: JOB.demo.ini.dbNa,
+
+            tb: JOB.demo.ini.csdl[1].tb,
+
+            //
+            createC$B: JOB.demo.c$dl
+            //
+            //
+        }).done(function (rst) {
+            //
+            //save head thanh cong ---------------------------
+            tbHED = TAFFY(mas);
+            delete masdat.jdat;//khi restart lai thi load again
+            //
+            //
+            JOB.api.empprofile.LuuDB(dume, 'bulk').then(function (v1) {
+                //
+                //***********************************************
+                //*********** complete !
+                tbEMP = TAFFY(dume);
+                //
+                //***********************************************
+                //
+                d.resolve();
+                //
+                //
+            }, function (err) {
+                //
+                //debugger;
+                d.reject({ err: err, ste: 'addemp' });
+                //
+            });
+            //
+            //
+        }).fail(function (err) {
+
+            d.reject({ err: err, ste: 'addhed' });
+
+        });
+        //
+        return d.promise();
+    }
+
+    ,
+
+    gen_ID = function () {
+        return new Date().getTime();
+        //elUI.db__DAT.dbHED.reduce(function (_p, _c) {
+        //    if (+_c.id > +_p) {
+        //        return _c.id;
+        //    } else {
+        //        return _p;
+        //    }
+        //}, 0) + 1;
+    }
+
+    , 
+    
+    JOB = {
+
+        l0g:function(dat,op,cacheLOG) {
+            //demo1 datbase information ...
+            //
+            //khi employee modify , but activilog chua load lan nao thi waite cho no load
+            if (cacheLOG) JOB.demo.IMPLOGs.unshift(dat[1]);//luc nao cung o top
+            //
+            //
+            dat = {
+                '_': dat[0],
+                '__': JSON.stringify(dat[1]).utoa()
+            };
+            //
+            //
+            return fn.SAVE(
+
+                dat 
+
+                ,
+
+                $.extend({
+
+                    act: 'add'
+
+                    , mRAW: 1
+
+                    , createC$B: function (db, na, op) {
+                        //debugger;
+                        const dume=JOB.demo;
+                        //phai di tao toan bo databse demo 1
+                        for (var z = 0; z < dume.tb.length; z++) {
+                            //
+                            var na = JOB.demo.ini.dbTB + dume.tb[z][0];
+                            if (db.objectStoreNames.contains(na)) db.deleteObjectStore(na);
+                            //
+                            fn.createTB(db, na, { keyPath: dume.tb[z][1], F: dume.tb[z][2] });
+                            //
+                        };
+                    }
+
+                },op)
+
+            );
+        }
+        ,
+        api: {
+
+            empprofile: {
+
+                LuuDB: function (em, act) {
+                    //
+                    var d = $.Deferred();
+                    //
+                    fn.SAVE(
+
+                            em//id la auto,
+                            ,
+                            {
+                                act: act, coMA: JOB.demo.ini.coMA, keyPath: JOB.demo.ini.csdl[0].path, tenDB: JOB.demo.ini.dbNa, tb: JOB.demo.ini.csdl[0].tb, F: []
+                                //
+                                ,
+                                createC$B: JOB.demo.c$dl
+                                //
+                                //
+                            }
+
+                    ).done(function (rst) {
+                        //
+                        d.resolve({ id: em.id, rowaffect: rst });
+                        //
+                    }).fail(function (err) {
+
+                        d.reject(err);
+
+                    });
+                    //
+                    //
+                    //
+                    //
+                    return d.promise();
+                    //
+                }
+
+                ,
+
+                chkDUP:function(em){
+                    //
+                    var rst = [], dup;
+                    //
+                    //{"dataerr":[{"F":"acno"},{"F":"empcode"}],"kind":"DUPLICATE"}
+                    if (em.acno) {
+                        dup = tbEMP().filter({ acno: em.acno });
+                        if (dup.count() > 0) {
+                            rst.push({ "F": "acno" });
+                        };
+                    };
+                    //
+                    if (em.empcode) {
+                        dup = tbEMP().filter({ empcode: { isnocase: em.empcode } });
+                        if (dup.count() > 0) {
+                            rst.push({ "F": "empcode" });
+                        };
+                    };
+                    //
+                    //
+                    return rst;
+                    //
+                }
+                ,
+
+                GET: function (op) {
+
+                    //debugger;
+                    var d = $.Deferred();
+
+
+                    var test = tbEMP().get();
+
+                    d.resolve(test);
+
+                    //$.ajax('https://jsonplaceholder.typicode.com/posts?_limit=20').done(function (res) {
+
+                    //    d.resolve(res);
+
+                    //}).fail(function (error) {
+
+                    //    d.reject(error);
+
+                    //});
+
+                    return d.promise();
+
+                }
+                ,
+
+                SEL: function (op) {
+                    //debugger;
+                    var d = $.Deferred();
+
+
+                    var test = tbEMP().get();
+                    //
+                    var re = [];
+                    for (var zi = 0; zi < test.length; zi++) {
+                        var rw = {};
+                        for (var zj = 0; zj < op.qry.length; zj++) {
+                            rw[op.qry[zj]] = test[zi][op.qry[zj]];
+                        };
+                        re.push(rw);
+                    };
+                    //
+                    //test= test.select.apply(test, op.qry);
+                    //
+                    d.resolve([re, JSON.stringify(JOB.demo.conf)]);
+
+                    //$.ajax('https://jsonplaceholder.typicode.com/posts?_limit=20').done(function (res) {
+
+                    //    d.resolve(res);
+
+                    //}).fail(function (error) {
+
+                    //    d.reject(error);
+
+                    //});
+
+                    return d.promise();
+                }
+                ,
+
+                PUT: function (op) {
+
+                    //debugger;
+
+                    var dat = JSON.parse(op.dat),
+
+                        upt = JSON.parse(dat.values),
+
+                        em = tbEMP({ id: JSON.parse(dat.key).id }),
+
+                        dup = this.chkDUP(upt);//{"dataerr":[{"F":"acno"},{"F":"empcode"}],"kind":"DUPLICATE"}
+
+                    //
+                    //
+                    if (dup.length > 0) {
+                        //use resolve
+                        return $.Deferred().resolve({ "dataerr": dup, "kind": "DUPLICATE" });
+                        //
+                    } else {
+                        //
+                        em.update(upt);
+                        //
+                        //
+                        if (em.context().results.length > 0) {
+
+                            return this.LuuDB(em.first(), 'put');
+
+                        };
+                    };
+                    //
+                    //
+                    return $.Deferred().reject({ error: 1 });
+                    //
+                }
+
+                ,
+
+                POST: function (op) {
+
+                    //debugger;id = tbEMP().max("id") || 0,
+
+
+                    var dat = JSON.parse(op.dat),
+
+                        em = JSON.parse(dat.values),
+
+                        dup = this.chkDUP(em);//{"dataerr":[{"F":"acno"},{"F":"empcode"}],"kind":"DUPLICATE"}
+
+                    if (dup.length>0){
+                        //use resolve
+                        return $.Deferred().resolve({ "dataerr": dup, "kind": "DUPLICATE" });
+
+                    };
+                    //
+                    //
+                    //ad id vao new record
+                    //
+                    //add vo taffydb
+                    tbEMP.insert(em);
+                    //
+                    //
+                    //
+                    return this.LuuDB(em, 'add');
+                    //
+                }
+
+                ,
+
+                DELETE: function (op) {
+
+                    //debugger;
+
+                    var dat = JSON.parse(op.dat),
+                    em = tbEMP({ id: dat.id }).remove();
+                    //
+                    if (em > 0) {
+
+                        return this.LuuDB({ id: dat.id }, 'delete');
+
+                    };
+                    //
+                    //
+                    return $.Deferred().resolve(0);
+                }
+
+                ,
+
+                IMPORT: function (op) {
+                    //
+                    var d = $.Deferred(), th$ = this,
+
+                      dume = JOB.demo
+                      ,
+
+                      mas = dume.tb[0] //quy uoc table demo0 = log user import profile 
+
+                      ,
+
+                      Ste_IMP = function (rst) {
+                          //
+                          //
+                          //
+                          dume = JSON.parse(op.dat);
+                          mas = [];
+                          //
+                          //debugger;
+                          if (op.mas) {
+                              JSON.parse(op.mas).forEach(function (m) {
+                                  for (var i = 1; i < m.length; i++) {
+                                      mas.push({
+                                          id: i, kind: m[0], ten: m[i], rpt: 'imp_' + m[0] + '_' + i, isdef: 0
+                                            , i2:i //intinfor2 as oid
+                                            , i3:-1//intinfor3 as pid
+                                      })
+                                  };
+                              });
+                          };
+                          //
+                          IMP_RESTORE(mas, dume).done(function () {
+                              //
+                              d.resolve();
+                              //
+                          }).fail(function (err) {
+                              //
+                              d.reject({ err: err, ste: 'addhed' });
+                              //
+                          });
+                          //
+                      };
+
+                    //
+                    //
+                    JOB.demo.conf= {
+
+                        KY: 1, //loai log 1 = import
+
+                        olddb: JOB.demo.ini.dbNa,//ten db mac dinh
+
+                        _t: new Date().getTime(), //thoi gian import
+
+                        _u: ''//user import
+
+                        , dauvet: JOB.demo.conf.dauvet
+
+                    };
+                    //
+                    //
+                    //
+                    JOB.l0g(//1: log user import emp profile
+                        [1, JOB.demo.conf]
+                    ,
+                    {
+                        tenDB: dume.db
+                        , tb: mas[0]
+                        , keyPath: mas[1]
+
+                    },true).done(Ste_IMP).fail(function (err) {
+
+                        d.reject({ err: err, ste: 'addlog' });
+
+                    });
+                    //
+                    //
+                    return d.promise();
+                    //
+                }
+
+
+            }//end GET
+
+            ,
+
+            headermaster: {//header data master
+
+                loadHED: function (op) {
+                    //
+                    const tha$ = this,
+                        d = $.Deferred();
+                    //
+                    fn.LOAD({
+
+                        tenDB: JOB.demo.ini.dbNa, tb: JOB.demo.ini.csdl[1].tb/*table employees*/
+
+                    }).done(function (v1) {
+
+                        tbHED = TAFFY(v1);
+
+                    });
+                    //
+                    //
+                    return d.promise();
+                    //
+                }
+
+                ,
+
+                jdat:function(){
+                    //co 2 cho dung
+                    //1. section pb-cv dashboard
+                    //2. employees profile
+                    //
+                    const  d = $.Deferred();
+                    //
+                    if (!tbHED) {
+
+                        fn.LOAD({
+
+                            tenDB: JOB.demo.ini.dbNa, tb: JOB.demo.ini.csdl[1].tb/*table employees*/
+
+                        }).done(function (b) {
+
+                            if (b) {
+                                tbHED = TAFFY(
+
+                                    b.reduce(function (re, v) {
+                                        var deC = enDAT(v._, JOB.demo.ini.coHED, 1)// JSON.parse(v._.atou());
+                                        //deC.id = v.id;
+                                        re.push(deC)
+                                        return re;
+                                    }, []) || []
+
+                                );
+                                //
+                                //du em tinh o day cho lanh
+                                //
+                                tafy_2_jdat();
+                                d.resolve();
+                                //
+                            } else {
+                                masdat.jdat = JSON.parse(masdat[lan].atou());
+                                d.resolve();
+                            };
+                            //
+                        }).fail(function (err) {
+                            //
+                            masdat.jdat = JSON.parse(masdat[lan].atou());
+                            d.resolve();
+                            //
+                        });
+                        //
+                        //
+                    } else {
+                        //
+                        tafy_2_jdat();
+                        d.resolve();
+                        //
+                    };
+                    //
+                    return d.promise();
+                    //
+                }
+
+                ,
+
+                demo: function (op, tha$) {
+                    //co 2 cho dung
+                    //1. section pb-cv dashboard
+                    //2. employees profile
+                    //
+                    const d = $.Deferred(),
+                        fnRST = function () {
+                            d.resolve(JSON.stringify([JOB.demo.conf, tbEMP().get().length]));
+                        };
+                    //
+                    //
+                    setTimeout(function () {
+                        $.ajax({
+
+                            cache: false,
+
+                            url: op.url,
+
+                            success: function (rst) {
+
+                        
+                                tha$.GET({ dat: rst.atou(), qry: 'restore' }).done(function () {
+  
+                                    fnRST();
+
+                                });
+
+                                //debugger;
+                            },
+                            error: function (xhr, textStatus, errorThrown) {
+
+                                fnRST();
+
+                                //debugger;
+                            }
+                        });
+                    }, 500);
+                    //
+                    return d.promise();
+                }
+
+                ,
+
+                GET: function (op) {
+                    //
+                    const tha$ = this,
+                        d = $.Deferred();
+                    //
+                    switch (op.qry) {
+
+                        case 'jdat': {
+                            //
+                            if (masdat.jdat) {
+                                d.resolve(masdat.jdat);
+                            } else {
+                                if (!JOB.demo.conf.hasOwnProperty("KY")) {
+                                    //
+                                    masdat.jdat = JSON.parse(masdat[lan].atou());
+                                    d.resolve(masdat.jdat);
+                                    //
+                                } else {
+                                    tha$.jdat().then(function (value) {
+                                        d.resolve(masdat.jdat)
+                                    });
+                                };
+                            };
+                            //
+                            break;
+                        }
+                        case 'acts': {
+                            //
+                            //debugger;
+                            //chua load activity log 
+                            if (!JOB.demo.actLOGs) {
+
+                                fn.LOAD({ tenDB: JOB.demo.db, tb: JOB.demo.tb[1][0]/*table head of demo master*/ })
+                                    .done(function (a) {
+                                        //
+                                        JOB.demo.actLOGs = a && a.map(function (rw) {
+                                            return JSON.parse(rw.__.atou());
+                                        }) || [];
+                                        //
+                                        //sap xep lai theo thoi gian ....
+                                        JOB.demo.IMPLOGs = JOB.demo.IMPLOGs.concat(JOB.demo.actLOGs);
+                                        //
+                                        JOB.demo.IMPLOGs.sort(function (d, c) {
+                                            //debugger;
+                                            return c._t - d._t;
+                                        });
+                                        //
+                                        d.resolve(JSON.stringify(JOB.demo.IMPLOGs));
+                                        //
+                                    });
+
+                            } else {
+                                //
+                                d.resolve(JSON.stringify(JOB.demo.IMPLOGs));
+                                //
+                            };
+                            //
+                            break;
+                        }
+                        case 'demo': {
+                            //
+                            //ben demo ngay va luon call
+                            //
+                            const RES = {};
+                            if (!JOB.demo.conf.KY && tbEMP().get().length == 0){
+                                RES.inidat = tha$.demo(op, tha$);
+                            };
+                            //
+                            d.resolve(RES);
+                            //
+                            break;
+                        }
+                        case 'backup': {
+                            //
+                            //chua load activity log 
+                            tha$.GET({ qry: 'jdat' }).done(function (v1) {
+
+                                d.resolve(JSON.stringify([JOB.demo.ini, tbEMP().get().map(function (d) {
+
+                                    return enDAT(d, JOB.demo.ini.coMA);
+
+                                })
+                                ,
+                                {
+                                    'secs': masdat.jdat.secs.map(function (x) {
+                                        return jdat_2_tafy( x);
+                                    }),
+                                    'poss': masdat.jdat.poss.map(function (x) {
+                                        return jdat_2_tafy( x);
+                                    })
+                                }
+
+                                ]));
+
+                            });
+                            //
+                            break;
+                        }
+                        case "restore": {
+                            //
+                            //
+                            JOB.demo.conf = {
+
+                                KY: 3, //loai log 2 = restore
+
+                                olddb: JOB.demo.ini.dbNa,//ten db mac dinh
+
+                                _t: new Date().getTime(), //thoi gian import
+
+                                _u: ''//user import
+
+                                , dauvet: JOB.demo.conf.dauvet
+
+                            };
+                            //
+                            //
+                            op.dat = JSON.parse(op.dat);
+                            var dume = JOB.demo,
+                                mas = dume.tb[0]; //quy uoc table demo0 = log user restore apphrm.dat
+                            //
+                            //
+                            //
+                            JOB.l0g(//3: log user restore emp profile from backup
+                                [3, JOB.demo.conf]
+                            ,
+                            {
+                                tenDB: dume.db
+                                , tb: mas[0]
+                                , keyPath: mas[1]
+
+                            }, true).done(function (rv) {
+                                //
+                                dume = op.dat[1].reduce(function (re, v) {
+                                    re.push(enDAT(v, JOB.demo.ini.coMA, 1));
+                                    return re;
+                                }, []) || [];
+                                //
+                                mas = $.map(op.dat[2], function (i, va) {
+                                    return i;
+                                });
+                                //
+                                IMP_RESTORE(mas, dume).done(function () {
+                                    //
+                                    d.resolve();
+                                    //
+                                }).fail(function (err) {
+                                    //
+                                    d.reject({ err: err, ste: 'addhed' });
+                                    //
+                                });
+                                //
+                            }).fail(function (err) {
+
+                                d.reject({ err: err, ste: 'addlog' });
+
+                            });
+                            //
+                            break;
+                        }
+                        default: {
+
+                            d.resolve();
+
+                            break;
+                        }
+                    };
+                    //
+                    return d.promise();
+                    //
+                }
+
+                ,
+
+                LOG: function (op) {
+
+                    //debugger;
+
+                    var d = $.Deferred()
+                        , th$ = this
+
+                        , dume = JOB.demo
+
+                        , mas = dume.tb[1];//quy uoc table demo1 = log user change profile 
+
+                    //
+                    JOB.l0g(//2: log user edit emp profile
+                            [2, $.extend(
+                                {
+                                    _t: new Date().getTime() //thoi gian modify
+
+                                    , _u: ''
+
+                                    , KY: 2//cho cung format voi log import ...
+
+                                    , ki: op.ki//kind of modify /1:new/2:edit/3:delete
+
+                                }//user modify
+                                , op.dat) ]
+                            ,
+
+                            {
+                                tenDB: dume.db
+                                , tb: mas[0]
+                                , keyPath: mas[1]
+
+                            }, !!JOB.demo.actLOGs).done(function () {
+                                //
+                                d.resolve(1);//not important
+                                //
+                            }).fail(function (err) {
+                                //
+                                d.resolve(1);//not important
+                                //
+                            }
+                        );
+                    //
+                    //
+                    return d.promise();
+                    //
+                }
+            }
+        }//end api
+
+        ,
+
+        demo: {
+
+            db: 'demo1'.hexEncode(),//chua thong tin co ban demo + log
+
+            tb:[],//se khoi tao bang loop phia duoi [['head'.hexEncode(), { keyPath: "id" }], ['log'.hexEncode(), { keyPath: "id", autoIncrement: true },["pid"]]],
+
+            ini: {
+
+                dbNa: 'apphrm_localdb'.hexEncode(),//ten db mac dinh neu ko co import
+
+                dbTB: '\x61\x70\x70\x63\x73\x64\x6C_'.hexEncode(),//appcsdl
+
+                coMA: ["acno", "empcode", "ho", "ten", "birthday", "hireday", "img", "gender", "marital", "secid", "posid", "degree", "offdate", "email", "phone", "cmnd", "ngaycap", "noicap", "address", "notes"
+                        , 'i1', 'i2', 'i3', 'i4', 'i5'
+                        , 'dec1', 'dec2', 'dec3', 'dec4', 'dec5'
+                        , 'nga1', 'nga2', 'nga3', 'nga4', 'nga5'
+                        , 'txt1', 'txt2', 'txt3','id']
+                ,
+                //	Select RowID as id,intinfor2 as oid,intinfor3 as pid,RptName as rpt,HeaderName as dis From Header Where Kind=1
+                coHED: ['id' //RowID as id
+                    , 'ten' //HeaderName as dis
+                    , 'rpt' //RptName as rpt
+
+                    , 'kind'// Kind=1
+                    , 'isdef', 'ngay', 'parentid', 'notes', 'i1'
+
+                        , 'i2'//intinfor2 as oid
+                        , 'i3'//intinfor3 as pid
+
+                        , 'i4', 'i5', 'i6', 'i7', 'i8', 'i9', 'i10', 'i11', 'i12', 'i13', 'i14', 'i15', 'i16'
+                        , 'dec1','dec2','dec3','dec4','dec5'
+                        ,'nga1','nga2','nga3','nga4','nga5' 
+                        ,'txt1' ,'txt2', 'txt3'
+                ]
+                ,
+
+                csdl : [{
+                        tb: 'emps'.hexEncode(),
+                        path:{ keyPath: "id", autoIncrement: true }
+                    }
+                    ,
+                    {
+                        tb: 'head'.hexEncode(),
+                        path:{ keyPath: "ri", autoIncrement: true }
+                    }
+                    ,
+                    {
+                        tb: 'line'.hexEncode(),
+                        path: { keyPath: "ri", autoIncrement: true }
+                    }
+                    ,
+                    {
+                        tb: 'logs'.hexEncode(),
+                        path: { keyPath: "ri", autoIncrement: true }
+                    }
+                    ,
+                    {
+                        tb: 'jobs'.hexEncode(),
+                        path: { keyPath: "ri", autoIncrement: true }
+                    }
+                ]
+
+            }
+
+            ,
+
+            c$dl: function (db, na, op) {
+                //debugger;
+                //phai di tao toan bo databse demo 1
+                for (var z = 0; z < JOB.demo.ini.csdl.length; z++) {
+                    //
+                    var na = JOB.demo.ini.dbTB + JOB.demo.ini.csdl[z].tb;
+                    if (db.objectStoreNames.contains(na)) db.deleteObjectStore(na);
+                    //
+                    fn.createTB(db, na, { keyPath: JOB.demo.ini.csdl[z].path, F: JOB.demo.ini.csdl[z].F });
+                    //
+                };
+            }
+
+            ,
+
+            conf: { dauvet: [1, 2, 3] }
+
+        }
+    }
+
+    ,
+
+    fn = {
+
+        CB: function (op) {
+            debugger;
+            return op.c$b && op.c$b();
+        }
+        ,
+        createTB: function (D$b, na, op) {
+            var tc = D$b.createObjectStore(na, op.keyPath);
+            if (op.F && op.F.length > 0) {
+                for (var z = 0; z < op.F.length ; z++) {
+                    tc.createIndex(op.F[z], op.F[z], { unique: false });
+                };
+            };
+        }
+        ,
+        SAVE: function (dat, op) {
+            //debugger;
+            var d3 = $.Deferred(),
+                na = JOB.demo.ini.dbTB + op.tb;
+
+            lo$DB(function (db) {
+
+                //debugger;
+                //
+                if (db.kq == 0) {//create new
+                    //
+                    var D$b = db.e.target.result;//var Db = e.target.result;
+                    //
+                    if (op.createC$B) {
+                        op.createC$B(D$b, na, op);
+                    } else {
+                        if (D$b.objectStoreNames.contains(na)) D$b.deleteObjectStore(na);
+                        fn.createTB(D$b, na, op);
+                    };
+                    //
+                } else if (db.kq == 1) { //ok
+                    //
+                    var saveRST = 0,
+                        ts = db.rst.transaction([/*lin,*/ na], "readwrite"),
+                        tcStore = ts.objectStore(na),
+                        key = op.keyPath.keyPath,
+                        req;
+
+                    //
+                    if (op.act == 'delete') {
+                        //
+                        req = tcStore[op.act](dat[key]);
+                        //
+                    } else {
+         
+                        if (op.act == 'bulk') {
+                            //
+                            //reset table ....
+                            tcStore.clear();
+                            //
+                            if (dat.length == 0) {//user muon clean emp list
+                                //
+                                db.rst.close();
+                                d3.resolve(0);
+                                //
+                                return;
+                                //
+                            } else {
+                                saveRST = dat.length;
+                                dat.forEach(function (d) {
+                                    //base 64
+                                    //
+                                    req = tcStore.add({ _: enDAT(d, op.coMA, 2) });
+                                    //
+                                });
+                            };
+                            //
+                        } else {
+                            //
+                            //console.log(dat);
+                            var sD;
+                            //
+                            if (op.mRAW) {//mode raw - khi tao log thi save ko can adap
+
+                                sD = dat;//save origin
+
+                            } else {
+                                //
+                                sD = { _: enDAT(dat, op.coMA,2)};
+                                if (op.act === 'put') sD[key] = dat[key];
+                            };
+                            //
+                            req = tcStore[op.act || 'add'](sD);//sD
+                            //
+                        };
+                        //
+                        //
+                        req.onsuccess = function (e) {
+                            //
+                            saveRST = saveRST == 0 ? 1 : saveRST;
+                            dat[key] = e.target.result;//auto ID vua tao ra
+                            //
+                        };
+                        //
+                    };
+                    //
+                    //
+                    //
+                    ts.oncomplete = function () {
+                        //
+                        db.rst.close();
+                        //
+                        d3.resolve(saveRST);
+                        //
+                    };
+
+                    ts.onerror = function (e) {
+                        //debugger;
+                        //
+                        d3.reject(e.target.error);
+                        //some type of error handler
+                    };
+                }
+            },op.tenDB,{ noV:1});
+
+            return d3.promise();
+        }
+        ,
+
+        LOAD: function (op) {
+
+            var defe = $.Deferred(),
+                na = JOB.demo.ini.dbTB + op.tb;
+            //
+            lo$DB(function (db) {
+                //
+                //debugger;
+                if (db.kq == 0) {//create new
+                    //
+                    db.cb('cancel');
+                    //khong tao moi
+                    defe.resolve(null);
+                    //
+                } else if (db.kq == 1) { //ok
+                    // dbTBname: ['loghis', 'tc3'],
+                    var req
+                    , rst = []
+                    , ts = db.rst.transaction([na], "readonly")
+                    , tc3Store = ts.objectStore(na);
+                    //
+                    ts.oncomplete = function () {
+                        db.rst.close();
+                        defe.resolve(rst);
+                    };
+                    //
+                    tc3Store.openCursor().onsuccess = function (e) {
+                        var cursor = e.target.result;
+                        if (cursor) {
+                            //if (logIDs.indexOf(cursor.value.logid) > -1) {
+                            rst.push(cursor.value);
+                            //};
+                            cursor.continue();
+                        } else {
+                            //End
+                        }
+                    };
+                    //
+                    //co muon doc them table nao nua k?
+                    if (op.readMORE) {
+                        op.readMORE(db);
+                    };
+                    //
+                } else if (db.kq == 2) { //error
+
+                    defe.resolve(null);
+
+                };
+                //
+            }, op.tenDB, { noV:1});
+            //
+            return defe.promise();
+            //
+        }
+
+    };
+
+    var tinhCong = (function () { // scoping
+
+        function MyObj(op) { // constructor
+            //
+            //if (!(this instanceof MyObj)) {
+            //    return new MyObj(op);
+            //};
+            //
+            //
+            try {
+                //
+                var hwnEN = JOB;
+                op.uri.split('/').forEach(function (hwn) {
+                    if (hwn != '' && hwnEN) {
+                        hwnEN = hwnEN[hwn];
+                    };
+                });
+                //
+                return hwnEN[op.act](op);
+                //
+            } catch (error) {
+                //
+                return $.Deferred().reject({ error: error });
+                //
+            };
+        };
+
+        return MyObj;
+
+    })();
+    //
+    //
+    //tao 20 table log dieu khien version db, quy uoc cai zero dung dau tien
+    for (var lg = 0; lg < 20; lg++) {
+        JOB.demo.tb.push([('log_' + lg).hexEncode(), { keyPath: "id", autoIncrement: true }, [/*"KY"*/]]);
+    };
+    //
+    //
+    _gsC('https://cdnjs.cloudflare.com/ajax/libs/taffydb/2.7.3/taffy-min.js', 'js', function () {
+        //
+        JOB.demo.IMPLOGs = [];
+        //
+        $.when(fn.LOAD({ tenDB: JOB.demo.db, tb: JOB.demo.tb[0][0]/*table head of demo master*/ })).done(function (a) {
+
+            if (a) {//co log his import
+                //debugger;
+                //tim nguoc tu duoi len
+                for (var z = a.length - 1; z > -1; z--) {
+                    //
+                    //chua log import here ...
+                    JOB.demo.IMPLOGs.unshift(JSON.parse(a[z].__.atou()));
+                    //
+                    //khi endcode KY='KEY'= '_'
+                    if ([1,3].indexOf( a[z]._ )>-1 && !JOB.demo.conf.KY) {
+                        //
+                        $.extend(JOB.demo.conf, JOB.demo.IMPLOGs[0]);// a[a.length - 1];//lay cai cuoi cung
+                        //
+                        //lay import moi nhat
+                        JOB.demo.ini.dbNa = JOB.demo.conf._t.toString().hexEncode();
+                        //
+                        //break;//break trong for=exit for
+                    };
+                    //
+                };
+                //
+            };
+            //
+            //
+            //
+            $.when(fn.LOAD({
+
+                tenDB: JOB.demo.ini.dbNa, tb: JOB.demo.ini.csdl[0].tb/*table employees*/
+
+                //, readMORE: function (db) {
+
+                //    for (var z = 1; z < JOB.demo.ini.csdl.length; z++) {
+                //        //
+                //        var na = JOB.demo.ini.dbTB + JOB.demo.ini.csdl[z].tb;
+
+                //        if (db.rst.objectStoreNames.contains(na)) {
+                //            var ts = db.rst.transaction([na], "readonly")
+                //                , tc3Store = ts.objectStore(na);
+                //            //
+                //            tc3Store.openCursor().onsuccess = function (e) {
+                //                var cursor = e.target.result;
+                //                if (cursor) {
+                //                    //if (logIDs.indexOf(cursor.value.logid) > -1) {
+                //                    //rst.push(cursor.value);
+                //                    //};
+                //                    console.log(cursor.value);
+
+                //                    cursor.continue();
+
+                //                } else {
+                //                    //End
+                //                }
+                //            };
+                //        };
+                //        //
+                //    };
+                //}
+
+            })).done(function (b) {
+
+                tbEMP = TAFFY(
+
+                    b && b.reduce(function (re, v) {
+                        var deC = enDAT(v._, JOB.demo.ini.coMA, 1)// JSON.parse(v._.atou());
+                        deC.id = v.id;
+                        re.push(deC)
+                        return re;
+                    }, []) || []
+
+
+                    //JSON.parse('[{"acno":4,"empcode":"HR0004","ho":"Trần văn","ten":"Thời","birthday":"2000-01-01","hireday":"2021-04-15","img":"https://i.imgur.com/htHuqOg.jpg","gender":1,"marital":10,"secid":1002,"posid":2003,"degree":"Cử nhân Anh văn","offdate":null,"email":"tvthoi@hellohrm.com","phone":"0963111222","cmnd":"","ngaycap":"2021-04-19","noicap":"","address":"111 Nguyễn Thái Bình - HCM","notes":"Đây là nhân viên thử nghiệm ….","pid":0,"id":129},{"acno":5,"empcode":"Dhdhdhdh","ho":"Hxhchfh","ten":"xhfjDfjj","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1002,"posid":2003,"degree":"Djdjfjfjf","offdate":"2021-04-26","email":"Jdfjfjfjf","phone":"jfjfjfjcj","cmnd":"fdjdjxhXj","ngaycap":"2021-04-19","noicap":"Fjfjfjfjjfjfdjfj","address":"Duhfufjfjfj","notes":"Djjffjjfjffj","pid":0,"id":130},{"acno":6,"empcode":"Djdhdhdhđ","ho":"Hdhdhdjdjddjxdjdjdjdidididi","ten":"Jcjdjfjd","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1002,"posid":2003,"degree":"Fjfjfjfjfjfh","offdate":"2021-04-26","email":"Hđhhđhdjdjdj","phone":"Jdjdududududdjfjfufidididudud","cmnd":"Djdhdhduuf","ngaycap":"2021-04-26","noicap":"Jfjfjfjfjfhf","address":"Fjfjfjfjfjfu","notes":"Fjfjfjfjfj","pid":0,"id":131},{"acno":8,"empcode":"Nfnffjjffjfffnjfjfjf","ho":"Đìuufu","ten":"Hfjfjfjfjf","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1003,"posid":2003,"degree":"Tjfjfjfjfifu","offdate":"2021-04-30","email":"Ncjccjcjcjcj","phone":"Djdjfjfjfjfjfj","cmnd":"Fjfjfjfifif","ngaycap":"2021-04-12","noicap":"Nfjcjcjcjcjcjftjtjifjfufifi","address":"Fjfjfjfjj","notes":"Hfhffhfufu","pid":0,"id":133},{"acno":9,"empcode":"Dbdbfjdjfjfj","ho":"ffjdjfjfjfjfjfiffiiff","ten":"fiiifjfjfj","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1003,"posid":2003,"degree":"Fufufufufu","offdate":"2021-04-26","email":"Djdjdjdjjf","phone":"Djdifufufifi","cmnd":"Djfjjffjfifi","ngaycap":"2021-04-23","noicap":"Fhfufufuuf","address":"Chfjfjfufifu","notes":"Chcjcjdjhfjfjf","pid":0,"id":134},{"acno":10,"empcode":"Hdhdhdhdhdh","ho":"No","ten":"Name","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1004,"posid":2003,"degree":"Djfjfjfjfjjjf","offdate":"2021-04-26","email":"Djdjfjdjjfdjdjjdfjfjdjfjfj","phone":"Djfjfjfjfj","cmnd":"Djdndjdjfjdjfj","ngaycap":"2021-04-05","noicap":"Hedjdjdjđjdjd","address":"Djfjfjfjfjfhfjfjfjfxjfjfhf","notes":"Dcjfhfjfjcjfcjfjfucjfj","pid":0,"id":135},{"acno":11,"empcode":"11","ho":"Trần hoàng","ten":"Kiếm","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1004,"posid":2003,"degree":"Fffjfjfjfuf","offdate":"2021-04-26","email":"Jdjdjdjdjffj","phone":"Đjdjjdjdjdjf","cmnd":"Ffjfjfjfjjfjf","ngaycap":"2021-04-26","noicap":"Jdjdjdjdjdjddudjdjdiud","address":"Gfvcccff Đ","notes":"Dddddddddddd","pid":0,"id":136},{"acno":12,"empcode":"Djfhcb","ho":"Hồ Hoàng","ten":"Thông","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1004,"posid":2003,"degree":"Jchcfhjffjfjjf","offdate":"2021-04-21","email":"Xnxnjxfnjcjfjfj","phone":"Chxhchchxhhxchhchc","cmnd":"Jfjfjfhdjxhfhf","ngaycap":"2021-04-26","noicap":"ffffjfhhfjfhh","address":"Ffffhfhfhhgh","notes":"Nghfjffjfjf","pid":0,"id":137},{"acno":14,"empcode":"Kxkck","ho":"Trần ","ten":"Khang","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1005,"posid":2003,"degree":"Xjxkxjxkkcjc","offdate":"2021-04-25","email":"Ditncid","phone":"Djdjfjcfjf","cmnd":"Ckcjfoxjcoddkkc","ngaycap":"2021-04-26","noicap":"Xnnxjxkxkxkc","address":"Xkxckkxkx","notes":"Ckxkkxkxkc","pid":0,"id":139},{"acno":17,"empcode":"Hgfjfghg","ho":"Trần","ten":"Kim ","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1007,"posid":2003,"degree":"cfjcjJfjcjcjf","offdate":"2021-04-26","email":"Xbbxxhjxchhxgx","phone":"xdhdudjhFjfjf","cmnd":"jfhfjfffhf","ngaycap":"2021-04-19","noicap":"Nfndndjdfjfjf","address":"hfhfhffhfh","notes":"fhfhfhfjf","pid":0,"id":142},{"acno":18,"empcode":"Dndndjdjfjfjd","ho":"Djdhdhdhdhdhfh","ten":"Hchchchch","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1007,"posid":2003,"degree":"Djfjfjjffjfjfjfjfjfi","offdate":"2021-04-26","email":"Dndnxjxjcjcjf","phone":"djFdhffhfhfhfuf","cmnd":"Uhfhfhdufuduf","ngaycap":"2021-04-26","noicap":"Djdjdjdjfjfhfhfhf","address":"Ffhfjfjfjfuuffiifif","notes":"Djfjfjfjfj","pid":0,"id":143},{"acno":19,"empcode":"NdjdjđjcjfjjCó ","ho":"Trầm","ten":"Thanh","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1008,"posid":2003,"degree":"Dhdhdhdhffj","offdate":"2021-04-26","email":"Dndjfjfjfjfjfjfjfjfjfjfhfhfjfj","phone":"fffhfhFjjdj","cmnd":"fjducfdhj","ngaycap":"2021-04-26","noicap":"Jdjdjdjdjf","address":"Dhdhdhdhfhdh","notes":"Dhdhdhdhfhdhfh","pid":0,"id":144},{"acno":20,"empcode":"Hdhdhdhdhd","ho":"Nguyễn Kim","ten":"Đồng","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1008,"posid":2003,"degree":"Fhfjjffjjf","offdate":"2021-04-12","email":"Djdjdjcjfjd","phone":"Hcjfhcjfjfjf","cmnd":"Djfhfhfjfjf","ngaycap":"2021-04-19","noicap":"Đjfjjffjf","address":"Fjjfdjjfjf","notes":"Chfjfjfjcfjj","pid":0,"id":145},{"acno":21,"empcode":"Fjjfjc","ho":"Bùi","ten":"Thông","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1008,"posid":2003,"degree":"Dhfhfjfjfjf","offdate":"2021-04-26","email":"Jcjfjfjcjfjfjfcjcjcj","phone":"chchchcccj","cmnd":"Chchhcjcjcjc","ngaycap":"2021-04-26","noicap":"Chcjfjfjfjcj","address":"Jffjjfjffjjf","notes":"Djfjfjfjffj","pid":0,"id":146},{"acno":22,"empcode":"Djfjfj","ho":"No ","ten":"Name","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1009,"posid":2003,"degree":"Djfjfjfjfjcjcjfcfjfjfjf","offdate":"2021-04-26","email":"Jcjcjcjfj","phone":"ffjFjjfjfjfjfj","cmnd":"fjfjfjfjcjfj","ngaycap":"2021-04-26","noicap":"Xhxhxnfnfjfjf","address":"Hcchjchfhcjcjcccicufu","notes":"djcJdjcjcjcjf","pid":0,"id":147},{"acno":23,"empcode":"Dndjfnfjjfdj","ho":"No","ten":"Name","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1009,"posid":2003,"degree":"jdfjfjfjfhcjfjfjf","offdate":"2021-04-26","email":"Cjxjfjfjjfjf","phone":"Jfhfjfj","cmnd":"fufjfjjfjfjffu","ngaycap":"2021-04-19","noicap":"Cncnfnfncjjfjd","address":"Idifududud","notes":"fdudjCufuufu","pid":0,"id":148},{"acno":24,"empcode":"Djdjfjf","ho":"No","ten":"Name","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1009,"posid":2003,"degree":"Djdhdjfjhf","offdate":"2021-04-26","email":"Tjfjfjfjfjf","phone":"Chxjxjcjdhfjj","cmnd":"ịcfjjfjdh","ngaycap":"2021-04-19","noicap":"Cbdjdjfjfdjfj","address":"djfdjfjfjf","notes":"jfjfjffjfj","pid":0,"id":149},{"acno":25,"empcode":"Djdjdjf","ho":"No","ten":"Name","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1010,"posid":2003,"degree":"Dfjfjfjuffjfjf","offdate":"2021-04-26","email":"Djdjdjcjfjfjf","phone":"Cù","cmnd":"uhfBfhfjfjfjf","ngaycap":"2021-04-18","noicap":"Djfjfjfjfjffjfjf","address":"Hfhfjfjfjdjfjjffjfdjfjfj","notes":"Hffhj","pid":0,"id":150},{"acno":26,"empcode":"Ndndnfjf","ho":"No","ten":"Name","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1010,"posid":2003,"degree":"fjjfjfjfjfi","offdate":"2021-04-19","email":"Ndjdhfjdjffjfjfjfhdjdjfjf","phone":"Dfjfjfjfjfjcjf","cmnd":"Hfjfjfjcjfjf","ngaycap":"2021-04-19","noicap":"Dnfnjfjffififj","address":"fjfjfjfjf","notes":"fuffjfjfifuFuf","pid":0,"id":151},{"acno":27,"empcode":"Hdhdfhfjfj","ho":"No","ten":"Name","birthday":"2000-01-01","hireday":"2021-04-18","img":"","gender":1,"marital":10,"secid":1010,"posid":2003,"degree":"Hfhfjfjfjfhfjf","offdate":"2021-04-12","email":"Djdjfjfjfjf","phone":"fjfJfjfjfjfjfj","cmnd":"fjffjfjffjFjjf","ngaycap":"2021-04-12","noicap":"Nfnfnfjfjfjfjfif","address":"fjfJfjfjfjfufdhfhfjfjf","notes":"Dùu","pid":0,"id":152}]')
+
+                )
+
+                dbXLSX.ini.resolve(tinhCong);
+
+            });
+            //
+            //
+        });
+
+
+
+ 
+
+
+    }, 'taffy-min.js');
+
+    dbXLSX.ini = $.Deferred();
+
+
+
+})();
