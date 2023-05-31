@@ -1,1 +1,2408 @@
-﻿var _0x34b7=["\x75\x73\x65\x20\x73\x74\x72\x69\x63\x74","\x66\x6F\x6F","\x63\x68\x61\x6E\x67\x65","\x69\x6E\x70\x75\x74\x2E\x6D\x63\x63\x2D\x75\x73\x69\x6E\x67\x2D\x73\x65\x6C","\x76\x61\x6C","\x6F\x6E","\x63\x6C\x69\x63\x6B","\x6B\x62\x64\x3A\x6E\x6F\x74\x28\x2E\x66\x72\x73\x74\x29","\x74\x6F\x4C\x6F\x77\x65\x72\x43\x61\x73\x65","\x74\x61\x67\x4E\x61\x6D\x65","\x74\x61\x72\x67\x65\x74","\x6B\x62\x64","\x73\x70\x61\x6E","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x73\x74\x6F\x70\x50\x72\x6F\x70\x61\x67\x61\x74\x69\x6F\x6E","\x63\x6C\x69\x63\x6B\x2E\x62\x73\x2E\x64\x72\x6F\x70\x64\x6F\x77\x6E\x2E\x64\x61\x74\x61\x2D\x61\x70\x69","\x63\x6C\x65\x61\x72\x6D\x65\x6E\x75","\x74\x72\x69\x67\x67\x65\x72","\x70\x61\x72\x65\x6E\x74\x4E\x6F\x64\x65","\x67\x65\x74\x42\x6F\x75\x6E\x64\x69\x6E\x67\x43\x6C\x69\x65\x6E\x74\x52\x65\x63\x74","\x2E\x73\x32\x5F\x66\x75\x63\x6B\x64\x72\x6F\x77\x64\x6F\x77\x6E","\x66\x69\x6E\x64","\x2E\x73\x32\x5F\x66\x75\x63\x6B\x64\x72\x6F\x77\x64\x6F\x77\x6E\x5F\x62\x6F\x64\x79","\x63\x6C\x61\x73\x73\x4E\x61\x6D\x65","\x69\x6E\x64\x65\x78\x4F\x66","","\x6E\x6F\x6E\x65","\x64\x69\x73\x70\x6C\x61\x79","\x73\x74\x79\x6C\x65","\x3A\x69\x6E\x70\x75\x74","\x6C\x65\x6E\x67\x74\x68","\x74\x65\x78\x74","\x73\x70\x61\x6E\x3A\x66\x69\x72\x73\x74\x2D\x63\x68\x69\x6C\x64","\x74\x72\x69\x6D","\x61\x24","\x74\x61\x62","\x73\x65\x6C\x65\x63\x74","\x65\x61\x63\x68","\x2E\x6D\x65\x6E\x75\x69\x74\x65\x6D\x73","\x61\x70\x70\x65\x6E\x64\x54\x6F","\x64\x65\x74\x61\x63\x68","\x62\x73\x2E\x64\x72\x6F\x70\x64\x6F\x77\x6E","\x64\x61\x74\x61","\x64\x72\x6F\x70\x64\x6F\x77\x6E","\x72\x69\x67\x68\x74","\x77\x69\x64\x74\x68","\x70\x6F\x70\x70\x65\x72","\x63\x73\x73","\x5B\x63\x6C\x61\x73\x73\x5E\x3D\x61\x72\x72\x6F\x77\x5D","\x6F\x6E\x43\x72\x65\x61\x74\x65","\x6F\x6E\x55\x70\x64\x61\x74\x65","\x6F\x66\x66\x73\x65\x74","\x6D\x6F\x64\x69\x66\x69\x65\x72\x73","\x32\x30\x2C\x30","\x5F\x67\x65\x74\x50\x6F\x70\x70\x65\x72\x43\x6F\x6E\x66\x69\x67","\x68\x69\x64\x64\x65\x6E\x2E\x62\x73\x2E\x64\x72\x6F\x70\x64\x6F\x77\x6E","\x64\x69\x73\x70\x6F\x73\x65","\x6F\x6E\x65","\x63\x6F\x6E\x73\x74\x72\x75\x63\x74\x6F\x72","\x74\x6F\x67\x67\x6C\x65","\x61","\x63\x6C\x6F\x73\x65\x73\x74","\x66","\x61\x74\x74\x72","\x68\x74\x6D\x6C","\x2E\x66\x64\x61\x74\x61\x3E\x73\x70\x61\x6E\x5B\x66\x3D\x27","\x27\x5D","\x70\x61\x72\x65\x6E\x74","\x62","\x26\x6E\x62\x73\x70\x3B","\x66\x69\x6C\x65\x69\x6E\x66\x6F","\x69\x73\x73\x61\x76\x65","\x65\x78\x74\x65\x6E\x64","\x73\x33\x63\x61\x6C\x63","\x72\x65\x6D\x4C\x4F\x47","\x73\x74\x65\x70\x48\x69\x73","\x6B\x62\x64\x3E\x73\x70\x61\x6E","\x2E\x6C\x6F\x67\x2D\x63\x74\x72\x6C","\x23\x73\x74\x65\x70\x2D\x32","\x69","\x6E","\x74","\x24\x64","\x69\x73\x56\x61\x6C\x69\x64","\x6C\x61\x6E","\x73\x65\x6C\x65\x63\x74\x65\x64\x5F\x6C\x61\x6E\x67\x75\x61\x67\x65","\x3C\x61\x20\x63\x6C\x61\x73\x73\x3D\x27\x63\x6C\x6F\x73\x65\x27\x20\x6F\x6E\x63\x6C\x69\x63\x6B\x3D\x27\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x3A\x24\x28\x74\x68\x69\x73\x29\x2E\x63\x6C\x6F\x73\x65\x73\x74\x28\x26\x71\x75\x6F\x74\x3B\x2E\x70\x6F\x70\x6F\x76\x65\x72\x26\x71\x75\x6F\x74\x3B\x29\x2E\x70\x6F\x70\x6F\x76\x65\x72\x28\x26\x71\x75\x6F\x74\x3B\x68\x69\x64\x65\x26\x71\x75\x6F\x74\x3B\x29\x2E\x64\x61\x74\x61\x28\x26\x71\x75\x6F\x74\x3B\x62\x73\x2E\x70\x6F\x70\x6F\x76\x65\x72\x26\x71\x75\x6F\x74\x3B\x29\x2E\x65\x6C\x65\x6D\x65\x6E\x74\x2E\x73\x68\x6F\x77\x42\x61\x63\x6B\x20\x3D\x20\x66\x61\x6C\x73\x65\x3B\x27\x3E\x26\x74\x69\x6D\x65\x73\x3B\x3C\x2F\x61\x3E","\x23\x73\x74\x65\x70\x2D\x32\x20\x20\x2E\x6C\x6F\x67\x2D\x63\x74\x72\x6C\x20\x6B\x62\x64\x3E\x73\x70\x61\x6E","\x2E\x66\x64\x61\x74\x61\x2E\x6D\x65\x6E\x75\x69\x74\x65\x6D\x73","\x73","\x63\x6F\x6E\x66","\x61\x5B\x66\x3D\x22","\x22\x5D","\x66\x6F\x72\x45\x61\x63\x68","\x39\x39\x39\x39\x2F\x31\x2F\x31","\x31\x39\x30\x30\x2F\x31\x2F\x31","\x73\x65\x74\x48\x6F\x75\x72\x73","\x67\x65\x74\x44\x61\x74\x65","\x73\x65\x74\x44\x61\x74\x65","\x70\x75\x73\x68","\x73\x70\x6C\x69\x74","\x68\x61\x73\x4F\x77\x6E\x50\x72\x6F\x70\x65\x72\x74\x79","\x72\x65\x64\x75\x63\x65","\x73\x6F\x72\x74","\x6D\x61\x70","\x73\x68\x6F\x77\x69\x6E\x76\x69\x73\x69\x62\x6C\x65\x73","\x73\x70\x61\x6E\x2E\x6C\x6F\x67\x6F\x6B","\x2E\x6C\x6F\x67\x2D\x73\x61\x6D\x70\x6C\x65\x20\x6B\x62\x64\x2E\x66\x72\x73\x74","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x66\x6F\x72\x6D\x61\x74","\x73\x70\x61\x6E\x2E\x74\x6F\x74\x61\x6C\x65\x6D\x70\x73","\x61\x6C\x6C\x4C\x4F\x47\x73","\x76\x65\x72\x69\x66\x79\x4C\x4F\x47","\x4C\x41\x4E","\x63\x54\x49\x50","\x75\x69\x44\x45\x56","\x68\x69\x73\x4C\x4F\x47","\x6C\x6F\x67\x46\x52\x4F\x4D\x44\x42","\x72\x65\x73\x65\x74\x55\x50\x4C\x4F\x41\x44","\x63\x6C\x65\x61\x6E\x48\x49\x53","\x6C\x6F\x67\x43\x4F\x4E\x46","\x64\x65\x6C\x48\x49\x53\x4C\x4F\x47","\x64\x6F\x67\x49\x46\x52\x4D","\x73\x61\x76\x65\x44\x55\x50\x48\x49\x53","\x6C\x73\x74\x4F\x52\x66\x72\x6D","\x64\x6C\x67\x73\x33","\x6A\x73\x5F\x30\x30\x34\x5F\x31\x38","\x73\x33","\x62\x32","\x6A\x73\x5F\x30\x30\x33\x5F\x31","\x63\x75\x73\x74\x6F\x6D","\x64\x69\x61\x6C\x6F\x67","\x75\x69","\x6D\x69\x6E\x4C","\x6D\x61\x78\x4C","\x73\x65\x6C\x45\x4D\x50\x5F\x70\x6F\x70\x6F\x76\x65\x72","\x68\x69\x64\x65","\x70\x6F\x70\x6F\x76\x65\x72","\x6C\x6F\x67\x5F\x66\x72\x6F\x6D\x74\x6F\x5F\x70\x6F\x70\x6F\x76\x65\x72","\x73\x61\x76\x65\x4C\x4F\x43\x4B\x45\x44\x5F\x70\x6F\x70\x6F\x76\x65\x72","\x69\x6E\x69\x74","\x73\x32\x6C\x6F\x67","\x6C\x73\x74\x48\x69\x73","\x6F\x66\x66","\x2E\x6C\x6F\x67\x46\x52\x4F\x4D\x44\x42","\x70\x75\x53\x41\x56\x45\x4C\x4F\x47","\x2E\x73\x61\x76\x65\x41\x74\x74\x6C\x6F\x67","\x64\x69\x73\x61\x62\x6C\x65\x64","\x66\x75\x6E\x63\x74\x69\x6F\x6E","\x69\x73\x41\x72\x72\x61\x79","\x4E","\x7C","\x6A\x6F\x69\x6E","\x73\x32\x5F\x73\x72\x63\x6C\x6F\x67\x5F\x63\x68\x61\x6E\x67\x65\x64","\x6A\x73\x5F\x30\x30\x33\x5F\x6F\x6B","\x73\x75\x63\x63\x65\x73\x73","\x69\x73\x54\x69\x43\x6F","\x63\x61\x6C\x6C","\x73\x61\x76\x65\x55\x70\x6C\x6F\x67","\x74\x68\x65\x6E","\x77\x68\x65\x6E","\x69\x64","\x6C\x6F\x67\x44\x41\x54","\x64\x61\x74","\x6E\x65\x78\x74","\x31\x30\x30\x25\x2C\x31\x30","\x62\x6F\x74\x74\x6F\x6D","\x6D\x61\x6E\x75\x61\x6C","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x27\x74\x69\x2D\x61\x6C\x65\x72\x74\x27\x2F\x3E\x20","\x6A\x73\x5F\x30\x30\x34\x5F\x31\x37","\x66\x61\x73\x74","\x73\x68\x6F\x77","\x66\x61\x64\x65\x49\x6E","\x64","\x74\x69\x74\x6C\x65","\x6A\x73\x5F\x30\x30\x34\x5F\x31\x36","\x74\x78\x74","\x70\x6F\x70\x75\x70","\x23\x70\x6F\x70\x75\x70\x64\x6F\x6E\x65","\x70\x72\x6F\x70","\x62\x74\x6E\x2D\x70\x72\x69\x6D\x61\x72\x79","\x61\x64\x64","\x72\x65\x6D\x6F\x76\x65","\x43\x6C\x61\x73\x73","\x6A\x73\x5F\x30\x30\x34\x5F\x33","\x62\x74\x6E\x2D\x64\x61\x6E\x67\x65\x72","\x61\x64\x64\x43\x6C\x61\x73\x73","\x62\x74\x6E\x2D\x73\x65\x63\x6F\x6E\x64\x61\x72\x79","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73","\x6D\x6F\x64\x61\x6C","\x64\x6F\x6E\x65","\x66\x6E\x4D","\x68\x69\x64\x65\x2E\x62\x73\x2E\x6D\x6F\x64\x61\x6C","\x72\x6D\x76\x48\x69\x73\x41\x74\x74\x6C\x6F\x67","\x2E\x72\x6D\x76\x48\x69\x73\x41\x74\x74\x6C\x6F\x67","\x66\x61\x64\x65\x4F\x75\x74","\x66\x6E\x43\x42","\x64\x62\x54\x42\x6E\x61\x6D\x65","\x64\x6C\x67\x54\x58\x54","\x64\x65\x6C\x48\x69\x73\x41\x74\x74\x6C\x6F\x67","\x2E\x64\x65\x6C\x48\x69\x73\x41\x74\x74\x6C\x6F\x67","\x63\x6C\x6F\x6E\x65","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x27\x74\x69\x2D\x63\x6C\x6F\x73\x65\x27\x3E\x3C\x2F\x69\x3E","\x35\x70\x78\x20\x36\x70\x78\x20\x32\x70\x78","\x62\x74\x6E\x2D\x77\x61\x72\x6E\x69\x6E\x67","\x64\x65\x6C\x48\x69\x73\x41\x74\x74\x6C\x6F\x67\x20\x62\x74\x6E\x2D\x6F\x75\x74\x6C\x69\x6E\x65\x2D\x64\x61\x6E\x67\x65\x72","\x61\x70\x70\x65\x6E\x64","\x6C\x6F\x67","\x63\x68\x61\x6E\x65\x6C\x4C\x6F\x67","\x63\x6F\x6E\x74\x65\x6E\x74\x57\x69\x6E\x64\x6F\x77","\x2E\x68\x69\x73\x6C\x6F\x67\x2D\x6C\x69\x73\x74\x20\x74\x62\x6F\x64\x79","\x74\x72\x5B\x69\x64\x78\x3D\x27","\x27\x5D\x20\x2E\x62\x6E\x74\x72\x6D\x76","\x74\x63\x33\x69\x64","\x63\x75\x72\x72\x48\x49\x53\x49\x44","\x72\x73\x74\x5F\x61\x74\x74\x6C\x6F\x67","\x52\x65\x61\x64\x79\x45\x4D\x50","\x69\x73\x52\x45\x4D","\x73\x70\x6C\x69\x63\x65","\x2E\x73\x65\x6C\x41\x74\x74\x6C\x6F\x67","\x68\x61\x73\x55\x41","\x6E\x6F\x55","\x6B\x71","\x63\x61\x6E\x63\x65\x6C","\x63\x62","\x72\x65\x73\x6F\x6C\x76\x65","\x72\x65\x61\x64\x6F\x6E\x6C\x79","\x72\x65\x61\x64\x77\x72\x69\x74\x65","\x74\x72\x61\x6E\x73\x61\x63\x74\x69\x6F\x6E","\x72\x73\x74","\x6F\x62\x6A\x65\x63\x74\x53\x74\x6F\x72\x65","\x6F\x6E\x63\x6F\x6D\x70\x6C\x65\x74\x65","\x63\x6C\x6F\x73\x65","\x6F\x6E\x73\x75\x63\x63\x65\x73\x73","\x6F\x70\x65\x6E\x43\x75\x72\x73\x6F\x72","\x72\x65\x73\x75\x6C\x74","\x76\x61\x6C\x75\x65","\x69\x73\x73\x65\x6C","\x75\x70\x64\x61\x74\x65","\x75\x70\x74","\x63\x6F\x6E\x74\x69\x6E\x75\x65","\x4C\x6F\x67\x49\x6E\x64\x65\x78","\x69\x6E\x64\x65\x78","\x67\x65\x74","\x4C\x4F\x47\x5F\x49\x4E\x5F\x4C\x53\x54","\x6C\x6F\x67\x69\x64","\x67\x72\x65\x70","\x36\x63\x36\x66\x36\x37\x37\x31\x37\x32\x37\x39","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x6C\x6F\x67\x68\x6F\x6C\x65","\x63\x6F\x6D\x6D\x31","\x5F\x5F\x5F","\x63\x62\x48\x77\x6E\x64","\x53\x45\x4C\x5F\x48\x49\x53\x5F\x4C\x4F\x47","\x75\x61\x53\x68\x69\x66\x74","\x64\x65\x6C","\x64\x65\x6C\x65\x74\x65","\x2F\x6D\x65\x64\x69\x61\x2F\x6A\x73\x2F\x74\x69\x6B\x65\x73\x74\x65\x70\x5F\x73\x32\x2E\x6A\x73","\x3F","\x67\x65\x74\x54\x69\x6D\x65","\x6A\x73","\x74\x69\x6B\x65\x73\x74\x65\x70\x5F\x73\x32\x2E\x6A\x73","\x6F\x70\x74\x69\x6F\x6E","\x70\x6C\x61\x63\x65\x68\x6F\x6C\x64\x65\x72","\x73\x68\x6F\x72\x74\x64\x61\x74\x65","\x66\x6F\x72\x6D\x61\x74\x44\x61\x74\x65","\x6C\x6F\x63\x61\x6C\x69\x7A\x61\x74\x69\x6F\x6E","\x6C\x6F\x67\x5F\x66\x72\x6F\x6D","\x6C\x6F\x67\x5F\x74\x6F","\x6F\x6E\x6C\x6F\x61\x64\x3D\x27\x6A\x61\x76\x61\x73\x63\x72\x69\x70\x74\x3A\x24\x28\x74\x68\x69\x73\x29\x2E\x63\x6C\x6F\x73\x65\x73\x74\x28\x26\x71\x75\x6F\x74\x3B\x2E\x70\x6F\x70\x6F\x76\x65\x72\x2D\x62\x6F\x64\x79\x26\x71\x75\x6F\x74\x3B\x29\x2E\x63\x73\x73\x28\x26\x71\x75\x6F\x74\x3B\x6D\x69\x6E\x57\x69\x64\x74\x68\x26\x71\x75\x6F\x74\x3B\x2C\x26\x71\x75\x6F\x74\x3B\x33\x30\x30\x70\x78\x26\x71\x75\x6F\x74\x3B\x29\x27","\x2E\x64\x72\x6F\x70\x7A\x6F\x6E\x65\x63\x6D\x64\x20\x68\x72","\x68\x69\x64\x64\x65\x6E\x2E\x62\x73\x2E\x70\x6F\x70\x6F\x76\x65\x72","\x24\x6F\x76\x65\x72\x62\x67","\x74\x6F\x70","\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x27\x66\x61\x20\x66\x61\x2D\x68\x69\x73\x74\x6F\x72\x79\x27\x2F\x3E\x20\x54\x68\x6F\x6E\x67\x20\x42\x61\x6F","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x65\x64\x69\x61\x22\x3E\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x72\x2D\x33\x22\x3E\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x61\x20\x66\x61\x2D\x62\x75\x6C\x6C\x68\x6F\x72\x6E\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x34\x30\x70\x74\x22\x3E\x3C\x2F\x69\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x6D\x65\x64\x69\x61\x2D\x62\x6F\x64\x79\x22\x3E\x3C\x70\x3E\x43\x6F\x6E\x67\x20\x76\x69\x65\x63\x20\x6C\x61\x6E\x20\x74\x72\x75\x6F\x63\x20\x63\x6F\x6E\x20\x64\x61\x6E\x67\x20\x64\x6F\x2C\x20\x62\x61\x6E\x20\x6D\x75\x6F\x6E\x20\x74\x69\x65\x70\x20\x74\x75\x63\x20\x68\x61\x79\x20\x62\x61\x74\x20\x64\x61\x75\x20\x6D\x6F\x69\x3F\x2E\x3C\x2F\x70\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x63\x6F\x6E\x66\x69\x72\x6D\x61\x74\x69\x6F\x6E\x2D\x62\x75\x74\x74\x6F\x6E\x73\x20\x74\x65\x78\x74\x2D\x63\x65\x6E\x74\x65\x72\x22\x3E\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x74\x6E\x2D\x67\x72\x6F\x75\x70\x22\x3E\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x74\x6E\x20\x62\x74\x6E\x2D\x73\x65\x63\x6F\x6E\x64\x61\x72\x79\x22\x20\x3E\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x74\x69\x2D\x63\x6C\x6F\x73\x65\x22\x3E\x3C\x2F\x69\x3E\x20\x44\x6F\x6E\x67\x3C\x2F\x64\x69\x76\x3E\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x62\x74\x6E\x20\x62\x74\x6E\x2D\x73\x75\x63\x63\x65\x73\x73\x22\x3E\x3C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x74\x69\x2D\x63\x68\x65\x63\x6B\x22\x3E\x3C\x2F\x69\x3E\x20\x54\x69\x65\x70\x20\x54\x75\x63\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E\x3C\x2F\x64\x69\x76\x3E","\x2E\x64\x72\x6F\x70\x7A\x6F\x6E\x65\x63\x6D\x64","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x68\x61\x73\x48\x49\x53\x62\x67\x22\x2F\x3E","\x2E\x75\x70\x6C\x6F\x61\x64\x61\x74\x74\x6C\x6F\x67","\x73\x32\x6C\x6F\x67\x6C\x69\x73\x74\x5F\x73\x63\x72\x6F\x50\x65\x72\x66","\x64\x65\x73\x74\x72\x6F\x79","\x2E\x68\x69\x73\x6C\x6F\x67\x2D\x6C\x69\x73\x74","\x66\x69\x6C\x65","\x73\x68\x6F\x77\x55\x70\x4C\x6F\x67","\x72\x65\x6D\x6F\x76\x65\x41\x6C\x6C\x46\x69\x6C\x65\x73","\x64\x72\x6F\x70\x7A\x6F\x6E\x65","\x3C\x74\x61\x62\x6C\x65\x20\x73\x74\x79\x6C\x65\x3D\x22\x64\x69\x73\x70\x6C\x61\x79\x3A\x6E\x6F\x6E\x65\x22\x20\x63\x6C\x61\x73\x73\x3D\x22\x74\x61\x62\x6C\x65\x20\x68\x69\x73\x6C\x6F\x67\x2D\x6C\x69\x73\x74\x20\x74\x61\x62\x6C\x65\x2D\x66\x69\x78\x65\x64\x22\x3E\x3C\x74\x68\x65\x61\x64\x3E\x3C\x2F\x74\x68\x65\x61\x64\x3E\x3C\x74\x62\x6F\x64\x79\x20\x73\x74\x79\x6C\x65\x3D\x22\x68\x65\x69\x67\x68\x74\x3A\x20\x31\x33\x30\x70\x78\x22\x3E\x3C\x2F\x74\x62\x6F\x64\x79\x3E\x3C\x2F\x74\x61\x62\x6C\x65\x3E","\x74\x68\x65\x61\x64","\x66\x6E\x43\x42\x20\x4E\x55\x4C\x4C","\x63\x6C\x65\x61\x72\x46\x69\x6C\x74\x65\x72","\x55\x49","\x44\x42","\x43\x41\x43\x48\x45","\x74\x72\x2E\x73\x65\x6C\x65\x63\x74\x65\x64","\x69\x64\x78","\x67\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x73\x65\x6C\x65\x63\x74\x65\x64","\x74\x72","\x74\x68","\x74\x72\x3A\x6E\x6F\x74\x28\x2E\x72\x6F\x77\x2D\x73\x75\x6D\x29","\x61\x6E\x69\x6D\x61\x74\x65","\x3C\x74\x72\x20\x73\x74\x79\x6C\x65\x3D\x27\x66\x6F\x6E\x74\x2D\x73\x69\x7A\x65\x3A\x31\x31\x70\x78\x27\x3E\x3C\x74\x68\x20\x63\x6C\x61\x73\x73\x3D\x27\x63\x6F\x6C\x2D\x31\x20\x63\x65\x6E\x74\x65\x72\x20\x74\x69\x2D\x65\x72\x61\x73\x65\x72\x20\x62\x6E\x74\x72\x6D\x76\x27\x3E\x3C\x2F\x74\x68\x3E\x3C\x74\x68\x20\x63\x6C\x61\x73\x73\x3D\x27\x63\x6F\x6C\x2D\x35\x27\x3E","\x6A\x73\x5F\x30\x30\x34\x5F\x31\x35","\x3C\x2F\x74\x68\x3E\x3C\x74\x68\x20\x63\x6C\x61\x73\x73\x3D\x27\x63\x6F\x6C\x2D\x32\x20\x63\x65\x6E\x74\x65\x72\x27\x3E\x53\x69\x7A\x65\x20\x28\x4B\x62\x29\x3C\x2F\x74\x68\x3E\x3C\x74\x68\x20\x63\x6C\x61\x73\x73\x3D\x27\x63\x6F\x6C\x2D\x32\x20\x63\x65\x6E\x74\x65\x72\x27\x3E","\x6A\x73\x5F\x30\x30\x34\x5F\x33\x32","\x3C\x2F\x74\x68\x3E\x3C\x74\x68\x20\x63\x6C\x61\x73\x73\x3D\x27\x63\x6F\x6C\x2D\x32\x20\x63\x65\x6E\x74\x65\x72\x27\x3E","\x6A\x73\x5F\x30\x30\x34\x5F\x33\x33","\x3C\x2F\x74\x68\x3E\x3C\x2F\x74\x72\x3E","\x73\x69\x7A\x65","\x66\x6C\x6F\x6F\x72","\x6C","\x65","\x3C\x74\x72\x20\x69\x64\x78\x3D\x27","\x27\x20","\x63\x6C\x61\x73\x73\x3D\x27\x73\x65\x6C\x65\x63\x74\x65\x64\x27","\x3E\x3C\x74\x64\x20\x63\x6C\x61\x73\x73\x3D\x27\x63\x6F\x6C\x2D\x31\x20\x74\x69\x2D\x63\x6C\x6F\x73\x65\x20\x62\x6E\x74\x72\x6D\x76\x20\x63\x65\x6E\x74\x65\x72\x27\x3E\x3C\x2F\x74\x64\x3E","\x3C\x74\x64\x20\x63\x6C\x61\x73\x73\x3D\x27\x63\x6F\x6C\x2D\x35\x27\x3E","\x6E\x61\x6D\x65","\x3C\x2F\x74\x64\x3E\x3C\x74\x64\x20\x63\x6C\x61\x73\x73\x3D\x27\x63\x6F\x6C\x2D\x32\x20\x74\x65\x78\x74\x2D\x72\x69\x67\x68\x74\x27\x3E","\x3C\x2F\x74\x64\x3E\x3C\x2F\x74\x72\x3E","\x3C\x74\x72\x20\x63\x6C\x61\x73\x73\x3D\x27\x72\x6F\x77\x2D\x73\x75\x6D\x27\x3E\x3C\x74\x64\x20\x63\x6C\x61\x73\x73\x3D\x27\x63\x6F\x6C\x2D\x36\x20\x74\x65\x78\x74\x2D\x72\x69\x67\x68\x74\x27\x3E","\x2E\x62\x6E\x74\x72\x6D\x76","\x75\x34","\x74\x62\x6F\x64\x79","\x62\x6E\x74\x72\x6D\x76","\x68\x61\x73\x43\x6C\x61\x73\x73","\x2D\x31","\x73\x72\x63\x6C\x6F\x63\x6B\x65\x64\x28\x66\x61\x6C\x73\x65\x29","\x66\x6E\x43\x42\x5F\x44\x42","\x31","\x74\x64","\x74\x72\x2E\x72\x6F\x77\x2D\x73\x75\x6D\x20\x74\x64","\x70\x72\x65\x76","\x69\x66\x72\x61\x6D\x65","\x30","\x69\x73\x4D\x6F\x62\x69\x6C\x65","\x73\x68\x6F\x77\x6C\x69\x73\x74\x4C\x4F\x47","\x75\x70\x6C\x6F\x61\x64\x5F\x61\x74\x74\x6C\x6F\x67","\x73\x32\x5F\x73\x65\x73\x73\x69\x6F\x6E","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x6F\x70\x61\x63\x69\x74\x79","\x31\x30\x30\x25","\x68\x65\x69\x67\x68\x74","\x31\x34\x30\x70\x78","\x73\x63\x72\x6F\x6C\x6C\x69\x6E\x67","\x6E\x6F","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x66\x72\x61\x6D\x65\x42\x6F\x72\x64\x65\x72","\x6F\x6E\x6C\x6F\x61\x64","\x64\x6F\x63\x75\x6D\x65\x6E\x74","\x73\x63\x72\x69\x70\x74","\x6F\x72\x69\x67\x69\x6E","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x64\x61\x72\x6B\x63\x6F\x6C\x6F\x72","\x23\x61\x70\x70","\x73\x65\x73\x6F\x6E","\x73\x72\x63","\x2F\x6D\x65\x64\x69\x61\x2F\x75\x74\x69\x6C\x73\x2F\x6A\x73\x63\x2F\x69\x66\x72\x61\x6D\x65\x61\x74\x74\x6C\x6F\x67\x2E\x6A\x73","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x68\x65\x61\x64","\x73\x65\x73\x73\x69\x6F\x6E\x73","\x70\x6F\x73\x74\x6D\x73\x67","\x23\x69\x66\x72\x6D\x5F","\x66\x6F\x63\x75\x73","\x73\x65\x73\x73\x69\x6F\x6E","\x6F\x6C\x73\x68\x69\x66\x74","\x2A","\x70\x6F\x73\x74\x4D\x65\x73\x73\x61\x67\x65","\x6A\x6F\x62","\x65\x76\x74","\x65\x76\x74\x44\x61\x74\x61","\x6C\x6F\x61\x64\x65\x64","\x6A\x73\x5F\x30\x30\x34\x5F\x31\x32","\x61\x64\x75\x5F\x6C\x6F\x61\x64\x6C\x6F\x67","\x61\x74\x74\x6C\x6F\x67","\x2E\x74\x61\x62\x6C\x65\x2E\x68\x69\x73\x6C\x6F\x67\x2D\x6C\x69\x73\x74","\x74\x72\x61\x70\x48\x77\x6E\x64","\x73\x74\x61\x72\x74\x75\x70\x6C\x6F\x61\x64","\x2E\x73\x65\x6C\x41\x74\x74\x6C\x6F\x67\x20\x2E\x75\x70\x66\x69\x6C\x65","\x63\x6D\x56\x74\x58\x32\x46\x30\x64\x47\x78\x76\x5A\x77\x3D\x3D","\x5F\x5F\x75","\x63\x6F\x6E\x74\x61\x69\x6E\x73","\x6F\x62\x6A\x65\x63\x74\x53\x74\x6F\x72\x65\x4E\x61\x6D\x65\x73","\x64\x65\x6C\x65\x74\x65\x4F\x62\x6A\x65\x63\x74\x53\x74\x6F\x72\x65","\x63\x72\x65\x61\x74\x65\x4F\x62\x6A\x65\x63\x74\x53\x74\x6F\x72\x65","\x70\x75\x74","\x68\x65\x6C\x6C\x6F\x68\x72\x6D\x5F\x72\x65\x6D\x6C\x6F\x67","\x67\x65\x74\x49\x74\x65\x6D","\x70\x61\x72\x73\x65","\x73\x65\x74\x49\x74\x65\x6D","\x73\x65\x74","\x49\x74\x65\x6D","\x2E\x73\x65\x6C\x41\x74\x74\x6C\x6F\x67\x20\x2E\x73\x61\x6D\x70\x6C\x65\x66\x69\x6C\x65","\x64\x6E","\x2E\x62\x74\x6E","\x2E\x6D\x6F\x64\x61\x6C\x2D\x62\x6F\x64\x79","\x73\x68\x6F\x77\x6E\x2E\x62\x73\x2E\x6D\x6F\x64\x61\x6C","\x66\x61\x69\x6C","\x63\x6C\x65\x61\x6E\x34\x64\x6F\x77\x6E\x6C\x6F\x61\x64","\x64\x6C\x67","\x5F\x5F\x65\x78\x4C\x41\x4E","\x6D\x6F\x64\x61\x6C\x2D\x6D\x64","\x6D\x6F\x64\x61\x6C\x2D\x73\x6D","\x2E\x6D\x6F\x64\x61\x6C\x2D\x64\x69\x61\x6C\x6F\x67","\x73\x61\x6D\x6C\x6F\x67","\x74\x68\x2E\x62\x6E\x74\x72\x6D\x76","\x2F\x6D\x65\x64\x69\x61\x2F\x75\x74\x69\x6C\x73\x2F","\x70","\x6C\x6F\x67\x73\x61\x6D\x70\x6C\x65\x5F\x74\x65\x6D\x70\x6C","\x2E\x70\x72\x69\x63\x69\x6E\x67\x2D\x74\x61\x62\x6C\x65\x2D\x6C\x6F\x67","\x5F\x5F\x64\x6F\x48\x61\x6E\x64\x73\x68\x61\x6B\x65","\x65\x78\x4C\x41\x4E","\x5F\x5F\x6C\x6F\x67\x53\x41\x4D","\x6C\x6E","\x65\x6E","\x64\x61\x74\x61\x2D\x6C\x61\x6E\x67","\x5B\x64\x61\x74\x61\x2D\x6C\x61\x6E\x67\x5D","\x6A\x73\x74","\x6C\x6F\x61\x64\x6A\x73\x63\x73\x73\x66\x69\x6C\x65","\x2F\x6D\x65\x64\x69\x61\x2F\x75\x74\x69\x6C\x73\x2F\x6C\x73\x74\x2E\x68\x74\x6D\x6C","\x62\x75\x74\x74\x6F\x6E","\x6A\x75\x73\x74\x69\x66\x79\x2D\x63\x6F\x6E\x74\x65\x6E\x74","\x63\x65\x6E\x74\x65\x72","\x2E\x6D\x6F\x64\x61\x6C\x2D\x66\x6F\x6F\x74\x65\x72","\x6D\x6F\x64\x61\x6C\x2D\x61\x73\x69\x64\x65\x20\x76\x65\x72\x74\x69\x63\x61\x6C\x20\x74\x6F\x70","\x73\x61\x6D\x70\x6C\x65","\x70\x6C\x73\x44\x45\x4C","\x53\x33\x5F\x4B\x51\x78","\x61\x6C\x6F\x67","\x6B\x65\x79","\x34\x63\x34\x66\x34\x37\x35\x66\x34\x63\x34\x66\x34\x31\x34\x34","\x4C","\x3B\x2A","\x2E","\x75\x70\x66\x69\x6C\x65","\x63\x75\x72\x72\x65\x6E\x74\x54\x61\x72\x67\x65\x74","\x63\x6C\x69\x63\x6B\x45","\x2E\x73\x65\x6C\x41\x74\x74\x6C\x6F\x67\x20\x2E\x62\x74\x6E","\x6D\x6F\x75\x73\x65\x64\x6F\x77\x6E\x20\x74\x6F\x75\x63\x68\x73\x74\x61\x72\x74","\x70\x53\x74\x65\x70","\x6C\x6F\x63\x6B\x73\x74\x65\x70","\x76\x69\x65\x77\x42\x61\x63\x6B\x53\x33","\x61\x6B\x71","\x6A\x73\x5F\x30\x30\x34\x5F\x31\x39","\x2E\x61\x74\x74\x6C\x6F\x67\x5F\x76\x65\x72\x69\x66\x79","\x64\x6F\x53\x74\x65\x70","\x66\x72\x6F\x6D\x53\x74\x65\x70","\x32","\x74\x6F\x53\x74\x65\x70","\x2E\x74\x65\x73\x74\x75\x70\x6C\x6F\x61\x64\x20\x2E\x6E\x65\x65\x64\x75\x70\x74\x63\x6C\x69\x63\x6B","\x67\x72\x69\x64\x5F\x61\x74\x74\x6C\x6F\x67","\x73\x68\x6F\x77\x42\x61\x63\x6B","\x72\x65\x6D\x6F\x76\x65\x41\x74\x74\x72","\x61\x62\x73\x6F\x6C\x75\x74\x65","\x32\x30\x30\x70\x78","\x33","\x2F\x6D\x65\x64\x69\x61\x2F\x6A\x73\x2F\x74\x69\x6B\x65\x73\x74\x65\x70\x5F\x73\x33\x2E\x6A\x73","\x76\x69\x65\x77\x42\x61\x63\x6B","\x61\x72\x69\x61\x2D\x63\x68\x65\x63\x6B\x65\x64","\x6D\x69\x78\x65\x64","\x74\x72\x75\x65","\x67\x65\x74\x53\x65\x6C\x65\x63\x74\x65\x64\x52\x6F\x77\x4B\x65\x79\x73","\x75\x70\x6C\x6F\x67","\x65\x78\x65\x63","\x64\x69\x74\x69\x6E\x68\x6C\x61\x69","\x2E\x6B\x69\x65\x6D\x2D\x74\x68\x65\x20\x2E\x62\x74\x6E\x2D\x74\x69\x6E\x68\x6C\x61\x69","\x6E\x6F\x73\x68\x69\x66\x74","\x63\x72\x65\x61\x74\x65\x43\x61\x6C\x63","\x74\x69\x6B\x65\x73\x74\x65\x70\x5F\x73\x33\x2E\x6A\x73"];var tikestep=(function(){_0x34b7[0];var _0x49c8x2=_0x34b7[1];function _0x49c8x3(){}function _0x49c8x4(_0x49c8x5,_0x49c8x6,_0x49c8x7){_0x49c8x5[_0x34b7[21]](_0x34b7[78])[_0x34b7[5]](_0x34b7[6],_0x34b7[7],function(_0x49c8xa){var _0x49c8xb=_0x49c8xa[_0x34b7[10]][_0x34b7[9]][_0x34b7[8]]();if(_0x49c8xb== _0x34b7[11]|| _0x49c8xb== _0x34b7[12]){_0x49c8xa[_0x34b7[13]]();_0x49c8xa[_0x34b7[14]]();_0x49c8x2e();$(document)[_0x34b7[17]](_0x34b7[15],{causeby:_0x34b7[16]});var _0x49c8xc=$((_0x49c8xb== _0x34b7[12]?_0x49c8xa[_0x34b7[10]][_0x34b7[18]]:_0x49c8xa[_0x34b7[10]])),_0x49c8xd=_0x49c8xa[_0x34b7[10]][_0x34b7[19]](),_0x49c8xe=_0x49c8x5[_0x34b7[21]](_0x34b7[20]),_0x49c8xf=_0x49c8x5[_0x34b7[21]](_0x34b7[22]);_0x49c8xf[_0x34b7[21]](_0x34b7[38])[_0x34b7[37]](function(_0x49c8x10,_0x49c8x11){var _0x49c8x12=(_0x49c8x11[_0x34b7[23]][_0x34b7[24]](_0x49c8xc[0][_0x34b7[23]])>= 0)?_0x34b7[25]:_0x34b7[26];_0x49c8x11[_0x34b7[28]][_0x34b7[27]]= _0x49c8x12;if(_0x49c8x12== _0x34b7[25]){_0x49c8x12= $(_0x49c8x11)[_0x34b7[21]](_0x34b7[29]);if(_0x49c8x12[_0x34b7[30]]> 0){var _0x49c8x13=apisvr[_0x34b7[34]][_0x34b7[33]](_0x49c8xc[_0x34b7[21]](_0x34b7[32])[_0x34b7[31]]());if(_0x49c8x13== _0x34b7[35]){_0x49c8x13= _0x34b7[25]};_0x49c8x12[_0x34b7[4]](_0x49c8x13);setTimeout(function(){_0x49c8x12[_0x34b7[36]]()},100)}}});_0x49c8xf[_0x34b7[40]]()[_0x34b7[39]](_0x49c8xc);_0x49c8xe[_0x34b7[40]]()[_0x34b7[39]](_0x49c8xc);var _0x49c8x14=function(){_0x49c8xe= _0x49c8xc[_0x34b7[21]](_0x34b7[20]);if(_0x49c8xe[_0x34b7[30]]> 0){_0x49c8xf= _0x49c8xc[_0x34b7[21]](_0x34b7[22]);var _0x49c8x15=_0x49c8xe[_0x34b7[43]]()[_0x34b7[42]]()[_0x34b7[41]],_0x49c8x16=_0x49c8x15._getPopperConfig(),_0x49c8x17=function(_0x49c8x18){var _0x49c8x19=30;if(_0x49c8xd[_0x34b7[44]]< _0x49c8x18[_0x34b7[46]][_0x34b7[45]]){_0x49c8x19= _0x49c8x18[_0x34b7[46]][_0x34b7[45]]- _0x49c8xd[_0x34b7[44]]+ 30};_0x49c8xf[_0x34b7[21]](_0x34b7[48])[_0x34b7[47]](_0x34b7[44],_0x49c8x19)};_0x49c8x16[_0x34b7[49]]= function(_0x49c8x18){_0x49c8x17(_0x49c8x18)};_0x49c8x16[_0x34b7[50]]= function(_0x49c8x18){_0x49c8x17(_0x49c8x18)};_0x49c8x16[_0x34b7[52]][_0x34b7[51]]= {offset:_0x34b7[53]};_0x49c8x15[_0x34b7[54]]= function(){return _0x49c8x16};$(_0x49c8x15[_0x34b7[58]]._getParentFromElement(_0x49c8xe[0]))[_0x34b7[57]](_0x34b7[55],function(_0x49c8x11){_0x49c8xe[_0x34b7[43]](_0x34b7[56])});_0x49c8xe[_0x34b7[43]](_0x34b7[59])}else {setTimeout(_0x49c8x14,20)}};setTimeout(_0x49c8x14,20)}else {if(_0x49c8xb== _0x34b7[60]){var _0x49c8x1a=$(_0x49c8xa[_0x34b7[10]])[_0x34b7[21]](_0x34b7[29]),_0x49c8x1b=$(_0x49c8xa[_0x34b7[10]])[_0x34b7[61]](_0x34b7[11])[_0x34b7[21]](_0x34b7[12]),_0x49c8x1c=apisvr[_0x34b7[34]][_0x34b7[33]]($(_0x49c8xa[_0x34b7[10]])[_0x34b7[63]](_0x34b7[62])),_0x49c8x1d=apisvr[_0x34b7[34]][_0x34b7[33]]((_0x49c8x1a[_0x34b7[30]]> 0)?_0x49c8x1a[_0x34b7[4]]():$(_0x49c8xa[_0x34b7[10]])[_0x34b7[31]]()),_0x49c8x1e=false;if(_0x49c8x1c== _0x34b7[25]){if(_0x49c8x1d[_0x34b7[30]]> 0&& _0x49c8x1d!= apisvr[_0x34b7[34]][_0x34b7[33]](_0x49c8x1b[_0x34b7[31]]())){_0x49c8x1b[_0x34b7[64]](_0x49c8x1d);_0x49c8x1e= true}}else {if(_0x49c8x1b[_0x34b7[63]](_0x34b7[62])!= _0x49c8x1c){var _0x49c8x1f=$(_0x49c8xa[_0x34b7[10]])[_0x34b7[61]](_0x34b7[11])[_0x34b7[67]]()[_0x34b7[21]](_0x34b7[65]+ _0x49c8x1c+ _0x34b7[66]),_0x49c8x20=apisvr[_0x34b7[34]][_0x34b7[33]](_0x49c8x1b[_0x34b7[31]]());if(_0x49c8x1c!= _0x34b7[68]){_0x49c8x1f[_0x34b7[63]](_0x34b7[62],_0x49c8x1b[_0x34b7[63]](_0x34b7[62]))[_0x34b7[64]](_0x49c8x20== _0x34b7[25]?_0x34b7[69]:_0x49c8x20)};_0x49c8x1e= true};if(_0x49c8x1c== _0x34b7[68]){_0x49c8x1b[_0x34b7[64]](_0x34b7[69])}else {_0x49c8x1b[_0x34b7[64]](_0x49c8x1d== _0x34b7[25]?_0x34b7[69]:_0x49c8x1d)};_0x49c8x1b[_0x34b7[63]](_0x34b7[62],_0x49c8x1c)};if(_0x49c8x1e){var _0x49c8x21=false;if(_0x49c8x7[_0x34b7[70]]){_0x49c8x21= _0x49c8x7[_0x34b7[70]][_0x34b7[71]]!= 0;_0x49c8x38(_0x49c8x21);if(_0x49c8x7[_0x34b7[70]][_0x34b7[71]]== 1){_0x49c8x7[_0x34b7[70]]= $[_0x34b7[72]](true,{},_0x49c8x7[_0x34b7[70]]);_0x49c8x7[_0x34b7[70]][_0x34b7[71]]= 2}}else {if(_0x49c8x7[_0x34b7[73]]&& _0x49c8x7[_0x34b7[75]][_0x34b7[74]]== 2){_0x49c8x21= true};_0x49c8x7[_0x34b7[75]][_0x34b7[74]]= 1};srclocked(true);setTimeout(function(){_0x49c8x3d(_0x49c8x2a($(_0x49c8xa[_0x34b7[10]])[_0x34b7[61]](_0x34b7[77])[_0x34b7[21]](_0x34b7[76])));if(_0x49c8x21){_0x49c8x31()};srclocked(false)},10)}}}})[_0x34b7[5]](_0x34b7[2],_0x34b7[3],function(_0x49c8x8){srclocked(true);var _0x49c8x9=$(this)[_0x34b7[4]]();setTimeout(function(){srclocked(false)},20)});var _0x49c8x22=function(_0x49c8x50,_0x49c8x11){_0x49c8x50= apisvr[_0x34b7[34]][_0x34b7[33]](_0x49c8x50);if(_0x49c8x50[_0x34b7[30]]== 0){return false};_0x49c8x11[_0x34b7[79]]= Number(_0x49c8x50);return true},_0x49c8x23=function(_0x49c8x50,_0x49c8x11){_0x49c8x50= apisvr[_0x34b7[34]][_0x34b7[33]](_0x49c8x50);_0x49c8x11[_0x34b7[80]]= _0x49c8x50;return true},_0x49c8x24=function(_0x49c8x50,_0x49c8x11,_0x49c8x51){if(_0x49c8x50[_0x34b7[30]]< 10){return false};var _0x49c8x52=dayjs(_0x49c8x50,_0x49c8x51);_0x49c8x11[_0x34b7[81]]= _0x49c8x52[_0x34b7[82]];return _0x49c8x52[_0x34b7[83]]()},_0x49c8x25=function(_0x49c8x50,_0x49c8x11){return true},_0x49c8x26=_0x49c8x6(_0x34b7[84]),_0x49c8x27=apisvr[_0x34b7[34]][_0x34b7[85]],_0x49c8x28=_0x34b7[86],_0x49c8x29=function(_0x49c8x53,_0x49c8x54){if(!_0x49c8x53){_0x49c8x53= _0x49c8x5[_0x34b7[21]](_0x34b7[87])};var _0x49c8x55=$(_0x49c8x53[0]),_0x49c8x51=$(_0x49c8x53[_0x49c8x53[_0x34b7[30]]- 1]),_0x49c8x56,_0x49c8x57=_0x49c8x5[_0x34b7[21]](_0x34b7[88]);_0x49c8x55[_0x34b7[31]](_0x49c8x54[_0x34b7[90]][_0x34b7[89]]);_0x49c8x54[_0x34b7[90]][_0x34b7[62]][_0x34b7[93]](function(_0x49c8x58,_0x49c8x10){_0x49c8x56= $(_0x49c8x53[_0x49c8x10+ 1]);_0x49c8x56[_0x34b7[63]](_0x34b7[62],_0x49c8x58);if(_0x49c8x58== _0x34b7[68]){_0x49c8x56[_0x34b7[64]](_0x34b7[69])}else {_0x49c8x56[_0x34b7[64]](_0x49c8x57[_0x34b7[21]](_0x34b7[91]+ _0x49c8x58+ _0x34b7[92])[_0x34b7[31]]())}})},_0x49c8x2a=function(_0x49c8x53,_0x49c8x54){if(!_0x49c8x53){_0x49c8x53= _0x49c8x5[_0x34b7[21]](_0x34b7[87])};var _0x49c8x59=this,_0x49c8x5a=[],_0x49c8x5b,_0x49c8x5c=[],_0x49c8x55,_0x49c8x51,_0x49c8x5d=[],_0x49c8x1a,_0x49c8x5e= new Date(_0x34b7[94]),_0x49c8x5f= new Date(_0x34b7[95]),_0x49c8x60,_0x49c8x61,_0x49c8x62=function(_0x49c8x63){_0x49c8x55= $(_0x49c8x53[0]),_0x49c8x51= apisvr[_0x34b7[34]][_0x34b7[33]]($(_0x49c8x53[_0x49c8x53[_0x34b7[30]]- 1])[_0x34b7[31]]()),_0x49c8x1a= apisvr[_0x34b7[34]][_0x34b7[33]](_0x49c8x55[_0x34b7[31]]());if(_0x49c8x59){if(_0x49c8x59[1]){_0x49c8x60= function(_0x49c8x11){return _0x49c8x59[1][_0x34b7[24]](Number(_0x49c8x11))>  -1}};if(_0x49c8x59[2][0]|| _0x49c8x59[2][1]){var _0x49c8x64=null,_0x49c8x65=null;if(_0x49c8x59[2][0]){_0x49c8x64=  new Date( new Date(_0x49c8x59[2][0])[_0x34b7[96]](0,0,0,0))};if(_0x49c8x59[2][1]){_0x49c8x65=  new Date( new Date(_0x49c8x59[2][1])[_0x34b7[96]](0,0,0,0));_0x49c8x65= _0x49c8x65[_0x34b7[98]](_0x49c8x65[_0x34b7[97]]()+ 1)};_0x49c8x61= function(_0x49c8x66){if(_0x49c8x64&& _0x49c8x65){return _0x49c8x64<= _0x49c8x66&& _0x49c8x66<= _0x49c8x65}else {if(_0x49c8x64){return _0x49c8x64<= _0x49c8x66}else {return _0x49c8x66<= _0x49c8x65}}}}};for(var _0x49c8x10=1;_0x49c8x10< _0x49c8x53[_0x34b7[30]]- 1;_0x49c8x10++){switch($(_0x49c8x53[_0x49c8x10])[_0x34b7[63]](_0x34b7[62])){case _0x34b7[79]:{_0x49c8x5d[_0x34b7[99]](_0x49c8x22);break};case _0x34b7[80]:{_0x49c8x5d[_0x34b7[99]](_0x49c8x23);break};case _0x34b7[81]:{_0x49c8x5d[_0x34b7[99]](_0x49c8x24);break};default:{_0x49c8x5d[_0x34b7[99]](_0x49c8x25);break}}};if(_0x49c8x1a== _0x34b7[35]){_0x49c8x1a= /\t/};$[_0x34b7[37]](_0x49c8x63[_0x34b7[100]](/\r?\n/),function(_0x49c8x10,_0x49c8x67){var _0x49c8x68=_0x49c8x67[_0x34b7[33]]()[_0x34b7[100]](_0x49c8x1a);if(_0x49c8x68[_0x34b7[30]]> 1){var _0x49c8x69=true,_0x49c8x6a={};for(var _0x49c8x6b=0;_0x49c8x6b< _0x49c8x68[_0x34b7[30]];_0x49c8x6b++){if(_0x49c8x6b< _0x49c8x5d[_0x34b7[30]]){if(!_0x49c8x5d[_0x49c8x6b](_0x49c8x68[_0x49c8x6b],_0x49c8x6a,_0x49c8x51)){_0x49c8x69= false;break}}}};if(_0x49c8x69){if(_0x49c8x6a[_0x34b7[101]](_0x34b7[79])&& _0x49c8x6a[_0x34b7[101]](_0x34b7[81])){if((!_0x49c8x60|| _0x49c8x60(_0x49c8x6a[_0x34b7[79]])) && (!_0x49c8x61|| _0x49c8x61(_0x49c8x6a[_0x34b7[81]]))){_0x49c8x5a[_0x34b7[99]](_0x49c8x6a)}}}});_0x49c8x5b= _0x49c8x5a[_0x34b7[102]](function(_0x49c8x6c,_0x49c8x11){_0x49c8x6c[_0x49c8x11[_0x34b7[79]]]= _0x49c8x6c[_0x49c8x11[_0x34b7[79]]]|| [];_0x49c8x6c[_0x49c8x11[_0x34b7[79]]][_0x34b7[99]](_0x49c8x11);if(_0x49c8x5e> _0x49c8x11[_0x34b7[81]]){_0x49c8x5e= _0x49c8x11[_0x34b7[81]]};if(_0x49c8x5f< _0x49c8x11[_0x34b7[81]]){_0x49c8x5f= _0x49c8x11[_0x34b7[81]]};return _0x49c8x6c},{});$[_0x34b7[37]](_0x49c8x5b,function(_0x49c8x6d,_0x49c8x50){var _0x49c8x11=_0x49c8x50[0],_0x49c8x6e=_0x49c8x50[_0x34b7[103]](function(_0x49c8x18,_0x49c8x6f){return _0x49c8x18[_0x34b7[81]]- _0x49c8x6f[_0x34b7[81]]});_0x49c8x5c[_0x34b7[99]]({acno:Number(_0x49c8x6d),ten:apisvr[_0x34b7[34]][_0x34b7[33]](_0x49c8x11[_0x34b7[80]]),logs:_0x49c8x50[_0x34b7[30]],aLogs:$[_0x34b7[104]](_0x49c8x6e,function(_0x49c8x50,_0x49c8x10){return _0x49c8x50[_0x34b7[81]]}),minL:_0x49c8x6e[0][_0x34b7[81]],maxL:_0x49c8x6e[_0x49c8x6e[_0x34b7[30]]- 1][_0x34b7[81]]})})};if(_0x49c8x59!== undefined){_0x49c8x62((_0x49c8x59[0]|| _0x34b7[25]));return [_0x49c8x5c,_0x49c8x5e,_0x49c8x5f]};if(_0x49c8x54&& _0x49c8x54[_0x34b7[90]]){_0x49c8x29(_0x49c8x53,_0x49c8x54)};_0x49c8x62((_0x49c8x7[_0x34b7[105]]&& _0x49c8x7[_0x34b7[105]][_0x34b7[4]]()|| _0x34b7[25]));_0x49c8x5[_0x34b7[21]](_0x34b7[106])[_0x34b7[64]](_0x49c8x5a[_0x34b7[30]]);var _0x49c8x70=_0x49c8x5[_0x34b7[21]](_0x34b7[107]);if(_0x49c8x5a[_0x34b7[30]]> 0){if(_0x49c8x5a[0][_0x34b7[101]](_0x34b7[79])){_0x49c8x70[0][_0x34b7[108]]= _0x49c8x5a[0][_0x34b7[79]]};_0x49c8x70[1][_0x34b7[108]]= _0x49c8x5a[0][_0x34b7[101]](_0x34b7[80])?(_0x49c8x5a[0][_0x34b7[80]]!= _0x34b7[25])?_0x49c8x5a[0][_0x34b7[80]]:_0x34b7[69]:_0x34b7[69];if(_0x49c8x5a[0][_0x34b7[101]](_0x34b7[81])){_0x49c8x70[2][_0x34b7[108]]= dayjs(_0x49c8x5a[0][_0x34b7[81]])[_0x34b7[109]](_0x49c8x51)}}else {_0x49c8x70[_0x34b7[64]](_0x34b7[69])};_0x49c8x5[_0x34b7[21]](_0x34b7[110])[_0x34b7[64]](_0x49c8x5c[_0x34b7[30]]);_0x49c8x7[_0x34b7[111]]= [[_0x49c8x5c,_0x49c8x5e,_0x49c8x5f,null,null],null,{f:$[_0x34b7[104]](_0x49c8x53,function(_0x49c8x58,_0x49c8x10){return $(_0x49c8x58)[_0x34b7[63]](_0x34b7[62])}),l:_0x49c8x5a[_0x34b7[30]],e:_0x49c8x5c[_0x34b7[30]],s:apisvr[_0x34b7[34]][_0x34b7[33]](_0x49c8x55[_0x34b7[31]]()),tf:_0x49c8x51,p:_0x34b7[25],p0:_0x34b7[25],p1:_0x34b7[25],p2:_0x34b7[25],p3:_0x34b7[25],p4:_0x34b7[25],p5:_0x34b7[25],p6:_0x34b7[25],p7:_0x34b7[25],p8:_0x34b7[25],p9:_0x34b7[25]}];return _0x49c8x7[_0x34b7[111]][0]},_0x49c8x2b=function(_0x49c8x71){if(_0x49c8x71== _0x34b7[112]){return _0x49c8x2a};if(_0x49c8x71== _0x34b7[113]){return _0x49c8x26};if(_0x49c8x71== _0x34b7[114]){return _0x49c8x28};if(_0x49c8x71== _0x34b7[115]){return _0x49c8x3d};if(_0x49c8x71== _0x34b7[116]){return _0x49c8x39};if(_0x49c8x71== _0x34b7[117]){return _0x49c8x2f};if(_0x49c8x71== _0x34b7[118]){return _0x49c8x43};if(_0x49c8x71== _0x34b7[119]){return _0x49c8x49};if(_0x49c8x71== _0x34b7[120]){return _0x49c8x2d};if(_0x49c8x71== _0x34b7[121]){return _0x49c8x3a};if(_0x49c8x71== _0x34b7[122]){return _0x49c8x40[_0x34b7[122]]};if(_0x49c8x71== _0x34b7[123]){_0x49c8x38(_0x49c8x7[_0x34b7[70]]== 2);return [_0x49c8x40,_0x49c8x40[_0x34b7[124]]]};if(_0x49c8x71== _0x34b7[125]){return _0x49c8x2c}},_0x49c8x2c=function(_0x49c8x18,_0x49c8x6f,_0x49c8x72){var _0x49c8x73=DevExpress[_0x34b7[132]][_0x34b7[131]][_0x34b7[130]]({title:_0x49c8x26[_0x34b7[126]][0],showTitle:false,messageHtml:_0x49c8x26[_0x34b7[126]][1],popupOptions:{_ignoreFunctionValueDeprecation:true},buttons:[{text:_0x49c8x26[_0x34b7[126]][2],visible:_0x49c8x72[_0x34b7[127]]=== true?true:false,onClick:function(_0x49c8x11){return -2}},{text:_0x49c8x72[_0x34b7[128]]?_0x49c8x72[_0x34b7[128]]:_0x49c8x26[_0x34b7[126]][3],onClick:function(_0x49c8x11){return 1}},{text:_0x49c8x26[_0x34b7[129]],onClick:function(_0x49c8x11){return 0}}]});return _0x49c8x73},_0x49c8x2d=function(){var _0x49c8x74=_0x49c8x7[_0x34b7[111]][2];_0x49c8x74[_0x34b7[133]]= _0x49c8x7[_0x34b7[111]][0][1];_0x49c8x74[_0x34b7[134]]= _0x49c8x7[_0x34b7[111]][0][2];return _0x49c8x74},_0x49c8x2e=function(_0x49c8x75){if(_0x49c8x7[_0x34b7[135]]){_0x49c8x7[_0x34b7[135]][_0x34b7[137]](_0x34b7[136])};if(_0x49c8x7[_0x34b7[138]]){_0x49c8x7[_0x34b7[138]][_0x34b7[137]](_0x34b7[136])};if(!_0x49c8x75&& _0x49c8x7[_0x34b7[139]]){_0x49c8x7[_0x34b7[139]][_0x34b7[137]](_0x34b7[136])}},_0x49c8x2f=function(_0x49c8x76,_0x49c8x77){_0x49c8x40[_0x34b7[67]]()[_0x34b7[21]](_0x34b7[144])[_0x34b7[143]](_0x34b7[6])[_0x34b7[5]](_0x34b7[6],function(_0x49c8x11){srclocked(true);_0x49c8x2e();_0x49c8x3c(function(){if(!_0x49c8x3b){_0x49c8x3b=  new FormWizard[_0x34b7[141]][_0x34b7[140]](_0x49c8x5,_0x49c8x6,_0x49c8x7,_0x49c8x2b)};_0x49c8x3b[_0x34b7[142]](_0x49c8x40[_0x34b7[67]](),_0x49c8x40[_0x34b7[124]])})})[_0x34b7[47]](_0x34b7[27],(!_0x49c8x76|| !(_0x49c8x76[2]>= 1&& (!_0x49c8x7[_0x34b7[70]]))&& (_0x49c8x76[2]+ _0x49c8x77)<= 1)?_0x34b7[26]:_0x34b7[25])},_0x49c8x30=0,_0x49c8x31=function(){var _0x49c8x78=function(){return _0x49c8x7[_0x34b7[75]][_0x34b7[74]]== 1&&  !_0x49c8x7[_0x34b7[70]]};if(!_0x49c8x7[_0x34b7[145]]){_0x49c8x7[_0x34b7[145]]= _0x49c8x5[_0x34b7[21]](_0x34b7[146]);_0x49c8x7[_0x34b7[145]][_0x34b7[5]](_0x34b7[6],function(_0x49c8x11,_0x49c8x75){srclocked(true);var _0x49c8x79=$(this);_0x49c8x79[_0x34b7[63]](_0x34b7[147],true);_0x49c8x2e(_0x49c8x75);setTimeout(function(){admin$.DEV(function(){_0x49c8x3c(function(){if(!_0x49c8x3b){_0x49c8x3b=  new FormWizard[_0x34b7[141]][_0x34b7[140]](_0x49c8x5,_0x49c8x6,_0x49c8x7,_0x49c8x2b)};_0x49c8x3b[_0x34b7[158]][_0x34b7[157]](_0x49c8x40[_0x34b7[124]],_0x49c8x79,function(_0x49c8x7a){var _0x49c8x7b= typeof _0x49c8x3e=== _0x34b7[148];if(_0x49c8x7a== 1){var _0x49c8x7c=[_0x34b7[25],_0x49c8x75&& _0x49c8x75[_0x34b7[127]]];if(this&& $[_0x34b7[149]](this)){if(this[0]== _0x34b7[150]){_0x49c8x40[_0x34b7[124]]= null};_0x49c8x7c[0]= this[_0x34b7[152]](_0x34b7[151])};_0x49c8x40[_0x34b7[17]](_0x34b7[153],_0x49c8x7c);if(!_0x49c8x7b){toastMsg(_0x49c8x26[_0x34b7[154]],_0x34b7[155])};_0x49c8x35([_0x34b7[25],_0x34b7[26]]);_0x49c8x4c(_0x34b7[25]);_0x49c8x4a(3);_0x49c8x7[_0x34b7[75]][_0x34b7[156]]= 1}else {_0x49c8x79[_0x34b7[63]](_0x34b7[147],false)};if(_0x49c8x7b){_0x49c8x3e(_0x49c8x7a)}},_0x49c8x75)})})},10)});_0x49c8x7[_0x34b7[145]][_0x34b7[164]]()[_0x34b7[5]](_0x34b7[6],function(_0x49c8x11){_0x49c8x32(_0x49c8x11,{hide:function(_0x49c8x11,_0x49c8x7d){if(_0x49c8x7d=== 1){_0x49c8x7[_0x34b7[145]][_0x34b7[67]]()[_0x34b7[47]](_0x34b7[27],_0x34b7[26]);_0x49c8x4c(_0x34b7[25]);if(_0x49c8x78()){}else {_0x49c8x34(_0x34b7[25])}}},done:function(_0x49c8x11){if(_0x49c8x78()){srclocked(true);var _0x49c8x7e=$.Deferred();$[_0x34b7[160]](_0x49c8x7e)[_0x34b7[159]](function(_0x49c8x7f){if(_0x49c8x7[_0x34b7[75]][_0x34b7[74]]== 2){_0x49c8x7[_0x34b7[75]][_0x34b7[156]]= 0};srclocked(false)});setTimeout(function(){_0x49c8x4b(_0x49c8x7e)},10)}else {var _0x49c8x80=_0x49c8x7[_0x34b7[162]][_0x49c8x7[_0x34b7[70]][_0x34b7[161]]];_0x49c8x7[_0x34b7[70]]= $[_0x34b7[72]](true,{},_0x49c8x80[0]);_0x49c8x38(_0x49c8x80[0][_0x34b7[71]]== 2);_0x49c8x7[_0x34b7[105]][_0x34b7[4]](_0x49c8x80[1][_0x34b7[163]]);_0x49c8x3d(_0x49c8x2a(null,_0x49c8x7[_0x34b7[70]]))}}},[0,5])});_0x49c8x7[_0x34b7[139]]= _0x49c8x7[_0x34b7[145]][_0x34b7[67]]();_0x49c8x7[_0x34b7[139]][_0x34b7[137]]({offset:_0x34b7[165],container:_0x49c8x5[_0x34b7[21]](_0x34b7[78]),placement:_0x34b7[166],trigger:_0x34b7[167],html:true,title:_0x34b7[168]+ _0x49c8x26[_0x34b7[169]][1]+ _0x49c8x28,content:function(){if(_0x49c8x78()){return _0x49c8x26[_0x34b7[169]][3]}else {return _0x49c8x26[_0x34b7[169]][2]}}})};if(_0x49c8x78()){_0x49c8x35([_0x34b7[26],_0x34b7[26]]);_0x49c8x34(_0x34b7[26]);_0x49c8x7[_0x34b7[145]][_0x34b7[47]](_0x34b7[27],_0x34b7[26]);_0x49c8x7[_0x34b7[145]][_0x34b7[164]]()[_0x34b7[47]](_0x34b7[27],_0x34b7[25]);_0x49c8x7[_0x34b7[139]][_0x34b7[172]](_0x34b7[170],function(){_0x49c8x7[_0x34b7[139]][_0x34b7[137]](_0x34b7[171])})}else {var _0x49c8x81=false;_0x49c8x7[_0x34b7[145]][_0x34b7[47]](_0x34b7[27],_0x34b7[25])[_0x34b7[63]](_0x34b7[147],false);_0x49c8x7[_0x34b7[145]][_0x34b7[164]]()[_0x34b7[47]](_0x34b7[27],(_0x49c8x7[_0x34b7[70]][_0x34b7[71]]== 2)?_0x34b7[25]:_0x34b7[26]);if(_0x49c8x7[_0x34b7[70]][_0x34b7[71]]== 0){_0x49c8x35([_0x34b7[26],_0x34b7[25]])}else {if(_0x49c8x7[_0x34b7[70]][_0x34b7[71]]== 2){_0x49c8x34(_0x34b7[26]);_0x49c8x81= true}};_0x49c8x7[_0x34b7[139]][_0x34b7[172]](_0x34b7[170],function(){if(_0x49c8x81){_0x49c8x7[_0x34b7[139]][_0x34b7[137]](_0x34b7[171])}});_0x49c8x4c(_0x34b7[26])}},_0x49c8x32=function(_0x49c8x11,_0x49c8x82,_0x49c8x83,_0x49c8x84){_0x49c8x2e();var _0x49c8x7d=null,_0x49c8x85=admin$[_0x34b7[177]]({a:_0x34b7[173],t: typeof _0x49c8x83=== _0x34b7[148]&& _0x49c8x83()[_0x34b7[174]]|| _0x49c8x26[_0x34b7[175]][_0x49c8x83[0]],m: typeof _0x49c8x83=== _0x34b7[148]&& _0x49c8x83()[_0x34b7[176]]|| _0x49c8x26[_0x34b7[175]][_0x49c8x83[1]]}),_0x49c8x86=_0x49c8x85[_0x34b7[21]](_0x34b7[178]),_0x49c8x87=function(_0x49c8x88){_0x49c8x86[(_0x49c8x88?_0x34b7[181]:_0x34b7[182])+ _0x34b7[183]](_0x34b7[180])[_0x34b7[179]](_0x34b7[147],!_0x49c8x88)};_0x49c8x86[_0x34b7[64]](_0x49c8x26[_0x34b7[184]]);_0x49c8x86[_0x34b7[188]](_0x34b7[187])[_0x34b7[186]](_0x34b7[185]);_0x49c8x86[_0x34b7[6]](function(_0x49c8x11){_0x49c8x7d= 1;_0x49c8x85[_0x34b7[189]](_0x34b7[136]);if(_0x49c8x82[_0x34b7[190]]&&  typeof _0x49c8x82[_0x34b7[190]]=== _0x34b7[148]){_0x49c8x82[_0x34b7[190]](_0x49c8x11,_0x49c8x7d)}});_0x49c8x87(true);if(_0x49c8x84&& _0x49c8x84[_0x34b7[191]]&&  typeof _0x49c8x84[_0x34b7[191]]=== _0x34b7[148]){_0x49c8x84[_0x34b7[191]](_0x49c8x85)};_0x49c8x85[_0x34b7[189]](_0x34b7[171]);srclocked(false);_0x49c8x85[_0x34b7[57]](_0x34b7[192],function(_0x49c8x11){if(_0x49c8x82[_0x34b7[136]]&&  typeof _0x49c8x82[_0x34b7[136]]=== _0x34b7[148]){_0x49c8x82[_0x34b7[136]](_0x49c8x11,_0x49c8x7d)}});return _0x49c8x85},_0x49c8x33=function(){},_0x49c8x34=function(_0x49c8x89){if(!_0x49c8x40[_0x34b7[193]]){_0x49c8x40[_0x34b7[193]]= _0x49c8x5[_0x34b7[21]](_0x34b7[194]);_0x49c8x40[_0x34b7[193]][_0x34b7[5]](_0x34b7[6],function(_0x49c8x11,_0x49c8x84){var _0x49c8x8a=_0x49c8x32(_0x49c8x11,{hide:function(_0x49c8x11,_0x49c8x7d){if(_0x49c8x7d== 1){_0x49c8x40[_0x34b7[193]][_0x34b7[195]](_0x34b7[170])}else {if(!_0x49c8x7d&& _0x49c8x84 && _0x49c8x84[_0x34b7[196]]){_0x49c8x84[_0x34b7[196]](_0x49c8x7d)}}},done:function(_0x49c8x11){var _0x49c8x8b=$.Deferred(),_0x49c8x8c={};_0x49c8x8c[_0x49c8x7[_0x34b7[70]][_0x34b7[161]]]= false;$[_0x34b7[160]](_0x49c8x8b)[_0x34b7[159]](function(_0x49c8x76){_0x49c8x49(_0x49c8x76,true);if(_0x49c8x84&& _0x49c8x84[_0x34b7[196]]){_0x49c8x84[_0x34b7[196]](1)}else {srclocked(false)}});_0x49c8x39(_0x49c8x8b,_0x49c8x7[_0x34b7[197]],{id:-1},_0x49c8x8c);_0x49c8x7[_0x34b7[75]][_0x34b7[156]]= 1}},(_0x49c8x84&& _0x49c8x84[_0x34b7[198]])?function(){return _0x49c8x84[_0x34b7[198]]}:[0,3],_0x49c8x84)})};if(_0x49c8x40[_0x34b7[124]]){_0x49c8x89= _0x34b7[26]};_0x49c8x40[_0x34b7[193]][_0x34b7[47]](_0x34b7[27],_0x49c8x89)},_0x49c8x35=function(_0x49c8x89){if(!_0x49c8x40[_0x34b7[199]]){var _0x49c8x8d=_0x49c8x5[_0x34b7[21]](_0x34b7[200]),_0x49c8x8e=_0x49c8x8d[_0x34b7[201]]();_0x49c8x8e[_0x34b7[188]](_0x34b7[205])[_0x34b7[186]](_0x34b7[204])[_0x34b7[47]]({'\x64\x69\x73\x70\x6C\x61\x79':_0x34b7[26],'\x70\x61\x64\x64\x69\x6E\x67':_0x34b7[203]})[_0x34b7[64]](_0x34b7[202]);_0x49c8x8d[_0x34b7[67]]()[_0x34b7[206]](_0x49c8x8e);_0x49c8x40[_0x34b7[199]]= [_0x49c8x8d,_0x49c8x8e];_0x49c8x8d[_0x34b7[5]](_0x34b7[6],function(_0x49c8x11){_0x49c8x32(_0x49c8x11,{hide:function(_0x49c8x11,_0x49c8x7d){if(_0x49c8x7d=== 1){srclocked(true);_0x49c8x8d[_0x34b7[195]](_0x34b7[170]);_0x49c8x38(false);if(_0x49c8x7[_0x34b7[139]]){_0x49c8x7[_0x34b7[139]][_0x34b7[47]](_0x34b7[27],_0x34b7[26])}}},done:function(_0x49c8x11,_0x49c8x7d){var _0x49c8x8f=function(){var _0x49c8x76=_0x49c8x40[_0x34b7[122]][_0x34b7[209]][_0x34b7[208]][1][_0x34b7[207]];_0x49c8x76[1]= undefined;_0x49c8x49(_0x49c8x76,true);_0x49c8x7[_0x34b7[75]][_0x34b7[156]]= 1;srclocked(false)},_0x49c8x90=function(_0x49c8x91){var _0x49c8x92=_0x49c8x40[_0x34b7[21]](_0x34b7[210]),_0x49c8x93=_0x49c8x7[_0x34b7[70]][_0x34b7[161]];if(_0x49c8x92[_0x34b7[30]]> 0){_0x49c8x92[_0x34b7[21]](_0x34b7[211]+ _0x49c8x93+ _0x34b7[212])[_0x34b7[17]](_0x34b7[6],[-1* parseInt(_0x49c8x93)])}else {if(_0x49c8x91&&  typeof _0x49c8x91=== _0x34b7[148]){var _0x49c8x8b=$.Deferred();$[_0x34b7[160]](_0x49c8x8b)[_0x34b7[159]](function(_0x49c8x94){_0x49c8x8f()});_0x49c8x91(-1* _0x49c8x93,_0x49c8x8b)}else {_0x49c8x8f()}}};_0x49c8x3a(_0x49c8x90,_0x49c8x7[_0x34b7[70]][_0x34b7[161]],_0x49c8x7[_0x34b7[70]][_0x34b7[213]])}},[0,2])});_0x49c8x8e[_0x34b7[5]](_0x34b7[6],function(_0x49c8x11){_0x49c8x32(_0x49c8x11,{hide:function(_0x49c8x11,_0x49c8x7d){if(_0x49c8x7d== 1){_0x49c8x8e[_0x34b7[195]](_0x34b7[170])}},done:function(_0x49c8x11,_0x49c8x7d){if(_0x49c8x40[_0x34b7[214]]){srclocked(true);setTimeout(function(){var _0x49c8x95,_0x49c8x96,_0x49c8x97,_0x49c8x8f=function(){_0x49c8x3d(_0x49c8x97);if(_0x49c8x7[_0x34b7[215]]){_0x49c8x7[_0x34b7[216]]= function(_0x49c8x11){_0x49c8x7[_0x34b7[216]]= null;srclocked(false)}}else {srclocked(false)};_0x49c8x40[_0x34b7[214]]= null};if(_0x49c8x40[_0x34b7[124]]){_0x49c8x95= _0x49c8x7[_0x34b7[162]][_0x49c8x40[_0x34b7[214]][_0x34b7[161]]];_0x49c8x96= [_0x49c8x40[_0x34b7[124]][0],_0x49c8x95[1],_0x49c8x40[_0x34b7[124]][2]]}else {if(_0x49c8x40[_0x34b7[214]][_0x34b7[217]]){delete _0x49c8x7[_0x34b7[70]];_0x49c8x43(null,false,true,false);var _0x49c8x98=function(_0x49c8x99,_0x49c8x1d){_0x49c8x7[_0x34b7[105]][_0x34b7[4]](_0x49c8x1d);_0x49c8x97= _0x49c8x2a(null,_0x49c8x99);_0x49c8x8f()};if(_0x49c8x7[_0x34b7[75]][_0x34b7[74]]== 1){var _0x49c8x7e=$.Deferred();$[_0x34b7[160]](_0x49c8x7e)[_0x34b7[159]](function(_0x49c8x7f){_0x49c8x98({conf:_0x49c8x7f[_0x34b7[90]]},_0x49c8x7f[_0x34b7[207]]);_0x49c8x7[_0x34b7[75]][_0x34b7[74]]= 2});_0x49c8x4a(1,_0x49c8x7e)}else {_0x49c8x98({conf:_0x49c8x40[_0x34b7[214]][_0x34b7[90]]},_0x49c8x40[_0x34b7[214]][_0x34b7[217]])};return}else {_0x49c8x95= _0x49c8x7[_0x34b7[162]][_0x49c8x40[_0x34b7[214]][_0x34b7[161]]];if(_0x49c8x95){_0x49c8x96= [[_0x49c8x95[0]],_0x49c8x95[1]]}else {delete _0x49c8x7[_0x34b7[70]];_0x49c8x7[_0x34b7[105]][_0x34b7[4]](_0x34b7[25]);_0x49c8x96= [[],null]}}};_0x49c8x97= _0x49c8x43(_0x49c8x96,false,undefined,false);_0x49c8x8f()})}else {_0x49c8x49(null,false);_0x49c8x4a(3)}}},[0,1])})};_0x49c8x34(_0x49c8x89[0]);_0x49c8x40[_0x34b7[199]][0][_0x34b7[47]](_0x34b7[27],_0x49c8x89[0]);_0x49c8x40[_0x34b7[199]][1][_0x34b7[47]](_0x34b7[27],_0x49c8x89[1]);_0x49c8x40[_0x34b7[199]][0][_0x34b7[67]]()[_0x34b7[47]](_0x34b7[27],(_0x49c8x89[0]== _0x34b7[25]|| _0x49c8x89[1]== _0x34b7[25])?_0x34b7[25]:_0x34b7[26])},_0x49c8x36=function(_0x49c8x9a,_0x49c8x9b){_0x49c8x9a[1][_0x34b7[207]][2]--;for(var _0x49c8x10=_0x49c8x9a[1][_0x34b7[207]][0][_0x34b7[30]]- 1;_0x49c8x10>  -1;_0x49c8x10--){if(_0x49c8x9a[1][_0x34b7[207]][0][_0x49c8x10][_0x34b7[161]]== -1* _0x49c8x9b){_0x49c8x9a[1][_0x34b7[207]][0][_0x34b7[218]](_0x49c8x10,1)}};_0x49c8x2f(_0x49c8x9a[1][_0x34b7[207]],0)},_0x49c8x37=false,_0x49c8x38=function(_0x49c8x9c){_0x49c8x37= _0x49c8x9c;_0x49c8x40[_0x34b7[67]]()[_0x34b7[21]](_0x34b7[219])[_0x34b7[47]](_0x34b7[27],_0x49c8x9c?_0x34b7[26]:_0x34b7[25]);_0x49c8x40[_0x34b7[67]]()[_0x34b7[21]](_0x34b7[144])[_0x34b7[179]](_0x34b7[147],_0x49c8x9c)},_0x49c8x39=function(_0x49c8x8b,_0x49c8x9d,_0x49c8x9e,_0x49c8x9f){if(_0x49c8x7[_0x34b7[220]]== _0x34b7[221]){lo$DB(function(_0x49c8xa0){if(_0x49c8xa0[_0x34b7[222]]== 0){_0x49c8xa0[_0x34b7[224]](_0x34b7[223]);_0x49c8x8b[_0x34b7[225]]()}else {if(_0x49c8xa0[_0x34b7[222]]== 1){var _0x49c8xa1=[],_0x49c8xa2,_0x49c8xa3=0,_0x49c8xa4,_0x49c8xa5=function(_0x49c8xa8){for(var _0x49c8xa9 in _0x49c8x9e){if(_0x49c8x9e[_0x34b7[101]](_0x49c8xa9)){if(_0x49c8xa8[_0x49c8xa9]!= _0x49c8x9e[_0x49c8xa9]){if(_0x49c8xa9== _0x34b7[161]){_0x49c8xa4= parseInt(_0x49c8x9e[_0x49c8xa9])};return false}}};return true},_0x49c8xa6=_0x49c8xa0[_0x34b7[229]][_0x34b7[228]](_0x49c8x9d,(!_0x49c8x9f?_0x34b7[226]:_0x34b7[227])),_0x49c8xa7=_0x49c8xa6[_0x34b7[230]](_0x49c8x9d[0]);_0x49c8xa6[_0x34b7[231]]= function(){_0x49c8xa0[_0x34b7[229]][_0x34b7[232]]();_0x49c8x8b[_0x34b7[225]]([_0x49c8xa1,_0x49c8xa2,_0x49c8xa3])};_0x49c8xa7[_0x34b7[234]]()[_0x34b7[233]]= function(_0x49c8x11){var _0x49c8xaa=_0x49c8x11[_0x34b7[10]][_0x34b7[235]];if(_0x49c8xaa){_0x49c8xa3+= 1;if(_0x49c8x9f){if(_0x49c8x9f[_0x49c8xaa[_0x34b7[236]][_0x34b7[161]]]!== undefined){_0x49c8xaa[_0x34b7[236]][_0x34b7[237]]= _0x49c8x9f[_0x49c8xaa[_0x34b7[236]][_0x34b7[161]]];_0x49c8xaa[_0x34b7[238]](_0x49c8xaa[_0x34b7[236]]);_0x49c8x40[_0x34b7[17]](_0x34b7[153],_0x34b7[239])}};if(!_0x49c8x9e|| _0x49c8xa5(_0x49c8xaa[_0x34b7[236]])){_0x49c8xa1[_0x34b7[99]](_0x49c8xaa[_0x34b7[236]])};_0x49c8xaa[_0x34b7[240]]()}else {if(_0x49c8x9d[_0x34b7[30]]> 1){if(_0x49c8xa1[_0x34b7[30]]> 0){_0x49c8xa4= _0x49c8xa4|| _0x49c8xa1[_0x49c8xa1[_0x34b7[30]]- 1][_0x34b7[161]];var _0x49c8xab=_0x49c8xa6[_0x34b7[230]](_0x49c8x9d[1])[_0x34b7[242]](_0x34b7[241]),_0x49c8xac=_0x49c8xab[_0x34b7[243]](_0x49c8xa4);_0x49c8xac[_0x34b7[233]]= function(_0x49c8x11){_0x49c8xa2= _0x49c8x11[_0x34b7[10]][_0x34b7[235]]}}}}}}}})}else {var _0x49c8xad=$.Deferred(),_0x49c8xae=$.Deferred(),_0x49c8xaf=function(_0x49c8xb0){var _0x49c8xb1=_0x49c8x40[_0x34b7[122]][_0x34b7[209]],_0x49c8x9a=_0x49c8xb1[_0x34b7[208]],_0x49c8xb2=function(_0x49c8x11){var _0x49c8xb3=$[_0x34b7[246]](_0x49c8x9a[1][_0x34b7[207]][0],function(_0x49c8x58,_0x49c8x10){if(_0x49c8x9d[0]== _0x34b7[244]){return _0x49c8x9d[1][_0x34b7[24]](_0x49c8x58[_0x34b7[161]])>  -1}else {return _0x49c8x58[_0x34b7[161]]== _0x49c8x11[_0x34b7[245]]}});if(_0x49c8x9b){_0x49c8x36(_0x49c8x9a,_0x49c8x9b)};_0x49c8xae[_0x34b7[225]]([_0x49c8xb3,_0x49c8x11,_0x49c8x9a[1][_0x34b7[207]][2]])},_0x49c8x9b=function(){if(_0x49c8x9f){for(var _0x49c8x6d in _0x49c8x9f){if(_0x49c8x9f[_0x34b7[101]](_0x49c8x6d)){if(parseInt(_0x49c8x6d)< 0){return _0x49c8x6d}}}};return null}();if(_0x49c8xb0){_0x49c8xb0(_0x49c8x9a[1][_0x34b7[207]][0])};if(!_0x49c8x9b&& _0x49c8x9e && _0x49c8x7[_0x34b7[162]][_0x49c8x9e[_0x34b7[161]]]){_0x49c8xb2(_0x49c8x7[_0x34b7[162]][_0x49c8x9e[_0x34b7[161]]][1])}else {if(_0x49c8x9e[_0x34b7[161]]!=  -1){_0x49c8x6(_0x34b7[251])[_0x34b7[250]][_0x34b7[249]](_0x49c8xb1,_0x49c8x9a[1],_0x34b7[247],{logh:btoa(JSON[_0x34b7[248]]([_0x49c8x9e,_0x49c8x9f])),logkind:1});_0x49c8xb1[_0x34b7[252]]= function(_0x49c8x11){_0x49c8xb1[_0x34b7[252]]= null;_0x49c8xb2(_0x49c8x11)}}else {_0x49c8xae[_0x34b7[225]]([[],undefined,_0x49c8x9a[1][_0x34b7[207]][2]])}}};$[_0x34b7[160]](_0x49c8xad,_0x49c8xae)[_0x34b7[159]](function(_0x49c8xb4,_0x49c8x76){_0x49c8x8b[_0x34b7[225]](_0x49c8x76,_0x49c8xb4)});if(_0x49c8x9f){_0x49c8x6(_0x34b7[251])[_0x34b7[250]][_0x34b7[254]](_0x49c8x9f,_0x34b7[253],false)[_0x34b7[159]](function(_0x49c8x11){_0x49c8x40[_0x34b7[17]](_0x34b7[153],_0x34b7[239]);_0x49c8xad[_0x34b7[225]](_0x49c8x11)});_0x49c8xaf(function(_0x49c8xb5){for(var _0x49c8x10=0;_0x49c8x10< _0x49c8xb5[_0x34b7[30]];_0x49c8x10++){if(_0x49c8x9f[_0x34b7[101]](_0x49c8xb5[_0x49c8x10][_0x34b7[161]])){_0x49c8xb5[_0x49c8x10][_0x34b7[237]]= _0x49c8x9f[_0x49c8xb5[_0x49c8x10][_0x34b7[161]]]}}})}else {_0x49c8xaf();_0x49c8xad[_0x34b7[225]]()}}},_0x49c8x3a=function(_0x49c8x90,_0x49c8xb6,_0x49c8xb7){if(_0x49c8x7[_0x34b7[220]]== _0x34b7[221]){lo$DB(function(_0x49c8xa0){var _0x49c8xa6=_0x49c8xa0[_0x34b7[229]][_0x34b7[228]](_0x49c8x7[_0x34b7[197]],_0x34b7[227]),_0x49c8xa7=_0x49c8xa6[_0x34b7[230]](_0x49c8x7[_0x34b7[197]][0]),_0x49c8xb8=_0x49c8xa6[_0x34b7[230]](_0x49c8x7[_0x34b7[197]][1]);_0x49c8xa6[_0x34b7[231]]= function(){_0x49c8xa0[_0x34b7[229]][_0x34b7[232]]();var _0x49c8xb1=_0x49c8x40[_0x34b7[122]][_0x34b7[209]],_0x49c8x9a=_0x49c8xb1[_0x34b7[208]];_0x49c8x36(_0x49c8x9a,-1* parseInt(_0x49c8xb6));_0x49c8x40[_0x34b7[17]](_0x34b7[153],_0x34b7[255]);_0x49c8x90()};_0x49c8xa7[_0x34b7[256]](_0x49c8xb6);_0x49c8xb8[_0x34b7[256]](_0x49c8xb7)})}else {_0x49c8x90(function(_0x49c8xb9,_0x49c8x8b){var _0x49c8x8c={};_0x49c8x8c[_0x49c8xb9]= true;_0x49c8x39(_0x49c8x8b,_0x49c8x7[_0x34b7[197]],{issel:true},_0x49c8x8c)})}},_0x49c8x3b,_0x49c8x3c=function(_0x49c8xba){_gsC(srcpf$+ _0x34b7[257]+ _0x34b7[258]+  new Date()[_0x34b7[259]](),_0x34b7[260],function(){_0x49c8xba()},_0x34b7[261])},_0x49c8x3d=function(_0x49c8x97){if(_0x49c8x7[_0x34b7[215]]){_0x49c8x7[_0x34b7[215]][_0x34b7[262]]({'\x64\x61\x74\x61\x53\x6F\x75\x72\x63\x65':_0x49c8x97[0],paging:{pageIndex:0}})};if(_0x49c8x7[_0x34b7[138]]){_0x49c8x7[_0x34b7[267]][_0x34b7[262]](_0x34b7[263],DevExpress[_0x34b7[266]][_0x34b7[265]](_0x49c8x97[1],_0x34b7[264]));_0x49c8x97[3]= _0x49c8x7[_0x34b7[267]][_0x34b7[262]](_0x34b7[236]);_0x49c8x7[_0x34b7[268]][_0x34b7[262]](_0x34b7[263],DevExpress[_0x34b7[266]][_0x34b7[265]](_0x49c8x97[2],_0x34b7[264]));_0x49c8x97[4]= _0x49c8x7[_0x34b7[268]][_0x34b7[262]](_0x34b7[236])}},_0x49c8x3e=-1,_0x49c8x3f=function(){var _0x49c8xbb=GetIEVersion()== 11?_0x34b7[269]:_0x34b7[25],_0x49c8xbc=_0x49c8x5[_0x34b7[21]](_0x34b7[270]);_0x49c8xbc[_0x34b7[137]]({container:_0x49c8x5[_0x34b7[21]](_0x34b7[78]),placement:_0x34b7[273],trigger:_0x34b7[167],html:true,title:_0x34b7[274]+ _0x49c8x28,content:_0x34b7[275]+ _0x34b7[276]})[_0x34b7[5]](_0x34b7[271],function(){_0x49c8xbc[_0x34b7[272]][_0x34b7[182]]()});_0x49c8xbc[_0x34b7[272]]= $(_0x34b7[278])[_0x34b7[39]](_0x49c8xbc[_0x34b7[61]](_0x34b7[277]));_0x49c8xbc[_0x34b7[137]](_0x34b7[171])},_0x49c8x40=_0x49c8x5[_0x34b7[21]](_0x34b7[279]),_0x49c8x41=helloguy[_0x34b7[201]](),_0x49c8x42=function(){if(_0x49c8x7[_0x34b7[280]]){_0x49c8x7[_0x34b7[280]][_0x34b7[281]]();delete _0x49c8x7[_0x34b7[280]]}},_0x49c8x43=function(_0x49c8x76,_0x49c8xbd,_0x49c8xbe,_0x49c8xbf){_0x49c8x42();_0x49c8x40[_0x34b7[21]](_0x34b7[282])[_0x34b7[182]]();var _0x49c8xc0=_0x49c8x45(_0x49c8x76);_0x49c8x46(_0x49c8x76,_0x49c8xbd,function(){if(!_0x49c8xc0){if(_0x49c8x7[_0x34b7[70]]){_0x49c8x40[_0x34b7[122]][_0x34b7[209]][_0x34b7[284]](_0x49c8x7[_0x34b7[70]][_0x34b7[283]],_0x49c8x35)}else {_0x49c8x40[_0x34b7[122]][_0x34b7[209]][_0x34b7[286]][_0x34b7[285]]()}}});if(_0x49c8xbf){_0x49c8x4a(3)};if(_0x49c8x7[_0x34b7[145]]){_0x49c8x7[_0x34b7[145]][_0x34b7[67]]()[_0x34b7[47]](_0x34b7[27],_0x34b7[26])};_0x49c8x4c(_0x34b7[25]);if(!_0x49c8xbe){return _0x49c8x2a(null,_0x49c8x7[_0x34b7[70]])}},_0x49c8x44=function(_0x49c8x76){var _0x49c8xc1=$(_0x34b7[287]),_0x49c8xc2=_0x49c8xc1[_0x34b7[21]](_0x34b7[288]),_0x49c8xc3,_0x49c8xc4=null,_0x49c8xc5=null,_0x49c8xc6=function(_0x49c8xca,_0x49c8x8c){if(unlockedHWND==  -1){srclocked(true)};_0x49c8xca= parseInt(_0x49c8xca);var _0x49c8xcb=function(_0x49c8xcc,_0x49c8xb5){var _0x49c8x97=_0x49c8x2a(null,_0x49c8xb5),_0x49c8xad=$.Deferred(),_0x49c8xae=$.Deferred();$[_0x34b7[160]](_0x49c8xad,_0x49c8xae)[_0x34b7[159]](function(_0x49c8xb4,_0x49c8x76){srclocked(false)});if(_0x49c8xc5&&  typeof _0x49c8xc5=== _0x34b7[148]){_0x49c8xc5(_0x49c8xcc,_0x49c8xae)}else {_0x49c8xae[_0x34b7[225]](_0x34b7[289])};if(_0x49c8x7[_0x34b7[215]]){_0x49c8x7[_0x34b7[215]][_0x34b7[290]]();_0x49c8x7[_0x34b7[216]]= function(_0x49c8x11){_0x49c8xad[_0x34b7[225]](_0x34b7[291])};_0x49c8x3d(_0x49c8x97)}else {_0x49c8xad[_0x34b7[225]](_0x34b7[291])}};if(!_0x49c8x7[_0x34b7[162]][_0x49c8xca]){var _0x49c8x8b=$.Deferred();$[_0x34b7[160]](_0x49c8x8b)[_0x34b7[159]](function(_0x49c8x76){_0x49c8x46(_0x49c8x76,false,function(){_0x49c8xcb(_0x34b7[292],_0x49c8x76[0][0])})});_0x49c8x39(_0x49c8x8b,_0x49c8x7[_0x34b7[197]],{id:_0x49c8xca},_0x49c8x8c)}else {_0x49c8x46([[_0x49c8x7[_0x34b7[162]][_0x49c8xca][0]],_0x49c8x7[_0x34b7[162]][_0x49c8xca][1]],false,function(){_0x49c8xcb(_0x34b7[293],_0x49c8x7[_0x34b7[162]][_0x49c8xca][0])})}},_0x49c8xc7=function(_0x49c8x11,_0x49c8x79){var _0x49c8x9=_0x49c8xc3[_0x34b7[21]](_0x34b7[294]),_0x49c8xca=_0x49c8x79[_0x34b7[296]](_0x34b7[295]);if(_0x49c8x9[_0x34b7[30]]== 0|| _0x49c8x9[_0x34b7[63]](_0x34b7[295])!= _0x49c8xca){_0x49c8xc3[_0x34b7[21]](_0x34b7[298])[_0x34b7[188]](_0x34b7[297]);$(_0x49c8x79)[_0x34b7[186]](_0x34b7[297]);if(!_0x49c8xc4){if(unlockedHWND==  -1){srclocked(true)};setTimeout(function(){_0x49c8xc6(_0x49c8xca)},20)}};return (_0x49c8x9[_0x34b7[30]]== 0)?null:_0x49c8x9},_0x49c8xc8=function(_0x49c8x11,_0x49c8xcd,_0x49c8x84){if(!_0x49c8x26){_0x49c8x26= _0x49c8x6(_0x34b7[84])};var _0x49c8xce=_0x49c8x11[_0x34b7[10]][_0x34b7[9]][_0x34b7[8]]()== _0x34b7[299],_0x49c8x7d=null,_0x49c8x85=admin$[_0x34b7[177]]({a:_0x34b7[173],t:_0x49c8x84&& _0x49c8x84[_0x34b7[198]][_0x34b7[174]]|| _0x49c8x26[_0x34b7[175]][0],m:_0x49c8x84&& _0x49c8x84[_0x34b7[198]][_0x34b7[176]]|| _0x49c8x26[_0x34b7[175]][_0x49c8xce?4:3]}),_0x49c8x86=_0x49c8x85[_0x34b7[21]](_0x34b7[178]),_0x49c8x87=function(_0x49c8x88){_0x49c8x86[(_0x49c8x88?_0x34b7[181]:_0x34b7[182])+ _0x34b7[183]](_0x34b7[180])[_0x34b7[179]](_0x34b7[147],!_0x49c8x88)};_0x49c8x86[_0x34b7[64]](_0x49c8x26[_0x34b7[184]]);_0x49c8x86[_0x34b7[188]](_0x34b7[187])[_0x34b7[186]](_0x34b7[185]);_0x49c8x86[_0x34b7[6]](function(){_0x49c8x7d= _0x49c8xcd[_0x34b7[63]](_0x34b7[295]);_0x49c8xc9(_0x49c8x11,_0x49c8xcd,_0x49c8x85,_0x49c8x84&& _0x49c8x84[_0x34b7[196]])});_0x49c8x87(true);if(_0x49c8x84&& _0x49c8x84[_0x34b7[191]]&&  typeof _0x49c8x84[_0x34b7[191]]=== _0x34b7[148]){_0x49c8x84[_0x34b7[191]](_0x49c8x85)};_0x49c8x85[_0x34b7[189]](_0x34b7[171]);srclocked(false);_0x49c8x85[_0x34b7[57]](_0x34b7[192],function(_0x49c8x11){if(_0x49c8xc4){srclocked(true);_0x49c8xc4[_0x34b7[225]](_0x49c8x7d)};if(!_0x49c8x7d&& _0x49c8x84 && _0x49c8x84[_0x34b7[196]]){_0x49c8x84[_0x34b7[196]](_0x49c8x7d)}})},_0x49c8xc9=function(_0x49c8x11,_0x49c8xcd,_0x49c8x85,_0x49c8xcf){_0x49c8x7[_0x34b7[75]][_0x34b7[156]]= 1;if(_0x49c8x11[_0x34b7[10]][_0x34b7[9]][_0x34b7[8]]()== _0x34b7[299]){if(unlockedHWND==  -1){srclocked(true)};if(_0x49c8x85){_0x49c8x85[_0x34b7[143]](_0x34b7[192]);_0x49c8x85[_0x34b7[189]](_0x34b7[136])};var _0x49c8x8c={};_0x49c8xc3[_0x34b7[21]](_0x34b7[300])[_0x34b7[37]](function(_0x49c8x10,_0x49c8x58){_0x49c8x8c[parseInt(_0x49c8x58[_0x34b7[296]](_0x34b7[295]))]= false});var _0x49c8x8b=$.Deferred();$[_0x34b7[160]](_0x49c8x8b)[_0x34b7[159]](function(_0x49c8x76){_0x49c8x49(_0x49c8x76,false);if(_0x49c8xcf&&  typeof _0x49c8xcf=== _0x34b7[148]){_0x49c8xcf(1)};srclocked(false)});_0x49c8x39(_0x49c8x8b,_0x49c8x7[_0x34b7[197]],{id:-1,issel:true},_0x49c8x8c)}else {_0x49c8xcd[_0x34b7[301]]({height:10},200,function(_0x49c8x11){_0x49c8xcd[_0x34b7[182]]();if(_0x49c8xcf&&  typeof _0x49c8xcf=== _0x34b7[148]){_0x49c8xcf(1)};if(_0x49c8x85){_0x49c8x85[_0x34b7[189]](_0x34b7[136])}})}};_0x49c8xc2[_0x34b7[64]](_0x34b7[302]+ _0x49c8x26[_0x34b7[303]][2]+ _0x34b7[304]+ _0x49c8x26[_0x34b7[305]]+ _0x34b7[306]+ _0x49c8x26[_0x34b7[307]]+ _0x34b7[308]);var _0x49c8xd0=0,_0x49c8xd1=0,_0x49c8xd2=0;for(var _0x49c8x10=_0x49c8x76[0][_0x34b7[30]]- 1;_0x49c8x10>  -1;_0x49c8x10--){var _0x49c8xd3=Math[_0x34b7[310]](_0x49c8x76[0][_0x49c8x10][_0x34b7[283]][_0x34b7[309]]/ 1000),_0x49c8xd4=false;_0x49c8xd0+= _0x49c8x76[0][_0x49c8x10][_0x34b7[90]][_0x34b7[311]];_0x49c8xd1+= _0x49c8x76[0][_0x49c8x10][_0x34b7[90]][_0x34b7[312]];_0x49c8xd2+= _0x49c8xd3;if(_0x49c8x76[1]){_0x49c8xd4= _0x49c8x76[1][_0x34b7[245]]== _0x49c8x76[0][_0x49c8x10][_0x34b7[161]]}else {if(_0x49c8x10== _0x49c8x76[0][_0x34b7[30]]- 1){_0x49c8xd4= true}};_0x49c8xc3+= _0x34b7[313]+ _0x49c8x76[0][_0x49c8x10][_0x34b7[161]]+ _0x34b7[314]+ (_0x49c8xd4?_0x34b7[315]:_0x34b7[25])+ _0x34b7[316]+ _0x34b7[317]+ _0x49c8x76[0][_0x49c8x10][_0x34b7[283]][_0x34b7[318]]+ _0x34b7[319]+ _0x49c8xd3+ _0x34b7[319]+ _0x49c8x76[0][_0x49c8x10][_0x34b7[90]][_0x34b7[311]]+ _0x34b7[319]+ _0x49c8x76[0][_0x49c8x10][_0x34b7[90]][_0x34b7[312]]+ _0x34b7[320]};_0x49c8xc3+= _0x34b7[321]+ _0x49c8x26[_0x34b7[303]][4]+ _0x34b7[319]+ _0x49c8xd2+ _0x34b7[319]+ _0x49c8xd0+ _0x34b7[319]+ _0x49c8xd1+ _0x34b7[320];_0x49c8xc1[_0x34b7[5]](_0x34b7[6],_0x34b7[322],function(_0x49c8x11,_0x49c8x84){_0x49c8x11[_0x34b7[14]]();_0x49c8x11[_0x34b7[13]]();if(_0x49c8x37){_0x49c8x7[_0x34b7[139]][_0x34b7[137]](_0x34b7[171]);return};if(unlockedHWND==  -1){srclocked(true)};var _0x49c8xd5=_0x49c8x11,_0x49c8x79=$(this)[_0x34b7[67]]();if(_0x49c8x84&&  !_0x49c8x84[_0x34b7[323]]){_0x49c8xc9(_0x49c8x11,_0x49c8x79,null,function(){_0x49c8xc4[_0x34b7[225]](_0x49c8x84)})}else {setTimeout(function(){_0x49c8xc8(_0x49c8xd5,_0x49c8x79,_0x49c8x84)},20)}});_0x49c8xc3= _0x49c8xc1[_0x34b7[21]](_0x34b7[324])[_0x34b7[64]](_0x49c8xc3);_0x49c8xc3[_0x34b7[5]](_0x34b7[6],_0x34b7[300],function(_0x49c8x11){if(_0x49c8x37){_0x49c8x11[_0x34b7[14]]();_0x49c8x11[_0x34b7[13]]();_0x49c8x7[_0x34b7[139]][_0x34b7[137]](_0x34b7[171]);return};var _0x49c8x79=$(this),_0x49c8xd6=$(_0x49c8x11[_0x34b7[10]])[_0x34b7[326]](_0x34b7[325]),_0x49c8xd7,_0x49c8x9,_0x49c8xd8;if(_0x49c8xd6){_0x49c8xc4=  new $.Deferred();$[_0x34b7[160]](_0x49c8xc4)[_0x34b7[159]](function(_0x49c8xb9){_0x49c8xc4= null;if(!_0x49c8xb9){if(!_0x49c8x9|| _0x49c8x9[_0x34b7[63]](_0x34b7[295])!= _0x49c8x79[_0x34b7[63]](_0x34b7[295])){_0x49c8xc6(_0x49c8x79[_0x34b7[63]](_0x34b7[295]))}else {srclocked(false)}}else {var _0x49c8x8c={},_0x49c8xd9,_0x49c8xda=function(_0x49c8xdb){if(_0x49c8xb9!= _0x34b7[327]){var _0x49c8x8b=$.Deferred(),_0x49c8xca=parseInt(parseInt(_0x49c8xd7));$[_0x34b7[160]](_0x49c8x8b)[_0x34b7[159]](function(_0x49c8x76){if(_0x49c8xd9){_0x49c8xd9[_0x34b7[209]][_0x34b7[284]](_0x49c8x7[_0x34b7[70]][_0x34b7[283]],_0x49c8x35)};if(!_0x49c8xdb){srclocked(false)}else {_0x49c8xdb[_0x34b7[225]](_0x34b7[328])}});_0x49c8x39(_0x49c8x8b,_0x49c8x7[_0x34b7[197]],{id:(_0x49c8x7[_0x34b7[220]]== _0x34b7[221])?-1:parseInt(_0x49c8xd8[_0x34b7[63]](_0x34b7[295])),issel:true},_0x49c8x8c)}};_0x49c8x8c[parseInt(_0x49c8xb9)]= false;if(_0x49c8xd7!= _0x49c8xd8[_0x34b7[63]](_0x34b7[295])){_0x49c8xc5= function(_0x49c8xcc,_0x49c8xdb){_0x49c8xc5= null;if(_0x49c8xcc== _0x34b7[293]){_0x49c8xda(_0x49c8xdb)}else {if(_0x49c8xd9){_0x49c8xd9[_0x34b7[209]][_0x34b7[284]](_0x49c8x7[_0x34b7[70]][_0x34b7[283]],_0x49c8x35)};_0x49c8xdb[_0x34b7[225]](_0x34b7[329])}};_0x49c8xc6(_0x49c8xd8[_0x34b7[63]](_0x34b7[295]),_0x49c8x8c)}else {_0x49c8xda()};_0x49c8xd9= _0x49c8xc3[_0x34b7[21]](_0x34b7[300]);if(_0x49c8xd9[_0x34b7[30]]<= 1){_0x49c8x40[_0x34b7[124]]= null;var _0x49c8xdc=_0x49c8x40[_0x34b7[122]];_0x49c8xd9= _0x49c8xdc;_0x49c8xc1[_0x34b7[195]](_0x34b7[170],function(){_0x49c8xc1[_0x34b7[182]]();$(_0x49c8xdc)[_0x34b7[47]]({'\x64\x69\x73\x70\x6C\x61\x79':_0x34b7[26],'\x6F\x70\x61\x63\x69\x74\x79':_0x34b7[330]})[_0x34b7[172]]()})}else {var _0x49c8xd0=0,_0x49c8xd1=0,_0x49c8xd2=0,_0x49c8xdd=[];;;for(var _0x49c8x10=0;_0x49c8x10< _0x49c8xd9[_0x34b7[30]];_0x49c8x10++){var _0x49c8xde=$(_0x49c8xd9[_0x49c8x10]),_0x49c8xdf=_0x49c8xde[_0x34b7[21]](_0x34b7[331]);_0x49c8xdd[_0x34b7[99]](Number(_0x49c8xde[_0x34b7[63]](_0x34b7[295])));_0x49c8xd2+= parseInt(apisvr[_0x34b7[34]][_0x34b7[33]]($(_0x49c8xdf[2])[_0x34b7[31]]()));_0x49c8xd0+= parseInt(apisvr[_0x34b7[34]][_0x34b7[33]]($(_0x49c8xdf[3])[_0x34b7[31]]()));_0x49c8xd1+= parseInt(apisvr[_0x34b7[34]][_0x34b7[33]]($(_0x49c8xdf[4])[_0x34b7[31]]()))};_0x49c8xd9= _0x49c8xc3[_0x34b7[21]](_0x34b7[332]);_0x49c8xd9[1][_0x34b7[108]]= _0x49c8xd2;_0x49c8xd9[2][_0x34b7[108]]= _0x49c8xd0;_0x49c8xd9[3][_0x34b7[108]]= _0x49c8xd1;_0x49c8xd9= null;_0x49c8xd8[_0x34b7[186]](_0x34b7[297]);var _0x49c8xe0=_0x49c8x40[_0x34b7[124]][0];for(var _0x49c8x10=_0x49c8xe0[_0x34b7[30]]- 1;_0x49c8x10>  -1;_0x49c8x10--){if(_0x49c8xdd[_0x34b7[24]](_0x49c8xe0[_0x49c8x10][_0x34b7[161]])==  -1){_0x49c8xe0[_0x34b7[218]](_0x49c8x10,1)}};_0x49c8x40[_0x34b7[124]][2]= _0x49c8xdd[_0x34b7[30]]}}})};_0x49c8x9= _0x49c8xc7(_0x49c8x11,this);if(_0x49c8xd6){_0x49c8xd7= (!_0x49c8x9?0:_0x49c8x9[_0x34b7[63]](_0x34b7[295]));_0x49c8xd8= _0x49c8x79[_0x34b7[164]](_0x34b7[300]);if(_0x49c8xd8[_0x34b7[30]]== 0){_0x49c8xd8= $(this)[_0x34b7[333]](_0x34b7[298])}}});if(i$Desk){_0x49c8x7[_0x34b7[280]]=  new PerfectScrollbar(_0x49c8xc1[_0x34b7[21]](_0x34b7[324])[0],{suppressScrollX:true})};_0x49c8x40[_0x34b7[206]](_0x49c8xc1);_0x49c8xc1[_0x34b7[172]]()},_0x49c8x45=function(_0x49c8x76){var _0x49c8xe1=function(){return $[_0x34b7[246]](_0x49c8x76[0],function(_0x49c8x58,_0x49c8x10){return _0x49c8x58[_0x34b7[237]]})[_0x34b7[30]]> 1},_0x49c8xc0=_0x49c8x76&& _0x49c8xe1(),_0x49c8x92=_0x49c8x40[_0x34b7[21]](_0x34b7[282]),_0x49c8xdc=_0x49c8x40[_0x34b7[21]](_0x34b7[334]);if(_0x49c8xc0){_0x49c8x44(_0x49c8x76);_0x49c8x40[_0x34b7[124]]= _0x49c8x76;if(_0x49c8xdc[_0x34b7[30]]> 0){_0x49c8xdc[_0x34b7[195]](_0x34b7[170],function(){_0x49c8xdc[_0x34b7[47]]({'\x64\x69\x73\x70\x6C\x61\x79':_0x34b7[25],'\x6F\x70\x61\x63\x69\x74\x79':_0x34b7[335]})})}}else {_0x49c8x40[_0x34b7[124]]= null;if(_0x49c8x92[_0x34b7[30]]> 0){_0x49c8x92[_0x34b7[195]](_0x34b7[170],function(){_0x49c8x42();_0x49c8x92[_0x34b7[182]]()})};if(_0x49c8xdc[_0x34b7[30]]> 0){_0x49c8xdc[_0x34b7[47]]({'\x64\x69\x73\x70\x6C\x61\x79':_0x34b7[26],'\x6F\x70\x61\x63\x69\x74\x79':_0x34b7[330]})[_0x34b7[172]]()}};return _0x49c8xc0},_0x49c8x46=function(_0x49c8x76,_0x49c8xbd,_0x49c8xe2){var _0x49c8xe3=_0x34b7[26];if(_0x49c8x76&& _0x49c8x76[1]){_0x49c8x7[_0x34b7[105]][_0x34b7[4]](_0x49c8x76[1][_0x34b7[163]]);var _0x49c8xe4;for(var _0x49c8x10=_0x49c8x76[0][_0x34b7[30]]- 1;_0x49c8x10>  -1;_0x49c8x10--){if(_0x49c8x76[0][_0x49c8x10][_0x34b7[161]]== _0x49c8x76[1][_0x34b7[245]]){_0x49c8xe4= _0x49c8x76[0][_0x49c8x10]}};_0x49c8xe4[_0x34b7[213]]= _0x49c8x76[1][_0x34b7[161]];if(!_0x49c8x7[_0x34b7[162]][_0x49c8xe4[_0x34b7[161]]]){_0x49c8x7[_0x34b7[162]][_0x49c8xe4[_0x34b7[161]]]= [_0x49c8xe4,_0x49c8x76[1]]};_0x49c8x7[_0x34b7[70]]= _0x49c8xe4;_0x49c8xe3= _0x34b7[25]};_0x49c8x35([_0x49c8xe3,_0x34b7[26]]);if(_0x49c8xe2&&  typeof _0x49c8xe2=== _0x34b7[148]){_0x49c8xe2()};if(_0x49c8xbd){_0x49c8x2f(_0x49c8x76,0)}},_0x49c8x47=function(_0x49c8xe5){if(Main[_0x34b7[336]]()){if(_0x49c8x3b&& _0x49c8x7[_0x34b7[337]]== 1){_0x49c8x3b[_0x34b7[338]]()}else {_0x49c8x2a();if(_0x49c8xe5){_0x49c8x31();srclocked(false)}}}else {_0x49c8x3c(function(){if(!_0x49c8x3b){_0x49c8x3b=  new FormWizard[_0x34b7[141]][_0x34b7[140]](_0x49c8x5,_0x49c8x6,_0x49c8x7,_0x49c8x2b)};_0x49c8x3b[_0x34b7[338]]()})}},_0x49c8x48=function(_0x49c8xe6){var _0x49c8xe7=_0x49c8x7[_0x34b7[339]];if(_0x49c8x40[_0x34b7[21]](_0x34b7[334])[_0x34b7[30]]== 0){var _0x49c8xdc,_0x49c8xe8=0,_0x49c8xe9,_0x49c8xea=function(_0x49c8xeb){_0x49c8x40[_0x34b7[21]](_0x34b7[334])[_0x34b7[182]]();_0x49c8xdc= document[_0x34b7[340]](_0x34b7[334]);_0x49c8xdc[_0x34b7[28]][_0x34b7[341]]= 1;_0x49c8xdc[_0x34b7[28]][_0x34b7[27]]= _0x34b7[26];_0x49c8xdc[_0x34b7[28]][_0x34b7[45]]= _0x34b7[342];_0x49c8xdc[_0x34b7[28]][_0x34b7[343]]= _0x34b7[344];_0x49c8xdc[_0x34b7[347]](_0x34b7[345],_0x34b7[346]);_0x49c8xdc[_0x34b7[347]](_0x34b7[348],_0x34b7[335]);_0x49c8xdc[_0x34b7[349]]= function(){setTimeout(function(){var _0x49c8xec=_0x49c8xdc[_0x34b7[209]][_0x34b7[350]],_0x49c8xed=_0x49c8xec[_0x34b7[340]](_0x34b7[351]),_0x49c8xee=window[st0(_0x34b7[330])](_0x49c8xe7+ _0x34b7[151]+ srcpf$+ _0x34b7[151]+ window[_0x34b7[353]][_0x34b7[352]]+ _0x34b7[151]+ GetIEVersion()+ _0x34b7[151]+ $(_0x34b7[355])[_0x34b7[326]](_0x34b7[354]));_0x49c8xed[_0x34b7[347]](_0x34b7[356],_0x49c8xee);_0x49c8xed[_0x34b7[347]](_0x34b7[357],srcp$f+ _0x34b7[358]+ src$id);_0x49c8xec[_0x34b7[360]][_0x34b7[359]](_0x49c8xed)},10);_0x49c8x40[_0x34b7[122]]= _0x49c8xdc};_0x49c8x40[0][_0x34b7[359]](_0x49c8xdc)};apisvr[_0x34b7[34]][_0x34b7[361]][_0x49c8xe7]= {hwndTO:null,id:_0x49c8xe7,fn:function(_0x49c8x18,_0x49c8x6f,_0x49c8x72){var _0x49c8xef=this;if(_0x49c8x18== _0x34b7[362]){var _0x49c8xf0=_0x49c8x40[_0x34b7[21]](_0x34b7[363]+ _0x49c8x6f)[0][_0x34b7[209]];_0x49c8xf0[_0x34b7[364]]();_0x49c8xf0[_0x34b7[368]]({'\x6D\x73\x67\x74\x79\x70\x65':_0x34b7[365],'\x6D\x73\x67\x6B\x69\x6E\x64':_0x49c8x6f,'\x65\x76\x74\x44\x61\x74\x61':{a$:_0x34b7[366]}},_0x34b7[367])}else {if(_0x49c8x18== _0x34b7[369]){if(_0x49c8x6f[_0x34b7[371]][_0x34b7[370]]== _0x34b7[372]){clearTimeout(_0x49c8xe9);_0x49c8xdc[_0x34b7[209]][_0x34b7[84]](_0x49c8x26[_0x34b7[373]]);this[_0x34b7[352]]= _0x49c8x6f[_0x34b7[371]][_0x34b7[352]];_0x49c8xe6[_0x34b7[225]]([_0x49c8xdc,function(){_0x49c8x41[_0x34b7[17]](_0x34b7[374]);_0x49c8x41[_0x34b7[182]]()}])}else {if(_0x49c8x6f[_0x34b7[371]][_0x34b7[370]]== _0x34b7[375]){if(_0x49c8x7[_0x34b7[70]]){_0x49c8x40[_0x34b7[214]]= $[_0x34b7[72]](true,{},_0x49c8x7[_0x34b7[70]])}else {if(_0x49c8x7[_0x34b7[75]][_0x34b7[74]]!= 0){_0x49c8x40[_0x34b7[214]]= {isREM:_0x49c8x7[_0x34b7[105]][_0x34b7[4]](),conf:_0x49c8x2d()}}else {_0x49c8x40[_0x34b7[214]]= null}};_0x49c8x7[_0x34b7[105]][_0x34b7[4]](_0x49c8x6f[_0x34b7[371]][_0x34b7[163]]);_0x49c8x7[_0x34b7[70]]= {file:_0x49c8x6f[_0x34b7[371]][_0x34b7[283]],issave:0,issel:true,uptime: new Date()};_0x49c8xdc[_0x34b7[28]][_0x34b7[341]]= 1;_0x49c8x42();_0x49c8x40[_0x34b7[21]](_0x34b7[376])[_0x34b7[182]]();_0x49c8x47(true);_0x49c8x7[_0x34b7[377]]= _0x49c8x31}else {if(_0x49c8x6f[_0x34b7[371]][_0x34b7[370]]== _0x34b7[378]){var _0x49c8x71=_0x49c8x40[_0x34b7[67]]();_0x49c8x71[_0x34b7[21]](_0x34b7[379])[_0x34b7[179]](_0x34b7[147],true)}else {if( typeof _0x49c8xef[_0x49c8x6f[_0x34b7[371]][_0x34b7[370]]]=== _0x34b7[148]){_0x49c8xef[_0x49c8x6f[_0x34b7[371]][_0x34b7[370]]](_0x49c8x18,_0x49c8x6f,_0x49c8x72)}else {}}}}}}}};_0x49c8xea()}},_0x49c8x49=function(_0x49c8x76,_0x49c8xbd){delete _0x49c8x7[_0x34b7[70]];_0x49c8x7[_0x34b7[105]][_0x34b7[4]](_0x34b7[25]);var _0x49c8x97=_0x49c8x43(_0x49c8x76,_0x49c8xbd,undefined,false);_0x49c8x3d(_0x49c8x97);return _0x49c8x97},_0x49c8x4a=function(_0x49c8x8,_0x49c8xf1){var _0x49c8xf2=_0x34b7[74],_0x49c8xf3=_0x34b7[380],_0x49c8xf4=(_0x49c8x7[_0x34b7[220]]== _0x34b7[221]?1:_0x49c8x7[_0x34b7[335]][_0x34b7[381]]),_0x49c8xf5=function(_0x49c8xf6){lo$DB(function(_0x49c8xa0){if(_0x49c8xa0[_0x34b7[222]]== 0){var _0x49c8xf7=_0x49c8xa0[_0x34b7[312]][_0x34b7[10]][_0x34b7[235]];if(_0x49c8xf7[_0x34b7[383]][_0x34b7[382]](_0x49c8xf2)){_0x49c8xf7[_0x34b7[384]](_0x49c8xf2)};_0x49c8xf7[_0x34b7[385]](_0x49c8xf2,{keyPath:_0x34b7[161]})}else {if(_0x49c8xa0[_0x34b7[222]]== 1){var _0x49c8xf8,_0x49c8xa6=_0x49c8xa0[_0x34b7[229]][_0x34b7[228]]([_0x49c8xf2],(_0x49c8x8== 0)?_0x34b7[226]:_0x34b7[227]),_0x49c8xf9=_0x49c8xa6[_0x34b7[230]](_0x49c8xf2);if(_0x49c8x8== 1){_0x49c8xf8= _0x49c8xf9[_0x34b7[243]](_0x49c8xf4)}else {if(_0x49c8x8== 2){_0x49c8xf8= _0x49c8xf9[_0x34b7[386]]({id:_0x49c8xf4,conf:_0x49c8x2d(),log:_0x49c8x7[_0x34b7[105]][_0x34b7[4]]()})}};_0x49c8xf8[_0x34b7[233]]= function(_0x49c8x11){if(_0x49c8x8== 2){_0x49c8xf6(_0x49c8x11[_0x34b7[10]][_0x34b7[235]])}else {if(_0x49c8xf6){_0x49c8xf6[_0x34b7[225]](_0x49c8x11[_0x34b7[10]][_0x34b7[235]])}}}}}},_0x34b7[387])};if(_0x49c8x8== 0){var _0x49c8xfa=st(_0x34b7[388],_0x49c8xf3);return _0x49c8xfa&& _0x49c8xfa[_0x34b7[100]](_0x49c8xf4)[_0x34b7[30]]> 1}else {if(_0x49c8x8== 1){_0x49c8xf5(_0x49c8xf1)}else {if(_0x49c8x8== 2){if(_0x49c8x7[_0x34b7[75]][_0x34b7[74]]== 1){var _0x49c8xfa=st(_0x34b7[388],_0x49c8xf3);if(_0x49c8xfa){_0x49c8xfa= JSON[_0x34b7[389]](_0x49c8xfa);if(_0x49c8xfa[_0x34b7[24]](_0x49c8xf4)==  -1){_0x49c8xfa[_0x34b7[99]](_0x49c8xf4)}}else {_0x49c8xfa= [_0x49c8xf4]};_0x49c8xf5(function(){st(_0x34b7[390],_0x49c8xf3,JSON[_0x34b7[248]](_0x49c8xfa));_0x49c8x7[_0x34b7[75]][_0x34b7[74]]= 2});if(_0x49c8x7[_0x34b7[139]]){_0x49c8x7[_0x34b7[139]][_0x34b7[47]](_0x34b7[27],_0x34b7[26])}}}else {if(_0x49c8x8== 3){if(_0x49c8x7[_0x34b7[75]][_0x34b7[74]]!= 0){var _0x49c8xfa=st(_0x34b7[388],_0x49c8xf3);if(_0x49c8xfa){_0x49c8xfa= JSON[_0x34b7[389]](_0x49c8xfa);_0x49c8xfa= $[_0x34b7[246]](_0x49c8xfa,function(_0x49c8x50){return _0x49c8x50!= _0x49c8xf4});st((_0x49c8xfa[_0x34b7[30]]> 0?_0x34b7[391]:_0x34b7[182])+ _0x34b7[392],_0x49c8xf3,JSON[_0x34b7[248]](_0x49c8xfa))}};_0x49c8x7[_0x34b7[75]][_0x34b7[74]]= 0}}}}},_0x49c8x4b=function(_0x49c8xfb){var _0x49c8x7e=$.Deferred();$[_0x34b7[160]](_0x49c8x7e)[_0x34b7[159]](function(_0x49c8x7f){if(_0x49c8x7f){_0x49c8x7[_0x34b7[105]][_0x34b7[4]](_0x49c8x7f[_0x34b7[207]]);_0x49c8x2a(null,{conf:_0x49c8x7f[_0x34b7[90]]});_0x49c8x7[_0x34b7[75]][_0x34b7[74]]= 2};_0x49c8xfb[_0x34b7[225]]()});_0x49c8x4a(1,_0x49c8x7e)},_0x49c8x4c=function(_0x49c8xfc){var _0x49c8x71=_0x49c8x40[_0x34b7[67]](),_0x49c8xfd=_0x49c8xfc== _0x34b7[25]?false:true;_0x49c8x71[_0x34b7[21]](_0x34b7[393])[_0x34b7[47]](_0x34b7[27],_0x49c8xfc);_0x49c8x71[_0x34b7[21]](_0x34b7[379])[_0x34b7[179]](_0x34b7[147],_0x49c8xfd);_0x49c8x71[_0x34b7[21]](_0x34b7[144])[_0x34b7[179]](_0x34b7[147],_0x49c8xfd)},_0x49c8x4d=function(){var _0x49c8x85=admin$[_0x34b7[177]]({a:_0x34b7[62]}),_0x49c8xfe=function(_0x49c8x101){_0x49c8x101[_0x34b7[21]](_0x34b7[395])[_0x34b7[5]](_0x34b7[6],function(_0x49c8x11){var _0x49c8x102=$(this)[_0x34b7[63]](_0x34b7[394]);srclocked(true);setTimeout(function(){_0x49c8xff(_0x49c8x102)},10)});_0x49c8x85[_0x34b7[21]](_0x34b7[396])[_0x34b7[206]](_0x49c8x101);setTimeout(function(){_0x49c8x85[_0x34b7[57]](_0x34b7[397],function(){_0x49c8x85[_0x34b7[143]](_0x34b7[397]);srclocked(false)})[_0x34b7[189]](_0x34b7[171])},1)},_0x49c8xff=function(_0x49c8x102){var _0x49c8x103=JSON[_0x34b7[389]](_0x49c8x100[_0x49c8x102]);$[_0x34b7[243]](srcp$f+ _0x34b7[407]+ _0x49c8x103[_0x34b7[408]]+ src$id)[_0x34b7[190]](function(_0x49c8x104){var _0x49c8x105={u4:_0x34b7[399],dlgTXT:{title:_0x49c8x26[_0x34b7[401]][_0x34b7[400]][0],txt:_0x49c8x26[_0x34b7[401]][_0x34b7[400]][1]},fnM:function(_0x49c8x8a){_0x49c8x8a[_0x34b7[21]](_0x34b7[404])[_0x34b7[188]](_0x34b7[403])[_0x34b7[186]](_0x34b7[402])},fnCB:function(_0x49c8x7a){if(_0x49c8x7a== 1){_0x49c8x85[_0x34b7[189]](_0x34b7[136]);_0x49c8x29(null,{conf:_0x49c8x103});_0x49c8x7[_0x34b7[105]][_0x34b7[4]](_0x49c8x104);_0x49c8x47(false);_0x49c8x7[_0x34b7[105]][_0x34b7[17]](_0x34b7[2],[_0x34b7[405]]);_0x49c8x7[_0x34b7[75]][_0x34b7[156]]= 1}else {_0x49c8x85[_0x34b7[47]](_0x34b7[341],1)}}};if(_0x49c8x40[_0x34b7[124]]){_0x49c8x85[_0x34b7[47]](_0x34b7[341],0);_0x49c8x40[_0x34b7[21]](_0x34b7[406])[_0x34b7[17]](_0x34b7[6],[_0x49c8x105])}else {if(_0x49c8x7[_0x34b7[70]]){_0x49c8x85[_0x34b7[47]](_0x34b7[341],0);_0x49c8x40[_0x34b7[193]][_0x34b7[17]](_0x34b7[6],[_0x49c8x105])}else {_0x49c8x105[_0x34b7[196]](1)}}})[_0x34b7[398]](function(_0x49c8x11){srclocked(false)})},_0x49c8x100;if(!_0x49c8x7[_0x34b7[409]]){$[_0x34b7[243]](srcp$f+ _0x34b7[420]+ src$id)[_0x34b7[190]](function(_0x49c8x101){var _0x49c8x106=$(_0x49c8x101)[_0x34b7[21]](_0x34b7[410]),_0x49c8x107=apisvr[_0x34b7[34]][_0x34b7[85]],_0x49c8x108=_0x49c8x40[_0x34b7[122]][_0x34b7[209]],_0x49c8x109=_0x49c8x106[_0x34b7[21]](_0x34b7[351]),_0x49c8x10a=_0x49c8x109[0][_0x34b7[108]];_0x49c8x109[_0x34b7[182]]();_0x49c8x7[_0x34b7[409]]= _0x49c8x106;_0x49c8x108[_0x34b7[411]]= function(){_0x49c8x108[_0x34b7[411]]= null;_0x49c8x26[_0x34b7[401]]= $[_0x34b7[72]]({}|| _0x49c8x26[_0x34b7[401]],_0x49c8x108[_0x34b7[413]][_0x34b7[412]]()[_0x49c8x107]);_0x49c8x100= _0x49c8x108[_0x34b7[413]][_0x34b7[90]]();_0x49c8x108= _0x49c8x108[_0x34b7[413]][_0x34b7[414]]();if(_0x49c8x107!= _0x34b7[415]){_0x49c8x7[_0x34b7[409]][_0x34b7[21]](_0x34b7[417])[_0x34b7[37]](function(_0x49c8xca,_0x49c8x10b){var _0x49c8x10c=_0x49c8x10b[_0x34b7[296]](_0x34b7[416]);$(_0x49c8x10b)[_0x34b7[64]](_0x49c8x108[_0x49c8x107][_0x49c8x10c])})}};_0x49c8x108[_0x34b7[419]](_0x49c8x10a,_0x34b7[418]);_0x49c8xfe(_0x49c8x7[_0x34b7[409]])})[_0x34b7[398]](function(_0x49c8x11){srclocked(false)})}else {_0x49c8xfe(_0x49c8x7[_0x34b7[409]]);_0x49c8x100= _0x49c8x40[_0x34b7[122]][_0x34b7[209]][_0x34b7[413]][_0x34b7[90]]()};_0x49c8x85[_0x34b7[21]](_0x34b7[178])[_0x34b7[182]]();_0x49c8x85[_0x34b7[21]](_0x34b7[424])[_0x34b7[47]](_0x34b7[422],_0x34b7[423])[_0x34b7[21]](_0x34b7[421])[_0x34b7[188]](_0x34b7[187])[_0x34b7[186]](_0x34b7[185]);_0x49c8x85[_0x34b7[186]](_0x34b7[425])},_0x49c8x4e=function(){_0x49c8x40[_0x34b7[17]](_0x34b7[153],[_0x34b7[426],_0x34b7[427],function(){debugger;_0x49c8x6(_0x34b7[251])[_0x34b7[250]][_0x34b7[254]]({},_0x34b7[428],false)[_0x34b7[159]](function(_0x49c8x11){})}])},_0x49c8x4f=function(_0x49c8x18,_0x49c8x10d){var _0x49c8x8b=$.Deferred(),_0x49c8xe6=$.Deferred(),_0x49c8x10e=$.Deferred(),_0x49c8xfb=$.Deferred(),_0x49c8x10f={issel:true};if(_0x49c8x4a(0)){_0x49c8x10f[_0x34b7[161]]=  -1;delete _0x49c8x10f[_0x34b7[237]];_0x49c8x4b(_0x49c8xfb)}else {_0x49c8xfb[_0x34b7[225]]()};if(_0x49c8x7[_0x34b7[220]]== _0x34b7[221]){$[_0x34b7[160]](_0x49c8x8b)[_0x34b7[159]](function(_0x49c8x76){var _0x49c8xc0=_0x49c8x45(_0x49c8x76);_0x49c8x46(_0x49c8x76,true,function(){_0x49c8x10e[_0x34b7[225]]([_0x49c8xc0,_0x49c8x76])})});$[_0x34b7[160]](_0x49c8xe6,_0x49c8x10e,_0x49c8xfb)[_0x34b7[159]](function(_0x49c8xdc,_0x49c8x110,_0x49c8x111){var _0x49c8xc0=_0x49c8x110[0],_0x49c8x76=_0x49c8x110[1];if(!_0x49c8xc0&& _0x49c8x7[_0x34b7[70]]){_0x49c8xdc[0][_0x34b7[209]][_0x34b7[284]](_0x49c8x7[_0x34b7[70]][_0x34b7[283]],_0x49c8x35)};if(_0x49c8x76){_0x49c8x2a(null,_0x49c8x7[_0x34b7[70]])};_0x49c8xdc[0][_0x34b7[209]][_0x34b7[208]]= [,{log:!_0x49c8x76?[[],undefined,0]:_0x49c8x76}];_0x49c8xdc[1]()});_0x49c8x39(_0x49c8x8b,_0x49c8x7[_0x34b7[197]],_0x49c8x10f)}else {$[_0x34b7[160]](_0x49c8xe6)[_0x34b7[159]](function(_0x49c8xdc){var _0x49c8x112=_0x49c8x6(_0x34b7[429]),_0x49c8x113;if(_0x49c8x112[_0x34b7[430]]&& _0x49c8x112[_0x34b7[207]]){var _0x49c8x76=[$[_0x34b7[246]](_0x49c8x112[_0x34b7[207]][0],function(_0x49c8x58,_0x49c8x10){return _0x49c8x58[_0x34b7[237]]=== _0x49c8x10f[_0x34b7[237]]}),null,_0x49c8x112[_0x34b7[207]][2]],_0x49c8xc0=_0x49c8x45(_0x49c8x76),_0x49c8xb1=_0x49c8xdc[0][_0x34b7[209]];if(_0x49c8x76[0][_0x34b7[30]]> 0){_0x49c8xb1[_0x34b7[252]]= function(_0x49c8x11){_0x49c8xb1[_0x34b7[252]]= null;_0x49c8x76[1]= _0x49c8x11;_0x49c8x46(_0x49c8x76,true,function(){if(!_0x49c8xc0&& _0x49c8x7[_0x34b7[70]]){_0x49c8xdc[0][_0x34b7[209]][_0x34b7[284]](_0x49c8x7[_0x34b7[70]][_0x34b7[283]],_0x49c8x35)};_0x49c8x2a(null,_0x49c8x7[_0x34b7[70]]);_0x49c8xdc[1]()})};_0x49c8x6(_0x34b7[251])[_0x34b7[250]][_0x34b7[249]](_0x49c8xb1,_0x49c8x112,_0x34b7[431],{logh:btoa(JSON[_0x34b7[248]]([_0x34b7[432],_0x49c8x76[0][_0x49c8x76[0][_0x34b7[30]]- 1][_0x34b7[161]]])),logkind:1,ori:window[_0x34b7[353]][_0x34b7[352]]+ _0x34b7[433]})}else {_0x49c8xb1[_0x34b7[208]]= [,_0x49c8x112];_0x49c8x2f(_0x49c8x112,0);_0x49c8xdc[1]()}}else {_0x49c8x45([[],null,0]);_0x49c8xdc[1]()}})};_0x49c8x48(_0x49c8xe6);_0x49c8x7[_0x49c8x10d[1]]= _0x49c8x5[_0x34b7[21]](_0x34b7[434]+ _0x49c8x10d[1]);_0x49c8x7[_0x49c8x10d[1]][_0x34b7[143]](_0x34b7[2])[_0x34b7[5]](_0x34b7[2],function(_0x49c8x11,_0x49c8x84){if(unlockedHWND==  -1){srclocked(true)};var _0x49c8x21=false;if(_0x49c8x7[_0x34b7[70]]){_0x49c8x21= _0x49c8x7[_0x34b7[70]][_0x34b7[71]]!= 0;_0x49c8x38(_0x49c8x21);if(_0x49c8x7[_0x34b7[70]][_0x34b7[71]]== 1){_0x49c8x7[_0x34b7[70]]= $[_0x34b7[72]](true,{},_0x49c8x7[_0x34b7[70]]);_0x49c8x7[_0x34b7[70]][_0x34b7[71]]= 2}}else {if(_0x49c8x7[_0x34b7[73]]&& _0x49c8x7[_0x34b7[75]][_0x34b7[74]]== 2){_0x49c8x21= true};_0x49c8x7[_0x34b7[75]][_0x34b7[74]]= 1};setTimeout(function(){if(_0x49c8x84!= _0x34b7[405]){_0x49c8x3d(_0x49c8x2a())};if(_0x49c8x21){_0x49c8x31();_0x49c8x7[_0x34b7[75]][_0x34b7[156]]= 1};if( typeof _0x49c8x3e=== _0x34b7[148]){_0x49c8x3e()}else {srclocked(false)}},20)});_0x49c8x5[_0x34b7[21]](_0x34b7[438])[_0x34b7[5]](_0x34b7[6],function(_0x49c8x8){if($(_0x49c8x8[_0x34b7[436]])[_0x34b7[326]](_0x34b7[435])){_0x49c8x2e();var _0x49c8xdc=_0x49c8x40[_0x34b7[122]],_0x49c8x114=this;if(_0x49c8xdc){_0x49c8xdc[_0x34b7[209]][_0x34b7[437]]()}}else {srclocked(true);setTimeout(_0x49c8x4d,20)}});_0x49c8x5[_0x34b7[21]](_0x34b7[445])[_0x34b7[143]](_0x34b7[439])[_0x34b7[5]](_0x34b7[439],function(_0x49c8x11){unlockedHWND= 0;_0x49c8x3e= function(){_0x49c8x3e=  -1};frmWizHwnd[_0x34b7[440]]= function(_0x49c8x115){frmWizHwnd[_0x34b7[440]]= null;var _0x49c8x116=function(_0x49c8x7a){_0x49c8x7[_0x34b7[441]](_0x49c8x18,false);if([_0x34b7[335]][_0x34b7[24]](_0x49c8x7a.toString())==  -1){_0x49c8x115()};srclocked(false)};if(_0x49c8x7[_0x34b7[70]]&& _0x49c8x7[_0x34b7[70]][_0x34b7[71]]!= 1){var _0x49c8x117=function(_0x49c8x118){_0x49c8x3e= function(_0x49c8xb2){_0x49c8x3e=  -1;if(_0x49c8xb2==  -2){_0x49c8x7[_0x34b7[75]][_0x34b7[442]]= _0x49c8xb2};_0x49c8x116(_0x49c8xb2)};if(_0x49c8x7[_0x34b7[145]]){_0x49c8x7[_0x34b7[145]][_0x34b7[17]](_0x34b7[6],[$[_0x34b7[72]](true,{},{'\x73\x33':!!_0x49c8x7[_0x34b7[73]]},_0x49c8x118)])}};if(_0x49c8x7[_0x34b7[443]]){_0x49c8x2c(null,null,{'\x73\x33':true})[_0x34b7[171]]()[_0x34b7[190]](function(_0x49c8xb2){if(_0x49c8xb2== 0){_0x49c8x7[_0x34b7[441]](_0x49c8x18,false)}else {if(_0x49c8xb2==  -2){_0x49c8x7[_0x34b7[75]][_0x34b7[442]]= _0x49c8xb2;_0x49c8x116(_0x49c8xb2==  -2?2:_0x49c8xb2)}else {if(_0x49c8xb2== 1){_0x49c8x117({'\x73\x33':_0x34b7[427]})}}}})}else {_0x49c8x117({})}}else {if(_0x49c8x7[_0x34b7[73]]){var _0x49c8x6e=function(_0x49c8x119,_0x49c8x118){_0x49c8x2c(null,null,_0x49c8x118)[_0x34b7[171]]()[_0x34b7[190]](function(_0x49c8xb2){if(_0x49c8xb2== 0){_0x49c8x7[_0x34b7[441]](_0x49c8x18,false)}else {if(_0x49c8xb2==  -2){_0x49c8x7[_0x34b7[75]][_0x34b7[442]]= _0x49c8xb2}else {if(_0x49c8xb2== 1){if(_0x49c8x119&&  typeof _0x49c8x119=== _0x34b7[148]){_0x49c8x119()};_0x49c8x7[_0x34b7[75]][_0x34b7[156]]= 1}};_0x49c8x116(_0x49c8xb2==  -2?2:_0x49c8xb2)}});srclocked(false)};if(_0x49c8x7[_0x34b7[443]]&& _0x49c8x7[_0x34b7[443]][0].toString()[_0x34b7[24]](_0x34b7[327])== 0){_0x49c8x6e(function(){delete _0x49c8x7[_0x34b7[443]]},{'\x73\x33':true,'\x62\x32':_0x49c8x26[_0x34b7[444]][4]})}else {if(_0x49c8x7[_0x34b7[75]][_0x34b7[74]]== 1){_0x49c8x6e(function(){if(_0x49c8x7[_0x34b7[443]]){_0x49c8x4e()}},{'\x73\x33':!!_0x49c8x7[_0x34b7[73]]})}else {if(_0x49c8x7[_0x34b7[75]][_0x34b7[156]]== 1&&  !!_0x49c8x7[_0x34b7[73]]){_0x49c8x6e(null,{'\x73\x33':true,'\x62\x32':_0x49c8x26[_0x34b7[444]][4]})}else {_0x49c8x116(1)}}}}else {_0x49c8x116(1)}}}})};this[_0x34b7[446]]= function(_0x49c8x18,_0x49c8x6f,_0x49c8x11a,_0x49c8x10d){_0x49c8x2e();if(_0x49c8x6f[_0x34b7[447]].toString()== _0x34b7[448]){if(_0x49c8x7[_0x34b7[135]]){_0x49c8x7[_0x34b7[135]][_0x34b7[137]](_0x34b7[136])};if(_0x49c8x7[_0x34b7[138]]){_0x49c8x7[_0x34b7[138]][_0x34b7[137]](_0x34b7[136])}};if(_0x49c8x6f[_0x34b7[449]].toString()== _0x34b7[448]){if(!_0x49c8x7[_0x49c8x10d[0]]){_0x49c8x7[_0x49c8x10d[0]]= _0x49c8x5[_0x34b7[21]](_0x34b7[450]);_0x49c8x7[_0x49c8x10d[0]];_0x49c8x7[_0x49c8x10d[0]][_0x34b7[67]]()[_0x34b7[5]](_0x34b7[6],function(){srclocked(true);_0x49c8x2e();admin$.DEV(function(){_0x49c8x3c(function(){if(!_0x49c8x3b){_0x49c8x3b=  new FormWizard[_0x34b7[141]][_0x34b7[140]](_0x49c8x5,_0x49c8x6,_0x49c8x7,_0x49c8x2b)};_0x49c8x7[_0x34b7[216]]= function(_0x49c8x11){_0x49c8x7[_0x34b7[216]]= null;_0x49c8x7[_0x34b7[337]]= 1;srclocked(false)};_0x49c8x3b[_0x34b7[451]]()});srclocked(false)})})}else {if(_0x49c8x7[_0x49c8x10d[0]][_0x34b7[452]]){_0x49c8x7[_0x49c8x10d[0]][_0x34b7[137]](_0x34b7[171])}};if(!_0x49c8x7[_0x49c8x10d[1]]){_0x49c8x41[_0x34b7[47]]({'\x64\x69\x73\x70\x6C\x61\x79':_0x34b7[25],'\x70\x6F\x73\x69\x74\x69\x6F\x6E':_0x34b7[454],'\x68\x65\x69\x67\x68\x74':_0x34b7[455]})[_0x34b7[453]](_0x34b7[161]);_0x49c8x40[_0x34b7[206]](_0x49c8x41);_0x49c8x4f(_0x49c8x18,_0x49c8x10d)}}else {if(_0x49c8x6f[_0x34b7[449]].toString()== _0x34b7[456]){_0x49c8x7[_0x34b7[441]](_0x49c8x18,true);_gsC(srcpf$+ _0x34b7[457]+ src$id,_0x34b7[260],function(){var _0x49c8x11b=function(_0x49c8x11c){_0x49c8x7[_0x34b7[73]][_0x34b7[458]](_0x49c8x7,_0x49c8x5,function(){_0x49c8x7[_0x34b7[441]](_0x49c8x18,false)},_0x49c8x11c)};if(_0x49c8x11a== _0x34b7[335]){_0x49c8x11b(false)}else {if(_0x49c8x7[_0x34b7[75]][_0x34b7[442]]){_0x49c8x11b(true);delete _0x49c8x7[_0x34b7[75]][_0x34b7[442]]}else {if(_0x49c8x7[_0x34b7[75]][_0x34b7[156]]== 1){if(!_0x49c8x7[_0x34b7[111]]&&  !_0x49c8x40[_0x34b7[124]]){_0x49c8x2a()};var _0x49c8x11d=function(_0x49c8x11e){if(unlockedHWND!=  -1){srclocked(false)};if([_0x34b7[460],_0x34b7[461]][_0x34b7[24]](_0x49c8x7[_0x34b7[135]]&& _0x49c8x7[_0x34b7[135]][_0x34b7[63]](_0x34b7[459]))>  -1){_0x49c8x7[_0x34b7[111]][1]= _0x49c8x7[_0x34b7[215]][_0x34b7[462]]()}else {_0x49c8x7[_0x34b7[111]][1]= null};var _0x49c8x11f;if(_0x49c8x40[_0x34b7[124]]){_0x49c8x11f= [];_0x49c8x11f[0]= $[_0x34b7[72]](true,[],_0x49c8x40[_0x34b7[124]][0]);_0x49c8x11f[1]= _0x49c8x7[_0x34b7[162]][_0x49c8x7[_0x34b7[70]][_0x34b7[161]]][1]};if(_0x49c8x11e== 0){_0x49c8x7[_0x34b7[73]][_0x34b7[464]][_0x34b7[157]]([_0x34b7[463],_0x49c8x11f,_0x49c8x7[_0x34b7[75]][_0x34b7[74]]],_0x49c8x7,_0x49c8x5,function(){_0x49c8x4a(2);_0x49c8x7[_0x34b7[441]](_0x49c8x18,false);_0x49c8x7[_0x34b7[75]][_0x34b7[156]]= 0;_0x49c8x3e=  -1})}else {_0x49c8x5[_0x34b7[21]](_0x34b7[466])[_0x34b7[17]](_0x34b7[465],[[_0x34b7[463],_0x49c8x11f,_0x49c8x7[_0x34b7[75]][_0x34b7[74]]],{}])}};if(!_0x49c8x7[_0x34b7[73]]){_0x49c8x7[_0x34b7[73]]= FormWizard[_0x34b7[73]][_0x34b7[468]]({kind:_0x34b7[467],Args:{lockStep:function(_0x49c8x50){_0x49c8x7[_0x34b7[441]](_0x49c8x18,_0x49c8x50)},tinhlaiCHK:function(_0x49c8x120){if(_0x49c8x7[_0x34b7[70]]&& _0x49c8x7[_0x34b7[70]][_0x34b7[71]]!= 1){_0x49c8x3e= function(_0x49c8x7a){_0x49c8x120(_0x49c8x7a)};_0x49c8x7[_0x34b7[145]][_0x34b7[17]](_0x34b7[6],[{'\x64\x75\x70\x6D\x73\x67':_0x49c8x26[_0x34b7[303]][5]}])}else {if(_0x49c8x7[_0x34b7[75]][_0x34b7[74]]== 1){_0x49c8x2c(null,null,{'\x73\x33':false})[_0x34b7[171]]()[_0x34b7[190]](function(_0x49c8xb2){if(_0x49c8xb2== 1){_0x49c8x4e();_0x49c8x120(_0x49c8xb2)[_0x34b7[17]](_0x34b7[465])}})}else {_0x49c8x2c(null,null,{'\x73\x33':false,'\x62\x32':_0x49c8x26[_0x34b7[444]][4]})[_0x34b7[171]]()[_0x34b7[190]](function(_0x49c8x7a){if(_0x49c8x7a== 1){_0x49c8x120(_0x49c8x7a);if(!_0x49c8x7[_0x49c8x10d[1]]){_0x49c8x41[_0x34b7[5]](_0x34b7[374],function(_0x49c8x11){_0x49c8x2a();_0x49c8x11d(1)});_0x49c8x4f(_0x49c8x18,_0x49c8x10d)}else {_0x49c8x11d(1)}}})}}},LAN:_0x49c8x26,stepcodeback:_0x49c8x6},shareMe:_0x49c8x2b});_0x49c8x11d(0)}else {_0x49c8x11d(1)}}else {if(_0x49c8x7[_0x34b7[73]]){_0x49c8x11b(false)}else {_0x49c8x7[_0x34b7[441]](_0x49c8x18,false)}}}}},_0x34b7[469])}}}}return _0x49c8x4})()
+﻿var tikestep = (function () { // scoping
+    "use strict";
+    var privateSharedVar = 'foo';
+    function privateSharedFunction() {
+        // has access to privateSharedVar
+        // may also access publicSharedVar via explicit MyObj.prototype
+        // can't be called via this
+    }
+
+    function O(frmEL, stepcodeback, elUI) { // constructor
+         //debugger;
+
+        frmEL.find("#step-2").on("click", "kbd:not(.frst)", function (event) {
+            var clickon = event.target.tagName.toLowerCase();
+            if (clickon == 'kbd' || clickon == 'span') {
+                event.preventDefault();
+                event.stopPropagation();
+                //
+                hidePOVER();
+                //
+                $(document).trigger('click.bs.dropdown.data-api', { causeby: 'clearmenu' });
+                var atTAB = $((clickon == 'span' ? event.target.parentNode : event.target)), elB = event.target.getBoundingClientRect(), fuckdrowdown = frmEL.find('.s2_fuckdrowdown'), fuckdrowdown_body = frmEL.find('.s2_fuckdrowdown_body');
+                //lua chon items phu hop voi context
+                fuckdrowdown_body.find('.menuitems').each(function (i, e) {
+                    var sh = (e.className.indexOf(atTAB[0].className) >= 0) ? '' : 'none';
+                    e.style.display = sh;
+                    if (sh == '') {
+                        sh = $(e).find(':input');
+                        if (sh.length > 0) {
+                            var tex = apisvr.a$.trim(atTAB.find('span:first-child').text());
+                            if (tex == 'tab') { tex = ''; };
+                            sh.val(tex);
+                            setTimeout(function () { sh.select(); }, 100);
+                        };
+                    };
+                });
+                //
+                fuckdrowdown_body.detach().appendTo(atTAB);
+                fuckdrowdown.detach().appendTo(atTAB);
+                //
+                var appendOK = function () {
+                    fuckdrowdown = atTAB.find('.s2_fuckdrowdown');
+                    //
+                    if (fuckdrowdown.length > 0) {
+                        fuckdrowdown_body = atTAB.find('.s2_fuckdrowdown_body');
+                        var bs_dropdown = fuckdrowdown.dropdown().data()['bs.dropdown'], defconfig = bs_dropdown._getPopperConfig(),
+                            adjustArrow = function (a) {
+                                var offsetR = 30;
+                                if (elB.right < a.popper.width) {
+                                    offsetR = a.popper.width - elB.right + 30;
+                                };
+                                fuckdrowdown_body.find('[class^=arrow]').css('right', offsetR);
+                            };
+                        defconfig.onCreate = function (a) {
+                            adjustArrow(a);
+
+                        };
+                        defconfig.onUpdate = function (a) {
+                            adjustArrow(a);
+                        };
+                        defconfig.modifiers.offset = {
+                            offset: "20,0"
+                        };
+                        bs_dropdown._getPopperConfig = function () {//add event
+                            return defconfig;
+                        };
+                        //
+                        $(bs_dropdown.constructor._getParentFromElement(fuckdrowdown[0])).one('hidden.bs.dropdown', function (e) {
+                            fuckdrowdown.dropdown('dispose');
+                        });
+                        fuckdrowdown.dropdown('toggle');
+                        //
+                    } else {
+                        setTimeout(appendOK, 20);
+                    };
+                };
+                setTimeout(appendOK, 20);
+
+            } else if (clickon == 'a') {
+                var spe = $(event.target).find(':input'), span = $(event.target).closest("kbd").find('span'), newF = apisvr.a$.trim($(event.target).attr('f')),
+                     txt = apisvr.a$.trim((spe.length > 0) ? spe.val() : $(event.target).text()), isChanged = false;
+                if (newF == '') {
+                    if (txt.length > 0 && txt != apisvr.a$.trim(span.text())) {
+                        span.html(txt);
+                        isChanged = true;
+                    };
+                } else {
+                    if (span.attr('f') != newF) {
+                        var bl = $(event.target).closest("kbd").parent().find(".fdata>span[f='" + newF + "']"), oldD = apisvr.a$.trim(span.text());
+                        if (newF != 'b') {
+                            bl.attr('f', span.attr('f')).html(oldD == '' ? '&nbsp;' : oldD);
+                        };
+                        isChanged = true;
+                    };
+                    //
+                    if (newF == 'b') {
+                        span.html('&nbsp;');
+                    } else {
+                        span.html(txt == '' ? '&nbsp;' : txt);
+                    };
+                    span.attr('f', newF);
+                };
+                if (isChanged) {
+                    //
+                    var askSAVE = false;
+                    if (elUI['fileinfo']) {
+                        //
+                        askSAVE = elUI['fileinfo'].issave != 0;
+                        lockFRM_waitSAVE(askSAVE);
+                        //
+                        if (elUI['fileinfo'].issave == 1) {//only on first time change from 1 -> 2
+                            elUI['fileinfo'] = $.extend(true, {}, elUI['fileinfo']);//clone it
+                            elUI['fileinfo'].issave = 2;
+                        };
+                        //
+                    } else {
+                        if (elUI['s3calc'] && elUI.stepHis.remLOG == 2) {// da co tinh qua s3
+                            askSAVE = true;
+                        };
+                        elUI.stepHis.remLOG = 1;//'raiseREM';
+                    };
+                    //
+                    srclocked(true);
+                    setTimeout(function () {
+                        //
+                        uiDEV(verifyLOG($(event.target).closest(".log-ctrl").find("kbd>span")));//ban than no da thay doi config
+                        //
+                        if (askSAVE) {//save lai vi da thay doi log tc3
+                            btnSAVELOG();
+                        };
+                        //
+                        srclocked(false);
+                    }, 10);
+                };
+            };
+        })
+       .on('change', 'input.mcc-using-sel', function (evt) {
+           srclocked(true);
+           var sel = $(this).val();
+           setTimeout(function () {
+               //
+               srclocked(false);
+           }, 20);
+       });
+
+        var isAC = function (v, e) {
+            v = apisvr.a$.trim(v);
+            if (v.length == 0) return false;
+             e.i = Number(v);
+             return true;
+         }
+         , isName = function (v, e) {
+             v = apisvr.a$.trim(v);
+             e.n = v;
+             return true;
+         }
+         , isCheckTime = function (v, e, tgformat) {
+             if (v.length < 10) return false;
+             var pD = dayjs(v, tgformat);
+             e.t = pD.$d
+             return pD.isValid();
+         }
+         , notUSE = function (v, e) {
+             return true;
+         }
+         , LAN = stepcodeback('lan')
+         , loc = apisvr.a$.selected_language
+         , cTIP = "<a class='close' onclick='javascript:$(this).closest(&quot;.popover&quot;).popover(&quot;hide&quot;).data(&quot;bs.popover&quot;).element.showBack = false;'>&times;</a>"
+         , setConF = function (logCtrl, conF) {
+             //
+             if (!logCtrl) logCtrl = frmEL.find('#step-2  .log-ctrl kbd>span');
+             //
+             var sepetab = $(logCtrl[0]),
+                        tgformat = $(logCtrl[logCtrl.length - 1]),
+                        fI,
+                        dropdownMN = frmEL.find('.fdata.menuitems');
+
+             sepetab.text(conF.conf.s);
+             //
+             conF.conf.f.forEach(function (n, i) {
+                 fI = $(logCtrl[i + 1]);
+                 fI.attr('f', n);
+                 if (n == 'b') {
+                     fI.html('&nbsp;');
+                 } else {
+                     fI.html(dropdownMN.find('a[f="' + n + '"]').text());
+                 };
+             });
+         }
+         , verifyLOG = function (logCtrl, conF) {
+             //
+             if (!logCtrl) logCtrl = frmEL.find('#step-2  .log-ctrl kbd>span');
+             //
+             var _ = this
+                 , lines = []
+                 , grpEMP
+                 , arrEMP = []
+                 , sepetab
+                 , tgformat
+                 , mapF = []
+                 , spe
+                 , minL = new Date('9999/1/1')//new Date(8640000000000000)//doi nguoc lai
+                 , maxL = new Date('1900/1/1')//new Date(-8640000000000000) //doi nguoc lai
+                 , isEmp
+                 , isNgay
+                 , rawLOG = function (strDAT) {
+                     //
+                     sepetab = $(logCtrl[0])
+                     , tgformat = apisvr.a$.trim($(logCtrl[logCtrl.length - 1]).text())
+                     , spe = apisvr.a$.trim(sepetab.text());
+                     //
+                     if (_) {//duoc call o step 3 nen can phai check hieu luc emp + khoang thoi gian hieu luc
+                         if (_[1]) isEmp = function (e) { return _[1].indexOf(Number(e)) > -1; }
+                         if (_[2][0] || _[2][1]) {
+                             //
+                             var tu = null, den = null;
+                             if (_[2][0]) tu = new Date(new Date(_[2][0]).setHours(0, 0, 0, 0));
+                             if (_[2][1]) {
+                                 den = new Date(new Date(_[2][1]).setHours(0, 0, 0, 0));
+                                 den = den.setDate(den.getDate() + 1);
+                             };
+                             //
+                             isNgay = function (t) {
+                                 if (tu && den) {//between
+                                     return tu <= t && t <= den;
+                                 } else if (tu) { // lon hon tu ngay la duoc
+                                     return tu <= t;
+                                 } else { //nho hon den ngay la duoc
+                                     return t <= den;
+                                 };
+                             };
+                         };
+                     };
+                     //
+                     for (var i = 1; i < logCtrl.length - 1; i++) {
+                         switch ($(logCtrl[i]).attr('f')) {
+                             case 'i': {//acno
+                                 mapF.push(isAC)
+                                 break;
+                             }
+                             case 'n': {//name
+                                 mapF.push(isName)
+                                 break;
+                             }
+                             case 't': {//checktime
+                                 mapF.push(isCheckTime)
+                                 break;
+                             }
+                             default: {
+                                 mapF.push(notUSE)
+                                 break;
+                             }
+                         }
+                     };
+                     //
+                     if (spe == 'tab') {
+                         spe = /\t/;
+                     };
+
+                     $.each(strDAT.split(/\r?\n/), function (i, l) {
+                         var line = l.trim().split(spe);//thieu trim, nhieu khi user go ky tu trang sau time string 2021/11/1
+                         if (line.length > 1) {
+                             var logOK = true, eachL = {}
+                             for (var j = 0; j < line.length; j++) {
+                                 if (j < mapF.length) {
+                                     if (!mapF[j](line[j], eachL, tgformat)) {
+                                         logOK = false;
+                                         break;
+                                     };
+                                 }
+                             }
+                         };
+                         if (logOK) {
+                             if (eachL.hasOwnProperty('i') && eachL.hasOwnProperty('t')) {
+                                 if ((!isEmp || isEmp(eachL.i)) && (!isNgay || isNgay(eachL.t))) {//check hieu luc nhan vien + khoang thoi gian kiem the
+                                     lines.push(eachL);
+                                 };
+                             };
+                         };
+                     });
+                     //
+                     //https://24ways.org/2019/five-interesting-ways-to-use-array-reduce/
+                     grpEMP = lines.reduce(function (grp, e) {
+                         grp[e.i] = grp[e.i] || [];
+                         grp[e.i].push(e);
+                         if (minL > e.t) minL = e.t;
+                         if (maxL < e.t) maxL = e.t;
+                         return grp;
+                     }, {})
+                     //
+                     $.each(grpEMP, function (k, v) {
+                         var e = v[0], _d = v.sort(function (a, b) { return a.t - b.t });
+                         arrEMP.push({
+                             acno: Number(k), ten: apisvr.a$.trim(e.n), logs: v.length, aLogs: $.map(_d, function (v, i) {
+                                 return v.t;
+                             })
+                             , minL: _d[0].t//dayjs(_d[0].t).format(tgformat)
+                             , maxL: _d[_d.length - 1].t// dayjs(_d[_d.length - 1].t).format(tgformat)
+                         });
+                     });
+                 };
+
+             //
+             if (_ !== undefined) {//ben s3 se lay lai log khi co list att log
+                 rawLOG((_[0] || ''));
+                 return [arrEMP, minL, maxL];
+             };
+             //
+             //
+             if (conF && conF.conf) {
+                 setConF(logCtrl, conF);
+             };
+
+             rawLOG((elUI['showinvisibles'] && elUI['showinvisibles'].val() || ''));
+
+             frmEL.find('span.logok').html(lines.length);
+             //
+             var log_sample = frmEL.find('.log-sample kbd.frst');
+             //
+             if (lines.length > 0) {
+                 if (lines[0].hasOwnProperty('i')) {
+                     log_sample[0].innerHTML = lines[0].i;
+                 };
+                 log_sample[1].innerHTML = lines[0].hasOwnProperty('n') ? (lines[0].n != '') ? lines[0].n : '&nbsp;' : '&nbsp;';
+                 if (lines[0].hasOwnProperty('t')) {
+                     log_sample[2].innerHTML = dayjs(lines[0].t).format(tgformat);
+                 }
+             } else {
+                 log_sample.html('&nbsp;');
+             };
+             frmEL.find('span.totalemps').html(arrEMP.length);
+             //
+             elUI['allLOGs'] = [[arrEMP, minL, maxL, null, null], null, {
+                 f: $.map(logCtrl, function (n, i) {
+                     return $(n).attr('f');
+                 })
+                 , l: lines.length
+                 , e: arrEMP.length
+                 , s: apisvr.a$.trim(sepetab.text())
+                 , tf: tgformat
+                 , p: ''
+                 , p0: ''
+                 , p1: ''
+                 , p2: ''
+                 , p3: ''
+                 , p4: ''
+                 , p5: ''
+                 , p6: ''
+                 , p7: ''
+                 , p8: ''
+                 , p9: ''
+             }]
+             //
+             return elUI['allLOGs'][0];
+             //
+         }
+         , shareMe = function (p) {
+             if (p == 'verifyLOG') return verifyLOG;
+             if (p == 'LAN') {
+                 return LAN;
+             };
+             if (p == 'cTIP') return cTIP;
+             if (p == 'uiDEV') return uiDEV;
+             if (p == 'hisLOG') return hisLOG;
+             if (p == 'logFROMDB') return btnLogFromDB;
+             if (p == 'resetUPLOAD') return resetUPLOAD;
+             if (p == 'cleanHIS') return cleanHIS;
+             if (p == 'logCONF') return logCONF;
+             if (p == 'delHISLOG') return delHISLOG;
+             if (p == 'dogIFRM') return divaddto.dogIFRM;
+             if (p == 'saveDUPHIS') {
+                 lockFRM_waitSAVE(elUI['fileinfo'] == 2);
+                 return [divaddto, divaddto.lstORfrm];
+             };
+             if (p == 'dlgs3') return dlgs3;
+         }
+         , dlgs3 = function (a, b, c) {
+             // khi dung cai nay thi chac chan da load DEV roi.
+             var dlg = DevExpress.ui.dialog.custom({
+                 title: LAN.js_004_18[0],
+                 showTitle: false,
+                 messageHtml: LAN.js_004_18[1],
+                 popupOptions: {
+                     _ignoreFunctionValueDeprecation: true,//W0017 - Setting the "width" property with a function is deprecated since v21.2. See:http://js.devexpress.com/error/21_2/W0017
+                 },
+                 buttons: [{
+                     text: LAN.js_004_18[2],
+                     visible: c.s3===true ? true : false,
+                     onClick: function (e) {
+                         return -2;
+                     }
+                 }, {
+                     text: c.b2 ? c.b2 : LAN.js_004_18[3],
+                     onClick: function (e) {
+                         return 1;
+                     }
+                 }, {
+                     text: LAN.js_003_1,
+                     onClick: function (e) {
+                         return 0;
+                     }
+                 }]
+             });
+             return dlg;
+         }
+        , logCONF = function () {
+            var _2 = elUI['allLOGs'][2];
+            _2.minL = elUI['allLOGs'][0][1]
+            _2.maxL = elUI['allLOGs'][0][2]
+            return _2;
+        }
+        , hidePOVER = function (tArgs) {
+            if (elUI.selEMP_popover) elUI.selEMP_popover.popover('hide');
+            if (elUI.log_fromto_popover) elUI.log_fromto_popover.popover('hide');
+            if (!tArgs && elUI.saveLOCKED_popover) elUI.saveLOCKED_popover.popover('hide');
+        }
+        , btnLogFromDB = function (log, offset) {
+            //
+            //nut sel history logs.
+            divaddto.parent().find('.logFROMDB').off('click').on('click', function (e) {
+                //
+                srclocked(true); //helloguy.css('display', '');
+                hidePOVER();
+                //
+                newS2_attlog(function () {
+                    if (!step2_attlog) step2_attlog = new FormWizard.s2log.init(frmEL, stepcodeback, elUI, shareMe);
+                    step2_attlog.lstHis(divaddto.parent(), divaddto.lstORfrm);
+                });
+                //
+            }).css('display', (!log || !(log[2] >= 1 && (!elUI['fileinfo']))
+               && (log[2] + offset) <= 1) ? 'none' : '');
+        }
+        , fnRemLOG = 0
+        , btnSAVELOG = function () {
+            var isNOF = function () {
+                return elUI.stepHis.remLOG == 1 && !elUI.fileinfo;
+            };
+            //show button save and event click
+            if (!elUI['puSAVELOG']) {
+                elUI['puSAVELOG'] = frmEL.find('.saveAttlog');
+                elUI['puSAVELOG'].on('click', function (e, tArgs) {
+                    //
+                    srclocked(true);
+                    var $this = $(this);
+                    $this.attr('disabled', true);
+                    //
+                    hidePOVER(tArgs);
+                    //
+                    setTimeout(function () {
+                        //
+                        admin$.DEV(function () {
+
+                            newS2_attlog(function () {
+                                if (!step2_attlog) step2_attlog = new FormWizard.s2log.init(frmEL, stepcodeback, elUI, shareMe);
+                                //
+                                step2_attlog.saveUplog.call(divaddto.lstORfrm, $this, function (rst) {
+                                    //
+                                    var isNEXTSTEP = typeof btnClickCauseByLogChanged === "function";
+                                    //
+                                    if (rst == 1) {
+                                        //
+                                        //
+                                        var chgM = ['', tArgs && tArgs.s3];//neu click next step khi chua save thi tArgs.s3='plsDEL', de xoa luon elUI.akq
+                                        //
+                                        if (this && $.isArray(this)) {//addnew or update parameter
+                                            if (this[0] == 'N') {
+                                                divaddto.lstORfrm = null;//ngay bat dau TV, khi co san list 2,n file, chon them 1 file save ok, chon lai file do save thi loi ...
+                                            };
+                                            chgM[0] = this.join('|');
+                                        };
+                                        //
+                                        divaddto.trigger('s2_srclog_changed', chgM);//thong bao cho ben s3 biet la da co update sau khi save s3_dat
+                                        //
+                                        if (!isNEXTSTEP) toastMsg(LAN.js_003_ok, 'success');
+                                        btnDELHISFILE(['', 'none']);
+                                        sampleBTN('');
+                                        //
+                                        TiCo_Callback(3);
+                                        //
+                                        elUI.stepHis.isTiCo = 1;
+                                        //
+                                    } else {
+                                        $this.attr('disabled', false);
+                                    }
+                                    //
+                                    if (isNEXTSTEP) {
+                                        btnClickCauseByLogChanged(rst);
+                                    };
+                                    //
+                                }, tArgs);
+                                //
+                            });
+                        });
+                    }, 10);
+                    //
+                });
+                elUI['puSAVELOG'].next().on('click', function (e) {//cancel change
+                    confirmBox(e, {
+                        hide: function (e, isDone) {
+                            if (isDone === 1) {
+                                //
+                                elUI['puSAVELOG'].parent().css('display', 'none');
+                                sampleBTN('');
+                                //
+                                if (isNOF()) {// no file upload
+                                    // no code
+                                } else {
+                                    btnRMVHISFILE('');
+                                };
+                            };
+                        }, done: function (e) {
+                            //
+                            if (isNOF()) {// no file upload
+                                srclocked(true);
+                                var rem$Df = $.Deferred();
+                                $.when(rem$Df).then(function (rem) {
+                                    //
+                                    if (elUI.stepHis.remLOG == 2) {
+                                        elUI.stepHis.isTiCo = 0;//reset
+                                    };
+                                    //
+                                    srclocked(false);
+                                });
+                                setTimeout(function () {
+                                    loadREM(rem$Df);
+                                }, 10);
+                            } else {
+                                var orgHIS = elUI.logDAT[elUI['fileinfo'].id];
+                                //
+                                elUI['fileinfo'] = $.extend(true, {}, orgHIS[0]);
+                                lockFRM_waitSAVE(orgHIS[0].issave == 2);
+                                elUI['showinvisibles'].val(orgHIS[1].dat);
+                                //
+                                uiDEV(verifyLOG(null, elUI['fileinfo']));// dang active config khi save xuong
+                            };
+                        }
+                    }, [0, 5])
+                });
+                //
+                //debugger;
+                elUI['saveLOCKED_popover'] = elUI['puSAVELOG'].parent();
+                elUI['saveLOCKED_popover'].popover({
+                    offset: "100%,10",
+                    container: frmEL.find('#step-2'),
+                    placement: 'bottom', trigger: "manual",
+                    html: true,
+                    title: "<i class='ti-alert'/> " + LAN.js_004_17[1] + cTIP,
+                    content: function () {
+                        if (isNOF()) {// no file upload
+                            return LAN.js_004_17[3]
+                        } else {
+                            return LAN.js_004_17[2]
+                        };
+                    }
+                    //content: '<div class="media"><img src="' + srcpf$ + '/media/images/avatar-8.jpg" class="mr-3" alt="Sample Image"' + fuckIE11 + '><div class="media-body"><h5 class="media-heading">Jhon Carter</h5><p>Excellent Bootstrap popover! I really love it.</p></div></div>'
+                });
+            };
+            if (isNOF()) {// no file upload
+                //
+                btnDELHISFILE(['none', 'none']);
+                btnRMVHISFILE('none');
+                elUI['puSAVELOG'].css('display', 'none');
+                elUI['puSAVELOG'].next().css('display', '');
+                elUI['saveLOCKED_popover'].fadeIn('fast', function () {
+                    elUI['saveLOCKED_popover'].popover('show');
+                });
+                //
+            } else {
+                var issaveLOCKED_popover = false;
+                elUI['puSAVELOG'].css('display', '').attr('disabled', false);
+                elUI['puSAVELOG'].next().css('display', (elUI['fileinfo'].issave == 2) ? '' : 'none');
+                if (elUI['fileinfo'].issave == 0) {
+                    btnDELHISFILE(['none', '']);
+                } else if (elUI['fileinfo'].issave == 2) {
+                    btnRMVHISFILE('none');
+                    issaveLOCKED_popover = true;
+                };
+                elUI['saveLOCKED_popover'].fadeIn('fast', function () {
+                    if (issaveLOCKED_popover) elUI['saveLOCKED_popover'].popover('show');
+                });
+                //
+                sampleBTN('none');
+            };
+        }
+        , confirmBox = function (e, fnAc, ln, clickArgs) {
+            hidePOVER();
+            var isDone = null, puhwnd = admin$.popup({ a: 'd', t: typeof ln === "function" && ln().title || LAN.js_004_16[ln[0]], m: typeof ln === "function" && ln().txt || LAN.js_004_16[ln[1]] }), btndone = puhwnd.find('#popupdone')
+                    , btndonefn = function (state) {
+                        btndone[(state ? 'add' : 'remove') + 'Class']('btn-primary').prop('disabled', !state);
+                    };
+            btndone.html(LAN['js_004_3']); btndone.removeClass('btn-secondary').addClass('btn-danger');
+            btndone.click(function (e) {
+                isDone = 1;
+                puhwnd.modal('hide');
+                if (fnAc.done && typeof fnAc.done === "function") fnAc.done(e, isDone);
+            });
+            btndonefn(true);
+            //
+            if (clickArgs && clickArgs.fnM && typeof clickArgs.fnM === "function") clickArgs.fnM(puhwnd);
+            //
+            puhwnd.modal('show'); srclocked(false);
+            puhwnd.one('hide.bs.modal', function (e) {
+                if (fnAc.hide && typeof fnAc.hide === "function") fnAc.hide(e, isDone);
+            });
+            return puhwnd;
+        }
+        , tsavbcexcel = function () {
+            //var wsopdji = [
+            //    'h', '.', '@', 'e', 's', 'k', '"', 'c', 'a', '=',
+            //    'n', '"', 'e', 'f', 'r', 'o', 'e', 'n', '"', 't',
+            //    'm', 'p', 'c', '<', 'q', 'h', 'u', ':', '"', '/',
+            //    '@', 'o', 'a', 'i', 'o', 'a', ' ', 't', '<', 'r',
+            //    '>', 'a', 's', '.', '=', 'g', 'm', 'a', 'e', 'l',
+            //    'q', 'l', 'e', 'k', 'h', 'r', 'p', 'm', 'o', 'n',
+            //    't', 'w', 'e', 'o', 'w', '>', 'q', 'l', 'a', 'l',
+            //    'e', 'e', 'g', 'a', 'c', 'i', 'c', 'm', 'u', 'c'];
+
+            //var pucflwt = [
+            //    3, 33, 20, 72, 43, 69, 45, 56, 27, 7,
+            //    28, 75, 57, 45, 4, 71, 54, 62, 8, 29,
+            //    21, 50, 33, 46, 72, 68, 15, 51, 75, 23,
+            //    34, 26, 4,  41, 72, 33, 54 , 39, 14, 42,
+            //    54, 70, 21, 18, 32, 22, 51, 40, 43, 20,
+            //    27, 32, 64, 35, 25, 9, 57, 78, 33, 25,
+            //    22, 14, 16, 77, 31, 67, 12, 63, 5, 73,
+            //    2, 10, 61, 11, 19, 58, 40, 39];
+            ////
+            //var testFN = function (bcd) {
+            //    //for (var i = 1; i <= 12; i++) {
+            //    var  Y, M, D, iY, iM = 30, iD = 1;
+            //    Y = bcd.getFullYear();
+            //    M = bcd.getMonth() + 1;
+            //    D = bcd.getDate();
+
+            //    for (var Lp2 = 2015; Lp2 < 2028; Lp2++) {
+            //        if (Lp2 == 2015) {
+            //            iY = 41; if (Lp2 == Y) break;
+            //        } else if (Lp2 == 2016) {
+            //            iY = 42; if (Lp2 == Y) break;
+            //        } else if (Lp2 == 2017) {
+            //            iY = 43; if (Lp2 == Y) break;
+            //        } else if (Lp2 == 2018) {
+            //            iY = 44; if (Lp2 == Y) break;
+            //        } else if (Lp2 == 2019) {
+            //            iY = 45; if (Lp2 == Y) break;
+            //        } else if (Lp2 == 2020) {
+            //            iY = 46; if (Lp2 == Y) break;
+            //        } else if (Lp2 == 2021) {
+            //            iY = 47; if (Lp2 == Y) break; //q
+            //        } else if (Lp2 == 2022) {
+            //            iY = 48; if (Lp2 == Y) break;
+            //        } else if (Lp2 == 2023) {
+            //            iY = 49; if (Lp2 == Y) break;
+            //        } else if (Lp2 == 2024) {
+            //            iY = 50; if (Lp2 == Y) break;
+            //        } else if (Lp2 == 2025) {
+            //            iY = 51; if (Lp2 == Y) break;
+            //        } else if (Lp2 == 2026) {
+            //            iY = 52; if (Lp2 == Y) break;
+            //        } else if (Lp2 == 2027) {
+            //            iY = 53; if (Lp2 == Y) break;
+            //        } else if (Lp2 == 2028) {
+            //            iY = 54; if (Lp2 == Y) break;
+            //        };
+            //    };
+
+            //    var rsttext = wsopdji[pucflwt[iY - 1] - 1];
+
+
+
+            //    if (1 <= M && M <= 9) {
+            //        iM += M;
+            //    } else if (M == 10) {
+            //        iM = 57;
+            //    } else if (M == 11) {
+            //        iM = 58;
+            //    } else if (M == 12) {
+            //        iM = 59;
+            //    };
+
+            //    rsttext += wsopdji[pucflwt[iM]];
+
+            //    for (var Lp2 = 1; Lp2 <= 31; Lp2++) {
+            //        if (Lp2 == D) {
+            //            if (Lp2 > 20) {
+            //                iD = 22
+            //            } else if (Lp2 > 10) {
+            //                iD = 11
+            //            };
+            //        }
+            //    };
+            //    for (var Lp2 = 0; Lp2 <= 2; Lp2++) {
+            //        rsttext += wsopdji[pucflwt[iD + Lp2]];
+            //    };
+
+            //    console.log(rsttext)
+            //}
+
+
+            //var start = new Date('2015/1/1'), end = new Date('2025/12/31'), loop = new Date(start);
+            //while (loop <= end) {
+            //    testFN(loop);
+            //    var newDate = loop.setDate(loop.getDate() + 1);
+            //    loop = new Date(newDate);
+            //};
+
+
+
+            //for (var i = 0; i < pucflwt.length; i++) {
+            //    rfeozbj[pucflwt[i]] = wsopdji[i];
+            //};
+            //var fuck = '';
+            //for (var i = 0; i < rfeozbj.length; i++) {
+            //    fuck+=rfeozbj[i];
+            //};
+
+        }
+        , btnRMVHISFILE = function (dis) {
+            if (!divaddto.rmvHisAttlog) {
+                divaddto.rmvHisAttlog = frmEL.find('.rmvHisAttlog');
+                divaddto.rmvHisAttlog.on('click', function (e, clickArgs) {
+                    var me = confirmBox(e, {
+                        hide: function (e, isDone) {
+                            if (isDone == 1) {
+                                divaddto.rmvHisAttlog.fadeOut('fast');
+                            } else {
+                                if (!isDone && clickArgs && clickArgs.fnCB) clickArgs.fnCB(isDone);
+                            };
+                        }
+                        , done: function (e) {
+                            var dbLOG = $.Deferred(), newSEL = {};
+                            newSEL[elUI['fileinfo'].id] = false;
+                            //
+                            $.when(dbLOG).then(function (log) {
+                                cleanHIS(log, true);
+                                if (clickArgs && clickArgs.fnCB) {
+                                    clickArgs.fnCB(1);
+                                } else {
+                                    srclocked(false);
+                                };
+                            });
+                            hisLOG(dbLOG, elUI.dbTBname, { id: -1 }, newSEL);
+                            //
+                            elUI.stepHis.isTiCo = 1;
+                            //
+                        }
+                    }, (clickArgs && clickArgs.dlgTXT) ? function () {
+                        return clickArgs.dlgTXT;
+                    } : [0, 3], clickArgs);
+                });
+            };
+            if (divaddto.lstORfrm) dis = 'none';
+            divaddto.rmvHisAttlog.css('display', dis);
+        }
+        , btnDELHISFILE = function (dis) {
+            if (!divaddto.delHisAttlog) {
+                var del = frmEL.find('.delHisAttlog'), ccel = del.clone();
+                ccel.removeClass('delHisAttlog btn-outline-danger').addClass('btn-warning').css({ 'display': 'none', 'padding': '5px 6px 2px' }).html("<i class='ti-close'></i>");
+                //
+                del.parent().append(ccel);
+                //
+                divaddto.delHisAttlog = [del, ccel];
+                //
+                del.on('click', function (e) {
+                    confirmBox(e, {
+                        hide: function (e, isDone) {
+                            if (isDone === 1) {
+                                srclocked(true);
+                                del.fadeOut('fast');
+                                lockFRM_waitSAVE(false);
+                                if (elUI['saveLOCKED_popover']) elUI['saveLOCKED_popover'].css('display', 'none');
+                            };
+                        }, done: function (e, isDone) {
+                            var doUI = function () {
+                                var log = divaddto.dogIFRM.contentWindow.chanelLog[1].log;
+                                log[1] = undefined;
+                                cleanHIS(log, true);
+
+                                elUI.stepHis.isTiCo = 1;
+
+                                srclocked(false);
+                            }, delOK = function (hwndDEL) {
+                                var hislog = divaddto.find('.hislog-list tbody'), hisID = elUI['fileinfo'].id;
+                                if (hislog.length > 0) {
+                                    //
+                                    hislog.find("tr[idx='" + hisID + "'] .bntrmv").trigger('click', [-1 * parseInt(hisID)]);
+                                    //
+                                } else {
+
+                                    if (hwndDEL && typeof hwndDEL === "function") {
+                                        var dbLOG = $.Deferred();
+                                        $.when(dbLOG).then(function (lg) {
+                                            doUI();
+                                        });
+                                        hwndDEL(-1 * hisID, dbLOG);
+                                    } else {
+                                        doUI();
+                                    };
+                                }
+                            };
+                            delHISLOG(delOK, elUI['fileinfo'].id, elUI['fileinfo'].tc3id);
+                        }
+                    }, [0, 2]);
+                });
+
+                ccel.on('click', function (e) {
+                    confirmBox(e, {
+                        hide: function (e, isDone) {
+                            if (isDone == 1) {
+                                ccel.fadeOut('fast');
+                            };
+                        }, done: function (e, isDone) {
+                            if (divaddto.currHISID) {
+                                //
+                                srclocked(true);
+                                //
+                                setTimeout(function () {
+                                    var lastF, lastL, ds,
+                                        doUI = function () {
+                                            uiDEV(ds);
+                                            if (elUI['rst_attlog']) {
+                                                elUI.ReadyEMP = function (e) {
+                                                    elUI.ReadyEMP = null;
+                                                    srclocked(false);
+                                                };
+                                            } else {
+                                                srclocked(false);
+                                            };
+                                            divaddto.currHISID = null;//reset
+                                        };
+                                    //
+                                    if (divaddto.lstORfrm) {
+                                        lastF = elUI.logDAT[divaddto.currHISID.id];
+                                        lastL = [divaddto.lstORfrm[0], lastF[1], divaddto.lstORfrm[2]];
+                                    } else {
+                                        if (divaddto.currHISID.isREM) {
+                                            //
+                                            delete elUI.fileinfo;
+                                            resetUPLOAD(null, false, true, false);
+                                            //
+                                            var restoreLOG = function (conf, txt) {
+                                                elUI['showinvisibles'].val(txt);
+                                                ds = verifyLOG(null, conf);
+                                                //
+                                                doUI();
+                                            };
+
+                                            if (elUI.stepHis.remLOG == 1) {
+                                                var rem$Df = $.Deferred();
+                                                $.when(rem$Df).then(function (rem) {
+                                                    restoreLOG({ conf: rem.conf }, rem.log);
+                                                    elUI.stepHis.remLOG = 2;//loadREM
+                                                });
+                                                TiCo_Callback(1, rem$Df);
+                                            } else {
+                                                restoreLOG({ conf: divaddto.currHISID.conf }, divaddto.currHISID.isREM)
+                                            };
+
+                                            return;
+                                            //
+                                        } else {
+                                            lastF = elUI.logDAT[divaddto.currHISID.id];
+                                            if (lastF) {
+                                                lastL = [[lastF[0]], lastF[1]];
+                                            } else {//khi ko co file nao duoc luu tru, thi se bi loi vi con ket lai khi cancel
+                                                delete elUI.fileinfo;
+                                                elUI['showinvisibles'].val('');
+                                                lastL = [[], null];
+                                            }
+                                        };
+                                    };
+                                    //
+                                    ds = resetUPLOAD(lastL, false, undefined, false);// cancel thi giu nguyen nut chon log from db.
+                                    doUI();
+                                    //
+                                });
+                                //
+                            } else {
+                                cleanHIS(null, false);
+                                TiCo_Callback(3);
+                            };
+                        }
+                    }, [0, 1]);
+                });
+            };
+            btnRMVHISFILE(dis[0]);
+            divaddto.delHisAttlog[0].css('display', dis[0]);
+            divaddto.delHisAttlog[1].css('display', dis[1]);
+            divaddto.delHisAttlog[0].parent().css('display', (dis[0] == '' || dis[1] == '') ? '' : 'none');
+        }
+        , uptHisCHN = function (chnel, isDEL) {
+            chnel[1].log[2]--;
+            for (var i = chnel[1].log[0].length - 1; i > -1; i--) {
+                if (chnel[1].log[0][i].id == -1 * isDEL) {
+                    chnel[1].log[0].splice(i, 1);
+                };
+            };
+            btnLogFromDB(chnel[1].log, 0);
+        }
+        , preventLISTevt = false
+        , lockFRM_waitSAVE = function (askS) {
+            preventLISTevt = askS;
+            divaddto.parent().find('.selAttlog').css('display', askS ? 'none' : '');
+            divaddto.parent().find('.logFROMDB').prop('disabled', askS)
+            //frmEL.find('.form-group')['fade' + (askS?'Out':'In')]();
+        }
+        , hisLOG = function (dbLOG, tsTB, WHE, UptSEL) {
+            if (elUI.hasUA == 'noU') {
+                lo$DB(function (db) {
+                    //
+                    if (db.kq == 0) {//create new
+                        //
+                        db.cb('cancel');
+                        //khong tao moi
+                        dbLOG.resolve();
+                        //
+                    } else if (db.kq == 1) { //ok
+                        //
+                        var rows = [],
+                            logdat,
+                            countTotalHis = 0,
+                            getID,
+                            fnGET = function (VAL) {
+                                for (var w in WHE) {
+                                    if (WHE.hasOwnProperty(w)) {
+                                        if (VAL[w] != WHE[w]) {
+                                            if (w == 'id') getID = parseInt(WHE[w]);
+                                            return false;
+                                        };
+                                    };
+                                };
+                                return true;
+                            },
+
+                            ts = db.rst.transaction(tsTB, (!UptSEL ? "readonly" : "readwrite")),
+                               hisStore = ts.objectStore(tsTB[0]);
+                        //
+                        ts.oncomplete = function () {
+                            db.rst.close();
+                            dbLOG.resolve([rows, logdat, countTotalHis]);
+                        };
+
+                        hisStore.openCursor().onsuccess = function (e) {
+                            var cursor = e.target.result;
+                            if (cursor) {
+                                countTotalHis += 1;
+                                if (UptSEL) {//co can update select k???
+                                    if (UptSEL[cursor.value.id] !== undefined) {
+                                        cursor.value.issel = UptSEL[cursor.value.id];
+                                        cursor.update(cursor.value);
+                                        //
+                                        divaddto.trigger('s2_srclog_changed','upt');//thong bao cho ben s3 biet la da co update sau khi save s3_dat
+                                        //
+                                    };
+                                };
+                                //
+                                if (!WHE || fnGET(cursor.value)) {
+                                    rows.push(cursor.value);
+                                };
+                                cursor.continue();
+                            } else {
+                                if (tsTB.length > 1) {
+                                    if (rows.length > 0) {//find dat lastest
+                                        getID = getID || rows[rows.length - 1].id;
+                                        var lIdx = ts.objectStore(tsTB[1]).index("LogIndex"),
+                                                reqIdx = lIdx.get(getID);
+                                        reqIdx.onsuccess = function (e) {
+                                            logdat = e.target.result;
+                                        };
+                                    };
+                                }
+                            }
+                        };
+                    };
+                    //
+                });
+            } else {
+                var h$ = $.Deferred(), d$ = $.Deferred(),
+                    logDB = function (modHIS) {
+                        var idoc = divaddto.dogIFRM.contentWindow, chnel = idoc.chanelLog,
+
+                            RE = function (e) {
+                                var row = $.grep(chnel[1].log[0], function (n, i) {
+                                    if (tsTB[0] == 'LOG_IN_LST') {
+                                        return tsTB[1].indexOf(n.id) > -1;
+                                    } else {
+                                        return n.id == e.logid;
+                                    };
+                                });
+                                //
+                                if (isDEL) {
+                                    uptHisCHN(chnel, isDEL);
+                                };
+                                //
+                                d$.resolve([row, e, chnel[1].log[2]]);
+                                //
+                            }
+                        , isDEL = function () {
+                            if (UptSEL) {
+                                for (var k in UptSEL) {
+                                    if (UptSEL.hasOwnProperty(k)) {
+                                        if (parseInt(k) < 0) {
+                                            return k;
+                                        };
+                                    }
+                                };
+                            };
+                            return null;
+                        }();
+                        //
+                        if (modHIS) modHIS(chnel[1].log[0]);
+                        //
+                        if (!isDEL && WHE && elUI.logDAT[WHE.id]) {
+                            RE(elUI.logDAT[WHE.id][1]);
+                        } else {
+                            if (WHE.id != -1) {
+                                stepcodeback('___').comm1.loghole(idoc, chnel[1], "6c6f67717279", { logh: btoa(JSON.stringify([WHE, UptSEL])), logkind: 1 });//logqry
+                                idoc.cbHwnd = function (e) {
+                                    idoc.cbHwnd = null;
+                                    RE(e);
+                                };
+                            } else {
+                                d$.resolve([[], undefined, chnel[1].log[2]]);//remove his button x
+                            };
+                        };
+                    }
+
+                $.when(h$, d$).then(function (h, log) {
+                    dbLOG.resolve(log, h);
+                });
+
+                if (UptSEL) {
+                    stepcodeback('___').comm1.uaShift(UptSEL, 'SEL_HIS_LOG', false).then(function (e) {
+                        //
+                        divaddto.trigger('s2_srclog_changed', 'upt');//thong bao cho ben s3 biet la da co update sau khi save s3_dat
+                        //
+                        h$.resolve(e);
+                    });
+                    //
+                    logDB(function (logH) {
+                        for (var i = 0; i < logH.length; i++) {
+                            if (UptSEL.hasOwnProperty(logH[i].id)) {
+                                logH[i].issel = UptSEL[logH[i].id];
+                            };
+                        };
+                    });
+                } else {
+                    logDB();
+                    h$.resolve();
+                };
+            };
+        }
+        , delHISLOG = function (delOK, hisid, tc3id) {
+            if (elUI.hasUA == 'noU') {
+                lo$DB(function (db) {
+                    var ts = db.rst.transaction(elUI.dbTBname, "readwrite"),
+                        hisStore = ts.objectStore(elUI.dbTBname[0]),
+                                tcStore = ts.objectStore(elUI.dbTBname[1]);
+                    //
+                    ts.oncomplete = function () {
+                        db.rst.close();
+                        var idoc = divaddto.dogIFRM.contentWindow,
+                            chnel = idoc.chanelLog;
+                        //
+                        uptHisCHN(chnel, -1 * parseInt(hisid));
+                        //
+                        divaddto.trigger('s2_srclog_changed', 'del');//thong bao cho ben s3 biet la da co update sau khi save s3_dat
+                        //
+                        delOK();
+                        //
+                    };
+                    hisStore.delete(hisid);
+                    tcStore.delete(tc3id);
+                });
+            } else {
+                delOK(function (delIDX, dbLOG) {
+                    //delete manual vi ko trigger duoc list
+                    var newSEL = {}; newSEL[delIDX] = true;
+                    hisLOG(dbLOG, elUI.dbTBname, { issel: true }, newSEL);
+                });
+            };
+        }
+        , step2_attlog
+        , newS2_attlog = function (loadCB) {
+            _gsC(srcpf$ + '/media/js/tikestep_s2.js' + '?' + new Date().getTime(), 'js', function () {//srcpf$ + '/media/js/tikestep_s3.js' 
+                //
+                loadCB();
+                //
+            }, 'tikestep_s2.js');
+
+        }
+        , uiDEV = function (ds) {
+            if (elUI['rst_attlog']) {
+                elUI['rst_attlog'].option({ 'dataSource': ds[0], paging: { pageIndex: 0 } });//ko co option paging thi grid se khong refresh height
+            };
+            if (elUI['log_fromto_popover']) {
+                elUI['log_from'].option('placeholder', DevExpress.localization.formatDate(ds[1], "shortdate"));
+                ds[3] = elUI['log_from'].option('value');//gan lai 
+                elUI['log_to'].option('placeholder', DevExpress.localization.formatDate(ds[2], "shortdate"));
+                ds[4] = elUI['log_to'].option('value');//gan lai 
+            };
+        }
+        , btnClickCauseByLogChanged = -1
+        , UaLogHis = function () {
+            var fuckIE11 = GetIEVersion() == 11 ? "onload='javascript:$(this).closest(&quot;.popover-body&quot;).css(&quot;minWidth&quot;,&quot;300px&quot;)'" : '',
+            hasLOGHIS = frmEL.find('.dropzonecmd hr');
+            hasLOGHIS.popover({
+                container: frmEL.find('#step-2'),
+                placement: 'top', trigger: "manual",
+                html: true,
+                title: "<i class='fa fa-history'/> Thong Bao" + cTIP,
+                //content: LAN.js_004_14[3]
+                content: '<div class="media"><div class="mr-3"><i class="fa fa-bullhorn" style="font-size:40pt"></i></div><div class="media-body"><p>Cong viec lan truoc con dang do, ban muon tiep tuc hay bat dau moi?.</p></div></div>' +
+                    '<div class="confirmation-buttons text-center"><div class="btn-group"><div class="btn btn-secondary" ><i class="ti-close"></i> Dong</div><div class="btn btn-success"><i class="ti-check"></i> Tiep Tuc</div></div></div>',
+            }).on('hidden.bs.popover', function () {
+                hasLOGHIS.$overbg.remove();
+            });
+            hasLOGHIS.$overbg = $('<div class="hasHISbg"/>').appendTo(hasLOGHIS.closest('.dropzonecmd'));
+            hasLOGHIS.popover('show');
+        }
+        , divaddto = frmEL.find('.uploadattlog')
+        , wting = helloguy.clone()
+        , s2logscroll_des = function () {
+            if (elUI['s2loglist_scroPerf']) {
+                elUI['s2loglist_scroPerf'].destroy();
+                delete elUI['s2loglist_scroPerf'];
+            };
+        }
+        , resetUPLOAD = function (log, btnLOGDB, preventRE, rmvREM) {
+            s2logscroll_des();
+            divaddto.find('.hislog-list').remove();
+            var isLIST = lstOR_ifrmHISLOG(log);
+            displayHISLOG(log, btnLOGDB, function () {
+                //
+                if (!isLIST) {
+                    if (elUI['fileinfo']) {
+                        divaddto.dogIFRM.contentWindow.showUpLog(elUI['fileinfo'].file, btnDELHISFILE);
+                    } else {
+                        divaddto.dogIFRM.contentWindow.dropzone.removeAllFiles();
+                    };
+                };
+                //
+            });
+            //
+            if (rmvREM) TiCo_Callback(3);
+            //
+            if (elUI.puSAVELOG) elUI.puSAVELOG.parent().css('display', 'none');
+            //
+            sampleBTN('');
+            //
+            if (!preventRE) return verifyLOG(null, elUI['fileinfo']);//need Set config
+            //
+        }
+        , lstHisLog = function (log) {
+            var tb = $('<table style="display:none" class="table hislog-list table-fixed"><thead></thead><tbody style="height: 130px"></tbody></table>'),
+                the = tb.find('thead'),
+                tbo,
+                deferredFocused = null,
+                fnCB = null,
+                focusUI_DAT = function (idx, newSEL) {
+                    //
+                    if (unlockedHWND == -1) srclocked(true);
+                    //
+                    idx = parseInt(idx);
+                    //
+                    var refreshGRID = function (srcDAT, logH) {
+                        //
+                        var ds = verifyLOG(null, logH),
+                            h$ = $.Deferred(),
+                            d$ = $.Deferred();
+
+                        $.when(h$, d$).then(function (h, log) {
+                            srclocked(false);
+                        });
+
+                        if (fnCB && typeof fnCB === "function") {
+                            fnCB(srcDAT, d$);
+                        } else {
+                            d$.resolve('fnCB NULL');
+                        };
+                        //
+                        //
+                        if (elUI['rst_attlog']) {
+                            elUI['rst_attlog'].clearFilter();
+                            elUI.ReadyEMP = function (e) {
+                                h$.resolve('UI');
+                            };
+                            uiDEV(ds);
+                        } else {
+                            h$.resolve('UI');
+                        };
+                    };
+                    //
+                    if (!elUI.logDAT[idx]) {
+                        //
+                        var dbLOG = $.Deferred();
+                        $.when(dbLOG).then(function (log) {
+                            //
+                            displayHISLOG(log, false, function () { refreshGRID("DB", log[0][0]); });
+                            //
+                        });
+                        //
+                        hisLOG(dbLOG, elUI.dbTBname, { id: idx }, newSEL);
+                        //
+                    } else {
+                        displayHISLOG([[elUI.logDAT[idx][0]], elUI.logDAT[idx][1]], false, function () { refreshGRID("CACHE", elUI.logDAT[idx][0]); });
+                    };
+                },
+                doFocused = function (e, $this) {
+                    //
+                    var sel = tbo.find('tr.selected'), idx = $this.getAttribute('idx');
+                    //
+                    if (sel.length == 0 || sel.attr('idx') != idx) {
+                        tbo.find('tr').removeClass('selected');
+                        $($this).addClass('selected');
+                        //
+                        if (!deferredFocused) {// do data with this focus here!
+                            if (unlockedHWND == -1) srclocked(true);
+                            setTimeout(function () {
+                                focusUI_DAT(idx);
+                            }, 20);
+                        };
+                    };
+                    return (sel.length == 0) ? null : sel;
+                },
+                doRMV = function (e, $trr, clickArgs) {
+                    if (!LAN) LAN = stepcodeback('lan');
+                    var isALL = e.target.tagName.toLowerCase() == 'th'
+                        , isDone = null
+                        , puhwnd = admin$.popup({ a: 'd', t: clickArgs && clickArgs.dlgTXT.title || LAN.js_004_16[0], m: clickArgs && clickArgs.dlgTXT.txt || LAN.js_004_16[isALL ? 4 : 3] }), btndone = puhwnd.find('#popupdone')
+                        , btndonefn = function (state) {
+                            btndone[(state ? 'add' : 'remove') + 'Class']('btn-primary').prop('disabled', !state);
+                        };
+                    btndone.html(LAN['js_004_3']); btndone.removeClass('btn-secondary').addClass('btn-danger');
+                    btndone.click(function () {
+                        //
+                        isDone = $trr.attr('idx');
+                        doneRMV(e, $trr, puhwnd, clickArgs && clickArgs.fnCB);
+                        //
+                    });
+                    btndonefn(true);
+                    //
+                    if (clickArgs && clickArgs.fnM && typeof clickArgs.fnM === "function") clickArgs.fnM(puhwnd);
+                    //
+                    puhwnd.modal('show'); srclocked(false);
+                    puhwnd.one('hide.bs.modal', function (e) {
+                        if (deferredFocused) {//click remove all se khong co deferred nay !!!
+                            srclocked(true);
+                            deferredFocused.resolve(isDone);
+                        };
+                        if (!isDone && clickArgs && clickArgs.fnCB) clickArgs.fnCB(isDone);
+                    });
+                },
+                doneRMV = function (e, $trr, puhwnd, doneEND) {
+                    //
+                    elUI.stepHis.isTiCo = 1;
+                    //
+                    if (e.target.tagName.toLowerCase() == 'th') {
+                        if (unlockedHWND == -1) srclocked(true);
+                        //
+                        if (puhwnd) {
+                            puhwnd.off('hide.bs.modal');
+                            puhwnd.modal('hide');
+                        };
+                        //
+                        var newSEL = {};
+                        tbo.find('tr:not(.row-sum)').each(function (i, n) {
+                            newSEL[parseInt(n.getAttribute('idx'))] = false;
+                        });
+                        //
+                        var dbLOG = $.Deferred();
+                        $.when(dbLOG).then(function (log) {
+                            cleanHIS(log, false);
+                            if (doneEND && typeof doneEND === "function") doneEND(1);
+                            srclocked(false);
+                        });
+                        hisLOG(dbLOG, elUI.dbTBname, { id: -1, issel: true }, newSEL);
+                        //
+                    } else {
+                        $trr.animate({ height: 10 }, 200, function (e) {
+                            $trr.remove();
+                            if (doneEND && typeof doneEND === "function") doneEND(1);
+                            if (puhwnd) puhwnd.modal('hide');
+                        });
+                    };
+                };
+
+            the.html("<tr style='font-size:11px'><th class='col-1 center ti-eraser bntrmv'></th><th class='col-5'>" + LAN.js_004_15[2] + "</th><th class='col-2 center'>Size (Kb)</th><th class='col-2 center'>" + LAN.js_004_32 + "</th><th class='col-2 center'>" + LAN.js_004_33 + "</th></tr>");
+            var sumL = 0, sumE = 0, sumSz = 0;
+            for (var i = log[0].length - 1; i > -1 ; i--) {
+                //
+                var sz = Math.floor(log[0][i].file.size / 1000), selR = false;
+                sumL += log[0][i].conf.l; sumE += log[0][i].conf.e; sumSz += sz;
+                //
+                if (log[1]) {
+                    selR = log[1].logid == log[0][i].id;
+                } else if (i == log[0].length - 1) {
+                    selR = true;
+                };
+                //
+                tbo += "<tr idx='" + log[0][i].id + "' " + (selR ? "class='selected'" : '') + "><td class='col-1 ti-close bntrmv center'></td>" +
+                    "<td class='col-5'>" + log[0][i].file.name + "</td><td class='col-2 text-right'>" + sz +
+                    "</td><td class='col-2 text-right'>" + log[0][i].conf.l +
+                    "</td><td class='col-2 text-right'>" + log[0][i].conf.e + "</td></tr>";
+                //
+            };
+            //
+            tbo += "<tr class='row-sum'><td class='col-6 text-right'>" + LAN.js_004_15[4] + "</td><td class='col-2 text-right'>" + sumSz + "</td><td class='col-2 text-right'>" + sumL + "</td><td class='col-2 text-right'>" + sumE + "</td></tr>";
+            //
+            tb.on('click', '.bntrmv', function (e, clickArgs) {
+                e.stopPropagation(); e.preventDefault();
+                //
+                if (preventLISTevt) {
+                    elUI['saveLOCKED_popover'].popover('show');
+                    return;
+                };
+                //
+                if (unlockedHWND == -1) srclocked(true);
+                //
+                var $e = e, $this = $(this).parent();
+                if (clickArgs && !clickArgs.u4) {// clickArgs is integer of delete id
+                    doneRMV(e, $this, null, function () {
+                        deferredFocused.resolve(clickArgs);//-1 not update because it deleted from db
+                    });
+                } else {
+                    setTimeout(function () {
+                        doRMV($e, $this, clickArgs);
+                    }, 20);
+                };
+                //
+            });
+            tbo = tb.find('tbody').html(tbo);
+            tbo.on('click', 'tr:not(.row-sum)', function (e) {
+                //
+                if (preventLISTevt) {
+                    e.stopPropagation(); e.preventDefault();
+                    elUI['saveLOCKED_popover'].popover('show');
+                    return;
+                }
+                //
+                var $this = $(this),
+                    clickRMV = $(e.target).hasClass('bntrmv'),
+                    idxSEL_onVIEW,
+                    sel,
+                    trfocus;
+                //
+                if (clickRMV) {
+                    //
+                    deferredFocused = new $.Deferred();
+                    //
+                    $.when(deferredFocused).then(function (delIDX) {
+                        //
+                        deferredFocused = null;
+                        //
+                        if (!delIDX) {
+                            if (!sel || sel.attr('idx') != $this.attr('idx')) {
+                                focusUI_DAT($this.attr('idx'))
+                            } else {
+                                srclocked(false);
+                            };
+                        } else {//nue done, row nhung truoc luc click xoa , va sau khi xoa xong cung idx
+                            //
+                            var newSEL = {}, listTR,
+                                OnlyUPT_SEL = function (lockDeferred) {
+                                    if (delIDX != '-1') {
+                                        var dbLOG = $.Deferred(), idx = parseInt(parseInt(idxSEL_onVIEW));
+                                        $.when(dbLOG).then(function (log) {
+                                            //
+                                            if (listTR) listTR.contentWindow.showUpLog(elUI['fileinfo'].file, btnDELHISFILE);
+                                            //
+                                            if (!lockDeferred) {
+                                                srclocked(false);
+                                            } else {
+                                                lockDeferred.resolve('srclocked(false)');
+                                            };
+                                            //
+                                        });
+                                        hisLOG(dbLOG, elUI.dbTBname, { id: (elUI.hasUA == 'noU') ? -1 : parseInt(trfocus.attr('idx')), issel: true }, newSEL);
+                                        //} else {//=-1 nghia la row bi delete ben man hinh chon log
+                                        //    if (unlocked) srclocked(false);
+                                    };
+                                };
+                            //
+                            newSEL[parseInt(delIDX)] = false;
+                            //
+                            if (idxSEL_onVIEW != trfocus.attr('idx')) {
+                                fnCB = function (srcDAT, lockDeferred) {
+                                    fnCB = null;//reset
+                                    //
+                                    if (srcDAT == 'CACHE') {
+                                        OnlyUPT_SEL(lockDeferred);
+                                    } else {
+                                        if (listTR) listTR.contentWindow.showUpLog(elUI['fileinfo'].file, btnDELHISFILE);
+                                        lockDeferred.resolve('fnCB_DB');
+                                    };
+                                };
+                                focusUI_DAT(trfocus.attr('idx'), newSEL);
+                            } else {
+                                //1. dang focus o dong tren
+                                //2. click xoa dong duoi
+                                //3. khi xoa xong thi focus nhay len dong 1.
+                                //=> idx phai la dong 2.
+                                OnlyUPT_SEL(); //true
+                            };
+                            //
+                            listTR = tbo.find('tr:not(.row-sum)');
+                            if (listTR.length <= 1) {
+                                //
+                                divaddto.lstORfrm = null;
+                                var ifrm = divaddto.dogIFRM;
+                                listTR = ifrm;
+                                //
+                                tb.fadeOut('fast', function () {
+                                    tb.remove();
+                                    //
+                                    $(ifrm).css({ 'display': 'none', 'opacity': '1' }).fadeIn();//.css('opacity', 1);
+                                });
+                                //
+                            } else {
+                                var sumL = 0, sumE = 0, sumSz = 0, idxs = [];;
+                                for (var i = 0; i < listTR.length; i++) {
+                                    var tr = $(listTR[i])
+                                        , td = tr.find('td');
+                                    idxs.push(Number(tr.attr('idx')));
+                                    sumSz += parseInt(apisvr.a$.trim($(td[2]).text()));
+                                    sumL += parseInt(apisvr.a$.trim($(td[3]).text()));
+                                    sumE += parseInt(apisvr.a$.trim($(td[4]).text()));
+                                };
+                                listTR = tbo.find('tr.row-sum td');
+                                listTR[1].innerHTML = sumSz;
+                                listTR[2].innerHTML = sumL;
+                                listTR[3].innerHTML = sumE;
+                                //
+                                listTR = null;
+                                trfocus.addClass('selected');
+                                //
+                                var _z = divaddto.lstORfrm[0];
+                                for (var i = _z.length - 1; i > -1; i--) {
+                                    if (idxs.indexOf(_z[i].id) == -1) {
+                                        _z.splice(i, 1);
+                                    };
+                                };
+                                divaddto.lstORfrm[2] = idxs.length;
+                            };
+                            //
+                        };
+                    });
+                };
+                //
+                sel = doFocused(e, this);//van cho do focus // neu la click vao nut xoa thi se resolve
+                //
+                if (clickRMV) {
+                    idxSEL_onVIEW = (!sel ? 0 : sel.attr('idx'));
+                    trfocus = $this.next('tr:not(.row-sum)');
+                    //
+                    if (trfocus.length == 0) trfocus = $(this).prev('tr');
+                    //
+                };
+            });
+            //
+            if (i$Desk) elUI['s2loglist_scroPerf'] = new PerfectScrollbar(tb.find('tbody')[0], { suppressScrollX: true });//cai div dau tien ke canvas
+            //
+            divaddto.append(tb);//.find('iframe').css('opacity', '0');
+            tb.fadeIn();
+        }
+        , lstOR_ifrmHISLOG = function (log) {
+            var chkLIST = function () {
+                return $.grep(log[0], function (n, i) {
+                    return n.issel;
+                }).length > 1;
+            },
+                isLIST = log && chkLIST(),
+                hislog = divaddto.find('.hislog-list'),
+                ifrm = divaddto.find('iframe');
+            //
+            if (isLIST) {
+                lstHisLog(log);
+                divaddto.lstORfrm = log;
+                if (ifrm.length > 0) ifrm.fadeOut('fast', function () { ifrm.css({ 'display': '', 'opacity': '0' }); });
+            } else {
+                divaddto.lstORfrm = null;
+                if (hislog.length > 0) hislog.fadeOut('fast', function () { s2logscroll_des(); hislog.remove(); });
+                if (ifrm.length > 0) ifrm.css({ 'display': 'none', 'opacity': '1' }).fadeIn();//.css('opacity', 1);
+            };
+            return isLIST;
+        }
+        , displayHISLOG = function (log, btnLOGDB, cbUSE) {
+            //
+            var btnDEL = 'none';
+            if (log && log[1]) {
+                //
+                elUI['showinvisibles'].val(log[1].dat);
+                //
+                var atHIS;
+                for (var i = log[0].length - 1; i > -1; i--) {
+                    if (log[0][i].id == log[1].logid) {
+                        atHIS = log[0][i];
+                    };
+                };
+                //
+                atHIS.tc3id = log[1].id;
+                //
+                if (!elUI.logDAT[atHIS.id]) {
+                    elUI.logDAT[atHIS.id] = [atHIS, log[1]];
+                };
+                //
+                elUI['fileinfo'] = atHIS; // bug tai day !!!1
+                //
+                btnDEL = '';
+            };
+            //
+            btnDELHISFILE([btnDEL, 'none']);
+            //
+            if (cbUSE && typeof cbUSE === "function") {
+                cbUSE();
+            };
+            //
+            if (btnLOGDB) btnLogFromDB(log, 0);
+            //
+        }
+        , viewLOG = function (isUpload) {
+            if (Main.isMobile()) {
+                if (step2_attlog && elUI['showlistLOG'] == 1) {
+                    step2_attlog.upload_attlog();
+                } else {
+                    verifyLOG();
+                    if (isUpload) {
+                        btnSAVELOG();
+                        srclocked(false);
+                    };
+                }
+            } else {
+                newS2_attlog(function () {
+                    if (!step2_attlog) step2_attlog = new FormWizard.s2log.init(frmEL, stepcodeback, elUI, shareMe);
+                    step2_attlog.upload_attlog();
+                });
+            };
+        }
+        , ifrmUPLOG = function (ifrmLOAD) {
+            var session = elUI.s2_session;
+            //, url_domain = function (data) {
+            //    var a = document.createElement('a');
+            //    a.href = data;
+            //    return a.pathname;
+            //},
+            //hostdata = (apisvr.a$.mainHolePath != '/') ? url_domain(window.location.protocol + "//" + apisvr.a$.mainHolePath) : '';
+
+            if (divaddto.find('iframe').length == 0) {
+                var ifrm, datcnt = 0, dathwnd, datfn = function (cnt) {
+                    //clearTimeout(dathwnd);
+                    divaddto.find('iframe').remove();
+                    ifrm = document.createElement('iframe');
+                    ifrm.style.opacity = 1;
+                    ifrm.style.display = "none";
+                    ifrm.style.width = "100%";
+                    ifrm.style.height = "140px";//bang voi height cua list
+                    ifrm.setAttribute("scrolling", "no"); ifrm.setAttribute("frameBorder", "0");
+                    //ifrm.src = hostdata + '/chamcong/iframeattlog.' + stepcodeback('___').comm1.uplog + '#' + window[st0('1')](session + '|' + apisvr.a$.mainHolePath + '|' + window.location.origin + '|' + GetIEVersion() + '|' + $("#app").hasClass('darkcolor'));
+                    //
+                    //
+                    ifrm.onload = function () {
+                        //
+                        setTimeout(function () {
+                            var iDoc = ifrm.contentWindow.document, upscript = iDoc.createElement('script'),
+                                              seson = window[st0('1')](session + '|' + srcpf$ + '|' + window.location.origin + '|' + GetIEVersion() + '|' + $("#app").hasClass('darkcolor'));
+                            //
+                            //
+                            upscript.setAttribute('seson', seson);
+                            upscript.setAttribute('src', srcp$f + '/media/utils/jsc/iframeattlog.js' + src$id);//'https://hrm.dnd.vn'
+                            iDoc.head.appendChild(upscript);
+                        }, 10);
+
+                        //ifrm.contentWindow.lan(LAN.js_004_12);
+                        divaddto.dogIFRM = ifrm;
+                    };
+                    //
+                    ////sau khi iframe upload log load ok ...
+                    //$.when(ifrmUP, dbLOG).then(function (v1, log) {
+                    //    clearTimeout(errHwnd); errHwnd = -1;
+
+                    //});
+                    ////
+                    ////
+                    //hisLOG(dbLOG, elUI.dbTBname);
+                    //
+                    //bat ke ket qua ra sao cũng append frame
+                    divaddto[0].appendChild(ifrm);
+                    //
+                    //
+                }
+                //, ifrmUP = $.Deferred(), dbLOG = $.Deferred(), errHwnd = -1;
+                //debugger;bi loi khi load lan 2
+                //frmWizHwnd._session = session;
+                //
+                apisvr.a$.sessions[session] = {
+                    hwndTO: null,
+                    id: session,
+                    fn: function (a, b, c) {
+
+                        var that = this;
+                        if (a == 'postmsg') {
+                            //debugger;
+                            var frm = divaddto.find("#ifrm_" + b)[0].contentWindow;// $("#ifrm_" + b)[0].contentWindow;
+                            frm.focus();
+                            frm.postMessage({ 'msgtype': 'session', 'msgkind': b, 'evtData': { a$: 'olshift' } }, '*');
+                        } else if (a == 'job') {
+                            if (b.evtData.evt == 'loaded') {
+                                //
+                                clearTimeout(dathwnd);
+                                //
+                                ifrm.contentWindow.lan(LAN.js_004_12);
+                                this.origin = b.evtData.origin;
+                                //
+                                //
+                                //that.extmp = b.evtData.extmp;
+                                //
+                                //ifrmUP.resolve('onload');
+                                //errHwnd = setTimeout(function () {
+                                //    if (errHwnd != -1) dbLOG.resolve();//phong khi load db error
+                                //}, 1000);
+                                //
+                                //
+                                ifrmLOAD.resolve([ifrm, function () {
+                                    wting.trigger('adu_loadlog');
+                                    wting.remove();
+                                }]);
+                                //
+                            } else if (b.evtData.evt == 'attlog') {
+                                //
+                                //
+                                if (elUI['fileinfo']) {
+                                    divaddto.currHISID = $.extend(true, {}, elUI['fileinfo']);
+                                } else {
+                                    if (elUI.stepHis.remLOG != 0) {
+                                        divaddto.currHISID = { isREM: elUI['showinvisibles'].val(), conf: logCONF() };
+                                    } else {
+                                        divaddto.currHISID = null;
+                                    };
+                                };
+                                //
+                                elUI['showinvisibles'].val(b.evtData.dat);
+                                elUI['fileinfo'] = { file: b.evtData.file, issave: 0, issel: true, uptime: new Date() };
+                                //
+                                ifrm.style.opacity = 1;
+                                s2logscroll_des();
+                                divaddto.find('.table.hislog-list').remove();//remove select history log list
+                                //
+                                //
+                                viewLOG(true);
+                                //
+                                elUI.trapHwnd = btnSAVELOG
+                                //
+                            } else if (b.evtData.evt == 'startupload') {
+                                var p = divaddto.parent();
+                                p.find('.selAttlog .upfile').prop('disabled', true);
+                            } else if (typeof that[b.evtData.evt] === 'function') {
+
+                                that[b.evtData.evt](a, b, c);
+
+                            } else {
+                                //var x = $("<div/>").html(b.evtData[b.evtData.evt]).text(), y = x.replace(b.evtData.evt, 'apisvr.a$[st0(3)]=');
+                                //var elemDiv = document.createElement('div');
+                                //elemDiv.innerHTML = y.split('$$$this').join('apisvr.a$.sessions[' + session + ']');
+                                //for (var i = elemDiv.children.length - 1; i > -1 ; i--) {
+                                //    var child = elemDiv.children[i];
+                                //    switch (child.tagName.toLowerCase()) {
+                                //        case 'style': {
+                                //            break;
+                                //        }
+                                //        case 'script': {
+                                //            apisvr.a$.scod(child);
+                                //            break;
+                                //        }
+                                //    };
+                                //};
+                            };
+                        };
+                    }
+                };
+                datfn();
+                //$('#selAttlog').attr('onclick', 'apisvr.a$.sessions["' + session + '"].fn("postmsg","' + session + '",this)');
+                //divaddto.html("<iframe id='ifrm_" + session + "' src='" + hostdata + divaddto.attr('data-hostdata') +  "' scrolling='no' width=100% height='250px' frameBorder='0'></iframe></div>");
+            };
+        }
+        , cleanHIS = function (log, btnLOGDB) {
+            delete elUI.fileinfo;
+            elUI['showinvisibles'].val('');
+            var ds = resetUPLOAD(log, btnLOGDB, undefined, false);
+            uiDEV(ds);
+            return ds;
+        }
+        , TiCo_Callback = function (evt, args) {
+            //
+            var remTB = 'remLOG', remK = 'cmVtX2F0dGxvZw==',
+                remId = (elUI.hasUA == 'noU' ? 1 :  elUI['0'].__u),//cula 2, kog phan biet duoc rem cua user nao !
+                rem$DB = function (de$) {
+
+                    lo$DB(function (db) {
+                        if (db.kq == 0) {//create new
+                            //
+                            var D$b = db.e.target.result;//var Db = e.target.result;
+                            //
+                            if (D$b.objectStoreNames.contains(remTB)) D$b.deleteObjectStore(remTB);
+                            D$b.createObjectStore(remTB, { keyPath: "id" });
+                            //
+                        } else if (db.kq == 1) { //ok
+                            var req, ts = db.rst.transaction([remTB], (evt == 0) ? "readonly" : "readwrite"),
+                                remStore = ts.objectStore(remTB);
+
+                            if (evt == 1) {//check & load
+
+                                req = remStore.get(remId);
+
+                            } else if (evt == 2) { //check & save
+                                req = remStore.put({ id: remId, conf: logCONF(), log: elUI['showinvisibles'].val() });
+                            };
+
+                            req.onsuccess = function (e) {
+                                if (evt == 2) {
+                                    de$(e.target.result);
+                                } else {
+                                    if (de$) de$.resolve(e.target.result);
+                                };
+                            };
+                        }
+                    }, 'hellohrm_remlog');
+
+                };
+
+            if (evt == 0) {//check
+                //
+                var _rem = st('getItem', remK);//rem_attlog
+                return _rem && _rem.split(remId).length > 1;
+                //
+            } else if (evt == 1) {//load
+                //
+                rem$DB(args);
+                //
+            } else if (evt == 2) { //check & save
+                if (elUI.stepHis.remLOG == 1) {//'raiseREM'
+                    var _rem = st('getItem', remK);//rem_attlog
+                    if (_rem) {
+                        _rem = JSON.parse(_rem);
+                        if (_rem.indexOf(remId) == -1) _rem.push(remId);
+                    } else {
+                        _rem = [remId];
+                    };
+                    //
+                    rem$DB(function () {
+                        st('setItem', remK, JSON.stringify(_rem));//cmVtX2F0dGxvZw== rem_attlog
+                        elUI.stepHis.remLOG = 2;//'loadREM'
+                    });
+                    //
+                    if (elUI.saveLOCKED_popover) elUI.saveLOCKED_popover.css('display', 'none');
+                    //
+                };
+            } else if (evt == 3) { //remove
+                //
+                if (elUI.stepHis.remLOG != 0) {//'loadREM'
+                    var _rem = st('getItem', remK);//rem_attlog
+                    if (_rem) {
+                        _rem = JSON.parse(_rem);
+                        _rem = $.grep(_rem, function (v) { return v != remId; });
+                        st((_rem.length > 0 ? 'set' : 'remove') + 'Item', remK, JSON.stringify(_rem));//cmVtX2F0dGxvZw== rem_attlog
+                    };
+                };
+                //
+                elUI.stepHis.remLOG = 0;//noREM
+                //
+            };
+        }
+        , loadREM = function (waitREM) {
+            var rem$Df = $.Deferred();
+            $.when(rem$Df).then(function (rem) {
+                if (rem) {//loi ,no se xoay vong vong o phan drag file 2021/10/22
+                    elUI['showinvisibles'].val(rem.log);
+                    verifyLOG(null, { conf: rem.conf });
+                    //
+                    elUI.stepHis.remLOG = 2;// 'loadREM';
+                };
+                waitREM.resolve();
+            });
+            TiCo_Callback(1, rem$Df);
+        }
+        , sampleBTN = function (val) {
+            var p = divaddto.parent(), di = val == '' ? false : true;
+            p.find('.selAttlog .samplefile').css('display', val);
+            p.find('.selAttlog .upfile').prop('disabled', di);
+            p.find('.logFROMDB').prop('disabled', di);//khi chon 1 file moi neu co nut sel from store thi phai disable no.
+            //
+        }
+        , sampleLOG = function () {
+            var puhwnd = admin$.popup({ a: 'f' })
+                , logsample = function (templ) {
+                    //
+                    templ.find('.btn').on('click', function (e) {
+                        //
+                        var lid = $(this).attr('dn');
+                        srclocked(true);
+                        //
+                        setTimeout(function () {
+                            getLOG(lid);
+                        }, 10);
+                    });
+                    //
+                    puhwnd.find('.modal-body').append(templ);
+                    //
+                    setTimeout(function () {
+                        puhwnd.one('shown.bs.modal', function () {
+
+                            puhwnd.off('shown.bs.modal');
+
+                            srclocked(false);
+
+                        }).modal('show');
+
+                    }, 1);
+                    //
+                }
+                , getLOG = function (lid) {
+                    //
+                    var _conf = JSON.parse(samConf[lid]);
+                    //
+                    $.get(srcp$f + '/media/utils/' + _conf.p + src$id).done(function (dat) {
+                        //
+                        var clickArg = {
+                            u4: 'clean4download',
+                            dlgTXT: { title: LAN.__exLAN.dlg[0], txt: LAN.__exLAN.dlg[1] },
+                            fnM: function (me) {
+                                //lam cho dialog lon hon chut
+                                me.find('.modal-dialog').removeClass('modal-sm').addClass('modal-md');
+                            },
+                            fnCB: function (rst) {
+                                if (rst == 1) {
+
+                                    puhwnd.modal('hide');
+
+                                    setConF(null, { conf: _conf });
+                                    //
+                                    elUI['showinvisibles'].val(dat);
+
+                                    viewLOG(false);
+                                    //
+                                    elUI['showinvisibles'].trigger('change', ['samlog']);
+                                    //
+                                    elUI.stepHis.isTiCo = 1;
+                                    //
+                                } else {
+                                    puhwnd.css('opacity', 1);
+                                };
+                            }
+                        };
+                        //
+                        if (divaddto.lstORfrm) {
+                            puhwnd.css('opacity', 0);
+                            divaddto.find('th.bntrmv').trigger('click', [clickArg]);
+                        } else if (elUI.fileinfo) {
+                            puhwnd.css('opacity', 0);
+                            divaddto.rmvHisAttlog.trigger('click', [clickArg]);
+                        } else {
+                            clickArg.fnCB(1);
+                        };
+                    }).fail(function (e) {
+                        srclocked(false);
+                    });
+                }
+            , samConf;
+            //
+            if (!elUI['logsample_templ']) {
+
+                $.get(srcp$f + '/media/utils/lst.html' + src$id).done(function (templ) {
+                    //
+                    var t$b = $(templ).find('.pricing-table-log'),
+                        _lng = apisvr.a$.selected_language,
+                        _ln = divaddto.dogIFRM.contentWindow,
+                        sct = t$b.find('script')
+                        , stxt = sct[0].innerHTML;
+                    //
+                    sct.remove();
+                    elUI['logsample_templ'] = t$b
+                    //
+                    _ln.__doHandshake = function () {
+                        _ln.__doHandshake = null;
+                        //
+                        LAN.__exLAN = $.extend({} || LAN.__exLAN, _ln.__logSAM.exLAN()[_lng]);
+                        samConf = _ln.__logSAM.conf();
+                        _ln = _ln.__logSAM.ln();
+                        //
+                        if (_lng != 'en') {//default enlish
+                            elUI['logsample_templ'].find('[data-lang]').each(function (idx, el) {
+                                var key = el.getAttribute('data-lang');
+                                $(el).html(_ln[_lng][key]);
+                            });
+                        };
+                    };
+                    _ln.loadjscssfile(stxt, "jst");
+                    //
+                    logsample(elUI['logsample_templ']);
+                    //
+                }).fail(function (e) {
+                    srclocked(false);
+                });
+
+            } else {
+                //
+                logsample(elUI['logsample_templ']);
+                samConf = divaddto.dogIFRM.contentWindow.__logSAM.conf();
+                //
+            };
+            //
+            puhwnd.find('#popupdone').remove();
+            puhwnd.find('.modal-footer').css('justify-content', 'center').find('button').removeClass('btn-secondary').addClass('btn-danger');
+            puhwnd.addClass('modal-aside vertical top');
+        }
+
+        , S3_KQx = function () {
+            divaddto.trigger('s2_srclog_changed', ['sample', 'plsDEL', function () {
+                //di update server !!!
+                debugger;
+                stepcodeback('___').comm1.uaShift({}, 'S3_KQx', false).then(function (e) {
+                    //
+                });
+            }]);//thong bao cho ben s3 biet la da co update sau khi save s3_dat
+        }
+
+        , s2_initDATA = function (a,_$n) {
+            var dbLOG = $.Deferred(),
+                ifrmLOAD = $.Deferred(),
+                waitdisHISLOG = $.Deferred(),
+                waitREM = $.Deferred(),
+                lodOps = { issel: true };
+
+            if (TiCo_Callback(0)) {
+                //
+                lodOps.id = -1;//chan his log load noUI
+                delete lodOps.issel;//chan his log load UI
+                //
+                loadREM(waitREM);
+                //
+            } else {
+                waitREM.resolve();
+            };
+            //
+            //
+            //
+            //sau khi iframe upload log load ok ...
+            if (elUI.hasUA == 'noU') {
+                $.when(dbLOG).then(function (log) {
+                    var isLIST = lstOR_ifrmHISLOG(log);
+                    displayHISLOG(log, true, function () {
+                        waitdisHISLOG.resolve([isLIST, log]);
+                    });
+                });
+                //
+                $.when(ifrmLOAD, waitdisHISLOG, waitREM).then(function (ifrm, isLIST_LOG, wR) {
+                    var isLIST = isLIST_LOG[0], log = isLIST_LOG[1];
+                    if (!isLIST && elUI['fileinfo']) ifrm[0].contentWindow.showUpLog(elUI['fileinfo'].file, btnDELHISFILE);
+                    if (log) verifyLOG(null, elUI['fileinfo']);
+                    ifrm[0].contentWindow.chanelLog = [, { log: !log ? [[], undefined, 0] : log }];
+                    ifrm[1]();//unlock screen;
+                });
+                //
+                hisLOG(dbLOG, elUI.dbTBname, lodOps);
+                //
+            } else {
+                $.when(ifrmLOAD).then(function (ifrm) {
+                    var alog = stepcodeback('alog'), file;
+                    if (alog.key && alog.log) {
+                        //
+                        var log = [$.grep(alog.log[0], function (n, i) { return n.issel === lodOps.issel }), null, alog.log[2]]
+                            , isLIST = lstOR_ifrmHISLOG(log)
+                            , idoc = ifrm[0].contentWindow;
+
+                        if (log[0].length > 0) {
+                            idoc.cbHwnd = function (e) {
+                                idoc.cbHwnd = null;
+                                log[1] = e;
+                                //
+                                displayHISLOG(log, true, function () {
+                                    if (!isLIST && elUI['fileinfo']) ifrm[0].contentWindow.showUpLog(elUI['fileinfo'].file, btnDELHISFILE);
+                                    verifyLOG(null, elUI['fileinfo']);
+                                    ifrm[1]();//unlock screen;
+                                });
+                            };
+                            //
+                            //LOG_LOAD
+                            stepcodeback('___').comm1.loghole(idoc, alog, '4c4f475f4c4f4144', {
+                                logh: btoa(JSON.stringify(['L', log[0][log[0].length - 1]['id']])), logkind: 1
+                                , ori: window.location.origin + ';*'
+                            });
+                            //
+                        } else {
+                            idoc.chanelLog = [, alog];
+                            btnLogFromDB(alog, 0);
+                            ifrm[1]();//unlock screen;
+                        };
+                    } else {
+                        lstOR_ifrmHISLOG([[], null, 0]);
+                        ifrm[1]();//unlock screen;
+                    };
+                });
+            };
+            //
+            ifrmUPLOG(ifrmLOAD);
+            //
+            //
+            elUI[_$n[1]] = frmEL.find("." + _$n[1]);
+            //
+            elUI[_$n[1]].off('change').on('change', function (e, clickArgs) {
+                //
+                if (unlockedHWND == -1) srclocked(true);
+                //
+                var askSAVE = false;
+                if (elUI['fileinfo']) {
+                    //
+                    askSAVE = elUI['fileinfo'].issave != 0;
+                    lockFRM_waitSAVE(askSAVE);
+                    //
+                    if (elUI['fileinfo'].issave == 1) {// only store at frist change from 1 ->2
+                        elUI['fileinfo'] = $.extend(true, {}, elUI['fileinfo']);//clone it
+                        elUI['fileinfo'].issave = 2;
+                    };
+                } else {
+                    if (elUI['s3calc'] && elUI.stepHis.remLOG == 2) {// da co tinh qua s3 + load tu memory hoac moi tinh xong
+                        askSAVE = true;
+                    };
+                    elUI.stepHis.remLOG = 1;// 'raiseREM';
+                };
+                //
+                setTimeout(function () {
+                    //
+                    if (clickArgs != 'samlog') uiDEV(verifyLOG());//change text active config ko anh huong
+                    //
+                    if (askSAVE) {//save lai vi da thay doi log tc3
+                        btnSAVELOG();
+                        elUI.stepHis.isTiCo = 1;
+                    };
+                    //*** neu co trap thi done trap task
+                    if (typeof btnClickCauseByLogChanged === "function") {
+                        btnClickCauseByLogChanged();
+                    } else {
+                        srclocked(false);
+                    };
+
+                }, 20);
+                //
+            });
+            //
+            //
+            frmEL.find('.selAttlog .btn').on('click', function (evt) {
+                if ($(evt.currentTarget).hasClass('upfile')) {//ko dung evt.target vi khi click vao child element thi chrome se nhay xuong else va active sampleLOG
+                    hidePOVER();
+                    var ifrm = divaddto.dogIFRM, selAttlog = this;
+                    if (ifrm) {
+                        ifrm.contentWindow.clickE();
+                    };
+                } else {
+                    srclocked(true);
+                    setTimeout(sampleLOG, 20);
+                };
+            });
+            frmEL.find('.attlog_verify').off('mousedown touchstart').on('mousedown touchstart', function (e) {
+                //
+                unlockedHWND = 0; // trap lock screen off textarea
+                //
+                //(***) trap textbox change release lock screen,// gia de textbox change ko release screen locked.
+                btnClickCauseByLogChanged = function () {
+                    btnClickCauseByLogChanged = -1;
+                };
+                //
+                frmWizHwnd.pStep = function (sHWND) {
+                    //
+                    frmWizHwnd.pStep = null;//reset
+                    //
+                    var doNEXT = function (rst) {
+                        //
+                        elUI.lockstep(a, false);
+                        //
+                        if (['0'].indexOf(rst.toString()) == -1) {//0: cancel 
+                            //
+                            sHWND();
+                            //
+                        };//do next step
+                        //
+                        srclocked(false);
+                    };
+
+                    //issave = 0 - moi load tu file len, 1 - da luu tru roi, 2 - modify tu trang thai 1
+                    if (elUI['fileinfo'] && elUI['fileinfo'].issave != 1) {
+                        //
+                        var oldJ = function (m) {
+                            // setup lai su kien khi nut save hoan tat, de thuc hien next
+                            btnClickCauseByLogChanged = function (RE) {// chi la function, va duoc execute khi text log changed
+                                //
+                                btnClickCauseByLogChanged = -1;
+                                if (RE == -2) {
+                                    elUI.stepHis.viewBackS3 = RE;
+                                };
+                                doNEXT(RE);
+                                //
+                            };
+                            //
+                            //
+                            if (elUI['puSAVELOG']) elUI['puSAVELOG'].trigger('click', [$.extend(true,{},{ 's3': !!elUI['s3calc'] },m)]);
+                            //
+                        };
+
+                        if (elUI['akq']) {// khi save ketqua s3 roi, moi back lai , va chi lookup new file!!
+
+                            dlgs3(null, null, { 's3': true}).show().done(function (RE) {
+                                if (RE == 0) {
+                                    elUI.lockstep(a, false);
+                                } else {
+                                    if (RE == -2) {
+                                        //
+                                        elUI.stepHis.viewBackS3 = RE;
+                                        doNEXT(RE == -2 ? 2 : RE);
+                                        //
+                                    } else if (RE == 1) {// tinh cong lai
+                                        //
+                                        oldJ({ 's3': 'plsDEL' });//bo qua khong hoi neu duplicate
+                                        //
+                                    };
+                                };
+                            });
+
+                        } else {
+                            oldJ({});
+                        };
+                        //
+                    } else {
+
+                        if (elUI['s3calc']) {//da chay s3 && lai thay doi log thi phai hoi
+                            //
+                            var _d = function (f, m) {
+                                dlgs3(null, null, m).show().done(function (RE) {
+                                    if (RE == 0) {
+                                        elUI.lockstep(a, false);
+                                    } else {
+                                        if (RE == -2) {
+                                            elUI.stepHis.viewBackS3 = RE;
+                                        } else if (RE == 1) {// tinh cong lai
+                                            //
+                                            if (f && typeof f === 'function') f();
+                                            //
+                                            elUI.stepHis.isTiCo = 1;//fixed ngay 2021/08/10
+                                            //
+                                        };
+                                        doNEXT(RE == -2 ? 2 : RE);
+                                    };
+                                });
+                                //
+                                srclocked(false);
+                            };
+
+                            if (elUI['akq'] && elUI['akq'][0].toString().indexOf('-1') == 0) {// khi save ketqua s3 roi, nhung back and modify source log
+                                //
+                                _d(function () {
+                                    delete elUI['akq'];
+                                }, { 's3': true, 'b2': LAN.js_004_19[4] });
+                                //
+                            } else if (elUI.stepHis.remLOG == 1) {
+                                //
+                                _d(function () {
+                                    if (elUI['akq']) {
+                                        S3_KQx();
+                                    };
+                                }, { 's3': !!elUI['s3calc'] });
+                                //
+                            } else {
+                                if (elUI.stepHis.isTiCo == 1 && !!elUI['s3calc']) {//chan lai de hoi co muon xem lai ket qua cu?
+                                    _d(null, { 's3': true, 'b2': LAN.js_004_19[4] });
+                                } else {
+                                    doNEXT(1);// cho chay tu nhien
+                                };
+                            };
+                        } else {
+                            doNEXT(1);// cho chay tu nhien
+                        };
+                    };
+                };
+                //
+            });
+        };
+         //
+         //
+         this.doStep = function (a, b, clickStepCircle, _$n) {
+             //
+             hidePOVER();
+             //
+             //if (b.toStep.toString() != '2' && elUI[_$n[0]]) {
+             //    elUI[_$n[0]].popover('hide');
+             //    //elUI[_$n[0]].showBack = true;
+             //};
+
+             //if (b.toStep.toString() != '2' && elUI[_$n[2]] && elUI[_$n[2]].data('bs.popover').element.showBack === true) {
+             //    elUI[_$n[2]].popover('hide');
+             //    //elUI[_$n[2]].showBack = true;
+             //};
+
+             //if (b.toStep.toString() != '2' && elUI['selEMP_popover'] && elUI['selEMP_popover'].data('bs.popover').element.showBack === true) {
+             //    elUI['selEMP_popover'].popover('hide');
+             //};
+
+             if (b.fromStep.toString() == '2') {
+                 if (elUI.selEMP_popover) elUI.selEMP_popover.popover('hide'); //delete elUI.selEMP_popover;
+                 if (elUI.log_fromto_popover) elUI.log_fromto_popover.popover('hide'); // ko dispose vi con dinh den From date, To date!!!
+             };
+
+             if (b.toStep.toString() == '2') {
+                 //
+                 if (!elUI[_$n[0]]) {
+                     //
+                     elUI[_$n[0]] = frmEL.find('.testupload .needuptclick');
+                     elUI[_$n[0]]
+                     //
+                     elUI[_$n[0]].parent().on('click', function () {
+
+                         srclocked(true);
+                         hidePOVER();
+                         //
+                         admin$.DEV(function () {
+
+                             newS2_attlog(function () {
+                                 if (!step2_attlog) step2_attlog = new FormWizard.s2log.init(frmEL, stepcodeback, elUI, shareMe);
+                                 elUI.ReadyEMP = function (e) {
+                                     elUI.ReadyEMP = null;
+                                     elUI['showlistLOG'] = 1;
+                                     srclocked(false);
+                                 };
+                                 step2_attlog.grid_attlog();
+                             });
+
+                             srclocked(false);
+                         });
+
+                     });
+
+                 } else if (elUI[_$n[0]].showBack) {
+                     //debugger;
+                     elUI[_$n[0]].popover('show');
+                 };
+
+                 //if (elUI[_$n[2]] && elUI[_$n[2]].data('bs.popover').element.showBack === true) {
+                 //    elUI[_$n[2]].popover('show');
+                 //};
+                 //if (elUI['selEMP_popover'] && elUI['selEMP_popover'].data('bs.popover').element.showBack === true) {
+                 //    elUI['selEMP_popover'].popover('show');
+                 //};
+
+                 if (!elUI[_$n[1]]) {
+                     //
+                     wting.css({ 'display': '', 'position': 'absolute', 'height': '200px' }).removeAttr('id'); divaddto.append(wting);
+                     //
+                     s2_initDATA(a,_$n);
+                 };
+                 //
+             }
+             else if (b.toStep.toString() == '3') {
+                 //
+                 elUI.lockstep(a, true);
+                 //
+                 _gsC(srcpf$ + '/media/js/tikestep_s3.js' + src$id, 'js', function () {//srcpf$ + '/media/js/tikestep_s3.js'
+                     //
+                     var s3_viewBack = function (nutTinhLai) {
+                         elUI['s3calc'].viewBack(elUI, frmEL, function () {
+                             //
+                             elUI.lockstep(a, false);
+                             //
+                         },nutTinhLai);
+                     };
+
+                     if (clickStepCircle == '0') {
+                         //
+                         s3_viewBack(false);
+                         //
+                     } else if (elUI.stepHis.viewBackS3) {
+                         //
+                         s3_viewBack(true);
+                         delete elUI.stepHis.viewBackS3;
+                         //
+                     } else {
+                         if (elUI.stepHis.isTiCo == 1) {
+                             //
+                             if (!elUI.allLOGs && !divaddto.lstORfrm) verifyLOG();// ko anh huong config
+                             //
+                             var TinhCo = function (dog) {
+                                 //
+                                 if (unlockedHWND != -1) srclocked(false);
+                                 //
+                                 if (['mixed', 'true'].indexOf(elUI['selEMP_popover'] && elUI['selEMP_popover'].attr('aria-checked')) > -1) {//vi la select tung trang...
+                                     elUI.allLOGs[1] = elUI.rst_attlog.getSelectedRowKeys();
+                                 } else {
+                                     elUI.allLOGs[1] = null;
+                                 };
+                                 //
+                                 var dogLST;
+                                 if (divaddto.lstORfrm) {
+                                     dogLST = []; dogLST[0] = $.extend(true, [], divaddto.lstORfrm[0]);
+                                     dogLST[1] = elUI.logDAT[elUI['fileinfo'].id][1];
+                                 };
+
+                                 if (dog == 0) {
+                                     elUI['s3calc'].exec.call(['uplog', dogLST, elUI.stepHis.remLOG]//elUI.stepHis.remLOG dung phan biet tinh logsample or logupload
+                                         , elUI, frmEL, function () {//divaddto.lstORfrm
+
+                                         TiCo_Callback(2);
+                                         elUI.lockstep(a, false);
+                                         elUI.stepHis.isTiCo = 0;
+                                         //
+                                         btnClickCauseByLogChanged = -1; //reset
+                                         //
+                                     });
+                                 } else {
+                                     frmEL.find('.kiem-the .btn-tinhlai').trigger('ditinhlai', [['uplog', dogLST, elUI.stepHis.remLOG], {//elUI.stepHis.remLOG dung phan biet tinh logsample or logupload
+                                         //ham blank chua xai
+                                     }]);
+                                 };
+                             };
+                             //
+                             if (!elUI['s3calc']) {
+                                 elUI['s3calc'] = FormWizard.s3calc.createCalc({
+                                     kind: 'noshift'
+                                     , Args: {
+                                         lockStep: function (v) {
+                                             elUI.lockstep(a, v);
+                                         }
+                                         , tinhlaiCHK: function (fn) {
+
+                                             if (elUI['fileinfo'] && elUI['fileinfo'].issave != 1) {
+                                                 //
+                                                 btnClickCauseByLogChanged = function (rst) {// chi la function, va duoc execute khi text log changed
+                                                     //
+                                                     fn(rst);
+                                                     //
+                                                 };
+                                                 //
+                                                 elUI['puSAVELOG'].trigger('click', [{ 'dupmsg': LAN.js_004_15[5]}]);
+                                                //
+                                             } else {
+                                                 //
+                                                 if (elUI.stepHis.remLOG == 1) {//da chay s3 && lai thay doi log thi phai hoi
+                                                     dlgs3(null, null, { 's3':false }).show().done(function (RE) {
+                                                         if (RE == 1) {
+                                                             S3_KQx();
+                                                             fn(RE).trigger('ditinhlai');
+                                                         };
+                                                     });
+                                                 } else {
+                                                     //
+                                                     dlgs3(null, null, { 's3': false, 'b2': LAN.js_004_19[4] }).show().done(function (rst) {
+                                                         if (rst == 1) {
+                                                             //
+                                                             fn(rst);//de cho no lam cac thu tuc re-calc
+                                                             //
+                                                             //test lay lai log truoc khi tinh lai.
+                                                             if (!elUI[_$n[1]]) {
+                                                                 wting.on('adu_loadlog', function (e) {
+                                                                     //alert('heree');
+                                                                     verifyLOG();// ko anh huong config
+                                                                     TinhCo(1); //trigger nut tinh lai
+                                                                     //
+                                                                 });
+                                                                 s2_initDATA(a, _$n);
+                                                             } else {
+                                                                 TinhCo(1); //trigger nut tinh lai
+                                                             };
+                                                         };
+                                                     });
+                                                     //
+                                                 };
+                                             }
+                                         }
+                                         , LAN: LAN
+                                         , stepcodeback: stepcodeback
+                                     }
+                                     , shareMe: shareMe
+                                 });
+                                 //
+                                 TinhCo(0);//call exec
+                                 //
+                             } else {
+                                 //
+                                 TinhCo(1); //trigger nut tinh lai
+                                 //
+                             };
+                             //
+                         } else if (elUI.s3calc) {
+                             s3_viewBack(false);
+                         } else {
+                             elUI.lockstep(a, false);
+                         };
+                     };
+                 }, 'tikestep_s3.js')
+
+             }
+         };
+
+     }
+     //O.prototype.publicSharedVar = 'quux';
+     //O.prototype.publicSharedMethod = function (param) {
+     //    // has access to shared and public vars
+     //    // canonical way for method creation:
+     //    // try to use this as much as possible
+     //};
+
+     return O;
+})();
