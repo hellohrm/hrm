@@ -100,7 +100,7 @@ try {
     ////} else if (window.attachEvent) { // ie8
     ////    window.attachEvent('onmessage', handleMessage);
     ////};
-
+    debugger;
     dIm = window.parent.postMessage;
 
     console.log(new Date().getTime(),window.location.hostname);
