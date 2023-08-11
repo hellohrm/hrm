@@ -5708,7 +5708,7 @@ w0w.tabglobalJS['JS_JS_reglv'] = (function () { // scoping
 
                 loadOPT.vwtyp = elUI.vwtyp;
 
-
+                debugger;
 
                 if (apisvr.review_regis !== undefined && apisvr.review_regis != null) loadOPT['review_regis'] = encodeURIComponent(apisvr.review_regis);//moi them vao encodeURIComponent
 
