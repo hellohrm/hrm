@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Hello-HRM</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimum-scale=1,maximum-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta content="Hello-HRM" name="description" />
+    <meta content="HelloHRM" name="author" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://hrm.dnd.vn/media/images/hello.ico" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <style type="text/css">
+
+h1 {
+  text-align: center;
+}
+
+#reader {
+  width: 500px;
+}
+
+.result {
+  background-color: green;
+  color: #fff;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+#reader__scan_region {
+  background: white;
+}
+
+    </style>
+
+</head>
+<body>
+
+<h1>QR Code Reader using Javascript</h1>
+
+<!-- QR SCANNER CODE BELOW  -->
+<div class="row">
+  <div class="col">
+    <div id="reader"></div>
+  </div>
+  <div class="col" style="padding: 30px">
+    <h4>Scan Result </h4>
+    <div id="result">
+      Result goes here
+    </div>
+  </div>
+
+</div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.2.0/html5-qrcode.min.js'></script>
+      <script id="rendered-js" >
+// When scan is successful fucntion will produce data
+function onScanSuccess(qrCodeMessage) {
+  document.getElementById("result").innerHTML =
+  '<span class="result">' + qrCodeMessage + "</span>";
+}
+
+// When scan is unsuccessful fucntion will produce error message
+function onScanError(errorMessage) {
+  // Handle Scan Error
+}
+
+// Setting up Qr Scanner properties
+var html5QrCodeScanner = new Html5QrcodeScanner("reader", {
+  fps: 10,
+  qrbox: 250 });
+
+
+// in
+html5QrCodeScanner.render(onScanSuccess, onScanError);
+
+    </script>
+
+
+</body>
+</html>
