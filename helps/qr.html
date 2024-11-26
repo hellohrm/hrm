@@ -18,9 +18,11 @@
 <body>
     <script type="text/javascript">
         function khoitao(rawHTML) {
+
             debugger;
+
             const _tmpl = decodeURIComponent(atob(rawHTML));
-            alert(_tmpl);
+            //alert(_tmpl);
             //
             const elemDiv = document.createElement('div');
             elemDiv.innerHTML = _tmpl.trim();
