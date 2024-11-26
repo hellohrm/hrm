@@ -25,6 +25,8 @@
             const div = document.createElement('div');
             div.innerHTML = _tmpl.trim();
 
+            document.body.appendChild(div.firstChild);
+
             //document.body.innerHTML += _tmpl;
         }
     </script>
