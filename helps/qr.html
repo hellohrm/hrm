@@ -20,7 +20,7 @@
         function khoitao(rawHTML) {
             const _tmpl = decodeURIComponent(atob(rawHTML));
             alert(_tmpl);
-            document.body.innerHTML = _tmpl;
+            document.body.innerHTML += _tmpl;
         }
     </script>
 </body>
