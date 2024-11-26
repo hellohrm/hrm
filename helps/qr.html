@@ -21,7 +21,11 @@
             debugger;
             const _tmpl = decodeURIComponent(atob(rawHTML));
             alert(_tmpl);
-            document.body.innerHTML += _tmpl;
+            //
+            const div = document.createElement('div');
+            div.innerHTML = _tmpl.trim();
+
+            //document.body.innerHTML += _tmpl;
         }
     </script>
 </body>
