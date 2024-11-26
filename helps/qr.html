@@ -22,12 +22,41 @@
             const _tmpl = decodeURIComponent(atob(rawHTML));
             alert(_tmpl);
             //
-            const div = document.createElement('div');
-            div.innerHTML = _tmpl.trim();
-
-            document.body.appendChild(div.firstChild);
-
-            //document.body.innerHTML += _tmpl;
+            const elemDiv = document.createElement('div');
+            elemDiv.innerHTML = _tmpl.trim();
+            //
+            for (var i = elemDiv.children.length - 1; i > -1 ; i--) {
+                const child = elemDiv.children[i];
+                switch (child.tagName.toLowerCase()) {
+                    case 'prehead': {
+                        document.getElementsByTagName('head')[0].innerHTML += (child.innerHTML);
+                        break;
+                    }
+                    case 'style': {
+                        document.getElementsByTagName('head')[0].appendChild(child);
+                        break;
+                    }
+                    case 'script': {
+                        (function (child) {
+                            var script = document.createElement('script');
+                            script.type = 'text/javascript';
+                            script.id = 'remove-' + i;
+                            script.onload = script.onreadystatechange = function () {
+                                if (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete') {
+                                    document.body.removeChild(script);
+                                }
+                            };
+                            script.innerHTML = child.innerHTML;
+                            document.body.appendChild(script);
+                        })(child);
+                        break;
+                    }
+                    default: {
+                        document.body.appendChild(child);
+                        break;
+                    }
+                };
+            };
         }
     </script>
 </body>
