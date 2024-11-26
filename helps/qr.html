@@ -16,8 +16,12 @@
 
 </head>
 <body>
-
-
-
+    <script type="text/javascript">
+        function khoitao(rawHTML) {
+            const _tmpl = decodeURIComponent(atob(rawHTML));
+            alert(_tmpl);
+            document.body.innerHTML = _tmpl;
+        }
+    </script>
 </body>
 </html>
