@@ -44,7 +44,7 @@
             const isIPhone = (navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))
             if (isIPhone) {
                 //
-                window.location = 'cutom_scheme://';
+                window.location = 'deeplinkintentexample://';
                 //
                 setTimeout(function () {
                     // if the app is opened, the document won't be focused
@@ -53,6 +53,7 @@
                         window.location = 'https://apps.apple.com/vn/app/hellohrm/id6477359056?l=vi';
                     }
                 }, 1000);
+                //
                 //
             } else {
                 if (location.href.indexOf('hellohrm.pages.dev') == -1) {
