@@ -46,22 +46,24 @@
             if (isIPhone) {
 
 
-
+                //https://stackoverflow.com/questions/13044805/how-can-i-check-if-an-app-is-installed-from-a-web-page-on-an-iphone
                 
                 //https://stackoverflow.com/questions/56528191/how-to-fix-deep-linking-in-ios-when-the-application-has-not-installed-in-the-dev
                 var deeplinkUrl = 'deeplinkintentexample://';//`yourscheme://myurl?param1=x&param2=y`;
 
-                var request = new XMLHttpRequest();
-                request.open('GET', deeplinkUrl, true);
-                request.onreadystatechange = function () {
-                    if (request.readyState === 4) {
-                        if (request.status === 404) {
-                            alert("Oh no, it does not exist!");
-                        }
-                    }
-                };
-                request.send();
-
+                // On click of your event handler...
+                var now = new Date().valueOf();
+                //
+                setTimeout(function () {
+                    if (new Date().valueOf() - now > 100) {
+                        return;
+                    };
+                    var twitterUrl = 'https://apps.apple.com/vn/app/hellohrm/id6477359056?l=vi';
+                    window.open(twitterUrl, '_blank');
+                }, 50);
+                //
+                window.location = deeplinkUrl;
+                //
                 /*
                 //variable will check app installed or not
                 var change = false;
