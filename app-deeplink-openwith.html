@@ -44,8 +44,25 @@
             const isIPhone = (navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))
 
             if (isIPhone) {
+
+
+
+                
                 //https://stackoverflow.com/questions/56528191/how-to-fix-deep-linking-in-ios-when-the-application-has-not-installed-in-the-dev
                 var deeplinkUrl = 'deeplinkintentexample://';//`yourscheme://myurl?param1=x&param2=y`;
+
+                var request = new XMLHttpRequest();
+                request.open('GET', deeplinkUrl, true);
+                request.onreadystatechange = function () {
+                    if (request.readyState === 4) {
+                        if (request.status === 404) {
+                            alert("Oh no, it does not exist!");
+                        }
+                    }
+                };
+                request.send();
+
+                /*
                 //variable will check app installed or not
                 var change = false;
                 setTimeout(() => {
@@ -66,6 +83,7 @@
                     change = false;
                 };
                 //
+                */
             } else {
                 if (location.href.indexOf('hellohrm.pages.dev') == -1) {
                    document.location.href ='https://hellohrm.pages.dev/ol';
