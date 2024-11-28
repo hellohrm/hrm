@@ -55,11 +55,13 @@
                 var now = new Date().valueOf();
                 //
                 setTimeout(function () {
+
                     if (new Date().valueOf() - now > 100) {
                         return;
                     };
-                    var twitterUrl = 'https://apps.apple.com/vn/app/hellohrm/id6477359056?l=vi';
-                    window.open(twitterUrl, '_blank');
+
+                    window.location = 'https://apps.apple.com/vn/app/hellohrm/id6477359056?l=vi';
+
                 }, 50);
                 //
                 window.location = deeplinkUrl;
