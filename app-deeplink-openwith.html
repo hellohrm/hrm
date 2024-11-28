@@ -42,17 +42,16 @@
             //
         } else {
             const isIPhone = (navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))
+
             if (isIPhone) {
                 //
-                window.location = 'deeplinkintentexample://';
+                window.location.replace('deeplinkintentexample://');
                 //
                 setTimeout(function () {
-                    // if the app is opened, the document won't be focused
-                    // so if app is not installed, the document will be focused
                     if (document.hasFocus()) {
-                        window.location = 'https://apps.apple.com/vn/app/hellohrm/id6477359056?l=vi';
-                    }
-                }, 1000);
+                        document.location.href = 'https://apps.apple.com/vn/app/hellohrm/id6477359056?l=vi';
+                    };
+                }, 2000);
                 //
                 //
             } else {
