@@ -44,29 +44,12 @@
             const isIPhone = (navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))
 
             if (isIPhone) {
-
-
+                //
                 //https://stackoverflow.com/questions/13044805/how-can-i-check-if-an-app-is-installed-from-a-web-page-on-an-iphone
                 
                 //https://stackoverflow.com/questions/56528191/how-to-fix-deep-linking-in-ios-when-the-application-has-not-installed-in-the-dev
                 var deeplinkUrl = 'deeplinkintentexample://';//`yourscheme://myurl?param1=x&param2=y`;
-
-                // On click of your event handler...
-                var now = new Date().valueOf();
                 //
-                setTimeout(function () {
-
-                    if (new Date().valueOf() - now > 100) {
-                        return;
-                    };
-
-                    window.location = 'https://apps.apple.com/vn/app/hellohrm/id6477359056?l=vi';
-
-                }, 50);
-                //
-                window.location = deeplinkUrl;
-                //
-                /*
                 //variable will check app installed or not
                 var change = false;
                 setTimeout(() => {
@@ -87,7 +70,6 @@
                     change = false;
                 };
                 //
-                */
             } else {
                 if (location.href.indexOf('hellohrm.pages.dev') == -1) {
                    document.location.href ='https://hellohrm.pages.dev/ol';
