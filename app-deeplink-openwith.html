@@ -44,15 +44,26 @@
             const isIPhone = (navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))
 
             if (isIPhone) {
+                //https://stackoverflow.com/questions/56528191/how-to-fix-deep-linking-in-ios-when-the-application-has-not-installed-in-the-dev
+                var deeplinkUrl = 'deeplinkintentexample://';//`yourscheme://myurl?param1=x&param2=y`;
+                //variable will check app installed or not
+                var change = false;
+                setTimeout(() => {
+                    if (!change) {
+                        var redirectUrl = 'https://apps.apple.com/vn/app/hellohrm/id6477359056?l=vi';
+                        window.location = redirectUrl;
+                    }
+                }, 3000);
                 //
-                window.location.replace('deeplinkintentexample://');
+                window.location = deeplinkUrl;
+                //handle event to check app installed or not
+                window.onblur = function () {
+                    change = true;
+                };
                 //
-                setTimeout(function () {
-                    if (document.hasFocus()) {
-                        document.location.href = 'https://apps.apple.com/vn/app/hellohrm/id6477359056?l=vi';
-                    };
-                }, 2000);
-                //
+                window.onfocus = function () {
+                    change = false;
+                };
                 //
             } else {
                 if (location.href.indexOf('hellohrm.pages.dev') == -1) {
