@@ -20,9 +20,14 @@
         } else {
             const isIPhone = (navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))
             if (isIPhone) {
-                if (location.href.indexOf('apps.apple.com') == -1) {
-                   document.location.href ='https://apps.apple.com/vn/app/hellohrm/id6477359056?l=vi';
-                };
+
+    	 window.location.replace("deeplinkintentexample://?amount=314");
+            	setTimeout(function () {
+
+    		if (location.href.indexOf('apps.apple.com') == -1) {
+                   		document.location.href ='https://apps.apple.com/vn/app/hellohrm/id6477359056?l=vi';
+                	};
+            	}, 2000);
             } else {
                 if (location.href.indexOf('hellohrm.pages.dev') == -1) {
                    document.location.href ='https://hellohrm.pages.dev/ol';
