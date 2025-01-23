@@ -9,7 +9,7 @@
 //dung debug ben android phone 
 
 //*** (CHU Y) **** REM LAI
-window.debuglocal = 1;
+//window.debuglocal = 1;
 
 
 //debugger;
@@ -607,8 +607,8 @@ var ver = '1.03'
             //
             //
             //*** (CHU Y) ****
-            srcpf$ = "http://hellohrm2020.ddns.net:10996"//"https://hrm.dnd.vn"; //"http://192.168.1.91:10996";//
-            srcp$f = "http://hellohrm2020.ddns.net:10996"//'https://hellohrm.github.io/utils'; // "http://192.168.1.91:10996"; 
+            srcpf$ = "https://hrm.dnd.vn"; //"http://hellohrm2020.ddns.net:10996"//"http://192.168.1.91:10996";//
+            srcp$f = 'https://hellohrm.github.io/utils'; //"http://hellohrm2020.ddns.net:10996"// "http://192.168.1.91:10996"; 
             lanjs = 'html';
 
 
