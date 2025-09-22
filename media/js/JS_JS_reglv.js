@@ -5826,6 +5826,7 @@
 
                     ) : "2").done(function (da, frm, _androidChat) {
 
+                        debugger;
                         //
                         elUI.regDAT = { R: [], GOI: [], masREG: [], _cache: {} };
 
