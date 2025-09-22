@@ -5797,6 +5797,8 @@
 
             , LOD_REG_DAT = function (loadOPT, renderUI) {
 
+	debugger;
+
                 loadOPT.vwtyp = elUI.vwtyp;
 
 
